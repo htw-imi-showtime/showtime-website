@@ -1,0 +1,7 @@
+baseURL = "http://localhost:1313/"
+languageCode = "de-de"
+title = "IMI Showtime"
+theme = "showtime"
+
+[params]
+    Author = "Luis Hankel"
