@@ -8,8 +8,7 @@ The official IMI showtime website
   * [Images](#Images)
   * [Videos](#Videos)
   * [GitHub Gists](#GitHub-Gists)
-  * [Vimeo Player](#Vimeo-Player)
-  * [YouTube Player](#YouTube-Player)
+  * [HTW Mediathek Player](#HTW-Mediathek-Player)
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
@@ -116,20 +115,11 @@ Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb
 {{< gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd" >}}
 ```
 
-### Vimeo Player
+### HTW Mediathek Player
 ```handlebars
-{{< vimeo "video_id" >}}
+{{< mediathek id="video_id" width="player_width" height="player_height" >}}
 ```
-Example: Embedding https://vimeo.com/146022717
+Example: Embedding https://mediathek.htw-berlin.de/video/Clean-Code-Presentation-on-Comment/117e5ae717b582bdeac13d95e8fa2264
 ```handlebars
-{{< vimeo "146022717" >}}
-```
-
-### YouTube Player
-```handlebars
-{{< youtube "video_id" >}}
-```
-Example: Embedding https://youtube.com/watch?v=w7Ft2ymGmfc
-```handlebars
-{{< youtube "w7Ft2ymGmfc" >}}
+{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="1280" height="720" >}}
 ```
