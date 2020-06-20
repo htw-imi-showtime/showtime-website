@@ -2,8 +2,6 @@
 title = "B0 Test Projekt"
 card_image = "second.png"
 card_description = "The question of how to provide an awareness of coworkers, colleagues, fellow students and friends in a spatially remote working team has been the subject of research for over 25 years. Namely, there has been a wide array of elaborate setups to provide a sense or even awareness of the remote ones: videoconferencing rooms extending visually to the remote site, telepresence robots or even remote sports and games."
-
-# These properties may be removed if you don't need them
 source_link = "https://github.com/htw-imi-showtime/showtime-website"
 demo_link = "https://htw-imi-showtime.github.io/"
 website_link = "https://htw-imi-showtime.github.io/"
