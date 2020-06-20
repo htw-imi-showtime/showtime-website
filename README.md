@@ -12,18 +12,19 @@ The official IMI showtime website
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
-1. Clone the project:
+1. Fork the project to your GitHub account.
+2. Clone the project:
 ```
-git clone --recurse-submodules https://github.com/htw-imi-showtime/showtime-website.git
+git clone --recurse-submodules https://github.com/<your-account>/showtime-website.git
 cd showtime-website
 ```
 or using SSH:
 ```
-git clone --recurse-submodules git@github.com:htw-imi-showtime/showtime-website.git
+git clone --recurse-submodules git@github.com:<your-account>/showtime-website.git
 cd showtime-website
 ```
 
-2. [Install Hugo](https://gohugo.io/getting-started/installing) from https://gohugo.io \
+3. [Install Hugo](https://gohugo.io/getting-started/installing) from https://gohugo.io \
 You can check your installation by executing `hugo server` and visiting
 http://localhost:1313/ in your browser.
 If you get an error - did you forget to clone the submodules? If so, you can get the theme submodule by running
@@ -31,7 +32,7 @@ If you get an error - did you forget to clone the submodules? If so, you can get
 git submodule init
 git submodule update
 ```
-3. Create a new project file for your project. For adding a bachelor project, use:
+4. Create a new project file for your project. For adding a bachelor project, use:
 ```
 hugo new ss20/bachelor/b#-your-project/_index.md
 ```
@@ -40,21 +41,17 @@ hugo new ss20/master/m#-your-project/_index.md
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-4. Fill out the generated file `content/ss20/<bachelor/master>/##-your-project/_index.md`.
+5. Fill out the generated file `content/ss20/<bachelor/master>/##-your-project/_index.md`.
 You may also create subpages (`page-name.md`) and put images or videos (**less than 100 MB**, please upload larger videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)) in your project's directory.
 For an example on how to include videos, images and GitHub gists or link to subpages, please have a look at the documentation below or the example project in `content/ss20/bachelor/b0-test-projekt`.
-5. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
-6. Create a new branch:
-```
-git checkout -b project-name
-```
+6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
 7. Add your changes to the index, commit them to the repository and push them to GitHub:
 ```
 git add .
 git commit -m "Your commit message"
-git push origin your_branch_name
+git push
 ```
-8. Create a new pull request on GitHub that merges your branch onto the `master` branch.
+8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch.
 
 Once your branch was merged, you may view your project's page on https://htw-imi-showtime.github.io/
 
