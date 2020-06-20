@@ -44,7 +44,7 @@ hugo new ss20/master/m#-your-project/_index.md
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
 5. Fill out the generated file `content/ss20/<bachelor/master>/##-your-project/_index.md`. If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-You may also create subpages (`page-name.md`) and put images or videos (**less than 100 MB**, please upload larger videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)) in your project's directory.
+You may also create subpages (`page-name.md`) and put images or videos in your project's directory (**less than 100 MB per file**, please upload larger videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)).
 For an example on how to include videos, images and GitHub gists or link to subpages, please have a look at the documentation below or the example project in `content/ss20/bachelor/b0-test-projekt`.
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
 7. Add your changes to the index, commit them to the repository and push them to GitHub:
