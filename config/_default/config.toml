@@ -4,4 +4,4 @@ title = "IMI Showtime"
 theme = "showtime"
 
 [params]
-    Author = "Luis Hankel"
+    currentSemester = "ss20"
