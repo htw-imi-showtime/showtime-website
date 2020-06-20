@@ -1,6 +1,8 @@
 # IMI Showtime Website
 The official IMI showtime website
 
+![deploy staging](https://github.com/htw-imi-showtime/showtime-website/workflows/deploy%20staging/badge.svg)
+
 * [Adding a new project](#Adding-a-new-project)
 * [Including additional content](#Including-additional-content)
   * [Subpages](#Subpages)
