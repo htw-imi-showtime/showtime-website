@@ -41,10 +41,11 @@ For an example on how to include videos, images and GitHub gists or link to subp
 ```
 git checkout -b project-name
 ```
-7. Add your changes to the index and commit them to the repository:
+7. Add your changes to the index, commit them to the repository and push them to GitHub:
 ```
 git add .
 git commit -m "Your commit message"
+git push origin your_branch_name
 ```
 8. Create a new pull request on GitHub that merges your branch onto the `master` branch.
 
