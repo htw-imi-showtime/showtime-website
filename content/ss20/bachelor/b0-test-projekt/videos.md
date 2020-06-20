@@ -2,7 +2,7 @@
 title = "Videos"
 +++
 
-[< Zurück](..)
+{{< back >}}
 
 Hier könnten ein paar Videos eingebunden sein :)
 {{< video src="trailer.mp4" >}}

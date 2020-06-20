@@ -2,7 +2,7 @@
 title = "Galerie"
 +++
 
-[< Zurück](..)
+{{< back >}}
 
 {{< image "first.png" "first image" "Hier ist eine Beschreibung :)" >}}
 {{< image "second.png" "second image" >}}

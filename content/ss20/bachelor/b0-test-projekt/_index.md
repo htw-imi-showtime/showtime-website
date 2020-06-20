@@ -7,6 +7,8 @@ demo_link = "https://htw-imi-showtime.github.io/"
 website_link = "https://htw-imi-showtime.github.io/"
 +++
 
+{{< menu >}}
+
 #### Projektbetreuung
 Prof. Barne Kleinen
 
