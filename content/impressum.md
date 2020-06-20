@@ -1,6 +1,5 @@
 +++
 title = "Impressum"
-date = 2020-06-18T17:10:40+02:00
 +++
 
 Diese Seite präsentiert Praxisprojekte der Studiengänge [Internationale Medieninformatik Bachelor](https://imi-bachelor.htw-berlin.de) und [Internationale Medieninformatik Master](https://imi-master.htw-berlin.de) der HTW Berlin und ergänzt diese Webseiten.
