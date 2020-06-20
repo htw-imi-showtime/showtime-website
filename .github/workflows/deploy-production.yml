@@ -24,8 +24,8 @@ jobs:
       uses: appleboy/scp-action@v0.1.1
       with:
         host: kaes3kuch3n.de
-        username: ${{ secrects.SCP_USERNAME }}
-        password: ${{ secrects.SCP_PASSWORD }}
+        username: ${{ secrets.SCP_USERNAME }}
+        password: ${{ secrets.SCP_PASSWORD }}
         target: /home/test
         source: public/
         rm: true
