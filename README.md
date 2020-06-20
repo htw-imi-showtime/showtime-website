@@ -23,7 +23,7 @@ git clone --recurse-submodules git@github.com:htw-imi-showtime/showtime-website.
 cd showtime-website
 ```
 
-2. [Install Hugo](https://gohugo.io/getting-started/installing) from https://gohugo.io
+2. [Install Hugo](https://gohugo.io/getting-started/installing) from https://gohugo.io \
 You can check your installation by executing `hugo server` and visiting
 http://localhost:1313/ in your browser.
 If you get an error - did you forget to clone the submodules? If so, you can get the theme submodule by running
