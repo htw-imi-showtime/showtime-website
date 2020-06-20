@@ -23,7 +23,15 @@ or using SSH:
 git clone --recurse-submodules git@github.com:htw-imi-showtime/showtime-website.git
 cd showtime-website
 ```
+
 2. [Install Hugo](https://gohugo.io/getting-started/installing) from https://gohugo.io
+You can check your installation by executing `hugo server` and visiting
+http://localhost:1313/ in your browser.
+If you get an error - did you forget to clone the submodules?
+
+    git submodule init
+    git submodule update
+    
 3. Create a new project file for your project. For adding a bachelor project, use:
 ```
 hugo new ss20/bachelor/b#-your-project/_index.md
