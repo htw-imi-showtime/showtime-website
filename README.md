@@ -7,6 +7,7 @@ The official IMI showtime website
 * [Including additional content](#Including-additional-content)
   * [Subpages](#Subpages)
     * [Linking to subpages](#Linking-to-subpages)
+    * [Project Page Menu](#Project-Page-Menu)
   * [Images](#Images)
   * [Videos](#Videos)
   * [GitHub Gists](#GitHub-Gists)
@@ -78,10 +79,21 @@ Some more text explaining what you did and why ...
 ```
 
 #### Linking to subpages
-If you added additional markdown files to your project directory, you may link to them using regular markdown links. You can simply use the name of the file to link the pageit represents. To link back to your main page, you can use `..`.
+If you added additional markdown files to your project directory, you may link to them using regular markdown links. You can simply use the name of the file to link the page it represents.
 ```markdown
 [Gallery](gallery)
-[Back](..)
+```
+
+#### Project Page Menu
+If you want to generate a menu including all your subpages, you can simply add this to your `_index.md` file:
+```
+{{< menu >}}
+```
+This will generate a simple list of all the subpages in your project directory.
+
+To generate a back button on your subpage that links back to your main page, you can add this to your markdown file:
+```
+{{< back >}}
 ```
 
 ### Images
