@@ -60,6 +60,11 @@ git push
 Once your branch was merged, you may view your project's page on https://htw-imi-showtime.github.io/
 
 ## Including additional content
+In addition to the required content you can add any content you want - at least this term (SoSe2020) this site
+replaces the Showtime Fair with the booths and posters. Please consider
+- the Urheberrecht for all material you provide: Include the information (source, creator etc.) in the caption
+- please reduce the file sizes for all images and videos that are included in the site  
+
 ### Subpages
 You may create subpages for your project by adding additional `.md` files to your project directory. **These additional pages need to have the following file header, otherwise they won't be included in the built website:**
 ```toml
