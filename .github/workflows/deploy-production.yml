@@ -21,4 +21,11 @@ jobs:
       run: hugo --minify -e production
 
     - name: Deploy
-      run: scp -r public ${{ secrets.SCP_USERNAME }}@kaes3kuch3n.de:/home/test/public
+      uses: appleboy/scp-action@v0.1.1
+      with:
+        host: <host>
+        username: ${{ secrets.SCP_USERNAME }}
+        password: ${{ secrets.SCP_PASSWORD }}
+        target: upload/path/
+        source: public/
+        rm: true
