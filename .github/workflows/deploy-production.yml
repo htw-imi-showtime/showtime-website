@@ -26,6 +26,6 @@ jobs:
         host: kaes3kuch3n.de
         username: ${{ secrets.SCP_USERNAME }}
         password: ${{ secrets.SCP_PASSWORD }}
-        target: /home/test
+        target: /home/test/public
         source: public/
         rm: true
