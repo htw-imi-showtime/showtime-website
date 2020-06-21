@@ -28,4 +28,3 @@ jobs:
         password: ${{ secrets.SCP_PASSWORD }}
         target: /home/test/public/
         source: public/
-        rm: true
