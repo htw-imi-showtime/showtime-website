@@ -63,7 +63,7 @@ Once your branch was merged, you may view your project's page on https://htw-imi
 In addition to the required content you can add any content you want - at least this term (SoSe2020) this site
 replaces the Showtime Fair with the booths and posters. Please consider
 - the Urheberrecht for all material you provide: Include the information (source, creator etc.) in the caption
-- please reduce the file sizes for all images and videos that are included in the site  
+- please reduce the file sizes for all images and videos that are included in the site
 
 ### Subpages
 You may create subpages for your project by adding additional `.md` files to your project directory. **These additional pages need to have the following file header, otherwise they won't be included in the built website:**
@@ -104,12 +104,17 @@ To generate a back button on your subpage that links back to your main page, you
 
 ### Images
 Note that the description parameter is optional and may be left out for disabling the caption.
+If you want to use the optional width parameter, you may also leave the description empty by setting it to an empty string.
 ```handlebars
-{{< image src="filename.type" alt="Alt text for image" description="The image's description" >}}
+{{< image src="filename.type" alt="Alt text for image" description="The image's description" width="the width in pixels" >}}
 ```
 Example: Including `image.png` with "Alt text" as alt text and "Is displayed below the image" as description.
 ```handlebars
 {{< image src="image.png" alt="Alt text" description="Is displayed below the image" >}}
+```
+Example: Including `image.png` with "Alt text" as alt text, no description and a width of 300px:
+```handlebars
+{{< image src="image.png" alt="Alt text" description="" width="300" >}}
 ```
 
 ### Videos
