@@ -2,8 +2,8 @@
 title = "B4 Energy Matters"
 
 # Properties for displaying the project's card in the overview
-card_image = "image.png"
-card_description = "An interactive audio visual installation"
+card_image = "abbildung_1.jpg"
+card_description = "Die interaktive audio-visuelle Installation unter dem Titel 'Energy Matters' behandelt das Thema 'Der Mensch als Energie'. Innerhalb der Installation soll den Besuchern ein möglichst immersives Erlebnis dargeboten werden, indem sie selbst als Akteure der Installation agieren können."
 
 # These properties may be removed if you don't need them
 
@@ -81,14 +81,17 @@ Die oben dargestellten Cluster unterteilen die Begriffe in 3
 verschiedene Oberkategorien, die jeweils unterschiedliche Spektren von Energien abdecken: Die menschliche Energie, die soziale Energie und die physikalische Energie. Die menschliche Energie thematisiert daher Begriffe mit persönlichem, individuellem Bezug. Die soziale Energie repräsentiert gesellschaftliche Begriffe. Die physikalische Energie bildet allumfassende physikalische Gesetzmäßigkeiten ab. Die jeweiligen Begriffe verkörpern Wirkkräfte, die Menschen dazu bewegen können, etwas Mögliches in etwas Reales zu überführen - gleichzeitig bilden diese Begriffe auch konkrete Beispiele für Dinge ab, die Menschen in Kollaboration mit anderen Menschen transformieren bzw. generieren können. Als zentrale Erkenntnis der Diskussionen, des Clusterns der Begriffe und der anschließenden Analyse derer, lässt sich folgende Aussage treffen: Der Mensch, steht mit seinen individuellen Bedürfnissen im Mittelpunkt. Er verkörpert eine Energie und kann diese Nutzen, um diese Energien in andere Energieformen zu transformieren. Sobald jedoch mehrere Menschen, also mehrere Energien, zusammenkommen, entsteht Gesellschaft. Durch die damit einhergehenden Synergie-Effekte im Bezug auf die Energien, können sogar physikalische Energien umgewandelt oder "transformatiert" werden. Der Mensch selbst ist also eine Metapher für Energie.
 
 ### Realisierung
+
 Sofern das Konzept in der vorgesehen Form überzeugt und eine analoge Realisierung geplant sein sollte, müssen einige Aspekte im Bezug zur Technik geklärt werden: Grundlegend für dieses Konzept sind Kameras für das Tracking der Besucher, eine Visualisierung mittels generativer Gestaltung, lokal ausgegebener Sounds unter Nutzung des Transformators und Audio-Content zur
 Vermittlung des Transformationsprozess'.
 
 {{< image src="abbildung_3.jpg" width="450" alt="Skizze für technische Umsetzung" description="Potenzielle technische Umsetzung" >}}
 
 ### Tracking
+
 Zur Nutzung von ortsbezogenen Informationen der Besucher, werden Kameras genutzt. Hierbei werden, je nach Situation vor Ort (Höhe der Halle, Befestigungmöglichkeiten, Auflösung der Kameras) bis zu 3 Kameras an der Deckenkonstruktion der Halle installiert. Durch überblenden der Kameraströme und Feature Tracking, werden die einzelnen Positionen und Bewegungsmuster der Besucher zu gewonnen. Diese Daten sind die Basis für die generierung der Visualisierung und der Manipulation des Sounds.
 
 ### Visualisierung
+
 Zum gegenwärtigen Zeitpunkt wurde angedacht die Visualisierung auf die zusammengesetzen Paneele zu projizieren. Dazu werden 3 Projektoren miteinander "gestitched", um eine 17 Meter lange Projektion zu ermöglichen. Für die generative Gestaltung wird die Library P5.JS verwendet. Diese weist eine umfangreiche Dokumentation auf und ist trotz seiner Größe sehr performant. Darüberhinaus hat das Projektteam bereits Vorerfahrung mit P5.JS und der
 hier genutzten Programmiersprache JavaScript.
