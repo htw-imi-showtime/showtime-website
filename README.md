@@ -55,7 +55,7 @@ git add .
 git commit -m "Your commit message"
 git push
 ```
-8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch.
+8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
 Once your branch was merged, you may view your project's page on https://htw-imi-showtime.github.io/
 
