@@ -2,8 +2,6 @@
 title = "Future Features"
 +++
 
-# Future Features
-
 ### So, what's next?
 
 

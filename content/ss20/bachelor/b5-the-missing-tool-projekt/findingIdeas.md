@@ -1,9 +1,6 @@
 +++
-title = "Exploring"
+title = "Finding Ideas & Exploring options"
 +++
-
-
-# Finding Ideas & Exploring options
 
 ### Creative minds trying to find a clear vision
 In the beginning of our project, we didn't have a clear product vision yet. We had many ideas in mind, from designing little telepresence games like "Who Am I?", a flexible poll tool up to an online-tutoring platform for students.

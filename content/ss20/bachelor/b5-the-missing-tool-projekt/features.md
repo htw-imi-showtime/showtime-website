@@ -2,8 +2,6 @@
 title = "Features"
 +++
 
-#Features
-
 ### Show me your cards!
 
 

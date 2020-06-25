@@ -2,8 +2,6 @@
 title = "Product Vision"
 +++
 
-# Product Vision
-
 ### Group projects in no time ...
 
 After several weeks of defining and shaping our ideas, we came up with our final vision: A tool that makes it possible for students to brainstorm ideas on notes that can be used on a digital whiteboard, to communicate in real-time about the delevoped ideas and to easily form new sub-groups without the trouble of joining new breakout-rooms. 

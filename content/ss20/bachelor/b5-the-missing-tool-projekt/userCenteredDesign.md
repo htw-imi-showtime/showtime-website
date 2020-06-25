@@ -1,8 +1,6 @@
 +++
-title = " User-Centered Design"
+title = "Our Focus: User-Centered Design"
 +++
-
-# Our Focus: User-Centered Design
 
 ### Whatever you need, whenever you need it
 

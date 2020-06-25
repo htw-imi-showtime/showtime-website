@@ -2,8 +2,6 @@
 title = "Tech Stack"
 +++
 
-# Tech Stack
-
 ### Lightweight & Extremely Powerful
 
 Node.js, MongoDB, Docker, Travis, Socket.io, Git, JS
