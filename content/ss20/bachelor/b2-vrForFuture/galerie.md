@@ -4,5 +4,6 @@ title = "Galerie"
 
 {{< back >}}
 
-{{< image "second.png" "second image" >}}
-{{< image "third.png" "third image" >}}
+{{< image "image1.png" "low poly camp" >}}
+{{< image "image2.png" "low poly mountian" >}}
+{{< image "image3.png" "low poly cave-entrance" >}}
