@@ -3,7 +3,7 @@ title = "B1 Hexarcade"
 
 # Properties for displaying the project's card in the overview
 card_image = "image.png"
-card_description = "One or two sentences describing your project"
+card_description = "HexArcade ist eine Anwendung, um spielerisch die Konzentration und Motorik zu trainieren"
 
 # These properties may be removed if you don't need them
 source_link = "https://www.google.com"
