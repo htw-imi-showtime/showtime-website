@@ -4,4 +4,4 @@ title = "IMI Showtime"
 theme = "showtime"
 
 [params]
-    currentSemester = "ss20"
+    current_semester = "ss20"
