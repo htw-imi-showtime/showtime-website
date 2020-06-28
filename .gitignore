@@ -5,3 +5,6 @@ Thumbs.db
 # Hugo
 /public/
 /resources/_gen/
+
+# Ignore Idea
+.idea/

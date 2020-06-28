@@ -73,7 +73,7 @@ git merge upstream/master
 To update the theme submodule, do run
  
 ```
-git submodule update --recursive
+git submodule update
 ```
 
 ## Including additional content
