@@ -59,6 +59,23 @@ git push
 
 Once your branch was merged, you may view your project's page on https://htw-imi-showtime.github.io/
 
+## Updating your Fork 
+
+To get the updates on the central repository into your fork, do the following: 
+(see [Github on Syncing a Fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+)
+```
+git remote add upstream git@github.com:htw-imi-showtime/showtime-website.git
+git fetch upstream
+git merge upstream/master
+```
+
+To update the theme submodule, do run
+ 
+```
+git submodule update --recursive
+```
+
 ## Including additional content
 In addition to the required content you can add any content you want - at least this term (SoSe2020) this site
 replaces the Showtime Fair with the booths and posters. Please consider
