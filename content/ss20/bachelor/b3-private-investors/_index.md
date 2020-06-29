@@ -38,7 +38,7 @@ Unser Projekt basiert auf der Webversion eines Privatinvestoren Portals von Immo
 
 Wir bieten eine komfortable, mobile Anwendung für private Immobilieninvestoren. Unser Produkt hilft Investoren aller Fachrichtungen und Professionalitätslevels, durch eine intuitive und selbsterklärende Oberfläche und integriertem Risikomanagement, die richtige Investitionsentscheidung zu treffen.
 
-{{< mediathek id="2b743ba859bd5191c23302363ecdee47" width="720" height="405" >}}
+{{< mediathek id="2f438b8a6ffd70954163e63f26959669" width="720" height="405" >}}
 
 ## Weitere Inhalte
 
