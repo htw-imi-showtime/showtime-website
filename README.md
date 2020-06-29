@@ -10,8 +10,8 @@ The official IMI showtime website
     * [Project Page Menu](#Project-Page-Menu)
   * [Images](#Images)
   * [Videos](#Videos)
-  * [GitHub Gists](#GitHub-Gists)
   * [HTW Mediathek Player](#HTW-Mediathek-Player)
+  * [GitHub Gists](#GitHub-Gists)
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
@@ -102,7 +102,7 @@ Some more text explaining what you did and why ...
 ```
 
 #### Linking to subpages
-If you added additional markdown files to your project directory, you may link to them using regular markdown links. You can simply use the name of the file to link the page it represents.
+If you added additional markdown files to your project directory, you may link to them using regular markdown links. You can simply use the name of the file (all lowercase) to link to the page it represents.
 ```markdown
 [Gallery](gallery)
 ```
@@ -135,12 +135,15 @@ Example: Including `image.png` with "Alt text" as alt text, no description and a
 ```
 
 ### Videos
+Please upload your videos to the HTW Mediathek and embed them using the [Mediathek Player](#HTW-Mediathek-Player). Please DO NOT embed YouTube-Videos into your project pages (The YouTube video player doesn't conform to/is not covered in our privacy policy).
+
+### HTW Mediathek Player
 ```handlebars
-{{< video src="filename.type" >}}
+{{< mediathek id="video_id" width="player_width" height="player_height" >}}
 ```
-Example: Including `trailer.mp4`
+Example: Embedding https://mediathek.htw-berlin.de/video/Clean-Code-Presentation-on-Comment/117e5ae717b582bdeac13d95e8fa2264
 ```handlebars
-{{< video src="trailer.mp4" >}}
+{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="1280" height="720" >}}
 ```
 
 ### GitHub Gists
@@ -150,13 +153,4 @@ Example: Including `trailer.mp4`
 Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb180cfbd
 ```handlebars
 {{< gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd" >}}
-```
-
-### HTW Mediathek Player
-```handlebars
-{{< mediathek id="video_id" width="player_width" height="player_height" >}}
-```
-Example: Embedding https://mediathek.htw-berlin.de/video/Clean-Code-Presentation-on-Comment/117e5ae717b582bdeac13d95e8fa2264
-```handlebars
-{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="1280" height="720" >}}
 ```
