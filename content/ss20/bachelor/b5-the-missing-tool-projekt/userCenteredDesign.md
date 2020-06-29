@@ -14,7 +14,7 @@ Another use case is that the professor asks the students to split in groups base
 
 ### Less is more
 
-We put our focus on a great user experience and less on fancy features that most likely won't get used frequently. That's why we shaped our tool to the point where we can say that it is actually fun working with it! 
+We put our focus on a great user experience and less on fancy features that most likely won't get used frequently. That's why we shaped our tool to the point where we can say that it is actually fun working with it!
 
 ### Usability Tests
 
@@ -22,4 +22,4 @@ To achieve a great experience for our users we did two iterations of Usability T
 
 
 Do you fancy to find out about the Tech Stack we used in our project? Feel free to read on:
-[Tech Stack](techStack)
+[Tech Stack](../techstack)

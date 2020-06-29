@@ -7,4 +7,4 @@ title = "Future Features"
 
 
 Read on:
-[Tech Stack](techStack)
+[Tech Stack](../techstack)

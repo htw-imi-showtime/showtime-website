@@ -6,7 +6,7 @@ title = "Features"
 
 
 Read on:
-[Our Focus](userCenteredDesign)
+[Our Focus](../usercentereddesign)
 
 
 Paste Screenshots with description text here

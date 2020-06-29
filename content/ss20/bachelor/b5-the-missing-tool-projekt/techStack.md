@@ -12,4 +12,4 @@ schöne Icons etc
 
 
 Read on:
-[Future Features](futureFeatures)
+[Future Features](../futurefeatures)

@@ -30,9 +30,9 @@ Difficult times require creative solutions: That has become even more important 
 
 ### Further Reading:
 
-1. [Finding Ideas & Exploring options](findingIdeas)
-2. [Product Vision](productVision)
+1. [Finding Ideas & Exploring options](findingideas)
+2. [Product Vision](productvision)
 3. [Features](features)
-4. [Our Focus: User Centered Design](userCenteredDesign)
-5. [Tech Stack](techStack)
-6. [Future Features](futureFeatures)
+4. [Our Focus: User Centered Design](usercentereddesign)
+5. [Tech Stack](techstack)
+6. [Future Features](futurefeatures)
