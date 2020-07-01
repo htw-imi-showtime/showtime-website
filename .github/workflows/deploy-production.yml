@@ -23,9 +23,10 @@ jobs:
     - name: Deploy
       uses: appleboy/scp-action@v0.1.1
       with:
-        host: <host>
+        host: ${{ secrets.SCP_HOST }}
         username: ${{ secrets.SCP_USERNAME }}
-        password: ${{ secrets.SCP_PASSWORD }}
-        target: upload/path/
+        key: ${{ secrets.SCP_KEY }}
+        passphrase: ${{ secrets.SCP_PASSPHRASE }}
         source: public/
+        target: /path/to/upload/dir
         rm: true
