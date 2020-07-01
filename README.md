@@ -4,6 +4,7 @@ The official IMI showtime website
 ![deploy staging](https://github.com/htw-imi-showtime/showtime-website/workflows/deploy%20staging/badge.svg)
 
 * [Adding a new project](#Adding-a-new-project)
+* [Updating your Fork](#Updating-your-Fork)
 * [Including additional content](#Including-additional-content)
   * [Subpages](#Subpages)
     * [Linking to subpages](#Linking-to-subpages)
