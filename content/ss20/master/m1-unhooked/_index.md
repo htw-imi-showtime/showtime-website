@@ -10,22 +10,26 @@ source_link = "https://gl-imi.f4.htw-berlin.de/s0551374/elearning-unit"
 demo_link = "https://unhookedapp.herokuapp.com/"
 +++
 
-#### Projektbetreuung
+#### Project supervisor
+
 Prof. Dr. Debora Weber-Wulff
 
-#### Teilnehmende
+#### Team
 - Katrina Rizakova
 - Kevin Wrede
 - Philipp Wahle
 - Vivian Zaddach
 
-## Beschreibung
+## Description
 
-Why do mobile applications make you cost us so much time? Why do we spend every free minute on our smartphone? How do we find this applicatios so tempting that every time the smartphone flashes, we pick it up and leave everything else behind and then when we look at the smartphone we forget everything around us.
+Why do mobile applications make cost us so much time? Why do we spend every free minute on our smartphones? Why do we find these applications so tempting that every time the smartphone flashes, we pick it up and leave everything else behind. Then we get engrossed with the smartphone and we forget everything around us.
 
-Why can applications and social media applicastions do something that can cast a spell on us?
+Why can applications and social media applications do something that seems to cast a spell on us?
 
-We wanted to develop a mobile web e-learning application that addresses exactly these points and explains these mechanisims. “unhooked” was born.
+We have developed a mobile web e-learning application that addresses exactly these points and explains these mechanisms.
+
+
+It's "unhooked" !
 
 ## Bilder
 
