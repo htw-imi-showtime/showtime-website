@@ -1,7 +1,8 @@
 +++
-title = "M3 Mobile Image Organization"
-card_image = "image.png"
+title = "M3 phoion"
+card_image = "card_image.png"
 card_description = "Auf vielen mobilen Geräten findet sich eine Vielzahl von sehr ähnlichen und qualitiv unzureichende Bildern, die nur selten aussortiert werden.  Mit dieser App wird das Finden und Aussortieren von solchen vereinfacht.  Durch Klassifizierung und Sortierung wird die Organisation deiner Bilder kinderleicht."
+source_link = "https://github.com/m-glock/Deep-Learning-Image-Organization"
 +++
 
 {{< image src="header.png" alt="header" width="1000" >}}
@@ -18,7 +19,7 @@ Konstantin Schall
 
 
 ## Beschreibung
-Egal ob Selfie, Momentaufnahme oder Landschaftsfoto gelingt ein zufriedenstellendes Ergebnis nur selten beim ersten Versuch mit der Handykamera. Folglich enthalten viele Bildsammlungen auf mobilen Geräten eine Vielzahl von sehr ähnlichen Bildern, die nur selten aussortiert werden.
+Egal ob Selfie, Momentaufnahme oder Landschaftsfoto ein zufriedenstellendes Ergebnis gelingt nur selten beim ersten Versuch mit der Handykamera. Folglich enthalten viele Bildsammlungen auf mobilen Geräten eine Vielzahl von sehr ähnlichen Bildern, die nur selten aussortiert werden.
 
 Das Ziel des Projekts ist es eine App zu entwickeln, die das Aufräumen und Organisieren von Handyfotos vereinfacht. Mit der App können ähnliche, zu helle oder zu dunkle und verschwommene Bilder ausfindig gemacht werden. Diese können direkt miteinander verglichen werden, um zu entscheiden, welche der User behalten möchte und welche nicht. Außerdem ermöglichen Tags und Metadaten der Bilder, diese einfach zu gruppieren und danach zu suchen.
 
@@ -46,31 +47,28 @@ Durch Gruppierung und Sortierung der Bildersamlung nach  Datum, Ort oder Kategor
 
 ### TensorFlow
 
-#### Was ist TensorFlow?
-
+### Was ist TensorFlow?
 TensorFlow ist eine Open-Source Machine Learning Bibliothek von Google, welche unter anderem für Produkte wie Googles Maps, Gmail, Spracherkennung und die Suche selbst verwendet wird.
 
-Mit dieser Bibliothek ist es möglich Modelle zu bauen und zu trainieren, welche unter anderem zur Erkennung von Bildern und Audios verwendet werden kann.
-
+Mit dieser Bibliothek ist es möglich Modelle zu bauen und zu trainieren, welche unter anderem zur Erkennung von Bildern und Audios verwendet werden können.
 Hierbei werden verschiedene Sprachen wie Java, Python und C++ unterstützt.
 
-TensorFlow arbeitet mit einem Graphen in welchem die Kanten sogenannte Tensoren sind, die n-dimensionales Datenarrays darstellen. Die Knoten wiederum beschriebene mathematische Operationen, die Inputs von den Kanten erhalten und Outputs zurückgeben. Die Berechnungen passieren hierbei für die bestmögliche Performance in C++.
+TensorFlow arbeitet mit einem Graphen in welchem die Kanten sogenannte Tensoren sind, die n-dimensionale Datenarrays darstellen. Die Knoten wiederum beschreiben mathematische Operationen, die Inputs von den Kanten erhalten und Outputs zurückgeben. Die Berechnungen passieren hierbei für die bestmögliche Performance in C++.
 
-Ein Vorteil von TensorFlow ist das einfache Erstellen von Modellen, die entweder mit wenigen Zeilen Python Code, oder auch hierfür dedizierten Plattformen mit GUIs wie Microsofts Azure oder Google Teachable Machine, umgesetzt werden können. Wir arbeiteten mit Teachable Machine. Außerdem bietet die Bibliothek eine große Community mit vielen bereits verwendbaren Modellen.
+Ein Vorteil von TensorFlow ist das einfache Erstellen von Modellen, die entweder mit wenigen Zeilen Python-Code, oder auch mit hierfür dedizierten Plattformen mit GUIs wie Microsofts Azure oder Googles Teachable Machine, umgesetzt werden können. Wir arbeiteten mit Teachable Machine. Außerdem hat TensorFlow eine große Community mit vielen bereits verwendbaren Modellen.
 
-Für die Definition eigener Modelle eine wird zudem eine Abstraktion geboten, die kein manuelles Verbinden von Inputs und Outputs mehr erfordert und bereits existierenden Algorithmen zum Arbeiten bietet.
+Für die Definition eigener Modelle wird zudem eine Abstraktion geboten, die kein manuelles Verbinden von Inputs und Outputs mehr erfordert und bereits existierende Algorithmen zum Arbeiten bietet.
 
-#### TensorFlow Lite
-
+### TensorFlow Lite
 Da wir eine mobile Applikation entwickeln, verwenden wir TensorFlow Lite. Dieses konvertiert existierende Modelle in optimierte, effizientere Versionen unter Berücksichtigung der geringeren Performance und des geringen Speicherplatzes von Smartphones.
-Lite kann fernern auch mit IoT-Geräten und Raspberry Pis verwendet werden.
-Der größte Vorteil für uns ist, dass Lite lokal und somit offline funktionieren kann. Alternativ kann man bei Bedarf jedoch auch mit Modellen in der Cloud arbeiten.
+Lite kann ferner auch mit IoT-Geräten und Raspberry Pis verwendet werden.
 
-#### Verwendung in der App
+Der größte Vorteil für uns ist, dass Lite lokal und somit offline funktionieren kann. Alternativ kann bei Bedarf jedoch auch mit Modellen in der Cloud gearbeitet werden.
 
-Für unser Projekt haben wir zum einen ein vor trainiertes Mobilenet-Modell verwendet, welches in übergebenen Bildern Objekte aus 1001 Kategorien erkennen und diesen einen Faktor zuweisen kann. Dieses Modell haben wir manuell erweitert, damit dieses zusätzlich sogenannte Feature Vektoren zurückgibt. Dies ermöglicht und das Vergleichen verschiedener Bilder für unsere Ähnlichkeitssuche.
+### Verwendung in der App
+Für unser Projekt haben wir ein vortrainiertes Mobilenet-Modell verwendet, welches in übergebenen Bildern Objekte aus 1001 Kategorien erkennen und diesen einen Faktor zuweisen kann. Dieses Modell haben wir manuell erweitert, damit dieses zusätzlich sogenannte Feature Vektoren zurückgibt. Dies ermöglicht und das Vergleichen verschiedener Bilder für unsere Ähnlichkeitssuche.
 
-Zum anderen trainierten wir selbst ein Modell mit einem Set an verschwommenen und nicht verschwommenen Bildern, welches parallel zum ersten Modell zum Klassifizieren entsprechender Bilder verwendet wird.
+Außerdem trainierten wir selbst ein Modell mit einem Set an verschwommenen und nicht verschwommenen Bildern, welches parallel zum ersten Modell für das Klassifizieren von Bildern verwendet wird.
 
 Die Modelle werden hierbei mit der App installiert und sind folglich offline verwendbar.
 
