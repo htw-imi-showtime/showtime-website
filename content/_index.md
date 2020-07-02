@@ -1,9 +1,8 @@
 +++
 +++
 
-### 17.07.2020 ab 10:00 Uhr
-
 # IMI - Showtime!
+### 17.07.2020 ab 10:00 Uhr
 Das heißt vielfältige Projekte, spannende Vorträge und Ausprobieren, was die Studierenden im vergangenen Semester erarbeitet haben.
 Auch im durch Corona eingeschränkten Sommersemester 2020 haben sowohl Bachelor- als auch Masterstudierende intensiv an ihren Projekten gearbeitet, und freuen sich darauf, ihre Ergebnisse auf der Showtime präsentieren zu können.
 
@@ -15,9 +14,10 @@ Näheres über die jeweils 5 Bachelor- und Masterprojekte findet sich auf den ei
 Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonstige interessierte Gäste sind herzlich eingeladen!
 
 ## Vortragsplan
-#### Vormittags
+17.07.2020 ab 10:00 Uhr
+#### Vormittags (10:00 - 12:30)
 {{< table-container >}}
-||[Session 1](#session-1)|[Session 2](#session-2)|[Session 3](#session-3)|[Session 4](#session-4)|
+||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
 |---|---|---|---|---|
 |10:00 - 10:05|Begrüßung|Begrüßung|---|---|
 |10:05 - 10:25|B-A|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|---|---|
@@ -28,9 +28,9 @@ Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonsti
 |12:10 - 12:30|---|---|B-E|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|
 {{</ table-container >}}
 
-#### Nachmittags
+#### Nachmittags (13:00 - 15:30)
 {{< table-container >}}
-||[Session 1](#session-1)|[Session 2](#session-2)|[Session 3](#session-3)|[Session 4](#session-4)|
+||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
 |---|---|---|---|---|
 |13:00 - 13:05|Begrüßung|Begrüßung|---|---|
 |13:05 - 13:25|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B-A|---|---|
@@ -44,20 +44,9 @@ Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonsti
 **Notenkonferenz: 15:15 - 16:00**
 
 ## Räume
-#### Session 1
-Zoom - Prof. Dr. Barne Kleinen\
-[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)
-
-#### Session 2
-Zoom - Prof. Dr. Debora Weber-Wulff\
-[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)
-
-#### Session 3 - Erweitertes Q&A aus Session 1
-Big Blue Button 1\
-[&rightarrow; Raum beitreten](https://join.rz.htw-berlin.de/bbb/chr-a4c-uaa)
-
-#### Session 4 - Erweitertes Q&A aus Session 2
-Big Blue Button 2\
-[&rightarrow; Raum beitreten](https://join.rz.htw-berlin.de/bbb/chr-94v-rua)
-
-## Projekte
+{{< table-container >}}
+||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
+|---|---|---|---|---|
+|Raum|Zoom -- Prof. Dr. Barne Kleinen|Zoom -- Prof. Dr. Debora Weber-Wulff|Big Blue Button 1|Big Blue Button 2|
+|Link|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)|[&rightarrow; Raum beitreten](https://join.rz.htw-berlin.de/bbb/chr-a4c-uaa)|[&rightarrow; Raum beitreten](https://join.rz.htw-berlin.de/bbb/chr-94v-rua)|
+{{</ table-container >}}
