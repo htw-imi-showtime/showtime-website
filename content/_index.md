@@ -45,11 +45,11 @@ Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonsti
 
 ## Räume
 #### Session 1
-Zoom - Barne Kleinen\
+Zoom - Prof. Dr. Barne Kleinen\
 [&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)
 
 #### Session 2
-Zoom - Debora Weber-Wulff\
+Zoom - Prof. Dr. Debora Weber-Wulff\
 [&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)
 
 #### Session 3 - Erweitertes Q&A aus Session 1
