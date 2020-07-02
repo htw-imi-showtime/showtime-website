@@ -5,3 +5,8 @@ theme = "showtime"
 
 [params]
     current_semester = "ss20"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
