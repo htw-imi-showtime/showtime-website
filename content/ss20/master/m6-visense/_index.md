@@ -26,7 +26,7 @@ Vi-Sense is a project that visualizes data of heating systems in a 3D model of t
 {{< image src="vi-sense-screenshot.png" alt="Vi-Sense application" width="1600" >}}
 
 ### Preview
-{{< youtube KTYCS6TeKeQ >}}
+{{< mediathek id="2e03a72368b8c66d5cbaa99809a13e3c" width="1280" height="720" >}}
 
 ### Presentation / Showcase
 coming soon
