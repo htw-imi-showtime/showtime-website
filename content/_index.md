@@ -20,12 +20,12 @@ Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonsti
 ||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
 |---|---|---|---|---|
 |10:00 - 10:05|Begrüßung|Begrüßung|---|---|
-|10:05 - 10:25|B-A|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|---|---|
-|10:30 - 10:50|B-B|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|B-A|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|
-|10:55 - 11:15|B-C|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B-B|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|
-|11:20 - 11:40|B-D|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|B-C|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|
-|11:45 - 12:05|B-E|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|B-D|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|
-|12:10 - 12:30|---|---|B-E|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|
+|10:05 - 10:25|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|---|---|
+|10:30 - 10:50|B2 VR For Future<br>[&rightarrow; Zum Projekt](ss20/bachelor/b2-vrforfuture)|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|
+|10:55 - 11:15|B3 Private Investors<br>[&rightarrow; Zum Projekt](ss20/bachelor/b3-private-investors)|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B2 VR For Future<br>[&rightarrow; Zum Projekt](ss20/bachelor/b2-vrforfuture)|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|
+|11:20 - 11:40|B4 Energy Matters<br>[&rightarrow; Zum Projekt](ss20/bachelor/b4-energy-matters)|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|B3 Private Investors<br>[&rightarrow; Zum Projekt](ss20/bachelor/b3-private-investors)|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|
+|11:45 - 12:05|B5 The Missing Tool<br>[&rightarrow; Zum Projekt](ss20/bachelor/b5-the-missing-tool-projekt)|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|B4 Energy Matters<br>[&rightarrow; Zum Projekt](ss20/bachelor/b4-energy-matters)|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|
+|12:10 - 12:30|---|---|B5 The Missing Tool<br>[&rightarrow; Zum Projekt](ss20/bachelor/b5-the-missing-tool-projekt)|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|
 {{</ table-container >}}
 
 #### Nachmittags (13:00 - 15:30)
@@ -33,12 +33,12 @@ Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonsti
 ||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
 |---|---|---|---|---|
 |13:00 - 13:05|Begrüßung|Begrüßung|---|---|
-|13:05 - 13:25|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B-A|---|---|
-|13:30 - 13:50|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|B-B|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B-A|
-|13:55 - 14:15|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|B-C|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|B-B|
-|14:20 - 14:40|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|B-D|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|B-C|
-|14:45 - 15:05|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|B-E|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|B-D|
-|15:10 - 15:30|---|---|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|B-E|
+|13:05 - 13:25|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|---|---|
+|13:30 - 13:50|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|B2 VR For Future<br>[&rightarrow; Zum Projekt](ss20/bachelor/b2-vrforfuture)|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|
+|13:55 - 14:15|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|B3 Private Investors<br>[&rightarrow; Zum Projekt](ss20/bachelor/b3-private-investors)|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|B2 VR For Future<br>[&rightarrow; Zum Projekt](ss20/bachelor/b2-vrforfuture)|
+|14:20 - 14:40|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|B4 Energy Matters<br>[&rightarrow; Zum Projekt](ss20/bachelor/b4-energy-matters)|M6 Vi-Sense<br>[&rightarrow; Zum Projekt](ss20/master/m6-visense)|B3 Private Investors<br>[&rightarrow; Zum Projekt](ss20/bachelor/b3-private-investors)|
+|14:45 - 15:05|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|B5 The Missing Tool<br>[&rightarrow; Zum Projekt](ss20/bachelor/b5-the-missing-tool-projekt)|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|B4 Energy Matters<br>[&rightarrow; Zum Projekt](ss20/bachelor/b4-energy-matters)|
+|15:10 - 15:30|---|---|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|B5 The Missing Tool<br>[&rightarrow; Zum Projekt](ss20/bachelor/b5-the-missing-tool-projekt)|
 {{</ table-container >}}
 
 **Notenkonferenz: 15:15 - 16:00**
