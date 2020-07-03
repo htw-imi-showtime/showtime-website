@@ -46,3 +46,4 @@ Wir bieten eine komfortable, mobile Anwendung für private Immobilieninvestoren.
 
 - [Videos](_videos)
 - [Behind the Scenes](_team)
+- [Design](_design)
