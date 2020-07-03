@@ -9,7 +9,7 @@ website_link = "https://htw-imi-showtime.github.io/"
 
 {{< menu >}}
 
-# The Missing Tool
+## The Missing Tool
 
 ### Betreuung durch Prof. Dr. Barne Kleinen
 
