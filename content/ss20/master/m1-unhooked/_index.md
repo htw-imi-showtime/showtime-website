@@ -2,13 +2,15 @@
 title = "M1 Manipulative Methods in Mobile Games: An E-Learning Unit"
 
 # Properties for displaying the project's card in the overview
-card_image = "second.png"
+card_image = "logo.png"
 card_description = "Unhooked is an online e-learning web application which shows you the manipulative mechanisms in mobile games and social media apps."
 
 # These properties may be removed if you don't need them
 source_link = "https://gl-imi.f4.htw-berlin.de/s0551374/elearning-unit"
 demo_link = "https://unhookedapp.herokuapp.com/"
 +++
+
+{{< menu >}}
 
 #### Project supervisor
 
@@ -31,6 +33,11 @@ We have developed a mobile web e-learning application that addresses exactly the
 
 It's "unhooked" !
 
-## Bilder
+## More content
+* [App Gallery](gallery)
+* [Concept Gallery](concept)
+* [Videos](videos)
 
-{{< image src="second.png" alt="Unhooked Logo" description="Unhooked Logo" width="600">}}
+{{< image src="logo.png" alt="Unhooked Logo" description="Unhooked Logo" width="400">}}
+
+{{< image src="main.png" alt="Main screen" description="Main screen of our App" width="300" >}}
