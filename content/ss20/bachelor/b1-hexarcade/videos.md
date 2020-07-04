@@ -7,13 +7,6 @@ title = "5. Videos"
 
 {{< back >}}
 
-## Unsere Präsentation
-{{< video src="testaufnahme.mp4">}}
-## Weitere Videos
-### Gameplay Video 1
-{{< video src="testaufnahme.mp4">}}
-### Gameplay Video 2
-{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="854" height="480" >}}
+## Under Construction
+*Das Video zu unserer Präsentation und zu dem Gameplay werden hier zu einem späteren Zeitpunkt zur Verfügungs tehen*
 
-### Wie funktioniert unser Editor?
-{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="854" height="480" >}}

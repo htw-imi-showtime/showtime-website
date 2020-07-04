@@ -7,16 +7,14 @@ title = "4. Ausblick"
 
 {{< back >}}
 
-### Verworfene Ideen aufgreifen
-Einer der wesentlichen Gründe, warum wir uns schnell auf unser Spielekonzept einigen konnten, war, dass es sehr gut skalierbar ist. Während der Entwicklungsphase sind uns viele weitere Ideen und Elemente eingefallen, mit denen wir unser Konzept hätten erweitern können.
+Einer der wesentlichen Gründe, warum wir uns schnell auf unser Spielekonzept einigen konnten, war, dass es sehr gut skalierbar ist. Während der Entwicklungsphase sind uns viele weitere Ideen und Elemente eingefallen, mit denen unser Konzept erweitert werden könnte.   
 
-Beispielsweise haben wir und sehr viel mehr Distraktoren ausgedacht, als im fertigen Spiel enthalten sind. Zusätzlich hatten wir andere Level-Konzepte und Spielmodi mit denen wir experimentiert haben, die aber nicht über unseren Prototypen hinaus entwickelt wurden.
+So haben wir uns sehr viel mehr Distraktoren ausgedacht, als im fertigen Spiel enthalten sind zusätzlich hatten wir mit anderen Level-Konzepten und Spielmodi experimentiert.   
 
-Für einige Zeit hatten wir auch überlegt, einen Mehrspielermodus zu implementieren. Wir fanden, dass dieser Modus dem Spiel so einen größeren Mehrwert geben könnte. Da das Konzept jedoch für Einzelspieler ausgelegt ist, haben wir zunächst darauf konzentriert, diesen so gut wie möglich auszuarbeiten. Wir wollten aber trotzdem zumindest eine (wenn auch einfache) Form von Mehrspieler enthalten haben. Das wurde dann die Highscoreliste. Es war uns aber wichtig, diesen Aspekt bereits beim Programmieren im Hinterkopf zu behalten und den Code dementsprechend erweiterbar zu machen.
+Da wäre zum einen ein ***Free Play-Modus***. Statt von uns erstellten Leveln, werden hier endlos Level mit einem zufälligen Pfad generiert.
 
-### Weitere Inhalte
-Als wir uns konkret darüber Gedanken gemacht haben, wie das Spiel erweitert werden könnte, sind uns auch neue Elemente eingefallen. Da wäre zum einen ein „Free Play“-Modus. Statt von uns erstellen Leveln, werden hier endlos Level mit einem zufälligen Pfad generiert. Wir haben uns ebenfalls überlegt, unseren Level-Editor auszubauen, dass er für die Spieler verfügbar ist und sie so eigene Level und Herausforderungen erstellen und teilen können.
+Darüber hinaus gab es die Idee, den Level-Editor, den wir für uns in der Unity GUI verwirklicht haben , im Spiel zur Verfügung zu stellensodass unsere Nutzer_innen eigene Level erstellen und teilen könnten – eine Art *HexArcade Maker*. Für einige Zeit hatten wir auch überlegt, einen Mehrspielermodus zu implementieren, da wir fanden, dass dieser dem Spiel so einen größeren Mehrwert geben könnte. Da das ursprüngliche Spielkonzept jedoch für Einzelspieler ausgelegt war, haben wir uns zunächst darauf konzentriert, diesen so gut wie möglich auszuarbeiten. Wir wollten aber trotzdem zumindest eine - wenn auch einfache - Form des Mehrspielermodus in Form einer Highscore-Liste zur Verfügung stellen.   
 
-Zusätzlich würden wir noch gerne die Grafik des Spiels weiter verbessern. Zwar konnten wir nur für wenig Zeit in das Designinvestieren, aber uns ist klar, dass man hier noch viel mehr herausholen kann. Denn Unity bietet hier eine Vielzahl an Möglichkeiten zur Optimierung.
-    
-Insgesamt denken wir aber, dass wir weit über das Grundkonzept hinausgegangen sind und ein Spiel entwickelt haben, das der Thematik, spielerisch die Konzentration und Motorik zu üben, gerecht wird.    
+Beim Programmieren war es uns wichtig, unseren Code hinsichtlich eines echten Mehrspielermodus erweiterbar zu machen. Allerdings hätte die Implementierung eines asynchronen oder Echtzeit-Multiplayers, den Rahmen des Projekts gesprengt.   
+
+Insgesamt denken wir aber, dass wir weit über das Grundkonzept hinausgegangen sind und ein Spiel entwickelt haben, das der Thematik, spielerisch die Konzentration und Motorik zu üben, gerecht wird. 

@@ -33,11 +33,6 @@ Deshalb war es unser Ziel, ein Spiel zu entwickeln, das jederzeit und in kurzen 
 ### Was ist HexArcade?
 
 *HexArcade* ist ein in Unity aufgebautes Mobile Game, in dem der Spieler versucht, durch kippen des Smartphones, einen Ball über ein Feld aus Hexagonen zu steuern. Es gibt jedoch nur einen korrekten Weg, um von Start- zum Zielpunkt zu gelangen. Zu Beginn leuchtet dieser Weg kurz auf und der Spieler muss versuchen, sich den Pfad so gut wie möglich in dieser Zeit zu merken. Es ist Konzentration und Geschick gefragt, um den Ball dann so schnell wie möglich ins Ziel zu bringen, vorallem weil genügend Hindernisse auf dem Weg liegen können ... 
-## Ausprobieren
-### Download for Android
-*Text folgt ...*
-### Try the Demo in your Browser
-*Text folgt ...*
 
 ## Weitere Inhalte
 * [Über uns](about-us)
