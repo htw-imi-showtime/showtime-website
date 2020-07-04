@@ -74,6 +74,14 @@ Die Modelle werden hierbei mit der App installiert und sind folglich offline ver
 
 ### Xamarin
 
+Xamarin.Forms ist ein open-source Framework zum Erstellen von Android, iOS und Windows Apps. 
+
+Eine gemeinsame Codebasis aus in XAML geschriebener UI und dahinter liegendem C# Code für alle Plattformen ermöglicht es das Backend und Frontend einheitlich zu erstellen. 
+Xamarin übersetzt diesen Code und rendert die UI Elemente, um sie auf allen Plattformen nativ darstellen zu können. 
+
+Funktionalitäten, die nicht plattformübergreifend implementierbar sind, wie z.B. low-level touch Erkennung oder das Auslesen der internen Daten, können auch speziell für die einzelnen Plattformen programmiert werden. 
+Zusätzlich zu einer großen Sammlung von vorhandenen Libraries gibt es außerdem die Möglichkeit bestehende Java, Swift und C++ Libraries einzubinden.
+
 ## Herausforderungen
 
 ### Wie vergleicht man Bilder in der App?
@@ -91,7 +99,7 @@ Es stellte sich jedoch heraus, dass die Library nur für Android Apps nutzbar wa
 Nach weiteren Recherchen haben wir es schließlich geschafft, die originale Tensorflow Lite Library für Android (in Java geschrieben) über ein [Binding Project](https://docs.microsoft.com/de-de/xamarin/android/platform/binding-java-library/) in unsere App einzubinden. Das Binding Project umschließt die Java Library mit C# Wrappern für jede Methode, sodass diese innerhalb eines C# Projekts aufgerufen werden können. Die daraus entstehende .dll Datei wird als externe Library in unsere App eingebunden.
 
 ## Weitere Inhalte
-
+ * [App Gallery](gallery)
 
 
 
