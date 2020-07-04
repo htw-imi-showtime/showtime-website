@@ -1,18 +1,19 @@
 +++
-title = "Gameplay Videos"
+title = "5. Videos"
 
 # These properties may be removed if you don't need them
-source_link = "https://link/to/your/source_code"
-demo_link = "https://link/to/your/demo"
-website_link = "https://link/to/external/website"
+
 +++
 
 {{< back >}}
 
-## Eine Überschrift
+## Unsere Präsentation
 {{< video src="testaufnahme.mp4">}}
-## Noch eine Überschrift
-### Eine kleine Überschrift
+## Weitere Videos
+### Gameplay Video 1
 {{< video src="testaufnahme.mp4">}}
-### Wieder eine kleine Überschrift
-{{< video src="testaufnahme.mp4">}}
+### Gameplay Video 2
+{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="854" height="480" >}}
+
+### Wie funktioniert unser Editor?
+{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="854" height="480" >}}
