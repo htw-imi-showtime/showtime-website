@@ -7,7 +7,7 @@ title = "1. Über Uns"
 
 {{< back >}}
 
-{{< image src="team_all.png" alt="project image" description="Das ist das Team Hexarcade" width="600">}}
+{{< image src="team.png" alt="project image" description="Das ist das Team Hexarcade" width="700">}}
 
 ### Herausforderungen
 Vor dem Projekt kannten wir uns noch nicht bzw. nur von Sehen her. Aufgrund der besonderen Schwierigkeiten dieses Semesters, konnten wir uns auch nicht persönlich treffen und uns so kennenlernen. Zusätzlich hatte die Hälfte von uns noch nie mit Unity, der Entwicklungsumgebung, mit der wir unser Spiel erstellen wollten, gearbeitet. Doch rückblickend müssen wir sagen, dass die Zusammenarbeit im Projekt trotz alledem sehr harmonisch und produktiv verlief.

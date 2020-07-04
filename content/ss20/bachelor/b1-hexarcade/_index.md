@@ -2,11 +2,11 @@
 title = "B1 Hexarcade"
 
 # Properties for displaying the project's card in the overview
-card_image = "hex-title_001.jpg"
+card_image = "title.jpg"
 card_description = "HexArcade ist eine Anwendung, um spielerisch die Konzentration und Motorik zu trainieren"
 
 # These properties may be removed if you don't need them
-source_link = "https://link/to/your/demo"
+source_link = "https://github.com/redfive09/hexarcade"
 demo_link = "https://link/to/your/demo"
 +++
 
@@ -37,7 +37,7 @@ Deshalb war es unser Ziel, ein Spiel zu entwickeln, das jederzeit und in kurzen 
 ## Weitere Inhalte
 * [Über uns](about-us)
 * [Ideenfindung](idea-finding)
-* [Plattform- und Designentscheidung](product-vision)
+* [Plattform- und Designentscheidung](platform-and-design)
 * [Ausblick](future-prospects)
 * [Videos](videos)
 * [Galerie](galerie)

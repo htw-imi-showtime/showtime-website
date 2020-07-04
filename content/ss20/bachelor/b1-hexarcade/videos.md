@@ -7,6 +7,8 @@ title = "5. Videos"
 
 {{< back >}}
 
-## Under Construction
-*Das Video zu unserer Präsentation und zu dem Gameplay werden hier zu einem späteren Zeitpunkt zur Verfügungs tehen*
+## Gameplay 
+*Hier werden bald unser Präsentationsvideo und weitere Aufnhamen zur Verfügung stehen*
+
+{{< mediathek id="df58cbf230faa1bf31cd8fc305b54a6e" width="700" height="400" >}}
 
