@@ -1,0 +1,32 @@
+name: production deployment
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: Hugo setup
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.72.0'
+
+    - name: Build
+      run: hugo --minify -e production
+
+    - name: Deploy
+      uses: appleboy/scp-action@v0.1.1
+      with:
+        host: ${{ secrets.SCP_HOST }}
+        username: ${{ secrets.SCP_USERNAME }}
+        key: ${{ secrets.SCP_KEY }}
+        passphrase: ${{ secrets.SCP_PASSPHRASE }}
+        source: public/
+        target: /var/www/html/
+        rm: true
