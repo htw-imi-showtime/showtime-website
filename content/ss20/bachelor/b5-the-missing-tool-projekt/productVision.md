@@ -16,7 +16,7 @@ We know that the everyday life of a student is busy – being students ourselves
 
 To define the MVP we created a user story map that defines which features we wanted to implement and which were not our top-priority. This map is extendible and was used as a rough reference to guide us through our sprints:
 
-{{< image "userStoryMap.jpg" "story_map" "our user story map" >}}
+{{< image "user_story_map.png" "story_map" "our user story map" >}}
 
 Do you want to get a first impression of what you can do on our tool? Take a look at the next page:
 [Features](../features)

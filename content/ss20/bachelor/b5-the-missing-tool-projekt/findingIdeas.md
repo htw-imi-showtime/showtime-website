@@ -20,7 +20,7 @@ Before diving deeper into one particular vision, we explored our technical optio
 
 ### Conclusion: Not everything is.
 
-After exploring our options we were a bit disillusioned about the results we found – working with third-party video conferen tools was out of our scope because taking the time to work ourselves through the available source code would already have taken most of our available time. Serverless communication also was not the right use-case for our ideas we came up with so far. So really, what' left?
+After exploring our options we were a bit disillusioned about the results we found – working with third-party video conference tools was out of our scope because taking the time to work ourselves through the available source code would already have taken most of our available time. Serverless communication also was not the right use-case for our ideas we came up with so far. So really, what' left?
 
 ### Our final vision
 Do you want to know, how we defined our final product vision considering all technological constraints? Then read on:
