@@ -32,4 +32,4 @@ Topics that were analyzed include:
 
 The video below is only a small preview to all the results and interactive visualizations waiting for you on our [website](https://vacs.htw.bytex.digital).
 
-{{< mediathek id="a8df25d0ba0a5b0728838017bb98f3c1" >}}
+{{< mediathek autoplay="false" width="1280" height="720" id="a8df25d0ba0a5b0728838017bb98f3c1" >}}
