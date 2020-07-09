@@ -4,7 +4,7 @@ title = "Features"
 
 ### Show me your cards!
 
-The main features of our tool include creating boards with notes on which you can collect ideas, communicate with each other and find new working groups. We tried to make our tool as user-friendly as possible and reduced unnecessary things so the thought process does not get interrupted.  
+The main features of our tool include creating boards with notes on which you can collect ideas, communicate with each other and find new working groups. We tried to make our tool as user-friendly as possible and reduced unnecessary things so the thought process does not get interrupted. This is why The Missing Tool is so lightweight – you don't even need to create a user account!
 
 Let us show you what you can do in detail:
 
@@ -40,6 +40,6 @@ You can also move cards from one board to another, by simply draggin on the card
 
 
 
-Are you interested in how we managed to keep focused working on The Missing Tool? 
+Are you interested in how we managed to keep focused working on The Missing Tool?
 Read on:
 [Our Focus](../usercentereddesign)
