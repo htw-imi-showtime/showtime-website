@@ -26,7 +26,6 @@ jobs:
         host: ${{ secrets.SCP_HOST }}
         username: ${{ secrets.SCP_USERNAME }}
         key: ${{ secrets.SCP_KEY }}
-        passphrase: ${{ secrets.SCP_PASSPHRASE }}
         source: public/
-        target: /path/to/upload/dir
+        target: /var/www/
         rm: true
