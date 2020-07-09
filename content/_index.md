@@ -42,6 +42,7 @@ Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonsti
 {{</ table-container >}}
 
 **Notenkonferenz: 15:15 - 16:00**
+**Bekanntgabe der Noten: 16:00 Uhr
 
 ## Räume
 {{< table-container >}}
