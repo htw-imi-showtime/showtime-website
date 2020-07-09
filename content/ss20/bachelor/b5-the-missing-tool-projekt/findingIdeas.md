@@ -5,9 +5,14 @@ title = "Finding Ideas & Exploring options"
 ### Creative minds trying to find a clear vision
 In the beginning of our project, we didn't have a clear product vision yet. We had many ideas in mind, from designing little telepresence games like "Who Am I?", a flexible poll tool up to an online-tutoring platform for students.
 
-{{< image "brainstorming.jpg" "brainstorming" "our brainstorming process" >}}
+<br>
+
+{{< image "brainstorming.png" "brainstorming" "our brainstorming process" "600">}}
+
+<br>
 
 As interesting as all of those ideas would have been, the spark has not yet jumped. We had to do another round and really ask ourselves – and our supervisor Barne – what it really is that we want to achieve.
+
 
 ### Question: What is possible?
 

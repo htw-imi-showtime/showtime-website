@@ -24,7 +24,7 @@ website_link = "https://htw-imi-showtime.github.io/"
 
 <br>
 
-{{< figure src="logo.png" alt="The Missing Tool Board" width="200" >}}
+{{< image src="logo.png" alt="The Missing Tool Board" width="200" align="left">}}
 
 <br>
 
@@ -33,7 +33,10 @@ website_link = "https://htw-imi-showtime.github.io/"
 
 
 <br>
-{{< image src="screenshot_1.png" alt="The Missing Tool Board" description="The Board with different cards and a chat"  >}}
+{{< image src="screenshot_1.png" alt="The Missing Tool Board" description="The Board with different cards and chat"  >}}
+
+<br>
+{{< mediathek id="f0b5991235f40e2972e89f2f8cc16e88" width="800" height="500" >}}
 
 ### Further Reading:
 
