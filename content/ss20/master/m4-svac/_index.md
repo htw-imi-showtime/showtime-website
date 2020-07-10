@@ -6,6 +6,7 @@ card_image = "title.jpg"
 card_description = "Which universities publish the most papers? What are the latest trends in computer science? The answers to these and many other questions have been visualized in our project using freely available data from scientific publications."
 
 # These properties may be removed if you don't need them
+source_link = "https://github.com/PELange/VACS"
 website_link = "https://vacs.htw.bytex.digital"
 +++
 
