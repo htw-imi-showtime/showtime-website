@@ -1,9 +1,9 @@
 +++
 title = "B5 The Missing Tool"
-card_image = "test.png"
-card_description = "Difficult times require creative solutions: That has become even more important nowadays than ever before. "
+card_image = "logo_showtime.png"
+card_description = "The Missing Tool allows users to collaborate in real-time on an online whiteboard where they can brainstorm ideas, create working groups and chat with their team members – all without the hurdles of creating yet another user account."
 source_link = "https://github.com/JuliaZamaitat/TheMissingTool"
-demo_link = "http://the-missing-tool.herokuapp.com/board"
+demo_link = "https://onboard.f4.htw-berlin.de"
 website_link = "https://htw-imi-showtime.github.io/"
 +++
 
@@ -11,22 +11,32 @@ website_link = "https://htw-imi-showtime.github.io/"
 
 ## The Missing Tool
 
-### Betreuung durch Prof. Dr. Barne Kleinen
+### Supervised by Prof. Dr. Barne Kleinen
 
-##### Teilnehmer:
+### Team:
 - Annina Keller
 - Noschdar Sindy
 - Jannis Bautsch
 - Julia Zamaitat
 - Linh Le
-- Luc-Stephaen Nkok
+- Luc-Stephan Nkok
 - Alain Ngoufack
 
+<br>
 
-### Kurzbeschreibung
-Difficult times require creative solutions: That has become even more important nowadays than ever before. Working remotely in a team often turns out to be more tiring than having real conversations face to face, caused either by technical issues like bad internet connection or user interfaces that are not self-explanatory. We asked ourselves how we can make collaborating and brainstorming more easy and faster, and created: The Missing Tool. It allows users to collaborate in real-time on an online whiteboard where they can brainstorm ideas, create working groups and chat with their team members – all without the hurdles of creating yet another user account. So say hello to user-friendly, effective real-time collaboration and goodbye to endless breakout rooms and muted microphones.
+{{< image src="logo.png" alt="The Missing Tool Board" width="200" align="left">}}
 
-##### mehrere Screenshots, ggf. auch Video, Logo
+<br>
+
+### Description
+ The Missing Tool allows users to collaborate in real-time on an online whiteboard where they can brainstorm ideas, create working groups and chat with their team members – all without the hurdles of creating yet another user account. Working remotely in a team often turns out to be more tiring than having real conversations face to face, caused either by technical issues like bad internet connection or user interfaces that are not self-explanatory. With The Missing Tool you can say hello to user-friendly, effective real-time collaboration and goodbye to endless breakout rooms and muted microphones.
+
+
+<br>
+{{< image src="screenshot_1.png" alt="The Missing Tool Board" description="The Board with different cards and chat"  >}}
+
+<br>
+{{< mediathek id="f0b5991235f40e2972e89f2f8cc16e88" width="800" height="500" >}}
 
 ### Further Reading:
 
