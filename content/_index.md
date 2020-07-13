@@ -56,6 +56,6 @@ Showtime-Übersichtsseite: [IMI-Bachelor](https://imi-bachelor.htw-berlin.de/stu
 {{< table-container >}}
 ||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
 |---|---|---|---|---|
-|Raum|Zoom -- Prof. Dr. Barne Kleinen|Zoom -- Prof. Dr. Debora Weber-Wulff|Big Blue Button 1|Big Blue Button 2|
-|Link|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)|[&rightarrow; Raum beitreten](https://join.rz.htw-berlin.de/bbb/chr-a4c-uaa)|[&rightarrow; Raum beitreten](https://join.rz.htw-berlin.de/bbb/chr-94v-rua)|
+|Raum|Zoom -- Prof. Dr. Barne Kleinen|Zoom -- Prof. Dr. Debora Weber-Wulff|Zoom Session 3|Zoom Session 4|
+|Link|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/9921334198?pwd=TElqNDkyQjlzVUlicDVVQkNyeHg1Zz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/6390447430?pwd=cFJ6c0ZCcXMvVUsxeldTR3VuZkNiZz09)|
 {{</ table-container >}}
