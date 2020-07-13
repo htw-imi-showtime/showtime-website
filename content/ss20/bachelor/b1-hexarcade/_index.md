@@ -41,7 +41,7 @@ Deshalb war es unser Ziel, ein Spiel zu entwickeln, das jederzeit und in kurzen 
 Um das Spiel selbst testen zu können, haben wir die Android-APK als [Download](https://drive.google.com/file/d/1tryK570F06-zjGMLIh2RDeEd5exzy9O6/view?usp=sharing) zur Verfügung gestellt.
 
 ### *Browser*
-Zusätzlich haben wir eine WebGl-Version erstellt, die im Browser läuft und ohne installation oder ein Android-Smartphone getestet werden kann. (Erreichbar über den Punkt *Demo*, oben auf der Seite) 
+Zusätzlich haben wir eine WebGL-Version erstellt, die im Browser läuft und ohne installation oder ein Android-Smartphone getestet werden kann. ([Link](https://drive.google.com/file/d/1tryK570F06-zjGMLIh2RDeEd5exzy9O6/view?))
 
   ***Anmerkung:*** *Diese Version dient eher als Ansichtsexemplar, da die Bewegungssteuerung (und damit der motorische Aspekt) hier nicht zur Geltung kommt.*
 
