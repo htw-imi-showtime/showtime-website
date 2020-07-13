@@ -6,22 +6,21 @@ title = "6. Screenshots"
 +++
  {{< back >}}
 
-{{< image src="scr000.jpg" alt="image 001" description="" width="1000">}}
+{{< image src="src05.jpg" alt="image 01" description="" width="1000">}}
 
-{{< image src="scr001.jpg" alt="image 002" description="" width="1000">}}
+{{< image src="src18.jpg" alt="image 02" description="" width="1000">}}
 
-{{< image src="scr003.jpg" alt="image 004" description="" width="1000">}}
+{{< image src="src09.jpg" alt="image 03" description="" width="1000">}}
 
-{{< image src="scr004.jpg" alt="image 005" description="" width="1000">}}
+{{< image src="src13.jpg" alt="image 04" description="" width="1000">}}
 
-{{< image src="scr006.jpg" alt="image 007" description="" width="1000">}}
+{{< image src="src15.jpg" alt="image 05" description="" width="1000">}}
 
-{{< image src="scr007.jpg" alt="image 008" description="" width="1000">}}
+{{< image src="src14.jpg" alt="image 06" description="" width="1000">}}
 
-{{< image src="scr008.jpg" alt="image 009" description="" width="1000">}}
+{{< image src="src17.jpg" alt="image 07" description="" width="1000">}}
 
-{{< image src="scr009.jpg" alt="image 010" description="" width="1000">}}
+{{< image src="src16.jpg" alt="image 08" description="" width="1000">}}
 
-{{< image src="scr010.jpg" alt="image 011" description="" width="1000">}}
+{{< image src="src01.jpg" alt="image 09" description="" width="1000">}}
 
-{{< image src="scr011.jpg" alt="image 012" description="" width="1000">}}
