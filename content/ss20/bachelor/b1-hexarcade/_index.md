@@ -7,7 +7,7 @@ card_description = "HexArcade ist eine Anwendung, um spielerisch die Konzentrati
 
 # These properties may be removed if you don't need them
 source_link = "https://github.com/redfive09/hexarcade"
-demo_link = "https://link/to/your/demo"
+demo_link = "https://fhuu.github.io/HexArcade/"
 +++
 
 {{< menu >}}
