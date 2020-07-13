@@ -34,6 +34,8 @@ Deshalb war es unser Ziel, ein Spiel zu entwickeln, das jederzeit und in kurzen 
 
 *HexArcade* ist ein in Unity aufgebautes Mobile Game, in dem der Spieler versucht, durch kippen des Smartphones, einen Ball über ein Feld aus Hexagonen zu steuern. Es gibt jedoch nur einen korrekten Weg, um von Start- zum Zielpunkt zu gelangen. Zu Beginn leuchtet dieser Weg kurz auf und der Spieler muss versuchen, sich den Pfad so gut wie möglich in dieser Zeit zu merken. Es ist Konzentration und Geschick gefragt, um den Ball dann so schnell wie möglich ins Ziel zu bringen, vorallem weil genügend Hindernisse auf dem Weg liegen können ... 
 
+{{< mediathek id="cba94788b18ce2d77e1599e7135a1758" width="700" height="400" >}}
+
 ## Ausprobieren
 ### *Smartphone*
 Um das Spiel selbst testen zu können, haben wir die Android-APK als [Download](https://drive.google.com/file/d/1tryK570F06-zjGMLIh2RDeEd5exzy9O6/view?usp=sharing) zur Verfügung gestellt.
