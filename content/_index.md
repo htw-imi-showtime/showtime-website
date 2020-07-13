@@ -1,5 +1,6 @@
 +++
 +++
+{{< image src="showtime_logo.svg" alt="Showtime 2020 Logo" >}}
 
 # IMI - Showtime!
 ### 17.07.2020 ab 10:00 Uhr
@@ -12,6 +13,11 @@ Während die ersten 5 Minuten aus einem vorbereiteten Vortrag(svideo) bestehen, 
 Näheres über die jeweils 5 Bachelor- und Masterprojekte findet sich auf den einzelnen Projektseiten. [&rightarrow; Zu den Projekten](#projekte)
 
 Studierende aller Semester und Studiengänge, Projektbetreuer:innen sowie sonstige interessierte Gäste sind herzlich eingeladen!
+
+#### Weiterführende Links
+Offizielle Showtime-Ankündigung der HTW Berlin: [htwb.de/imi-showtime](http://htwb.de/imi-showtime)
+
+Showtime-Übersichtsseite: [IMI-Bachelor](https://imi-bachelor.htw-berlin.de/studium/projekte/) und [IMI-Master](https://imi-master.htw-berlin.de/studium/projekte/)
 
 ## Vortragsplan
 17.07.2020 ab 10:00 Uhr
