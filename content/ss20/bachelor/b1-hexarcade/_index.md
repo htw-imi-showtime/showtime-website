@@ -51,4 +51,4 @@ Zusätzlich haben wir eine WebGL-Version erstellt, die im Browser läuft und ohn
 * [Plattform- und Designentscheidung](platform-and-design)
 * [Ausblick](future-prospects)
 * [Videos](videos)
-* [Galerie](galerie)
+* [Galerie](gallery)
