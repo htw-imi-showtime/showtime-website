@@ -1,5 +1,5 @@
 +++
-title = "2. Ideenfinung"
+title = "2. Ideenfindung"
 
 # These properties may be removed if you don't need them
 
