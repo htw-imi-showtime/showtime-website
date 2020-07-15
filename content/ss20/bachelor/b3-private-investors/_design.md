@@ -2,8 +2,6 @@
 title = "Design"
 +++
 
-{{< back >}}
-
 ## 
 
 Die Entwicklung des Design der App ist einer der faszinierendsten Prozesse des gesamten
@@ -35,7 +33,9 @@ Im Moment gibt es eine riesige Menge an Design-Tools für jeden Geschmack. Wir h
 uns für Figma und Adobe XD entschieden. Sie sind leicht zu erlernen, haben eine große
 Funktionalität und sind kostenlos.
 
+## First Dark-Theme Prototype
 {{< mediathek id="4068e340f83063828df4a813ac0a6f1e" width="720" height="540">}}
+
 
 
 

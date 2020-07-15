@@ -2,16 +2,18 @@
 title = "B3 Private Investors"
 card_image = "card_image.png"
 card_description = "We deliver a convenient and mobile application for private real estate investors.  Our product will help investors from all expertise levels to make the right investment decision by using cost algorithm via an intuitive and self explanatory interface to access the data."
-source_link = "#"
-demo_link = "#"
-website_link = ""
+source_link = "https://gitlab.rz.htw-berlin.de/s0555908/private-investor-mobile-app"
+demo_link = "https://drive.google.com/drive/u/0/folders/1zF_Y0bvmskccQ9PqjUrNjZns5R4xbTTC"
+website_link = "https://www.immobilienscout24.de/investieren/kapitalanlagen"
 +++
 
 {{< menu >}}
 
 #### Projektbetreuung
 
-Tino Nitze
+Tino Nitze  
+Jakob Panten  
+Fabian Wolter  
 
 #### Teilnehmende
 
@@ -23,6 +25,7 @@ Cong Nguyen-Dinh
 Nataliia Pidhorodetska  
 Justin Voitel  
 Egor Yushchenko
+
 
 ## Idee
 
@@ -38,12 +41,22 @@ Unser Projekt basiert auf der Webversion eines Privatinvestoren Portals von Immo
 
 Wir bieten eine komfortable, mobile Anwendung für private Immobilieninvestoren. Unser Produkt hilft Investoren aller Fachrichtungen und Professionalitätslevels, durch eine intuitive und selbsterklärende Oberfläche und integriertem Risikomanagement, die richtige Investitionsentscheidung zu treffen.
 
+{{< figure src="projektplan.jpg" caption="Projektplan" >}}
+
+
+## Präsentation
+{{< mediathek id="639691778786c67181eff9b6a5e4bbed" width="1280" height="720" >}}
+
+## Eine App für Privatinvestoren
 {{< mediathek id="2b743ba859bd5191c23302363ecdee47" width="1280" height="720" >}}
 
+## Start your search
 {{< mediathek id="305adbbc06493ee3b78b8579020b793e" width="1280" height="720" >}}
 
 ## Weitere Inhalte
 
 - [Videos](_videos)
-- [Behind the Scenes](_team)
+- [Behind the Scenes](_fotos)
 - [Design](_design)
+- [Technologie-Stack](_techstack)
+- [Das Team](_dasteam)
