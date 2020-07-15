@@ -13,6 +13,7 @@ The official IMI showtime website
   * [Videos](#Videos)
   * [HTW Mediathek Player](#HTW-Mediathek-Player)
   * [GitHub Gists](#GitHub-Gists)
+  * [Infobox](#Infobox)
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
@@ -156,4 +157,12 @@ Example: Embedding https://mediathek.htw-berlin.de/video/Clean-Code-Presentation
 Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb180cfbd
 ```handlebars
 {{< gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd" >}}
+```
+
+### Infobox
+Adds a green border to the content inside.
+```handlebars
+{{< infobox >}}
+Some content here
+{{</ infobox >}}
 ```
