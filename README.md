@@ -3,6 +3,10 @@ The official IMI showtime website
 
 ![deploy staging](https://github.com/htw-imi-showtime/showtime-website/workflows/deploy%20staging/badge.svg)
 
+[Website: https://showtime.f4.htw-berlin.de/](https://showtime.f4.htw-berlin.de/)
+
+[Preview: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
+
 * [Adding a new project](#Adding-a-new-project)
 * [Updating your Fork](#Updating-your-Fork)
 * [Including additional content](#Including-additional-content)
@@ -61,9 +65,9 @@ git push
 
 Once your branch was merged, you may view your project's page on https://htw-imi-showtime.github.io/
 
-## Updating your Fork 
+## Updating your Fork
 
-To get the updates on the central repository into your fork, do the following: 
+To get the updates on the central repository into your fork, do the following:
 (see [Github on Syncing a Fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 )
 ```
@@ -73,7 +77,7 @@ git merge upstream/master
 ```
 
 To update the theme submodule, do run
- 
+
 ```
 git submodule update
 ```
@@ -123,7 +127,7 @@ To generate a back button on your subpage that links back to your main page, you
 
 ### Images
 Note that the description parameter is optional and may be left out for disabling the caption.
-Other optional parameters for custom syling: 
+Other optional parameters for custom syling:
 * width - Set the width of the image in pixels, e.g. `300`. Default: Image width or max page width (1400px);
 * align - Set the alignment for the image (`left`, `right`, `center`). Default: `center`
 ```handlebars
