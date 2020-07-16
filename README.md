@@ -4,14 +4,16 @@ The official IMI showtime website
 ![deploy staging](https://github.com/htw-imi-showtime/showtime-website/workflows/deploy%20staging/badge.svg)
 
 * [Adding a new project](#Adding-a-new-project)
+* [Updating your Fork](#Updating-your-Fork)
 * [Including additional content](#Including-additional-content)
   * [Subpages](#Subpages)
     * [Linking to subpages](#Linking-to-subpages)
     * [Project Page Menu](#Project-Page-Menu)
   * [Images](#Images)
   * [Videos](#Videos)
-  * [GitHub Gists](#GitHub-Gists)
   * [HTW Mediathek Player](#HTW-Mediathek-Player)
+  * [GitHub Gists](#GitHub-Gists)
+  * [Infobox](#Infobox)
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
@@ -55,9 +57,26 @@ git add .
 git commit -m "Your commit message"
 git push
 ```
-8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch.
+8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
 Once your branch was merged, you may view your project's page on https://htw-imi-showtime.github.io/
+
+## Updating your Fork 
+
+To get the updates on the central repository into your fork, do the following: 
+(see [Github on Syncing a Fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+)
+```
+git remote add upstream git@github.com:htw-imi-showtime/showtime-website.git
+git fetch upstream
+git merge upstream/master
+```
+
+To update the theme submodule, do run
+ 
+```
+git submodule update
+```
 
 ## Including additional content
 In addition to the required content you can add any content you want - at least this term (SoSe2020) this site
@@ -85,7 +104,7 @@ Some more text explaining what you did and why ...
 ```
 
 #### Linking to subpages
-If you added additional markdown files to your project directory, you may link to them using regular markdown links. You can simply use the name of the file to link the page it represents.
+If you added additional markdown files to your project directory, you may link to them using regular markdown links. You can simply use the name of the file (all lowercase) to link to the page it represents.
 ```markdown
 [Gallery](gallery)
 ```
@@ -104,7 +123,9 @@ To generate a back button on your subpage that links back to your main page, you
 
 ### Images
 Note that the description parameter is optional and may be left out for disabling the caption.
-If you want to use the optional width parameter, you may also leave the description empty by setting it to an empty string.
+Other optional parameters for custom syling: 
+* width - Set the width of the image in pixels, e.g. `300`. Default: Image width or max page width (1400px);
+* align - Set the alignment for the image (`left`, `right`, `center`). Default: `center`
 ```handlebars
 {{< image src="filename.type" alt="Alt text for image" description="The image's description" width="the width in pixels" >}}
 ```
@@ -112,18 +133,21 @@ Example: Including `image.png` with "Alt text" as alt text and "Is displayed bel
 ```handlebars
 {{< image src="image.png" alt="Alt text" description="Is displayed below the image" >}}
 ```
-Example: Including `image.png` with "Alt text" as alt text, no description and a width of 300px:
+Example: Including `image.png` with "Alt text" as alt text, no description, a width of 300px and left alignment:
 ```handlebars
-{{< image src="image.png" alt="Alt text" description="" width="300" >}}
+{{< image src="image.png" alt="Alt text" description="" width="300" align="left" >}}
 ```
 
 ### Videos
+Please upload your videos to the HTW Mediathek and embed them using the [Mediathek Player](#HTW-Mediathek-Player). Please DO NOT embed YouTube-Videos into your project pages (The YouTube video player doesn't conform to/is not covered in our privacy policy).
+
+### HTW Mediathek Player
 ```handlebars
-{{< video src="filename.type" >}}
+{{< mediathek id="video_id" width="player_width" height="player_height" >}}
 ```
-Example: Including `trailer.mp4`
+Example: Embedding https://mediathek.htw-berlin.de/video/Clean-Code-Presentation-on-Comment/117e5ae717b582bdeac13d95e8fa2264
 ```handlebars
-{{< video src="trailer.mp4" >}}
+{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="1280" height="720" >}}
 ```
 
 ### GitHub Gists
@@ -135,11 +159,10 @@ Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb
 {{< gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd" >}}
 ```
 
-### HTW Mediathek Player
+### Infobox
+Adds a green border to the content inside.
 ```handlebars
-{{< mediathek id="video_id" width="player_width" height="player_height" >}}
-```
-Example: Embedding https://mediathek.htw-berlin.de/video/Clean-Code-Presentation-on-Comment/117e5ae717b582bdeac13d95e8fa2264
-```handlebars
-{{< mediathek id="117e5ae717b582bdeac13d95e8fa2264" width="1280" height="720" >}}
+{{< infobox >}}
+Some content here
+{{</ infobox >}}
 ```
