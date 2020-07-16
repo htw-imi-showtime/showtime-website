@@ -3,7 +3,7 @@ title = "B1 Hexarcade"
 
 # Properties for displaying the project's card in the overview
 card_image = "title.jpg"
-card_description = "*HexArcade* ist ein in Unity aufgebautes Mobile-Game, um spielerisch die Konzentration und Motorik zu trainieren."
+card_description = "HexArcade ist ein in Unity aufgebautes Mobile-Game, um spielerisch die Konzentration und Motorik zu trainieren."
 
 # These properties may be removed if you don't need them
 source_link = "https://github.com/redfive09/hexarcade"
@@ -38,10 +38,10 @@ Deshalb war es unser Ziel, ein Spiel zu entwickeln, das jederzeit und in kurzen 
 
 ## Ausprobieren
 ### *Smartphone*
-Um das Spiel selbst testen zu können, haben wir die Android-APK als [Download](https://drive.google.com/file/d/1tryK570F06-zjGMLIh2RDeEd5exzy9O6/view?usp=sharing) zur Verfügung gestellt.
+Um das Spiel selbst testen zu können, haben wir die Android-APK als [Download](https://drive.google.com/file/d/1txTJe-h1OOw8KCR656zlLLBEdLnFh6Qr/view?usp=sharing) zur Verfügung gestellt.
 
 ### *Browser*
-Zusätzlich haben wir eine WebGL-Variante erstellt, die im Browser läuft und ohne Installation oder ein Android-Smartphone getestet werden kann. ([Link](https://drive.google.com/file/d/1tryK570F06-zjGMLIh2RDeEd5exzy9O6/view?))
+Zusätzlich haben wir eine WebGL-Variante erstellt, die im Browser läuft und ohne Installation oder ein Android-Smartphone getestet werden kann. [*Link zur Demo*](https://fhuu.github.io/HexArcade/).
 
   ***Anmerkung:*** *Diese Version dient eher als Ansichtsexemplar, da die Bewegungssteuerung (und damit der motorische Aspekt) hier nicht zur Geltung kommt.*
 
