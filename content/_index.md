@@ -10,6 +10,7 @@ Auch im durch Corona eingeschränkten Sommersemester 2020 haben sowohl Bachelor-
 
 Diese findet im Distanzformat über Zoom statt. Um etwaige Verzögerungen kompensieren zu können, allen die Möglichkeit zu geben, möglichst viele Beiträge zu hören und jedem Projekt dennoch genug Zeit einzuräumen, wird jedes Projekt zweimal präsentiert. Dabei finden die Vorträge der Bachelor- und Mastergruppen jeweils parallel in zwei verschiedenen Räumen statt (siehe Zeitplan).
 Während die ersten 5 Minuten aus einem vorbereiteten Vortrag(svideo) bestehen, haben in den folgenden 15 Minuten alle Teilnehmenden die Möglichkeit, Fragen zu stellen.
+Anschliessend gibt es in Session 3 bzw. 4 die Gelegenheit, weitergehende Fragen an das Projektteam zu stellen.  
 
 Näheres über die jeweils 5 Bachelor- und Masterprojekte findet sich auf den einzelnen Projektseiten. [&rightarrow; Zu den Projekten](#projekte)
 
@@ -24,8 +25,9 @@ Showtime-Übersichtsseite: [IMI-Bachelor](https://imi-bachelor.htw-berlin.de/stu
 17.07.2020 ab 10:00 Uhr
 #### Vormittags (10:00 - 12:30)
 {{< table-container >}}
-||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
+||Session 1<br>Chair: Prof. Kleinen|Session 2<br>Chair: Prof. Weber-Wulff|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
 |---|---|---|---|---|
+|Link|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/9921334198?pwd=TElqNDkyQjlzVUlicDVVQkNyeHg1Zz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/6390447430?pwd=cFJ6c0ZCcXMvVUsxeldTR3VuZkNiZz09)|
 |10:00 - 10:05|Begrüßung|Begrüßung|---|---|
 |10:05 - 10:25|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|---|---|
 |10:30 - 10:50|B2 VR For Future<br>[&rightarrow; Zum Projekt](ss20/bachelor/b2-vrforfuture)|M3 Mobile Image Organization<br>[&rightarrow; Zum Projekt](ss20/master/m3-mobile-image-organization)|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|M1 Manipulative Methods in Mobile Games: An E-Learning Unit<br>[&rightarrow; Zum Projekt](ss20/master/m1-unhooked)|
@@ -37,8 +39,9 @@ Showtime-Übersichtsseite: [IMI-Bachelor](https://imi-bachelor.htw-berlin.de/stu
 
 #### Nachmittags (13:00 - 15:30)
 {{< table-container >}}
-||Session 1|Session 2|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
+||Session 1<br>Chair: Prof. Kleinen|Session 2<br>Chair: Prof. Weber-Wulff|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
 |---|---|---|---|---|
+|Link|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/9921334198?pwd=TElqNDkyQjlzVUlicDVVQkNyeHg1Zz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/6390447430?pwd=cFJ6c0ZCcXMvVUsxeldTR3VuZkNiZz09)|
 |13:00 - 13:05|Begrüßung|Begrüßung|---|---|
 |13:05 - 13:25|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|---|---|
 |13:30 - 13:50|M5 YouCan!<br>[&rightarrow; Zum Projekt](ss20/master/m5-youcan)|B2 VR For Future<br>[&rightarrow; Zum Projekt](ss20/bachelor/b2-vrforfuture)|M4 Visualization and Analysis of Computer Science Publication Data<br>[&rightarrow; Zum Projekt](ss20/master/m4-svac)|B1 Hexarcade<br>[&rightarrow; Zum Projekt](ss20/bachelor/b1-hexarcade)|
@@ -58,4 +61,5 @@ Showtime-Übersichtsseite: [IMI-Bachelor](https://imi-bachelor.htw-berlin.de/stu
 |---|---|---|---|---|
 |Raum|Zoom -- Prof. Dr. Barne Kleinen|Zoom -- Prof. Dr. Debora Weber-Wulff|Zoom Session 3|Zoom Session 4|
 |Link|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/9921334198?pwd=TElqNDkyQjlzVUlicDVVQkNyeHg1Zz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/6390447430?pwd=cFJ6c0ZCcXMvVUsxeldTR3VuZkNiZz09)|
+
 {{</ table-container >}}
