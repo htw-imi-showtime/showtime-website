@@ -40,4 +40,4 @@ It's "unhooked" !
 
 {{< image src="logo.png" alt="Unhooked Logo" description="Unhooked Logo" width="400">}}
 
-{{< image src="main.png" alt="Main screen" description="Main screen of our App" width="300" >}}
+{{< image src="main.jpg" alt="Main screen" description="Main screen of our App" width="300" >}}
