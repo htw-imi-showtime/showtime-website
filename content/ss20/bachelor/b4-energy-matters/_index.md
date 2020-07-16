@@ -2,7 +2,7 @@
 title = "B4 Energy Matters"
 
 # Properties for displaying the project's card in the overview
-card_image = "abbildung_1.jpg"
+card_image = "intro.jpg"
 card_description = "Die interaktive audio-visuelle Installation unter dem Titel 'Energy Matters' behandelt das Thema 'Der Mensch als Energie'. Innerhalb der Installation soll den Besuchern ein möglichst immersives Erlebnis dargeboten werden, indem sie selbst als Akteure der Installation agieren können."
 
 # These properties may be removed if you don't need them
