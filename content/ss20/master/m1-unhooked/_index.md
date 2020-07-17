@@ -24,7 +24,7 @@ Prof. Dr. Debora Weber-Wulff
 
 ## Description
 
-Why do mobile applications make cost us so much time? Why do we spend every free minute on our smartphones? Why do we find these applications so tempting that every time the smartphone flashes, we pick it up and leave everything else behind. Then we get engrossed with the smartphone and we forget everything around us.
+Why do mobile applications take so much of our time? Why do we spend every free minute on our smartphones? Why do we find these applications so tempting that every time the smartphone flashes, we pick it up and leave everything else behind. Then we get engrossed with the smartphone and we forget everything around us.
 
 Why can applications and social media applications do something that seems to cast a spell on us?
 
@@ -40,4 +40,4 @@ It's "unhooked" !
 
 {{< image src="logo.png" alt="Unhooked Logo" description="Unhooked Logo" width="400">}}
 
-{{< image src="main.png" alt="Main screen" description="Main screen of our App" width="300" >}}
+{{< image src="main.jpg" alt="Main screen" description="Main screen of our App" width="300" >}}

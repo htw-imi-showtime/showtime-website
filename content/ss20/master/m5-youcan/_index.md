@@ -6,9 +6,9 @@ card_image = "bannerimg.png"
 card_description = "YouCan! ist eine WebApp, die Jugendliche auf ihrem Weg mit dem Krebs unterstützen soll. Dazu zählen sowohl das Festhalten und Rekapitulieren ihres Behandlungsverlaufs, als auch die Vernetzung und der Austausch mit anderen Betroffenen."
 
 # These properties may be removed if you don't need them
+demo_link = "https://youcan-app.de/webapp"
+website_link = "https://youcan-app.de"
 +++
-<!-- demo_link = "https://link/to/your/demo"
-website_link = "https://link/to/external/website" -->
 
 #### Projektbetreuung
 David Koschnick & Janina Krassa
@@ -17,6 +17,12 @@ David Koschnick & Janina Krassa
 - Christopher Adams 
 - Marcel Munce 
 - Tamara Voigt
+
+## Disclaimer
+{{< infobox >}}
+Da YouCan! Teil einer bisher noch unveröffentlichten wissenschaftlichen Studie ist, dürfen auf der Showtime Website keine weiteren projektbezogenen Informationen veröffentlicht werden.  
+Wir bitten daher in Absprache mit Prof. Kleinen darum, die von uns für die Showtime erstellte Website zu besuchen und diese als Bewertungsgrundlage zu verwenden.
+{{</ infobox >}}
 
 ## Beschreibung
 #### Hintergrund
@@ -32,6 +38,13 @@ YouCan! bringt das Konzept der Mutperlen in eine für Jugendliche ansprechendere
 #### YouCan! 2.0
 Unter kontinuierlicher Einbeziehung von Userfeedback hat YouCan! ein komplett neues Design bekommen. Außerdem wurde YouCan! um einige Features erweitert, wie etwa die Integration eines Begleiters, der die Jugendlichen in Empfang nimmt, ihnen während ihrer Behandlung zur Seite steht und mit ihnen bisher Gemeistertes rekapituliert. Zusätzlich zur Bergkette können Jugendliche jetzt mithilfe einer Ereigniskette auf einen Blick sehen, wie viel sie bereits erlebt haben.
 Um die Privatsphäre der Jugendlichen bestmöglich zu schützen, wurde ein Privatsphärekonzept ausgearbeitet und implementiert, das den Nutzenden feingranuläre Einstellungen ermöglicht, gleichzeitig aber nicht überfordert. Zu guter Letzt wurden auch bereits bestehende Features überarbeitet und verbessert.
+
+## Präsentation
+
+<video controls>
+    <source src="https://youcan-app.de/showtime/presentation.mp4" type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
 
 <!-- ## Weitere Inhalte
 * [Videos](videos)

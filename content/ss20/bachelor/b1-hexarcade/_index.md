@@ -3,7 +3,7 @@ title = "B1 Hexarcade"
 
 # Properties for displaying the project's card in the overview
 card_image = "title.jpg"
-card_description = "HexArcade ist eine Anwendung, um spielerisch die Konzentration und Motorik zu trainieren"
+card_description = "HexArcade ist ein in Unity aufgebautes Mobile-Game, um spielerisch die Konzentration und Motorik zu trainieren."
 
 # These properties may be removed if you don't need them
 source_link = "https://github.com/redfive09/hexarcade"
@@ -25,23 +25,24 @@ Michael Schlesener
 
 
 ## Beschreibung
-Heutzutage prasseln auf den Menschen eine Vielzahl an verschiedensten Eindrücken ein. Eine Push Benachrichtigung hier, eine Mail dort, noch schnell auf die Nachricht antworten und dabei den Kaffee nicht verschütten, um dann frisch geduscht ins Zoom-Meeting zu kommen. Die konstante Überflutung unserer Reize und die wenige Zeit die uns pro Tag zur Verfügung stehen sorgen dafür, dass es uns immer schwerer fällt, Dingen und Aufgaben unsere ungeteilte Aufmerksamkeit schenken zu können.
+Heutzutage prasseln auf den Menschen eine Vielzahl an verschiedensten Eindrücken ein. Eine Push Benachrichtigung hier, eine Mail dort, noch schnell auf die Nachricht antworten und dabei den Kaffee nicht verschütten, um dann frisch geduscht ins Zoom-Meeting zu kommen. Die konstante Überflutung unserer Reize und die wenige Zeit, die uns pro Tag zur Verfügung stehen sorgen dafür, dass es uns immer schwerer fällt, Dingen und Aufgaben unsere ungeteilte Aufmerksamkeit schenken zu können.
+
 ### Unser Ziel
-Der Grundgedanke dieses Projektes ist es, diesem Umstand entgegenzuwirken und mithilfe einer Anwedung die Konzentrationfähigkeit, aber auch die Motorik, spielerisch zu verbessern.
-Deshalb war es unser Ziel, ein Spiel zu entwickeln, das jederzeit und in kurzen Sessions gespielt und so diese Fähigkeiten Schritt für Schritt wieder trainiert werden können. Das Endprodukt was dabei entstanden ist, heißt *HexArcade*
+Der Grundgedanke dieses Projektes ist es, diesem Umstand entgegenzuwirken und mithilfe einer Anwendung die Konzentrationsfähigkeit, aber auch die Motorik, spielerisch zu verbessern. 
+Deshalb war es unser Ziel, ein Spiel zu entwickeln, das jederzeit und in kurzen Sessions gespielt und so diese Fähigkeiten Schritt für Schritt wieder trainiert werden können. Das Endprodukt was dabei entstanden ist, heißt *HexArcade*.
 
 ### Was ist HexArcade?
 
-*HexArcade* ist ein in Unity aufgebautes Mobile Game, in dem der Spieler versucht, durch kippen des Smartphones, einen Ball über ein Feld aus Hexagonen zu steuern. Es gibt jedoch nur einen korrekten Weg, um von Start- zum Zielpunkt zu gelangen. Zu Beginn leuchtet dieser Weg kurz auf und der Spieler muss versuchen, sich den Pfad so gut wie möglich in dieser Zeit zu merken. Es ist Konzentration und Geschick gefragt, um den Ball dann so schnell wie möglich ins Ziel zu bringen, vorallem weil genügend Hindernisse auf dem Weg liegen können ... 
+*HexArcade* ist ein in Unity aufgebautes Mobile-Game, in dem der Spieler versucht, durch Kippen des Smartphones, einen Ball über ein Feld aus Hexagonen zu steuern. Es gibt jedoch nur einen korrekten Weg, um von Start- zum Zielpunkt zu gelangen. Zu Beginn leuchtet dieser Weg kurz auf und der Spieler muss versuchen, sich den Pfad so gut wie möglich in dieser Zeit zu merken. Es ist Konzentration und Geschick gefragt, um den Ball dann so schnell wie möglich ins Ziel zu bringen, vor allem weil genügend Hindernisse auf dem Weg liegen können ...
 
 {{< mediathek id="cba94788b18ce2d77e1599e7135a1758" width="700" height="400" >}}
 
 ## Ausprobieren
 ### *Smartphone*
-Um das Spiel selbst testen zu können, haben wir die Android-APK als [Download](https://drive.google.com/file/d/1tryK570F06-zjGMLIh2RDeEd5exzy9O6/view?usp=sharing) zur Verfügung gestellt.
+Um das Spiel selbst testen zu können, haben wir die Android-APK als [Download](https://drive.google.com/file/d/1txTJe-h1OOw8KCR656zlLLBEdLnFh6Qr/view?usp=sharing) zur Verfügung gestellt.
 
 ### *Browser*
-Zusätzlich haben wir eine WebGL-Version erstellt, die im Browser läuft und ohne installation oder ein Android-Smartphone getestet werden kann. ([Link](https://drive.google.com/file/d/1tryK570F06-zjGMLIh2RDeEd5exzy9O6/view?))
+Zusätzlich haben wir eine WebGL-Variante erstellt, die im Browser läuft und ohne Installation oder ein Android-Smartphone getestet werden kann. [*Link zur Demo*](https://fhuu.github.io/HexArcade/).
 
   ***Anmerkung:*** *Diese Version dient eher als Ansichtsexemplar, da die Bewegungssteuerung (und damit der motorische Aspekt) hier nicht zur Geltung kommt.*
 

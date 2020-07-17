@@ -18,7 +18,7 @@ Diese Spiele funktionieren prinzipiell so, dass die Spielfigur oder das Spielfel
 * Die Nutzung des Accelerometers ([Beschleunigungssensor](https://de.wikipedia.org/wiki/Beschleunigungssensor)), der in jedem modernen Smartphone vorhanden ist, um z.B. eine Spielfigur durch Neigen des Gerätes zu steuern oder Aktionen, wie ein kurzes Schütteln, zu registrieren.
 * Das Einbinden des Gyroskopsensors ([Kreiselinstrument](https://de.wikipedia.org/wiki/Kreiselinstrument#Technische_Anwendungen)), für physikbasierte Herausforderungen und Puzzles.
 * Das Anzeigen von verschiedenen Mustern auf dem Bildschirm, die der Spieler nachzeichnen soll.
-* Ein Geschicklichkeitsspiel wie [*Ink Ball*](hhttps://de.wikipedia.org/wiki/InkBall). Hier rollt eine Kugel über ein 2D-Spielfeld und soll in farblich gekennzeichnete Löcher gelenkt werden. Die Farbe der Kugel verändert sich jedes Mal, wenn sie an einem der andersfarbigen Ränder abprallt. Der Ball wird gesteuert, indem der Spieler selbst, Wände auf dem Spielfeld einzeichnet.
+* Ein Geschicklichkeitsspiel wie [*InkBall*](hhttps://de.wikipedia.org/wiki/InkBall). Hier rollt eine Kugel über ein 2D-Spielfeld und soll in farblich gekennzeichnete Löcher gelenkt werden. Die Farbe der Kugel verändert sich jedes Mal, wenn sie an einem der andersfarbigen Ränder abprallt. Der Ball wird gesteuert, indem der Spieler selbst, Wände auf dem Spielfeld einzeichnet.
 * Ein Endless-Runner wie [*Temple-Run*](https://de.wikipedia.org/wiki/Temple_Run), jedoch langsamer und mit einem festem Levelaufbau.   
 
 
@@ -27,7 +27,7 @@ Nachdem wir über diese z.T. sehr unterschiedlichen Ideen im Team diskutiert hat
 
 * Das Nachzeichnen von Figuren auf dem Touchscreen, aber mit ablenkenden Elementen (Distraktoren), die den Spieler dabei stören.
 * Das Nachzeichnen von geometrischen Formen, durch das Steuern eines Balls Mithilfe des Gyroskop-Sensors. 
-* Das Spielprinzip von *Ink Ball*.   
+* Das Spielprinzip von *InkBall*.   
 
 
 Daraus definierten wir die Kernelemente unseres Spiels:
@@ -38,8 +38,8 @@ Daraus definierten wir die Kernelemente unseres Spiels:
 * Der Einsatz des Gyroskopsensors, um den Ball zu steuern.
 
 ### Die fertige Idee
-Auch wenn wir uns auf die Kernelemente unseres Spiels geeinigt hatten, konnten wir noch kein fertiges Spielprinzip ausformulieren.Wir wussten noch nicht, wie wir diese Elemente genau erweitern sollen, um sie mit der Thematik „Motorik und Konzentration“ sinnvoll zu kombinieren.  
+Auch wenn wir uns auf die Kernelemente unseres Spiels geeinigt hatten, konnten wir noch kein fertiges Spielprinzip ausformulieren. Wir wussten noch nicht, wie wir diese Elemente genau erweitern sollen, um sie mit der Thematik „Motorik und Konzentration“ sinnvoll zu kombinieren.  
  
-Die ausschlaggebende Inspiration kam letzten Endes durch eine ältere Kindersendung namens „Tabaluga“. In jeder Folge gab es dort das „Arktos Superspiel“. Hier sollten die teilnehmenden Kinder einem vorgegebenen Pfad über die Eisschollen folgen, um das Eis sicher zu überqueren und das Spiel zu gewinnen. Dieser Pfad leuchtete nur am Anfang Stück für Stück auf und verschwand dann. Erst danach durften die Kinder über das „Eis“ laufen.   
+Die ausschlaggebende Inspiration kam letzten Endes durch eine ältere Kindersendung namens [*Tabaluga tivi*](https://de.wikipedia.org/wiki/Tabaluga_tivi). In jeder Folge gab es dort das [*Arktos Superspiel*](https://youtu.be/lBJWc_wNoOM?t=35). Hier sollten die teilnehmenden Kinder einem vorgegebenen Pfad über die Eisschollen folgen, um das Eis sicher zu überqueren und das Spiel zu gewinnen. Dieser Pfad leuchtete nur am Anfang Stück für Stück auf und verschwand dann. Erst danach durften die Kinder über das „Eis“ laufen.   
 
-Während wir uns erneut über die Kernelemente unterhalten hatten, fielen uns die Ähnlichkeiten zu dem zuvor erwähnten Spielprinzip auf. Aus dem Zusammenspiel unserer Hauptelemente und dem „Arktos Super-Spiel“ ergab sich das finale Produkt: HexArcade.
+Während wir uns erneut über die Kernelemente unterhalten hatten, fielen uns die Ähnlichkeiten zu dem zuvor erwähnten Spielprinzip auf. Aus dem Zusammenspiel unserer Hauptelemente und dem *Arktos Superspiel* ergab sich das finale Produkt: HexArcade.
