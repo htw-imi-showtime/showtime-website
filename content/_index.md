@@ -23,6 +23,8 @@ Showtime-Übersichtsseite: [IMI-Bachelor](https://imi-bachelor.htw-berlin.de/stu
 
 ## Vortragsplan
 17.07.2020 ab 10:00 Uhr
+
+__Aus aktuellem Anlass dieser Hinweis: Die Veranstaltung findet über Zoom statt. Sie können Zoom ohne lokale Installation anonym über den Browser verwenden - wählen Sie dazu "If you cannot download or run the application, join from your browser." auf der Seite, die sich über die Links öffnet.__
 #### Vormittags (10:00 - 12:30)
 {{< table-container >}}
 ||Session 1<br>Chair: Prof. Kleinen|Session 2<br>Chair: Prof. Weber-Wulff|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
