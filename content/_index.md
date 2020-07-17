@@ -25,6 +25,7 @@ Showtime-Übersichtsseite: [IMI-Bachelor](https://imi-bachelor.htw-berlin.de/stu
 17.07.2020 ab 10:00 Uhr
 
 __Aus aktuellem Anlass dieser Hinweis: Die Veranstaltung findet über Zoom statt. Sie können Zoom ohne lokale Installation anonym über den Browser verwenden - wählen Sie dazu "If you cannot download or run the application, join from your browser." auf der Seite, die sich über die Links öffnet.__
+Passwörter für die Sessions stehen unten.
 #### Vormittags (10:00 - 12:30)
 {{< table-container >}}
 ||Session 1<br>Chair: Prof. Kleinen|Session 2<br>Chair: Prof. Weber-Wulff|Session 3<br>Erweitertes Q&A aus Session 1|Session 4<br>Erweitertes Q&A aus Session 2|
@@ -63,5 +64,11 @@ __Aus aktuellem Anlass dieser Hinweis: Die Veranstaltung findet über Zoom statt
 |---|---|---|---|---|
 |Raum|Zoom -- Prof. Dr. Barne Kleinen|Zoom -- Prof. Dr. Debora Weber-Wulff|Zoom Session 3|Zoom Session 4|
 |Link|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/88598173582?pwd=WVdGSVpsNDVCYzRUNjExbkc0a0F1QT09)|[&rightarrow; Raum beitreten](https://us02web.zoom.us/j/83796491998?pwd=LzVtaWRpSjF2azdLTVBwT0paTDZadz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/9921334198?pwd=TElqNDkyQjlzVUlicDVVQkNyeHg1Zz09)|[&rightarrow; Raum beitreten](https://zoom.us/j/6390447430?pwd=cFJ6c0ZCcXMvVUsxeldTR3VuZkNiZz09)|
-
+||Meeting ID: 885 981 73582 |Meeting ID: 837 9649 1998 | Meeting ID: 992 133 4198 | Meeting ID: 639 044 7430
+||Password: 7acQVH |Password: 3i6jpQ | Password: 4AQaXh | Password: 4HXPT
+|| Numeric Password: 476092 |Numeric Password: 570113 | Numeric Password: 348466 | Numeric Password: 032730 | 
+  
+  
+  
+  
 {{</ table-container >}}
