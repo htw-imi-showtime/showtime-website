@@ -1,0 +1,45 @@
+[[slot]]
+  title = "Opening"
+  projectDetail = ""
+  class = "general"
+
+[[slot]]
+  title = "A Bachelor Project"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[slot]]
+  title = "A Master Project"
+  projectDetail = "#"
+  class = "master"
+
+[[slot]]
+  title = ""
+  projectDetail = ""
+  class = "empty"
+
+[[slot]]
+  title = ""
+  projectDetail = ""
+  class = "empty"
+
+[[slot]]
+  title = "Another Bachelor Project"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[slot]]
+  title = "Another Master Project"
+  projectDetail = "#"
+  class = "master"
+
+[[schedule]]
+  title = "Another Bachelor Project Q&A"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[schedule]]
+  title = "Another Master Project Q&A"
+  projectDetail = "#"
+  class = "master"
+
