@@ -1,7 +1,14 @@
 [[slot]]
+  time = "10:00"
+  class = "time"
+
+[[slot]]
   title = "Opening"
-  projectDetail = ""
   class = "general"
+
+[[slot]]
+  time = "10:30"
+  class = "time"
 
 [[slot]]
   title = "A Bachelor Project"
@@ -14,14 +21,14 @@
   class = "master"
 
 [[slot]]
-  title = ""
-  projectDetail = ""
   class = "empty"
 
 [[slot]]
-  title = ""
-  projectDetail = ""
   class = "empty"
+
+[[slot]]
+  time = "11:00"
+  class = "time"
 
 [[slot]]
   title = "Another Bachelor Project"
@@ -33,13 +40,80 @@
   projectDetail = "#"
   class = "master"
 
-[[schedule]]
+[[slot]]
   title = "Another Bachelor Project Q&A"
   projectDetail = "#"
   class = "bachelor"
 
-[[schedule]]
+[[slot]]
   title = "Another Master Project Q&A"
   projectDetail = "#"
   class = "master"
 
+[[slot]]
+  time = "11:30"
+  class = "time"
+
+[[slot]]
+  title = "Yet Another Bachelor Project"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[slot]]
+  title = "A Very Long Master Project Title in Three Lines"
+  projectDetail = "#"
+  class = "master"
+
+[[slot]]
+  title = "One More Bachelor Project"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[slot]]
+  title = "One More Master Project"
+  projectDetail = "#"
+  class = "master"
+
+[[slot]]
+  time = "12:00"
+  class = "time"
+
+[[slot]]
+  title = "Another Bachelor Project"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[slot]]
+  title = "Another Master Project"
+  projectDetail = "#"
+  class = "master"
+
+[[slot]]
+  title = "Another Bachelor Project Q&A"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[slot]]
+  title = "Another Master Project Q&A"
+  projectDetail = "#"
+  class = "master"
+
+[[slot]]
+  time = "11:30"
+  class = "time"
+
+[[slot]]
+  class = "empty"
+
+[[slot]]
+  class = "empty"
+
+[[slot]]
+  title = "One More Bachelor Project"
+  projectDetail = "#"
+  class = "bachelor"
+
+[[slot]]
+  title = "One More Master Project"
+  projectDetail = "#"
+  class = "master"
