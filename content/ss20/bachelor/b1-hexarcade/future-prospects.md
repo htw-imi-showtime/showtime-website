@@ -1,11 +1,7 @@
 +++
-title = "4. Ausblick"
-
-# These properties may be removed if you don't need them
-
+title = "Ausblick"
+weight = 4
 +++
-
-{{< back >}}
 
 Einer der wesentlichen Gründe, warum wir uns schnell auf unser Spielekonzept einigen konnten, war, dass es sehr gut skalierbar ist. Während der Entwicklungsphase sind uns viele weitere Ideen und Elemente eingefallen, mit denen unser Konzept erweitert werden könnte.   
 
