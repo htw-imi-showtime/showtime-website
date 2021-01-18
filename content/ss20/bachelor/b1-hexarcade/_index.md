@@ -39,12 +39,3 @@ Um das Spiel selbst testen zu können, haben wir die Android-APK als [Download](
 Zusätzlich haben wir eine WebGL-Variante erstellt, die im Browser läuft und ohne Installation oder ein Android-Smartphone getestet werden kann. [*Link zur Demo*](https://fhuu.github.io/HexArcade/).\
 ***Anmerkung:*** *Diese Version dient eher als Ansichtsexemplar, da die Bewegungssteuerung (und damit der motorische Aspekt) hier nicht zur Geltung kommt.*
 {{</section>}}
-
-
-## Weitere Inhalte
-* [Über uns](about-us)
-* [Ideenfindung](idea-finding)
-* [Plattform- und Designentscheidung](platform-and-design)
-* [Ausblick](future-prospects)
-* [Videos](videos)
-* [Galerie](gallery)

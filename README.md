@@ -38,10 +38,10 @@ git submodule update --init --recursive
 ```
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ws21/bachelor/b-example-project/ content/ws21/bachelor/b#-your-project/
+cp -R content/ws21/bachelor/b0-template-project/ content/ws21/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws21/master/m-example-project/ content/ws21/master/m#-your-project/
+cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
@@ -49,7 +49,7 @@ cp -R content/ws21/master/m-example-project/ content/ws21/master/m#-your-project
    **Please don't use headings (hashtags) directly, since regular headings won't be displayed correctly.**\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
    You may also create subpages (`page-name.md`) and put images or videos in your project's directory (**less than 100 MB per file**, please upload videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)).
-   For an example on how to include videos, images, quotes and GitHub gists, please have a look at the documentation below or the example project in `content/ws21/bachelor/b0-test-project`.
+   For an example on how to include videos, images, quotes and GitHub gists, please have a look at the documentation below or the examples included in the template projects.
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
 7. Add your changes to the index, commit them to the repository and push them to GitHub:
 ```
