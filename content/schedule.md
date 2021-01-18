@@ -1,5 +1,5 @@
 +++
-title = "Schedule IMI×ST 20/21"
+title = "Schedule IMI×ST"
 layout = "schedule"
 +++
 
