@@ -1,6 +1,9 @@
 [submodule "themes/showtime"]
 	path = themes/showtime
 	url = ../../htw-imi-showtime/showtime-hugo-theme.git
+[submodule "themes/showtime-theme-2021"]
+	path = themes/showtime-theme-2021
+	url = ../../htw-imi-showtime/showtime-theme-2021.git
 [submodule "themes/showtime-2021"]
 	path = themes/showtime-2021
 	url = ../../htw-imi-showtime/showtime-theme-2021.git
