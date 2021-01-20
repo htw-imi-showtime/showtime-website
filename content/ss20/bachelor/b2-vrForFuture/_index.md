@@ -7,7 +7,9 @@ card_description = "Product Vision: 'We want to create a virtual reality game by
 
 # These properties may be removed if you don't need them
 source_link = "https://github.com/VRForFuture/HuntersPathsPublic"
+demo_link = "https://github.com/VRForFuture/HuntersPathsBuilds"
 website_link = "https://vrforfuture.github.io/"
+
 +++
 {{< menu >}}
 
@@ -47,10 +49,15 @@ It provides a wireless VR experience, therefore we optimized our game to run wit
 We are all astonished about VR technology and confident about it's role in the future.
 {{< image src="teamwhite.png" alt="project image" width="1000">}}
 
-## Project Preview
+## Preview
 {{< mediathek id="c87d906e6b56b37e2747dc37b6a19a1d" width="1000" height="600" >}}
+
+## Presentation
+{{< mediathek id="359dbce2e6500d860a22c7250a2303a1" width="1000" height="600" >}}
 
 ## More Content
 - [Videos](videos)
 - [Pictures](pictures)
 - [Homepage](https://vrforfuture.github.io/)
+- [Donwload](https://github.com/VRForFuture/HuntersPathsBuilds)
+- [Source Code](https://github.com/VRForFuture/HuntersPathsPublic)
