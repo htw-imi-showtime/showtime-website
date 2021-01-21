@@ -2,8 +2,6 @@
 title = "Pictures"
 +++
 
-{{< back >}}
-
 {{< image "preview.jpg">}}
 
 {{< image "level1a.jpg">}}
