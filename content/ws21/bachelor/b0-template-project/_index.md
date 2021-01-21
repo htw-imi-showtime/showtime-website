@@ -39,7 +39,7 @@ The HTML blockquote Element (or HTML Block Quotation Element) indicates that the
 {{</quote>}}
 
 {{<section title="The Team">}}
-How did you **split the work load**? Who was responsible for the front end? What obstacles did you overcome?
+How did you **split the work load**? Who was responsible for the front end? What obstacles did you overcome regarding team work?
 Some teams of previous terms shared pictures of themselves, some did not.
 It's up to you. Also keep in mind that **you don't have to follow the structure of this template**.
 It is just a suggestion. If you upload **pictures of the team members** make sure they **are square!**

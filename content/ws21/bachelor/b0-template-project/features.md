@@ -29,8 +29,9 @@ the insects and flies, then I feel **the presence of the Universe**, which forme
 and the breath of that universal love which bears and sustains us, as it floats around us in an
 **eternity of bliss;** and then, my friend, when darkness overspreads my eyes, and heaven and earth
 seem to dwell in my soul and absorb its power.
-
 {{</section>}}
+
+{{<gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd">}}
 
 {{<section title="A Copy-pasted Feature">}}
 And, as I lie **close to the earth**, a thousand unknown plants are noticed by me: when I hear the buzz
@@ -43,10 +44,17 @@ seem to dwell in my soul and absorb its power.
 Have a look at **this list:**
 * You get a list item
 * And you get a list item
-* And you get a list item
 * And you as well
 * And you get a list item
 * EvErYbOdY gEtS a LiSt ItEm!!!
+
 {{</section>}}
 
-{{<mediathek id="447fbfc91fd121a16b124417cd2c65ae" title="And now... showtime!">}}
+{{<mediathek id="447fbfc91fd121a16b124417cd2c65ae" title="Explanatory Video">}}
+
+ I sink under the weight of the splendour of these visions!A wonderful serenity
+ has taken possession of my entire soul, like these sweet mornings of spring
+ which I enjoy with my whole heart. I am alone, and feel the charm of existence
+ in this spot, which was created for the bliss of souls like mine. I am so happy,
+ my dear friend, so absorbed in the exquisite sense of mere tranquil existence,
+ that I neglect my talents.
