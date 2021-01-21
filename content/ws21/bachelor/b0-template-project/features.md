@@ -3,63 +3,50 @@ title = "Features"
 weight = 1
 +++
 
-Hier könnte jetzt eine kurze Einleitung zu der Features-Seite stehen.
-Ich übe mich hier jedoch stattdessen etwas im Creative Writing und erfinde einen Beispiel-Text, damit die Template-Seite nicht komplett leer ist, sondern schon ein bisschen Inhalt enthält.
-Die einzelnen Features könnten dann so ähnlich wie die untenstehenden Platzhalter auf der Seite präsentiert werden :)
+Dive into your software. **Describe its features** with screenshots, graphics and videos
+or mabye **explain essential algorithms** via code snippets. What are the strengths of your App? *Sell* your product. 
 
-{{<section title="Projects List">}}
-The projects list provides an overview over all the projects of the current semester.
-The projects are sorted using in some kind of way so that it looks really nice, with alternating sides and everything.
-This text is still kinda short, so I'm just gonna add some more words to it.
-If you need a recipe for delicious chocolate cookies, let me know. I found a great one a few years ago.
-Those cake-based ipsum texts really do make me hungry.
-And now some image content for your viewing pleasure.
+{{<section title="A Nice Feature">}}
+A wonderful serenity has taken possession of my entire soul,
+like these **sweet mornings of spring** which I enjoy with my whole heart.
+I am alone, and feel the charm of existence in this spot,
+which was created for the bliss of souls like mine.
+**I am so happy,** my dear friend, so absorbed in the **exquisite sense of mere tranquil existence**,
+that I neglect my talents.
 {{</section>}}
 
-{{<image src="tobii-calibration.png" alt="tobii eye tracker calibration screen" caption="The calibration screen for the Tobii Eye Tracker">}}
+{{<image src="dummy_feature_image_01.png" alt="An Essential Functionality" caption="An Essential Functionality">}}
 
-{{<section title="Another feature">}}
-Jujubes liquorice marshmallow candy sugar plum tiramisu. Wafer icing danish donut. 
-Bonbon macaroon pastry brownie tiramisu gingerbread tart. 
-Tiramisu jelly-o chocolate lemon drops pie sweet roll donut marzipan. 
-Cotton candy brownie macaroon marshmallow candy. Bonbon croissant liquorice cookie. 
-Marzipan apple pie candy croissant. Candy canes bear claw chocolate marzipan topping. 
-Marshmallow topping sugar plum. Sweet roll pudding bear claw. 
-Biscuit apple pie chocolate bar jelly candy canes liquorice. Sesame snaps gummi bears cake. 
-Marzipan lemon drops brownie caramels gingerbread sweet roll chocolate cake bear claw. 
-Candy canes bonbon pie powder tiramisu cake topping gummi bears cake.
+I should be incapable of drawing a single stroke at **the present moment**; and yet I feel that I never was
+a greater artist than now. When, while the lovely valley teems with vapour around me, and the **meridian
+sun** strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal
+into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;
 
-Pudding donut cake bonbon cake bonbon marzipan. Candy soufflé halvah halvah powder muffin pudding bonbon. 
-Tiramisu tootsie roll chocolate bar jelly gummies. Jelly donut ice cream donut. 
-Cake sesame snaps cake sweet brownie jelly ice cream. 
-Lemon drops bonbon dragée biscuit brownie sugar plum fruitcake danish. Sweet roll jelly-o wafer gingerbread. 
-Tootsie roll marzipan soufflé pudding chupa chups chocolate. 
-Jelly-o muffin powder lemon drops pastry chupa chups. 
-Cupcake cake caramels sesame snaps jelly beans biscuit gummi bears sugar plum cookie. 
-Jelly tootsie roll liquorice halvah. Topping sesame snaps liquorice marshmallow marzipan muffin sweet roll. 
-Biscuit wafer lollipop.
+{{<section title="Another Feature">}}
+And, as I lie **close to the earth**, a thousand unknown plants are noticed by me: when I hear the buzz
+of the little world among the stalks, and grow familiar with the countless indescribable forms of
+the insects and flies, then I feel **the presence of the Universe**, which formed us in its own image,
+and the breath of that universal love which bears and sustains us, as it floats around us in an
+**eternity of bliss;** and then, my friend, when darkness overspreads my eyes, and heaven and earth
+seem to dwell in my soul and absorb its power.
+
 {{</section>}}
 
-{{<section title="A copy-pasted feature">}}
-Jujubes liquorice marshmallow candy sugar plum tiramisu. Wafer icing danish donut.
-Bonbon macaroon pastry brownie tiramisu gingerbread tart.
-Tiramisu jelly-o chocolate lemon drops pie sweet roll donut marzipan.
-Cotton candy brownie macaroon marshmallow candy. Bonbon croissant liquorice cookie.
-Marzipan apple pie candy croissant. Candy canes bear claw chocolate marzipan topping.
-Marshmallow topping sugar plum. Sweet roll pudding bear claw.
-Biscuit apple pie chocolate bar jelly candy canes liquorice. Sesame snaps gummi bears cake.
-Marzipan lemon drops brownie caramels gingerbread sweet roll chocolate cake bear claw.
-Candy canes bonbon pie powder tiramisu cake topping gummi bears cake.
+{{<section title="A Copy-pasted Feature">}}
+And, as I lie **close to the earth**, a thousand unknown plants are noticed by me: when I hear the buzz
+of the little world among the stalks, and grow familiar with the countless indescribable forms of
+the insects and flies, then I feel **the presence of the Universe**, which formed us in its own image,
+and the breath of that universal love which bears and sustains us, as it floats around us in an
+**eternity of bliss;** and then, my friend, when darkness overspreads my eyes, and heaven and earth
+seem to dwell in my soul and absorb its power.
 
-Pudding donut cake bonbon cake bonbon marzipan. Candy soufflé halvah halvah powder muffin pudding bonbon.
-Tiramisu tootsie roll chocolate bar jelly gummies. Jelly donut ice cream donut.
-Cake sesame snaps cake sweet brownie jelly ice cream.
-Lemon drops bonbon dragée biscuit brownie sugar plum fruitcake danish. Sweet roll jelly-o wafer gingerbread.
-Tootsie roll marzipan soufflé pudding chupa chups chocolate.
-Jelly-o muffin powder lemon drops pastry chupa chups.
-Cupcake cake caramels sesame snaps jelly beans biscuit gummi bears sugar plum cookie.
-Jelly tootsie roll liquorice halvah. Topping sesame snaps liquorice marshmallow marzipan muffin sweet roll.
-Biscuit wafer lollipop.
+Have a look at **this list:**
+* You get a list item
+* And you get a list item
+* And you get a list item
+* And you as well
+* And you get a list item
+* EvErYbOdY gEtS a LiSt ItEm!!!
 {{</section>}}
 
 {{<mediathek id="447fbfc91fd121a16b124417cd2c65ae" title="And now... showtime!">}}
