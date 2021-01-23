@@ -45,4 +45,11 @@ It's up to you. Also keep in mind that **you don't have to follow the structure 
 It is just a suggestion. If you upload **pictures of the team members** make sure they **are square!**
 {{</section >}}
 
-{{<team>}}
+{{<gallery>}}
+{{<team-member image="dummy_portrait_01.jpg" name="Thomas Thomassen">}}
+{{<team-member image="dummy_portrait_02.jpg" name="Melissa Melissano">}}
+{{<team-member image="dummy_portrait_03.jpg" name="Jens Jensson">}}
+{{<team-member image="dummy_portrait_04.jpg" name="Melanie McMelly">}}
+{{<team-member image="dummy_portrait_05.jpg" name="Jack Jackson">}}
+{{<team-member image="dummy_portrait_06.jpg" name="Catherine Cateré">}}
+{{</gallery>}}
