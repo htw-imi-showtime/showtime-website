@@ -1,6 +1,5 @@
 +++
 title = "Tech Stack"
-project_id = "B0"
 weight = 3
 +++
 
