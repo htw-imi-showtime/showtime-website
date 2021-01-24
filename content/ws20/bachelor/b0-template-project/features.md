@@ -4,7 +4,7 @@ weight = 1
 +++
 
 Dive into your software. **Describe its features** with screenshots, graphics and videos
-or mabye **explain essential algorithms** via code snippets. What are the strengths of your App? *Sell* your product. 
+or maybe **explain essential algorithms** via code snippets. What are the strengths of your App? *Sell* your product. 
 
 {{<section title="A Nice Feature">}}
 A wonderful serenity has taken possession of my entire soul,
@@ -52,7 +52,7 @@ Have a look at **this list:**
 
 {{<mediathek id="447fbfc91fd121a16b124417cd2c65ae" title="Explanatory Video">}}
 
- I sink under the weight of the splendour of these visions!A wonderful serenity
+ I sink under the weight of the splendour of these visions! A wonderful serenity
  has taken possession of my entire soul, like these sweet mornings of spring
  which I enjoy with my whole heart. I am alone, and feel the charm of existence
  in this spot, which was created for the bliss of souls like mine. I am so happy,
