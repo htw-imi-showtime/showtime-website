@@ -10,6 +10,7 @@ The official IMI showtime website
 * [Adding a new project](#Adding-a-new-project)
 * [Updating your Fork](#Updating-your-Fork)
 * [Including additional content](#Including-additional-content)
+  * [Sections](#Sections)
   * [Images](#Images)
   * [Videos](#Videos)
   * [HTW Mediathek Player](#HTW-Mediathek-Player)
@@ -38,28 +39,31 @@ git submodule update --init --recursive
 ```
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ws21/bachelor/b0-template-project/ content/ws21/bachelor/b#-your-project/
+cp -R content/ws20/bachelor/b0-template-project/ content/ws20/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-project/
+cp -R content/ws20/master/m0-template-project/ content/ws20/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-5. Fill out your project's homepage `content/ws21/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
-   **Please don't use headings (hashtags) directly, since regular headings won't be displayed correctly.**\
+5. Fill out your project's homepage `content/ws20/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+   **Please don't use Markdown headings (hashtags) directly, since those headings won't be displayed correctly.**
+   Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
-   You may also create subpages (`page-name.md`) and put images or videos in your project's directory (**less than 100 MB per file**, please upload videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)).
+   You may also put images in your project's directory (**less than 100 MB per file**, please upload videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)).
    For an example on how to include videos, images, quotes and GitHub gists, please have a look at the documentation below or the examples included in the template projects.
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
-7. Add your changes to the index, commit them to the repository and push them to GitHub:
+7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add .
+git add content/ws20/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
 8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
-Once your branch was merged, you may view your project's page on https://htw-imi-showtime.github.io/
+Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/
+
+One week before the Showtime takes place, the website will be published on our production server: https://showtime.f4.htw-berlin.de/
 
 ## Updating your Fork
 
@@ -85,6 +89,16 @@ replaces the Showtime Fair with the booths and posters. Please consider
 - please reduce the file sizes for all images and videos that are included in the site
 
 **Please do not add new subpages or change the names of the included subpages. We want all the projects to have a similar structure, so the website is more consistent for visitors.**
+
+### Sections
+A section "pairs" a text block (one or multiple paragraphs) with a heading.
+```handlebars
+{{<section title="This is a heading">}}
+Put your paragraph's content here.
+It may also contain line breaks (insert a backslash at the end of a line of text) or multiple paragraphs (blocks of text separated by an empty line).
+Please have a look at the template projects for more examples :)
+{{</section>}}
+```
 
 ### Images
 Note that the description parameter is optional and may be left out for disabling the caption.
