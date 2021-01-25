@@ -32,10 +32,13 @@ git clone --depth 1 --recurse-submodules git@github.com:<your-account>/showtime-
 cd showtime-website
 ```
 
-3. [Install Hugo](https://gohugo.io/getting-started/installing) from https://gohugo.io \
+3. [Install Hugo (extended)](https://gohugo.io/getting-started/installing) from https://gohugo.io \
    You can check your installation by executing `hugo server` and visiting
    http://localhost:1313/ in your browser.
-   If you get an error - did you forget to clone the submodules? If so, you can get the theme submodule by running
+   If you get an error:
+   * Did you forget to clone the submodules? If so, you can get the theme submodule by running
+   * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
+   
 ```
 git submodule update --init --recursive
 ```
