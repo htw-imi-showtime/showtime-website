@@ -27,8 +27,10 @@ We made a lot of use of the review functionality in GitHub, because we had decid
 {{</section>}}
 
 {{<section title="Maya & Blender">}}
-For some of our needs, we couldn't find any free or affordable assets that would suit our needs perfectly.
-This is why, some of us dug out their past knowledge of Maya from the attic, and used it to model some small 3D objects for our game, such as the “Drawing-Symbols”, in Maya and later on in Blender too.
+For some of our ideas we could not find any free or affordable assets that would suit our needs perfectly. So we created them ourselves first in Maya, then in Blender.
+We started with Maya because we already had some experience with it thanks to the IMI 3D-Design course. However we realized, 
+that the support and help provided by the community is way more active on Youtube with another 3D-Modeling software, Blender. 
+So we started to use Blender and achieved some satisfying results.
 {{</section>}}
 
 {{<section title="Project Management">}}
