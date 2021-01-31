@@ -6,7 +6,7 @@ weight = 3
 {{<image src="tech-stack-kiss.png" alt="tech stack visualized" caption="Our tech stack">}}
 
 {{<section title="Tech Stack">}}
-#### Flutter™️/Dart
+#### Flutter™️
 The first step of the journey to our finished app was choosing a framework that meets our requirements. We had very little experience with app development, so it was necessary to do some self-reliant research  first and we ended up with two candidates: React Native and Flutter
 and we decided on the latter.
 The framework Flutter gained a lot of popularity among App-Developers in recent years.
