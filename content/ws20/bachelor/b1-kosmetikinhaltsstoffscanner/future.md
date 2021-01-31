@@ -15,7 +15,7 @@ The European Commission has other datasets that are related to the CosIng datase
 There are a couple of common allergies like peanuts and shellfish out there. Our idea is to have **groups** for these allergies. Once a user selects one of the products, we **mark all the related allergies** to that product. It should make the **initial setup** of our app a little **easier**.
 
 #### Advanced camera
-While our camera does what it is supposed to do, it is still pretty bare bones. **Post-processing for our images** is the keyword here. Little things like **adjusting the brightness** so the text recognition has an easier time recognizing the text. We also want to give the user options like **turning on the flashlight** etc.
+While our camera does what it is supposed to do, it is still pretty bare bones. **Post-processing for our images** is the keyword here. Little things like **adjusting the brightness** so the text recognition has an easier time recognising the text. We also want to give the user options like **turning on the flashlight** etc.
 
 #### Barcode scanning
 There are a couple of apps out there that can scan the barcode of cosmetic products. While scanning the text is generally a better idea because not all products have barcodes on them, scanning the barcode still has a **couple of perks**, so **providing both options** is something we will look into as an upcoming feature.

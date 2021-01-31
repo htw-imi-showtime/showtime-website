@@ -3,25 +3,26 @@ title = "Features"
 weight = 1
 +++
 
-Dive into your software. **Describe its features** with screenshots, graphics and videos
-or maybe **explain essential algorithms** via code snippets. What are the strengths of your App? *Sell* your product. 
 
-{{<section title="A Nice Feature">}}
-A wonderful serenity has taken possession of my entire soul,
-like these **sweet mornings of spring** which I enjoy with my whole heart.
-I am alone, and feel the charm of existence in this spot,
-which was created for the bliss of souls like mine.
-**I am so happy,** my dear friend, so absorbed in the **exquisite sense of mere tranquil existence**,
-that I neglect my talents.
+{{<section title="Feature set">}}
+#### Offline Data
+Our app is completely offline compatible
+We have **over 30.000 ingredients** stored in our data set.
+It was important for us to guarantee that the user is always able to use the app. Therefore we didn't want to rely on an internet connection.
+
+#### Text Recognition/Filtering
+Our app uses the Firebase ML text recognition to recognise the ingredients on the back of the product.
+
+The **backside** of a product is **full of information that isn't interesting to us or our app**. So **filtering out** the information we need was quite **important for the performance** of our app. 
+Some things that our app takes into account is **how** the **ingredients are separated**. It differs from product to product how they separate the ingredients, **some use commas**, some use **dashes**, some just use **spaces**. For our app to scan products as fast as possible, we need to recognise which word is an ingredient and which isn't, so our search algorithm doesn't have to search for words that aren't ingredients. 
+Another way to improve our text filter was to **look for the word 'ingredients'** or variations of it. In most cases, the list of ingredients starts with the word 'ingredients', so **finding this word** in our text **helped us locate the list of ingredients** in our scanned text.
+
+#### Allergies
+One of our **core features** is the allergy feature. This feature **derived from one of our User Personas** that we created for our app. **People with allergies** can use our app to **manage** them and use it as a **signal** for whenever they are about to **buy a product they are allergic to**.  
+
 {{</section>}}
 
-{{<image src="dummy_feature_image_01.png" alt="An Essential Functionality" caption="An Essential Functionality">}}
-
-I should be incapable of drawing a single stroke at **the present moment**; and yet I feel that I never was
-a greater artist than now. When, while the lovely valley teems with vapour around me, and the **meridian
-sun** strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal
-into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;
-
+<!--{{<image src="dummy_feature_image_01.png" alt="An Essential Functionality" caption="An Essential Functionality">}} -->
 {{<section title="String matching algorithm">}}
 Levenshtein distance is an **approximate string matching algorithm**, which calculates the distance between two words. 
 The distance is calculated via the three operations: **insertion, deletion and substitution**.
@@ -32,7 +33,7 @@ We used this algorithm in **combination** with the **Trie data structure** in or
 {{<gist "jonathanjander" "a56dde942b2aa9ad7e78887e6086fc97">}}
 
 
-{{<section title="A Copy-pasted Feature">}}
+<!--{{<section title="A Copy-pasted Feature">}}
 And, as I lie **close to the earth**, a thousand unknown plants are noticed by me: when I hear the buzz
 of the little world among the stalks, and grow familiar with the countless indescribable forms of
 the insects and flies, then I feel **the presence of the Universe**, which formed us in its own image,
@@ -57,3 +58,4 @@ Have a look at **this list:**
  in this spot, which was created for the bliss of souls like mine. I am so happy,
  my dear friend, so absorbed in the exquisite sense of mere tranquil existence,
  that I neglect my talents.
+ -->

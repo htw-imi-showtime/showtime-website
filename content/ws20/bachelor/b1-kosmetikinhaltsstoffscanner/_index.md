@@ -25,9 +25,9 @@ For most people, the chemical ingredients on the back of cosmetic products are m
 Very few people understand what a "Prunus Amygdalus Dulcis Oil" is. This is where our app comes into place. We wanted to **help people understand** what it **means** and what it **does**. The **work** that the user has to put in to get the information needed, should be **as little as possible**. It also **shouldn't be dependant** on factors like a **good internet connection** or a **barcode**. 
 {{</section>}}
 
-{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="me">}}
+<!--{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="me">}}
 yeet
-{{</quote>}}
+{{</quote>}} -->
 
 {{<section title="The Team">}}
 Jonathan, Henry and Anton were initially responsible for the backend. 
