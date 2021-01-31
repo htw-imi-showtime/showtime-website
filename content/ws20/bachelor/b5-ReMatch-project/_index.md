@@ -21,7 +21,7 @@ Head over [here](https://rematch-htw.herokuapp.com) to explore our application.
 {{<mediathek id="cba94788b18ce2d77e1599e7135a1758">}}
 
 {{<section title="Our Goals">}}
-The recruiting process can be too centered around hard skills and tech stack, while **soft skills**, common values and cultural compatibility are the true factors, which determine how well a team is going to work together. We in **ReMatch** want to change this. ReMatch also aims to **fight bias** by bringing a diverse pool of talents and delegating the initial screening process from humans to software. It creates **equal opportunity** for job-seekers to be seen purely based on their skills and personality. Finding fitting candidates also **saves the companies time and money**, since employees won’t resign after a couple months due to poor cultural fits. 
+The recruiting process can be too centered around hard skills and tech stack, while **soft skills**, common values and **cultural compatibility** are the true factors, which determine how well a team is going to work together. We in **ReMatch** want to change this. ReMatch also aims to **fight bias** by bringing a **diverse pool of talents** and delegating the initial screening process from humans to software. It creates **equal opportunity** for job-seekers to be seen purely based on their skills and personality. Finding fitting candidates also **saves the companies time and money**, since employees won’t resign after a couple months due to poor cultural fits. 
 {{</section>}}
 
 {{<quote source="https://textexpander.com/blog/21-recruitment-quotes-for-inspiration-motivation/" caption="Jim Collins, Lecturer and Author of Good to Great">}}
@@ -30,10 +30,9 @@ Great vision without great people is irrelevant.
 
 {{<section title="The Team">}} 
 <!-- TODO -->
-How did you **split the work load**? Who was responsible for the front end? What obstacles did you overcome regarding team work?
-Some teams of previous terms shared pictures of themselves, some did not.
-It's up to you. Also keep in mind that **you don't have to follow the structure of this template**.
-It is just a suggestion. If you upload **pictures of the team members** make sure they **are square!**
+- We rotated frontend and backend tasks within the team 
+- This way everyone could work on what they were experienced in and also improve on what they were unfamiliar with
+
 {{</section >}}
 
 {{<gallery>}}
