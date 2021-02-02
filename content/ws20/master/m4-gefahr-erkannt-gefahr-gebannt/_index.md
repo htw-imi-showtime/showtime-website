@@ -1,27 +1,25 @@
 +++
-title = "Gefahr erkannt, Gefahr gebannt - VR Lernanwendung zur Vermittlung von Arbeitsschutzmaßnahmen"
+title = "Gefahr erkannt, Gefahr gebannt"
 project_id = "M4"
 
 # Properties for displaying the project in the project list
 card_image = "project_image.png"
-card_description = "This is a template project for creating new master's projects. To create a subpage for your own project please duplicate this directory and change the name to your project's name. Add your project's main info in the header of the _index.md file in your project's root directory. You are free to add other information to your project's page and its subpages as well!"
+card_description = "Gefahr erkannt, Gefahr gebannt is a VR learning application for teaching occupational safety measures. We developed a virtual reality application which aims to teach safety precautions for trainees in  metal workshops. In our simulation, users can process basic materials with various tools modeled after real examples, and must be careful to not hurt themselves. While doing so, they must choose the proper safety equipment to wear while operating their machines as well as operate the machines properly to avoid ‘brutal’ injuries. Can you complete the work assignment while keeping all your fingers?"
 
 # These properties may be removed if you don't need them
-source_link = "https://github.com/htw-imi-showtime/showtime-website/"
-demo_link = "https://htw-imi-showtime.github.io/"
-website_link = "https://htw-berlin.de/"
+source_link = "https://code.fki.htw-berlin.de/cm/studierendenprojekte/mp-vrarbeitsschutz/development"
+# demo_link = "https://htw-imi-showtime.github.io/"
+# website_link = "https://htw-berlin.de/"
 
 team = ["Adrian Sabrowski", "Marvin Kullick", "Konrad Ukens", "Julian Bechthold"]
 supervisor = "Tamara Voigt, Martin Steinicke"
 +++
 
-Gummies carrot cake powder. Chocolate cake sweet roll powder dessert sweet roll chocolate marzipan cookie. 
-Cupcake candy cookie chocolate chupa chups biscuit lemon drops. 
-Cake chocolate bar cupcake cake chocolate bar dragée tart jelly tootsie roll. 
-Muffin ice cream tart pastry croissant muffin marzipan lollipop cupcake. 
-Topping gummi bears jelly biscuit cupcake sesame snaps halvah. Cake gingerbread biscuit. 
-Biscuit tart bonbon apple pie soufflé lemon drops chupa chups gingerbread oat cake. Sweet roll pie lollipop. 
-Apple pie sweet macaroon. Gummi bears candy lollipop. Biscuit muffin sweet roll fruitcake macaroon.
+'Gefahr erkannt, Gefahr gebannt' is a VR learning application for teaching occupational safety measures.
+We developed a virtual reality application which aims to teach safety precautions for trainees in  metal workshops.
+In our simulation, users can process basic materials with various tools modeled after real examples, and must be careful to not hurt themselves.
+While doing so, they must choose the proper safety equipment to wear while operating their machines as well as operate the machines properly to avoid ‘brutal’ injuries.
+Can you complete the work assignment while keeping all your fingers?
 
 {{<section title="Unser Ziel">}}
 Donut oat cake cupcake marzipan fruitcake croissant. Pastry **brownie pie cake**. 
