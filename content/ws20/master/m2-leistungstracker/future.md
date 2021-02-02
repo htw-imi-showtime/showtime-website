@@ -8,7 +8,7 @@ While we accomplished a lot and were able to set up a project with a very well-t
 {{<section title="Future features">}}
 - Proper planning of sessions
 - Chats
-- Medical shit
+- Medical info & treatments
 - Some other stuff
 {{</section>}}
 
