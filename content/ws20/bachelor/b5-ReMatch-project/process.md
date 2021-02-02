@@ -3,19 +3,23 @@ title = "Process"
 weight = 2
 +++
 
-{{<section title="Research">}}
-- **Research on Information Retrieval Systems**
-
-Compared ElasticSearch, machine learning tools and other information retrieval systems to decide which tool will help us best for our match-making algorithm.  
+{{<section title="Research">}} 
 - **Benchmarking & Market Research**
 
 Compared thoroughly the existing hiring platforms on the market and found out the common issues that users faced while using these platforms. 
 
 Created surveys with Google Forms to research user experience with different hiring platforms. 
+{{<image src="market research.svg" alt="market research">}}
 
 - **User Research Surveys**
 
 Conducted surveys to assess the important aspects of the employment process and to figure out the right questions to ask in order to find the top match.
+{{<image src="user research.svg" alt="users research">}}
+
+- **Research on Information Retrieval Systems**
+
+Compared ElasticSearch, machine learning tools and other information retrieval systems to decide which tool will help us best for our match-making algorithm. 
+
 - **Web Scraping Data with Help of Python**
 
 Practiced web scraping from the Stackoverflow jobs & career page to have sample data for job offers and these data are used later on for testing.  
@@ -52,10 +56,14 @@ with Node.js, Express & MongoDB and established the connection between the **dat
 - **Enhancements** 
 
 Improved frontend by using Bootstrap and custom styling and **restructured and refactored the backend**. 
+{{</section>}}
 
+{{<section title="Deployment">}}
 - **Deploying our web application**
 
-Researched on cloud platforms to decide on which one we use to deploy our first release. 
+Researched on **cloud platforms** to decide on which one we use to deploy our first release and deployed our web application on Heroku.
+
+Connected **MongoDB Atlas and Bonsai Elasticsearch** add-ons to our application on production.
 
 - **Improved usability based on user testing** 
 {{</section>}}

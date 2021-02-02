@@ -34,3 +34,9 @@ Since our goal is to focus on personal values, we want the user to spend as litt
 We were hoping to implement an easier way to communicate for the users than emails. With an in-app chat functionality, we could ensure that the entire job application process is happening within just our app.
 
 {{</section>}}
+
+{{<section title="Automated tests">}}
+
+We wanted to implement automated tests for our application with help of Cypress or Jest but research and development phases took longer than we expected.
+
+{{</section>}}
