@@ -13,7 +13,7 @@ Not too bad either. Pretty cool actually. Oh we were gooood.
 {{</section>}}
 
 {{<section title="All that hosting stuff - Docker">}}
-Yes. We had something here. Do I know anything? now! Oh what fun.
+Yes. We had something here. Do I know anything? No! Oh what fun.
 {{</section>}}
 
 
