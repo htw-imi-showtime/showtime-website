@@ -1,107 +1,91 @@
 [[slot]]
-  time = "10:00"
-  class = "time"
+time = "10:00"
+title = "Opening"
+class = "general"
 
 [[slot]]
-  title = "Opening"
-  class = "general"
+time = "10:30"
+title = "B1: A Bachelor Project"
+projectDetail = "#"
+class = "bachelor"
 
 [[slot]]
-  time = "10:30"
-  class = "time"
+time = "10:45"
+title = "M1: A Master Project"
+projectDetail = "#"
+class = "master"
 
 [[slot]]
-  title = "A Bachelor Project"
-  projectDetail = "#"
-  class = "bachelor"
+time = "11:00"
+title = "B2: Another Bachelor Project"
+projectDetail = "#"
+class = "bachelor"
 
 [[slot]]
-  title = "A Master Project"
-  projectDetail = "#"
-  class = "master"
+time = "11:15"
+title = "M2: Another Master Project"
+projectDetail = "#"
+class = "master"
 
 [[slot]]
-  time = "11:00"
-  class = "time"
+time = "11:30"
+title = "B3: Another Bachelor Project"
+projectDetail = "#"
+class = "bachelor"
 
 [[slot]]
-  title = "Another Bachelor Project"
-  projectDetail = "#"
-  class = "bachelor"
+time = "11:45"
+title = "M3: Another Master Project"
+projectDetail = "#"
+class = "master"
 
 [[slot]]
-  title = "Another Master Project"
-  projectDetail = "#"
-  class = "master"
+time = "12:00"
+title = "Lunch Break"
+class = "general"
 
 [[slot]]
-  title = "Another Bachelor Project Q&A"
-  projectDetail = "#"
-  class = "bachelor"
+time = "13:00"
+title = "B4: Yet Another Bachelor Project"
+projectDetail = "#"
+class = "bachelor"
 
 [[slot]]
-  title = "Another Master Project Q&A"
-  projectDetail = "#"
-  class = "master"
+time = "13:15"
+title = "M4: A Very Very Very Long Master Project Title"
+projectDetail = "#"
+class = "master"
 
 [[slot]]
-  time = "11:30"
-  class = "time"
+time = "13:30"
+title = "B5: One More Bachelor Project"
+projectDetail = "#"
+class = "bachelor"
 
 [[slot]]
-  title = "Yet Another Bachelor Project"
-  projectDetail = "#"
-  class = "bachelor"
+time = "13:45"
+title = "M5: One More Master Project"
+projectDetail = "#"
+class = "master"
 
 [[slot]]
-  title = "A Very Long Master Project Title in Three Lines"
-  projectDetail = "#"
-  class = "master"
+time = "14:00"
+title = "B6: Another Bachelor Project"
+projectDetail = "#"
+class = "bachelor"
 
 [[slot]]
-  title = "One More Bachelor Project"
-  projectDetail = "#"
-  class = "bachelor"
+time = "14:15"
+title = "M6: Another Master Project"
+projectDetail = "#"
+class = "master"
 
 [[slot]]
-  title = "One More Master Project"
-  projectDetail = "#"
-  class = "master"
+time = "14:30"
+title = "Break Out Sessions"
+class = "general"
 
 [[slot]]
-  time = "12:00"
-  class = "time"
-
-[[slot]]
-  title = "Another Bachelor Project"
-  projectDetail = "#"
-  class = "bachelor"
-
-[[slot]]
-  title = "Another Master Project"
-  projectDetail = "#"
-  class = "master"
-
-[[slot]]
-  title = "Another Bachelor Project Q&A"
-  projectDetail = "#"
-  class = "bachelor"
-
-[[slot]]
-  title = "Another Master Project Q&A"
-  projectDetail = "#"
-  class = "master"
-
-[[slot]]
-  time = "11:30"
-  class = "time"
-
-[[slot]]
-  title = "One More Bachelor Project"
-  projectDetail = "#"
-  class = "bachelor"
-
-[[slot]]
-  title = "One More Master Project"
-  projectDetail = "#"
-  class = "master"
+time = "15:30"
+title = "Announcement Of Grades"
+class = "general"
