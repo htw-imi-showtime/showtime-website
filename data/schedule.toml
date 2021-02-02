@@ -21,12 +21,6 @@
   class = "master"
 
 [[slot]]
-  class = "empty"
-
-[[slot]]
-  class = "empty"
-
-[[slot]]
   time = "11:00"
   class = "time"
 
@@ -101,12 +95,6 @@
 [[slot]]
   time = "11:30"
   class = "time"
-
-[[slot]]
-  class = "empty"
-
-[[slot]]
-  class = "empty"
 
 [[slot]]
   title = "One More Bachelor Project"
