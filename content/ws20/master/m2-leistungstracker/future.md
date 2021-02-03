@@ -3,7 +3,7 @@ title = "Future"
 weight = 4
 +++
 
-While we accomplished a lot and were able to set up a project with a very well-thought-out architecture, there were some features that we decided to postpone. 
+We focused on building a technically stable and well-architected project that could and will be the foundation for an application that will be used by athletic corporations. Our architecture and tech stack are built so that new features can easily be added.
 
 {{<section title="Future features">}}
 - Proper planning of sessions
@@ -12,6 +12,3 @@ While we accomplished a lot and were able to set up a project with a very well-t
 - Some other stuff
 {{</section>}}
 
-{{<section title="Other ideas">}}
-No ideas. We are perfect the way we are. We ain't gonna change.
-{{</section>}}

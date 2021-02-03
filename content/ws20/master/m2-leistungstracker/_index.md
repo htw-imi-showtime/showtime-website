@@ -20,12 +20,17 @@ supervisor = "David Koschnick"
 {{<section title="The Background">}}
 It is common in competitive sports to wear tracking equipment (e.g. chest straps) during training and competitions to collect physical performance data. While these collect physiological parameters, more holistic aspects are disregarded.
 The field of regeneration research and performance diagnostics has started investigating the combination of sensor data with psychological questionnaire data in order to obtain more information. With the help of this data, it should be possible in the future to create even more individual training plans, adapted to the individual needs of the athletes.
-
 {{</section>}}
 
 
 {{<section title="Where does Athletimize come in?">}}
 Athletimize offers daily assessment questionnaires as well as session-specific assessments that allow athletic staff to analyze an individual athlete’s performance in a more faceted approach. A team’s management and training staff can track performance data over time, follow the team’s athletic development and investigate change with the help of the individual and team reports.
+{{</section >}}
+
+{{<section title="Research and Cooperation">}}
+The project was carried out in cooperation with the University of Bern and Victoria Berlin.
+Features such as the various assessments and the score-calculation are based on research conducted by the University of Bern.
+Victoria Berlin provided input regarding potential planning and session features. 
 {{</section >}}
 
 {{<mediathek id="TODO">}}
