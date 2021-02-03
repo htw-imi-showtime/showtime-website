@@ -3,4 +3,8 @@ title = "Schedule"
 layout = "schedule"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+There will be brief project presentations with a quick q&a in the morning* and
+  a project fair in the afternoon. Everything takes place in <a href="https://htw-berlin.zoom.us/j/97320821203">Zoom</a>.\
+  There will be Breakout Rooms for the project booths and other things in the afternoon.
+  Please install the <a href="https://zoom.us/download">zoom client</a> to be able to move freely between breakout rooms.
+  * (*yes, very brief presentations, the odd times are real, we might even be a bit quicker than that)
