@@ -1,23 +1,24 @@
 [[dates]]
   title = "IMI Showtime Winter 20/21"
-  description = "The next Showtime"
-  date = "12/02/2021"
+  description = "The current Showtime"
+  date = "2021-02-12"
 
 [[dates]]
   title = "Project Assignment Summer 2021"
-  description = "Wednesday 07.04.2021, 10:00 Bachelor 12:00 Master"
-  date = "07/04/2021"
+  description = "Wednesday, April 7, 2021, 10:00 Bachelor 12:00 Master"
+  date = "2021-04-07"
 
 [[dates]]
   title = "IMI Showtime Summer 2021"
-  description = ""
-  date = "16/07/2021"
+  description = "Friday, July 16, 2021"
+  date = "2021-07-16"
+  
 [[dates]]
   title = "Project Assignment Winter 21/22"
-  description = "Wednesday, 6.10.2021 (tentative)"
-  date = "6/10/2021"
+  description = "Wednesday, October 6, 2021 (tentative)"
+  date = "2021-10-06"
 
 [[dates]]
   title = "IMI Showtime Winter 21/22"
-  description = "Friday of last lecture week"
-  date = "Feb. 22"
+  description = "Friday, February 11, 2022"
+  date = "2022-02-11"
