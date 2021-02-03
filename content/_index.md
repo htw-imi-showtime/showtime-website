@@ -9,7 +9,7 @@ This term is the second term already that all projects and our Showtime are held
 a distance format - sad, but also an opportunity to explore the projects
 from afar! Just dip in for one or two project presentations, visit the projects
 in their virtual booths or watch the presentation videos,
-websites and demos when you want to.
+websites, and demos when it fits you best!
 {{</teaser>}}
 
 {{<teaser category="projects" title="One Term Ten Projects">}}
