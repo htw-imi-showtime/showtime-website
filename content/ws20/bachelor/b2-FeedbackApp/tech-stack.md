@@ -3,7 +3,7 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="tech-stack.png" alt="tech stack visualized" caption="Our tech stack">}}
+{{<image src="tech-stackv2.png" alt="tech stack visualized" caption="Our tech stack">}}
 
 {{<section title="Next.js/React">}}
 The base for app was Next.js and the React library.
