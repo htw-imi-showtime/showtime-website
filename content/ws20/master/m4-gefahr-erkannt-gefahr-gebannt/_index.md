@@ -4,7 +4,7 @@ project_id = "M4"
 
 # Properties for displaying the project in the project list
 card_image = "project_image.png"
-card_description = "Gefahr erkannt, Gefahr gebannt is a VR learning application for teaching occupational safety measures. We developed a virtual reality application which aims to teach safety precautions for trainees in  metal workshops. In our simulation, users can process basic materials with various tools modeled after real examples, and must be careful to not hurt themselves. While doing so, they must choose the proper safety equipment to wear while operating their machines as well as operate the machines properly to avoid ‘brutal’ injuries. Can you complete the work assignment while keeping all your fingers?"
+card_description = "Gefahr erkannt, Gefahr gebannt - is a VR learning application for teaching occupational safety measures for trainees in metal workshops. In the simulation, users can process basic materials with various tools and must be careful to not hurt themselves - or bear the consequences."
 
 # These properties may be removed if you don't need them
 source_link = "https://code.fki.htw-berlin.de/cm/studierendenprojekte/mp-vrarbeitsschutz/development"
@@ -15,26 +15,17 @@ team = ["Adrian Sabrowski", "Marvin Kullick", "Konrad Ukens", "Julian Bechthold"
 supervisor = "Tamara Voigt, Martin Steinicke"
 +++
 
-'Gefahr erkannt, Gefahr gebannt' is a VR learning application for teaching occupational safety measures.
+‘Gefahr erkannt, Gefahr gebannt’ is a VR learning application for teaching occupational safety measures.
 We developed a virtual reality application which aims to teach safety precautions for trainees in  metal workshops.
 In our simulation, users can process basic materials with various tools modeled after real examples, and must be careful to not hurt themselves.
 While doing so, they must choose the proper safety equipment to wear while operating their machines as well as operate the machines properly to avoid ‘brutal’ injuries.
 Can you complete the work assignment while keeping all your fingers?
 
-{{<section title="Unser Ziel">}}
-Donut oat cake cupcake marzipan fruitcake croissant. Pastry **brownie pie cake**. 
-Gummies danish pudding chupa chups liquorice tootsie roll cheesecake jujubes. 
-Pie cake toffee sugar plum donut muffin. Gummi bears brownie gummies cookie sugar plum. 
-Sugar plum ice cream cake danish toffee topping macaroon. 
-Brownie apple pie chupa chups donut croissant carrot cake jelly. 
-Lollipop brownie lollipop dragée cupcake bonbon cheesecake. Sweet roll toffee cookie. 
-Bear claw jujubes jelly icing jelly soufflé cake fruitcake danish. Gummi bears cupcake wafer fruitcake. 
-Sweet brownie powder *pastry ice cream*.
+{{<section title="Our Goal">}}
+Our goal is to offer trainees in metal workshops an additional and engaging safety training in virtual reality.
+This training illustrates dangerous situations by showing injuries that can occur when working with the machines as realistically as possible.
+If we can make users more perceptive towards hazard cues, we will have achieved our goal.
 {{</section>}}
-
-{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="MDN web docs">}}
-The HTML blockquote Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation.
-{{</quote>}}
 
 {{<section title="Was ist ein Template?">}}
 Bear claw cookie muffin icing. Jelly croissant pastry caramels. 
