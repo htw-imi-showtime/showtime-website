@@ -8,8 +8,8 @@ card_description = "Is it possible to enhance board games with modern technology
 
 # These properties may be removed if you don't need them
 # source_link = "https://github.com/htw-imi-showtime/showtime-website/"
-# demo_link = "http://scotlandyard.ml"
-website_link = "http://themole.ml"
+demo_link = "http://themole.ml"
+# website_link = "http://themole.ml"
 
 team = ["Bruno Schilling", "Christopher Adams", "Johannes Wanner", "Keoma Trippner", "Kevin Wrede", "Lena Serdarusic", "Shari-Lynn Eichberger"]
 supervisor = "Prof. Dr. Tobias Lenz"
@@ -20,7 +20,7 @@ In our project we investigated the possibility of improving a traditional board 
 {{</section >}}
 
 {{<section title="The Game Description">}}
-In the game "The Mole" players take on the role of **Scotland Yard detectives**. Sherlock Holmes asks them to help him solve a **mysterious murder case**. While the players search for evidence to **find the murderer**, they are in the greatest **danger**, because the murderer is now targeting them. The goal of the game is to arrive at the Scotland Yard before the murderer does. Also, you must find at least three solid proofs by then to finally arrest the murderer. The players can't win without colluding with each other, but beware! **Among them is a mole, a traitor who is in cahoots with the murderer.**
+In the game "The Mole" players take on the role of **Scotland Yard detectives**. Sherlock Holmes asks them to help him solve a **mysterious murder case**. While the players search for evidence to **find the murderer**, they are in the greatest **danger**, because the murderer is now targeting them. The goal of the game is to arrive at the Scotland Yard before the murderer does. Also, you must find at least four solid proofs by then to finally arrest the murderer. The players can't win without colluding with each other, but beware! **Among them is a mole, a traitor who is in cahoots with the murderer.**
 {{</section >}}
 
 {{<section title="The Team">}}
@@ -29,7 +29,7 @@ Our team consists of seven people. The concept of the game idea was worked out a
 
 {{<gallery>}}
 {{<team-member image="Bruno.jpg" name="Bruno Schilling">}}
-{{<team-member image="Chris.jpg" name="Christopher Adams">}}
+{{<team-member image="Chris.png" name="Christopher Adams">}}
 {{<team-member image="Johannes.jpg" name="Johannes Wanner">}}
 {{<team-member image="Keoma.jpg" name="Keoma Trippner">}}
 {{<team-member image="Kevin.jpg" name="Kevin Wrede">}}
