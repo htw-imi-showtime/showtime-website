@@ -3,4 +3,4 @@ title = "Important Dates"
 layout = "dates"
 +++
 
-Nach der Showtime ist vor der Showtime - upcoming dates
+After Showtime is just before the next Showtime - upcoming dates
