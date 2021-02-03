@@ -2,6 +2,7 @@
 title = "App gallery"
 +++
 
+{{<gallery>}}
 {{< image src="main.jpg" alt="Main screen" caption="Main screen of our App" >}}
 
 {{< image src="onboarding.jpg" alt="Onboarding screen" caption="Onboarding screen" >}}
@@ -25,3 +26,4 @@ title = "App gallery"
 {{< image src="achievement.jpg" alt="Archievement screen" caption="Archievement screen" >}}
 
 {{< image src="login.jpg" alt="Login screen" caption="Login screen" >}}
+{{</gallery>}}
