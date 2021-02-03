@@ -12,7 +12,7 @@ in their virtual booths or watch the presentation videos,
 websites and demos at your chosen time.
 {{</teaser>}}
 
-{{<teaser category="projects" title="One Term Twelve Projects">}}
+{{<teaser category="projects" title="One Term Ten Projects">}}
 Bachelor students do one, Master students two practical projects during their studies. This term, we
 are happy to present six projects in the Bachelor's and four Projects in the Master's Programme.
 [-> discover_the_projects](/projects)
@@ -20,6 +20,6 @@ are happy to present six projects in the Bachelor's and four Projects in the Mas
 
 {{<teaser category="schedule" title="Almost as in real life">}}
 We try to mimick our "real" showtime as close as possible - there will be short project presentations in the morning, and
-virtual booths in the afternoon.
+a project fair with virtual booths and plenty of opportunity to explore the projects in the afternoon.
 [-> check_the_schedule](/schedule)
 {{</teaser>}}
