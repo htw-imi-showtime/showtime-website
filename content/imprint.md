@@ -19,7 +19,9 @@ https://www.htw-berlin.de/impressum/
 Telefon: +49 30 5019 - 3499
 
 #### Anmerkungen
-Theme-Design: [Tobi Hoffmann](http://tobihoffmann.com/)\
+Theme-Design: [Tobi Hoffmann](http://tobihoffmann.com/) \
 Theme-Development: [Luis Hankel](https://kaes3kuch3n.de/)
 
-Die Icons `external-link-alt`, `code` und `play` auf den Projektseiten sind aus dem FontAwesome-Projekt entnommen und unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) lizensiert.
+Die Icons `demo`, `code` und `website` auf den Projektseiten sind aus dem Material-Design-Projekt entnommen und unter der [Apache License 2.0](/licenses/material-icons.txt) lizensiert.
+
+Die auf der Website verwendete Schriftfamilie JetBrains Mono ist unter der [Open Font License](/licenses/jetbrains-mono.txt) lizensiert. 
