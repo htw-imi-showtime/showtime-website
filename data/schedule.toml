@@ -4,88 +4,86 @@ title = "Opening"
 class = "general"
 
 [[slot]]
-time = "10:30"
-title = "B1: A Bachelor Project"
+time = "10:05"
+title = "B1 KISS"
 projectDetail = "#"
 class = "bachelor"
 
 [[slot]]
-time = "10:45"
-title = "M1: A Master Project"
-projectDetail = "#"
-class = "master"
-
-[[slot]]
-time = "11:00"
-title = "B2: Another Bachelor Project"
+time = "10:12"
+title = "B2 Feedback App"
 projectDetail = "#"
 class = "bachelor"
 
 [[slot]]
-time = "11:15"
-title = "M2: Another Master Project"
-projectDetail = "#"
-class = "master"
-
-[[slot]]
-time = "11:30"
-title = "B3: Another Bachelor Project"
+time = "10:19"
+title = "B3 A Spirit Tale"
 projectDetail = "#"
 class = "bachelor"
 
 [[slot]]
-time = "11:45"
-title = "M3: Another Master Project"
+time = "10:26"
+title = "B4 ReMatch: Recruiter & Employee Match"
+projectDetail = "#"
+class = "bachelor"
+
+[[slot]]
+time = "10:33"
+title = "B5 MeshHeadz"
+projectDetail = "#"
+class = "bachelor"
+
+[[slot]]
+time = "10:40"
+title = "B6 Cargobike Adventures"
+projectDetail = "#"
+class = "bachelor"
+
+[[slot]]
+time = "10:47"
+title = "M1 The Mole: An Augmented Boardgame Experience"
 projectDetail = "#"
 class = "master"
 
 [[slot]]
-time = "12:00"
+time = "10:54"
+title = "M2 Athletimize"
+projectDetail = "#"
+class = "master"
+
+[[slot]]
+time = "11:03"
+title = "M3 Deep 3D Pathfinding"
+projectDetail = "#"
+class = "master"
+
+[[slot]]
+time = "11:10"
+title = "M4 Gefahr erkannt, Gefahr gebannt"
+projectDetail = "#"
+class = "master"
+
+[[slot]]
+time = "11:17"
 title = "Lunch Break"
 class = "general"
 
 [[slot]]
-time = "13:00"
-title = "B4: Yet Another Bachelor Project"
-projectDetail = "#"
-class = "bachelor"
-
-[[slot]]
-time = "13:15"
-title = "M4: A Very Very Very Long Master Project Title"
-projectDetail = "#"
-class = "master"
-
-[[slot]]
-time = "13:30"
-title = "B5: One More Bachelor Project"
-projectDetail = "#"
-class = "bachelor"
-
-[[slot]]
-time = "13:45"
-title = "M5: One More Master Project"
-projectDetail = "#"
-class = "master"
-
-[[slot]]
-time = "14:00"
-title = "B6: Another Bachelor Project"
-projectDetail = "#"
-class = "bachelor"
-
-[[slot]]
-time = "14:15"
-title = "M6: Another Master Project"
-projectDetail = "#"
-class = "master"
-
-[[slot]]
-time = "14:30"
+time = "12:00"
 title = "Break Out Sessions"
 class = "general"
 
 [[slot]]
-time = "15:30"
+time = "15:00"
+title = "Break"
+class = "general"
+
+[[slot]]
+time = "15:15"
+title = "Grading conference"
+class = "general"
+
+[[slot]]
+time = "16:00"
 title = "Announcement Of Grades"
 class = "general"
