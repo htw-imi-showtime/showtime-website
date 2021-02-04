@@ -46,3 +46,15 @@ Feedback is an essential part of communication. Both positive and negative feedb
 - [iPhone 12 Mockups by MockUPhone](https://mockuphone.com/device?type=ios#iphone12)
 
 {{</section >}}
+
+{{<section title="Credits">}}
+**Animations**
+* [Start page animation by dilpreet singh on LottieFiles](https://lottiefiles.com/28457-feedback-persuasion-animation)
+* [Check Mark animation by Ami Moradia on LottieFiles](https://lottiefiles.com/20576-check-mark)
+* [404 Animation by Mark Arrow on LottieFiles](https://lottiefiles.com/40806-error-404?lang=de)
+
+
+**iPhone Mockups** 
+* [iPhone 12 Mockups by MockUPhone](https://mockuphone.com/device?type=ios#iphone12)
+
+{{</section >}}
