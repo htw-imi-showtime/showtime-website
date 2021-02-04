@@ -3,7 +3,7 @@ title = "Feedback App"
 project_id = "B2"
 
 # Properties for displaying the project in the project list
-card_image = "project_image.png"
+card_image = "icon_feedbackApp.png"
 card_description = "Tired of spending your precious time in meetings that don’t require your attendance? Do you want to say what’s on your mind to optimize future meetings? We might have the perfect tool for you: The Feedback App."
 
 # These properties may be removed if you don't need them
