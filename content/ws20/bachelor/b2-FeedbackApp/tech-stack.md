@@ -31,5 +31,6 @@ GitLab was used for our version control.
 - Adobe Illustrator
 - Visual Studio Code
 - Insomnia
+- Figma
 {{</section>}}
 
