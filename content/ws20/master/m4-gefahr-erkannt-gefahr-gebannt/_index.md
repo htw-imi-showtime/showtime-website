@@ -26,5 +26,3 @@ Our goal is to offer trainees in metal workshops an additional and engaging safe
 This training illustrates dangerous situations by showing injuries that can occur when working with the machines as realistically as possible.
 If we can make users more perceptive towards hazard cues, we will have achieved our goal.
 {{</section>}}
-
-#{{<mediathek id="cba94788b18ce2d77e1599e7135a1758">}}
