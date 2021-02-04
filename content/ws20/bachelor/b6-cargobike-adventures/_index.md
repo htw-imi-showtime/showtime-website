@@ -1,6 +1,6 @@
 +++
 title = "Cargobike Adventures"
-project_id = "B7"
+project_id = "B6"
 
 # Properties for displaying the project in the project list
 card_image = "project_image.png"
@@ -24,7 +24,7 @@ This is a **simple paragraph**. It might contain some **more details regarding y
 It could be lead on with a subheadline but it doesn't have to have one.
 This one doesn't have one for example.
 By the way: It is always good to **highlight important words** or segments.
-It makes walls of text **more interesting** as well as **faster to process**. 
+It makes walls of text **more interesting** as well as **faster to process**.
 Feel free to insert some [links](https://example.com/) if necessary.
 Always keep it concise and simple. You know, it is the internet, nobody really *likes* to read.
 
