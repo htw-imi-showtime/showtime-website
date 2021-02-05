@@ -27,13 +27,22 @@ Communication is key, time is precious.
 
 It's already challenging to establish a healthy communicative environment in general and this is an even bigger task to achieve during a global pandemic where many people switched from working in an office to working remotely from home. 
 
-Feedback is an essential part of communication. Both positive and negative feedback can be very helpful and improve more than just internal communication. It can create a culture of continued improvement. This could be done by scheduled one on ones, lengthy monthly meetings that take time **OR** our feedback app: A short questionaire that can be submitted in a blink of an eye with feedback which can be acted on immediately.
+Feedback is an essential part of communication. Both positive and negative feedback can be very helpful and improve more than just internal communication. It can create a culture of continued improvement. This could be done by scheduled one on ones, lengthy monthly meetings that take time **OR** our feedback app: A short questionnaire that can be submitted in a blink of an eye with feedback which can be acted on immediately.
 
 {{</section>}}
 
 {{<section title="The Team">}}
 
 {{</section >}}
+
+{{<gallery>}}
+{{<team-member image="_teamTimo.png" name="Timo">}}
+{{<team-member image="_teamHanh.png" name="Hanh">}}
+{{<team-member image="_teamDavid.png" name="David">}}
+{{<team-member image="_teamFerdinand.png" name="Ferdinand">}}
+{{<team-member image="_teamOsee.png" name="Osée">}}
+{{<team-member image="_teamYannick.png" name="Yannick">}}
+{{</gallery>}}
 
 {{<section title="Credits">}}
 **Animations**
