@@ -3,7 +3,7 @@ title = "Features"
 weight = 1
 +++
 
-
+{{<image src="Overview_features.png" alt="Mockup" >}}
 {{<section title="Feature set" >}}
 #### Offline Data
 Our app is completely offline compatible
@@ -20,7 +20,6 @@ Another way to improve our text filter was to **look for the word 'ingredients'*
 #### Allergies
 One of our **core features** is the allergy feature. This feature **derived from one of our User Personas** that we created for our app. **People with allergies** can use our app to **manage** them and use it as a **signal** for whenever they are about to **buy a product they are allergic to**.  
 
-{{<image src="kiss_cray_diagonal.png" alt="Mockup" >}}
 
 {{</section>}}
 
