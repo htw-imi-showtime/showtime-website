@@ -18,7 +18,7 @@ supervisor = "Prof. Dr. Tobias Lenz"
 
 KISS is intended for people who want to be more **concious** about their cosmetic products. KISS keeps track of your allergies and **warns** you whenever you scan a product with an allergic ingredient in it. KISS runs on both **IOS** and **Android** and **doens't require an internet connection** after the initial download.
 
-
+{{<image src="headerindex.png" alt="Mockup" >}}
 {{<section title="Our Goals">}}
 For most people, the chemical ingredients on the back of cosmetic products are meaningless.
 Very few people understand what a "Prunus Amygdalus Dulcis Oil" is. This is where our app comes into place. We wanted to **help people understand** what it **means** and what it **does**. The **work** that the user has to put in to get the information needed, should be **as little as possible**. It also **shouldn't be dependant** on factors like a **good internet connection** or products with **barcodes**.
