@@ -10,7 +10,7 @@ card_description = "Tired of spending your precious time in meetings that don’
 source_link = "https://github.com/hhanhph/Feedback-App"
 demo_link = "https://feedbackapp-demo.herokuapp.com/"
 
-team = ["David Albrecht", "Osée Bulayumi", "Ferdinand Faller", "Yannick Haß", "Hanh Phan", "Timo Schmidt"]
+team = ["Timo Schmidt", "Hanh Phan", "David Albrecht", "Ferdinand Faller", "Osée Bulayumi", "Yannick Haß"]
 supervisor = "Sebastian Steiner & Oliver Weber"
 +++
 
