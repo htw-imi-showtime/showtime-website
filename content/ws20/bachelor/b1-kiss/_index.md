@@ -31,12 +31,12 @@ yeet
 {{<section title="The Team">}}
 - **Communication is key.** Everyone was working towards the same goal and we all agreed on the importance of communication in that process.
 - Everyone of us found something that they were passionate about, which made our development process both **fun and motivating.**
-- Henry, Jonathan and Anton were at first responsible for the backend while Kieu, Kenneth and Niklas were implementing the text recognition and UI but we switched around later on. 
+- Henry, Jonathan and Anton were at first responsible for the backend while Kieu, Kenneth and Niklas were implementing the text recognition and UI but we switched around later on.
 {{</section >}}
 
 {{<gallery>}}
 {{<team-member image="anton.png" name="Anton">}}
-{{<team-member image="dummy_portrait_02.jpg" name="Henry">}}
+{{<team-member image="henry.png" name="Henry">}}
 {{<team-member image="jonathan.jpg" name="Jonathan">}}
 {{<team-member image="dummy_portrait_04.jpg" name="Kenneth">}}
 {{<team-member image="kieu.jpeg" name="Kieu">}}
