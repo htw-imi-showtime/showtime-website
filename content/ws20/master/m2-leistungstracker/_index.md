@@ -8,7 +8,6 @@ card_image = "project_image.png"
 card_description = "Performance Data and Training Optimization in Competitive Sports - Athletimize enables training optimization in competitive sports based on assessments and sensor data."
 
 # These properties may be removed if you don't need them
-source_link = "https://git.myhki.de/imi-master-2021/leistungstracker/-/tree/develop"
 demo_link = "https://dev.pluto.ac0.de/"
 
 team = ["Maximilian Gertz", "Markus Glutting", "Florian Reitz", "David Schach", "Lena Vollmer"]
