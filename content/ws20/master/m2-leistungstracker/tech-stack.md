@@ -3,8 +3,10 @@ title = "Tech Stack"
 weight = 3
 +++
 
+{{<image src="tech_stack.svg" alt="Tech Stack" caption="Tech Stack">}}
+
 {{<section title="React & Typescript">}}
-Oh how beautiful our FE stack was. So gorgeous. Just amazing. Typescript is the best. Strict linting roles rule.
+For our Frontend we decided to use ReactJs with Typescript. This gave us the advantage of having a well-documented library with a plethora of available resources. React is relatively easy to learn and it allowed us to have a modular structure where we could build various reusable components. To improve and ensure code-quality, we set up very strict linting and formatting rules.
 {{</section>}}
 
 {{<section title="NestJs & Typescript">}}

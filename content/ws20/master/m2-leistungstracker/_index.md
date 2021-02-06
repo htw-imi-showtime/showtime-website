@@ -10,9 +10,8 @@ card_description = "Performance Data and Training Optimization in Competitive Sp
 # These properties may be removed if you don't need them
 source_link = "https://git.myhki.de/imi-master-2021/leistungstracker/-/tree/develop"
 demo_link = "https://dev.pluto.ac0.de/"
-website_link = "TODO link to showtime page"
 
-team = ["TODO"]
+team = ["Maximilian Gertz", "Markus Glutting", "Florian Reitz", "David Schach", "Lena Vollmer"]
 supervisor = "David Koschnick"
 +++
 
