@@ -15,6 +15,8 @@ We used NestJS, a TypeScript framework for Node.js backend apps. This gave us a 
 The Postgres database is accessed via TypeORM.
 {{</section>}}
 
+{{<image src="pipeline.svg" alt="Pipeline" caption="Pipeline">}}
+
 {{<section title="Hosting & Pipelines">}}
 The platform we used to run our CI-Pipeline was a Gitlab-Runner. It was set up through Docker. We used it as we were already using a Gitlab repository. To deploy our Website, we used a CD-Pipeline to stop the Backend Server, update it and restart it. The pipeline also built the frontend and made it accessible through an NGINX-instance.
 {{</section>}}
