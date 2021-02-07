@@ -57,6 +57,7 @@ Feedback is an essential part of communication. Both positive and negative feedb
 {{</gallery>}}
 
 {{<section title="Credits">}}
+
 **Animations**
 
 - [Start page animation by dilpreet singh on LottieFiles](https://lottiefiles.com/28457-feedback-persuasion-animation)
