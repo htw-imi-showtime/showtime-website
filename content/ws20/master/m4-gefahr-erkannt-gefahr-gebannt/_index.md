@@ -26,24 +26,3 @@ Our goal is to offer trainees in metal workshops an additional and engaging safe
 This training illustrates dangerous situations by showing injuries that can occur when working with the machines as realistically as possible.
 If we can make users more perceptive towards hazard cues, we will have achieved our goal.
 {{</section>}}
-
-{{<section title="Was ist ein Template?">}}
-Bear claw cookie muffin icing. Jelly croissant pastry caramels. 
-Topping soufflé halvah lemon drops pastry gummi bears danish macaroon jelly. 
-Chupa chups croissant sweet roll fruitcake fruitcake jujubes. 
-Pastry icing sweet cake dessert ice cream carrot cake. Croissant jelly soufflé. 
-Cake jelly-o tart croissant gummies pastry. Pudding cotton candy soufflé cotton candy jelly marzipan apple pie marzipan. 
-Brownie topping powder topping pudding cupcake cake. Soufflé tootsie roll macaroon. 
-Toffee bear claw cake jujubes dessert dessert. Powder pudding tootsie roll halvah.
-{{</section >}}
-
-{{<mediathek id="cba94788b18ce2d77e1599e7135a1758">}}
-
-{{<section title="Ausprobieren">}}
-**Smartphone**\
-Damit ihr das Projekt selbst testen zu können, haben wir eine Flash-Datei zum [Download](https://example.com/) zur Verfügung gestellt.
-
-**Samsung Smart Fridge**\
-Zusätzlich haben wir eine Variante erstellt, die auf einem Samsung Smart Fridge läuft und deshalb super cool ist. [Link zur Demo](https://example.com/).\
-***Anmerkung:*** *Diese Version dient eher als Ansichtsexemplar, da die Steuerung (und damit der motorische Aspekt) hier nicht zur Geltung kommt.*
-{{</section>}}
