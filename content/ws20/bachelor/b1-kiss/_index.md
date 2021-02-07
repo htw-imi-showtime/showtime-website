@@ -35,12 +35,3 @@ Kieu and Niklas had the task of implementing the text recognition plugin.
 After having our **prototype**, we found ourselves together in one big group again and from that point on were developing either alone or in smaller groups while **keeping in touch** with the other group members.
 We had **at least two meetings** every week and got along very well.
 {{</section >}}
-
-{{<gallery>}}
-{{<team-member image="dummy_portrait_01.jpg" name="Thomas Thomassen">}}
-{{<team-member image="dummy_portrait_02.jpg" name="Melissa Melissano">}}
-{{<team-member image="dummy_portrait_03.jpg" name="Jens Jensson">}}
-{{<team-member image="dummy_portrait_04.jpg" name="Melanie McMelly">}}
-{{<team-member image="dummy_portrait_05.jpg" name="Jack Jackson">}}
-{{<team-member image="dummy_portrait_06.jpg" name="Catherine Cateré">}}
-{{</gallery>}}
