@@ -3,7 +3,7 @@ title = "KISS"
 project_id = "B1"
 
 # Properties for displaying the project in the project list
-card_image = "logo.svg"
+card_image = "shadowlessBordeaux.svg"
 card_description = "KISS is a mobile application which allows you to scan, manage and analyze cosmetic products. All you have to do is take a picture of the product and KISS will do the rest."
 
 
@@ -15,6 +15,7 @@ team = ["Jonathan Jander", "Henry Ordelt", "Anton Schöps", "Kenneth Englisch", 
 supervisor = "Prof. Dr. Tobias Lenz"
 +++
 
+{{<mediathek id="9a515dbdd99e6b17d8a21d87d5fcd3cb" >}}
 
 KISS is intended for people who want to be more **concious** about their cosmetic products. KISS keeps track of your allergies and **warns** you whenever you scan a product with an allergic ingredient in it. KISS runs on both **IOS** and **Android** and **doens't require an internet connection** after the initial download.
 
