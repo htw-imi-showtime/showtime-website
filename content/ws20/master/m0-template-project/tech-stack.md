@@ -1,17 +1,11 @@
 +++
-title = "Future"
-weight = 4
+title = "Tech Stack"
+weight = 3
 +++
 
-Some intro text without heading. Wafer icing danish donut.
-Bonbon macaroon pastry brownie tiramisu gingerbread tart.
-Tiramisu jelly-o chocolate lemon drops pie sweet roll donut marzipan.
-Cotton candy brownie macaroon marshmallow candy. Bonbon croissant liquorice cookie.
-Marzipan apple pie candy croissant. Candy canes bear claw chocolate marzipan topping.
-Marshmallow topping sugar plum. Sweet roll pudding bear claw.
-Biscuit apple pie chocolate bar jelly candy canes liquorice. Sesame snaps gummi bears cake.
+{{<image src="tech-stack.png" alt="tech stack visualized" caption="Our tech stack">}}
 
-{{<section title="Future features">}}
+{{<section title="Hugo Static Page generator">}}
 Jujubes liquorice marshmallow candy sugar plum tiramisu. Wafer icing danish donut.
 Bonbon macaroon pastry brownie tiramisu gingerbread tart.
 Tiramisu jelly-o chocolate lemon drops pie sweet roll donut marzipan.
@@ -33,7 +27,9 @@ Jelly tootsie roll liquorice halvah. Topping sesame snaps liquorice marshmallow 
 Biscuit wafer lollipop.
 {{</section>}}
 
-{{<section title="Other ideas">}}
+{{<gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd">}}
+
+{{<section title="GitHub Pages">}}
 Jujubes liquorice marshmallow candy sugar plum tiramisu. Wafer icing danish donut.
 Bonbon macaroon pastry brownie tiramisu gingerbread tart.
 Tiramisu jelly-o chocolate lemon drops pie sweet roll donut marzipan.

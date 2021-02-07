@@ -1,11 +1,17 @@
 [[contacts]]
-  title = "Supervising Projects"
-  description = "If you are interested in supervising a project: Great! We are always looking for partners in industry for projects."
-  contact = "Studiengangssprecher IMI - Dr. Barne Kleinen"
-  email = "barne.kleinen@htw-berlin.de"
+  title = "Mentoring Projects"
+  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  contact = "Professor Dr. Jane Doe"
+  email = "jennifer.doe@htw-berlin.de"
 
 [[contacts]]
   title = "Questions about IMI⨯ST"
-  description = "The Showtime is organized by the students themselves. The coordination team can be reached using this email:"
+  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   contact = "IMI⨯SHOWTIME Organisation"
   email = "showtime-orga@lists.htw-berlin.de"
+
+[[contacts]]
+  title = "Something Else"
+  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  contact = "Professor Dr. Max Patternman"
+  email = "max.patternman@htw-berlin.de"
