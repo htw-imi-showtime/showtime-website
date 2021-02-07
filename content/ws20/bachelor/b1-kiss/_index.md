@@ -9,7 +9,7 @@ card_description = "KISS is a mobile application which allows you to scan, manag
 
 # These properties may be removed if you don't need them
 source_link = "https://github.com/HuePhung/Kiss_Project"
-demo_link = "https://htw-imi-showtime.github.io/"
+
 
 team = ["Jonathan Jander", "Henry Ordelt", "Anton Schöps", "Kenneth Englisch", "Kieu Oanh Thi Tran", "Niklas Lengert"]
 supervisor = "Prof. Dr. Tobias Lenz"
