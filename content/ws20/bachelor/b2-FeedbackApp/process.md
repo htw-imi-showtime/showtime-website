@@ -17,7 +17,7 @@ For detailed information check out **Features**.
 {{</section>}}
 
 {{<section title="Difficulties">}}
-**The challenge** was to smoothly integrate our app into the already existing workflow of creating a meeting, which is done by creating a meeting in the team Outlook Calendar. The goal was to make the usage of our app as easy as possible for meeting owners as well as meeting attendees.
+**The challenge** was to smoothly integrate our app into the already existing workflow of creating a meeting, which is done via the Outlook Team Calendar. The goal was to make the usage of our app as easy as possible for meeting owners as well as meeting attendees.
 {{</section>}}
 
 {{<section title="Development Process">}}

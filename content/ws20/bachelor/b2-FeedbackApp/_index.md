@@ -17,7 +17,7 @@ supervisor = "Sebastian Steiner & Oliver Weber"
 {{<mediathek id="4776a90e885c59801bb7961894a7a3f6">}}
 
 {{<section title="Brandung">}}
-**Brandung** is an independent full-service digital agency for digital communication, e-commerce and online marketing with locations in Köln and Berlin. Brandung's team consists of around 170 employees, two of which, Sebastian Steiner and Oliver Weber, supported us in creating this application which will be used for their team meetings on a daily basis to provide feedback and enhance their meetings.
+**Brandung** is an independent full-service digital agency for digital communication, e-commerce and online marketing with locations in Cologne and Berlin. Brandung's team consists of around 170 employees, two of which, Sebastian Steiner and Oliver Weber, supported us in creating this application which will be used for their team meetings on a daily basis to provide feedback and enhance their meetings.
 {{</section>}}
 
 {{<quote>}}
