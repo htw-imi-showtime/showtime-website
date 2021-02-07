@@ -16,8 +16,9 @@ For detailed information check out **Features**.
 
 {{</section>}}
 
-{{<section title="Difficulties">}}
+{{<section title="Challenges">}}
 **The challenge** was to smoothly integrate our app into the already existing workflow of creating a meeting, which is done via the Outlook Team Calendar. The goal was to make the usage of our app as easy as possible for meeting owners as well as meeting attendees.
+
 {{</section>}}
 
 {{<section title="Development Process">}}
@@ -26,9 +27,13 @@ As no one of our team has had previous experience with NextJS there was some rea
 
 We used MongoDB as our database and connected it to our app via Express. To access the Outlook (e.g. Calendar, emails) data we had to register and connect our app to Azure. 
 
-Our supervisors were always there to guide and help us in case we were stuck.
+Our supervisors were always there to guide and help us in case we were stuck.  
 {{</section>}}
 
-{{<section title="Retrospective">}}
-**Together with a SCRUM master from Brandung**, we finished our project with a retrospective where we talked about the overall process, our difficulties and what we have learned from the project. 
+{{<section title="Retrospective: Feedback for ourselves ">}}
+**We live by our credo:** There is no improvement without feedback, right? Together with a SCRUM master from Brandung, we finished our project with a retrospective where we talked about the overall process, struggles along the way like communication or distribution of tasks but also about what we have learned from the project and how to improve. Something we would recommend to every team. If we could rate it with our own question from our feedback app:
+* Did we like the meeting: 🙂
+* Was the attendance of every team member needed: ✓
+* How good was the meeting prepared: very good
+* Do we want to add a comment: Important part of every development cycle.
 {{</section>}}
