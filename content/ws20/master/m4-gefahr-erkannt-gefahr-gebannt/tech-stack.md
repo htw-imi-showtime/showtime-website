@@ -19,9 +19,9 @@ For the modeling of the hands **ZBrush** and **GIMP** were used.
 {{</section>}}
 
 {{<section title="VR Kit">}}
-We used the HTC Vive for testing and development, and both the Vive controllers and Valve Index controllers for user control.
+We used the **HTC Vive** for testing and development, and both the **Vive** controllers and **Valve Index** controllers for user control.
 {{</section>}}
 
 {{<section title="Other">}}
-For audio editing Audacity was our tool of choice. Later in the process Adobe Illustrator and Premiere Pro were also used.
+For audio editing **Audacity** was our tool of choice. Later in the process **Adobe Illustrator** and **Premiere Pro** were also used.
 {{</section>}}
