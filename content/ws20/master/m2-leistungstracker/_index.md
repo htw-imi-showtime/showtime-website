@@ -10,7 +10,7 @@ card_description = "Performance Data and Training Optimization in Competitive Sp
 # These properties may be removed if you don't need them
 demo_link = "https://dev.pluto.ac0.de/"
 
-team = ["Maximilian Gertz", "Markus Glutting", "Florian Reitz", "David Schach", "Lena Vollmer"]
+team = ["Maximilian Gertz", "Markus Glutting", "Florian Reitz", "David Schach", "Anton Streit", "Lena Vollmer"]
 supervisor = "David Koschnick"
 +++
 
