@@ -1,7 +1,6 @@
 
-@@ -0,0 +1,40 @@
 +++
-title = "Tech Stack & Tools"
+title = "Tech Stack"
 weight = 3
 +++
 

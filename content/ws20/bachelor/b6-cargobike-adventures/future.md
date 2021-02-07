@@ -17,7 +17,7 @@ Another thing we found could be really useful for users are letting them plan a 
 {{</section>}}
 
 {{<section title="Feature 2: Route sharing & Socializing">}}
-{{<image src="future_share_tours.png" alt="Alt text for image" caption="">}}
+{{<image src="future_feature_2.png" alt="Alt text for image" caption="">}}
 The third feature we thought that’s built on the basis of the first two features, if users can write about their tour and plan and make daily plans, we thought it’d be very exciting for them to share the plan on the site for other users to view and use it as a reference. It would also be nice for the viewers with an account to comment on that route post,  follow another user, and send each other private messages to build a community of Cargobike Adventurers.
 {{</section>}}
 
