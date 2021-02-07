@@ -30,5 +30,5 @@ Our supervisors were always there to guide and help us in case we were stuck.
 {{</section>}}
 
 {{<section title="Retrospective">}}
-**Together with a SCRUM master** from Brandung we finished our project with a retrospective where we talked about the overall process, our difficulties and what we have learned from the project. 
+**Together with a SCRUM master from Brandung**, we finished our project with a retrospective where we talked about the overall process, our difficulties and what we have learned from the project. 
 {{</section>}}
