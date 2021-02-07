@@ -18,7 +18,7 @@ supervisor = "Sowmya Guru"
 ReMatch is a web application that **matches employees and recruiters** by use of the **Elasticsearch** data analytics engine which determines a compatibility score based on their individual profiles. The users are able to **view matches** that have the highest compatibility to their own criteria, **see the detailed information** of their matches and **express interest** if they choose to. 
 Head over [here](https://rematch-htw.herokuapp.com) to explore our application.
 
-{{<mediathek id="cba94788b18ce2d77e1599e7135a1758">}}
+{{<mediathek id="dd8658dafc23d658410aff9c4f4ecf14">}}
 
 {{<section title="Our Goals">}}
 The recruiting process can be too centered around hard skills and tech stack, while **soft skills** and **cultural compatibility** determine how well a team is going to work together.  Finding fitting candidates **saves the companies time and money**, since employees won’t resign after a couple months due to poor cultural fits. ReMatch also aims to **fight bias** by bringing a **diverse pool of talents** and delegating the initial screening process from humans to software. It creates **equal opportunity** for job-seekers to be seen purely based on their skills and personality.
