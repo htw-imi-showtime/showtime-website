@@ -7,6 +7,7 @@ card_image = "icon_meshheadz.png"
 card_description = "MeshHeadz is an Android-based mobile application that enables users to easily and automatically generate a 3D-model from photographs they have taken with their smartphone."
 
 
+
 # These properties may be removed if you don't need them
 # source_link = "https://github.com/htw-imi-showtime/showtime-website/"
 demo_link = "https://htw-imi-showtime.github.io/"
@@ -37,8 +38,7 @@ After a short period of understanding, each of our five team members quickly fou
 * The **App** team
 * The **Web Service** team
 * The **3D-Pipeline** team
- 
+
 Since all groups communicated with each other on a regular basis, in the end, we always knew about each other’s issues and achievements and shared our expertise with the team.
 Eventually each team member became an expert in their respective field.
 {{</section >}}
-

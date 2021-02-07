@@ -17,7 +17,8 @@ Konstantin Schall
 - Daniel Wunderlich
 
 
-
+{{< mediathek id="7c7184756e2ef8feed255564b2de7780" width="960" height="540" >}}
+ 
 ## Beschreibung
 Egal ob Selfie, Momentaufnahme oder Landschaftsfoto ein zufriedenstellendes Ergebnis gelingt nur selten beim ersten Versuch mit der Handykamera. Folglich enthalten viele Bildsammlungen auf mobilen Geräten eine Vielzahl von sehr ähnlichen Bildern, die nur selten aussortiert werden.
 
