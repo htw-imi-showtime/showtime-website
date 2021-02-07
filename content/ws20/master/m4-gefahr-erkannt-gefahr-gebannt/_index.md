@@ -34,8 +34,8 @@ Achieving our goal means making our users more perceptive towards hazard cues an
 
 {{</section>}}
 {{<gallery>}}
-{{<team-member image="adrian.jpg" name="Adrian Sabrowski">}}
-{{<team-member image="marvin.jpg" name="Marvin Kullick">}}
-{{<team-member image="julian.png" name="Julian Bechthold">}}
-{{<team-member image="konrad.jpg" name="Konrad Ukens">}}
+	{{<team-member image="adrian.jpg" name="Adrian Sabrowski">}}
+	{{<team-member image="marvin.jpg" name="Marvin Kullick">}}
+	{{<team-member image="julian.png" name="Julian Bechthold">}}
+	{{<team-member image="konrad.png" name="Konrad Ukens">}}
 {{</gallery>}}

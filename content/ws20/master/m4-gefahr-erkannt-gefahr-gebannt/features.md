@@ -39,7 +39,7 @@ The shear is activated via a switch on the box on the left side. Once activated,
 
 {{<gallery>}}
 	{{<image src="guillotine_shear_avt.jpg" alt="guillotine shear" caption="1. avt teltow - guillotine shear - Reference">}}
-	{{<image src="guillotine_shear_blender.jpg" alt="guillotine shear" caption="2. our modeled guillotine shear in blender">}}
+	{{<image src="guillotine_shear_blender.png" alt="guillotine shear" caption="2. our modeled guillotine shear in blender">}}
 	{{<image src="guillotine_shear_unity.png" alt="guillotine shear" caption="3. our modeled guillotine shear in unity">}}
 {{</gallery>}}
 
