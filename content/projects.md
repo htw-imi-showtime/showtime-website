@@ -2,5 +2,4 @@
 title = "Projects"
 layout = "projects_list"
 +++
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This term there are [6 bachelor's](#B1) and [4 master's](#M1) projects.
