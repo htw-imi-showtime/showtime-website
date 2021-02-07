@@ -38,7 +38,7 @@ yeet
 {{<team-member image="anton.png" name="Anton">}}
 {{<team-member image="henry.png" name="Henry">}}
 {{<team-member image="jonathan.jpg" name="Jonathan">}}
-{{<team-member image="dummy_portrait_04.jpg" name="Kenneth">}}
+{{<team-member image="kenneth.jpg" name="Kenneth">}}
 {{<team-member image="kieu.jpeg" name="Kieu">}}
 {{<team-member image="niklas.jpeg" name="Niklas">}}
 {{</gallery>}}
