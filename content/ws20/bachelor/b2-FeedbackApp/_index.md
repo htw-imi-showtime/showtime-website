@@ -15,7 +15,7 @@ supervisor = "Sebastian Steiner & Oliver Weber"
 +++
 
 {{<section title="Brandung">}}
-**Brandung** is a digital agency from Cologne with a location in Berlin. With their support and supervision, we have created an application which will be used on a daily basis and helps them enhance their meetings.
+**Brandung** is an independent full-service digital agency for digital communication, e-commerce and online marketing with locations in Köln and Berlin. Brandung's team consists of around 170 employees, two of which, Sebastian Steiner and Oliver Weber, supported us in creating this application which will be used for their team meetings on a daily basis to provide feedback and enhance their meetings.
 {{</section>}}
 
 {{<quote>}}
