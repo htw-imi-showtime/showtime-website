@@ -16,7 +16,7 @@ We also played around with modern Web API features like the Bluetooth API.
 This allowed us to capture the heartbeat from a coupled device (we tested with a MI Band 2) right inside the browser.
 
 {{</section>}}
-{{<image src="assessment.png" alt="Daily Assessment" caption="Daily Assesment Questionnaire">}}
+{{<image src="assessment.png" alt="Daily Assessment" caption="Daily Assessment Questionnaire">}}
 
 {{<section title="Reports">}}
 
