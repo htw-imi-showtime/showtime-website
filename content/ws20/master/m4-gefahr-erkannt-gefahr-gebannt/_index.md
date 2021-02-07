@@ -17,14 +17,21 @@ supervisor = "Tamara Voigt, Martin Steinicke"
 
 ‘Gefahr erkannt, Gefahr gebannt’ is a VR learning application for teaching occupational safety measures.
 We developed a virtual reality application which aims to teach safety precautions for trainees in  metal workshops.
-In our simulation, users can process basic materials with various tools modeled after real examples, and must be careful to not hurt themselves.
-While doing so, they must choose the proper safety equipment to wear while operating their machines as well as operate the machines properly to avoid ‘brutal’ injuries.
+In our simulation users can process basic materials with various tools modeled after real examples and must be careful to not hurt themselves.
+While doing so they must choose the proper safety equipment to wear while operating their machines as well as operate the machines properly to avoid ‘brutal’ injuries.
 Can you complete the work assignment while keeping all your fingers?
 
 {{<section title="Our Goal">}}
 Our goal is to offer trainees in metal workshops an additional and engaging safety training in virtual reality.
 This training illustrates dangerous situations by showing injuries that can occur when working with the machines as realistically as possible.
-If we can make users more perceptive towards hazard cues, we will have achieved our goal.
+If we can make users more perceptive towards hazard cues we will have achieved our goal.
 {{</section>}}
 
-#{{<mediathek id="cba94788b18ce2d77e1599e7135a1758">}}
+{{<section title="Our Team">}}
+{{</section>}}
+{{<gallery>}}
+{{<team-member image="adrian.jpg" name="Adrian Sabrowski">}}
+{{<team-member image="marvin.jpg" name="Marvin Kullick">}}
+{{<team-member image="julian.png" name="Julian Bechthold">}}
+{{<team-member image="konrad.jpg" name="Konrad Ukens">}}
+{{</gallery>}}
