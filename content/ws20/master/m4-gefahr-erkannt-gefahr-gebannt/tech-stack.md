@@ -6,7 +6,7 @@ weight = 3
 {{<image src="tech-stack.png" alt="tech stack visualized">}}
 
 {{<section title="Development">}}
-Our prototype was developed in Unity version **2019.4.12f1** and the **VRTK version 3**.
+Our prototype was developed in Unity version **2019.4.12f1** and the **VRTK version 3.3**.
 We chose these core tools as the group members already had experience developing with them and could apply past knowledge while eliminating learning time.
 Furthermore, one group member had previously developed scripts for procedural mesh splitting, which became one of the core functions in our program. 
 {{</section>}}

@@ -49,19 +49,19 @@ The shear needs to be turned on via a switch on the left side. On button press, 
 	{{<image src="guillotine_shear_unity.png" alt="guillotine shear" caption="3. our modeled guillotine shear in unity">}}
 {{</gallery>}}
 
+<!--
 {{<section title="Glue Gun">}}
 To set up the previously crafted pieces, the glue gun can be used to permanently attach objects. 
 Therefore the glue guns trigger has to be pressed while shoving it above the preferred object, which then can be sticked onto another piece.
 {{</section>}}
+-->
 
 {{<section title="Injury simulation">}}
 One of the core concepts of our project is to give an impression of how badly one can hurt themselves as a consequence of improper machine operation.
 At the same time we do not want to scare the trainees away from using the machines they need for their work.
 During user testing we received mixed opinions on the graphic detail shown - some thought they could be more detailed (gory), while others thought it might be overwhelming for sensitive users.
 The head teacher of the metal workshop stressed that showing what is real is important - trainees should be aware of the severity of possible injuries.
-{{</section>}}
 
-{{<section title="Clipboard Feedback">}}
-In case you used one of the machines the wrong way, the screen will fade out until it becomes black. 
+**Clipboard Feedback** - In case you used one of the machines the wrong way, the screen will fade out until it becomes black. 
 Afterwards you will see a clipboard which tells you exactly what you did wrong and how you can do it right the next time using this machine. 
 {{</section>}}

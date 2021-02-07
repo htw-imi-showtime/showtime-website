@@ -31,8 +31,10 @@ This training illustrates dangerous situations by showing injuries that can occu
 {{</section>}}
 
 {{<section title="Our Team">}}
-Our team consists of four people with diverse skillsets. This enabled us to split into two subteams: development and modeling. Among other tasks Marvin and Konrad mainly focussed on bringing the machines from the workshop into the virtual world while Julian and Adrian set them up with interactability. 
+Our team consists of four people with diverse skillsets. This enabled us to split into two subteams: development and modeling.
+Among other tasks Marvin and Konrad mainly focused on bringing the machines from the workshop into the virtual world while Julian and Adrian set them up with interactability. 
 {{</section>}}
+
 {{<gallery>}}
 	{{<team-member image="adrian.jpg" name="Adrian Sabrowski">}}
 	{{<team-member image="marvin.jpg" name="Marvin Kullick">}}
