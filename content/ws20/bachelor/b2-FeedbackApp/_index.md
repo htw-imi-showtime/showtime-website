@@ -14,6 +14,8 @@ team = ["Timo Schmidt", "Hanh Phan", "David Albrecht", "Ferdinand Faller", "Osé
 supervisor = "Sebastian Steiner & Oliver Weber"
 +++
 
+{{<mediathek id="4776a90e885c59801bb7961894a7a3f6">}}
+
 {{<section title="Brandung">}}
 **Brandung** is an independent full-service digital agency for digital communication, e-commerce and online marketing with locations in Köln and Berlin. Brandung's team consists of around 170 employees, two of which, Sebastian Steiner and Oliver Weber, supported us in creating this application which will be used for their team meetings on a daily basis to provide feedback and enhance their meetings.
 {{</section>}}
@@ -45,11 +47,11 @@ Feedback is an essential part of communication. Both positive and negative feedb
 {{</gallery>}}
 
 {{<section title="Credits">}}
+
 **Animations**
 * [Start page animation by dilpreet singh on LottieFiles](https://lottiefiles.com/28457-feedback-persuasion-animation)
 * [Check Mark animation by Ami Moradia on LottieFiles](https://lottiefiles.com/20576-check-mark)
 * [404 Animation by Mark Arrow on LottieFiles](https://lottiefiles.com/40806-error-404?lang=de)
-
 
 **iPhone Mockups** 
 * [iPhone 12 Mockups by MockUPhone](https://mockuphone.com/device?type=ios#iphone12)
