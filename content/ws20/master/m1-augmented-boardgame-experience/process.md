@@ -33,8 +33,8 @@ Miro was also a great place to **play our very first round of “The Mole” in 
 {{<image src="game_play.jpg" alt="Game Play" caption="Our Miro board with a provisional game board to test the game flow">}}
 
 
-{{<section title="Game Design">}}
-Once the game idea was established, the **design was conceptualized using the Adobe XD prototyping tool**. Since the story is about solving a mysterious murder case, we wanted to reflect the **mysteriousness** in the design. For this reason, the main color chosen was black. Since red is not only the color of blood, but also a signal color, this color was chosen for special actions. Also, the story is set around the end of the 19th to the beginning of the 20th century. Therefore, the images should fit in the **British Victorian era** and continue to emphasize the mysterious. The maps were created by an external illustrator. In order to provide her with the London infrastructure and landscape, we used an online tool called Snazzy Maps[3] that allows detailed style customizations and image exports of maps from all over the world. These exports were used as a base to create vector graphics of the infrastructure (in fact parks, water and big roads). As a result, **the layout in the maps is based on the modern infrastructure but styled in a vintage way**.
+{{<section title="Visual Design">}}
+Once the game idea was established, the **design was conceptualized using the Adobe XD prototyping tool**. Since the story is about solving a mysterious murder case, we wanted to reflect the **mysteriousness** in the design. For this reason, the main color chosen was black. Since red is not only the color of blood, but also a signal color, this color was chosen for special actions. Also, the story is set around the end of the 19th to the beginning of the 20th century. Therefore, the images should fit in the **British Victorian era** and continue to emphasize the mysterious. The maps were created by an external illustrator. In order to provide her with the London infrastructure and landscape, we used an online tool called Snazzy Maps that allows detailed style customizations and image exports of maps from all over the world. These exports were used as a base to create vector graphics of the infrastructure (in fact parks, water and big roads). As a result, **the layout in the maps is based on the modern infrastructure but styled in a vintage way**.
 
 After the gameplay was determined, the other screens were designed and discussed in the design team. Afterwards, feedback from the entire team was gathered and integrated into the design.
 {{</section>}}
@@ -68,10 +68,3 @@ Both our Codebases were deployed to the Heroku platform which meant that we had 
 
 In addition to the front-end/back-end tests, **new features were tested throughout the team** at regular intervals. Anomalies, errors and improvements were noted on the Kanban board and checked during the next test.
 {{</section>}}
-
-
-[1]: Schell, J.: The Art of Game Design: A Book of Lenses. 1. ed. Burlington: Morgan Kaufmann, 2008, p. 42.
-
-[2]: https://mud.co.uk/richard/hcds.htm, visited on the 02.02.21
-
-[3]: https://snazzymaps.com/, visited on the 03.02.20

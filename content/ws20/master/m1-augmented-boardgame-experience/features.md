@@ -103,3 +103,8 @@ If you have new messages or other important information, you will be notified by
 
 
 {{<image src="clue_actions.png" alt="Clue Actions" caption="The screens of the three clue actions">}}
+
+
+{{<section title="Adaptive Music">}}
+A further **possibility of digital technology** in a board game we wanted to experiment with, is **the use of adaptive music**. It can be used to set the **atmosphere**, add to the **excitment of events** in the game, and with that create a more **immersive experience**. In The Mole, the background music we produced reacts to the progress and events of the game. The **closer the team is to getting caught**, the **more intense** the music gets, blending between **different layers of tracks**. Changes, events and sound effects are **synhronized to the music**.
+{{</section >}}

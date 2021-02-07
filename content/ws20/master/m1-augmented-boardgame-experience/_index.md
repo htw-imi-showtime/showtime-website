@@ -39,3 +39,26 @@ Our team consists of seven people. The concept of the game idea was worked out a
 {{<team-member image="Lena.png" name="Lena Serdarusic">}}
 {{<team-member image="Shari.png" name="Shari-Lynn Eichberger">}}
 {{</gallery>}}
+
+{{<section title="Sources">}}
+[1]: Schell, J.: The Art of Game Design: A Book of Lenses. 1. ed. Burlington: Morgan Kaufmann, 2008, p. 42.
+
+[2]: https://mud.co.uk/richard/hcds.htm, visited on the 02.02.21
+
+**___**
+
+The black and white photos used on the website of the augmented board game "The Mole" are from **flickr** and **Unsplash**.
+https://www.flickr.com/ | https://unsplash.com/
+
+All used icons are from **Font Awesome**.
+https://fontawesome.com/
+
+The used logos of heroku, Nuxt.js and PostgreSQL are from the related **companies' websites**.
+https://brand.heroku.com/ | https://nuxtjs.org/design | https://wiki.postgresql.org/wiki/Logo
+
+The used logos of django, JavaScript and Python are from **gilbarbara's Github repository**.
+https://github.com/gilbarbara/logos
+
+The used logos of Socket.io, tailwind.css and Vue.js are from **WorldVectorLogo**.
+https://worldvectorlogo.com/
+{{</section >}}
