@@ -16,7 +16,7 @@ To get people to respond on a daily basis this process has to be quick and easy.
 {{</section>}}
 
 {{<section title="Automation">}}
-Since our app is connected to the Outlook API, the invitation links for the questionnaires get sent out 5 minutes after the meeting automatically to the meeting attendees. The same goes for the evaluation link which gets sent out 1 day after the meeting.
+Since our app is connected to the Outlook API, the invitation links for the questionnaires get sent out automatically 5 minutes after the meeting to the meeting attendees. The same goes for the evaluation link which gets sent out 1 day after the meeting.
 {{</section>}}
 
 {{<section title="Evaluation">}}
