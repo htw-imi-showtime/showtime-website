@@ -14,6 +14,8 @@ team = ["Timo Schmidt", "Hanh Phan", "David Albrecht", "Ferdinand Faller", "Osé
 supervisor = "Sebastian Steiner & Oliver Weber"
 +++
 
+{{<mediathek id="4776a90e885c59801bb7961894a7a3f6">}}
+
 {{<section title="Brandung">}}
 **Brandung** is a digital agency from Cologne with a location in Berlin. With their support and supervision, we have created an application which will be used on a daily basis and helps them enhance their meetings.
 {{</section>}}
