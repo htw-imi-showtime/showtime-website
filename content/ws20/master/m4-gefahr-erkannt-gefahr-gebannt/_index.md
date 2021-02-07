@@ -27,11 +27,11 @@ This training illustrates dangerous situations by showing injuries that can occu
 If we can make users more perceptive towards hazard cues we will have achieved our goal.
 {{</section>}}
 
-{{<section title="Our Team">}}
-{{</section>}}
+{{<section title="Our Team">}}{{</section>}}
+
 {{<gallery>}}
-{{<team-member image="adrian.jpg" name="Adrian Sabrowski">}}
-{{<team-member image="marvin.jpg" name="Marvin Kullick">}}
-{{<team-member image="julian.png" name="Julian Bechthold">}}
-{{<team-member image="konrad.jpg" name="Konrad Ukens">}}
+	{{<team-member image="adrian.jpg" name="Adrian Sabrowski">}}
+	{{<team-member image="marvin.jpg" name="Marvin Kullick">}}
+	{{<team-member image="julian.png" name="Julian Bechthold">}}
+	{{<team-member image="konrad.png" name="Konrad Ukens">}}
 {{</gallery>}}
