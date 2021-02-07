@@ -4,7 +4,7 @@ weight = 3
 +++
 
 {{<section title="Technologies">}}
-What Technology did we use? In the following, all important technologies used in our project are indicated. For each technology, the logo, name and general function are presented. This should help you to better understand the graphic of the software architecture in the next paragraph.
+In the following, all important technologies used in our project are indicated. For each technology, the logo, name and general function are presented. This should help you to better understand the graphic of the software architecture in the next paragraph.
 {{</section>}}
 
 {{<image src="technologies.png" alt="Technologies">}}
@@ -13,7 +13,7 @@ What Technology did we use? In the following, all important technologies used in
 {{<section title="Architecture">}}
 The following graphic describes the software architecture of the game "The Mole".
  
-There are two basic elements in the architecture, a backend server and a frontend server. Both our servers are deployed on the cloud application platform **Heroku**. Furthermore all instances communicate using **SocketIO**. SocketIO is a library for real-time web applications that enables bidirectional real-time communication between web clients and servers. 
+There are two basic elements in the architecture, a backend server and a frontend server. Both our servers are deployed on the cloud application platform **Heroku**. Furthermore all instances communicate using **SocketIO**. SocketIO is a library for real-time web applications that enables event-driven, bidirectional real-time communication between web clients and servers. 
  
 In the backend we used Python as a programming language with the **Django** web framework. Our data is stored in the object-relational database system **PostgreSQL**. This is supported by Django as well as by Heroku. 
  
