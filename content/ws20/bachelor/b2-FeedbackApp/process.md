@@ -26,5 +26,9 @@ As no one of our team has had previous experience with NextJS there was some rea
 
 We used MongoDB as our database and connected it to our app via Express. To access the Outlook (e.g. Calendar, emails) data we had to register and connect our app to Azure. 
 
-Our supervisors were always there to guide and help us in case we were stuck.  
+Our supervisors were always there to guide and help us in case we were stuck.
+{{</section>}}
+
+{{<section title="Retrospective">}}
+**Together with a SCRUM master from Brandung**, we finished our project with a retrospective where we talked about the overall process, our difficulties and what we have learned from the project. 
 {{</section>}}
