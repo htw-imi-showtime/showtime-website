@@ -33,19 +33,6 @@ Feedback is an essential part of communication. Both positive and negative feedb
 
 {{</section>}}
 
-{{<section title="The Team">}}
-
-{{</section >}}
-
-{{<gallery>}}
-{{<team-member image="_teamTimo.png" name="Timo">}}
-{{<team-member image="_teamHanh.png" name="Hanh">}}
-{{<team-member image="_teamDavid.png" name="David">}}
-{{<team-member image="_teamFerdinand.png" name="Ferdinand">}}
-{{<team-member image="_teamOsee.png" name="Osée">}}
-{{<team-member image="_teamYannick.png" name="Yannick">}}
-{{</gallery>}}
-
 {{<section title="Credits">}}
 
 **Animations**
