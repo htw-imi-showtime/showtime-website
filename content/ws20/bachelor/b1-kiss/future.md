@@ -23,12 +23,4 @@ There are a couple of apps out there that can scan the barcode of cosmetic produ
 #### Expandable database by users
 One of our ideas would be to **give the users the chance** to **improve our app** by adding useful information to the substances itself. They could either **add additional information** to the content that is already there or just have some **notes** to the substances, like their **prior experiences**, connections to other substances, etc.
 
-{{</section>}}
-
-{{<section title="Profiles (i might delete this one)">}}
-We want to **personalise our app**. The idea is to have profiles for the users and providing features like marking substances that the user has had bad experiences with.
-It also allows us to **save the data in the cloud**.
-
-{{</section>}}
-
 
