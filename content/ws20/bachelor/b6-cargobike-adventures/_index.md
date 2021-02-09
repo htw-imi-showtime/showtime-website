@@ -34,7 +34,7 @@ Song: [Simon More - You (Vlog No Copyright Music)
 Music promoted by Vlog No Copyright Music.](https://youtu.be/lMJCoZoVpHY)
 </h6>
 {{</section>}}
-{{<mediathek id="6184bc97bd29ec40bd3d5f7c1a2a78f0">}}
+{{<mediathek id="6272636b176e07ac1773ef7a2bf3f690">}}
 
 {{<section title="Our Goals">}}
 As developers, we set out to satisfy both the users and business owners. For the users, we built a simple, informative, responsive, and safe e-commerce site that provides as many features as it can to help them plan an e-bike tour. For the business owners, this online platform that is customized to their needs, scalable, and could be easily maintained by themselves.  
