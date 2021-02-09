@@ -27,7 +27,7 @@ Practiced web scraping from the Stackoverflow jobs & career page to have sample 
 - **Cleaning the Data & Keywords Extraction**
 
 Used rake-nltk algorithm for keyword extraction to retrieve the first phrases for our sample data.
-
+Our GitHub repository [here](https://github.com/B5-Recruiter-and-Employee/WebScraperIndeed).
 {{</section>}}
 
 {{<section title="MVP and Mockup Design">}}
