@@ -7,6 +7,8 @@ weight = 3
 
 {{<section title="Client">}}
 After detailed research, we decided to develop an **Android application** using the IDE **Android Studio**. Our decision to use the programming language **Java** over Kotlin, was based upon the fact that it is the main language that is taught in our studies.
+
+All data that is generated while using the app is stored directly on the device in folders that were especially created for that. That includes a **csv file that handles the serialisation** of important content such as the individual project name the user chose. 
 {{</section>}}
 
 {{<section title="Backend">}}
