@@ -3,6 +3,7 @@ title = "Process"
 weight = 2
 +++
 
+
 {{<section title="First steps">}}
 Our **goal was clear**. We generally knew what we had to do to reach our goal. 
 Some **questions** still **came up**, that had to be answered first, before starting to code. 
@@ -13,6 +14,14 @@ The other group was **responsible for the frontend** and how we **integrate the 
 We were **always staying in contact** and **communicating with each other regularly**.
 We **stayed** in these **subgroups** up until our **prototype was done**.
 {{</section>}}
+{{<section title="Mockups">}}
+We knew a couple of things before thinking of our design. Our app would have three pages: A **search, camera and history screen**. We also liked the idea of **valuing a clean and simple design over a complex one** because it fits our app the best.
+{{</section>}}
+{{<image src="mockups_triple.png" alt="Mockups">}}
+{{<section title="Evolution of our design">}}
+For our **prototype**, we wanted to make sure that our **basic structure** and **feature set** is **present**. Our **UI** wasn't the **main focus at that point**. After having our prototype, we also set out to **improve our UI** by making it **look more like our Mockup**.
+{{</section>}}
+{{<image src="evolution_of_history.png" alt="Evolution of history" caption="Evolution of our history screen">}}
 
 {{<section title="Second phase">}}
 Our second phase started with a **brainstorm**. 
@@ -20,7 +29,7 @@ We thought about **possible features** and **sorted them by their priority**.
 This process took some time because we came up with great ideas but filtering them to what was possible in our given time window wasn't easy.  
 The **Miro board helped us** a lot in the process of visualising and managing our ideas. 
 We also used it as a Task/Kanban board. 
-We **never ran out of ideas**, therefore our idea collection and **prioritisation changed weekly**.  
+We **never ran out of ideas**, therefore our idea collection and **prioritisation changed weekly**.
 Staying in touch with our **supervisor helped us** a good deal with our decision making over which features to implement.
 Keeping a **constant communication flow allowed** us to be **very flexible**.
 This phase lasted until the end of our development.
