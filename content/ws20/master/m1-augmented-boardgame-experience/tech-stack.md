@@ -4,7 +4,7 @@ weight = 3
 +++
 
 {{<section title="Technologies">}}
-What Technology did we use? In the following, all important technologies used in our project are indicated. For each technology, the logo, name and general function are presented. This should help you to better understand the graphic of the software architecture in the next paragraph.
+In the following, all important technologies used in our project are indicated. For each technology, the logo, name and general function are presented. This should help you to better understand the graphic of the software architecture in the next paragraph.
 {{</section>}}
 
 {{<image src="technologies.png" alt="Technologies">}}
@@ -13,12 +13,12 @@ What Technology did we use? In the following, all important technologies used in
 {{<section title="Architecture">}}
 The following graphic describes the software architecture of the game "The Mole".
  
-There are two basic elements in the architecture, a backend server and a frontend server. Both our servers are deployed on the cloud application platform **Heroku**. Furthermore all instances communicate using **SocketIO**. SocketIO is a library for real-time web applications that enables bidirectional real-time communication between web clients and servers. 
+There are two basic elements in the architecture, a backend server and a frontend server. Both our servers are deployed on the cloud application platform **heroku**. Furthermore all instances communicate using **Socket.IO**. SocketIO is a library for real-time web applications that enables bidirectional real-time communication between web clients and servers. 
  
-In the backend we used Python as a programming language with the **Django** web framework. Our data is stored in the object-relational database system **PostgreSQL**. This is supported by Django as well as by Heroku. 
+In the backend we used Python as a programming language with the **django** web framework. Our data is stored in the object-relational database system **PostgreSQL**. This is supported by Django as well as by Heroku. 
  
-In the frontend we used **Vue.js**, a JavaScript frontend framework for declarative rendering and component composition. Furthermore we extended Vue.js with **NuxtJS**, a JavaScript frontend framework with functionalities like routing, state management, universal rendering and more. To quickly build responsive designs, we used the CSS-Framework **Tailwind**.
-
+In the frontend we used **Vue.js**, a JavaScript frontend framework for declarative rendering and component composition. Furthermore we extended Vue.js with **Nuxt.js**, a JavaScript frontend framework with functionalities like routing, state management, universal rendering and more. To quickly build responsive designs, we used the CSS-Framework **tailwind.css**.
+ 
 Clients can open the game as a **progressive web app**. This means that the game is available as a responsive website, but can additionally be used like an app. When the player connects to the frontend they basically create their own client. That helps us with communication.
 {{</section>}}
 

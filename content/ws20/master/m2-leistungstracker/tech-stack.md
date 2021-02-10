@@ -3,8 +3,11 @@ title = "Tech Stack"
 weight = 3
 +++
 
+{{<image src="tech_stack.png" alt="Tech Stack" caption="Tech Stack">}}
+
 {{<section title="React & Typescript">}}
-Oh how beautiful our FE stack was. So gorgeous. Just amazing. Typescript is the best. Strict linting roles rule.
+For our Frontend we decided to use ReactJS with TypeScript. This gave us the advantage of having a well-documented library with a plethora of available resources. React is relatively easy to learn and it allowed us to have a modular structure where we could build various reusable components. To improve and ensure code-quality, we set up very strict linting and formatting rules.
+We used Bulma for essential styling.
 {{</section>}}
 
 {{<section title="NestJs & Typescript">}}
@@ -12,11 +15,8 @@ We used NestJS, a TypeScript framework for Node.js backend apps. This gave us a 
 The Postgres database is accessed via TypeORM.
 {{</section>}}
 
-{{<section title="All that hosting stuff - Docker">}}
-Yes. We had something here. Do I know anything? No! Oh what fun.
-{{</section>}}
+{{<image src="pipeline.svg" alt="Pipeline" caption="Pipeline">}}
 
-
-{{<section title="GitHub Pages">}}
-We kind of used it, right? Oh well who knows.
+{{<section title="Hosting & Pipelines">}}
+The platform we used to run our CI-Pipeline was a Gitlab-Runner. It was set up through Docker. We used it as we were already using a Gitlab repository. To deploy our Website, we used a CD-Pipeline to stop the Backend Server, update it and restart it. The pipeline also built the frontend and made it accessible through an NGINX-instance.
 {{</section>}}
