@@ -1,6 +1,8 @@
 +++
 showtime_date = "12/02/2021"
 showtime_place = "REMOTE"
+is_live = "false"
+zoom_link = "https://duckduckgo.com"
 +++
 
 {{<teaser category="about showtime" title="Projects over Distance">}}
