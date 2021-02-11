@@ -25,13 +25,19 @@ The field of regeneration research and performance diagnostics has started inves
 Athletimize offers daily assessment questionnaires as well as session-specific assessments that allow athletic staff to analyze an individual athlete’s performance in a more faceted approach. A team’s management and training staff can track performance data over time, follow the team’s athletic development and investigate change with the help of the individual and team reports.
 {{</section >}}
 
+<div class="mediathek-embed">
+    <div class="mediathek-player">
+        <video controls="true" allowfullscreen="true" style="width: 100%;">
+            <source src="https://dev.pluto.ac0.de/videos/trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
 {{<section title="Research and Cooperation">}}
 The project was carried out in cooperation with the University of Bern and Victoria Berlin.
 Features such as the various assessments and the score-calculation are based on research conducted by the University of Bern.
 Victoria Berlin provided input regarding potential planning and session features. 
 {{</section >}}
-
-{{<mediathek id="TODO">}}
 
 {{<section title="Try it out">}}
 **Responsive**\
