@@ -5,7 +5,7 @@ weight = 2
 
 {{<section title="Starting off">}}
 We started this project without any prior experience in the field of occupational safety measures and how they are taught.
-As the need was brought to us in the context of a larger research project, we scheduled Zoom meetings with educational partners from [AVT](https://www.avt-bildung.de/) and [bfw](https://www.bfw.de/berlin/das-bfw-in-berlin-technische-berufe/). 
+As the need was brought to us in the context of a larger research project, [CoLearnET](https://web.colearnet.de/p/home), we scheduled Zoom meetings with educational partners from [AVT](https://www.avt-bildung.de/) and [bfw](https://www.bfw.de/berlin/das-bfw-in-berlin-technische-berufe/). 
 They invited us to visit their workshops in order to gather enough information about the machines being used as well as the potential injuries. 
 {{</section>}}
 
