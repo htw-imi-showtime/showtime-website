@@ -4,7 +4,7 @@ weight = 2
 +++
 
 {{<section title="Design Thinking Process">}}
-**Ever since our team started working together, we have been integrating the method of [Design Thinking](https://www.nngroup.com/articles/design-thinking/) - a non-linear, iterative process - to our project work. We went back and forth through its six stages to continuously improve our product.**
+**Ever since our team started working together, we have been integrating the method of [Design Thinking](https://www.nngroup.com/articles/design-thinking/) - a non-linear, iterative process - to our project work. We went back and forth through its six stages to continuously improve our prototype.**
 {{</section>}}
 {{<image src="ourdesignthinkingprocess.png" alt="Design Thinking Process" caption="Design Thinking Process">}}
 

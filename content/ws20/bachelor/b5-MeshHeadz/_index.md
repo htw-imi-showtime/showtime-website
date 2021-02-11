@@ -8,15 +8,15 @@ card_description = "MeshHeadz is an Android-based mobile application that enable
 
 
 
-# These properties may be removed if you don't need them
-# source_link = "https://github.com/htw-imi-showtime/showtime-website/"
-demo_link = "https://htw-imi-showtime.github.io/"
-# website_link = "https://htw-berlin.de/"
+
+demo_link = "https://drive.google.com/drive/folders/1TcirKRHFU7bJFtJ0zyMSdCgfIsv_Ge3j"
+
 
 team = ["Lena Zellin", "Celine Wiese", "Daan Lockhorst", "Robin Simeon Jaspers", "Hikari Sophia Stölzle"]
 supervisor = "Florian Gnadlinger & Josef Heitzler"
 +++
 
+{{<mediathek id="e66f20c13dbd5517bd568560241005ac">}}
 {{<section title="Context">}}
 Hearing loss is a condition that can cause various problems, including the loss of the ability to identify the location of a sound, also called **binaural hearing**. 
 
@@ -38,7 +38,8 @@ After a short period of understanding, each of our five team members quickly fou
 * The **App** team
 * The **Web Service** team
 * The **3D-Pipeline** team
-
+ 
 Since all groups communicated with each other on a regular basis, in the end, we always knew about each other’s issues and achievements and shared our expertise with the team.
 Eventually each team member became an expert in their respective field.
 {{</section >}}
+
