@@ -15,6 +15,16 @@ team = ["Adrian Sabrowski", "Marvin Kullick", "Konrad Ukens", "Julian Bechthold"
 supervisor = "Tamara Voigt, Martin Steinicke"
 +++
 
+{{<section title="Showtime Schedule">}}
+**Simons says... chop your finger off!**
+
+If that is a phrase you always wanted to say but foremost would like to learn about how to avoid injuries...
+
+...come to our booth and join us for backseat gaming sessions at: **12:30 || 13:30 || 14:30**
+
+Additionally we will be showcasing our prototype on demand.
+{{</section>}}
+
 {{<section title="Summary">}}
 **Can you complete the work assignment while keeping all your fingers?**
 
@@ -25,7 +35,7 @@ In order to avoid serious injuries they must choose the required safety equipmen
 
 {{<section title="Our Goal">}}
 With our application we want to offer trainees in metal workshops an additional and engaging safety training in virtual reality.
-This training illustrates dangerous situations by showing injuries that can occur when working with the machines as realistically as possible.
+This training illustrates dangerous situations by showing injuries that can occur when working with the machines as real as possible.
 
 **Achieving our goal means to make our users more perceptive towards hazard cues and possible risks while practicing their crafts(wo)manship.**
 {{</section>}}

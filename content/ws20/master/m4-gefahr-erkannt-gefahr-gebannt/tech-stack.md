@@ -34,7 +34,7 @@ The project setup as well as code versioning were made possible for us via a **G
 {{</section>}}
 
 {{<section title="Communication">}}
-Starting off with **Slack** we quickly changed to **Discord** as our primarly mean of internal communication channel, due to overall accesability and comfort.
+Starting off with **Slack** we quickly changed to **Discord** as our primarly internal communication channel, due to overall accesability and comfort.
 
 Calls with the project partners or weekly catch up meetings with the project supervisors were held via **Zoom**.
 {{</section>}}

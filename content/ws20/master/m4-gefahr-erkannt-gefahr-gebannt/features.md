@@ -53,12 +53,12 @@ The shear needs to be turned on via a switch on the left side. On button press, 
 
 {{<section title="Injury Simulation">}}
 One of the core concepts of our application is to give an impression of how badly one can hurt themselves as a consequence of improper machine operation.
-At the same time we don't intend to traumatize trainees or scare them away from machines they need for their work.
+At the same time we don't intend on traumatizing trainees or scaring them away from machines they need for their work.
 
 To balance these two requirements out, we explicitly asked for feedback of the implemented injury visualization. While the trainers stressed that showing what is real is important -
 trainees should be aware of the severity of possible injuries -, we received mixed opinions on the graphic detail shown from their protegees. Some thought it could be more detailed ("gory"), while others thought it might be overwhelming for sensitive users.
 
 **Blood** - The [Volumetric Blood Fluids](https://assetstore.unity.com/packages/vfx/particles/volumetric-blood-fluids-173863) asset pack and custom settings for it were used to try to realistically portray the blood behaviour of cutting/drilling wounds. 
 
-**Clipboard Feedback** - To achieve a better understanding of what actions led to an injury inducing mistake, the players are presented with a clipboard which shows what was done wrong and how proper behaviour looks like, in order to prevent this type of errors in the future. 
+**Clipboard Feedback** - To achieve a better understanding of what actions led to an injury inducing mistake, the players are presented with a clipboard which shows what was done wrong and how proper behaviour looks in order to prevent similar mistakes in the future. 
 {{</section>}}
