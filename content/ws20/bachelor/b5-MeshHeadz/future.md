@@ -7,7 +7,8 @@ weight = 4
 
 As it often happens while working on a project, the more time passes, the more ideas come to mind. The same happened to us. In the end, we probably could've spent many additional months developing our product. 
 {{</section>}}
-{{<section title="Short-term goals">}}
+{{<section title="Short-term Goals">}}
+
 In general we think that with more time to develop, we would have become more experienced and therefore more confident in writing efficient code, what would result in our application being faster and the user experience being better.
 <br/>
 
@@ -23,7 +24,7 @@ To maybe get a better 3D-model result in the end, we also figured it would be su
 
 {{</section>}}
 
-{{<section title = "Long-term goals">}}
+{{<section title = "Long-term Goals">}}
 To increase the performance of our app, we thought of:
 	
  * **reducing the amount of vertices in our 3D-model to reduce needed space**
