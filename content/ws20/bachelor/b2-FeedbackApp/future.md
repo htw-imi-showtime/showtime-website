@@ -17,3 +17,7 @@ Different meetings require different questions. Right now, the questionnaire has
 
 Meeting owners could tailor the questionnaire to fit their meeting either by using predefined templates or customize the questionnaire as they see fit. We don't want to limit meeting owners: If they want to ask the attendees what they think about their dad jokes that are part of every meeting or what they think about the lovely new font that they are using on their slides. **There should be an option for this.**
 {{</section>}}
+
+{{<section title="Localization">}}
+Shouldn't there be an option to switch the language of the feedback questionnaire? **Absolutely.** In order to make the app accessible to everyone, we would love to offer the app in different languages either by changing it manually or by detecting the browser language.
+{{</section>}}
