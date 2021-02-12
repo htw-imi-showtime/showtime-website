@@ -12,9 +12,9 @@ As part of our project we also came up with more concepts which have not yet bee
 
 The first is “step by step walking from both directions”. The concept is similar to our current reinforcement learning approach, but it allows parallelisation. The idea is that two neural networks have each other's starting point as their goal. They then walk in a semi-random direction beginning from their starting point.  As soon as the paths of both cross, there is a path that connects both starts.
 
-The second concept is finding intermediate points between the start and goal. The approach would be to let the model predict waypoints which can be connected as a direct line of sight.
+The second concept is finding intermediate points between the start and goal. The approach would be to let the model predict waypoints, which can be connected as a direct line of sight.
 
-The third concept follows the principle “Divide & Conquer”. The idea here is to learn how to divide a large path finding problem into multiple smaller ones which are then solved by a different model.
+The third concept follows the principle “Divide & Conquer”. The idea here is to learn how to divide a large path finding problem into multiple smaller ones, which are then solved by a different model.
 
 The last remaining concept is to narrow down the potential search space through the model prediction and then run a normal pathfinding algorithm inside this subregion. Because the algorithm has to visit fewer nodes, this might result in a noticeable speedup.
 {{</section>}}
