@@ -15,8 +15,13 @@ The majority of our time was spent on coming up with new concepts and developing
 </div>
 
 - The model trained by the **generative adversarial network** was given over 10.000 samples, 7500 of which were used as part of the training data set and the remaining 2500 for result evaluations.
+{{<image src="gan_mse.png">}}
+
 - For the **reinforcement learning** model, the agent was trained for 50.000 - 200.000 iterations depending on size of the worlds.
 - Our **supervised transfer learning** model was trained with over 4000 different environments, each with around 40 different variations, resulting in a total of 168.000 data samples. This model was only trained for 2D worlds. Please refer to our <a href="/ws20/master/m3-deep-3d-pathfinding/process">process</a> page to learn about the limitations.
+{{<image src="tl_loss.png">}}
+
+
 {{</section >}}
 
 {{<section title="World Generator">}}
