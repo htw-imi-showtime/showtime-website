@@ -1,5 +1,6 @@
 +++
-title = "M1 Manipulative Methods in Mobile Games: An E-Learning Unit"
+project_id = "M1"
+title = "Manipulative Methods in Mobile Games: An E-Learning Unit"
 
 # Properties for displaying the project's card in the overview
 card_image = "logo.png"
@@ -19,7 +20,7 @@ Why can applications and social media applications do something that seems to ca
 
 We have developed a mobile web e-learning application that addresses exactly these points and explains these mechanisms.
 
-It's "unhooked" !
+It's "unhooked"!
 {{</section>}}
 
 {{< image src="logo.png" alt="Unhooked Logo" caption="Unhooked Logo" >}}

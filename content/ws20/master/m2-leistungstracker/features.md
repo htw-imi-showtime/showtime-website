@@ -42,5 +42,11 @@ Athletimize supports multiple teams per instance where each team has different m
 {{<image src="teams.png" alt="Team Area" caption="Team Area">}}
 
 
-
-{{<mediathek id="b86f2cbe8eb2f36d623507366b1d6bd2" title="Athletimize Product Video">}}
+<div class="mediathek-embed">
+    <h3>Product Trailer</h3>
+    <div class="mediathek-player">
+        <video controls="true" allowfullscreen="true" style="width: 100%;">
+            <source src="https://dev.pluto.ac0.de/videos/trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>

@@ -1,5 +1,6 @@
 +++
-title = "M4 Visualization and Analysis of Computer Science Publication Data"   
+project_id = "M4"
+title = "Visualization and Analysis of Computer Science Publication Data"   
 
 # Properties for displaying the project's card in the overview
 card_image = "title.jpg"
@@ -8,18 +9,12 @@ card_description = "Which universities publish the most papers? What are the lat
 # These properties may be removed if you don't need them
 source_link = "https://github.com/PELange/VACS"
 website_link = "https://vacs.htw.bytex.digital"
+
+team = ["Lina Kriebel", "Paul-Eric Lange", "Lena Serdarusic", "Florian Wiese"]
+supervisor = "Prof. Dr. Gefei Zhang"
 +++
 
-#### Project supervisor
-Prof. Dr. Gefei Zhang
-
-#### Project team
-Lina Kriebel  
-Paul-Eric Lange  
-Lena Serdarusic  
-Florian Wiese  
-
-## Description
+{{<section title="Description">}}
 In computer science, an estimation of hundreds of thousands of scientific publications are published every year. Even though the content itself is usually placed behind a payment barrier, some metadata are freely accessible, such as title, abstract, keywords of the publication, name of the conference as well as names and universities of the authors. A well-known publication series for computer science is the ["Lecture Notes in Computer Science"](https://link.springer.com/bookseries/558) by Springer-Verlag. Since 1973, more than 12 000 books containing over 360 000 papers have been published in this series. The aim of the project was to visualize and analyze the metadata of these publications.
 
 For this purpose, the data first had to be extracted using web scraping and prepared for further processing using a range of different methods. This involved the use of *natural language processing*, *similarity matching* and *geolocation services*. Over 320 000 keywords and 190 000 locations had to be normalized and matched. The main difficulties were to find duplicates within the inconsistent spellings and partially missing information of identical data sets. The processed data enabled numerous analyses to be carried out.
@@ -32,5 +27,6 @@ Topics that were analyzed include:
 * ...
 
 The video below is only a small preview to all the results and interactive visualizations waiting for you on our [website](https://vacs.htw.bytex.digital).
+{{</section>}}
 
-{{< mediathek autoplay="false" width="1280" height="720" id="a8df25d0ba0a5b0728838017bb98f3c1" >}}
+{{< mediathek id="a8df25d0ba0a5b0728838017bb98f3c1" >}}
