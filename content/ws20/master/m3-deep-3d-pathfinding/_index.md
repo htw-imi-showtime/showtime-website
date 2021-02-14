@@ -15,6 +15,8 @@ team = ["Daniel Wunderlich", "Florian Wiese", "Steven Behm", "Mareike Glock", "P
 supervisor = "André Selmanagic, Dara Khajavi"
 +++
 
+{{<mediathek id="37309d7e8fb35c250f0cffe83233df11">}}
+
 {{<image src="banner.jpg">}}
 
 {{<section title="Our Project">}}
