@@ -1,7 +1,7 @@
 +++
 showtime_date = "12/02/2021"
 showtime_place = "REMOTE"
-is_live = "true"
+is_live = "false"
 zoom_link = "https://htw-berlin.zoom.us/j/97320821203"
 +++
 
