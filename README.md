@@ -67,7 +67,7 @@ git push
 ```
 8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
-Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/  
+Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/ 
 
 One week before the Showtime takes place, the website will be published on our production server: https://showtime.f4.htw-berlin.de/
 
@@ -89,7 +89,7 @@ git submodule update
 ```
 
 ## Including additional content
-In addition to the required content you can add any content you want - at least this term (summer semester 2021) this site
+In addition to the required content you can add any content you want - at least this term (winter semester 2021/22) this site
 replaces the Showtime Fair with the booths and posters. Please consider
 - the Urheberrecht for all material you provide: Include the information (source, creator etc.) in the caption
 - please reduce the file sizes for all images and videos that are included in the site
