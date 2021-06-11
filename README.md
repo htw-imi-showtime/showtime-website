@@ -7,16 +7,17 @@ The official IMI showtime website
 
 [Preview: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
 
-* [Adding a new project](#Adding-a-new-project)
-* [Updating your Fork](#Updating-your-Fork)
-* [Including additional content](#Including-additional-content)
-  * [Sections](#Sections)
-  * [Images](#Images)
-  * [Gallery](#Gallery)
-    * [Special Case: Team Gallery](#Special-Case-Team-Gallery)
-  * [Videos](#Videos)
-  * [HTW Mediathek Player](#HTW-Mediathek-Player)
-  * [GitHub Gists](#GitHub-Gists)
+- [IMI Showtime Website](#imi-showtime-website)
+  - [Adding a new project](#adding-a-new-project)
+  - [Updating your Fork](#updating-your-fork)
+  - [Including additional content](#including-additional-content)
+    - [Sections](#sections)
+    - [Images](#images)
+    - [Gallery](#gallery)
+      - [Special Case: Team Gallery](#special-case-team-gallery)
+    - [Videos](#videos)
+    - [HTW Mediathek Player](#htw-mediathek-player)
+    - [GitHub Gists](#github-gists)
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
@@ -44,14 +45,14 @@ git submodule update --init --recursive
 ```
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ws20/bachelor/b0-template-project/ content/ws20/bachelor/b#-your-project/
+cp -R content/ws21/bachelor/b0-template-project/ content/ws21/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws20/master/m0-template-project/ content/ws20/master/m#-your-project/
+cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-5. Fill out your project's homepage `content/ws20/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+5. Fill out your project's homepage `content/ws21/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    **Please don't use Markdown headings (hashtags) directly, since those headings won't be displayed correctly.**
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
@@ -60,13 +61,13 @@ cp -R content/ws20/master/m0-template-project/ content/ws20/master/m#-your-proje
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ws20/<bachelor|master>/<project_number-your-project>
+git add content/ws21/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
 8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
-Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/
+Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/ 
 
 One week before the Showtime takes place, the website will be published on our production server: https://showtime.f4.htw-berlin.de/
 
@@ -88,7 +89,7 @@ git submodule update
 ```
 
 ## Including additional content
-In addition to the required content you can add any content you want - at least this term (winter semester 2021) this site
+In addition to the required content you can add any content you want - at least this term (winter semester 2021/22) this site
 replaces the Showtime Fair with the booths and posters. Please consider
 - the Urheberrecht for all material you provide: Include the information (source, creator etc.) in the caption
 - please reduce the file sizes for all images and videos that are included in the site
