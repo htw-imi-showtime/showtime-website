@@ -1,28 +1,27 @@
 +++
-title = "KISS"
-project_id = "B1"
+title = "Bachelor Project Template"
+project_id = "B0"
 
 # Properties for displaying the project in the project list
-card_image = "shadowlessBordeaux.svg"
-card_description = "KISS is a mobile application which allows you to scan, manage and analyze cosmetic products. All you have to do is take a picture of the product and KISS will do the rest."
+card_image = "FB4_IMI.jpg"
+card_description = "Template, copy of a project of WS20/21"
 
 
 # These properties may be removed if you don't need them
-source_link = "https://github.com/HuePhung/Kiss_Project"
+source_link = "links to Git repo"
 
 
-team = ["Jonathan Jander", "Henry Ordelt", "Anton Schöps", "Kenneth Englisch", "Kieu Oanh Thi Tran", "Niklas Lengert"]
-supervisor = "Prof. Dr. Tobias Lenz"
+team = ["Bachelor", "Bachelorette"]
+supervisor = "Prof. Dr. Bachelor Master"
 +++
 
 {{<mediathek id="9a515dbdd99e6b17d8a21d87d5fcd3cb" >}}
 
-KISS is intended for people who want to be more **concious** about their cosmetic products. KISS keeps track of your allergies and **warns** you whenever you scan a product with an allergic ingredient in it. KISS runs on both **IOS** and **Android** and **doens't require an internet connection** after the initial download.
+This is only a template
 
 {{<image src="headerindex.png" alt="Mockup" >}}
 {{<section title="Our Goals">}}
-For most people, the chemical ingredients on the back of cosmetic products are meaningless.
-Very few people understand what a "Prunus Amygdalus Dulcis Oil" is. This is where our app comes into place. We wanted to **help people understand** what it **means** and what it **does**. The **work** that the user has to put in to get the information needed, should be **as little as possible**. It also **shouldn't be dependant** on factors like a **good internet connection** or products with **barcodes**.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 {{</section>}}
 
 <!--{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="me">}}
@@ -37,9 +36,4 @@ yeet
 
 {{<gallery>}}
 {{<team-member image="anton.png" name="Anton">}}
-{{<team-member image="henry.png" name="Henry">}}
-{{<team-member image="jonathan.jpg" name="Jonathan">}}
-{{<team-member image="kenneth.jpg" name="Kenneth">}}
-{{<team-member image="kieu.jpeg" name="Kieu">}}
-{{<team-member image="niklas.jpeg" name="Niklas">}}
 {{</gallery>}}
