@@ -67,7 +67,7 @@ git push
 ```
 8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
-Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/ 
+Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/  (Planned)
 
 One week before the Showtime takes place, the website will be published on our production server: https://showtime.f4.htw-berlin.de/
 
