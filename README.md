@@ -7,17 +7,17 @@ The official IMI showtime website
 
 [Preview: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
 
-- [IMI Showtime Website](#imi-showtime-website)
-  - [Adding a new project](#adding-a-new-project)
-  - [Updating your Fork](#updating-your-fork)
-  - [Including additional content](#including-additional-content)
-    - [Sections](#sections)
-    - [Images](#images)
-    - [Gallery](#gallery)
-      - [Special Case: Team Gallery](#special-case-team-gallery)
-    - [Videos](#videos)
-    - [HTW Mediathek Player](#htw-mediathek-player)
-    - [GitHub Gists](#github-gists)
+- [Adding a new project](#adding-a-new-project)
+- [Updating your Fork](#updating-your-fork)
+- [Including additional content](#including-additional-content)
+  - [Sections](#sections)
+  - [Images](#images)
+  - [Gallery](#gallery)
+    - [Special Case: Team Gallery](#special-case-team-gallery)
+  - [Videos](#videos)
+  - [HTW Mediathek Player](#htw-mediathek-player)
+  - [GitHub Gists](#github-gists)
+- [Adding a new semester](#adding-a-new-semester)
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
@@ -166,4 +166,16 @@ Example: Embedding https://mediathek.htw-berlin.de/video/Clean-Code-Presentation
 Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb180cfbd
 ```handlebars
 {{<gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd">}}
+```
+
+## Adding a new semester
+This repository contains a utility script to transition the website to a new semester.
+It changes the semester set in the config file (`current_semester` in `config/_default/config.toml`) and 
+scaffolds the folder structure for the projects of the new semester.
+```shell
+./new_semester.sh <semester>
+```
+Example: Transitioning to winter semester 2021/22
+```shell
+./new_semester.sh ws21
 ```

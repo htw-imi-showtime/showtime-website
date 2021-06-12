@@ -5,7 +5,6 @@ theme = "showtime-theme-2021"
 
 [params]
     current_semester = "ss21"
-    archive_semester = "ss20"
 
 [markup]
     [markup.goldmark]
