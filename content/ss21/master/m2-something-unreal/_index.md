@@ -1,7 +1,7 @@
 +++
-type = "ss21"
+title = "Something Unreal"
+project_id = "M2"
 
-[cascade]
-    type = "Master"
-    layout = "project"
+team = ["Joerdis Liermann, Ralf Strecker, Till Falkenberg, Tony, Dominic Engel"]
+supervisor = "David Strippgen"
 +++
