@@ -16,10 +16,10 @@ weight = 4
 
 
 #### Other Stuff
-
+- highscore list
 #### Lessons-Learned
 <!-- TODO -->
-Considering all that there are technical limitations to the Bluetooth concept and it is not perfect for determining real time locations. 
+Overall, there are technical limitations to the Bluetooth concept and it is not perfect for determining real time locations. 
 
 
 
