@@ -46,7 +46,7 @@ The path prediction results, together with a few statistics can be viewed intera
 
 {{<section title="Robin the Robot">}}
 Robin, our brave pathfinding robot, is walking through the world without any rest - taking elevator platforms to climb onto walls and hills - to try and eventually reach his goal, only to start over.
-{{<image src="robo.gif" caption="Meet robin">}}
+{{<image src="robot.jpg" caption="Meet robin">}}
 {{</section >}}
 
 {{<mediathek id="5eb8ccf59b8369ab57e1fa40e756c4be" title="Result demonstration">}}

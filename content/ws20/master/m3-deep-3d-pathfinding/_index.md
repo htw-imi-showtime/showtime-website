@@ -15,6 +15,8 @@ team = ["Daniel Wunderlich", "Florian Wiese", "Steven Behm", "Mareike Glock", "P
 supervisor = "André Selmanagic, Dara Khajavi"
 +++
 
+{{<mediathek id="37309d7e8fb35c250f0cffe83233df11">}}
+
 {{<image src="banner.jpg">}}
 
 {{<section title="Our Project">}}
@@ -42,10 +44,13 @@ Reinforcement Learning is the closest form of learning to what humans would do. 
 
 An example use case for this technique would be an <a href="https://youtu.be/ryUEZAMI1DE?t=67" target="_blank">autonomous car driving simulation</a>. The car is the agent and the racetrack is the environment. The goal is to reach the finish line. As long as the car is on the track and driving, it gets positive rewards. If it moves off track it gets “negative rewards” (a punishment). 
 At the start of a training session the agent has no knowledge of the environment or how to solve the given task. The learning process is split into two stages: exploration and exploitation. While exploring, the agent executes random actions and gets corresponding rewards. This is heavily used in the early phases of a training session. In contrast to that is the exploitation, in which the agent relies on what it has learnt before. The further the training process progresses, the more the agent will rely on exploitation. 
-Different frameworks were considered for the learning process, whereby Deep Q-learning, DQN, and Double Deep Q-learning, DDQN, were available for selection.
+Different frameworks were considered for the learning process, whereby Deep Q-learning, DQN, and Double Deep Q-learning, DDQN, were available for selection in this project.
 
-Another framework that was not considered to be used in this project is Q-learning. Q-learning in its most basic implementation is a table that contains stored value functions, with each cell of the table containing an action for a given state. Because of its simplistic features, unreliable behaviour and because this project is about deep learning, Q-learning was dismissed. DQN is a group of algorithms that use a multi-layer neural network called Q-net, which outputs a list of action values ​​for a given state. In contrast to DQN, DDQN uses two identical neural networks. One network is the current network that is updated during training. Whereas the second network is a copy of the current network from the last training iteration. The reason for this is to counteract against over-estimations of the action value, which can arise at DQN and lower the learning rate. 
-For a learning process to take place, the weights in the neural networks must be updated. This is done with the help of an optimizer that tries to minimize a cost function.  
+Both are based on the Q-learning algorithm and are further developments of this.
+Q-learning in its most basic implementation is a table with the number of cells corresponding to the number of states in the game. Each cell contains a value function for a corresponding state. Depending on the size of the problem and the number of variables, this table can take on extreme dimensions. One of several advantages of the selected frameworks over Q-learning is that the tables are dismissed and replaced with neural networks. These neural networks contain all information and are much less bloated compared to the tables. 
+DQN is a group of algorithms that use a multi-layer neural network called Q-net, which outputs a list of action values ​​for a given state. In contrast to DQN, DDQN uses two identical neural networks. One network is the current network that is updated during training. Whereas the second network is a copy of the current network from the last training iteration. The reason for this is to counteract against over-estimations of the action value, which can arise at DQN and lower the learning rate. 
+For a learning process to take place, the weights in the neural networks must be updated. This is done with the help of an optimizer that tries to minimize a cost function.
+
 Depending on the scale of the problem it might need several thousand or even millions of training iterations to achieve significant results. In the case of our pathfinding problem the agent is punished less for getting closer to the goal and heavily positively rewarded for reaching it. For every step it takes the agent is punished by a small amount. This punishment motivates the agent to not only find any path, but one that requires as few steps as possible. If the agent revisits known positions because it was crossing its own path or because it took a step back, it is punished as well. Trying to walk through walls or step outside the boundaries is heavily punished.
 
 After successful training, the model is able to output actions for given conditions that lead to the pathfinding task being solved. To generalize the knowledge we also use transfer learning, which makes it possible for the agent to navigate in unknown worlds.

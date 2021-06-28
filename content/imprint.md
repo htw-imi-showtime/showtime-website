@@ -7,16 +7,16 @@ Diese Seite präsentiert Praxisprojekte der Studiengänge [Internationale Medien
 #### Redaktionelle Verantwortung und verantwortliche Ansprechperson
 Studiengangssprecher der Studiengänge Internationale Medieninformatik
 
-Prof. Dr. Barne Kleinen\
+Prof. Dr. Gefei Zhang\
 HTW Berlin, Fachbereich 4\
 Wilhelminenhofstr. 75A\
 12495 Berlin
 
-barne.kleinen&#64;htw-berlin.de
+gefei.zhang&#64;htw-berlin.de
 
 https://www.htw-berlin.de/impressum/
 
-Telefon: +49 30 5019 - 3499
+Telefon: +49 30 5019 - 3738
 
 #### Urheberschutz und Nutzung
 Die Urheber räumen Ihnen ganz konkret das Nutzungsrecht ein, sich eine private Kopie für persönliche Zwecke anzufertigen. Nicht berechtigt sind Sie dagegen, die Materialien zu verändern und/oder weiter zu geben oder gar selbst zu veröffentlichen. Wenn nicht ausdrücklich anders vermerkt, liegen die Urheberrechte für Texte bei den Studierenden.
@@ -28,7 +28,7 @@ Vielen Dank für Ihr Interesse an unserer Hochschule. Der Schutz Ihrer Daten ist
 Die Inhalte dieses Webprojektes wurden sorgfältig geprüft und nach bestem Wissen erstellt. Aber für die hier dargebotenen Informationen wird kein Anspruch auf Vollständigkeit, Aktualität, Qualität oder Richtigkeit erhoben. Es kann keine Verantwortung für Schäden übernommen werden, die durch das Vertrauen auf die Inhalte dieser Website oder deren Gebrauch entstehen.
 
 #### Schutzrechtsverletzung
-Falls Sie vermuten, dass von dieser Website aus eines Ihrer Schutzrechte verletzt wird, teilen Sie das bitte umgehend per elektronischer Post an barne.kleinen&#64;htw-berlin.de mit, damit zügig Abhilfe geschafft werden kann. Bitte nehmen Sie zur Kenntnis: Die zeitaufwändigere Einschaltung eines Anwaltes zur für den Diensteanbieter kostenpflichtigen Abmahnung entspricht nicht dessen wirklichen oder mutmaßlichen Willen. 
+Falls Sie vermuten, dass von dieser Website aus eines Ihrer Schutzrechte verletzt wird, teilen Sie das bitte umgehend per elektronischer Post an gefei.zhang&#64;htw-berlin.de mit, damit zügig Abhilfe geschafft werden kann. Bitte nehmen Sie zur Kenntnis: Die zeitaufwändigere Einschaltung eines Anwaltes zur für den Diensteanbieter kostenpflichtigen Abmahnung entspricht nicht dessen wirklichen oder mutmaßlichen Willen. 
 
 #### Anmerkungen
 Theme-Design: [Tobi Hoffmann](http://tobihoffmann.com/) \
