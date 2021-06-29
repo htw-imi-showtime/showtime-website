@@ -33,5 +33,5 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="niklas.jpeg" name="Niklas">}}
+{{<team-member image="nhu.jpg" name="Nhu Mong Tran">}}
 {{</gallery>}}
