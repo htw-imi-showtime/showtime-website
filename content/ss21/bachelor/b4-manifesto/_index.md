@@ -17,9 +17,9 @@ supervisor = "Prof. Dr. Regina Friess und Alexander Kramer, in Kooperation mit d
 
 Manifesto ist eine interaktive Installation. Diese ist so konzipiert und entwickelt, dass eine kameragesteuerte Bewegungssensorik Grundlage ist. Die Präsenz von Veranstaltungsbesuchern wird wahrgenommen, verarbeitet und anschließend in Verbindung mit Orgelmusik musikalisch wiedergegeben. Dieses Projekt wird landesweit im Novemvber an vielen verschiedenen Orten gleichzeitig aufgeführt und soll zum Gedenken an die NSU Verbrechen beitragen.
 
+{{<section title="Konzept - Manifesto">}}
+Manifesto Installation findet auf einer Fläche statt die auf geteilt ist in zwei Grundflächen.
 {{<image src="man_pipeline.png" alt="Mockup" >}}
-{{<section title="Our Goals">}}
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 {{</section>}}
 
 <!--{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="me">}}
