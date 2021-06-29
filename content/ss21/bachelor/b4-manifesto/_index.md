@@ -17,7 +17,7 @@ supervisor = "Prof. Dr. Regina Friess und Alexander Kramer, in Kooperation mit d
 
 Manifesto ist eine interaktive Installation. Diese ist so konzipiert und entwickelt, dass eine kameragesteuerte Bewegungssensorik Grundlage ist. Die Präsenz von Veranstaltungsbesuchern wird wahrgenommen, verarbeitet und anschließend in Verbindung mit Orgelmusik musikalisch wiedergegeben. Dieses Projekt wird landesweit im Novemvber an vielen verschiedenen Orten gleichzeitig aufgeführt und soll zum Gedenken an die NSU Verbrechen beitragen.
 
-{{<image src="headerindex.png" alt="Mockup" >}}
+{{<image src="man_pipeline.png" alt="Mockup" >}}
 {{<section title="Our Goals">}}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 {{</section>}}
@@ -31,5 +31,9 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="anton.png" name="Anton">}}
+{{<team-member image="man_elyess.jpg" name="Elyess Eleuch">}}
+{{<team-member image="man_dennis.jpg" name="Dennis Broecker">}}
+{{<team-member image="man_martin.jpg" name="Martin Staats">}}
+{{<team-member image="man_nils.jpg" name="Nils Rausch">}}
+{{<team-member image="man_stepan.jpg" name="Stepan Burlachenko">}}
 {{</gallery>}}
