@@ -17,5 +17,5 @@ supervisor = "Prof. Dr.-Ing. David Strippgen"
 {{<mediathek id="<our trailer comes in here" title="Our presentation">}}
 
 {{<section title="Our goal">}}
-Our goal for the project was to create an audio visual experience that can be experienced and played with a VR headset. We used the strengths of the Unreal Engine 4 and combined our skills within the team to create <strong>Something Unreal</strong>.
+Our goal for the project was to create an audio visual experience that can be experienced and played with a VR headset only. We used the strengths of the <strong>Unreal Engine 4</strong> and it's <i>Blueprint-Visual-Scripting-System</i> and combined our various skills within the team to create <strong>Something Unreal</strong>.
 {{</section>}}
