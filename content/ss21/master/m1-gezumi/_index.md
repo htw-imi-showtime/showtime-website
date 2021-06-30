@@ -3,7 +3,7 @@ title = "GeZuMi"
 project_id = "M1"
 
 # Properties for displaying the project in the project list
-card_image = "logo.svg"
+card_image = "logo.jpeg"
 card_description = "GeZuMi is an Android App reminiscent of team building exercises. Ideally played outside, the players' goal is to quickly reproduce a geometric shape (e.g. a Triangle) dictated by the app. This is done through a BLE connection, a lot of of communication and a good amount of Math."
 
 
