@@ -10,7 +10,7 @@ card_description = "Find-IT is a web based application that offers a helping han
 # These properties may be removed if you don't need them
 source_link = "https://github.com/HuePhung/Kiss_Project"
 
-team = ["The-Anh Nguyen", "Nhu Mong Tran", "Malin Dulkies", "Mischa Koischwitz" , "Cyrine Ben Rhodamine"]
+team = ["The-Anh Nguyen", "Nhu Mong Tran", "Malin Dulkies", "Mischa Koischwitz" , "Cyrine Ben Romdhane"]
 supervisor = "Marco A., David K."
 +++
 
@@ -41,6 +41,9 @@ The **Backend team**, made up of Cyrine and The-Anh had their main focus on the 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="nhu.jpg" name="Nhu Mong Tran">}}
+{{<team-member image="mischa.png" name="Mischa Koischwitz">}}
 {{<team-member image="malin.jpg" name="Malin Dulkies">}}
+{{<team-member image="nhu.jpg" name="Nhu Mong Tran">}}
+{{<team-member image="cyrine.jpg" name="Cyrine Ben Romdhane">}}
+{{<team-member image="the.jpg" name="The-Anh Nguyen">}}
 {{</gallery>}}
