@@ -45,8 +45,7 @@ We know from work and organizational psychology as well as from personality psyc
 We assume that one must have certain competencies to be successful in an occupation. Here we expanded the presupposed competencies, which berufenet provides us around important competencies from the model most usual in the competencies research "Kompetenzenatlas" (Erpenbeck & Heyse 2007, https://kompetenzatlas.fh-wien.ac.at/?page_id=1096 ), by extrapolating the competencies needed to successfully perform the job directly from the tasks themselves.
  
 ##### Soft and hard skills
-Skills are valued by employers especially when they have been acquired through employment or work experience. Skills are numerous and differ from one job to another. 
-The skills acquired throughout our careers are necessary for our personal and professional development and also to develop a better career goal if you are aware of your knowledge, skills and abilities. It is important to define your career goal in advance so that you can target your efforts during your job search.
+Starting off, we defined the skills required for our available jobs. To be more specific we extracted the most important tasks required for each job and also defined the specific soft and hard skills needed to perform the task and to feel a sort of satisfaction while doing the task. For the tasks of each profession, we visited the following platforms (TODO) and selected the most important tasks.
 {{<image src="recherche.jpg" alt="Cluster of research findings"  caption="Cluster of research findings">}}
  {{</section>}}
  
