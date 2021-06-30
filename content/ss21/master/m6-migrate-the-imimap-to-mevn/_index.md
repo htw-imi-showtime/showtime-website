@@ -4,7 +4,7 @@ project_id = "M6"
 
 # Properties for displaying the project in the project list
 card_image = "imimap_logo.png"
-card_description = "IMI-Internships - hard to find and tedious to administrate? The IMI-Map is here to help! The almost 8-year-old Web-Application, that supports students with finding an internship and the internship officer with the administration of the internships, has made another big step to even better accomodate for these tasks and the newly digitalized processes that were developed during the COVID19-Pandemic."
+card_description = "IMI-Internships - hard to find and tedious to administrate? The IMI-Map is here to help! The almost 8-years-old web application, that supports students with finding an internship and the internship officer with the administration of the internships, has made another big step to even better accomodate for these tasks and the newly digitalized processes that were developed during the COVID19-Pandemic."
 
 
 # These properties may be removed if you don't need them
@@ -12,7 +12,7 @@ source_link = "https://github.com/imimap/imimap21"
 demo_link = "https://imimap.f4.htw-berlin.de"
 
 
-team = ["Jakob Panthen", "Linda Fernsel", "Lotte Unckell", "Luis Hankel", "Robin Decker" ]
+team = ["Jakob Panten", "Linda Fernsel", "Lotte Unckell", "Luis Hankel", "Robin Decker" ]
 supervisor = "Prof. Dr. Barne Kleinen"
 +++
 
@@ -23,8 +23,8 @@ yeet
 {{</quote>}} -->
 
 {{<section title="The IMI-Map">}}
-The IMI-Map was developed in 2013 as a Ruby on Rails Application. It was maintained and further developed by two practical projects and a few bachelor thesis and it is still being used, maintained and developed actively in the study program.
-The Goal of original the IMI-Map was to support students with finding an internship and to support the internship officer with the administration of the internships.
+The IMI-Map was developed in 2013 as a Ruby on Rails application. It was maintained and further developed in two practical projects and a few bachelor thesis and it is still being used, maintained and developed actively in the study program.
+The goal of original the IMI-Map was to support students with finding an internship and to support the internship officer with the administration of the internships.
 
 **The origrinal IMI-Map:**
 * Demo: [https://imi-map.f4.htw-berlin.de/](https://imi-map.f4.htw-berlin.de/)
@@ -38,7 +38,7 @@ The Goal of original the IMI-Map was to support students with finding an interns
 
 
 {{<section title="The Goal">}}
-Even tough Ruby on Rails is a stable and still current Web-Framework, the study program is increasingly using more modern JavaScript-based Frameworks. In order to make the IMI-Map more easily integratable into other courses and student projects the main objective was to:
+Even tough Ruby on Rails is a stable and still current web framework, the study program is increasingly using more modern JavaScript-based frameworks. In order to make the IMI-Map more easily integratable into other courses and student projects the main objective was to:
 * Migrate the IMI-Map as it is from Ruby on Rails to the MEVN-Stack (Mongo, Express, Vue und Node).
 * The migration of the IMI-Map to the MEVN-Stack also poses the question on how to migrate the data of the IMI-Map safely without regression and loss of data to the new IMI-Map.
 * At the end of the project the old IMI-Map should be able to be replaced by the new version.
