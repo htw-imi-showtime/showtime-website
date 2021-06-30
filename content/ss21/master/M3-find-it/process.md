@@ -41,7 +41,7 @@ The first five meetings were mainly about forming a common goal and a shared vie
 <ul>
     <li><b>User Interface:</b> The results from our brainstorming sessions were screen sketches and a storyboard for the animation (see section "Sketches & Storyboard" below), as well as a high-fidility design (see section "High-fidility Design" below), which has been created afterwards. The functional and non-functional requirements have been documented in GitLab.
     </li>
-    <li><b>Expert System:</b> Further results from our brainstorm session was a draft of an expert system that works with heuristics (see section "Artificial intelligence engine" below)</li>
+    <li><b>Expert System:</b> Further results from our brainstorm and research session was a draft of an expert system that works with heuristics (see section "Artificial intelligence engine" below).</li>
     <li><b>Tech Stack</b></li>
 </ul>
  
@@ -67,6 +67,8 @@ With the help of a colorful animated 3D visualisation, we wanted to create a fun
 {{</section>}}
  
 {{<section title="Artificial intelligence engine">}}
+#### Process
+After our intensive research work, we realized that a machine learning approach would not have been appropriate for our use case. We wanted to determine which profession the user is best suited for, but a big disadvantage when working with neural networks is that it is not obvious to the user how this result was reached. We wanted the results to be comprehensible for the user as well as for the developers. It was important for us to have a transparent appearance to the users. Unfortunately, these requirements are very weak when working with a black box system like neural networks. For these reasons we decided to use a knowledge-based system. This approach is in line with the field of explainable AI. Problems that arose were how we define our data model and where we extract our knowledgebase from. We had to work closely with our psychologists to ensure that our system was psychologically sound and to avoid pitfalls such as bias. This process was very interactive and time consuming. In the end, we created a proprietary system that met these requirements.
 #### The Dynamic Inference Engine
 Our dynamic inference engine automatically selects the questions to be picked next and goes through a dynamic tree.
 It calculates the score the user has for a profession and determines the professional skills the user has or not depending on the answers to the questions and gives an evaluation. It is an expert system that works with heuristics. It retrieves its knowledge base from the rules created with our psychologists (Jobanswer) and knows how a choice of an option to a question affects the job score.
@@ -96,11 +98,13 @@ Heroku TODOOOOO
 
 
 {{</section>}}
-
+                                                                                                    
 
 
 {{<section title="Difficulties we encountered">}}
 #### Frontend
+##### 3D Modelling & Animating
+
 
 #### Backend
 
