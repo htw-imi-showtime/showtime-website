@@ -6,26 +6,21 @@ weight = 3
 {{<image src="tech-stack-kiss.png" alt="tech stack visualized" caption="Our tech stack">}}
 
 {{<section title="Tech Stack">}}
-#### Flutter™️
-The **first step** of the journey was choosing a **framework** that meets our requirements. We had very **little experience** with app development, so it was necessary to do some **self-reliant research** first and we ended up with two candidates: **React Native and Flutter**
-and we decided on the latter.
-The framework Flutter **gained** a lot of **popularity** among App-Developers in recent years.
-It allows us to develop our app **cross-platform**, so we receive a working Android APK as well as an iOS-Build with very few adjustments.
-**Learning a new programming language** may seem **difficult** at first sight - Flutter is written in Dart - but with its **syntactical similarities to Java and JavaScript**, we quickly **got used to it**.
-With Flutter, you can build the **UI** design and the **backend** logic in the **same code base**, so it's easier to connect both elements and helped us to achieve an **uninterrupted workflow**.
+#### Django/Python
+When choosing the backend, we had decided to use Python in conjunction with Django. We had the choice to use NodeJS instead, but the final choice was Python in combination with Django. Django offers on the one hand the possibility to set up a SQLIte DB without downloading additional dependencies and on the other hand a fully integrated user-role management system. Furthermore, Django is an excellent tool to implement prototypical approaches. Because the project focus was on research, we were tempted to use utilities that would take some of the work off our hands. Django offers many templates due to the many plugins, which supported us in our development flow.     
+Another reason was that we wanted to create synergies and not burden our tech stack unnecessarily. Since Python is predominantly used in state of the art machine learning models, it was logical for us to also embed Python as a backend. Even though we finally decided for a knowledge based system, Python was the best choice.
 
-#### Firebase ML Kit
-Text recognition is one of the **most essential** features of the KISS-App.
-The **mobile SDK Firebase ML Kit** provides **machine learning functionalities** and allows us to **recognize text instantly** from captured photos and use it for further processing.
+#### React/Typescript
+We chose React for the frontend because it is very lightweight and allows controlled dom updates. Furthermore, it is very beginner-friendly compared to other frameworks such as Angular. The component-based design contributes to a clear structure. In addition, it is becoming apparent that React is gaining popularity in the international arena. In combination with Typescript, we had a very pleasant developer experience. Typescript helps to type variables and classes which allows you to detect errors faster and write consistent and clean code.
 
-#### Android Studio and IntelliJ
-Installing Flutter, setting up the IDE and the necessary emulators was **trickier than expected**:
-**Each team member** had to **fight** with some **issues** to get the tools running before we could start with the actual development. In the end, **half of our group** used **Android Studio** and the **others** went with **IntelliJ** but there aren't any differences in functionality.
+
+#### ThreeJS
+We wanted to visualize playful elements in our app. However, we found that few technologies exist that fit our vision. ThreeJS 
 
 {{</section>}}
 
 {{<section title="Development Tools">}}
-#### GitHub/git
+#### Gitlab/Git
 We decided to use GitHub as our hosting platform for version control and figured out a **useful and collaborative workflow** after a while.
 
 #### Miro

@@ -39,4 +39,5 @@ The **Backend team**, made up of Cyrine and The-Anh had their main focus on the 
 
 {{<gallery>}}
 {{<team-member image="nhu.jpg" name="Nhu Mong Tran">}}
+{{<team-member image="malin.jpg" name="Malin Dulkies">}}
 {{</gallery>}}
