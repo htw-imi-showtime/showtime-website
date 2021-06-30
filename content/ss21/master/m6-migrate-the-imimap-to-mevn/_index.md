@@ -52,7 +52,7 @@ As a team of five we had a lot of very diverse backround knowledge present in th
 Including all these points of views, perspectives and bits of knowledge was a challenge and the reason why we decided not to give fixed roles to people. Over the course of time a few key areas of work developed anyway:
 * **Jakob** and **Robin** worked mainly on the frontend
 * **Linda** worked mainly on the backend
-* **Lotte** (schnittstelle zur alten imimap, testing, pr)
+* **Lotte** interface and intermediary to the old IMI-Map, Quality Assurance, PR
 * **Luis** worked mainly in dev ops and on the backend
 {{</section >}}
 
