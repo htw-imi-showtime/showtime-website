@@ -4,7 +4,7 @@ project_id = "M2"
 
 # Properties for displaying the project in the project list
 card_image = "project_image.png"
-card_description = "Lorem Ipsum is a breath-taking and audio visual VR experience in which the player finds himself in a bloodstream. Besides red and white blood cells, there are also corona viruses in the blood that need to be smashed. By smashing the viruses, the music playing in the background is supported with sounds."
+card_description = "Something Unreal is a breathtaking and audiovisual VR experience in which the player finds himself in a bloodstream. In addition to red and white blood cells, there are also coronaviruses in the blood that need to be smashed. By smashing the viruses, the music running in the background is supported with sounds. But watch out! The player should beware of the mean fatty tissue, which tries to influence the player's vision."
 
 # These properties may be removed if you don't need them
 demo_link = "lorem ipsum"
@@ -14,6 +14,8 @@ team = ["Joerdis Liermann", "Ralf Strecker", "Till Falkenberg", "Tony Dat Nguyen
 supervisor = "Prof. Dr.-Ing. David Strippgen"
 +++
 
-Lorems ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+{{<mediathek id="<our trailer comes in here" title="Our presentation">}}
 
-{{<mediathek id="d6cfec77a750283c5418249b2780f2d3">}}
+{{<section title="Our goal">}}
+Our goal for the project was to create an audio visual experience that can be experienced and played with a VR headset. We used the strengths of the Unreal Engine 4 and combined our skills within the team to create <strong>Something Unreal</strong>.
+{{</section>}}
