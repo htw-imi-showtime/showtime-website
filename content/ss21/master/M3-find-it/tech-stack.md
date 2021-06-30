@@ -15,18 +15,19 @@ We chose React for the frontend because it is very lightweight and allows contro
 
 
 #### ThreeJS
-We wanted to visualize playful elements in our app. However, we found that few technologies exist that fit our vision. ThreeJS 
+We wanted to visualise playful elements in our app. There were quite a few libraries to choose from, but Three.js https://threejs.org/ and Babylon.js https://www.babylonjs.com/ made it to the final shortlist. Based on an article https://javascript.plainenglish.io/webgl-frameworks-three-js-vs-babylon-js-36975d915694 comparing both technologies, we finally decided to use three.js. Why three.js? It has a well written documentation with lots of examples to play with, detailed tutorials and an active community.  In combination with ReactJS, we used react-three-fiber, which is an react renderer. With the help of react-three-fiber, we can build our scenes declaratively with re-usable, self-contained components that react to state, are readily interactive and can tap into React's ecosystem.
+We also used Cinema4D, an 3D animation, modelling, simulation and rendering software to create our 3D models.
 
 {{</section>}}
 
 {{<section title="Development Tools">}}
 #### Gitlab/Git
-We decided to use GitHub as our hosting platform for version control and figured out a **useful and collaborative workflow** after a while.
+We chose Gitlab because we didn't want to focus on just deploying code, we wanted to do that directly with individual sprint tickets. Gitlab has built in functionality that allows a user to create boards. This allowed us to optimize our scurm workflow. Furthermore, it is possible to assign a ticket to specific branches or commits. In addition, our communication and code reviews also took place via the platform.  
 
 #### Miro
-We used Miro as an altered form of an agile Kanban board for **visualizing our ideas, suggestions, and useful links**.
-By using pins, we created a visual overview of the tasks that are currently worked on and prioritized each one to know what to do next
+Miro has been a good tool in many ways:
+ We've been able to brainstorm on the platform, discuss different ideas, and generally encourage more creative interaction. In addition, we were able to conceptualize our ideas prototypically, always had an up-to-date overview of the project's progress, and were thus able to react dynamically to problems. This approach is very similar to agile methods. 
 
 #### Discord/Zoom
-**Discord** was mainly our **communication platform** for team meetings and quick interactions during the project semester. Additionally, we used **Zoom** for **meetings** with our **supervisor**.
+Discord offers through its channel system a good structure to react quickly and targeted to issues. In terms of communication, it offers advantages in that each participant can provide his or her screen, which is unfortunately not the case with other software solutions. This feature alone helps immensely when debugging together and increases our awareness of cooperative work.  
 {{</section>}}
