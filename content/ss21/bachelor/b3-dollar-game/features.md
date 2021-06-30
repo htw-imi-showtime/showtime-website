@@ -21,13 +21,13 @@ weight = 1
 
 {{<section title="Tutorial" >}}
 - For a smooth start, a tutorial level with easy explanations was implemented, to take the player by the hand and lead him through his first level. This can easily be skipped for the experts, returnees and impatient.
-{{<image src="tutorialgif.gif" alt="Tutorial" >}}
+{{<image src="tutorialgif.gif" alt="Tutorial" caption="Animated tutorial">}}
 {{</section>}}
 
 {{<section title="Assets and Animation" >}}
 
 - Self made and self animated, our assets give the game its flair. With our pixelated style and beautiful art, the game starts to shine: 14 different islands, 8 connecting rocks and multiple background drawings were created by our artists. And with a few lines of code, the animation brings the game to its lively state. Not only is our main menu equipped with an animated background, our islands and connections are too! With a simple click of the mouse, you see the islands that share their values wiggle in the sky.
-{{<image src="animations.gif" alt="Animation" >}}
+{{<image src="animations.gif" alt="Animation"  caption="Animated levels ">}}
 {{</section>}}
 
 {{<section title="Music" >}}
