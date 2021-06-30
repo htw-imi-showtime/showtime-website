@@ -107,15 +107,3 @@ Heroku TODOOOOO
 
 {{</section>}}
                                                                                                     
-
-
-{{<section title="Difficulties we encountered">}}
-#### Frontend
-##### 3D Modelling & Animating
-
-
-#### Backend
-
-#### Other
-
-{{</section>}}
