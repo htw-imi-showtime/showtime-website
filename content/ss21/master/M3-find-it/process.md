@@ -11,7 +11,19 @@ After **kicking off** the project and **getting to know each member's strengths 
 To get to know each team member, we **documented everyones skills and likings** in a ticket in GitLab. This really helped us find **correlations to common skills** within the team to later **decide on the tech stack**. The teams were also seperated based on everyones interests.
 
 #### Research
-Researching was one of our core tasks. The collected data is the foundation of the success of our application. The research was lead by our supervisor Marco A., who is working in the field of psychology. With the help of Marco A., at first we researched 41 different types of IT jobs on the current job market. After we defined some of the job titles (common tasks and requirements taken from popular employment websites), we realized that conducting the research manually was not the way to go. Thus we narrowed the findings and clustered the 41 job titles into nine divisions and picked one job of each division for our MVP. In the next step, Marco A. defined questions for our data model, which are based on TODOOOOO
+Researching was one of our core tasks. The collected data is the foundation of the success of our application. Results were collected in a shared word document and saved in our Miro board. The research was lead by our supervisor Marco A., who is working in the field of psychology. With the help of Marco A., at first we researched 41 different types of IT jobs on the current job market, which were taken from an in-depth article on Skillcrush ( https://skillcrush.com/blog/41-tech-job-titles/ ). After we defined some of the job titles (common tasks and requirements taken from three popular employment websites: LinkedIn, Stepstone and Indeed), we realized that conducting the research manually was not the way to go. Thus we discarded the initial work. We agreed on using german ressources and therefore narrowed down the mentioned job titles from IT-Talents ( https://it-talents.de/it-karriere/it-berufe/ ) and Get-In-IT ( https://www.get-in-it.de/magazin/arbeitswelt/it-berufe ) and clustered the 41 job titles into nine divisions following the clustering from Get-In-IT ( https://www.get-in-it.de/berufsfelder ). 
+
+##### Tasks
+Afterwards we picked one job of each division for our MVP. We assume that a basic interest in the most important tasks for each profession can predict that one will have "fun" in that profession. For the tasks, Marco A. looked at the main tasks for each profession on the platforms it-talents.de, berufenet, Brunel and get-in-it.de. From these, He selected the tasks that were mentioned on all platforms, i.e. the ones that seem to be the most important.
+
+##### Personality
+We know from the work and organizational psychology as well as from the personality psychology that personality has an important influence on the professional activity performed. An introverted waiter at the Oktoberfest will be similarly feel out of place as an adventurous accountant filled with drive. There are several models that describe personality, we have chosen the Hexaco (Ashton & Lee 2006), because it is scientific, modern and very culture independent. The personality traits relevant to each occupation are hypotheses that we inferred from the task descriptions for each occupation.
+
+##### Competencies
+We assume that one must have certain competencies to be successful in an occupation. Here we expanded the presupposed competencies, which berufenet provides us around important competencies from the model most usual in the competencies research "Kompetenzenatlas" (Erpenbeck & Heyse 2007, https://kompetenzatlas.fh-wien.ac.at/?page_id=1096 ), in which we from the tasks on the authority necessary for a successful practice of the occupation on the authority needed for it concluded.
+
+##### Soft and hard skills
+
 {{<image src="recherche.jpg" alt="Cluster of research findings"  caption="Cluster of research findings">}}
 
 
@@ -35,32 +47,19 @@ The first five meetings were mainly about forming a common goal and a shared vie
 
 #### Aquire missing knowledge
 In the last step of the preparation phase, we aquired the needed knowledge as quick as possible. There were a lot of technologies, which were new to us.
-
- 
-
-<!-- Our **goal was clear**. We generally knew what we had to do to reach our goal.
-Some **questions** still **came up**, that had to be answered first, before starting to code.
-We had to first **decide on a framework** we want to use.
-It was also important to know upfront whether our app is **offline or online**.
-After answering all these questions, we **split up in two subgroups**. One group was **responsible for the backend** and how we would **retrieve the data**.
-The other group was **responsible for the frontend** and how we **integrate the text recognition plugin**.
-We were **always staying in contact** and **communicating with each other regularly**.
-We **stayed** in these **subgroups** up until our **prototype was done**. -->
 {{</section>}}
 
 
 {{<section title="Visual Design">}}
 
 #### Sketches & storyboard
-The ideas from the brainstorm sessions were the foundation of the following handmade screen sketches. We focused on creating a desktop-first user interface and chose to include 3D elements as supporting visuals, which mirrors the experience of our user. We made sure to follow conventions and kept the interface minimalistic. The sketches should give an overall overview of the use of the application. During this phase, we also began prioritizing functionalities for our MVP.
+The ideas from the brainstorm sessions were the foundation of the following hand drawn screen sketches. We focused on creating a desktop-first user interface and chose to include 3D elements as supporting visuals, which mirrors the experience of our user. The sketches should give an overall overview of the use of the application. During this phase, we also began prioritizing functionalities for our MVP.
 {{<image src="sketches.png" alt="Storyboard Sketches" caption="Sketchy storyboard showing the animation and user flow">}}
 
 #### High-fidelity design
 After the sketches were made, a corresponding high fidelity design was created. In a group meeting, we defined the color palette, the overall look and feel of our application and visuals of the different question types.
-<ul>
-    <li><b>Colors:</b> We chose three colors based on the <b>60/30/10</b> rule. Meaning, 60% fills the background, 30% is used for headlines, paragraphs, etc. and 10% is used for buttons and links. Since we as a service want the user to feel <b>comfort and security</b> while using our application, we agreed on using a <b>blue tint in the background</b>, which is thought to <b>induce calm and inspires the feelings of trust</b> - the trust in the process and result of this survey. A <b>grey tone</b>, which is a neutral and quiet color, is used to <b>convey the content</b> of our application. To enhance the feeling of <b>comfort and reliability</b>, we chose a <b>green tone</b> as our 10%.</li>
-    <li><b>Interface elements:</b> We went along our guts and followed standards for the design of the controls and display of informations. We did not want to reinvent the wheel and force our users to learn something new, but rather meet the existing expections and experiences about questionnaires of our target group. We focused on the essentials regarding the content and controls. The 3D elements in the background support our users primary goal. </li>
-</ul>
+- **Colors:** We chose three colors based on the <b>60/30/10</b> rule ( https://dribbble.com/stories/2018/12/19/choosing-colors-for-web-design-a-practical-ui-color-application-guide ). Meaning, 60% fills the background, 30% is used for headlines, paragraphs, etc. and 10% is used for buttons and links. Since we as a service want the user to feel <b>comfort and security</b> while using our application, we agreed on using a <b>blue tint in the background</b>, which is thought to <b>induce calm and inspires the feelings of trust</b> - the trust in the process and result of this survey. A <b>grey tone</b>, which is a neutral and quiet color, is used to <b>convey the content</b> of our application. To enhance the feeling of <b>comfort and reliability</b>, we chose a <b>green tone</b> as our 10%. ( https://graf1x.com/color-psychology-emotion-meaning-poster/ )
+- **Interface elements:** We went along our guts and followed standards for the design of the controls and display of informations. We did not want to reinvent the wheel and force our users to learn something new, but rather meet the existing expections and experiences about questionnaires of our target group. We focused on the essentials regarding the content and controls. The 3D elements in the background support our users primary goal. </li>
 {{<image src="Figma.png" alt="Mockup of the test" caption="Mockup of the app (Source of the used dummy background image (last seen: 29.06.21): https://dribbble.com/shots/10983008-Morning-exercises-at-home)">}}
 
 #### Supporting 3D elements & animation
