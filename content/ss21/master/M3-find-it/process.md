@@ -20,7 +20,7 @@ Afterwards, we picked one job of each division for our MVP. We assume that a bas
 We know from work and organizational psychology as well as from personality psychology that personality has an important influence on the professional activity performed. An introverted waiter at the Oktoberfest will similarly feel out of place as an adventurous accountant filled with drive. There are several models that describe personality, we have chosen the Hexaco (Ashton & Lee 2006) because it is scientific, modern and very culture-independent. The personality traits relevant to each occupation are hypotheses that we inferred from the task descriptions for each occupation.
  
 ##### Competencies
-We assume that one must have certain competencies to be successful in an occupation. Here we expanded the presupposed competencies, which berufenet provides us around important competencies from the model most usual in the competencies research "Kompetenzenatlas" (Erpenbeck & Heyse 2007, https://kompetenzatlas.fh-wien.ac.at/?page_id=1096 ), in which we from the tasks on the authority necessary for a successful practice of the occupation on the authority needed for it concluded.
+We assume that one must have certain competencies to be successful in an occupation. Here we expanded the presupposed competencies, which berufenet provides us around important competencies from the model most usual in the competencies research "Kompetenzenatlas" (Erpenbeck & Heyse 2007, https://kompetenzatlas.fh-wien.ac.at/?page_id=1096 ), by extrapolating the competencies needed to successfully perform the job directly from the tasks themselves.
  
 ##### Soft and hard skills
  
