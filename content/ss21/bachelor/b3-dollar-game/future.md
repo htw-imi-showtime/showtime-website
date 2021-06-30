@@ -18,3 +18,7 @@ Three difficulties aren’t enough for us. We want to create **_more complicated
 - **More Fun**
 
 We as the developers only have one perspective on the game. Players are encouraged to give us their **_feedback_**. Because only the players truly know what is fun and not, what features they want or what has to get improved.
+
+- **More Compatibility with smartphones**
+
+In order to further our accesibility we will implement smarthone support for all systems.

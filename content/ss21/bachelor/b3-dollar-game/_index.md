@@ -18,7 +18,7 @@ supervisor = "Prof. Dr. Klaus Jung"
 {{<image src="Logo_Island.png" alt="intro" >}}
 
 {{<section title="Our Goals">}}
-Based on the “Dollar Game”, we created Graphlands, an enveloping, approachable riddle game for young and old. In over 30 levels, you will populate islands, try to spread your population as equally as possible and crack your high score, while subconsciously training your brain and learning about graph theory. To ensure its accessibility, our game is playable on your computer, tablet or mobile phone in your personal browser of choice. And with an endearing yet simple design, even kids get a chance to play.
+Based on the “Dollar Game”, we created Graphlands, an enveloping, approachable riddle game for young and old. In over 30 levels, you will populate islands, try to spread your population as equally as possible and crack your high score, while subconsciously training your brain and learning about graph theory. To ensure its accessibility, our game is playable on your computer or tablet in your personal browser of choice. And with an endearing yet simple design, even kids get a chance to play.
 {{</section>}}
 
 {{<section title="The Team">}}
