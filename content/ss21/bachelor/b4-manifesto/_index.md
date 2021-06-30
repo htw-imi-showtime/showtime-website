@@ -15,7 +15,7 @@ team = ["Elyess Eleuch", "Dennis Broecker", "Martin Staats", "Nils Rausch", "Ste
 supervisor = "Prof. Dr. Regina Friess und Alexander Kramer, in Kooperation mit der Marc Sinan Company "
 +++
 
-Manifesto ist eine interaktive Installation, welche grundlegend so konzipiert und entwickelt wurde, dass eine kameragesteuerte Bewegungssensorik der Startpunkt einer aus mehreren Schnittstellen entstanden technischen Pipeline ist. Die Präsenz von Veranstaltungsbesuchern wird wahrgenommen, verarbeitet und anschließend in Verbindung mit Orgelmusik musikalisch wiedergegeben. Dieses Projekt wird landesweit im Novemvber an vielen verschiedenen Orten gleichzeitig aufgeführt und soll zum Gedenken an die NSU Verbrechen beitragen.
+Manifesto ist eine interaktive Installation, welche grundlegend so konzipiert und entwickelt wurde, dass eine **kameragesteuerte Bewegungssensorik** der Startpunkt einer aus mehreren Schnittstellen entstanden technischen Pipeline ist. Die **Präsenz von Veranstaltungsbesuchern** wird wahrgenommen, verarbeitet und anschließend in Verbindung einer **musikalisch wiedergegeben Orgelmusik** . Dieses Projekt wird landesweit im Novemvber an vielen verschiedenen Orten gleichzeitig aufgeführt und soll zum **Gedenken an die NSU Verbrechen** beitragen. Die Hauptveranstaltung soll in der Martinskirche in Kassel stattfinden.
 
 [Manifesto ist Teil der Veranstaltung "Kein Schlussstrich! Ein bundesweites Theaterprojekt zum NSU-Komplex" der Kulturstiftung des Bundes](https://www.kulturstiftung-des-bundes.de/de/projekte/buehne_und_bewegung/detail/kein_schlussstrich.html)
 
@@ -26,38 +26,9 @@ Unser Team kam am Anfang zusammen und hatte als erstes die Aufgabe zu entscheide
 Grundlegend ist die Idee hinter dem Projekt, dass eine Fläche für Besucher einer Veranstaltung eine Interaktionsmöglichkeit bietet. Wie Eingangs erwähnt, ist dieses Projekt Teil der Veranstalung **Kein Schlussstrich! En bundesweites Theaterprojekt zum NSU Komplex.** Manifesto soll die Besucher daher zum nachdenken bringen. Das Konzept welches im folgenden vorgestellt wird, hatte die Anfordungen ausfindig zu machen, wie diese Fläche benutzt werden kann um die Besucher zum nachdenken und zum **Gefühl der Verbundenheit und Gemeinschaftlichkeit** bringt.
 {{</section>}}
 
-{{<section title="Konzept">}}
-
-Das Konzept ist die Grundlage und wurde in Zusammenarbeit und Abstimmung mit der Marc Sinan Company erstellt. Hier ist vorallem erst einmal die Aufteilung in Verschiedene Schritte wichtig gewesen um die verschiedenen Zustände definieren zu können. Die Definiton der Fläche ist ein Startpunkt und darüber hinaus als Interaktionsmöglichkeit in sich mit einer weiteren Fläche als Spielort tätig.
-
-- Unterteilt wird in 4 verschiedene Grundphasen.
-- Es gibt immer mindestens zwei Flächen, die in die Interaktion mit einfließen.
-  (1) Interaktionsfläche (2) Zielbereich
-- Das Minimum für eine Interaktion ist eine Person
-
-  {{<image src="man_konzept_1.png" alt="2 Grundflächen" caption="" >}}
-
-  {{<image src="man_konzept_2.png" alt="4 Phasen" caption="" >}}
-
-  {{<image src="man_konzept_3.png" alt="4 Phasen" caption="" >}}
-
-  - Der Kreis passt gut in das Konzept der Veranstaltung. Er vermittelt Gemeinschaftlichkeit und Ruhe.
-  - Im übertragenen Sinn wird dem Ring eine schützende Funktion zugesprochen.
-
-{{</section>}}
-
 <!--{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="me">}}
 yeet
 {{</quote>}} -->
-
-{{<section title="Entwicklung">}}
-
-- Die **Implementierung der technischen Pipeline** ist grob in 3 Stufen unterteilt.
-- Die Hardware, der Server (inkl. Back- und Frontend) sowie die Musikalische Schnittstelle.
-
-{{<image src="man_technik.png" alt="tech" caption="">}}
-
-{{</section >}}
 
 {{<section title="Team">}}
 
