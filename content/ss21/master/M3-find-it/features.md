@@ -5,10 +5,13 @@ weight = 1
 
 {{<section title="The artificial intelligence engine">}}
 Our goal is to develop an expert system capable of guessing professions by asking the user a series of questions. This concept is inspired by the Akinator application. By traversing a dynamic tree the software automatically selects a series of questions and it also calculates the score of the user and determines his job, that will allow the artificial intelligence engine to guess as quickly as possible the most suitable professions for the user and determines the technical skills that the user has or not depending on the answers to the questions and gives an assessment. To do this, it will rely on a knowledge base composed of 9 jobs at the beginnging, and an average of 54 questions, which will be created with our psychologists as the rules change.
+{{</section>}}
+
+{{<section title="3D Visuals">}}
 
 {{</section>}}
 
-{{<image src="Overview_features.png" alt="Mockup" >}}
+<!-- {{<image src="Overview_features.png" alt="Mockup" >}}
 {{<section title="Feature set" >}}
 #### Text Recognition/Filtering
 Our app uses the Firebase ML text recognition to recognise the ingredients on the back of the product.
@@ -23,7 +26,7 @@ One of our **core features** is the allergy feature. This feature **derived from
 
 {{</section>}}
 
-<!--{{<image src="dummy_feature_image_01.png" alt="An Essential Functionality" caption="An Essential Functionality">}} -->
+{{<image src="dummy_feature_image_01.png" alt="An Essential Functionality" caption="An Essential Functionality">}}
 {{<section title="String matching algorithm">}}
 Levenshtein distance is an **approximate string matching algorithm**, which calculates the distance between two words.
 The distance is calculated via the three operations: **insertion, deletion and substitution**.
@@ -31,7 +34,7 @@ The reason we needed an **approximate** string matching algorithm, is because we
 We used this algorithm in **combination** with the **Trie data structure** in order to guarantee **fast querying** of our data.
 {{</section>}}
 
-{{<gist "jonathanjander" "a56dde942b2aa9ad7e78887e6086fc97">}}
+{{<gist "jonathanjander" "a56dde942b2aa9ad7e78887e6086fc97">}} -->
 
 
 <!--{{<section title="A Copy-pasted Feature">}}

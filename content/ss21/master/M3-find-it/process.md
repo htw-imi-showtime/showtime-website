@@ -89,7 +89,7 @@ Since our schedules varied, we did not conduct daily meetings, but rather had fi
 We planned the sprint backlog and prioritized tickets in each meeting based on the principle: "what needs to be done". The tickets were then distributed to each team member. Frontend and backend were developed in two separate GitLab Projects. We did not work based on feature branches and merge requests, since the code base and team were manageable. Technical and functional review request were coordinated via chat. As this project solely took place remotely, pair-programming was easy to organize and conduct.
 <ul>
     <li><b>Frontend:</b> In the frontend, we worked on each screen step by step, which includes the roughly styled view and functionality. In the beginning the functionality was our priority. In the course of the next sprints, we worked and refined the views. After the database was filled and the API was set, our previously collected data was now embedded into the frontend. In parallel, we worked on the 3D models and background animation, which were also embedded into the view.</li>
-    <li><b>Backend:</b> In the backend, we focused on the inference engine. TODOOO</li>
+    <li><b>Backend:</b> In The backend, we focused on the inference engine. Firstly we started with a deep research on inference engine and the strategies we will use, then we created the rules of our strategy, then we decided how to build and implement our database and finally we started to develop our inference engine.</li>
 </ul>
 
 #### The deployment
