@@ -38,11 +38,13 @@ cd showtime-website
    http://localhost:1313/ in your browser.
    If you get an error:
    * Did you forget to clone the submodules? If so, you can get the theme submodule by running
+   ```
+   git submodule update --init --recursive
+   ```
+   
    * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
 
-```
-git submodule update --init --recursive
-```
+
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
 cp -R content/ss21/bachelor/b0-template-project/ content/ss21/bachelor/b#-your-project/
