@@ -3,7 +3,7 @@ title = "Find-IT"
 project_id = "M3"
 
 # Properties for displaying the project in the project list
-card_image = "shadowlessBordeaux.svg"
+card_image = "logo.svg"
 card_description = "Find-IT is a web based application that offers a helping hand in finding your place in the broad field of Computer Science. Unsure which branch to look into? Overwhelmed by the sheer amount of possibilities? Then Find-IT can help you narrow things down and nudge you in the right direction."
 
 

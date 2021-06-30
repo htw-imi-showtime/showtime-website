@@ -3,13 +3,13 @@ title = "Features"
 weight = 1
 +++
 
+{{<section title="The artificial intelligence engine">}}
+Our goal is to develop an expert system capable of guessing professions by asking the user a series of questions. This concept is inspired by the Akinator application. By traversing a dynamic tree the software automatically selects a series of questions and it also calculates the score of the user and determines his job, that will allow the artificial intelligence engine to guess as quickly as possible the most suitable professions for the user and determines the technical skills that the user has or not depending on the answers to the questions and gives an assessment. To do this, it will rely on a knowledge base composed of 9 jobs at the beginnging, and an average of 54 questions, which will be created with our psychologists as the rules change.
+
+{{</section>}}
+
 {{<image src="Overview_features.png" alt="Mockup" >}}
 {{<section title="Feature set" >}}
-#### Offline Data
-Our app is completely offline compatible
-We have **over 30.000 ingredients** stored in our data set.
-It was important for us to guarantee that the user is always able to use the app. Therefore we didn't want to rely on an internet connection.
-
 #### Text Recognition/Filtering
 Our app uses the Firebase ML text recognition to recognise the ingredients on the back of the product.
 
