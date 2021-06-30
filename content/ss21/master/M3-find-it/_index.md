@@ -10,7 +10,7 @@ card_description = "Find-IT is a web based application that offers a helping han
 # These properties may be removed if you don't need them
 source_link = "https://github.com/HuePhung/Kiss_Project"
 
-team = ["The-Anh Nguyen", "Nhu Mong Tran", "Malin Dulkies", "Mischa Koischwitz" , "Cyrine Ben Rhodamine"]
+team = ["The-Anh Nguyen", "Nhu Mong Tran", "Malin Dulkies", "Mischa Koischwitz" , "Cyrine Ben Romdhane"]
 supervisor = "Marco A., David K."
 +++
 

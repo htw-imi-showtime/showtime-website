@@ -20,7 +20,7 @@ The first five meetings were mainly about forming a common goal and a shared vie
 <ul>
     <li><b>Functional and non-function requirements</b></li>
     <li><b>Frontend:</b> Desktop-first or mobile-first? Color palette? What kind of user experience do we want to make? What should the feel and look be like? Which elements of gamification can we make use of? What technologies do we want to use?</li>
-    <li><b>Backend:</b> What does our data model look like? Machine learning or inference engine? Which Strategie will be used? Which logic should we decide on, fuzzy logic or bayes theorem?</li>
+    <li><b>Backend:</b> What does our data model look like? Machine learning or expert system? Which strategy will be used? Which logic should we decide on, fuzzy logic or bayes theorem?</li>
 </ul>
 {{<image src="brainstorm.jpg" alt="UI ideas and Inspiration board"  caption="UI ideas and Inspiration board">}}
 
@@ -106,7 +106,7 @@ We planned the sprint backlog and prioritized tickets in each meeting based on t
 Heroku TODOOOOO
 
 {{</section>}}
-
+                                                                                                    
 
 
 {{<section title="Difficulties we encountered">}}
