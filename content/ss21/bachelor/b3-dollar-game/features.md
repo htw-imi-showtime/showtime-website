@@ -8,11 +8,12 @@ weight = 1
 - With currently 30 levels and three difficulties we have a wide range for beginner to professional riddle gamer.
 - All levels have been created and analysed by our team, to support different skills from coordination on the screen to simple mathematics and calculations.
 - Our main menu leads the player to the level screen, which allows the player to choose between easy, normal and difficult graphs. Revisitors are able to see their finished levels in the level selection screen.
+{{</section>}}
+{{<gallery>}}
 {{<image src="easy.png" alt="Easy" caption="Difficulty: easy" >}}
 {{<image src="normal.png" alt="Normal" caption="Difficulty: normal" >}}
 {{<image src="hard.png" alt="Hard" caption="Difficulty: hard" >}}
-{{</section>}}
-
+{{</gallery>}}
 
 {{<section title="Highscore" >}}
 - The high score system remembers the player's best solution for each individual level. A step counter follows the player through his round and keeps track of their number of moves. The less moves the better. And in case of a misclick, the return button helps to save the players score.  
@@ -34,7 +35,7 @@ weight = 1
 - With our music and sound features, the player can enjoy atmospheric tunes while thinking about his next moves. Sound effects support the players actions and give audible notifications.
 - The player that prefers his own metal playlist for thinking can stop the music with two simple clicks in the sound menu.
 #### Credits for music
-<li> Credit for “Wanderlust” background music: <a href="chosic.com">chosic.com</a></li>
-<li>Credit for sound effects: <a href="mixkit.co/free-sound-effects/">mixkit.co/free-sound-effects/</a></li>
+<li> Credit for “Wanderlust” background music: <a href="https://chosic.com">chosic.com</a></li>
+<li>Credit for sound effects: <a href="https://mixkit.co/free-sound-effects/">mixkit.co/free-sound-effects/</a></li>
 {{</section>}}
 
