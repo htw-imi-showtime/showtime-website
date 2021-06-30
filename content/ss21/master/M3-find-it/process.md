@@ -9,26 +9,9 @@ This is the first IMI Showtime for some of our group members. In general, we kne
 After **kicking off** the project and **getting to know each member's strengths and preferences** in the scope of the project, as well as our supervisor's visions, we excitingly head on moved to the **brainstorm and research phase**. Tools such as **Miro and the Gitlab board** were of great help to manage the ideas and visuals. In this phase, we clarified questions, collected functional ideas from each member, talked about available technologies and initial visuals of the application. In addition, one of the core tasks was to conduct data research, which was lead by our supervisor Marco A. Afterwards we had to **make decisions** about our chosen tech stack. We defined functional and non-functional requirements, as well as visions and goals. A low-fidelity design had been prepared to visualise the ideas resulting from the brainstorming sessions.  Finally, the last step of the overall preparation phase was to **acquire the necessary knowledge** and missing data to initiate the development. At that point, the preferences of each team member were clear, thus the team was separated into **two sub-groups**: Frontend (consisting of Mischa, Malin and Nhu) and Backend (consisting of Cyrine and The-Anh).
 #### Strengths and preferences
 To get to know each team member, we **documented everyone’s skills and likings** in a ticket in GitLab. This really helped us find **correlations to common skills** within the team to later **decide on the tech stack**. The teams were also separated based on everyone’s interests.
- 
 #### Research
-Researching was one of our core tasks. The collected data is the foundation of the success of our application. Results were collected in a shared word document and saved in our Miro board. The research was lead by our supervisor Marco A., who is working in the field of psychology. With the help of Marco A., at first, we researched 41 different types of IT jobs on the current job market, which was taken from an in-depth article on Skillcrush ( https://skillcrush.com/blog/41-tech-job-titles/ ). After we defined some of the job titles (common tasks and requirements taken from three popular employment websites: LinkedIn, Stepstone and Indeed), we realized that conducting the research manually was not the way to go. Thus we discarded the initial work. We agreed on using german resources and therefore narrowed down the mentioned job titles from IT-Talents ( https://it-talents.de/it-karriere/it-berufe/ ) and Get-In-IT ( https://www.get-in-it.de/magazin/arbeitswelt/it-berufe ) and clustered the 41 job titles into nine divisions following the clustering from Get-In-IT ( https://www.get-in-it.de/berufsfelder ). 
- 
-##### Tasks
-Afterwards, we picked one job of each division for our MVP. We assume that a basic interest in the most important tasks for each profession can predict that one will have "fun" in that profession. For the tasks, Marco A. looked at the main tasks for each profession on the platforms it-talents.de, berufenet, Brunel and get-in-it.de. From these, He selected the tasks that were mentioned on all platforms, i.e. the ones that seem to be the most important.
- 
-##### Personality
-We know from work and organizational psychology as well as from personality psychology that personality has an important influence on the professional activity performed. An introverted waiter at the Oktoberfest will similarly feel out of place as an adventurous accountant filled with drive. There are several models that describe personality, we have chosen the Hexaco (Ashton & Lee 2006) because it is scientific, modern and very culture-independent. The personality traits relevant to each occupation are hypotheses that we inferred from the task descriptions for each occupation.
- 
-##### Competencies
-We assume that one must have certain competencies to be successful in an occupation. Here we expanded the presupposed competencies, which berufenet provides us around important competencies from the model most usual in the competencies research "Kompetenzenatlas" (Erpenbeck & Heyse 2007, https://kompetenzatlas.fh-wien.ac.at/?page_id=1096 ), by extrapolating the competencies needed to successfully perform the job directly from the tasks themselves.
- 
-##### Soft and hard skills
- 
-{{<image src="recherche.jpg" alt="Cluster of research findings"  caption="Cluster of research findings">}}
- 
- 
+Researching was one of our core tasks (see section "Research" below).
 #### Brainstorming
- 
 The first five meetings were mainly about forming a common goal and a shared view within the team. We kicked off with a brainstorming session in which various ideas were introduced and elaborated on. Results from the sessions were documented in our Miro board and in the related ticket in GitLab. Topics which were of importance for the decision making:
 <ul>
     <li><b>Functional and non-function requirements</b></li>
@@ -49,9 +32,25 @@ The first five meetings were mainly about forming a common goal and a shared vie
 In the last step of the preparation phase, we acquired the needed knowledge as quick as possible. There were a lot of technologies, which were new to us.
 {{</section>}}
  
+ {{<section title="Research">}}
+Researching was one of our core tasks. The collected data is the foundation of the success of our application. Results were collected in a shared word document and saved in our Miro board. The research was lead by our supervisor Marco A., who is working in the field of psychology. With the help of Marco A., at first, we researched 41 different types of IT jobs on the current job market, which was taken from an in-depth article on Skillcrush ( https://skillcrush.com/blog/41-tech-job-titles/ ). After we defined some of the job titles (common tasks and requirements taken from three popular employment websites: LinkedIn, Stepstone and Indeed), we realized that conducting the research manually was not the way to go. Thus we discarded the initial work. We agreed on using german resources and therefore narrowed down the mentioned job titles from IT-Talents ( https://it-talents.de/it-karriere/it-berufe/ ) and Get-In-IT ( https://www.get-in-it.de/magazin/arbeitswelt/it-berufe ) and clustered the 41 job titles into nine divisions following the clustering from Get-In-IT ( https://www.get-in-it.de/berufsfelder ). 
+ 
+##### Tasks
+Afterwards, we picked one job of each division for our MVP. We assume that a basic interest in the most important tasks for each profession can predict that one will have "fun" in that profession. For the tasks, Marco A. looked at the main tasks for each profession on the platforms it-talents.de, berufenet, Brunel and get-in-it.de. From these, He selected the tasks that were mentioned on all platforms, i.e. the ones that seem to be the most important.
+ 
+##### Personality
+We know from work and organizational psychology as well as from personality psychology that personality has an important influence on the professional activity performed. An introverted waiter at the Oktoberfest will similarly feel out of place as an adventurous accountant filled with drive. There are several models that describe personality, we have chosen the Hexaco (Ashton & Lee 2006) because it is scientific, modern and very culture-independent. The personality traits relevant to each occupation are hypotheses that we inferred from the task descriptions for each occupation.
+ 
+##### Competencies
+We assume that one must have certain competencies to be successful in an occupation. Here we expanded the presupposed competencies, which berufenet provides us around important competencies from the model most usual in the competencies research "Kompetenzenatlas" (Erpenbeck & Heyse 2007, https://kompetenzatlas.fh-wien.ac.at/?page_id=1096 ), by extrapolating the competencies needed to successfully perform the job directly from the tasks themselves.
+ 
+##### Soft and hard skills
+Skills are valued by employers especially when they have been acquired through employment or work experience. Skills are numerous and differ from one job to another. 
+The skills acquired throughout our careers are necessary for our personal and professional development and also to develop a better career goal if you are aware of your knowledge, skills and abilities. It is important to define your career goal in advance so that you can target your efforts during your job search.
+{{<image src="recherche.jpg" alt="Cluster of research findings"  caption="Cluster of research findings">}}
+ {{</section>}}
  
 {{<section title="Visual Design">}}
- 
 #### Sketches & storyboard
 The ideas from the brainstorming sessions were the foundation of the following hand-drawn screen sketches. We focused on creating a desktop-first user interface and chose to include 3D elements as supporting visuals, which mirrors the experience of our user. The sketches should give an overall overview of the use of the application. During this phase, we also began prioritizing functionalities for our MVP.
 {{<image src="sketches.png" alt="Storyboard Sketches" caption="Sketchy storyboard showing the animation and user flow">}}
