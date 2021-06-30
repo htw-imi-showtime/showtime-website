@@ -33,7 +33,7 @@ The team was made up of five people with diverse development backgrounds. Before
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="lena.png" name="Alain">}}
+{{<team-member image="alain.png" name="Alain">}}
 {{<team-member image="lena.png" name="David">}}
 {{<team-member image="flo.jpg" name="Florian">}}
 {{<team-member image="lena.png" name="Lena">}}
