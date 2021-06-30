@@ -35,5 +35,5 @@ Most people had preferred areas of work and experience, yet we learned from each
 {{<team-member image="Marie.jpg" name="Marie">}}
 {{<team-member image="Nadya.jpg" name="Nadya">}}
 {{<team-member image="Felix.jpg" name="Felix">}}
-{{<team-member image="team.png" name="Linh">}}
+{{<team-member image="Linh.jpg" name="Linh">}}
 {{</gallery>}}
