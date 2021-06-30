@@ -55,11 +55,7 @@ yeet
 - Die **Implementierung der technischen Pipeline** ist grob in 3 Stufen unterteilt.
 - Die Hardware, der Server (inkl. Back- und Frontend) sowie die Musikalische Schnittstelle.
 
-{{<image src="man_frontend_start.png" alt="Application Frontend" caption="Application Frontend">}}
-
-Link zu Video
-
-{{<image src="man_pipeline.png" alt="Technik Pipeline" caption="Technik Pipeline" >}}
+{{<image src="man_technik.png" alt="tech" caption="">}}
 
 {{</section >}}
 
