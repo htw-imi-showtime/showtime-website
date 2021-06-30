@@ -30,7 +30,7 @@ Most people had preferred areas of work and experience, yet we learned from each
 
 {{<gallery>}}
 {{<team-member image="Markus.jpg" name="Markus">}}
-{{<team-member image="Mukhammad.jpg" name="Mohammad">}}
+{{<team-member image="Mukhammad.jpg" name="Muhammad">}}
 {{<team-member image="Laura.jpg" name="Laura">}}
 {{<team-member image="Marie.jpg" name="Marie">}}
 {{<team-member image="Nadya.jpg" name="Nadya">}}

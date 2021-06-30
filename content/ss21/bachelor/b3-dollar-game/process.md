@@ -20,7 +20,7 @@ In our first sprints, we created a first prototype. A main menu, level menu and 
 
 {{<section title="Developement">}}
 The continuing weeks we concentrated on many topics, from design to programming to idea collections for future features.
-Remarkable are the music features, improved game mechanics and many added functions like repeat buttons, step back and the general menu, that all have been programmed in JavaScript and Phaser. Additionally to the program itself, game analysis and levels had to be made, for the content of the game. We often split the team in multiple gro ups every week to have an agile workflow in all categories of the game.
+Remarkable are the music features, improved game mechanics and many added functions like repeat buttons, step back and the general menu, that all have been programmed in JavaScript and Phaser. Additionally to the program itself, game analysis and levels had to be made, for the content of the game. We often split the team in multiple groups every week to have an agile workflow in all categories of the game.
 {{</section>}}
 
 {{<section title="Designing">}}
