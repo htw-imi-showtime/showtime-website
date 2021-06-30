@@ -29,7 +29,12 @@ Klopf klopf! <br> Wer ist da ?<br> Niemand <br> Niemand wer?
 {{</quote>}} -->
 
 {{<section title="The Team">}}
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+Our team was very diverse in their experience and skills and very clearly structured in their interests. It was not very difficult to split the team up into the respective parts that worked on certain things. Everyone together had a fair share of work focusing on research and analysis of jobs and their requirements but other than that, the work on the project was easily divided.
+
+The **Design team** consisted of Mischa, Malin and Nhu, whereas the most features of the Frontend was done by Mischa and Malin, while Nhu focussed mainly on the creation of the 3D-models and animation in the background.
+
+The **Backend team**, made up of Cyrine and The-Anh had their main focus on the modelling of the AI, dealing with the database and the necessities of the skills and jobs. 
+
 {{</section >}}
 
 {{<gallery>}}

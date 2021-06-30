@@ -26,12 +26,11 @@ One of our **core features** is the allergy feature. This feature **derived from
 
 {{</section>}}
 
-{{<image src="dummy_feature_image_01.png" alt="An Essential Functionality" caption="An Essential Functionality">}}
-{{<section title="String matching algorithm">}}
-Levenshtein distance is an **approximate string matching algorithm**, which calculates the distance between two words.
-The distance is calculated via the three operations: **insertion, deletion and substitution**.
-The reason we needed an **approximate** string matching algorithm, is because we are working with text recognition and text recognition is **prone to errors**.
-We used this algorithm in **combination** with the **Trie data structure** in order to guarantee **fast querying** of our data.
+
+{{<section title="Psychologically approved">}}
+Being on a team with not only talented students but also having an actual psychologist in our rows was very helpful when it came to creating the analysis. Instead of simply putting down questions that were answered with yes or no or had the most inexpressive results to it, we were able to sit down and create a questionnaire that would directly **reflect** and **reveal** the true nature of the user’s psyche. 
+ 
+This way, our questionnaire is able to go much more in-depth when it comes to personality and competencies that are needed or the job. Instead of just matching skills in coding to the respective jobs and giving an estimate, the test captures the personality and tells the user which job he would feel the most welcome and comfortable in. 
 {{</section>}}
 
 {{<gist "jonathanjander" "a56dde942b2aa9ad7e78887e6086fc97">}} -->
