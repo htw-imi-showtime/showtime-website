@@ -14,5 +14,7 @@ weight = 2
 {{<section title="Rewriting">}}
 {{</section>}}
 
+<hr/>
+
 {{<section title="Obstacles">}}
 {{</section>}}
