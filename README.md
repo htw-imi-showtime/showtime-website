@@ -38,21 +38,23 @@ cd showtime-website
    http://localhost:1313/ in your browser.
    If you get an error:
    * Did you forget to clone the submodules? If so, you can get the theme submodule by running
-   * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
+   ```
+   git submodule update --init --recursive
+   ```
    
-```
-git submodule update --init --recursive
-```
+   * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
+
+
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ws21/bachelor/b0-template-project/ content/ws21/bachelor/b#-your-project/
+cp -R content/ss21/bachelor/b0-template-project/ content/ss21/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-project/
+cp -R content/ss21/master/m0-template-project/ content/ss21/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-5. Fill out your project's homepage `content/ws21/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+5. Fill out your project's homepage `content/ss21/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    **Please don't use Markdown headings (hashtags) directly, since those headings won't be displayed correctly.**
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
@@ -61,13 +63,13 @@ cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-proje
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ws21/<bachelor|master>/<project_number-your-project>
+git add content/ss21/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
 8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
-Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/ 
+Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/
 
 One week before the Showtime takes place, the website will be published on our production server: https://showtime.f4.htw-berlin.de/
 
@@ -170,12 +172,12 @@ Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb
 
 ## Adding a new semester
 This repository contains a utility script to transition the website to a new semester.
-It changes the semester set in the config file (`current_semester` in `config/_default/config.toml`) and 
+It changes the semester set in the config file (`current_semester` in `config/_default/config.toml`) and
 scaffolds the folder structure for the projects of the new semester.
 ```shell
 ./new_semester.sh <semester>
 ```
 Example: Transitioning to winter semester 2021/22
 ```shell
-./new_semester.sh ws21
+./new_semester.sh ss21
 ```
