@@ -17,18 +17,18 @@ weight = 3
 
 
 {{<section title="Tech Stack">}}
-MEVN (MongoDB, Express.js, Vue.js und Node.js) as the tech stack was decided upon before the project started. The study program is increasingly using more modern JavaScript-based Frameworks and the IMI-Map was supposed to become more easily integratable into other courses and student projects. Here are the components of MEVN:
+MEVN (MongoDB, Express.js, Vue.js und Node.js) as the tech stack had been decided upon before the project started. The study program is increasingly using more modern JavaScript-based frameworks and the IMI-Map was supposed to become more easily integrable into other courses and student projects. Here are the components of MEVN:
 
-**MongoDB**
-* a document based database
+**[MongoDB](https://www.mongodb.com/)**
+* a document based database which we used with [Mongoose](https://mongoosejs.com/)
 
-**Express.js**
-* a JavaScript-Webframework
+**[Express.js](https://expressjs.com/)**
+* a JavaScript web framework - used for programming the API
 
-**Vue.js**
-* a JavaScript-Framework for frontend development
+**[Vue.js](https://v3.vuejs.org/)**
+* a JavaScript framework for frontend development - we took a chance and went with the new version of Vue.js as to make it more future proof
 
-**Node.js**
+**[Node.js](https://nodejs.org/en/)**
 * a JavaScript-Runtime
 
 
@@ -46,11 +46,11 @@ Which tools we were using as a team to work was our decision. These were the too
 * Version control
 
 **Miro**
-* Documentation of Decisions
-* Visualisation of Processes and Ideas
+* Documentation of decisions
+* Visualisation of processes and ideas
 
 **Discord**
-* Communication while worging on the project
+* Communication while working on the project
 * Weekly team meetings
 
 **Telegram**

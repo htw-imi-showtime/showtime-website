@@ -24,7 +24,7 @@ yeet
 
 {{<section title="The IMI-Map">}}
 The IMI-Map was developed in 2013 as a Ruby on Rails application. It was maintained and further developed in two practical projects and a few bachelor thesis and it is still being used, maintained and developed actively in the study program.
-The goal of original the IMI-Map was to support students with finding an internship and to support the internship officer with the administration of the internships.
+The goal of the original IMI-Map was to support students with finding an internship and to support the internship officer with internship administration.
 
 **The origrinal IMI-Map:**
 * Demo: [https://imi-map.f4.htw-berlin.de/](https://imi-map.f4.htw-berlin.de/)
@@ -38,7 +38,7 @@ The goal of original the IMI-Map was to support students with finding an interns
 
 
 {{<section title="The Goal">}}
-Even tough Ruby on Rails is a stable and still current web framework, the study program is increasingly using more modern JavaScript-based frameworks. In order to make the IMI-Map more easily integratable into other courses and student projects the main objective was to:
+Even tough Ruby on Rails is a stable and still current web framework, the study program is increasingly using more modern JavaScript-based frameworks. In order to make the IMI-Map more easily integrable into other courses and student projects the main objective was to:
 * Migrate the IMI-Map as it is from Ruby on Rails to the MEVN-Stack (Mongo, Express, Vue und Node.js).
 * The migration of the IMI-Map to the MEVN-Stack also poses the question on how to migrate the data of the IMI-Map safely without regression and loss of data to the new IMI-Map.
 * At the end of the project the old IMI-Map should be able to be replaced by the new version.
@@ -47,9 +47,9 @@ Even tough Ruby on Rails is a stable and still current web framework, the study 
 
 
 {{<section title="The Team">}}
-As a team of five we had a lot of very diverse backround knowledge present in the team. Some of us have worked with the IMI-Map extensively before, others had never even seen it. Some of us had prior knowledge about the process of the IMI-Internships from varied perspectives, others had not gone through that process ever. Some of us had worked extensively with the MEVN-Stack before, others had not.
+As a team of five we had a lot of very diverse background knowledge present in the team. Some of us have worked with the IMI-Map extensively before, others had never even seen it. Some of us had prior knowledge about the process of the IMI-Internships from varied perspectives, others had not gone through that process ever. Some of us had worked extensively with the MEVN-Stack before, others had not.
 
-Including all these points of views, perspectives and bits of knowledge was a challenge and the reason why we decided not to give fixed roles to people. Over the course of time a few key areas of work developed anyway:
+Including all these points of views, perspectives and bits of knowledge was a challenge and the reason we decided not to give fixed roles to people. Over the course of time a few key areas of work developed anyway:
 * **Jakob** and **Robin** worked mainly on the frontend
 * **Linda** worked mainly on the backend
 * **Lotte** interface and intermediary to the old IMI-Map, Quality Assurance, PR
@@ -57,7 +57,7 @@ Including all these points of views, perspectives and bits of knowledge was a ch
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="placeholder_square.png" name="Jakob Panthen">}}
+{{<team-member image="placeholder_square.png" name="Jakob Panten">}}
 {{<team-member image="linda.jpg" name="Linda Fernsel">}}
 {{<team-member image="lotte.jpg" name="Lotte Unckell">}}
 {{<team-member image="luis.jpg" name="Luis Hankel">}}
