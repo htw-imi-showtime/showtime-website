@@ -17,7 +17,7 @@ The goal of this project was to rewrite the IMI-Map using a new Tech Stack. So w
 * Students can register their internships using the IMI-Map. They can print their registration form from the IMI-Map to hand in with the internship officer.
 
 **Internship Administration**
-* The internship officer can use the IMI-Map to keep track of the internship and the corresponding paperwork.
+* The internship officer can use the IMI-Map to keep track of the internships and the corresponding paperwork.
 {{</section>}}
 
 {{<section title="The New">}}
