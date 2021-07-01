@@ -39,7 +39,7 @@ The goal of original the IMI-Map was to support students with finding an interns
 
 {{<section title="The Goal">}}
 Even tough Ruby on Rails is a stable and still current web framework, the study program is increasingly using more modern JavaScript-based frameworks. In order to make the IMI-Map more easily integratable into other courses and student projects the main objective was to:
-* Migrate the IMI-Map as it is from Ruby on Rails to the MEVN-Stack (Mongo, Express, Vue und Node).
+* Migrate the IMI-Map as it is from Ruby on Rails to the MEVN-Stack (Mongo, Express, Vue und Node.js).
 * The migration of the IMI-Map to the MEVN-Stack also poses the question on how to migrate the data of the IMI-Map safely without regression and loss of data to the new IMI-Map.
 * At the end of the project the old IMI-Map should be able to be replaced by the new version.
 {{</section>}}
@@ -52,14 +52,14 @@ As a team of five we had a lot of very diverse backround knowledge present in th
 Including all these points of views, perspectives and bits of knowledge was a challenge and the reason why we decided not to give fixed roles to people. Over the course of time a few key areas of work developed anyway:
 * **Jakob** and **Robin** worked mainly on the frontend
 * **Linda** worked mainly on the backend
-* **Lotte** (schnittstelle zur alten imimap, testing, pr)
+* **Lotte** interface and intermediary to the old IMI-Map, Quality Assurance, PR
 * **Luis** worked mainly in dev ops and on the backend
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="jakob.jpg" name="Jakob Panthen">}}
+{{<team-member image="placeholder_square.png" name="Jakob Panthen">}}
 {{<team-member image="linda.jpg" name="Linda Fernsel">}}
 {{<team-member image="lotte.jpg" name="Lotte Unckell">}}
 {{<team-member image="luis.jpg" name="Luis Hankel">}}
-{{<team-member image="robin.jpg" name="Robin Decker">}}
+{{<team-member image="placeholder_square.png" name="Robin Decker">}}
 {{</gallery>}}

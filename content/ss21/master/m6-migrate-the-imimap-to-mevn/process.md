@@ -4,52 +4,45 @@ weight = 2
 +++
 
 
-{{<section title="First steps">}}
-Our **goal was clear**. We generally knew what we had to do to reach our goal.
-Some **questions** still **came up**, that had to be answered first, before starting to code.
-We had to first **decide on a framework** we want to use.
-It was also important to know upfront whether our app is **offline or online**.
-After answering all these questions, we **split up in two subgroups**. One group was **responsible for the backend** and how we would **retrieve the data**.
-The other group was **responsible for the frontend** and how we **integrate the text recognition plugin**.
-We were **always staying in contact** and **communicating with each other regularly**.
-We **stayed** in these **subgroups** up until our **prototype was done**.
-{{</section>}}
-{{<section title="Mockups">}}
-We knew a couple of things before thinking of our design. Our app would have three pages: A **search, camera and history screen**. We also liked the idea of **valuing a clean and simple design over a complex one** because it fits our app the best.
-{{</section>}}
-{{<image src="mockups_triple.png" alt="Mockups">}}
-{{<section title="Evolution of our design">}}
-For our **prototype**, we wanted to make sure that our **basic structure** and **feature set** is **present**. Our **UI** wasn't the **main focus at that point**. After having our prototype, we also set out to **improve our UI** by making it **look more like our Mockup**.
-{{</section>}}
-{{<image src="evolution_of_history.png" alt="Evolution of history" caption="Evolution of our history screen">}}
 
-{{<section title="Second phase">}}
-Our second phase started with a **brainstorm**.
-We thought about **possible features** and **sorted them by their priority**.
-This process took some time because we came up with great ideas but filtering them to what was possible in our given time window wasn't easy.  
-The **Miro board helped us** a lot in the process of visualising and managing our ideas.
-We also used it as a Task/Kanban board.
-We **never ran out of ideas**, therefore our idea collection and **prioritisation changed weekly**.
-Staying in touch with our **supervisor helped us** a good deal with our decision making over which features to implement.
-Keeping a **constant communication flow allowed** us to be **very flexible**.
-This phase lasted until the end of our development.
+{{<section title="Gathering Information">}}
+First, the team needed to gather information about the internship administration process and the changes that hat been made to it due to the COVID19-Pandemic. To do this we repeated the following three steps:
+* Talk to previous and current internship officers and the student assistants in the internship administration.
+* Understand and visualize the process.
+* Talk about the visualisations and make adjustments accordingly.
 {{</section>}}
+
+
+
+{{<section title="What to keep?">}}
+The next step was to evaluate the current IMI-Map and to decide what to keep and what to toss out. Due to the IMI-Map having an 8-year history there were a lot of relics of past ideas. Over the years there had also been a lot of additions to the IMI-Map and not a lot of cleaning up grown-out-of-hand models or unused features.
+
+We ended up keeping all of the main features of the old IMI-Map. Amongst other things we tossed out old attempts on review processes and decided to redesign the models completely.
+{{</section>}}
+
+
+
+{{<section title="What to add?">}}
+Now we needed to decide if we wanted to add anything. Talking to the internship officer and the student assistants gave us a lot of ideas what could be improved. We landed on:
+* Implementing the handling of all the required PDFs using the IMI-Map to make the internship administration process more seamless.
+* Using [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) to be able to keep an administration history of internships and also to declutter the internship model a lot because it didn't have to save the states of each of its components. The [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) would take care of that.
+* Designing a new admin interface including quick actions and more to make the internship administration process faster and less tedious.
+* Redesigning the models that had grown and developed over the years to be huge.
+{{</section>}}
+
+
+
+{{<section title="Rewriting">}}
+After the concept was done we started implementing. We started working on frontend and backend seperately. Simultaniously we worked on a deployment process and on a login strategy.
+
+Once the frontend and the backend were done we konnected them with an API and added Cypress tests.
+
+{{</section>}}
+
+
 
 {{<section title="Obstacles">}}
-#### Group responsible for our data retrieval
+The biggest obstacle in this project was the concept and implementation of [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html). We spent a lot of time on defining which events we would need and how exactly they could be implemented to best depict the process ot the internship administration.
 
-Our backend group struggled with retrieving data at first.
-Since our **data came from the European Commission**, who was **fond of helping people** who were going to use the data, we knew that we wanted to **get in touch** with them to see if they had an **API endpoint** or something else to help us in any way.
-It turns out they had one, but it was **poorly documented**.
-We **didn't know** how to **access the data** we wanted.
-After a lot of **confusion** and a couple of **mails exchanging**, we found out that the endpoint **didn't even provide a way to access the data** but only to return a file containing the data.
-So it was a **dead-end** and cost us at least 1 1/2 weeks.
-
-#### Group responsible for our text recognition
-
-At around the same time, the other group struggled with their own problems.
-One of their tasks was to **cut unnecessary words from our recognized text**, so we didn't have to search for them in our database hence improving our performance.
-Their **idea** was to use **RegEx** but **no one** in our group **has used** RegEx before.
-It was quite a **drag** for them to get into RegEx, especially because we had so many **little details to consider**.
-This was an **ongoing process** up until the end because there was always **something to improve on**.
+As cheesy as it sounds: We solved this obstacle using teamwork. After we could not solve this as individual team members we spent a lot of time together as a whole group discussing the events and their implementation until we landed on a version which we all thought was logical and also practical.
 {{</section>}}
