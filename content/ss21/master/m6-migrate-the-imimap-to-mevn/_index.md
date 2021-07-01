@@ -39,7 +39,7 @@ The Goal of original the IMI-Map was to support students with finding an interns
 
 {{<section title="The Goal">}}
 Even tough Ruby on Rails is a stable and still current Web-Framework, the study program is increasingly using more modern JavaScript-based Frameworks. In order to make the IMI-Map more easily integratable into other courses and student projects the main objective was to:
-* Migrate the IMI-Map as it is from Ruby on Rails to the MEVN-Stack (Mongo, Express, Vue und Node).
+* Migrate the IMI-Map as it is from Ruby on Rails to the MEVN-Stack (MongoDB, Express.js, Vue.js und Node.js).
 * The migration of the IMI-Map to the MEVN-Stack also poses the question on how to migrate the data of the IMI-Map safely without regression and loss of data to the new IMI-Map.
 * At the end of the project the old IMI-Map should be able to be replaced by the new version.
 {{</section>}}
