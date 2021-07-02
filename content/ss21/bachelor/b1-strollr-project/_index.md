@@ -31,5 +31,12 @@ Each of us contributing our **previous experience** and giving it **our best**, 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="kevin.jpg" name="Kev">}}
+{{<team-member image="jonas.jpeg" name="Jonas">}}
+{{<team-member image="kevin.png" name="Kev">}}
+{{<team-member image="max.jpg" name="Max">}}
+{{<team-member image="paul.jpg" name="Paul">}}
+{{<team-member image="elena.jpg" name="Elena">}}
+{{<team-member image="hermes.jpg" name="Hermes">}}
+{{<team-member image="antje.png" name="Antje">}}
+{{<team-member image="michelle.jpg" name="Michelle">}}
 {{</gallery>}}
