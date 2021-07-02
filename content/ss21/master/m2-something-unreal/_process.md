@@ -9,7 +9,9 @@ Every project has a beginning and an end. Before we started doing anything, we w
 {{<image src="miro1.jpg" caption="Miro Board(1)">}}
 {{<image src="miro2.jpg" caption="Miro Board(2)">}}
 
-We discussed a lot of ideas and we decided that each team member has to create a small digital prototype with their ideas. One idea was to create something that can be played with a VR headset. Another idea was to have the player in a blood stream that destroys approaching viruses. We were all very taken with both ideas. We thought it will fit perfectly together. Nevertheless, we had the feeling that something was missing. Music! We need music! 
+We discussed a lot of ideas and we decided that each team member has to create a small digital prototype with their ideas. One idea was to create something that can be played with a VR headset. Another idea was to have the player in a blood stream that destroys approaching viruses. We were all very taken with both ideas. We thought it will fit perfectly together. Nevertheless, we had the feeling that something was missing. Music! We needed music!
+
+Another digital prototype had the approach of having music incorporated into the game in such a way that the gameplay supported the music with different sounds. We were all stoked with the ideas and after a short time and little discussions <strong>Something Unreal</strong> was finally born.
 {{</section>}}
 
 {{<section title="Assets creation (a selection)">}}
