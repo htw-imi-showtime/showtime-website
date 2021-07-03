@@ -1,5 +1,6 @@
 +++
 title = "Konzept"
+weight = 1
 +++
 
 {{<section title="Konzept">}}

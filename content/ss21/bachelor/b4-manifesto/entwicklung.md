@@ -1,5 +1,6 @@
 +++
 title = "Entwicklung"
+weight = 2
 +++
 
 {{<section title="Entwicklung">}}
