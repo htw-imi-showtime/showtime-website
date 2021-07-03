@@ -12,16 +12,7 @@ Due to the social distancing regulations, the process was fully organized throug
 {{</section>}}
 
 {{<section title="Research & Development">}}
-### Kotlin
-Kotlin is a fairly modern programming language inspired by Java. It is clean, carries fewer formalities and is therefore shorter than Java. In 2019 Google declared Kotlin the preferred language for Android.
-
-As all team members were eager to expand their skill-set with a new programming language, the decision was made to 'jump in at the deep end' and fully develop the Android App in Kotlin.
-
-### Bluetooth Standard Decision
-<!-- TODO Flo / Samuel: Entscheidungsprozess fuer BLE -->
-As Bluetooth Low Energy allowed for both a broadcasting approach and client-server-communication, the decision to use BLE instead of the 'classic' Bluetooth standard was quickly made.
-
-Common with all modern technologies and tech stacks, using a newer approach inherently comes with a smaller knowledge base, due to the limited amount of 'users'. This frequently lead to issues, as exemplary code was difficult to find, even though the basic Google documentation was quite extensive.
+<!-- TODO hier unsere research zu positions bestimmung, wie sind wir dahin gekommen, warum nutzen wir bluetooth und nicht etwas anderes zu positionsbestimmung -->
 
 
 ### Data 'Cleanup'

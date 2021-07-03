@@ -3,31 +3,37 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="tech.png" alt="Tech Stack" caption="Technology and Software used for the development of GeZuMi">}}
+{{<image src="tech.svg" alt="Tech Stack">}}
 
 {{<section title="Tech Stack">}}
 #### Android & Kotlin
-Android is an **open-source, Linux-based OS**, mainly developed by Google. It's **well-documented** and, next to iOsS, the most **common** operating system for mobile devices. The team decided to develop an Android App, as some existing experience could be extended and most members were Android-device users.
+Android is an **open-source, Linux-based OS**, mainly developed by Google. It's **well-documented** and, next to iOS, the most **common** operating system for mobile devices. The team decided to develop an Android App, as some existing experience could be extended and most members were Android-device users.
 
 Kotlin is a fairly **modern programming language** inspired by Java. It is clean, carries **fewer formalities** and is therefore shorter than Java. In 2019 Google declared Kotlin the preferred language for Android.
 
+As all team members were eager to expand their skill-set with a new programming language, the decision was made to ‘jump in at the deep end’ and fully develop the Android App in Kotlin.
+
+#### Bluetooth Low Energy
+
+As Bluetooth Low Energy allowed for both a broadcasting approach and client-server-communication, the decision to use BLE instead of the ‘classic’ Bluetooth standard was quickly made.
+
+Common with all modern technologies and tech stacks, using a newer approach inherently comes with a smaller knowledge base, due to the limited amount of ‘users’. This frequently lead to issues, as exemplary code was difficult to find, even though the basic Google documentation was quite extensive.
 
 {{</section>}}
 
-{{<section title="Development Tools">}}
-#### GitHub/Git
+{{<image src="other-tech.svg" alt="Other Tools">}}
+
+{{<section title="Other Tools">}}
+#### GitHub
 GitHub was used to host the code as well as for the project management, which lead to a **highly efficient, collaborative workflow**.
 
-The development process was organized in **one-week sprints** with self-contained feature releases and briefings with the project supervisor every second week. In weekly sprint meetings, all team members were brought up to date and new goals for the following sprint were defined. In order to improve the collaboration as a team, retrospectives were set up as needed. During those retrospectives, both conflicts and achievements were addressed.
+Using Github Actions a **CI/CD pipeline** has been implemented which ensures a high code quality and builds an apk which is then released on Github.
 
-Due to the need for social distancing, the complete workflow and all interactions were organized online. Towards the end of the predetermined project time, when personal get-togethers became possible and necessary, in-person meetings were slowly introduced into the flow.
+{{<image src="pipeline.svg" alt="CI Pipeline">}}
 
+#### Miro & Figma
+Miro was used for **visualizing our ideas and brainstorming**. Using figma we designed individual screens as they should look in the app. 
 
-#### Miro
-Miro was used for **visualizing our ideas and brainstorming**.
-
-#### WhatsApp/Zoom
+#### Zoom
 **Zoom** held the team's **pair/mob programming sessions** as well as **meetings** with the **project supervisor**. For shorter messages and quick discussions, **WhatsApp** became the main communication tool.
-
-#### Other?
 {{</section>}}

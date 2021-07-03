@@ -3,7 +3,7 @@ title = "GeZuMi"
 project_id = "M1"
 
 # Properties for displaying the project in the project list
-card_image = "logo.jpeg"
+card_image = "logo.svg"
 card_description = "GeZuMi is an Android App reminiscent of team building exercises. Ideally played outside, the players' goal is to quickly reproduce a geometric shape (e.g. a Triangle) dictated by the app. This is done through a BLE connection, a lot of of communication and a good amount of Math."
 
 
@@ -17,7 +17,7 @@ supervisor = "Prof. Dr. Tobias Lenz"
 **Ge**ometrie**Zu**m**Mi**tnehmen (GeZuMi) was created with the objective of testing the **boundaries and possibilites of Bluetooth** technologies in mind. The ideal outcome of the project was to be a fully functional application that would allow an **unspecified number of players (n)** to play a game that would display a **geometric shape with n sides and corners** that the users would then **reproduce in real life**. Everyone involved in the project was aware from the beginning that the objective might not be obtainable due to technical constraints.
 {{</section >}}
 
-{{<image src="design.svg" alt="Design Dark" >}}
+<!-- {{<image src="whole-user-flow.gif" alt="Design Dark" >}} -->
 {{<section title="Our Goals">}}
 To achieve the overall objective, the following basic milestones and goals that were to be completed within the timeframe of project were defined.
 - **Bluetooth standard** decision: 'classic' Bluetooth vs BLE
@@ -34,7 +34,7 @@ The team was made up of five people with diverse development backgrounds. Before
 
 {{<gallery>}}
 {{<team-member image="alain.png" name="Alain">}}
-{{<team-member image="lena.png" name="David">}}
+{{<team-member image="david.jpg" name="David">}}
 {{<team-member image="flo.jpg" name="Florian">}}
 {{<team-member image="lena.png" name="Lena">}}
 {{<team-member image="samuel.png" name="Samuel">}}

@@ -3,7 +3,7 @@ title = "Features"
 weight = 1
 +++
 
-{{<image src="features.svg" alt="Design Light" caption="GeZuMi Game Screens" >}}
+{{<image src="design.svg" alt="Design Dark" caption="GeZuMi Game Screens" >}}
 {{<section title="Feature set" >}}
 
 #### Player Profile
