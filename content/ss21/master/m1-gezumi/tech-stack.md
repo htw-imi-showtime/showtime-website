@@ -15,24 +15,27 @@ As all team members were eager to expand their skill-set with a new programming 
 
 #### Bluetooth Low Energy
 
-As Bluetooth Low Energy allowed for both a broadcasting approach and client-server-communication, the decision to use BLE instead of the ‘classic’ Bluetooth standard was quickly made.
+As Bluetooth Low Energy (BLE) allowed for both a broadcasting approach and client-server-communication, the decision to use BLE instead of the ‘classic’ Bluetooth standard was quickly made.
 
 Common with all modern technologies and tech stacks, using a newer approach inherently comes with a smaller knowledge base, due to the limited amount of ‘users’. This frequently lead to issues, as exemplary code was difficult to find, even though the basic Google documentation was quite extensive.
 
 {{</section>}}
 
+<!-- TODO android groß -->
 {{<image src="other-tech.svg" alt="Other Tools">}}
 
 {{<section title="Other Tools">}}
 #### GitHub
 GitHub was used to host the code as well as for the project management, which lead to a **highly efficient, collaborative workflow**.
 
-Using Github Actions a **CI/CD pipeline** has been implemented which ensures a high code quality and builds an apk which is then released on Github.
+Using Github Actions a **CI/CD pipeline** was implemented.
+ It ensures a high code quality and builds an apk which is then released on Github.
 
 {{<image src="pipeline.svg" alt="CI Pipeline">}}
 
 #### Miro & Figma
-Miro was used for **visualizing our ideas and brainstorming**. Using figma we designed individual screens as they should look in the app. 
+Miro was used for **visualizing our ideas and brainstorming**.
+The final designs were created using Figma. 
 
 #### Zoom
 **Zoom** held the team's **pair/mob programming sessions** as well as **meetings** with the **project supervisor**. For shorter messages and quick discussions, **WhatsApp** became the main communication tool.
