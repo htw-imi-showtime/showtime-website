@@ -43,7 +43,6 @@ cd showtime-website
    ```
    git submodule update --init --recursive
    ```
-
    * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
 
 
