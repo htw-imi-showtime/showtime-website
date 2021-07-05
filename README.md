@@ -1,11 +1,13 @@
 # IMI Showtime Website
 The official IMI showtime website
 
-![deploy staging](https://github.com/htw-imi-showtime/showtime-website/workflows/deploy%20staging/badge.svg)
+[![deploy staging (htw-imi-showtime.github.io)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml)
+[![deploy production (https://showtime.f4.htw-berlin.de/)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-production.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-production.yml)
+
+
+[Staging: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
 
 [Website: https://showtime.f4.htw-berlin.de/](https://showtime.f4.htw-berlin.de/)
-
-[Preview: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
 
 - [Adding a new project](#adding-a-new-project)
 - [Updating your Fork](#updating-your-fork)
@@ -41,7 +43,6 @@ cd showtime-website
    ```
    git submodule update --init --recursive
    ```
-   
    * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
 
 
@@ -170,6 +171,8 @@ Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb
 {{<gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd">}}
 ```
 
+# Site Administration
+
 ## Adding a new semester
 This repository contains a utility script to transition the website to a new semester.
 It changes the semester set in the config file (`current_semester` in `config/_default/config.toml`) and
@@ -177,7 +180,41 @@ scaffolds the folder structure for the projects of the new semester.
 ```shell
 ./new_semester.sh <semester>
 ```
-Example: Transitioning to winter semester 2021/22
+Example: Transitioning to summer semester 2021/22
 ```shell
 ./new_semester.sh ss21
 ```
+
+## Deployment Setup
+
+### Staging
+
+Every push on main is deployed to the Github Page in the repo
+https://github.com/htw-imi-showtime/htw-imi-showtime.github.io
+
+see the workflow definition in [.github/workflows/deploy-staging.yml](.github/workflows/deploy-staging.yml)
+
+the secret ACTIONS_DEPLOY_KEY in
+https://github.com/htw-imi-showtime/showtime-website/settings/secrets/actions
+
+is defined in
+https://github.com/htw-imi-showtime/htw-imi-showtime.github.io/settings/keys
+
+### Production
+
+For production, each github release is build and scp'ed to showtime.f4.htw-berlin.de
+
+see the workflow definition in [.github/workflows/deploy-production.yml](.github/workflows/deploy-production.yml)
+
+for the scp, the rsa key credentials must be set correctly in the [Repo's Secrets](https://github.com/htw-imi-showtime/showtime-website/settings/secrets/actions) - generate new ones with root access on the server if lost.
+
+### Create a new Release:
+
+- Tag the according commit and push the tag:
+    git tag 2021.1.2
+    git push <tag>
+
+with 2021.1 for the first semester in 2021 (summer) and .2 for the second version.
+
+
+- [Create a new release on github](https://github.com/htw-imi-showtime/showtime-website/releases)

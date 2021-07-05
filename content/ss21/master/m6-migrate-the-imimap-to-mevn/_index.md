@@ -57,7 +57,7 @@ Including all these points of views, perspectives and bits of knowledge was a ch
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="placeholder_square.png" name="Jakob Panten">}}
+{{<team-member image="jakob.jpg" name="Jakob Panten">}}
 {{<team-member image="linda.jpg" name="Linda Fernsel">}}
 {{<team-member image="lotte.jpg" name="Lotte Unckell">}}
 {{<team-member image="luis.jpg" name="Luis Hankel">}}

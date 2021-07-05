@@ -13,5 +13,7 @@ fi
 
 # Update the semester set in the config file
 sed -e "s/ws[0-9]\{2\}/$1/;s/ss[0-9]\{2\}/$1/" -i "" config/_default/config.toml
+# emtpy the schedule
+printf "[[slot]]\\ntitle = \"The schedule will be published soon.\"" > data/schedule.toml
 # Create a new project folder for this semester
 hugo new --kind semester $1
