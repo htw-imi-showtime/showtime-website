@@ -10,9 +10,9 @@ weight = 3
 {{<team-member image="logo_vue.png" name="Vue.js">}}
 {{<team-member image="logo_node.png" name="Node.js">}}
 {{<team-member image="logo_github.png" name="GitHub">}}
+{{<team-member image="logo_miro.png" name="Miro">}}
 {{<team-member image="logo_discord.png" name="Discord">}}
 {{<team-member image="logo_telegram.png" name="Telegram">}}
-{{<team-member image="logo_miro.png" name="Miro">}}
 {{</gallery>}}
 
 
