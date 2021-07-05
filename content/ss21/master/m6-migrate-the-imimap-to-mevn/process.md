@@ -25,7 +25,7 @@ We ended up keeping all of the main features of the old IMI-Map. Amongst other t
 {{<section title="What to add?">}}
 Now we needed to decide if we wanted to add anything. Talking to the internship officer and the student assistants gave us a lot of ideas what could be improved. We landed on:
 * Implementing the handling of all the required PDFs using the IMI-Map to make the internship administration process more seamless.
-* Using [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) to be able to keep an administration history of internships and also to de-clutter the internship model a lot because it didn't have to save the states of each of its components. The [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) would take care of that.
+* Using [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) to be able to keep an administration history of internships and also to de-clutter the internship model a lot because it didn't have to save the states of each of its components. Event Sourcing would take care of that.
 * Designing a new admin interface including quick actions and more to make the internship administration process faster and less tedious.
 * Redesigning the models that had grown and developed over the years to be huge.
 {{</section>}}

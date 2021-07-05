@@ -4,7 +4,7 @@ weight = 4
 +++
 
 {{<section title="What's next?">}}
-With this version of the IMI-Map we have achieved a significant improvement over the previous version. We sincerely hope the long tradition of student projects and thesis will continue and further generations of IMIs will continue maintaining and improving the IMI-Map.
+With this version of the IMI-Map we have achieved a significant improvement over the previous version. We sincerely hope the long tradition of student projects and theses will continue and further generations of IMIs will continue maintaining and improving the IMI-Map.
 
 And we already have a few ideas:
 
@@ -20,8 +20,8 @@ Students could be asked to review their internships according to certain criteri
 **PDF Parsing**
 
 Because the IMI-Map can now handle all the required PDF-documents, these documents could be parsed for information. For example:
-* Once the contract is uploaded it could be parsed for information, so the student does not have to enter place of work, working hours and salary themselves.
-* Once the student uploaded the grade transcript there could be an automatic check to see whether the student has completed all the required courses or not. That way the internship officer does not have to check this manually.
+* Once the contract is uploaded it could be parsed for information, so the students do not have to enter place of work, working hours and salary themselves.
+* Once the student uploaded the grade transcript there could be an automatic check to see whether they have completed all the required courses or not. That way the internship officer does not have to check this manually.
 
 **LSF Connection**
 
