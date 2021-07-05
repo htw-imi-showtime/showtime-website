@@ -43,16 +43,15 @@ Three steps are implemented to display the positions of the players and the targ
 The first step is the **distance calculation** between the different players. This is done by using the **bluetooth signal strength (RSSI)**. The stronger the signal, the closer the devices are to each other. A well-known use-case of this solution is the Corona Warn App, for example. Each device has a different transmission power that can be determined experimentally. If the transmission power is known, the distance can be calculated as follows: 
 {{</section>}}
 
-<!-- TODO das mit dem iphone raus und logs -->
 <script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=DistanceCalculation.kt"></script>
 
 {{<section title="2. Position Estimation">}}
 Another essential technical feature is the **determination and calculation of the players' positions**. 
-<!-- The following code snippet contains the main steps of that calculation. -->
-<!-- TODO hier vllt auch so ein bild wie das zum shape positioning -->
+The following code snippet contains the main steps of that calculation.
+<!-- TODO hier vllt auch so ein bild wie das zum shape positioning und code wieder raus -->
 {{</section>}}
 
-<!-- <script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=PositionCalculation.kt"></script> -->
+<script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=PositionCalculation.kt"></script>
 
 
 {{<section title="3. Shape Alignment">}}
@@ -69,9 +68,6 @@ In Step 2 the player shape is rotated so that the corresponding sides of the tar
 Finally, both shapes are centered independently on the game screen.  
 {{</section>}}
 
-<!-- <script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=ShapeAlignment.kt"></script> -->
-
-<!-- TODO alternativer title: Networking -->
 {{<section title="Bluetooth Connection & Sending of Data">}}
 **Bluetooth Low Energy (BLE)** is the foundation of GeZuMi. Throughout the app, the connection relies on a **broadcasting approach** that avoids having to pair all devices with each other, which would make the connection unstable, and a **client-server-communication** between clients and the host of the game.
 
@@ -79,5 +75,3 @@ After joining a game, each player starts broadcasting **Bluetooth packages** tha
 
 <!-- TODO hier noch irgendein Diagramm, vllt ein Sequenz diagramm, da hatten wir doch mal eins -->
 {{</section>}}
-
-<!-- {{<gist "lenavollmer" "8021bb0bc10247d222fce63e3c8f61ef">}} -->

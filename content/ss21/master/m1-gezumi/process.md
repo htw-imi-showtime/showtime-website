@@ -20,8 +20,17 @@ As the development progressed and more features were starting to get implemented
 An example of the final, implemented user interface can be seen below.
 
 <!-- TODO das Foto finde ich nicht besonders schön, hier vllt so ein schickes template aus dem Internet mit unserer app drin -->
-<!-- {{<image src="landingstepdark.png" alt="Design Implementation" caption="Implementation of the final Design">}} -->
+{{<image src="landingstepdark.png" alt="Design Implementation" caption="Implementation of the final Design">}}
 
+{{</section>}}
+
+
+{{<section title="Workflow">}}
+The development process was split into one-week sprints, with a self-contained feature release and briefing with the project supervisor every other week. In weekly sprint meetings headed all team members were brought up to date and new goals were set for the upcoming sprint.
+
+For pair programming, brainstorming or researching the team met in smaller sub-groups based on who was working on the respective task. To improve collaboration as a team and reflect on conflicts and impediments, a retrospective was organized whenever the need arose.
+
+Due to the social distancing regulations, the process was fully organized through digital meetings. Toward the end of the project's time-frame, in-person meetings became possible again and were used to focus on specific challenges and to prepare the show-time.
 {{</section>}}
 
 # Obstacles
@@ -37,7 +46,6 @@ Various filter types and configurations, such as the Kalman filter and the runni
 <!-- TODO vllt noch ein chart mit kalman -->
 <iframe title="Measured Distance Based on Signal Strength" aria-label="Interactive line chart" id="datawrapper-chart-EUDNg" src="https://datawrapper.dwcdn.net/EUDNg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="472"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
-
 <br>
 
 Another problem was that devices have **different transmission powers**. Depending on the calculation model, this can result in measurement errors of more than one meter. The developers of the **Google API for Exposure Notifications** encountered the same problem and therefore collected a list with data on the transmission power of around 12,000 devices. With some adjustments, this list was useable for the GeZuMi App to normalize the measured signal strengths. The chart below shows how this data was used to measure the distance for different devices.
@@ -70,10 +78,3 @@ Another difficulty was how to gracefully handle the **Android lifecycle** in our
 
 {{</section>}}
 
-{{<section title="Workflow">}}
-The development process was split into one-week sprints, with a self-contained feature release and briefing with the project supervisor every other week. In weekly sprint meetings headed all team members were brought up to date and new goals were set for the upcoming sprint.
-
-For pair programming, brainstorming or researching the team met in smaller sub-groups based on who was working on the respective task. To improve collaboration as a team and reflect on conflicts and impediments, a retrospective was organized whenever the need arose.
-
-Due to the social distancing regulations, the process was fully organized through digital meetings. Toward the end of the project's time-frame, in-person meetings became possible again and were used to focus on specific challenges and to prepare the show-time.
-{{</section>}}
