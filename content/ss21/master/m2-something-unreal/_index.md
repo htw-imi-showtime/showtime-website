@@ -4,7 +4,7 @@ project_id = "M2"
 
 # Properties for displaying the project in the project list
 card_image = "project_image.png"
-card_description = "Something Unreal is a breathtaking and audiovisual VR experience in which the player finds himself in a bloodstream. In addition to red and white blood cells, there are also coronaviruses in the blood that need to be smashed with both hands. The coronaviruses appear from the background at different speeds to the beat of the music. But watch out! The player should be aware of the mean fatty tissue, which tries to influence the player's vision."
+card_description = "Something Unreal is a breathtaking audiovisual VR experience in which the player finds himself in a bloodstream. In addition to red and white blood cells, there are also coronaviruses in the blood that need to be smashed with both hands. The coronaviruses appear from the background at different speeds to the beat of the music. But watch out! The player should be aware of the mean fatty tissue, which tries to influence the player's vision."
 
 # These properties may be removed if you don't need them
 demo_link = "lorem ipsum"
