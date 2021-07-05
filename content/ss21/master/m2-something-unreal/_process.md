@@ -22,17 +22,23 @@ Our focus was to create the various assets ourselves - at least for the most par
 This asset here is the player's biggest enemy and target - the coronavirus. There are many of them and the goal is to smash this virus! If the coronavirus is in close proximity, it changes it's color and turns green.
 {{<image src="blood_cell.jpg" caption="Red Blood Cell">}}
 The red blood cell asset offers no interactions and is used for pure realism. Thousands of them floating in our artery.
-{{<image src="white_cell.jpg" caption="White Blood Cell">}}
-What goes for red blood cells, goes for white blood cells also.
 {{<image src="fatty_tissue.jpg" caption="Fatty Tissue">}}
 The fatty tissue is mean and is a great danger to the player in the bloodstream.  it is necessary to avoid the tissues! Otherwise it effects the player's vision when hit. The fatty tissue is almost transparent, shimmers and wobbles.
-{{<image src="pill.jpg" caption="LSD Pill">}}
-There are different colored LSD pills that are in the bloodstream. Takes the player the pills, it will provide different effects in the game.
 {{<image src="artery_whole.jpg" caption="Blood Artery with Branches">}}
 The player fnds himself within an artery. The artery contains branches into which the player cannot move. Nevertheless, it is possible to look into these branches. This makes it look more realistic and to provide even more realism, the mesh of the artery contracts as soon as the heart pumps. Once the player has reached the end of the artery, the asset repeats.
 {{</section>}}
 
 {{<section title="Particles creation (a selection)">}}
+{{<image src="particleDissolver.png" caption="Dissolver Effect">}}
+We incorporated numerous particle effects into our game, some more noticeable than others, but all contributing to the atmosphere we wanted to achieve.
+
+We worked with different styles: we kept the particle systems inside the artery very realistic, while we chose a more abstract style for the UI and dissolver effects.
+
+{{<image src="particleBloodCells.png" caption="Thousands of Blood Cells">}}
+
+The huge blood cell particle system was a particular challenge. This system was one of the most important to fill our artery with life. However, due to the enormous size, we also had performance issues again and again. By simplifying the model meshes we were able to get these under control.
+
+For the creation of the particle systems, we used the Niagara Visual Effects from <strong>Unreal Engine 4</strong>.
 {{</section>}}
 
 {{<section title="Textures creation (a selection)">}}
