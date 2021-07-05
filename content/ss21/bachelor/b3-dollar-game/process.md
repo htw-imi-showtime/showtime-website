@@ -12,7 +12,7 @@ In cooperation with our supervisors, we were able to integrate SCRUM into our wo
 {{</section>}}
 {{<section title="Prototyping">}}
 In our first sprints, we created a first prototype. A main menu, level menu and first level was made. It was a basis for our continued sprints and work, to add further features, improve existing necessities and pep up the assets and design.
-{{<image src="protolevels.png" alt="Prototypes of game levels" caption="First game levels on paper">}}
+{{<image src="protolevels.jpg" alt="Prototypes of game levels" caption="First game levels on paper">}}
 {{</section>}}
 {{<section title="Developement">}}
 The continuing weeks we concentrated on many topics, from design to programming to idea collections for future features.
@@ -21,9 +21,9 @@ Remarkable are the music features, improved game mechanics and many added functi
 {{<section title="Designing">}}
 For the design process, we needed to decide what type of assets and style we wanted to use. We searched for inspiration and quickly created multiple sketches of first ideas. After those initial steps, we decided on the pixel art style, since it's a common indie game aesthetic that we as gamers appreciate. With that it went onto the actual drawing process, where many of us learned new skills.
 The logo was the last to be made, since we wanted a clear idea of our game, before creating such an important branding. Out of 16 options, we chose the simple text on islands, since it emphasises the general theme of our game.
-{{<image src="prototypes.png" alt="Prototypes of game assets" caption="Scetches of islands and connections between them">}}
-{{<image src="assetsproto.png" alt="Prototypes of digital game assets levels" caption="Prototypes of islands in different styles">}}
-{{<image src="assetsproto2.png" alt="Prototypes of digital game assets levels 2" caption="Final version of islands">}}
+{{<image src="prototypes.jpg" alt="Prototypes of game assets" caption="Scetches of islands and connections between them">}}
+{{<image src="assetsproto.jpg" alt="Prototypes of digital game assets levels" caption="Prototypes of islands in different styles">}}
+{{<image src="assetsproto2.jpg" alt="Prototypes of digital game assets levels 2" caption="Final version of islands">}}
 {{</section>}}
 {{<section title="Final Touches">}}
 The last weeks were filled with bug fixing, level designing and implementation of design elements and animations. The finishing touches were added, while some members of the group started working on the video and website that you are visiting right now.

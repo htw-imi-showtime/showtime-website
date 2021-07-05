@@ -3,7 +3,7 @@ title = "Graphlands"
 project_id = "B3"
 
 # Properties for displaying the project in the project list
-card_image = "card.png"
+card_image = "card.jpg"
 card_description = "Graph theory is hard to grasp in its concept, especially for young people. Math combined with IT is a mixture of disaster for an untrained pupil. Yet we took the challenge to simplify the complicated theory and give it more accessibility. "
 
 
@@ -26,7 +26,7 @@ Since distance learning became part of our everyday life, we understood how impo
 Most people had preferred areas of work and experience, yet we learned from each other and tested our limits. With our different backgrounds, we contributed our best into this project and created an immersing experience together.
 {{</section >}}
 ***
-{{<image src="team.png" alt="team" >}}
+{{<image src="team.jpg" alt="team" >}}
 
 
 
