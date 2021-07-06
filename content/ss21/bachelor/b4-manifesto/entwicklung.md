@@ -33,7 +33,7 @@ Dies ist der Server unserer Manifesto-App. Wir haben Node.js in Verbindung mit d
 - Die Kafka-Instanz erhält die Daten von zwei Raspberry Pis.
 - Die Daten werden an den Server weitergeleitet.
 - Der Server erhält vom Frontend einen **Point Area-of-interest** und gleicht diese Daten gegenseitig ab.
-- Nach der Auswertung ein Signal an Ableton Live senden.
+- Nach der Auswertung wird ein Signal an Ableton Live gesendet.
 
 {{</section >}}
 
