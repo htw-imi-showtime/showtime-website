@@ -11,14 +11,19 @@ While we have managed to **implement our MVP model for the Community Finder Webs
 {{<section title="Next steps for Community Finder">}}
 #### Comments Section
 to give the users an option of contacting any community via the app
-
-#### Connecting to other social media
-
 #### Categories for communities
 to provide an easier way of finding desired content
-
 #### Map with events
 to see events "close to me"
+#### Later access
+saving relevant events or communities to access them later
+#### Participate
+every user can mark that they are participaing, which would be represented directly in the participants number shown for the event
+#### Personalisation
+newsfeed of communities dependent on all saved communities; newsfeed of events dependent on all saved events
+#### Terms of Use
+to define what is allowed on the platform and what isn’t
+
 {{</section>}}
 
 {{<section title="Next steps for Quiz">}}
@@ -26,11 +31,11 @@ to see events "close to me"
 to be able to play against friends or just competitive strangers on the internet
 
 #### Content from the users
-to fill the app with more content, giving the users a possibility to create their own quizes
+to fill the app with more content, giving the users a possibility to create their own quizzes
 
 #### Rewards
 to reward the users for high climate knowledge ;)
 
-#### Custom Quizes
+#### Custom Quizzes
 to personalize the content to the user's interests
 {{</section>}}
