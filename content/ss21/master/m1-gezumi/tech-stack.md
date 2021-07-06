@@ -21,7 +21,6 @@ Common with all modern technologies and tech stacks, using a newer approach inhe
 
 {{</section>}}
 
-<!-- TODO android groß -->
 {{<image src="other-tech.svg" alt="Other Tools">}}
 
 {{<section title="Other Tools">}}

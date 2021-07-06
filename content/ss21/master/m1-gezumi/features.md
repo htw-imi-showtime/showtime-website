@@ -46,12 +46,25 @@ The first step is the **distance calculation** between the different players. Th
 <script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=DistanceCalculation.kt"></script>
 
 {{<section title="2. Position Estimation">}}
-Another essential technical feature is the **determination and calculation of the players' positions**. 
-The following code snippet contains the main steps of that calculation.
-<!-- TODO hier vllt auch so ein bild wie das zum shape positioning und code wieder raus -->
-{{</section>}}
 
-<script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=PositionCalculation.kt"></script>
+After the distances between all players are known, the player positions can be calculated. We can only calculate relative positions from the distances. This means that the resulting triangle can be transformed by translation, rotation or reflection and would still match all the distances (congruence). 
+
+{{<image src="distance-to-position-1.svg" alt="Step 1 distances to positions" >}}
+
+The input is a distance matrix that describes the lengths of the sides of the triangle on the right. 
+
+{{<image src="distance-to-position-2.svg" alt="Step 2 distances to positions" >}}
+
+Player A is positioned at the origin of the coordinate system. Player B is positioned with the following assumptions:
+- B shares the same y coordinate as A
+- B is to the right of A 
+
+
+{{<image src="distance-to-position-3.svg" alt="Step 3 distances to positions" >}}
+
+Finally, the angle alpha can be calculated using the law of cosines. This in turn can be used to determine the x and y position of player C. 
+
+{{</section>}}
 
 
 {{<section title="3. Shape Alignment">}}
@@ -61,7 +74,7 @@ As the calculated player positions are relative, they need to be aligned to the 
 {{<image src="step-1.svg" alt="Step 1 Shape Alignment" >}}
 At first the position of player A is always assigned to the 'first' point of the target shape (Step 1). 
 
-{{<image src="step-2-3.svg" alt="Step 1 Shape Alignment" >}}
+{{<image src="step-2-3.svg" alt="Step 2 and 3 Shape Alignment" >}}
 
 In Step 2 the player shape is rotated so that the corresponding sides of the target and the player shape are parallel. 
 
@@ -73,5 +86,7 @@ Finally, both shapes are centered independently on the game screen.
 
 After joining a game, each player starts broadcasting **Bluetooth packages** that contain a **game-specific identifier** and some **game data** (rssi values, distances) to be processed by all other players. This enables each device to measure and calculate its distance to other players. It then sends a data package to the **host device** which **collects, joins and corrects all the data**. The host is responsible for **computing a valid game state** (i.e. the positions of all players) and providing consistent game data to the clients.
 
-<!-- TODO hier noch irgendein Diagramm, vllt ein Sequenz diagramm, da hatten wir doch mal eins -->
+
+{{<image src="bluetooth.gif" alt="bluetooth network animation" >}}
+
 {{</section>}}

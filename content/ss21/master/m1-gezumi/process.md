@@ -43,7 +43,6 @@ Various filter types and configurations, such as the Kalman filter and the runni
 
 <br>
 
-<!-- TODO vllt noch ein chart mit kalman -->
 <iframe title="Measured Distance Based on Signal Strength" aria-label="Interactive line chart" id="datawrapper-chart-EUDNg" src="https://datawrapper.dwcdn.net/EUDNg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="472"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
 <br>
@@ -72,7 +71,7 @@ Another challenge was the **small community of BLE developers** as it made findi
 
 Another difficulty was how to gracefully handle the **Android lifecycle** in our App. A lot happens behind the scenes when one opens, pauses or stops an app and as the goal was to build a **consistent application** a solution for managing the connections was indispensable.
 
-#### Bluetooth Package Size
+<!-- #### Bluetooth Package Size -->
 
 <!-- TODO Flo / Samuel input -->
 
