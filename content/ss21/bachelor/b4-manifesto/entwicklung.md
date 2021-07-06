@@ -1,5 +1,6 @@
 +++
 title = "Entwicklung"
+weight = 2
 +++
 
 {{<section title="Entwicklung">}}
@@ -9,7 +10,7 @@ title = "Entwicklung"
 
 {{<image src="man_technik.png" alt="tech" caption="">}}
 
-Im Manifesto Node.Js Server werden die Daten über den Kafka Consumer übernommen. Im folgenden Code wird die Kreisfläche mit den entsprechenden Benutzer IDs abgeglichen und dementsprechend entschieden, welches Signal weiter an Ableton über Abeton-JS geleitet werden soll.
+Im Manifesto Node.JS Server werden die bearbeiteten Daten über den Kafka Consumer übernommen. Im folgenden Code wird die Kreisfläche mit den entsprechenden Benutzer IDs abgeglichen und entschieden, welches Signal weiter an Ableton über Abeton-JS geleitet werden soll.
 
 {{</section >}}
 
