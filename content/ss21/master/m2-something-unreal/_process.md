@@ -24,6 +24,8 @@ The red blood cell asset offers no interactions and is used for pure realism. Th
 The fatty tissue is mean and is a great danger to the player in the bloodstream.  it is necessary to avoid the tissues! Otherwise it effects the player's vision when hit. The fatty tissue is almost transparent, shimmers and wobbles.
 {{<image src="artery_whole.jpg" caption="Blood Artery with Branches">}}
 The player fnds himself within an artery. The artery contains branches into which the player cannot move. Nevertheless, it is possible to look into these branches. This makes it look more realistic and to provide even more realism, the mesh of the artery contracts as soon as the heart pumps. Once the player has reached the end of the artery, the asset repeats.
+{{<image src="platform.png" caption="Platform">}}
+Standing on this platform, the player "drives" through the artery.
 {{</section>}}
 
 {{<section title="Particles creation (a selection)">}}
