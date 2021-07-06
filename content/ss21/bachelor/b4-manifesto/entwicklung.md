@@ -45,4 +45,6 @@ Das Frontend bietet die Möglichkeit über Click & Submit einen Area-of-interest
 
 {{<image src="man_frontend.png" alt="tech" caption="">}}
 
+- Frontend User Interface
+
 {{</section >}}
