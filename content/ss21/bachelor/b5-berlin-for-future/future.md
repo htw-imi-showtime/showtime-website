@@ -23,19 +23,15 @@ every user can mark that they are participaing, which would be represented direc
 newsfeed of communities dependent on all saved communities; newsfeed of events dependent on all saved events
 #### Terms of Use
 to define what is allowed on the platform and what isn’t
-
 {{</section>}}
 
 {{<section title="Next steps for Quiz">}}
 #### vs Mode
 to be able to play against friends or just competitive strangers on the internet
-
 #### Content from the users
 to fill the app with more content, giving the users a possibility to create their own quizzes
-
 #### Rewards
 to reward the users for high climate knowledge ;)
-
-#### Custom Quizzes
+#### Custom Quizes
 to personalize the content to the user's interests
 {{</section>}}

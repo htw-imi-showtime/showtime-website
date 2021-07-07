@@ -132,7 +132,6 @@ Consequently, it would be necessary to check that new content for correctness, w
 {{<image src="quizz-features.png" alt="Quiz Overview" caption="Quiz Visualisation">}}
 
 
-
 <!--{{<section title="A Copy-pasted Feature">}}
 And, as I lie **close to the earth**, a thousand unknown plants are noticed by me: when I hear the buzz
 of the little world among the stalks, and grow familiar with the countless indescribable forms of
