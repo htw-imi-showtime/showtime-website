@@ -47,7 +47,7 @@ Even tough Ruby on Rails is a stable and still current web framework, the study 
 
 
 {{<section title="The Team">}}
-As a team of five we had a lot of differend background knowledge present in the team. Some of us have worked with the IMI-Map extensively before, others had never even seen it. Some of us had prior knowledge about the process of the IMI-Internships from varied perspectives, others had not gone through that process ever. Some of us had worked extensively with the MEVN-Stack before, others had not.
+As a team of five we had very differend background knowledge present in the team. Some of us have worked with the IMI-Map before, others had never even seen it. Some of us had prior knowledge about the process of the IMI-Internships from varied perspectives, others had not even gone through the internship process themselves. Some of us had worked with the MEVN-Stack before, others had not.
 
 Including all these points of views, perspectives and bits of knowledge was a challenge and the reason we decided not to give fixed roles to people. Over the course of time a few key areas of work developed anyway:
 * **Jakob** and **Robin** worked mainly on the frontend
