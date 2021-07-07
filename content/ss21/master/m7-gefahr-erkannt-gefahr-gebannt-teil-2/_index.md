@@ -14,8 +14,7 @@ supervisor = "Tamara Voigt, Martin Steinicke"
 +++
 
 {{<section title="Summary">}}
-How focused will you stay in a busy workshop?
-------
+
 
 How focused will you stay in a busy workshop?
 ------
