@@ -17,7 +17,7 @@ Another digital prototype had the approach of having music incorporated into the
 Our focus was to create various assets ourselves - at least for the most part. This point was very important to us, because self-created assets give the project more independence. We can say and point out that what you are seeing in the game, we created (almost) everything ourselves.  
 
 {{<image src="virus.jpg" caption="Coronavirus">}}
-The asset seen here is the player's biggest enemy and target - the corona virus. There are many and the goal is to smash all of them! If the corona virus is in close proximity, it changes it's color and turns green to indicate the right time to smash it.
+The asset seen here is the player's biggest enemy and target - the coronavirus. There are many and the goal is to smash all of them! If the coronavirus is in close proximity, it changes its color and turns green to indicate the right time to smash it.
 {{<image src="blood_cell.jpg" caption="Red Blood Cell">}}
 The red blood cell asset offers no interactions and is purely used for atmosphere. Thousands of them are floating in our artery.
 {{<image src="fatty_tissue_model.jpg" caption="Fatty Tissue">}}
@@ -42,7 +42,11 @@ For the creation of the particle systems, we used <i>Niagara Visual Effects</i> 
 {{</section>}}
 
 {{<section title="Textures creation (a selection)">}}
-Lorem Ipsum
+{{<image src="texture1.png" caption="Texture creation in Substance Painter">}}
+{{<image src="texture2.png" caption="Texture creation in Substance Designer">}}
+For the textures of our game we mainly used Substance Painter and Substance Designer. While the first is a texturing program which lets you paint the models directly in a 3D environment based on a UV map, the latter lets you generate textures entirely based on several parameters, which can be recombined in a node-based structure. 
+
+That way we created for example own PBR-materials for the platform, the player is standing on, the blood cells and the artery walls. We based the low poly models of certain objects like the blood cells on high poly versions and generated highly detailed normal maps from them.
 {{</section>}}
 
 {{<section title="Hand animations">}}
