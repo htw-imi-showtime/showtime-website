@@ -21,7 +21,7 @@ After choosing a player name and clicking 'Join Game' on the start screen, users
 After choosing their own player name and clicking 'Create Game' on the start screen, the **host** is asked to decide on a **game name**. This will help players distinguish simultaneously played games during the join-request. The host can then **approve players**' join-requests and **start the game** when the desired amount of players has been reached.
 
 #### Game Screen
-After the host clicks game start all players are shown the game screen.
+After the host clicks 'Start Game' all players are directed to the game screen.
 To increase the challenge and make the game more fun to play, a few first gamification features were implemented:
 - **Timer**: Each game is played against the clock, the objective is to achieve the target shape as fast as possible. This enables players of different games to compare their times and success later on.
 - Quick & **easy** new games: As soon as the target shape has been matched, the players can start the next round with a **new shape**
@@ -40,18 +40,20 @@ Three steps are implemented to display the positions of the players and the targ
 {{</section>}}
 
 {{<section title="1. Distance Calculation">}}
-The first step is the **distance calculation** between the different players. This is done by using the **bluetooth signal strength (RSSI)**. The stronger the signal, the closer the devices are to each other. A well-known use-case of this solution is the Corona Warn App, for example. Each device has a different transmission power that can be determined experimentally. If the transmission power is known, the distance can be calculated as follows: 
+The first step is the **distance calculation** between the different players. This is done by using the **bluetooth signal strength (RSSI)**. The stronger the signal, the closer the devices are to each other. A well-known use-case of this solution is the Corona Warn App. Each device has a different transmission power that can be determined experimentally. If the transmission power is known, the distance can be calculated as follows: 
 {{</section>}}
 
 <script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=DistanceCalculation.kt"></script>
 
 {{<section title="2. Position Estimation">}}
 
-After the distances between all players are known, the player positions can be calculated. We can only calculate relative positions from the distances. This means that the resulting triangle can be transformed by translation, rotation or reflection and would still match all the distances (congruence). 
+After the distances between all players are known, the player positions can be calculated. We can only calculate relative positions from the distances. This means that the resulting triangle can be transformed by translation, rotation or reflection and would still match all the distances (congruence).
 
 {{<image src="distance-to-position-1.svg" alt="Step 1 distances to positions" >}}
 
-The input is a distance matrix that describes the lengths of the sides of the triangle on the right. 
+The input is a distance matrix that describes the lengths of the sides of the triangle on the right.
+
+<!-- erklären warum distanzmatrix, werte gemittelt etc. wenn invalide distanzen wird es abgebrochen -->
 
 {{<image src="distance-to-position-2.svg" alt="Step 2 distances to positions" >}}
 
@@ -62,7 +64,7 @@ Player A is positioned at the origin of the coordinate system. Player B is posit
 
 {{<image src="distance-to-position-3.svg" alt="Step 3 distances to positions" >}}
 
-Finally, the angle alpha can be calculated using the law of cosines. This in turn can be used to determine the x and y position of player C. 
+Finally, the alpha angle can be calculated using the law of cosines. This in turn can be used to determine the x and y position of player C. 
 
 {{</section>}}
 

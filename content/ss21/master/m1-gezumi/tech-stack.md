@@ -17,7 +17,7 @@ As all team members were eager to expand their skill-set with a new programming 
 
 As Bluetooth Low Energy (BLE) allowed for both a broadcasting approach and client-server-communication, the decision to use BLE instead of the ‘classic’ Bluetooth standard was quickly made.
 
-Common with all modern technologies and tech stacks, using a newer approach inherently comes with a smaller knowledge base, due to the limited amount of ‘users’. This frequently lead to issues, as exemplary code was difficult to find, even though the basic Google documentation was quite extensive.
+Common with all modern technologies and tech stacks, using a newer approach inherently comes with a smaller knowledge base, due to the limited amount of ‘users’. This frequently led to issues, as exemplary code was difficult to find, even though the basic Google documentation was quite extensive.
 
 {{</section>}}
 
@@ -25,7 +25,7 @@ Common with all modern technologies and tech stacks, using a newer approach inhe
 
 {{<section title="Other Tools">}}
 #### GitHub
-GitHub was used to host the code as well as for the project management, which lead to a **highly efficient, collaborative workflow**.
+GitHub was used to host the code as well as for the project management.
 
 Using Github Actions a **CI/CD pipeline** was implemented.
  It ensures a high code quality and builds an apk which is then released on Github.

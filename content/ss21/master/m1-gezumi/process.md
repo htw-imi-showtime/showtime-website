@@ -12,26 +12,32 @@ Not shown in the image are the potential features that were discussed in the beg
 After the initial mockups, some very basic designs were created which would be **available in both dark and light mode**. These designs depended heavily on the mockups and were used to help the developers implement the actual interface.
 
 <!-- TODO platz wird hier nicht gut genutzt -->
+
 {{<image src="design1.png" alt="First App Design">}}
 
 As the development progressed and more features were starting to get implemented, the final designs were created. These include the **join and game-creation process** and were based on an **improved color scheme** as well as calmer, more **modern UI-components**. As can be seen in below, the first, **manual approach to setting up games** was implemented. This was due to technical restrictions and to improve the ease of use.
 {{<image src="finalDesign.png" alt="Final App Design">}}
 
-An example of the final, implemented user interface can be seen below.
+The final implemented design can be seen below.
 
-<!-- TODO das Foto finde ich nicht besonders schön, hier vllt so ein schickes template aus dem Internet mit unserer app drin -->
-{{<image src="landingstepdark.png" alt="Design Implementation" caption="Implementation of the final Design">}}
+<figure>
+    <img src="/ss21/master/m1-gezumi/whole-user-flow.gif" alt="User flow gif" style="max-height: 50vh">
+</figure>
+
 
 {{</section>}}
 
-
 {{<section title="Workflow">}}
-The development process was split into one-week sprints, with a self-contained feature release and briefing with the project supervisor every other week. In weekly sprint meetings headed all team members were brought up to date and new goals were set for the upcoming sprint.
+The development process was split into one-week sprints, with a self-contained feature release and briefing with the project supervisor every other week. In weekly sprint meetings all team members were brought up to date and new goals were set for the upcoming sprint.
 
 For pair programming, brainstorming or researching the team met in smaller sub-groups based on who was working on the respective task. To improve collaboration as a team and reflect on conflicts and impediments, a retrospective was organized whenever the need arose.
 
 Due to the social distancing regulations, the process was fully organized through digital meetings. Toward the end of the project's time-frame, in-person meetings became possible again and were used to focus on specific challenges and to prepare the show-time.
+
+With Github Project each sprint iteration was organized (see image below).
 {{</section>}}
+
+{{<image src="board1.png" alt="Github Projects board" >}}
 
 # Obstacles
 
@@ -40,6 +46,8 @@ Due to the social distancing regulations, the process was fully organized throug
 One of the biggest challenges during the project was obtaining accurate positions. With Bluetooth, the **signal strength fluctuates** very strongly. This was solved by filtering the measured signal values. The graph below shows how noisy the measured signal is (blue dotted line).
 
 Various filter types and configurations, such as the Kalman filter and the running median filter, were implemented and tested. Overall, the running median filter proved to be the most accurate (blue line).
+
+<!-- TODO grafik mit raw rssi values -->
 
 <br>
 
@@ -54,7 +62,7 @@ Another problem was that devices have **different transmission powers**. Dependi
 </script>
 <br>
 
-Position updates often come suddenly and not at regular intervals. That makes the game seem random and unpredictable at times. To prevent this we interpolate the position change and animate it over two seconds. 
+Position updates often come suddenly and not at regular intervals. That makes the game seem random and unpredictable at times. To prevent this we interpolate the position change and animate it over two seconds.
 
 If a new position arrives in the meantime, the current animation is interrupted and the next position change is animated. Below you can see the position changes before and after filtering and interpolation.
 
@@ -67,7 +75,7 @@ If a new position arrives in the meantime, the current animation is interrupted 
 
 {{<section title="BLE and Android Life Cycle">}}
 
-Another challenge was the **small community of BLE developers** as it made finding support quite difficult. Google provides good documentation, however the tutorial was not very thorough and the search for material took a significant amount of time.
+One challenge was the **small community of BLE developers** as it made finding support quite difficult. Google provides good documentation, however the tutorial was not very thorough and the search for material took a significant amount of time.
 
 Another difficulty was how to gracefully handle the **Android lifecycle** in our App. A lot happens behind the scenes when one opens, pauses or stops an app and as the goal was to build a **consistent application** a solution for managing the connections was indispensable.
 
@@ -76,4 +84,3 @@ Another difficulty was how to gracefully handle the **Android lifecycle** in our
 <!-- TODO Flo / Samuel input -->
 
 {{</section>}}
-
