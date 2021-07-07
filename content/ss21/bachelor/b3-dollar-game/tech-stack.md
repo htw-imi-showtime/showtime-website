@@ -43,5 +43,5 @@ For further organisation in our SCRUM workflow, **Jira** was a welcome software.
 
 - **Discord/Zoom**
 
-Since meetups in person were still out of question due to Covid-19, we were in need of communication platforms. **Zoom** was already prepared by our supervisor and was used for meetings with Professor Dr. Jung as well as our project management supervisor, Mrs. Metzner. For our personal group meetings as well as all other communications, we preferred **Discord** as a familiar platform and main communication device between most students of the HTW. Multiple voice and text channels gave opportunity to organise topics and save important decisions.
+Since meetups in person were still out of question due to Covid-19, we were in need of communication platforms. **Zoom** was already prepared by our supervisor and was used for meetings with Professor Dr. Jung as well as our project management supervisor, Mrs. Metzner. For our personal group meetings as well as all other communications, we preferred **Discord** as a familiar platform and main communication device between most students of the HTW. Multiple voice and text channels gave us the opportunity to organise topics and save important decisions.
 {{</section>}}
