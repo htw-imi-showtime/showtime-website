@@ -5,7 +5,7 @@ weight = 1
 
 {{<section title="Main Menu">}}
 {{<image src="main_menu.jpg" caption="Main Menu">}}
-We have built a simple main menu into our game. Here, the player has an overview of the controls and existing levels. The player can start the game via the main menu. It offers a good expansion possibility to add more levels later.
+We have built a simple main menu into our game. Here, the player has an overview of the controls and can start the game. The main menu offers good expansion possibility to add more levels later on.
 {{<image src="objectives.jpg" caption="Objectives">}}
 The objectives of the game can also be seen in the main menu.
 {{</section>}}
@@ -22,33 +22,32 @@ Since we decided to develop a stationary VR game, the player in our level is on 
 
 {{<section title="High score">}}
 {{<image src="high_score2.jpg" caption="High-Score">}}
-Every good game needs a high score. So we have also decided to give the player points for each virus hit. The better the player plays, the more points he or she receives for each virus hit.
+Every good game needs a high score. The player gets points for each virus hit. The more viruses the player hits in succession without making a mistake, the more points they receive for each virus hit.
 Play with friends and find out who is the best!
 {{</section>}}
 
 {{<section title="Contributing to the music">}}
-In <strong>Something Unreal</strong>, the player is able to significantly determine the music by smashing each individual coronavirus. If the player misses a virus, for example, this is also clearly audible in the music. 
+In <strong>Something Unreal</strong>, the gameplay is strongly tied to the music. With every hit of a virus you also play a note. If you miss a virus or hit it with an open hand instead of a fist you get an error sound. So the better you play, the better the music sounds.
 
 As a small additional highlight, we have included a spectogram in our level, which makes the soundtrack visually experienceable for the player.
 
-We have created our own soundtrack for <strong>Something Unreal</strong>. It is designed to build up and becomes more and more complex as the level progresses, which also has an effect on the gameplay.
+We have created our own original soundtrack for <strong>Something Unreal</strong>. It is designed to build up over the course of the level and becomes more complex as the level becomes more challenging.
 {{</section>}}
 
 {{<section title="Smashing virus">}}
-{{<image src="smashing_virus.jpg" caption="Smashing coronavirus">}}
-The player is able to form different gestures with their virtual hands. For example, the player has to make a fist to hit the coronaviruses. Other items must be caught with open hand. If the player chooses an incorrect hand gesture, this has negative effects.
+{{<image src="smashing_virus.jpg" caption="Smashing corona virus">}}
+The player is able to form different gestures with their virtual hands. For example, the player has to make a fist to hit the corona viruses. Other items must be caught with an open hand. If the player chooses an incorrect hand gesture, this has negative effects.
 {{</section>}}
 
 {{<section title="Evading fatty tissues">}}
 {{<image src="fatty_tissue.jpg" caption="Fatty Tissue">}}
-To increase the difficulty of our game even more, the player must concentrate not only on smashing the coronaviruses but also on avoiding the fatty tissue coming towards. 
+To increase the difficulty of our game even more, the player must concentrate not only on smashing the viruses but also on avoiding the fatty tissue coming towards them.
 {{<image src="fatty_tissue2.jpg" caption="hit by Fatty Tissue effects player's vision">}}
-If the player does not succeed in avoiding, their vision will be very limited for a short time.
+If the player gets hit by the fatty tissue, their vision will be blurred for a short time.
 {{</section>}}
 
 {{<section title="Taking pills">}}
 {{<image src="pills.jpg" caption="taking a pill effects player's vision">}}
-In addition to the coronaviruses and the fatty tissue, the player also encounters various pills inside the artery. These are a kind of power-up and must be caught with open hand to unfold their effect.
-Different coloured pills have different effects, get high and find out!
+In addition to the corona viruses and the fatty tissue, the player also encounters various pills inside the artery. These are a kind of power-up and must be caught with an open hand for them to unfold their effects. Differently coloured pills have different effects, so grab them and find out!
 {{</section>}}
 

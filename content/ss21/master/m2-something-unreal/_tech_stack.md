@@ -23,7 +23,7 @@ The other two used the HTC Vive VR-Headset.
 
 {{<section title="Modeling">}}
 * <strong>Blender</strong><br>
-Blender is a 3D-Computer-Graphics-Software and was used to create almost all the assets for our project.
+Blender is a 3D content creation software and was used to create almost all the assets for our project.
 {{</section>}}
 
 {{<section title="Texturing">}}
@@ -44,14 +44,14 @@ We used Max to build a translation layer that would convert musical cues to usab
 
 {{<section title="Communication">}}
 * <strong>Discord</strong><br>
-Via Discord we kept very close contact as a team and exchanged information almost daily via chat.
+We kept very close contact via Discord as a team and exchanged information almost daily via chat.
 * <strong>ZOOM</strong><br>
-We used ZOOM to meeting our  supervisor Prof. Dr.-Ing. David Strippgen every two weeks. We discussed our current status and talked about how to proceed.
+ZOOM was used for meetings with our supervisor Prof. Dr.-Ing. David Strippgen every two weeks. We discussed our current progress and talked about how to proceed.
 {{</section>}}
 
 {{<section title="Version Control">}}
 * <strong>HTW GitLab</strong><br>
-We used the HTW GitLab for our version control of our software project. As well as for coordination, sharing and collaboration in our Team.
+We used the HTW GitLab as the version control system for our software project. Tasks and documentation were implemented with GitLab issues and the internal wiki respectively.
 {{</section>}}
 
 {{<section title="Other">}}
