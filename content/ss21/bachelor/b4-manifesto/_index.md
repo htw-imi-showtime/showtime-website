@@ -8,7 +8,7 @@ card_description = "Manifesto ist eine interaktive Sound und Videoinstallation i
 
 
 # These properties may be removed if you don't need them
-source_link = "https://github.com/SightlessDog"
+source_link = "https://github.com/B4-MANIFESTO"
 
 
 team = ["Elyess Eleuch", "Dennis Bröcker", "Martin Staats", "Nils Rausch", "Stepan Burlachenko"]
