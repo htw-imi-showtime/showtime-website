@@ -137,3 +137,4 @@ For more thoughts on the resultant questions and their discussion refer to the [
 {{<image src="ae_byCategory.png" alt="results avatar embodiment by category" caption="Results: Avatar Embodiment by Category">}}
 
 {{</section>}}
+

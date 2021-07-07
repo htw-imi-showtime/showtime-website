@@ -38,6 +38,10 @@ The most observable improvement is the virtual environment itself.
 Our modelling team took one extra step to provide our users with a more appealing and wider playing area. 
 The **new VR workshop** unites the goal of further increasing the player's immersion with many possibilities of later additions to the narrative framing. 
 
+The most observable improvement is the virtual environment itself. 
+Our modelling team took one extra step to provide our users with a more appealing and wider playing area. 
+The **new VR workshop** unites the goal of further increasing the player's immersion with many possibilities of later additions to the narrative framing. 
+
 {{</section>}}
 
 {{<gallery>}}
@@ -61,6 +65,8 @@ Our research gave us a number of ideas from which we chose a selection based on 
 
 - **Custom Event System**
 
+In terms of dynamically triggering distractions at runtime, we created a system that follows the Observer Design pattern. 
+From the implementation perspective, this means that we have defined certain areas in the virtual workshop in which distractions can take place, the so-called hotspots. 
 
 In terms of dynamically triggering distractions at runtime, we created a system that follows the Observer Design pattern. 
 From the implementation perspective, this means that we have defined certain areas in the virtual workshop in which distractions can take place, the so-called hotspots. 
@@ -106,6 +112,9 @@ Full-Body VR Avatar
 ------
 ---
 
+One of the biggest challenges was our full-body VR avatar. To have full control and freedom of choice, we decided to develop everything that VR avatar creation revolves around, by ourselves. 
+That included 3D modelling a male and female body, texturing and UV-mapping them in ZBrush and rigging and weight-painting them in Blender. 
+After that, the biggest challenge of implementing the avatars became mapping them to the players movements. For that, we chose a common tool in the industry, the so-called procedural animations.
 
 One of the greatest challenges was our full-body VR avatar. To have full control and freedom of choice, we decided to develop everything that VR avatar creation revolves around by ourselves. 
 That included 3D modelling a male and female body, texturing and UV-mapping them in ZBrush and rigging and weight-painting them in Blender. 
@@ -114,6 +123,7 @@ After that, the biggest challenge of implementing the avatars became mapping the
 
 - **Procedural Animations**
 
+Procedural Animations describe the mathematical computation of movement, that - through a set of rules and states - gets adapted to the specifics of different environments.
 
 _Procedural Animations describe the mathematical computation of movement, that - through a set of rules and states - gets adapted to the specifics of different environments._
 
@@ -136,6 +146,17 @@ New Challenge Mode
 ------
 ---
 
+Our challenge mode consists of a multitude of tasks, which become increasingly complex throughout the playthrough. 
+Users are given a limited amount of time (currently 10 minutes for a total of 6 tasks) to create and deliver a variety of metal pieces. 
+To extend this feature we designed and modeled a new machine, the export station. 
+It has an overview interface, in which the user sees a leaderboard of the top 3 recent users' achieved scores, their current performance in the ongoing session, and the time they have left.
+ 
+The machine provides a green outline as a template of what the to-be-delivered workpiece should look like. 
+To enable the user to accomplish their best result, helpful tools and mechanics such as a yardstick or manually marking the worksheets texture at runtime were included.
+The green template also marks the spot where the user is to lay down their submission when it is ready for evaluation. 
+When the user places their finished workpiece here, they can submit it by pressing the green button on the side of the machine.
+In the back end, the teacher or supervisor then is shown the metal piece on top of the template. 
+Aided with a ruler grid, they can then visually evaluate the piece, manually enter the points they think the work deserves, and submit these for the user to see in the simulation. 
 
 Our challenge mode consists of a multitude of tasks, which become increasingly complex throughout the playthrough. 
 Users are given a limited amount of time (currently 10 minutes for a total of 6 tasks) to create and deliver a variety of metal pieces. 

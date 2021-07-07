@@ -1,10 +1,15 @@
 +++
 title = "Konzept"
+weight = 1
 +++
 
 {{<section title="Konzept">}}
 
-Das Konzept ist die Grundlage und wurde in **Zusammenarbeit und Abstimmung mit der Marc Sinan Company** erstellt. Hier ist vorallem erst einmal die Aufteilung in Verschiedene Schritte wichtig gewesen um die verschiedenen Zustände definieren zu können. Die Definiton der Fläche ist ein Startpunkt und funktioniert darüber hinaus als Interaktionsmöglichkeit in sich mit einer weiteren Fläche als Spielort.
+Die Marc Sinan Company hat uns ihre Grundidee übermittelt, die einen Kircheninnenraum zu einem interaktiven Ort gemeinsamen Erlebens gestaltet und an die Gedenken der NSU Opfer erinnern soll.
+
+Das Konzept ist die Grundlage und wurde in **Zusammenarbeit und Abstimmung mit der Marc Sinan Company** erstellt. Hier ist vorallem erst einmal die Aufteilung in verschiedene Schritte wichtig gewesen um die verschiedenen Zustände definieren zu können. Die Definiton der Fläche ist ein Startpunkt und funktioniert darüber hinaus als Interaktionsmöglichkeit in sich mit einer weiteren Fläche als Spielort.
+
+Wir haben mehrere Konzepte entwickelt, diskutiert und verfeinert und sind zu folgender Idee gekommen:
 
 - Unterteilt wird in 4 verschiedene Grundphasen.
 - Es gibt immer **mindestens zwei Flächen**, die in die Interaktion mit einfließen.
@@ -20,5 +25,10 @@ Das Konzept ist die Grundlage und wurde in **Zusammenarbeit und Abstimmung mit d
   {{<image src="man_konzept_3.png" alt="4 Phasen" caption="" >}}
 
   {{<image src="man_konzept_2.png" alt="4 Phasen" caption="" >}}
+
+  - Das finale Konzept sind jeweils zwei Kreise auf jeder Seite, welche über das User Interface auf die Fläche "gezeichnet" werden können.
+  - Pandemiebedingt sind mehrere Kreise eine bessere Lösung.
+
+  {{<image src="man_konzept_4.png" alt="4 Phasen" caption="" >}}
 
 {{</section>}}
