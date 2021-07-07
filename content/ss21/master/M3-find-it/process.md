@@ -51,9 +51,9 @@ We know from work and organizational psychology as well as from personality psyc
 
 We assume that one must have certain competencies to be successful in an occupation. Here we expanded the presupposed competencies, which berufenet provides us around important competencies from the model most usual in the competencies research "Kompetenzenatlas" (Erpenbeck & Heyse 2007, <a href="https://kompetenzatlas.fh-wien.ac.at/?page_id=1096">https://kompetenzatlas.fh-wien.ac.at/?page_id=1096</a>), by extrapolating the competencies needed to successfully perform the job directly from the tasks themselves.
 
-#### Soft and hard skills
+#### Hard skills
 
-Starting off, we defined the skills required for our available jobs. To be more specific we extracted the most important tasks required for each job and also defined the specific soft and hard skills needed to perform the task and to feel a sort of satisfaction while doing the task. For the tasks of each profession, we visited the following platforms (TODO) and selected the most important tasks.
+Starting off, we defined the skills required for our available jobs. To be more specific we extracted the most important tasks required for each job and also defined the specific soft and hard skills needed to perform the task and to feel a sort of satisfaction while doing the task. For the tasks of each profession, we visited various platforms and selected the most important tasks.   
 {{<image src="recherche.jpg" alt="Cluster of research findings"  caption="Miro board: Cluster of research findings">}}
 {{</section>}}
 
@@ -121,8 +121,10 @@ We planned the **sprint backlog** and **prioritized tickets** in each meeting **
 - **Backend:** In The backend, we **focused on the inference engine**. Firstly we started with a **deep research** on inference engine and the strategies we will use, then we created the **rules of our strategy**, then we decided **how to build and implement our database** and finally we started to **develop our inference engine**.
 
 #### The deployment
+The deployment process has been very pleasant.
+Our supervisor, David Koschnick, set us up with a server that was already accessible from the outside. SSL certificates for the domain were ready and the hardware-specific requirements were also met. We had to work with a Linux server, which was very easy due to the diverse development experience of some of the team members. Starting up the services was not a problem, as we were granted root authority and were therefore allowed to install everything. 
+In some places in the frontend, the URL had to be changed as it pointed to localhost, so we created a .env afterward.
+The next step was to deploy the services to unoccupied ports. Then we had to think about how to make the frontend app accessible from the outside. Since ports 80 and 443 were already accessible by default, we only had to make sure that port 80 and the subsequent rerouting to 443 lead to our frontend app. We did this with an Nginx reverse proxy. The advantage is also that load balancing will be simplified in the future.
 
-- Heroku
-- TODO
 
 {{</section>}}

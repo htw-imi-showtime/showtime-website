@@ -8,7 +8,8 @@ card_description = "Find-IT is a web based application that offers a helping han
 
 
 # These properties may be removed if you don't need them
-source_link = "https://github.com/HuePhung/Kiss_Project"
+website_link = "https://findit.ac0.de/"
+
 
 team = ["The-Anh Nguyen", "Nhu Mong Tran", "Malin Dulkies", "Mischa Koischwitz" , "Cyrine Ben Romdhane"]
 supervisor = "David Koschnick, Marco A."
@@ -24,7 +25,7 @@ supervisor = "David Koschnick, Marco A."
 
 <!-- TODO: Add video -->
 <div class="findit-mediathek-container">
-{{<mediathek id="117e5ae717b582bdeac13d95e8fa2264" title="Our project demo">}}
+{{<mediathek id="1d3e999bdc0bed94a648e0c766e0d53a" title="Our project demo">}}
 
 <figcaption style="margin-left: 37.5%; text-align: left; margin-top: 1rem; color: #ff7578; text-transform: uppercase;">Music by Wavecont, https://www.wavecont.com/free-download</figcaption>
 </div>
