@@ -1,4 +1,4 @@
-name: deploy staging
+name: deploy staging (htw-imi-showtime.github.io)
 
 on:
   push:
