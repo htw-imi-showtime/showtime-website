@@ -11,13 +11,12 @@ The objectives of the game can also be seen in the main menu.
 {{</section>}}
 
 {{<section title="The Level">}}
-{{<image src="level1.jpg" caption="Player finds himself in an artery">}}
-{{<image src="level3.jpg" caption="virus turns green when reachable to get hit">}}
+{{<image src="level1.jpg" caption="Player travels through an artery">}}
+{{<image src="level3.jpg" caption="Virus turns green when reachable to get hit">}}
 In the level design, we focused on making the artery look as realistic as possible. In addition to the viruses, red and white blood cells constantly fly past the player. The artery also varies in shape and gives the player the opportunity to look into branches as they passing by. Another small highlight is that the artery pulsates to match the music and thus simulates the heartbeat.
-{{<image src="level2.jpg" caption="the abstract hologram user interface">}}
+{{<image src="level2.jpg" caption="Abstract hologram user interface">}}
 In addition to the realistic artery, we have given our level an abstract hologram user interface, which gives the level a special atmosphere.
 Since we decided to develop a stationary VR game, the player in our level stands on a small platform. Thus <strong>Something Unreal</strong> is a kind of railshooter game.
-
 {{</section>}}
 
 {{<section title="High score">}}
