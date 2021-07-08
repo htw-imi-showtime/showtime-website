@@ -3,7 +3,7 @@ title = "Process"
 weight = 2
 +++
 
-{{<image src="image_placeholder.jpg" alt="agile process" caption="Our Agile Development Process">}}
+{{<image src="agile_process.png" alt="agile process" caption="Our Agile Development Process">}}
 
 {{<section title="Starting off">}}
 
@@ -68,7 +68,7 @@ vocational training center. This first test round was planned as a proving groun
 Five potential users tried out our simulation and participated in interviews.
 
 
-{{<image src="image_placeholder.jpg" alt="bfw user test" caption="First user test at the bfw">}}
+{{<image src="bfw_user_test.png" alt="bfw user test" caption="First user test at the bfw">}}
 
 
 Improvement and Preparation for Second Round Testing

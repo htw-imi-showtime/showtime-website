@@ -3,7 +3,7 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="image_placeholder.jpg" alt="tech stack" caption="Our Tech Stack">}}
+{{<image src="tech_stack.png" alt="tech stack" caption="Our Tech Stack">}}
 
 {{<section title="Used Technologies">}}
 
