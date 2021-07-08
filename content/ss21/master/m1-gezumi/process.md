@@ -4,7 +4,7 @@ weight = 2
 +++
 
 {{<section title="Design Evolution">}}
-'Initial Mockup of the Interface' shows the very **first visualization** of the cumulated ideas. Players would land on a **starting screen** where they could select whether they wanted to start a new game or join an existing one. **Two variants for the game-setup screen** were mocked (screen 2 and 3). One would allow the host to **manually select the players** for a game, while the other alternative would **randomly create teams** based on all available, current app users. **Additional settings**, such as team size and the game's duration, were considered as well.
+At the beginning, all ideas were collected on a Miroboard from which the following mock-ups were then developed (see image below).  Players would land on a **starting screen** where they could select whether they wanted to start a new game or join an existing one. **Two variants for the game-setup screen** were mocked (screen 2 and 3). One would allow the host to **manually select the players** for a game, while the other alternative would **randomly create teams** based on all available, current app users. **Additional settings**, such as team size and the game's duration, were considered as well.
 Not shown in the image are the potential features that were discussed in the beginning of the ideation phase, such as a 'calibration round' to potentially reduce the learning curve as well as a scoring system that would allow different teams to compete against each other.
 
 {{<image src="design_1.png" alt="First Mockups of the App">}}
