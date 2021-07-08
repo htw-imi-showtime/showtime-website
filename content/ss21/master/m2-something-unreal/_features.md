@@ -17,7 +17,6 @@ In the level design, we focused on making the artery look as realistic as possib
 {{<image src="level2.jpg" caption="Abstract hologram user interface">}}
 In addition to the realistic artery, we have given our level an abstract hologram user interface, which gives the level a special atmosphere.
 Since we decided to develop a stationary VR game, the player in our level stands on a small platform. Thus <strong>Something Unreal</strong> is a kind of railshooter game.
-
 {{</section>}}
 
 {{<section title="High score">}}

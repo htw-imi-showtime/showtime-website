@@ -14,6 +14,7 @@ Additionally, we are already able to reset singular levels, but what if you want
 - **More Levels**
 
 Three difficulties aren’t enough for us. We want to create **_more complicated_** levels that challenge you more than ever. But if you are not ready for the hardcore mode yet, we will make *more easy, normal and hard levels* additionally to the old ones.
+Additionally we intend to add a feature to generate levels automatically. 
 
 - **More Fun**
 
