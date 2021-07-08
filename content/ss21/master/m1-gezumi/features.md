@@ -47,11 +47,11 @@ The first step is the **distance calculation** between the different players. Th
 
 {{<section title="2. Position Estimation">}}
 
-After the distances between all players are known, the player positions can be calculated. We can only calculate relative positions from the distances. This means that the resulting triangle can be transformed by translation, rotation or reflection and would still match all the distances (congruence).
+After the distances between all players are known, the player positions can be calculated. Only **relative positions** can be calculated from the distances. This means that the resulting triangle can be transformed by translation, rotation or reflection and would still match all the distances (**congruence**).
 
 {{<image src="distance-to-position-1.svg" alt="Step 1 distances to positions" >}}
 
-The input is a distance matrix that describes the lengths of the sides of the triangle on the right.
+The input is a distance matrix that describes the lengths of the sides of the triangle on the right. In the real game the matrix is not symmetrical because **each distance is measured twice** (from device A to B and from device B to A). These values are then averaged. Sometimes **inconsistent distances** are measured. This is the case when one side of the triangle is greater than the sum of the other two (**triangle inequality**). If that happens, the position estimation is canceled. 
 
 <!-- erklären warum distanzmatrix, werte gemittelt etc. wenn invalide distanzen wird es abgebrochen -->
 
@@ -70,17 +70,17 @@ Finally, the alpha angle can be calculated using the law of cosines. This in tur
 
 
 {{<section title="3. Shape Alignment">}}
-As the calculated player positions are relative, they need to be aligned to the target shape. As soon as the players' positions and the positions of the target shape have the same distances between them, the shapes have to lie perfectly on top of each other.  This is done in three steps:
+As the calculated player positions are **relative**, they need to be aligned to the target shape. As soon as the players' positions and the positions of the target shape have the same distances between them, the shapes have to lie perfectly **on top of each other**.  This is done in three steps:
 
 
 {{<image src="step-1.svg" alt="Step 1 Shape Alignment" >}}
-At first the position of player A is always assigned to the 'first' point of the target shape (Step 1). 
+At first the position of player A is always **translated** to the 'first' point of the target shape (Step 1). 
 
 {{<image src="step-2-3.svg" alt="Step 2 and 3 Shape Alignment" >}}
 
-In Step 2 the player shape is rotated so that the corresponding sides of the target and the player shape are parallel. 
+In Step 2 the player shape is **rotated** so that the corresponding sides of the target and the player shape are parallel. 
 
-Finally, both shapes are centered independently on the game screen.  
+Finally, both shapes are **centered** independently on the game screen.  
 {{</section>}}
 
 {{<section title="Bluetooth Connection & Sending of Data">}}
