@@ -3,8 +3,6 @@ title = "Process"
 weight = 2
 +++
 
-{{<image src="image_placeholder.jpg" alt="agile process" caption="Our Agile Development Process">}}
-
 {{<image src="agile_process.png" alt="agile process" caption="Our Agile Development Process">}}
 
 {{<section title="Starting off">}}

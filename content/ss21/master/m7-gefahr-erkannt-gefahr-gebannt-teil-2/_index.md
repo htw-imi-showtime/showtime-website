@@ -19,8 +19,6 @@ supervisor = "Tamara Voigt, Martin Steinicke"
 How focused will you stay in a busy workshop?
 ------
 
-How focused will you stay in a busy workshop?
-------
 
 In the first round of development, we created a workshop, machines, injury simulations and user feedback. We now built on that foundation with the goal of imitating the conditions in which work assignments must be completed. 
 Changes in the soundscape, lighting and interruptions from colleagues are common distractions that challenge workers and can lead to accidental injuries. 
