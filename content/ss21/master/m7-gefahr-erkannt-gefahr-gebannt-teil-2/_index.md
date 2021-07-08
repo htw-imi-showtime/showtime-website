@@ -19,6 +19,8 @@ supervisor = "Tamara Voigt, Martin Steinicke"
 How focused will you stay in a busy workshop?
 ------
 
+How focused will you stay in a busy workshop?
+------
 
 In the first round of development, we created a workshop, machines, injury simulations and user feedback. We now built on that foundation with the goal of imitating the conditions in which work assignments must be completed. 
 Changes in the soundscape, lighting and interruptions from colleagues are common distractions that challenge workers and can lead to accidental injuries. 
@@ -32,7 +34,6 @@ A challenging task
 Our application in the first iteration was a 'sandbox' experience, where a task was suggested, but application use was largely explorative. 
 Now, employed with a series of challenges modeled after real workplace assignments, users must cope with time pressure, and keep their cool while operating machines. 
 A task submission setup was engineered, and submitted tasks are evaluated for precision by a supervisor. 
-
 
 User avatar for increased immersion
 ------

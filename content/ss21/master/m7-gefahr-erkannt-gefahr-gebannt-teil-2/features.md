@@ -112,6 +112,10 @@ One of the greatest challenges was our full-body VR avatar. To have full control
 That included 3D modelling a male and female body, texturing and UV-mapping them in ZBrush and rigging and weight-painting them in Blender. 
 After that, the biggest challenge of implementing the avatars became mapping them to the players movements. For that, we chose a common tool in the industry, the so-called procedural animations.
 
+One of the greatest challenges was our full-body VR avatar. To have full control and freedom of choice, we decided to develop everything that VR avatar creation revolves around by ourselves. 
+That included 3D modelling a male and female body, texturing and UV-mapping them in ZBrush and rigging and weight-painting them in Blender. 
+After that, the biggest challenge of implementing the avatars became mapping them to the players movements. For that, we chose a common tool in the industry, the so-called procedural animations.
+
 
 - **Procedural Animations**
 
