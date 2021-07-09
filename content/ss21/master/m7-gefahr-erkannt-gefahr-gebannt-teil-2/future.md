@@ -79,12 +79,14 @@ Lastly, performance optimizations would allow for a smoother overall experience.
 
 {{<section title="Resultant Questions and Next Steps">}}
 
-If the project is to be continued by a dedicated team and regular communication and collaboration with workshops can be guaranteed, we consider the following questions to give guidance for an integration within apprenticeships:
+In order to consolidate the first findings and to determine the most effective integration within apprenticeships, we consider the following questions to be relevant:
 
-- Short term (e.g. single use), such as our first semester sandbox mode vs. long term use, such as our new challenge mode (and extensions thereof)? Challenge mode for single time use vs. sandbox mode for repeated use? What integration makes the most sense? 
+- Which setting provides the highest benefit: short term (e.g. single use), such as our first semester sandbox mode vs. long term use, such as our new challenge mode (and extensions thereof)? 
+Group setting as an additional extrinsic motivation factor vs. the current single player experiences? 
 - Extending the previous question: how could an integration in the apprenticeship educational curriculum maximize learning benefits? What would the use context look like? 
 - What differences with metal workers with varying experience must be considered? Can the delivery of fresh lessons for trainees be combined with a refresher for those already experienced in the workshop?
 
-Next steps are already planned: a follow up test session at the HTW workshop to further prove or disprove our current findings. Additionally the Berliner Stadtreinigungsbetriebe (BSR) expressed their interest to try out our application.
+
+Next steps are already planned: a follow up test session at the HTW workshop to further prove or disprove our current results. Additionally the Berliner Stadtreinigungsbetriebe (BSR) expressed their interest to try out our application.
 
 {{</section>}}
