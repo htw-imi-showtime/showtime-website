@@ -32,6 +32,11 @@ For the **tracking capabilities** of our App, we are using the **Google Maps API
 The **version control** system of our choice is **Git** with **GitHub** as the hosting platform. Easy to use, hard to master, but definitely a 
 **good training exercise** for later jobs. We struggled with occasional **merge errors** and some other **branching issues**, but managed to overcome them by means of research and team spirit.
 
+#### SQLite
+Since our app runs locally we chose SQLite as relational database to persist and query the data. SQLite is an **open source database** that 
+does **not require a server** and provides faster inserts, updates, and queries compared to other **local persistence solutions** (like local file or key-value store). 
+With the help of the **sqflite plugin**, flutter can easily make use of the database.
+
 {{<image src="TechStackDevTransparent.png" alt="tech stack part 2" caption="development tech stack">}}
 
 {{</section>}}
