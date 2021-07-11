@@ -10,9 +10,9 @@ weight = 1
 - Our main menu leads the player to the level screen, which allows the player to choose between easy, normal and difficult graphs. Revisitors are able to see their finished levels in the level selection screen.
 {{</section>}}
 {{<gallery>}}
-{{<image src="easy.png" alt="Easy" caption="Difficulty: easy" >}}
-{{<image src="normal.png" alt="Normal" caption="Difficulty: normal" >}}
-{{<image src="hard.png" alt="Hard" caption="Difficulty: hard" >}}
+{{<image src="easy.jpg" alt="Easy" caption="Difficulty: easy" >}}
+{{<image src="normal.jpg" alt="Normal" caption="Difficulty: normal" >}}
+{{<image src="hard.jpg" alt="Hard" caption="Difficulty: hard" >}}
 {{</gallery>}}
 
 {{<section title="Highscore" >}}

@@ -14,8 +14,7 @@ supervisor = "Tamara Voigt, Martin Steinicke"
 +++
 
 {{<section title="Summary">}}
-How focused will you stay in a busy workshop?
-------
+
 
 How focused will you stay in a busy workshop?
 ------
@@ -33,7 +32,6 @@ A challenging task
 Our application in the first iteration was a 'sandbox' experience, where a task was suggested, but application use was largely explorative. 
 Now, employed with a series of challenges modeled after real workplace assignments, users must cope with time pressure, and keep their cool while operating machines. 
 A task submission setup was engineered, and submitted tasks are evaluated for precision by a supervisor. 
-
 
 User avatar for increased immersion
 ------

@@ -3,12 +3,12 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="tech-stack-bff.png" alt="tech stack visualized" caption="Our tech stack">}}
+{{<image src="tech-stack.png" alt="tech stack visualized" caption="Our tech stack">}}
 
 {{<section title="Research Tools">}}
 
 #### Google Drive & Google Docs
-During this stage of our process we relied heavily on our **shared google drive folder** to organize all of our **research documents**, **work protocols** and general **collection of information**.
+During this stage of our process we relied heavily on our **shared Google Drive folder** to organize all of our **research documents**, **work protocols** and general **collection of information**.
 
 {{</section>}}
 
@@ -33,8 +33,8 @@ We decided to use GitHub as our hosting platform for version control. Every task
 #### React & HTML/CSS/JS
 We used these tools for the opportunity to learn more about one of the leading development tools in the development field as well as to be able to produce a stable product in the minimal time we had left.
 
-#### MaterialUI
-MaterialUI was our decision to add amazingly designed elements to the App with ease and speed.
+#### Material-UI
+Material-UI was our decision to add amazingly designed elements to the App with ease and speed.
 
 #### MongoDB
 #### nodeJS
@@ -43,8 +43,8 @@ MaterialUI was our decision to add amazingly designed elements to the App with e
 
 {{<section title="Process Supporting Tools">}}
 
-#### Discord/Whatsapp/Zoom
-**Discord** was mainly our **communication platform** for team meetings and quick interactions during the project semester, as well as organisational discussions via Whatsapp. Additionally, we used **Zoom** for **meetings** with our **supervisor**.
+#### Discord/WhatsApp/Zoom
+**Discord** was mainly our **communication platform** for team meetings and quick interactions during the project semester, as well as organisational discussions via WhatsApp. Additionally, we used **Zoom** for **meetings** with our **supervisor**.
 
 #### Trello
 We worked heavily with **Trello** to **synchronise** all of our tasks as well as **keep track of the process**.

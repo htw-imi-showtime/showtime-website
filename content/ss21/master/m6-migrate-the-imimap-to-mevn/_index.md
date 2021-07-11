@@ -23,10 +23,10 @@ yeet
 {{</quote>}} -->
 
 {{<section title="The IMI-Map">}}
-The IMI-Map was developed in 2013 as a Ruby on Rails application. It was maintained and further developed in two practical projects and a few bachelor theses and it is still being used, maintained and developed actively in the study program.
+The IMI-Map was developed in 2013 as a Ruby on Rails application in a practical project. It was maintained and further developed in another practical project and a few bachelor theses and it is being used, maintained and developed actively in the study program since 2013.
 The goal of the original IMI-Map was to support students with finding an internship and to support the internship officer with internship administration.
 
-**The origrinal IMI-Map:**
+**The original IMI-Map:**
 * Demo: [https://imi-map.f4.htw-berlin.de/](https://imi-map.f4.htw-berlin.de/)
 * Source-Code: [https://github.com/imimap/imimap](https://github.com/imimap/imimap)
 
@@ -47,7 +47,7 @@ Even tough Ruby on Rails is a stable and still current web framework, the study 
 
 
 {{<section title="The Team">}}
-As a team of five we had a lot of very diverse background knowledge present in the team. Some of us have worked with the IMI-Map extensively before, others had never even seen it. Some of us had prior knowledge about the process of the IMI-Internships from varied perspectives, others had not gone through that process ever. Some of us had worked extensively with the MEVN-Stack before, others had not.
+As a team of five we had very different background knowledge present in the team. Some of us have worked with the IMI-Map before, others had never even seen it. Some of us had prior knowledge about the process of the IMI-Internships from varied perspectives, others had not even gone through the internship process themselves. Some of us had worked with the MEVN-Stack before, others had not.
 
 Including all these points of views, perspectives and bits of knowledge was a challenge and the reason we decided not to give fixed roles to people. Over the course of time a few key areas of work developed anyway:
 * **Jakob** and **Robin** worked mainly on the frontend
@@ -61,5 +61,5 @@ Including all these points of views, perspectives and bits of knowledge was a ch
 {{<team-member image="linda.jpg" name="Linda Fernsel">}}
 {{<team-member image="lotte.jpg" name="Lotte Unckell">}}
 {{<team-member image="luis.jpg" name="Luis Hankel">}}
-{{<team-member image="placeholder_square.png" name="Robin Decker">}}
+{{<team-member image="robin.jpg" name="Robin Decker">}}
 {{</gallery>}}
