@@ -3,7 +3,7 @@ title = "Concept"
 weight = 1
 +++
 
-{{<section title="Konzept">}}
+{{<section title="Concept">}}
 
 The Marc Sinan Company shared the main idea with us: how the inner room of a church should be turned into an interactive area where one has to work together with the others; the event should act as a memorial to the victims of the National Socialist Underground murders.
 
