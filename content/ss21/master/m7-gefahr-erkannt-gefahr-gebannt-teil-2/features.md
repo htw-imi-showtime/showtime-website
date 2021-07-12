@@ -55,13 +55,13 @@ Distractions
 ---
 
 
-Following our data collected both from industry and scientific publications, as well as field research (interviews, user testing, workshop visits), we learned that distractions pose one of the largest sources of danger when operating machines. 
+Following our data collected both from industry and scientific publications (see [Process](../process)), as well as field research (interviews, user testing, workshop visits), we learned that distractions pose one of the largest sources of danger when operating machines. 
 In consideration of the various directions we could take our project in, we decided to develop a system of distraction events that could be used while a user is performing tasks in the simulation. 
 Our research gave us a number of ideas from which we chose a selection based on feasibility (development complexity and time to create) and expected effectivity (potential to distract users).
 
 - **Custom Event System**
 
-In terms of dynamically triggering distractions at runtime, we created a system that follows the **Observer design pattern**. 
+In terms of dynamically triggering distractions at runtime, we created a system that follows the [Observer design pattern](https://en.wikipedia.org/wiki/Observer_pattern). 
 From the implementation perspective, this means that we have defined certain areas in the virtual workshop in which distractions can take place, the so-called hotspots. 
 
 Every hotspot is also a listener to any kind of incoming event. 
@@ -123,7 +123,7 @@ One approach to calculate the positions of a chain of joints (like the human arm
 Through it, given a set of rotations for joints connected by individual bones, the final position of that chain can be computed. 
 
 The problem consisted in not having access to the rotation of each joint in our player's body, but only the positions and rotations of the tracked VR headset and their two VR controllers. 
-Another mathematical approach to calculate joint-chain-movement, given the position of the final joint, is called **inverse kinematics (IK)**. 
+Another mathematical approach to calculate joint-chain-movement, given the position of the final joint, is called [inverse kinematics (IK)](https://en.wikipedia.org/wiki/Inverse_kinematics). 
 With the help of one of the newest and most optimized IK-solver algorithms, called [Forwards and Backwards reaching Inverse Kinematics (FABRIK)](https://www.researchgate.net/profile/Andreas-Aristidou/publication/273166356_Inverse_Kinematics_a_review_of_existing_techniques_and_introduction_of_a_new_fast_iterative_solver/links/54faeca10cf20b0d2cb8782b/Inverse-Kinematics-a-review-of-existing-techniques-and-introduction-of-a-new-fast-iterative-solver.pdf#page74),
 this challenge was overcome.
 
