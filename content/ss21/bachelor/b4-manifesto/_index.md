@@ -4,7 +4,7 @@ project_id = "B4"
 
 # Properties for displaying the project in the project list
 card_image = "logo_manifesto.svg"
-card_description = "Manifesto ist eine interaktive Sound und Videoinstallation in Zusammenarbeit mit der Marc Sinan Company."
+card_description = "Manifesto is an interactive sound and video installation created in collaboration with Marc Sinan Company. "
 
 
 # These properties may be removed if you don't need them
@@ -12,18 +12,19 @@ source_link = "https://github.com/B4-MANIFESTO"
 
 
 team = ["Elyess Eleuch", "Dennis Bröcker", "Martin Staats", "Nils Rausch", "Stepan Burlachenko"]
-supervisor = "Prof. Dr. Regina Friess und Alexander Kramer, in Kooperation mit der Marc Sinan Company "
+supervisor = "Prof. Dr. Regina Friess und Alexander Kramer,  in collaboration with Marc Sinan Company "
 +++
 
-Manifesto ist eine interaktive Installation, welche grundlegend so konzipiert und entwickelt wurde, dass eine **kameragesteuerte Bewegungssensorik** der Startpunkt einer aus mehreren Schnittstellen entstanden technischen Pipeline ist. Die **Präsenz von Veranstaltungsbesuchern** wird wahrgenommen, verarbeitet und anschließend in Verbindung einer **musikalisch wiedergegeben Orgelmusik** gebracht. Dieses Projekt wird landesweit im November an vielen verschiedenen Orten gleichzeitig aufgeführt und soll zum **Gedenken an die NSU Verbrechen** beitragen. Die Hauptveranstaltung soll in der Martinskirche in Kassel stattfinden.
+Manifesto is an interactive installation that is designed and developed in a way that the **camera-enabled motion sensors** act as the starting point of a complex pipeline consisting of multiple interfaces. The activity of the event visitors is monitored, analyzed and subsequently translated into sounds produced by an organ. The project is to be presented and executed simultaneously in multiple locations statewide and is dedicated to the victims of the National Socialist Underground murders. The main event is to take place in the St Martin's Church in Kassel.
 
-[Manifesto ist Teil der Veranstaltung "Kein Schlussstrich! Ein bundesweites Theaterprojekt zum NSU-Komplex" der Kulturstiftung des Bundes](https://www.kulturstiftung-des-bundes.de/de/projekte/buehne_und_bewegung/detail/kein_schlussstrich.html)
+[Manifesto is a part of “No closure!”, a nationwide theatre project on the National Socialist Underground funded by the German Federal Cultural Foundation](https://www.kulturstiftung-des-bundes.de/en/programmes_projects/theatre_and_movement/detail/no_closure.html)
 
-{{<section title="Anforderung">}}
+{{<section title="Requirements">}}
 
-Unser Team kam am Anfang zusammen und hatte als erstes die Aufgabe zu entscheiden, ob wir dieses Projekt über den Zeitraum bis hin zur **Showtime am 16.7.2021** hinweg bis in den November zur eigentlichen Veranstaltung betreuen wollen. Eine weitere Entwicklung über den Zeitraum hinweg hätte uns die Möglichkeit gegeben, die Deadline für das Konzept bis zur Showtime zu setzen. Für die Entwicklung der Technik hätten wir noch weitere zwei Monate Zeit gehabt. Da wir in den Semesterferien bereits alle Termine haben, entschieden wir uns dafür das ganze Projekt bis zur Showtime umzusetzen. Das bedeutet auch, dass wir das **komplette Paket inkl. Konzept, Technik, Entwicklung und Aufbau** bis zur Showtime als Videopräsentation vorzeigbar haben. Das ganze Projekt soll nach der Showtime an die Marc Sinan Company zur weiteren Verwendung zur Verfügung gestellt werden.
+The first decision we had to make as a team was the decision if we were going to oversee the project till the **Showtime event (July 16th, 2021)** or till the actual event in November. The former would have given us two whole months for the concept development, right in time for the Showtime event. After Showtime we would have had two more months for the technical realization of the concept developed by the team. Due to schedule clashes most of the team members had over the months of August and September, the team decided to present the whole project at the Showtime event. That means that we were to develop the whole project, including the concept, the technical requirements, the realization, and its reassemble capabilities, with the Showtime date as the deadline, and present it there in the form of a video presentation. The project is to be handed over to Marc Sinan Company for further management.
 
-Grundlegend ist die Idee hinter dem Projekt, dass eine Fläche für Besucher einer Veranstaltung eine Interaktionsmöglichkeit bietet. Wie eingangs erwähnt, ist dieses Projekt Teil der Veranstalung **Kein Schlussstrich! En bundesweites Theaterprojekt zum NSU Komplex.** Manifesto soll die Besucher daher zum Nachdenken bringen. Das Konzept welches im Folgenden vorgestellt wird, hatte die Anfordungen ausfindig zu machen, wie diese Fläche benutzt werden kann um die Besucher zum Nachdenken und zum **Gefühl der Verbundenheit und Gemeinschaftlichkeit** bringt.
+The main idea behind the project is that the floor area is an interactive field for the event visitors. As mentioned above, the project is a part of **“No closure!”, a nationwide theatre project on the National Socialist Underground Terror.** Manifesto is to be thought-provoking for its visitors. The concept that we elaborate on later on here had as its main requirement the idea of finding a way to use floor area in such a way that it makes the event visitors think and promotes the feelings of **closeness and togetherness** in them.
+
 {{</section>}}
 
 <!--{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="me">}}
@@ -32,9 +33,9 @@ yeet
 
 {{<section title="Team">}}
 
-- **Zusammenwachsen und Weiterentwickeln** Durch die Schaffung einer klaren transparenten Struktur, feste Absprachen und mit Hilfe von nützlichen Projektmanagement Tools haben die Mitglieder des Teams eine erfolgreiche Zusammenarbeit auf die Beine gestellt.
-- Aller Anfang ist schwer aber mit der Zeit konnte die Stärken und Interessen von jedem von uns integriert und eingebracht werden. **Oft entstand so ein angenehmer Workflow.**
-- **Elyess** hat sich schnell in die einzelnen technischen Schnittstellen hineingearbeitet und im weiteren Verlauf Unterstützung von **Stepan** und **Dennis** bekommen. Die Erarbeitung des Konzept lag in Nils Hand. Dabei bekam er Unterstützung von **Martin**. Das Konzept durchlief mehrere Phasen und Überarbeitungen. Das fertige Konzept wurde dem Team der Marc Sinan Company von **Nils** präsentiert. Anschließend wurden weitere Ideen und Möglichkeiten diskutiert. **Insgesammt wurden über 50 verschiedene Aufgaben verteilt.** Es wurde darauf geachtet, dass alle wussten, wer gerade an welcher Aufgabe sitzt. Die Ergebnisse wurden 2-3 Mal wöchentlich gegenseitig vorgestellt. Am Ende der Meetings wurden weitere Schritte diskutiert und die neuen Aufgaben über ein Projektmanagementboard verteilt.
+- **Growing and learning together** Establishing a clear and transparent structure within the team, fixed meeting appointments and a set of helpful project management tools to use helped to bring the team work in motion.
+- Although hard at first, eventually we managed to pinpoint the strong suits and interests of each team member and find a way to take advantage of those in the project. **This way we reached a productive workflow.**
+- **Elyess** was the first to jump onto development of the technical interfaces and got help from **Stepan** and **Dennis** later on. The concept development was taken over by Nils who got help from **Martin**. The concept went through several phases and to be finally presented to Marc Sinan Company by **Nils**. Further possible developments of the project were discussed as well. All in all, more than 50 various tasks were allocated and completed. We made sure that everyone knew who was taking care of what at each given moment. The results were presented to the team 2-3 times a week. At the end of each meeting we discussed further steps and assigned new tasks in the project management board.
   {{</section >}}
 
 {{<gallery>}}
