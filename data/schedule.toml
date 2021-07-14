@@ -1,2 +1,86 @@
 [[slot]]
-title = "The schedule will be published soon."
+time = "10:00"
+title = "Opening"
+class = "general"
+
+
+[[slot]]
+time = "10:05"
+title = "B1: Strollr"
+projectDetail = "/ss21/bachelor/b1-strollr-project/"
+class = "bachelor"
+
+[[slot]]
+time = "10:12"
+title = "B3: Graphlands"
+projectDetail = "/ss21/bachelor/b3-dollar-game/"
+class = "bachelor"
+
+[[slot]]
+time = "10:19"
+title = "B4: Manifesto"
+projectDetail = "/ss21/bachelor/b4-manifesto/"
+class = "bachelor"
+
+[[slot]]
+time = "10:26"
+title = "B5: Berlin for Future"
+projectDetail = "/ss21/bachelor/b5-berlin-for-future/"
+class = "bachelor"
+
+[[slot]]
+time = "10:33"
+title = "M1: GeZuMi"
+projectDetail = "/ss21/master/m1-gezumi/"
+class = "master"
+
+[[slot]]
+time = "10:40"
+title = "M2: Something Unreal"
+projectDetail = "/ss21/master/m2-something-unreal/"
+class = "master"
+
+
+[[slot]]
+time = "10:47"
+title = "M3: Find-IT"
+projectDetail = "/ss21/master/m3-find-it/"
+class = "master"
+
+[[slot]]
+time = "10:54"
+title = "M6: Migrate the IMI-Map to MEVN"
+projectDetail = "/ss21/master/m6-migrate-the-imimap-to-mevn/"
+class = "master"
+
+
+[[slot]]
+time = "11:03"
+title = "M7: Gefahr erkannt, Gefahr gebannt--Teil II"
+projectDetail = "/ss21/master/m7-gefahr-erkannt-gefahr-gebannt-teil-2/"
+class = "master"
+
+[[slot]]
+time = "11:10"
+title = "Lunch Break"
+class = "general"
+
+
+[[slot]]
+time = "12:00-15:00"
+title = "Project Fair"
+text = "Project Booths in Zoom Breakout Rooms"
+class = "general"
+
+
+[[slot]]
+time = "15:00"
+title = "Break"
+text = "(and a secret grading meeting of the supervisors)"
+class = "general"
+
+[[slot]]
+time = "16:00"
+title = "Announcement Of Grades"
+text = "Project Groups meet with their project supervisors"
+class = "general"
