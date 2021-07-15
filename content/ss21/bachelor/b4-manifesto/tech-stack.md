@@ -61,5 +61,5 @@ We used React to develop the User Interface. You can draw the **“Area of inter
 
 {{<section title="JavaScript, HTML, CSS">}}
 
-It is the **basic building blocks** for Node.js, AbletonJS and the react-frontend.
+They are the **basic building blocks** for Node.js, AbletonJS and the React frontend.
 {{</section>}}
