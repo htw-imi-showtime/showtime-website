@@ -9,61 +9,57 @@ weight = 5
 
 {{<section title="Jira">}}
 
-Mit Hilfe von Jira konnten wir eine Übersicht unserer Aufgaben und der Verteilung derer gestalten die sowohl der Konzept- sowie der Softwareentwicklung dienten.
+**Jira** helped to keep our tasks in order and who is doing what regarding creating our concept or the software.
 {{</section>}}
 
 {{<section title="Discord">}}
 
-Um eine ständige und kurzfristige Kommunikation aufrecht zu erhalten, haben wir uns auf Discord geeinigt Dort verwendeten wir die Text- sowie auch auch die Sprachkanäle um uns auszutauschen.
+With **Discord**, we had a constant flow of communication. It offers either text- or voice-channels.
 {{</section>}}
 
 {{<section title="Miro">}}
 
-Miro diente als Ideensammlungsportal und half uns, wenn wir mal ein "Schwarzes Brett" zum diskutieren brauchten.
+**Miro** helped us to collect and order our ideas concerning the project to sort our thoughts.
 {{</section>}}
 
 {{<section title="GitHub">}}
 
-Über Github haben wir den Code geteilt. Das hat es uns ermöglicht zeitgleich am Projekt Manifesto zu arbeiten.
+We shared our codes with the help of **GitHub**, it made it possible to work on the project simultaneously.
 {{</section>}}
 
 {{<section title="Kafka und Docker">}}
 
-Da wir alle Probleme vermeiden wollten, die mit der Installation von Tools verbunden sind, die eine gewisse Konfiguration erfordern, verwendeten wir Docker, um unsere **Kafka**-Instanz zu betreiben, die für die Verbindung der Python-Anwendung mit der NodeJs-Anwendung verantwortlich war.
+We wanted to avoid as many problems as we could that concerned the installation of tools that required certain configurations. We decided to use **Docker to operate our Kafka-instance**, which is responsible for the connectivity between the Python and the Node.js application.
 {{</section>}}
 
 {{<section title="Python und OpenCV">}}
 
-Der **erste Schritt** der Reise war die Auswahl eines **Frameworks**, das uns bei der Objekterkennung hilft. Wir hatten sehr **wenig Erfahrung** mit Computer Vision, also war es notwendig, zuerst **selbstständig zu recherchieren** und wir landeten bei zwei Kandidaten: **OpenCv mit Python oder C++**
-und wir entschieden uns für Python.
-Python hat in den letzten Jahren eine große **Popularität** unter Entwicklern erlangt. Außerdem wird es vom Raspberry Pi nativ unterstützt, so dass es einfacher ist, eine Python-App auf ihm zu installieren.
-Es hat eine sehr einfache Syntax und eine steile Lernkurve, so dass es einfach war, die Grundlagen schnell zu erlernen.
+Our **first step** was to choose a Framework that should help us to recognize objects. Because we had little experience with the topic of Computer Vision, we had to research first in order to go on. We found OpenCV, which offers two language options. It was **either Python or C++**. We decided to work with OpenCV Python because the Raspberry Pi **supports Python natively** and that makes it easier to create and install apps. Python is easy to learn due to its minimalistic syntax and is very popular among programmers.
 
 {{</section>}}
 
 {{<section title="Node.js">}}
 
-Die Auswertung der Daten, die wir vom Raspberry pi erhalten haben, ist der **wichtigste** Teil des Projekts.
-Auch hier hatten wir zwei Kandidaten: **NodeJs und Java**.
-Da es aber den Vorteil hat, nicht zu blockieren und weniger Ressourcen zu verbrauchen als Java, entschieden wir uns für NodeJs.
+Our analyzed data, which is received from the Raspberry PI, is the most important part which is used in our project. We had to choose between **Node.js or Java**. Because Node.js is lightweight and saves resources in comparison to Java, we chose Node.js.
 {{</section>}}
 
 {{<section title="Ableton live">}}
 
-Ableton ist eine Sequencer-Software, die eine Musikproduktion ermöglicht. Mit Plugins ist es möglich eigene Applikationen einzuspeisen und so Töne zu erzeugen.
+Ableton Live is a Sequencer software, which allows you to **produce music**. It is possible with the help of plugins to create your own applications and manipulate your creations.
 {{</section>}}
 
 {{<section title="Ableton.js">}}
 
-AbletonJS stellt eine Schnittstelle zum Ableton Live Sequencer, die es ermöglicht über Javascript diverse Befehle zu schicken und so eine Live Session zu manipulieren.
+AbletonJS is an **API that connects with the Ableton Live Sequencer**. To manipulate a live session you can send commands with the help of JavaScript.
+
 {{</section>}}
 
 {{<section title="React">}}
 
-Wir verwendeten React, um die UI zu entwickeln. Im UI wird der "Area of interest Bereich" eingezeichnet. Wenn jemand dann diesen markierten Bereich betritt, reagiert die App.
+We used React to develop the User Interface. You can draw the **“Area of interest”** on it so if someone walks on the named area, the app will react.
 {{</section>}}
 
 {{<section title="JavaScript, HTML, CSS">}}
 
-Die 3 Grundbausteine für Node.js und auch für das FrontEnd in React.
+It is the **basic building blocks** for Node.js, AbletonJS and the react-frontend.
 {{</section>}}

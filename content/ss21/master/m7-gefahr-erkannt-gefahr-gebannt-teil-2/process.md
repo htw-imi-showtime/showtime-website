@@ -3,7 +3,7 @@ title = "Process"
 weight = 2
 +++
 
-{{<image src="image_placeholder.jpg" alt="agile process" caption="Our Agile Development Process">}}
+{{<image src="agile_process.png" alt="agile process" caption="Our Agile Development Process">}}
 
 {{<section title="Starting off">}}
 
@@ -68,7 +68,7 @@ vocational training center. This first test round was planned as a proving groun
 Five potential users tried out our simulation and participated in interviews.
 
 
-{{<image src="image_placeholder.jpg" alt="bfw user test" caption="First user test at the bfw">}}
+{{<image src="bfw_user_test.png" alt="bfw user test" caption="First user test at the bfw">}}
 
 
 Improvement and Preparation for Second Round Testing
@@ -80,7 +80,7 @@ Based on the data we collected, we improved on almost all new aspects of the pro
 Although we were not able to observe a reliable effect on injuries, our distractions and user tasks were positively received by the trainers, confirming that we were moving in the right direction. 
 
 Our preparation for the second and final user test of our prototype counted three large topics: improvement of the previously tested features, the finalization of our user avatars, and how to adapt our user test setup to maximize data collection. 
-Within the three weeks we had, our distractions were finalized, additional tools to improve the user task were created and added, and we integrated two fully rigged user avatars. 
+Within the three weeks we had, our distractions were finalized, additional tools to improve the user task were created and added, and we integrated two fully rigged and animated user avatars. 
 The test we outlined included a scientifically standardised questionnaire for Avatar Embodiment investigation, questions to compare returning testers' experiences (from the first semester), and specific questions related to our new features. 
 
 
