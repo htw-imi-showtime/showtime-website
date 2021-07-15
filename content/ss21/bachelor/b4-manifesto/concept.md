@@ -11,7 +11,7 @@ The concept is the project foundation and was developed in **collaboration and c
 
 We developed multiple concepts, discussed and modified them to reach the final idea:
 
-- Unterteilt wird in 4 verschiedene Grundphasen.
+- The act is divided into 4 different phases
 - There are at least 2 areas that are part of the interaction.
   **(1) Interaction area (2) Target area**.
 - At least one person is needed for the interaction.
@@ -26,7 +26,7 @@ We developed multiple concepts, discussed and modified them to reach the final i
 
   {{<image src="man_concept_2_en.png" alt="4 Phasen" caption="" >}}
 
-  - The final concept includes two circles on each side that can be placed on the area using the User Interface in the Manifesto-Core frontend app.
+  - The final concept includes one circles on each side that can be placed on the area using the User Interface in the Manifesto-Core frontend app.
   - Due to the current situation with the pandemic, multiple circles is a more appropriate solution.
 
   {{<image src="man_concept_4_en.png" alt="4 Phasen" caption="" >}}

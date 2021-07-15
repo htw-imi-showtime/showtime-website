@@ -30,7 +30,7 @@ The **Manifesto-Core** script is our main asset in our app, which is developed w
 
 This is our Server for the Manifesto application. We use Node.js to connect with the [Ableton.js](https://github.com/leolabs/ableton-js). With a **Docker-Compose-File** a Kafka-instance will start inside a Docker Container.
 
-- he Raspberry PIs receive data from the Kafka-instance.
+- The Raspberry PIs receive data from the Kafka-instance.
 - That data will be sent to the Server.
 - The Server receives an **Area-of-interest point** from the Frontend and compares both data streams with each other
 - After evaluation a signal will be sent to Ableton Live.
