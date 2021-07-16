@@ -22,6 +22,8 @@ supervisor = "Prof. Dr. Barne Kleinen"
 yeet
 {{</quote>}} -->
 
+{{<mediathek id="c2a310ef5a3c6675dfc76eccfab70bb7" >}}
+
 {{<section title="The IMI-Map">}}
 The IMI-Map was developed in 2013 as a Ruby on Rails application in a practical project. It was maintained and further developed in another practical project and a few bachelor theses and it is being used, maintained and developed actively in the study program since 2013.
 The goal of the original IMI-Map was to support students with finding an internship and to support the internship officer with internship administration.
