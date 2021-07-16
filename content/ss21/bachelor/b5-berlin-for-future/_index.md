@@ -8,17 +8,17 @@ card_description = "Concepts to encourage a climate conscious behaviour"
 
 
 # These properties may be removed if you don't need them
-source_link = "links to Git repo"
+source_link = "https://github.com/BenNR/BFF-CommunityFinder"
+demo_link = "https://berlinforfuture-community-finder.netlify.app/"
 
 
 team = ["Julius Schultz", "Mohamed Amine Sallami", "Oksana Shcherban", " Pablo Benjamin Naujoks Roldan", "Yana Stasevich"]
 supervisor = "Prof. Dr. Regina Frieß, Tamara Voigt"
 +++
 
-<!-- {{<mediathek id="9a515dbdd99e6b17d8a21d87d5fcd3cb" >}} -->
+{{<mediathek id="cd23d43f8abbcf8911cf04056b3e54d0" >}}
 
 
-<!-- {{<image src="headerindex.png" alt="Mockup" >}} -->
 {{<section title="Our Goals">}}
 We at Berlin for Future (BFF) would like to encourage students and young people like us to pay more attention to how their lives affect the climate situation in the world. We want to give them the opportunity to find out more about the situation by providing advice and information for decreasing their own carbon footprint and give them the tools to participate in the Berlin climate protection scene.
 {{</section>}}
@@ -28,9 +28,6 @@ We set out to create two separate concepts to support our goals in two different
 After weeks of research, benchmarking, brainstorming, conducting surveys and holding focus group interviews, we have narrowed our goals down to two main fields: **providing information** and **supporting networking**.
 {{</section>}}
 
-<!--{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="me">}}
-yeet
-{{</quote>}} -->
 
 {{<section title="The Team">}}
 What is most important to know about our team is that we are **passionate** about our project goals.
