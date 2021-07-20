@@ -7,6 +7,8 @@ weight = 1
 {{<section title="The Old IMI-Map" >}}
 The goal of this project was to rewrite the IMI-Map using a new Tech Stack. So we rewrote the app implementing all the features of the old IMI-Map:
 
+{{<image src="features_old.png" alt="Features Old" >}}
+
 **Internship Search**
 * Students can search the internship database of the IMI-Map to get inspiration for their own internship.
 
@@ -22,6 +24,8 @@ The goal of this project was to rewrite the IMI-Map using a new Tech Stack. So w
 
 {{<section title="The New IMI-Map">}}
 The process of finding and administrating internships had undergone some changes and digitisation during the COVID19-Pandemic. Therefore we also identified new features to implement and extend the old IMI-Map with:
+
+{{<image src="features_new.png" alt="Features New" >}}
 
 **Cleaner Data**
 * In the old IMI-Map there was a lot of unused data as relics from no longer maintained features. When rethinking the data models we took this into account and considered each model and each field of the model whether it was neccessary or not.
