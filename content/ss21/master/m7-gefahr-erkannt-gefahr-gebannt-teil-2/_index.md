@@ -13,11 +13,7 @@ team = ["Adrian Sabrowski", "Marvin Kullick", "Konrad Ukens", "Julian Bechthold"
 supervisor = "Tamara Voigt, Martin Steinicke"
 +++
 
-{{<section title="Our presentation">}}
-	
-(_To be revealed at the Showtime, on July 16th._)
-
-{{</section>}}
+{{<mediathek id="9b0db47e56bcdbc3dd23bc65a125ce50" title="Our Presentation">}}	
 
 {{<section title="Summary">}}
 
