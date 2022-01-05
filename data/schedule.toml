@@ -6,67 +6,62 @@ class = "general"
 
 [[slot]]
 time = "10:05"
-title = "B1 KISS"
-projectDetail = "/ws20/bachelor/b1-kiss"
+title = "B1: Strollr"
+projectDetail = "/ss21/bachelor/b1-strollr-project/"
 class = "bachelor"
 
 [[slot]]
 time = "10:12"
-title = "B2 Feedback App"
-projectDetail = "/ws20/bachelor/b2-feedbackapp"
+title = "B3: Graphlands"
+projectDetail = "/ss21/bachelor/b3-dollar-game/"
 class = "bachelor"
 
 [[slot]]
 time = "10:19"
-title = "B3 A Spirit Tale"
-projectDetail = "/ws20/bachelor/b3-a-spirit-tale"
+title = "B4: Manifesto"
+projectDetail = "/ss21/bachelor/b4-manifesto/"
 class = "bachelor"
 
 [[slot]]
 time = "10:26"
-title = "B4 ReMatch: Recruiter & Employee Match"
-projectDetail = "/ws20/bachelor/b4-rematch-project"
+title = "B5: Berlin for Future"
+projectDetail = "/ss21/bachelor/b5-berlin-for-future/"
 class = "bachelor"
 
 [[slot]]
 time = "10:33"
-title = "B5 MeshHeadz"
-projectDetail = "/ws20/bachelor/b5-meshheadz"
-class = "bachelor"
+title = "M1: GeZuMi"
+projectDetail = "/ss21/master/m1-gezumi/"
+class = "master"
 
 [[slot]]
 time = "10:40"
-title = "B6 Cargobike Adventures"
-projectDetail = "/ws20/bachelor/b6-cargobike-adventures"
-class = "bachelor"
+title = "M2: Something Unreal"
+projectDetail = "/ss21/master/m2-something-unreal/"
+class = "master"
 
 
 [[slot]]
 time = "10:47"
-title = "M1 The Mole: An Augmented Boardgame Experience"
-projectDetail = "/ws20/master/m1-augmented-boardgame-experience"
+title = "M3: Find-IT"
+projectDetail = "/ss21/master/m3-find-it/"
 class = "master"
 
 [[slot]]
 time = "10:54"
-title = "M2 Athletimize"
-projectDetail = "/ws20/master/m2-leistungstracker"
+title = "M6: Migrate the IMI-Map to MEVN"
+projectDetail = "/ss21/master/m6-migrate-the-imimap-to-mevn/"
 class = "master"
+
 
 [[slot]]
 time = "11:03"
-title = "M3 Deep 3D Pathfinding"
-projectDetail = "/ws20/master/m3-deep-3d-pathfinding"
+title = "M7: Gefahr erkannt, Gefahr gebannt--Teil II"
+projectDetail = "/ss21/master/m7-gefahr-erkannt-gefahr-gebannt-teil-2/"
 class = "master"
 
 [[slot]]
 time = "11:10"
-title = "M4 Gefahr erkannt, Gefahr gebannt"
-projectDetail = "/ws20/master/m4-gefahr-erkannt-gefahr-gebannt"
-class = "master"
-
-[[slot]]
-time = "11:20"
 title = "Lunch Break"
 class = "general"
 

@@ -3,21 +3,14 @@ title = "Tech Stack"
 weight = 3
 +++
 
+{{<section title="MEVN">}}
+MEVN (MongoDB, Express.js, Vue.js und Node.js) as the tech stack had been decided upon before the project started. The study program is increasingly using more modern JavaScript-based frameworks and the IMI-Map was supposed to become more easily integrable into other courses and student projects.
+{{</section>}}
 
-{{<gallery>}}
-{{<team-member image="logo_mongo.png" name="MongoDB">}}
-{{<team-member image="logo_express.png" name="Express.js">}}
-{{<team-member image="logo_vue.png" name="Vue.js">}}
-{{<team-member image="logo_node.png" name="Node.js">}}
-{{<team-member image="logo_github.png" name="GitHub">}}
-{{<team-member image="logo_discord.png" name="Discord">}}
-{{<team-member image="logo_telegram.png" name="Telegram">}}
-{{<team-member image="logo_miro.png" name="Miro">}}
-{{</gallery>}}
+{{<image src="tech_stack.png" alt="Tech Stack" >}}
 
+{{<section title="MEVN in Detail">}}
 
-{{<section title="Tech Stack">}}
-MEVN (MongoDB, Express.js, Vue.js und Node.js) as the tech stack had been decided upon before the project started. The study program is increasingly using more modern JavaScript-based frameworks and the IMI-Map was supposed to become more easily integrable into other courses and student projects. Here are the components of MEVN:
 
 **[MongoDB](https://www.mongodb.com/)**
 * a document based database which we used with [Mongoose](https://mongoosejs.com/)
@@ -31,12 +24,10 @@ MEVN (MongoDB, Express.js, Vue.js und Node.js) as the tech stack had been decide
 **[Node.js](https://nodejs.org/en/)**
 * a JavaScript-Runtime
 
-
 {{</section>}}
 
 
-
-{{<section title="Development Tools">}}
+{{<section title="Development and other Tools">}}
 Which tools we were using as a team to work was our decision. These were the tools we mainly used:
 
 **GitHub/git**
