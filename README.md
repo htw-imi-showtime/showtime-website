@@ -48,10 +48,10 @@ cd showtime-website
 
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ss21/bachelor/b0-template-project/ content/ss21/bachelor/b#-your-project/
+cp -R content/ws21/bachelor/b0-template-project/ content/ws21/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ss21/master/m0-template-project/ content/ss21/master/m#-your-project/
+cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
