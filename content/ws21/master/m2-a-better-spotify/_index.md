@@ -7,7 +7,7 @@ card_image = "logo.svg"
 card_description = "‘Better-Spotify' is a web application that is based on the audio-streaming platform Spotify and is designed to give an improved user experience. The main features Spotify offers are still prominent while also including new ones that were overlooked / discarded in the process. "
 
 source_link = "https://github.com/jakepanter/better-spotify"
-team = ["Jakob", "Pira", "Naomi", "Stefan", "Phillip", "Lennard", "Malin" ]
+team = ["Jakob Panthen", "Stefan Böhnert", "Malin Dulkies", "Lennard Grimm", "Phillip Kiele", "Piranavi Satkunanathan", "Naomi Schoppa" ]
 supervisor = "David Strippgen"
 +++
 
@@ -25,9 +25,11 @@ Due to the teams’ diverse backgrounds in the development of web-based applicat
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="alain.png" name="Alain">}}
-{{<team-member image="david.jpg" name="David">}}
-{{<team-member image="flo.jpg" name="Florian">}}
-{{<team-member image="lena.png" name="Lena">}}
-{{<team-member image="samuel.png" name="Samuel">}}
+{{<team-member image="Jakob.jpg" name="Jakob">}}
+{{<team-member image="Lennard.jpg" name="Lennard">}}
+{{<team-member image="Malin.jpg" name="Malin">}}
+{{<team-member image="Naomi.jpg" name="Naomi">}}
+{{<team-member image="Phillip.jpg" name="Phillip">}}
+{{<team-member image="Pira.jpg" name="Pira">}}
+{{<team-member image="Stefan.jpg" name="Stefan">}}
 {{</gallery>}}

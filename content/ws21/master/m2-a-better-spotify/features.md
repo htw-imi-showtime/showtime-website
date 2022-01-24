@@ -4,93 +4,59 @@ weight = 1
 +++
 
 
-{{<section title="Start and Client Screen" >}}
+{{<section title="Main Difference" >}}
 
-#### Start Screen
-To help players understand which of the **'player-dots'** they represent on the **game screen** and to enable hosts to consciously build teams, all users are asked to provide a **player name** on the start screen of the app (see first screen below).
-
-
-#### Join-Requests
-After choosing a player name and clicking 'Join Game' on the start screen, users can **scan for existing games and request to join** one. After having been approved, the player will be see the game screen as soon as the host starts the game.
 {{</section>}}
-{{<image src="client-flow.svg" alt="client user flow" >}}
+{{<image src="Diff-table.jpg" alt="What makes Better Spotify better" >}}
 
+{{<section title="The Startpage" >}}
 
-{{<section title="Host and Game Screen" >}}
-#### Game Setup
-After choosing their own player name and clicking 'Create Game' on the start screen, the **host** is asked to decide on a **game name**. This will help players distinguish simultaneously played games during the join-request. The host can then **approve players**' join-requests and **start the game** when the desired amount of players has been reached.
+One of the most important features which is also our **unique selling point** is our improved **Homepage**. Web Spotify’s Homepage is filled with content the user doesn’t need or doesn’t want on there. Instead of being greeted with the features and information, they do want, the user has to scroll a lot and doesn’t have the chance to **customize** it to their needs. 
 
-#### Game Screen
-After the host clicks 'Start Game' all players are directed to the game screen.
-To increase the challenge and make the game more fun to play, a few first gamification features were implemented:
-- **Timer**: Each game is played against the clock, the objective is to achieve the target shape as fast as possible. This enables players of different games to compare their times and success later on.
-- Quick & **easy** new games: As soon as the target shape has been matched, the players can start the next round with a **new shape**
-- Animation: The **target shape is animated** as soon as the players manage to reproduce it, to indicate that the game has been won 
+Better Spotify changes that by replacing the Spotify Homepage with a **widget system** on a **grid**. The widget can be chosen by the user to give them the possibility of making the choice whether or not they **want** certain parts to be **displayed or not**.
+Additionally, the widgets are **moveable via drag-and-drop** which makes it even easier for the user to **customize** the Homepage to their own wishes. It is also possible to change the widget’s **size** to their desire so that they can properly shift their homepages focus on whichever feature they need the most. 
 {{</section>}}
-{{<image src="host-flow.svg" alt="host user flow" >}}
+{{<image src="Homepage.gif" alt="Homepage useage gif" >}}
+
+
+{{<section title="Tag System" >}}
+Another improvement of the system was adding a way to tag songs for the user. This was not at all possible with Spotify and was high on the priority list of our focus group which was why implementing a **tag system** was out of the question. After all, it is not always possible to present one's own visions in a **one-dimensional hierarchical concept**, which is why cross-references are necessary.
+
+{{<image src="TagSystem.gif" alt="Tagging a song" >}}
+
+With the tag system, a user has now the possibility to **sort** songs not just in one way via using the Playlist feature but also via using customizable tags. The user can **create them themself** and is free in naming them and has an assortment of different **colours** they can choose from. This helps the user to get a **visual clue** when scrolling through song lists and aids in **grouping songs** accordingly. 
+
+{{</section>}}
+{{<image src="NewTag.jpg" alt="creating a new Tag" >}}
 
 
 
-{{<section title="How does this work?">}}
-Three steps are implemented to display the positions of the players and the target figure.
+{{<section title="Generic streaming platform features">}}
+Besides all these improvements from Spotify, our version of Better Spotify naturally contains the necessary functions for a user to use a web player. Besides **favouriting songs**, putting them in **playlists**, **viewing artists**, **albums**, **podcasts** and more, there is also a **discovery page** that helps the user find new music that should cater to their tastes. 
 
-1. Distance Calculation
-2. Position Determination
-3. Shape Alignment
+Even those easy functions have been **reviewed and optimized** to try and get a better user experience out of the application than what Spotify has to offer. 
 {{</section>}}
 
-{{<section title="1. Distance Calculation">}}
-The first step is the **distance calculation** between the different players. This is done by using the **bluetooth signal strength (RSSI)**. The stronger the signal, the closer the devices are to each other. A well-known use-case of this solution is the Corona Warn App. Each device has a different transmission power that can be determined experimentally. If the transmission power is known, the distance can be calculated as follows: 
-{{</section>}}
+{{<image src="GenericFeat.gif" alt="All the features a Streaming Platform should have" >}}
 
-<script src="https://gist.github.com/lenavollmer/8021bb0bc10247d222fce63e3c8f61ef.js?file=DistanceCalculation.kt"></script>
+{{<section title="Sleek Design">}}
 
-{{<section title="2. Position Estimation">}}
+The last feature or focal point the project wanted to work on was improving the general **design** of the application without straying too far from what the user was used to. Instead of forcing them to learn an entirely new way of interacting with the system, the design was toned down into a more **simplistic** and **cleaner** version of Spotify. 
 
-After the distances between all players are known, the player positions can be calculated. Only **relative positions** can be calculated from the distances. This means that the resulting triangle can be transformed by translation, rotation or reflection and would still match all the distances (**congruence**).
+With a **sidebar** that is **minimizable** to widen the main screen if wanted, **headers** that are much **sleeker** and smaller while still giving the same amount of information in a simpler way as well as a more **visually distinguishable layout** of album and playlist covers. 
 
-{{<image src="distance-to-position-1.svg" alt="Step 1 distances to positions" >}}
+{{<image src="Design.gif" alt="Diff Design showcases" >}}
 
-The input is a distance matrix that describes the lengths of the sides of the triangle on the right. In the real game the matrix is not symmetrical because **each distance is measured twice** (from device A to B and from device B to A). These values are then averaged. Sometimes **inconsistent distances** are measured. This is the case when one side of the triangle is greater than the sum of the other two (**triangle inequality**). If that happens, the position estimation is canceled. 
-
-<!-- erklären warum distanzmatrix, werte gemittelt etc. wenn invalide distanzen wird es abgebrochen -->
-
-{{<image src="distance-to-position-2.svg" alt="Step 2 distances to positions" >}}
-
-Player A is positioned at the origin of the coordinate system. Player B is positioned with the following assumptions:
-- B shares the same y coordinate as A
-- B is to the right of A 
-
-
-{{<image src="distance-to-position-3.svg" alt="Step 3 distances to positions" >}}
-
-Finally, the alpha angle can be calculated using the law of cosines. This in turn can be used to determine the x and y position of player C. 
-
+All of these points were derived from the results of the **focus group interview** that was done in the beginning as well as multiple smaller feedback sessions with Spotify users, to ensure that a **broad variety of users with different need and desires** for the app agreed to the design and reviewed it properly. In the end, more **User Tests** were done to **solidify the design** and features even more.
 {{</section>}}
 
 
-{{<section title="3. Shape Alignment">}}
-As the calculated player positions are **relative**, they need to be aligned to the target shape. As soon as the players' positions and the positions of the target shape have the same distances between them, the shapes have to lie perfectly **on top of each other**.  This is done in three steps:
 
+{{<section title="Data Storage">}}
+Due to the fact that Better Spotify runs with the help of the Spotify API, there is **no need** for the application to **save more data** than Spotify itself already owns. Therefore, the user is not obligated to give any new additional information they don’t want to hand out.
 
-{{<image src="step-1.svg" alt="Step 1 Shape Alignment" >}}
-At first the position of player A is always **translated** to the 'first' point of the target shape (Step 1). 
+Anything changed within the app is either saved in the **Spotify account** itself or **locally**, taking Better Spotify’s backend out of the equation entirely. 
 
-{{<image src="step-2-3.svg" alt="Step 2 and 3 Shape Alignment" >}}
-
-In Step 2 the player shape is **rotated** so that the corresponding sides of the target and the player shape are parallel. 
-
-Finally, both shapes are **centered** independently on the game screen.  
-{{</section>}}
-
-{{<section title="Bluetooth Connection & Sending of Data">}}
-**Bluetooth Low Energy (BLE)** is the foundation of GeZuMi. Throughout the app, the connection relies on a **broadcasting approach** that avoids having to pair all devices with each other, which would make the connection unstable, and a **client-server-communication** between clients and the host of the game.
-
-Clients that have joined a game make themselves noticeable to other players via broadcasting and communicate with the host which provides updates of the game state. The **Bluetooth packages** that are broadcast by every player contain a game-specific identifier and some game data to be processed by all other players. Using the **8-byte-game-identifier** games running simultaneously at the same place can be differentiated. Through slight variations of the ID, devices can determine wether another device is a host or a client which is necessary for a consistent join process. Other **game data** included in these packages are a **custom device identifier** which is unique per device, a device name, the game name, and the device-specific transmission power value, for example. Due to the very limited size of the broadcast packages (around 20-25 bytes available for custom data), they could only contain the most important bits of information, and some **filtering mechanisms** had to be built in order to maximize the packages' utility.
-
-The broadcast packages can be received by other devices scanning the environment. This enables them to measure and calculate the distance to other players. Using direct client-server-connection, every client sends the measured and processed data to the **host device** which **collects, joins and corrects all the data**. The host is responsible for **computing a valid game state** (i.e. the positions of all players) and providing consistent game data to the clients. Clients and server communicate via the **ATT (Attribute Protocol)** data protocol. The host runs a **game service** that contains **characteristics**. The service as well as its characteristics are addressed using predefined 128-bit-UUIDs. The characteristics can be used by the clients for reading or writing data. The host is able to **notify** clients that have subscribed to a certain characteristic. The data is written in a serialized manner because of the limited number of bytes that can be transferred via a characteristic.
-
-
-{{<image src="bluetooth.gif" alt="bluetooth network animation" >}}
+{{<image src="data.jpg" alt="Data connection between Better Spotify & Spotify" >}}
 
 {{</section>}}
