@@ -3,7 +3,7 @@ title = "A Better Spotify"
 project_id = "M2"
 
 # Properties for displaying the project in the project list
-card_image = "logo.svg"
+card_image = "logo.jpg"
 card_description = "‘Better-Spotify' is a web application that is based on the audio-streaming platform Spotify and is designed to give an improved user experience. The main features Spotify offers are still prominent while also including new ones that were overlooked / discarded in the process. "
 
 source_link = "https://github.com/jakepanter/better-spotify"
