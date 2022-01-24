@@ -4,14 +4,14 @@ project_id = "M0"
 
 # Properties for displaying the project in the project list
 card_image = "logo.svg"
-card_description = "Test"
+card_description = "Intelligentes Bilanzkreis Management"
 
-source_link = "https://github.com/lenavollmer/GeZuMi"
+source_link = ""
 team = ["Samuel Günther", "Alain Ngoufack Nguefack", "Florian Reitz", "David Schach", "Lena Vollmer" ]
 supervisor = "Prof. Dr. Tobias Lenz"
 +++
 
-{{<mediathek id="73fc815213cba6193247e9f2e057d364" title="Presentation">}}
+{{<mediathek id="" title="Presentation">}}
 
 {{<section title="The Objective">}}
 **Ge**ometrie **Zu**m **Mi**tnehmen (GeZuMi) was created with the objective of testing the **boundaries and possibilites of Bluetooth** technologies in mind. The ideal outcome of the project was to be a fully functional application that would allow an **unspecified number of players (n)** to play a game that would display a **geometric shape with n sides and corners** that the users would then **reproduce in real life**. Everyone involved in the project was aware from the beginning that the objective might not be obtainable due to technical constraints.

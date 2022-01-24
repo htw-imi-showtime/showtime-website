@@ -1,9 +1,7 @@
 +++
 title = "Tech Stack"
-weight = 3
+weight = 4
 +++
-
-{{<image src="tech.svg" alt="Tech Stack">}}
 
 {{<section title="Tech Stack">}}
 #### Amazon AWS
@@ -19,7 +17,6 @@ Typescript also makes it easier for future developers working on the project to 
 Using **[Tailwind Css](https://tailwindcss.com/)** and its utility first approach, we were able to rapidly build new components for our dashboard without having to spend too much time structuring our Css and thinking about methodlogies like **[BEM](http://getbem.com/introduction/)**. 
 {{</section>}}
 
-{{<image src="other-tech.svg" alt="Other Tools">}}
 
 {{<section title="Other Tools">}}
 #### GitHub
