@@ -37,5 +37,7 @@ Although we did set up a team structure we were able to work interdisciplinary m
 {{<team-member image="mischa.png" name="Mischa">}}
 {{<team-member image="the.jpg" name="The-Anh">}}
 {{<team-member image="alain.png" name="Alain">}}
+{{<team-member image="katharina.jpg" name="Katharina">}}
 {{<team-member image="robin.jpg" name="Robin">}}
+
 {{</gallery>}}
