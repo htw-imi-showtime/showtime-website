@@ -4,15 +4,18 @@ weight = 3
 +++
 
 {{<section title="General">}}
+
 #### Scrum
+
 Our entire project management was based on the Scrum framework. In order to be as flexible and organized as possible we structured the project into bi-weekly sprints.
 Before each sprint we did an extensive sprint planning, guessing story points which reflect the complexity of each user story and defining what we want to get done within the sprint. 
 If needed we ended the sprint with a retrospective. Our process also included technical and functional reviews.
 {{</section>}}
 
-
 {{<section title="Design">}}
+
 #### Research, User Interviews & User Testing
+
 Since none of our team members initially knew what balancing group management is, we invested a small amount of time in researching the topic, understanding what the regular tasks of a balancing group manager is.
 
 Our first goal was to keep the project as close to the user's needs as possible. Therefore and in order to get a better understanding of what the user actually needs we prepared a user interview.
@@ -26,20 +29,45 @@ During the execution of those tasks we took notes on what went well and what pro
 We also payed close attention for feature and improvement suggestions that the interviewee would make.
 As well as for the first interview, we again clustered all the notes and extracted future user stories for our application.
 #### Our Design Process
--
+
+The design process was quite straight forward as Katharina and Nhu already have had experience. With the help of Figma, the collaboration went smooth. In general, each one fiddled for herself at the beginning of each step. Afterwards, they came together and discussed their ideas, the advantages and disadvantages of the designs. After each bi-weekly sprint, the design decisions were presented to the whole team. We've had the opportunity to work with Daniel Heusohn, a UX-Designer from Exxeta, from whom we received valueable feedback.
+
+The design process was as follows:
+
+1. Collect best practises and inspiration based on the user testing findings
+2. Create a low-fidility prototype
+3. Define the color scheme and typography
+4. Create a high-fidility prototype
+
+Starting with **collecting design inspiration and best practices** and sort of imagining the well prepared user stories as rough draft, Katharina and Nhu then jumped into creating a **low-fidility protoype**. A simple hand drawn wireframe UI kit has been used, which consists of a minimum of needed elements to create anything one could have had imagen.
+
+(Add link to figma page and/or screenshot/preview?)
+
+Following the wireframes, they created a **high-fidility protoype**. Parts of the Pegasus Design System and Material Icons have been used, because of its clean and fresh design. Form elements and buttons were designed from scratch to fit our color scheme and look.
+
+(Add link to figma page and/or screenshot/preview?)
+
+TODOOO:
+
+- color scheme
+- typography
+- developeer handoff
+- final thinking aloud test
 
 #### Challenges
--
-{{</section>}}
 
+- {{</section>}}
 
 {{<section title="Development">}}
+
 #### Frontend
+
 -
 
 #### Backend
+
 -
 
 #### Challenges
--
-{{</section>}}
+
+- {{</section>}}
