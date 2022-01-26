@@ -8,7 +8,7 @@ weight = 3
 #### Scrum
 
 Our entire project management was based on the Scrum framework. In order to be as flexible and organized as possible we structured the project into bi-weekly sprints.
-Before each sprint we did an extensive sprint planning, guessing story points which reflect the complexity of each user story and defining what we want to get done within the sprint. 
+Before each sprint we did an extensive sprint planning, guessing story points which reflect the complexity of each user story and defining what we want to get done within the sprint.
 If needed we ended the sprint with a retrospective. Our process also included technical and functional reviews.
 {{</section>}}
 
@@ -24,13 +24,18 @@ Through Exxeta we were able to do the user interview with a balancing group mana
 During the evaluation of the user interview we clustered the results and extracted different features out of the information we gathered.
 These were then encapsulated into user stories which were the foundation of our sprints.
 
+{{<image src="InterviewNotes.jpg" alt="Interview Notes" caption="Screenshot of our Miro Board - Clustered Interview Notes and Result">}}
+
 For our final user test we prepared a complete user flow through the application. The interviewee then was prompted small tasks that would require her/him to go through that user flow.
 During the execution of those tasks we took notes on what went well and what problems the interviewee had to face when using the application.
 We also payed close attention for feature and improvement suggestions that the interviewee would make.
 As well as for the first interview, we again clustered all the notes and extracted future user stories for our application.
+
+{{<image src="UserTestNotes.jpg" alt="Interview Notes" caption="Screenshot of our Miro Board - Guideline, Clustered User Test Notes and Result">}}
+
 #### Our Design Process
 
-The design process was quite straight forward as Katharina and Nhu already have had experience. With the help of Figma, the collaboration went smooth. In general, each one fiddled for herself at the beginning of each step. Afterwards, they came together and discussed their ideas, the advantages and disadvantages of the designs. After each bi-weekly sprint, the design decisions were presented to the whole team. We've had the opportunity to work with Daniel Heusohn, a UX-Designer from Exxeta, from whom we received valueable feedback.
+The design process was straight forward as Katharina and Nhu already have had experience. With the help of Figma, the collaboration went smooth. In general, each one fiddled for herself at the beginning of each step. Afterwards, they came together and discussed their ideas, the advantages and disadvantages of the designs. After each bi-weekly sprint, the design decisions were presented to the whole team. We've had the opportunity to work with Daniel Heusohn, a UX-Designer from Exxeta, from whom we received valueable feedback.
 
 The design process was as follows:
 
@@ -38,21 +43,27 @@ The design process was as follows:
 2. Create a low-fidility prototype
 3. Define the color scheme and typography
 4. Create a high-fidility prototype
+5. Create developer handoff page
 
-Starting with **collecting design inspiration and best practices** and sort of imagining the well prepared user stories as rough draft, Katharina and Nhu then jumped into creating a **low-fidility protoype**. A simple hand drawn wireframe UI kit has been used, which consists of a minimum of needed elements to create anything one could have had imagen.
+Starting with **collecting design inspiration and best practices** and utilizing the well prepared user stories as guideline, Katharina and Nhu then jumped into creating a **low-fidility protoype**. A simple hand drawn wireframe UI kit has been used, which consists of a minimum of needed elements to create anything one could have had imagen. They played with different variations of screen designs to weigh up which compositions might be the best fit, resulting in ten promising screens, which made it to the final cut.
 
+{{<image src="LoFi.png" alt="Interview Notes" caption="Snippet of our Figma Project - Low-fidility Wireframes">}}
+
+Following the wireframes, they created a **high-fidility protoype**. Parts of the Pegasus Design System and Material Icons have been used, because of its clean and fresh design.
+
+TODO
+(color scheme)
+(typography)
+
+Various form elements and buttons were designed from scratch to fit our color scheme and look.
+{{<image src="FormElementsButtons.png" alt="Interview Notes" caption="Snippet of our Figma Project - Components (Form Elements and Buttons)">}}
+
+(Show screens and explain reasons behind choices)
+(Add challenges)
 (Add link to figma page and/or screenshot/preview?)
 
-Following the wireframes, they created a **high-fidility protoype**. Parts of the Pegasus Design System and Material Icons have been used, because of its clean and fresh design. Form elements and buttons were designed from scratch to fit our color scheme and look.
-
-(Add link to figma page and/or screenshot/preview?)
-
-TODOOO:
-
-- color scheme
-- typography
-- developeer handoff
-- final thinking aloud test
+TODOOO
+(developeer handoff)
 
 #### Challenges
 
