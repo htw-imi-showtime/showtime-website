@@ -5,7 +5,7 @@ weight = 1
 
 {{<image src="Schriftzug.png" alt="StrollerSchriftzug" >}}
 
-{{<image src="FeaturesView.png" alt="Mockup" >}}
+{{<image src="welcome.png" alt="Mockup" >}}
 {{<section title="Feature set" >}}
 ## Map and Tracking
 One of the **key features** of our App is the possibility to **pin-point your location** and track every move while you're on a stroll out in the wild. With that information, we are **creating a Map** with 

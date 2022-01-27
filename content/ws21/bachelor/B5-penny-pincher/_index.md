@@ -1,17 +1,17 @@
 +++
-title = "Bachelorprojecttemplate"
-project_id = "B0"
+title = "Penny Pincher"
+project_id = "B5"
 
 # Properties for displaying the project in the project list
-card_image = "Logo_Icon.png"
+card_image = "idealo logo.png"
 card_description = "Strollr is a mobile application which allows you to collect and keep all of your strolls out in nature. Simply open the app, walk through your favorite park and take pictures of our treasured environment."
 
 
 source_link = "https://github.com/Neyttirri/Strollr"
 
 
-team = ["Antje Stockhaus", "Elena Tabakova", "Hermes Rapce", "Max Simon Schneider", "Jonas Endert", "Michelle Pötsch", "Paul Legner", "Kevin Springborn"]
-supervisor = "Prof. Dr. Tobias Lenz"
+team = ["Christian Kaltenbach", "Dimitar Kolev", "Marcel Kuehnau", "Hiep Ha Le","Hermes Rapce", "Hendrik Hahn", "Paul Siewertsen", "Magdalena Karmashikova", "Jannes Stahf"]
+supervisor = "Jakob Panten"
 +++
 
 
