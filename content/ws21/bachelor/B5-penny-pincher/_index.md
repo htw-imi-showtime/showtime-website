@@ -3,19 +3,19 @@ title = "Penny Pincher"
 project_id = "B5"
 
 # Properties for displaying the project in the project list
-card_image = "idealo logo.png"
-card_description = "Strollr is a mobile application which allows you to collect and keep all of your strolls out in nature. Simply open the app, walk through your favorite park and take pictures of our treasured environment."
+card_image = "PennyPlogo.png"
+card_description = "Penny Pincher is an app that helps you find the best bargains! You can simply scroll through the live feed or search for a specific category or item, add them to favorites."
 
 
-source_link = "https://github.com/Neyttirri/Strollr"
+source_link = "https://github.com/knoffhoff/penny_pincher"
 
 
 team = ["Christian Kaltenbach", "Dimitar Kolev", "Marcel Kuehnau", "Hiep Ha Le","Hermes Rapce", "Hendrik Hahn", "Paul Siewertsen", "Magdalena Karmashikova", "Jannes Stahf"]
-supervisor = "Jakob Panten"
+supervisor = "Tino Nitze"
 +++
 
 
-{{<image src="firstMockupTest.png" alt="Mockup" >}}
+{{<image src="overview.png" alt="Overview" >}}
 
 {{<mediathek id="cdb9d4bc8432e2ebca013c0ce410e240" >}}
 
@@ -24,21 +24,21 @@ much wow, such stroll**r**, best app to go out for a walk with me.
 {{</quote>}}
 
 {{<section title="Our Goal">}}
-With Strollr we want to use a **playful approach** to **encourage young students** to **explore nature and discover something new with every walk**.
+The Penny Pincher team wants to make bargain hunting **great** again!
 {{</section>}}
 
 {{<section title="The Team">}}
-Behind Strollr, there is a **motivated team** of students with **varying levels** of work **and study experience**. With the ongoing pandemic and some of our **teammates** being **located outside of Berlin**, we **never got to meet in person**, but still managed to make the best out of the situation by **working remotely** with a number of **communication tools**. 
-Each of us contributing our **previous experience** and giving it **our best**, we had a great time together and hope you enjoy Strollr **as much as we do**!
+The Penny Pincher team is comprised of **motivated students** with different levels of programming experience and interests. None of us had previously worked with **Docker** or **Flutter**, so throughout course of this semester we were able to learn **a lot**! Fortunately we were able to meet a few times at **idealo** and work **together**, but due to Covid regulations we had to continue **working remotely**. Still, we managed to keep up with deadlines and create an **awesome app**.
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="jonas.jpeg" name="Jonas">}}
-{{<team-member image="kevin.png" name="Kev">}}
-{{<team-member image="max.jpeg" name="Max">}}
-{{<team-member image="paul.jpg" name="Paul">}}
-{{<team-member image="elena.jpg" name="Elena">}}
+{{<team-member image="test.jpeg" name="Magdalena">}}
+{{<team-member image="kevin.png" name="Dimitar">}}
+{{<team-member image="max.jpeg" name="Christian">}}
+{{<team-member image="paul.jpg" name="Marcel">}}
+{{<team-member image="elena.jpg" name="Hiep">}}
 {{<team-member image="hermes.jpg" name="Hermes">}}
-{{<team-member image="antje.png" name="Antje">}}
-{{<team-member image="michelle.jpg" name="Michelle">}}
+{{<team-member image="antje.png" name="Hendrik">}}
+{{<team-member image="michelle.jpg" name="Paul">}}
+{{<team-member image="michelle.jpg" name="Jannes">}}
 {{</gallery>}}
