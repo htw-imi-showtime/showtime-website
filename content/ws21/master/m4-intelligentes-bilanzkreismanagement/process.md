@@ -35,39 +35,34 @@ As well as for the first interview, we again clustered all the notes and extract
 
 #### Our Design Process
 
-The design process was straight forward as Katharina and Nhu already have had experience. With the help of Figma, the collaboration went smooth. In general, each one fiddled for herself at the beginning of each step. Afterwards, they came together and discussed their ideas, the advantages and disadvantages of the designs. After each bi-weekly sprint, the design decisions were presented to the whole team. We've had the opportunity to work with Daniel Heusohn, a UX-Designer from Exxeta, from whom we received valueable feedback.
+The design process was straight forward as Katharina and Nhu already have had experience. With the help of **Figma**, the collaboration went smooth. In general, each one fiddled for herself at the beginning of each step. Afterwards, they came together and discussed their ideas, the advantages and disadvantages of the designs. After each bi-weekly sprint, the design decisions were presented to the whole team. We've had the opportunity to work with Daniel Heusohn, a UX-Designer from Exxeta, from whom we received valueable feedback.
 
 The design process was as follows:
 
-1. Collect best practises and inspiration based on the user testing findings
-2. Create a low-fidility prototype
-3. Define the color scheme and typography
-4. Create a high-fidility prototype
-5. Create developer handoff page
+1. **Collect best practises and inspiration based on the user testing findings**
+2. **Create a low-fidility prototype**
+3. **Define the color scheme and typography**
+4. **Create a high-fidility prototype**
+5. **Create developer handoff page**
 
 Starting with **collecting design inspiration and best practices** and utilizing the well prepared user stories as guideline, Katharina and Nhu then jumped into creating a **low-fidility protoype**. A simple hand drawn wireframe UI kit has been used, which consists of a minimum of needed elements to create anything one could have had imagen. They played with different variations of screen designs to weigh up which compositions might be the best fit, resulting in ten promising screens, which made it to the final cut.
 
-{{<image src="LoFi.png" alt="Interview Notes" caption="Snippet of our Figma Project - Low-fidility Wireframes">}}
+Following the wireframes, they created a **high-fidility protoype**. Parts of the Pegasus Design System and Material Icons have been used, because of its clean and fresh design. Something worth emphasizing are the various form elements and buttons, which were designed from scratch to fit our color scheme and look.
 
-Following the wireframes, they created a **high-fidility protoype**. Parts of the Pegasus Design System and Material Icons have been used, because of its clean and fresh design.
-
-TODO
-(color scheme)
-(typography)
-
-Various form elements and buttons were designed from scratch to fit our color scheme and look.
 {{<image src="FormElementsButtons.png" alt="Interview Notes" caption="Snippet of our Figma Project - Components (Form Elements and Buttons)">}}
 
-(Show screens and explain reasons behind choices)
-(Add challenges)
-(Add link to figma page and/or screenshot/preview?)
+In the following are a few **impressions**:
 
-TODOOO
-(developeer handoff)
+{{<image src="InitDashboard.png" alt="Initial dashboard" caption="Initial Dashboard">}}
+{{<image src="Dashboard.png" alt="Dashboard" caption="Dashboard">}}
+{{<image src="Modal.png" alt="Selection of key data" caption="Key data selection">}}
+{{<image src="Dateien.png" alt="File System" caption="File System">}}
 
 #### Challenges
 
-- {{</section>}}
+We were brimming with finite ideas, but due to time constraints we had to reduce ourselves to the most important features. With the help of the initially conducted user interview, we were then able to map a complete working flow with our MVP. Eventually, we were able to validate these ideas in a user test.
+
+{{</section>}}
 
 {{<section title="Development">}}
 
