@@ -17,5 +17,5 @@ In this phase, the course registration is binding and the [ranking system](https
 {{</section>}}
 
 {{<section title="Survey">}}
-
+After choosing your courses in either one of the phases, you have the chance to give reasons for why you have applied for each one of them. This is an optional feature though and not mandatory for the actual course registration. It should also help professors to understand the students decision on the elective courses.
 {{</section>}}
