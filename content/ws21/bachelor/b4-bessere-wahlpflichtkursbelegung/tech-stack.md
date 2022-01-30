@@ -3,7 +3,7 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="overview.png" caption="Tech stack overview">}}
+{{<image src="overview.png">}}
 
 ---
 
@@ -29,7 +29,7 @@ For the developing process, we used the **"MEVN" stack**, which consists of wide
 {{<section title="Deploying Tools">}}
 
 **[Docker](https://docker.com/)**
-* package the application with all its ressources into a container
+* packages the application with all its ressources into a container
 
 **[Hochschulrechenzentrum HTW Berlin](https://rz.htw-berlin.de/)**
 * server provider
@@ -49,6 +49,6 @@ For the developing process, we used the **"MEVN" stack**, which consists of wide
 * online whiteboard, used for our user story map
 
 **[GitHub](https://github.com/)**
-* To make it easier for us to work on the same project at once, we used **GitHub** as our internet hosting provider of the version control software **Git**. 
+* internet hosting provider of the version control software Git
 
 {{<image src="organization.png">}}
