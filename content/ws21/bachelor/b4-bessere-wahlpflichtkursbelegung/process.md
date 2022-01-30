@@ -6,13 +6,13 @@ weight = 2
 
 {{<section title="Brainstorming feature ideas & prioritizing">}}
 
-During the beginning of the project, we still had the chance to meet in person, which was really helpful when collecting all of our ideas. Our supervisors initial idea was to make the elective course registration for the IMI students easier, which can be accomplished in a variety of ways. This led us to a long period of time where we thought about different approaches and how realistic it is for us to achieve these. What specifically would make the course registration better? Do we really just focus on IMI students and their elective courses or do we already include more students than that? Do we start a survey to ask students and professors about their oppinions on the now used LSF? Answering all these questions was not easy and we thought about our decisions mulitple times after that.
+During the beginning of the project, we still had the chance to meet in person, which was really helpful when collecting all of our ideas. Our supervisors initial idea was to make the elective course registration for the IMI students easier, which can be accomplished in a variety of ways. This led us to a **long period of time where we thought about different approaches and how realistic it is for us to achieve these**. What specifically would make the course registration better? Do we really just focus on IMI students and their elective courses or do we already include more students than that? Do we start a survey to ask students and professors about their oppinions on the now used LSF? Answering all these questions was not easy and we thought about our decisions mulitple times after that.
 
 {{</section>}}
 
 {{<section title="What we had to start with">}}
 
-As previously mentioned, Julia Zamaitats original studyplan project was our starting point, which . It pursued a pretty similar goal to ours, which is to make the overall course organization less stressful and more structured. At first we were not sure if we would just use that code as sort of a template for an own completely new project to make it easier to get to know the tool stack and how to work with it. Because of the similiarities between these two projects though, we decided to extend the studyplan to have an even bigger project with more functionalities related to the same topic. This also meant, that we always had the chance to ask Julia for help if we get stuck.
+As previously mentioned, Julia Zamaitats original studyplan project was our starting point, which . It pursued a pretty similar goal to ours, which is to make the overall course organization less stressful and more structured. At first we were not sure if we would just use that code as sort of a template for an own completely new project to make it easier to get to know the tool stack and how to work with it. Because of the similiarities between these two projects though, **we decided to extend the studyplan to have an even bigger project with more functionalities** related to the same topic. This also meant, that we always had the chance to ask Julia for help if we get stuck.
 
 {{</section>}}
 
@@ -28,6 +28,6 @@ Once the foundational stuff was done, we could start working on the code all tog
 
 {{<section title="Reflection">}}
 
-What seemed to be a good idea to split up the team into two groups to get work done more efficient turned out to create a signifcant gap in code understanding within the team. This wouldnt have been a big problem if we didnt have a tight time schedule to finish our project, but because of that, **we realized how important it is to organize your time according to the circumstances**. 
+What seemed to be a good idea to split up the team into two groups to get work done more efficient turned out to create a signifcant gap in code understanding within the team. This wouldnt have been a big problem if we didnt have a tight time schedule to finish our project, but because of that, **we realized how important it is to organize your time according to the circumstances**. Also, we could see how hard it is to estimate how long different tasks take and how difficult they would be.
 
 {{</section>}}
