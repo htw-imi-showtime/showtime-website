@@ -4,20 +4,22 @@ weight = 2
 +++
 
 {{<section title="Design">}}
-### Research
+#### Research
 
-### Personas 
+#### Personas 
 
-### User Stories
+#### User Stories
 
-### Adobe XD Prototype
+#### Paper Prototype
+
+#### Adobe XD Prototype
 
 {{</section>}}
 
 {{<section title="Implementation">}}
-### Backend
+#### Backend
 
-### Frontend 
+#### Frontend 
 {{</section>}}
 
 {{<section title="Workflow">}}
