@@ -4,7 +4,7 @@ project_id = "B5"
 
 # Properties for displaying the project in the project list
 card_image = "PennyPlogo.png"
-card_description = "Penny Pincher is an app that helps you find the best bargains! You can simply scroll through the live feed or search for a specific category or item, add them to favorites."
+card_description = "Penny Pincher is an app that helps you find the best bargains! You can simply scroll through the live feed or search for a specific category or item and add them to favorites to view them later."
 
 
 source_link = "https://github.com/knoffhoff/penny_pincher"
