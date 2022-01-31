@@ -1,5 +1,5 @@
 +++
-title = "Process"
+title = "Process and Challenges"
 weight = 2
 +++
 
@@ -16,14 +16,8 @@ weight = 2
 
 {{</section>}}
 
-{{<section title="Implementation">}}
+{{<section title="Implementation and Workflow">}}
 #### Backend
 
 #### Frontend 
-{{</section>}}
-
-{{<section title="Workflow">}}
-{{</section>}}
-
-{{<section title="Challenges">}}
 {{</section>}}

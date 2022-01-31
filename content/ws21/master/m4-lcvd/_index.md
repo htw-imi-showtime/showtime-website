@@ -32,7 +32,8 @@ Our mission is to
 * lower anxiety by explaining possible symptoms
 * increase confidence when facing colleagues or doctors because symptom records help patients talk about their experience.
 * encourage patients to be optimistic if the state of their health is improving
-* decrease the feeling of loneliness by showing patients that others have the same problem (TODO: Have we done that?)
+* decrease the feeling of loneliness by showing patients that others have the same problem
+* enable data collection on Long Covid symptoms for scientific use
 
 {{</section >}}
 

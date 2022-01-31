@@ -21,7 +21,9 @@ All our information needs to be based on scientific sources. The source we curre
 ["Empfehlungen zur Unterstützung einer selbstständigen Rehabilitation nach COVID-19-bedingter Erkrankung"](https://apps.who.int/iris/bitstream/handle/10665/345019/WHO-EURO-2021-855-40590-60116-ger.pdf), 
 second edition, published by the WHO Regionalbüro für Europa in 2021.
 
-Additionally we added a feature to display the amount of patients affected by a symptom.
+To show patients that they are not alone we added a pie chart on which percentage of other Long Covid
+patients have been affected by a symptom in the course of their Long Covid illness. This feature does not contain 
+meaningful data yet.
 
 BILD der symptom information view
 
@@ -78,5 +80,7 @@ enable token based authentication.
 {{</section>}}
 
 {{<section title="Settings">}}
+BESCHREIBUNG
 
+BILD
 {{</section>}}
