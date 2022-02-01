@@ -23,7 +23,7 @@ We are a team of four developers coming from different countries and areas of ex
 
 {{<gallery>}}
 {{<team-member image="marino.jpg" name="Marino Gabel">}}
-{{<team-member image="ralf.jpg" name="Ralf Stracker">}}
+{{<team-member image="ralf.png" name="Ralf Stracker">}}
 {{<team-member image="kat.jpg" name="Katrina Rizakova">}}
 {{<team-member image="arnold.jpg" name="Arnold Holler">}}
 {{</gallery>}}
