@@ -6,14 +6,14 @@ weight = 1
 With LCvd's symptom tracking feature, people who have recovered from COVID-19 can note down their condition on a daily basis.
 Because there are many possible symptoms, users can select which symptoms to track and update their choice if needed.
 
-BILD der symptom selection view
+{{<image src="symptom-selection.png" alt="Symptom selection view">}}
 
 New records can be added either in the calender or graph view, using the plus-button. Records can be edited afterwards using the pen-button.
 
 In the tracker view, users can estimate how strong a symbol is, from a scale from 0 (no symptom) to 5.
 When the tracker view is open, one can switch between dates and quickly navigate to today's date.
 
-BILD der Tracker view
+{{<image src="tracker.png" alt="Symptom tracker view">}}
 
 #### Symptom Information
 To help patients understand their symptoms and learn what to do about them we provide them with short explanations. 
@@ -25,7 +25,7 @@ To show patients that they are not alone we added a pie chart on which percentag
 patients have been affected by a symptom in the course of their Long Covid illness. This feature does not contain 
 meaningful data yet.
 
-BILD der symptom information view
+{{<image src="symptom-information.png" alt="Symptom information view">}}
 
 The symptom information can be reached when clicking the question mark in the tracker view.
 
@@ -52,7 +52,7 @@ A line graph displays the course of symptom strength for each individual symptom
 tracked, symptom curves can be turned on and off. The graph can be displayed per week or per month and it is 
 possible to switch between periods of time.
 
-BILDER verschiedener Graphen
+{{<image src="graph.png" alt="Symptom visualization as a graph">}}
 
 #### "Symptom Light"
 LCvd's "symptom light" ("Symptomampel") is shown under the graph representation of the symptom strength curve.
@@ -70,7 +70,7 @@ For clarity the user is provided with an explanation of the "symptom light", whe
 #### PDF
 LCvd's ability to create a PDF with symptom records can provide extra insights for doctors.
 
-BILD des fertigen PDFs
+{{<image src="pdf.png" alt="PDF of symptom records">}}
 
 {{</section>}}
 
