@@ -23,10 +23,7 @@ DRF's [APIClient](https://www.django-rest-framework.org/api-guide/testing/#apicl
 [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519) (JWT) is implemented using DRF's ["Simple JWT"](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) plugin.
 When logging in, users receive a "refresh token" and an "access token". The "access token" needs to be sent in Authentication request headers 
 to authenticate the user, if they want to access a protected API endpoint. Since the "access token" expires after ten minutes, 
-it needs to be refreshed with the "refresh token", which only expires after 14 days. 
-
-The tutorial ["110% Complete JWT Authentication with Django & React - 2020](https://hackernoon.com/110percent-complete-jwt-authentication-with-django-and-react-2020-iejq34ta) was a 
-great help for understanding how to implement JWT with a Django backend.
+it needs to be refreshed with the "refresh token", which only expires after 14 days.
 
 #### PostgreSQL
 [PostgreSQL](https://www.postgresql.org/) is used as a database for LCvd's relational data model. 
@@ -45,10 +42,7 @@ difficult to set up for Windows.
 For production, a Debian server with [Nginx](https://www.nginx.com/) as a web server and  [Gunicorn](https://gunicorn.org/) 
 as an application server are being used instead of Docker. 
 
-The API is can be accessed at https://lcvd.ac0.de/. 
-
-The tutorial [""](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04) 
-helped with understanding how to deploy the Django backend with Nginx and Gunicorn. 
+The API is can be accessed at https://lcvd.ac0.de/.
 {{</section>}}
 
 {{<section title="Tool Stack">}}

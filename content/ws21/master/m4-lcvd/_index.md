@@ -5,7 +5,7 @@ card_image = "logo.svg"
 card_description = "LCvd is an app for tracking and visualizing the existence and strength of Long COVID symptoms."
 source_link = "https://git.myhki.de/lcvd"
 team = ["Emily Gilbert", "Fatlind Krasniqi", "Linda Fernsel", "Paula Osterkamp", "Shari Eichberger"]
-supervisor = "David Koschnick, Matthias"
+supervisor = "David Koschnick, Matthias Daiber"
 +++
 
 {{<mediathek id="73fc815213cba6193247e9f2e057d364" title="Presentation">}}
