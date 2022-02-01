@@ -58,6 +58,9 @@ In the following are a few **impressions**:
 {{<image src="Modal.png" alt="Selection of key data" caption="Key data selection">}}
 {{<image src="Dateien.png" alt="File System" caption="File System">}}
 
+Check out our **Figma project**:
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCXp4b3vkUo48gMpkguhuVJ%2FiBKM%3Fnode-id%3D197%253A78727" allowfullscreen></iframe>
+
 {{</section>}}
 
 {{<section title="Development">}}
@@ -71,6 +74,8 @@ using the utility first approach flips this idea and instead provides classes th
 
 Through the Utility First approach we were able to focus on building our components without having to take care of scaling our Css or use specific methodologies like BEM.
 When building the app the final Css file only contains the classes that we actually used in our code which helps to avoid loading a complete and huge Css library and therefore **guarantees fast rendering time** in the browser.
+
+Since we were already using Tailwind Css we decided to use Headless Ui for our UI components like dropdown menus, transitions, tabs, etc. The reason for this decision was to keep the frontend as independent and lightweight as possible.
 
 During the entire development process we made sure that everything we develop during a sprint would get a full technical/code and functional review to ensure that we only deliver quality, readable code that is easy to maintain and extended in the future.
 
