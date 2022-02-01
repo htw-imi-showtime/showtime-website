@@ -9,13 +9,13 @@ weight = 3
 
 {{<section title="Developing Tools">}}
 
-For the developing process, we used the **"MEVN" stack**, which consists of widely used and good documented tools to build a web application with **HTML, CSS and Javascript**.
+For the developing process, we used the **"MEVN" stack**, which consists of widely used and good documented tools to build a web application with **HTML, CSS and Javascript**. The tool that we worked the most with from this stack was Vue.js, since it is easy to learn and had the advantage of being reactive.
 
 **[MongoDB](https://www.mongodb.com/)**
-* database
+* document based database
 
 **[Express.js](https://expressjs.com/)**
-* extends Node.js
+* JavaScript web framework that extends Node.js
 
 **[Vue.js](https://v3.vuejs.org/)**
 * front-end Javascript framework
@@ -24,15 +24,13 @@ For the developing process, we used the **"MEVN" stack**, which consists of wide
 * Javascript runtime environment 
 
 {{<image src="mevn.png">}}
+
 {{</section>}}
 
 {{<section title="Deploying Tools">}}
 
-**[Docker](https://docker.com/)**
-* packages the application with all its ressources into a container
-
 **[Hochschulrechenzentrum HTW Berlin](https://rz.htw-berlin.de/)**
-* server provider
+* virtual server provider
 
 {{<image src="deployment.png">}}
 {{</section>}}
