@@ -19,9 +19,9 @@ Since the studyplan can only help IMI bachelor students with their elective cour
 #### All courses
 Instead of only being able to register for elective courses, the application can be extended so that you are able to **apply for all the other courses as well**. We were focusing on the elective courses for now, since we could see that the most trouble is happening there. We also worked out a fitting user interface while the UI team was playing around with different ideas, which could show all available courses without getting too confusing.
 
-{{<image src="finalDesign.png">}}
-
 {{</section>}}
+
+{{<image src="finalDesign.png">}}
 
 {{<section title="Forking information from reliable source">}}
 
