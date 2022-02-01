@@ -1,8 +1,8 @@
 +++
 title = "LCvd"
 project_id = "M4"
-card_image = "logo.svg"
-card_description = "LCvd is an app for tracking and visualizing the existence and strength of Long COVID symptoms."
+card_image = "logo.png"
+card_description = "LCvd is an app for tracking and visualizing the existence and strength of Long COVID symptoms"
 source_link = "https://git.myhki.de/lcvd"
 team = ["Emily Gilbert", "Fatlind Krasniqi", "Linda Fernsel", "Paula Osterkamp", "Shari Eichberger"]
 supervisor = "David Koschnick, Matthias Daiber"
@@ -11,14 +11,14 @@ supervisor = "David Koschnick, Matthias Daiber"
 {{<mediathek id="73fc815213cba6193247e9f2e057d364" title="Presentation">}}
 
 {{<section title="Motivation">}}
-"Long COVID" is an illness with a range of possible symptoms that appear after a Corona infection, either continuingly 
-or consequentially of Corona ([Koczulla et. al., 2021], p.6f). Some of the over 20 known symptoms include fatigue, shortness of breath, or 
-memory problems ([Koczulla et. al., 2021], p.59). Long COVID is diagnosed and the symptoms treated after a medical examination ([Koczulla et. al., 2021], p.9). 
-If the patient’s medical condition worsens, their physician needs to refer them to a specialist for the concerned organ 
+"Long COVID" is an illness with a range of possible symptoms that appear after a Corona infection, either continuingly
+or consequentially of Corona ([Koczulla et. al., 2021], p.6f). Some of the over 20 known symptoms include fatigue, shortness of breath, or
+memory problems ([Koczulla et. al., 2021], p.59). Long COVID is diagnosed and the symptoms treated after a medical examination ([Koczulla et. al., 2021], p.9).
+If the patient’s medical condition worsens, their physician needs to refer them to a specialist for the concerned organ
 (eg. a pneumologist) ([Koczulla et. al., 2021], p.9f).
 
-With about 80% of patients suffering from one or more symptoms even two weeks after their diagnose, Long COVID is very common ([Lopez-Leon et. al., 2021], p.6). 
-COVID patients suffering from Long COVID can feel very distressed. For example, in ([Median Kliniken, 2022]) patients report 
+With about 80% of patients suffering from one or more symptoms even two weeks after their diagnose, Long COVID is very common ([Lopez-Leon et. al., 2021], p.6).
+COVID patients suffering from Long COVID can feel very distressed. For example, in ([Median Kliniken, 2022]) patients report
 * feeling misunderstood by their peers
 * being pressured by their colleagues
 * finding it hard to accept their momentary physical limitations
@@ -27,7 +27,7 @@ COVID patients suffering from Long COVID can feel very distressed. For example, 
 {{</section >}}
 
 {{<section title="Mission">}}
-Our mission is to 
+Our mission is to
 * reduce helplessness by enabling patients to make informed decisions about seeing a doctor
 * lower anxiety by explaining possible symptoms
 * increase confidence when facing colleagues or doctors because symptom records help patients talk about their experience.
