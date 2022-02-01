@@ -6,14 +6,10 @@ weight = 1
 With LCvd's symptom tracking feature, people who have recovered from COVID-19 can note down their condition on a daily basis.
 Because there are many possible symptoms, users can select which symptoms to track and update their choice if needed.
 
-{{<image src="symptom-selection.png" alt="Symptom selection view">}}
-
 New records can be added either in the calender or graph view, using the plus-button. Records can be edited afterwards using the pen-button.
 
 In the tracker view, users can estimate how strong a symbol is, from a scale from 0 (no symptom) to 5.
 When the tracker view is open, one can switch between dates and quickly navigate to today's date.
-
-{{<image src="tracker.png" alt="Symptom tracker view">}}
 
 #### Symptom Information
 To help patients understand their symptoms and learn what to do about them we provide them with short explanations. 
@@ -24,8 +20,6 @@ second edition, published by the WHO Regionalbüro für Europa in 2021.
 To show patients that they are not alone we added a pie chart on which percentage of other Long Covid
 patients have been affected by a symptom in the course of their Long Covid illness. This feature does not contain 
 meaningful data yet.
-
-{{<image src="symptom-information.png" alt="Symptom information view">}}
 
 The symptom information can be reached when clicking the question mark in the tracker view.
 
@@ -45,14 +39,10 @@ A calendar shows for which days the symptom strength has been recorded. One can 
 by swiping. One can select a day and can then either see the record for that day or be prompted to 
 track symptom strength for that day.
 
-BILD des Calender
-
 #### Graph
 A line graph displays the course of symptom strength for each individual symptom. If multiple symptoms are being 
 tracked, symptom curves can be turned on and off. The graph can be displayed per week or per month and it is 
 possible to switch between periods of time.
-
-{{<image src="graph.png" alt="Symptom visualization as a graph">}}
 
 #### "Symptom Light"
 LCvd's "symptom light" ("Symptomampel") is shown under the graph representation of the symptom strength curve.
@@ -61,17 +51,12 @@ necessary. The "symptom light"'s color is based on the growth rate of a symptom'
 month, depending on which period of time has been selected in the graph view.
 If the symptom is getting stronger, the light switches to red. If it gets better, it switches to green. 
 If the symptom strength stays the same, the light switches to yellow. TODO: Internally, we calculate the growth rate 
-with linear regression. 
-
-BILD der Symptomampel
+with linear regression.
 
 For clarity the user is provided with an explanation of the "symptom light", when clicking on the question mark.
 
 #### PDF
 LCvd's ability to create a PDF with symptom records can provide extra insights for doctors.
-
-{{<image src="pdf.png" alt="PDF of symptom records">}}
-
 {{</section>}}
 
 {{<section title="Registration and Authentication">}}
@@ -84,3 +69,12 @@ BESCHREIBUNG
 
 BILD
 {{</section>}}
+
+{{<gallery>}}
+{{<image src="symptom-selection.png" alt="Symptom selection">}}
+{{<image src="tracker.png" alt="Symptom tracker view" caption="Symptom tracker">}}
+{{<image src="symptom-information.png" alt="Symptom information view" caption="Symptom information">}}
+{{<image src="calendar.png" alt="Calendar" caption="Calendar">}}
+{{<image src="graph.png" alt="Symptom visualization as a graph with symptom light" caption="Symptom visualization as a graph and symptom lights">}}
+{{<image src="pdf.png" alt="PDF of symptom records" caption="Symptom visualization as PDF">}}
+{{</gallery>}}
