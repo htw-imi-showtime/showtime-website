@@ -1,5 +1,5 @@
 +++
-title = "Intelligent Balancing Group Management"
+title = "Intelligentes Bilanzkreismanagement"
 project_id = "M4"
 
 # Properties for displaying the project in the project list
