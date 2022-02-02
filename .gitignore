@@ -5,6 +5,8 @@ Thumbs.db
 # Hugo
 /public/
 /resources/_gen/
+.hugo_build.lock
 
 # Ignore Idea
 .idea/
+.history/

@@ -4,52 +4,71 @@ weight = 2
 +++
 
 
-{{<section title="First steps">}}
-Our **goal was clear**. We generally knew what we had to do to reach our goal.
-Some **questions** still **came up**, that had to be answered first, before starting to code.
-We had to first **decide on a framework** we want to use.
-It was also important to know upfront whether our app is **offline or online**.
-After answering all these questions, we **split up in two subgroups**. One group was **responsible for the backend** and how we would **retrieve the data**.
-The other group was **responsible for the frontend** and how we **integrate the text recognition plugin**.
-We were **always staying in contact** and **communicating with each other regularly**.
-We **stayed** in these **subgroups** up until our **prototype was done**.
-{{</section>}}
-{{<section title="Mockups">}}
-We knew a couple of things before thinking of our design. Our app would have three pages: A **search, camera and history screen**. We also liked the idea of **valuing a clean and simple design over a complex one** because it fits our app the best.
-{{</section>}}
-{{<image src="mockups_triple.png" alt="Mockups">}}
-{{<section title="Evolution of our design">}}
-For our **prototype**, we wanted to make sure that our **basic structure** and **feature set** is **present**. Our **UI** wasn't the **main focus at that point**. After having our prototype, we also set out to **improve our UI** by making it **look more like our Mockup**.
-{{</section>}}
-{{<image src="evolution_of_history.png" alt="Evolution of history" caption="Evolution of our history screen">}}
 
-{{<section title="Second phase">}}
-Our second phase started with a **brainstorm**.
-We thought about **possible features** and **sorted them by their priority**.
-This process took some time because we came up with great ideas but filtering them to what was possible in our given time window wasn't easy.  
-The **Miro board helped us** a lot in the process of visualising and managing our ideas.
-We also used it as a Task/Kanban board.
-We **never ran out of ideas**, therefore our idea collection and **prioritisation changed weekly**.
-Staying in touch with our **supervisor helped us** a good deal with our decision making over which features to implement.
-Keeping a **constant communication flow allowed** us to be **very flexible**.
-This phase lasted until the end of our development.
+{{<section title="Gathering Information">}}
+First, the team needed to gather information about the internship administration process and the changes that had been made to it due to the COVID19-Pandemic. To do this we repeated the following three steps:
+* Talk to previous and current internship officers and the student assistants in the internship administration.
+* Understand and visualize the process.
+* Talk about the visualisations and make adjustments accordingly.
 {{</section>}}
 
-{{<section title="Obstacles">}}
-#### Group responsible for our data retrieval
 
-Our backend group struggled with retrieving data at first.
-Since our **data came from the European Commission**, who was **fond of helping people** who were going to use the data, we knew that we wanted to **get in touch** with them to see if they had an **API endpoint** or something else to help us in any way.
-It turns out they had one, but it was **poorly documented**.
-We **didn't know** how to **access the data** we wanted.
-After a lot of **confusion** and a couple of **mails exchanging**, we found out that the endpoint **didn't even provide a way to access the data** but only to return a file containing the data.
-So it was a **dead-end** and cost us at least 1 1/2 weeks.
 
-#### Group responsible for our text recognition
+{{<section title="What to keep?">}}
+The next step was to evaluate the current IMI-Map and to decide what to keep and what to toss out. Due to the IMI-Map having an 8-year history there were a lot of relics of past ideas. Over the years there had also been a lot of additions to the IMI-Map and not a lot of cleaning up grown-out-of-hand models or unused features.
 
-At around the same time, the other group struggled with their own problems.
-One of their tasks was to **cut unnecessary words from our recognized text**, so we didn't have to search for them in our database hence improving our performance.
-Their **idea** was to use **RegEx** but **no one** in our group **has used** RegEx before.
-It was quite a **drag** for them to get into RegEx, especially because we had so many **little details to consider**.
-This was an **ongoing process** up until the end because there was always **something to improve on**.
+We ended up keeping all of the main features of the old IMI-Map. Amongst other things we tossed out old attempts on review processes and decided to redesign the models completely.
+{{</section>}}
+
+
+
+{{<section title="What to add?">}}
+Now we needed to decide if we wanted to add anything. Talking to the internship officer and the student assistants gave us a lot of ideas what could be improved. We landed on:
+* Implementing the handling of all the required PDFs using the IMI-Map to make the internship administration process more seamless.
+* Using [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) to be able to keep an administration history of internships and also to de-clutter the internship model a lot because it didn't have to save the states of each of its components. Event Sourcing would take care of that.
+* Designing a new admin interface including quick actions and more to make the internship administration process faster and less tedious.
+* Redesigning the models that had grown and developed over the years to be huge.
+{{</section>}}
+
+
+
+{{<section title="Rewriting">}}
+After the concept was done we started implementing. We started working on frontend and backend separately. Simultaneously we worked on a deployment process and on a login strategy.
+
+Once we had finished frontend and backend we connected them with an API and added Cypress tests.
+
+{{</section>}}
+
+
+
+{{<section title="Challenges">}}
+
+The migration of the IMI-Map posed a few interesting challenges that we solved over the course of the semester. Besides migrating the data and data schemes from a relational database (PostgreSQL) to a document based database (MongoDB), we had one major challenge to overcome.
+
+
+### The Story of Implementing an Administration History
+
+## The Missing Administration History
+In the old IMI-Map there was no administration history. It was not possible to track which administrative tasks were completed when and by whom for all administrative tasks.
+In more complicated cases with exceptions from the main routine, seeing just the current status without the former process for an internship was not enough. So we decided to address this issue in the new IMI-Map.
+
+## Implementing Administration History with Event Sourcing
+The idea was, that in the new IMI-Map this problem could be solved using [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html), which is a pattern described by Martin Fowler. Event Sourcing is a strategy which records all events changing a resource, rather than only the current status of this resource. According to Fowlers description the objects will not be updated again once they are created, but all changes to the objects are captured using events. The most recent version of an object is then accessed by executing all of the objects event up to a given point. This also makes it accessing an object at any point in it's history possible - exactly as it was then.
+
+{{<image src="event_sourcing.png" alt="Example Event Sourcing" >}}
+
+This seemed like the perfect fit for our problem. After idefining which events we would need and how exactly they could be implemented to best depict the process of the internship administration we went on to implement it.
+
+## Combining Event Sourcing and Querying
+While implementing the described solution in the new IMI-Map, we discovered a challenge posed to us by Mongoose.js. Because with [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) the original object is never changed directly, we decided to use virtual properties in some cases (e.g. for internship states). These virtual properties are computed from our events when the object is accessed - which means they are not written in the objects document and don't exist in the database. This decision turned out to be complicating how an object can be queried from the database, because what is not in the database can't be queried.
+
+To take care of these different needs for storing data on the one hand and querying data on the other hand, Martin Fowler has described a pattern called [Reporting Database](https://martinfowler.com/bliki/ReportingDatabase.html). With this pattern an application has two databases with different schemas - one for executing operations on the data and storing it, one for executing queries (reporting) on the data.
+
+{{<image src="reporting_database.png" alt="Example Event Sourcing" >}}
+
+## The Implementation
+However, we deemed an implementation of the [Reporting Database](https://martinfowler.com/bliki/ReportingDatabase.html) pattern too extensive. So we decided to adapt the [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) pattern to fit our needs and timeframe:
+
+Instead of adding another database to the new IMI-Map, we adapted the already implemented Mongoose-schemas to include the information we would need to query as properties. When an event is triggered, the corresponding propertie(s) are updated in the original object. Because the events still exist in the database, the administration history can still be followed up on.
+
 {{</section>}}

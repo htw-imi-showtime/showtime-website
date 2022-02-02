@@ -1,5 +1,5 @@
 +++
-showtime_date = "16/07/2021"
+showtime_date = "11/02/2022"
 showtime_place = "REMOTE"
 is_live = "false"
 zoom_link = "TBD"
@@ -14,7 +14,7 @@ in their virtual booths or watch the presentation videos,
 websites, and demos when it fits you best!
 {{</teaser>}}
 
-{{<teaser category="projects" title="One Term Ten Projects">}}
+{{<teaser category="projects" title="One Term Nine Projects">}}
 Bachelor students do one, Master students two practical projects during their studies. This term, we
 are happy to present six projects in the Bachelor's and four Projects in the Master's programme.
 [-> discover_the_projects](/projects)

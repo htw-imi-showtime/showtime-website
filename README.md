@@ -1,11 +1,13 @@
 # IMI Showtime Website
 The official IMI showtime website
 
-![deploy staging](https://github.com/htw-imi-showtime/showtime-website/workflows/deploy%20staging/badge.svg)
+[![deploy staging (htw-imi-showtime.github.io)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml)
+[![deploy production (https://showtime.f4.htw-berlin.de/)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-production.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-production.yml)
+
+
+[Staging: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
 
 [Website: https://showtime.f4.htw-berlin.de/](https://showtime.f4.htw-berlin.de/)
-
-[Preview: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
 
 - [Adding a new project](#adding-a-new-project)
 - [Updating your Fork](#updating-your-fork)
@@ -41,20 +43,19 @@ cd showtime-website
    ```
    git submodule update --init --recursive
    ```
-   
    * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
 
 
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ss21/bachelor/b0-template-project/ content/ss21/bachelor/b#-your-project/
+cp -R content/ws21/bachelor/b0-template-project/ content/ws21/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ss21/master/m0-template-project/ content/ss21/master/m#-your-project/
+cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-5. Fill out your project's homepage `content/ss21/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+5. Fill out your project's homepage `content/ws21/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    **Please don't use Markdown headings (hashtags) directly, since those headings won't be displayed correctly.**
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
@@ -63,7 +64,7 @@ cp -R content/ss21/master/m0-template-project/ content/ss21/master/m#-your-proje
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ss21/<bachelor|master>/<project_number-your-project>
+git add content/ws21/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
@@ -170,6 +171,8 @@ Example: Embedding https://gist.github.com/Kaes3kuch3n/643befb000375fea7c5f675fb
 {{<gist "Kaes3kuch3n" "643befb000375fea7c5f675fb180cfbd">}}
 ```
 
+# Site Administration
+
 ## Adding a new semester
 This repository contains a utility script to transition the website to a new semester.
 It changes the semester set in the config file (`current_semester` in `config/_default/config.toml`) and
@@ -177,7 +180,41 @@ scaffolds the folder structure for the projects of the new semester.
 ```shell
 ./new_semester.sh <semester>
 ```
-Example: Transitioning to winter semester 2021/22
+Example: Transitioning to summer semester 2021/22
 ```shell
 ./new_semester.sh ss21
 ```
+
+## Deployment Setup
+
+### Staging
+
+Every push on main is deployed to the Github Page in the repo
+https://github.com/htw-imi-showtime/htw-imi-showtime.github.io
+
+see the workflow definition in [.github/workflows/deploy-staging.yml](.github/workflows/deploy-staging.yml)
+
+the secret ACTIONS_DEPLOY_KEY in
+https://github.com/htw-imi-showtime/showtime-website/settings/secrets/actions
+
+is defined in
+https://github.com/htw-imi-showtime/htw-imi-showtime.github.io/settings/keys
+
+### Production
+
+For production, each github release is build and scp'ed to showtime.f4.htw-berlin.de
+
+see the workflow definition in [.github/workflows/deploy-production.yml](.github/workflows/deploy-production.yml)
+
+for the scp, the rsa key credentials must be set correctly in the [Repo's Secrets](https://github.com/htw-imi-showtime/showtime-website/settings/secrets/actions) - generate new ones with root access on the server if lost.
+
+### Create a new Release:
+
+- Tag the according commit and push the tag:
+    git tag 2021.1.2
+    git push <tag>
+
+with 2021.1 for the first semester in 2021 (summer) and .2 for the second version.
+
+
+- [Create a new release on github](https://github.com/htw-imi-showtime/showtime-website/releases)

@@ -3,60 +3,42 @@ title = "Features"
 weight = 1
 +++
 
-{{<image src="Overview_features.png" alt="Mockup" >}}
-{{<section title="Feature set" >}}
-#### Offline Data
-Our app is completely offline compatible
-We have **over 30.000 ingredients** stored in our data set.
-It was important for us to guarantee that the user is always able to use the app. Therefore we didn't want to rely on an internet connection.
 
-#### Text Recognition/Filtering
-Our app uses the Firebase ML text recognition to recognise the ingredients on the back of the product.
+{{<section title="The Old IMI-Map" >}}
+The goal of this project was to rewrite the IMI-Map using a new Tech Stack. So we rewrote the app implementing all the features of the old IMI-Map:
 
-The **backside** of a product is **full of information that isn't interesting to us or our app**. So **filtering out** the information we need was quite **important for the performance** of our app.
-Some things that our app takes into account is **how** the **ingredients are separated**. It differs from product to product how they separate the ingredients, **some use commas**, some use **dashes**, some just use **spaces**. For our app to scan products as fast as possible, we need to recognise which word is an ingredient and which isn't, so our search algorithm doesn't have to search for words that aren't ingredients.
-Another way to improve our text filter was to **look for the word 'ingredients'** or variations of it. In most cases, the list of ingredients starts with the word 'ingredients', so **finding this word** in our text **helped us locate the list of ingredients** in our scanned text.
+{{<image src="features_old.png" alt="Features Old" >}}
 
-#### Allergies
-One of our **core features** is the allergy feature. This feature **derived from one of our User Personas** that we created for our app. **People with allergies** can use our app to **manage** them and use it as a **signal** for whenever they are about to **buy a product they are allergic to**.  
+**Internship Search**
+* Students can search the internship database of the IMI-Map to get inspiration for their own internship.
 
+**Internship Postponements**
+* Students can request a postponement of their internship using the IMI-Map. These requests can then be processed and accepted or denied by the internship officer using the IMI-Map as well.
 
+**Internship Registration**
+* Students can register their internships using the IMI-Map. They can print their registration form from the IMI-Map to hand in with the internship officer.
+
+**Internship Administration**
+* The internship officer can use the IMI-Map to keep track of the internships and the corresponding paperwork.
 {{</section>}}
 
-<!--{{<image src="dummy_feature_image_01.png" alt="An Essential Functionality" caption="An Essential Functionality">}} -->
-{{<section title="String matching algorithm">}}
-Levenshtein distance is an **approximate string matching algorithm**, which calculates the distance between two words.
-The distance is calculated via the three operations: **insertion, deletion and substitution**.
-The reason we needed an **approximate** string matching algorithm, is because we are working with text recognition and text recognition is **prone to errors**.
-We used this algorithm in **combination** with the **Trie data structure** in order to guarantee **fast querying** of our data.
+{{<section title="The New IMI-Map">}}
+The process of finding and administrating internships had undergone some changes and digitisation during the COVID19-Pandemic. Therefore we also identified new features to implement and extend the old IMI-Map with:
+
+{{<image src="features_new.png" alt="Features New" >}}
+
+**Cleaner Data**
+* In the old IMI-Map there was a lot of unused data as relics from no longer maintained features. When rethinking the data models we took this into account and considered each model and each field of the model whether it was neccessary or not.
+
+**Administration History**
+* Using [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) the new IMI-Map lets the internship officer track the steps that led to the current state of the internship.
+
+**Manage PDFs via the IMI-Map**
+* Due to the COVID-19 induced digitisation from a paper based process to a PDF based process in the internship administration the new IMI-Map now supports the management of these PDFs directly inside the IMI-Map.
+
+**Redesigned Administration Interface**
+* The new IMI-Map has a completely redesigned administration interface for easier administration of the internships. This new interface includes:
+  * Quick actions for easy access to the next administration steps.
+  * Automatic aggregation of the duration of all the internship parts to check whether the parts add up to enough weeks.
+  * And more...
 {{</section>}}
-
-{{<gist "jonathanjander" "a56dde942b2aa9ad7e78887e6086fc97">}}
-
-
-<!--{{<section title="A Copy-pasted Feature">}}
-And, as I lie **close to the earth**, a thousand unknown plants are noticed by me: when I hear the buzz
-of the little world among the stalks, and grow familiar with the countless indescribable forms of
-the insects and flies, then I feel **the presence of the Universe**, which formed us in its own image,
-and the breath of that universal love which bears and sustains us, as it floats around us in an
-**eternity of bliss;** and then, my friend, when darkness overspreads my eyes, and heaven and earth
-seem to dwell in my soul and absorb its power.
-
-Have a look at **this list:**
-* You get a list item
-* And you get a list item
-* And you as well
-* And you get a list item
-* EvErYbOdY gEtS a LiSt ItEm!!!
-
-{{</section>}}
-
-{{<mediathek id="447fbfc91fd121a16b124417cd2c65ae" title="Explanatory Video">}}
-
- I sink under the weight of the splendour of these visions! A wonderful serenity
- has taken possession of my entire soul, like these sweet mornings of spring
- which I enjoy with my whole heart. I am alone, and feel the charm of existence
- in this spot, which was created for the bliss of souls like mine. I am so happy,
- my dear friend, so absorbed in the exquisite sense of mere tranquil existence,
- that I neglect my talents.
- -->

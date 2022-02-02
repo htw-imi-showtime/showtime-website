@@ -3,24 +3,33 @@ title = "Future"
 weight = 4
 +++
 
-{{<section title="So, what's next?">}}
-While things like improving the text recognition or speeding up the scanning are ongoing processes, we still have some ideas for new features that will improve the app.
-One thing that is on our bucket list, is to contact the **European Commission** because they have **shown interest** in projects that use their data. 
-The European Commission has other datasets that are related to the CosIng dataset that we use, so we want to **expand our dataset** and implement relations between these datasets.
+{{<section title="What's next?">}}
+With this version of the IMI-Map we have achieved a significant improvement over the previous version. We sincerely hope the long tradition of student projects and theses will continue and further generations of IMIs will continue maintaining and improving the IMI-Map.
+
+And we already have a few ideas:
 
 {{</section>}}
 
-{{<section title="Features">}}
-#### Groups for common allergies
-There are a couple of common allergies like peanuts and shellfish out there. Our idea is to have **groups** for these allergies. Once a user selects one of the products, we **mark all the related allergies** to that product. It should make the **initial setup** of our app a little **easier**.
+{{<section title="Future Ideas">}}
+**Review Processes**
 
-#### Advanced camera
-While our camera does what it is supposed to do, it is still pretty bare bones. **Post-processing for our images** is the keyword here. Little things like **adjusting the brightness** so the text recognition has an easier time recognising the text. We also want to give the user options like **turning on the flashlight** etc.
+The idea for a possibility of reviewing internships in the IMI-Map has been around since before our project. It has come up during our project as well before it became clear that it would fall outside the scope of this project.
 
-#### Barcode scanning
-There are a couple of apps out there that can scan the barcode of cosmetic products. While scanning the text is generally a better idea because not all products have barcodes on them, scanning the barcode still has a **couple of perks**, so **providing both options** is something we will look into as an upcoming feature.
+Students could be asked to review their internships according to certain criteria. Other students that are looking for internships using the IMI-Map could then get more information about the placement and the experience and make a more informed decision.
 
-#### Expandable database by users
-One of our ideas would be to **give the users the chance** to **improve our app** by adding useful information to the substances itself. They could either **add additional information** to the content that is already there or just have some **notes** to the substances, like their **prior experiences**, connections to other substances, etc.
+**PDF Parsing**
+
+Because the IMI-Map can now handle all the required PDF-documents, these documents could be parsed for information. For example:
+* Once the contract is uploaded it could be parsed for information, so the students do not have to enter place of work, working hours and salary themselves.
+* Once the student uploaded the grade transcript there could be an automatic check to see whether they have completed all the required courses or not. That way the internship officer does not have to check this manually.
+
+**LSF Connection**
+
+The student could grant the IMI-Map access to their grade transcript via LSF directly. This would eliminate the need for the student to download their grade transcript from LSF and then upload it again into the IMI-Map. Additionally, the administrator could see more easily whether the course accompanying the internship (AEP) has been passed.
 
 
+**Login via SAML**
+
+The login could be changed to use SAML instead of LDAP, so the users of the IMI-Map don't have to give their HTW-Password to the IMI-Map but can sign on via the HTW sign on service.
+
+{{</section>}}
