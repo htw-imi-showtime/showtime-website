@@ -3,8 +3,18 @@ title = "Tech Stack and Tool Stack"
 weight = 3
 +++
 {{<section title="Tech Stack">}}
-#### NativeScript
-TODO
+#### NativeScript-Vue
+[NativeScript](https://nativescript.org/) is an open-souce framework to access native API's in JavaScript. With the help of Android Studio and XCode it allows for building truly native applications with a JavaScript frontend framework, in this case Vue.js.
+During the development emulators have been used to preview the app.
+
+#### TypeScript
+TypeScript adds static typing to JavaScript and therefore makes it easier to understand and debug the code.
+It also transpiles to JavaScript. Combined with Vue.js it was used with the
+[class-style](https://class-component.vuejs.org/) syntax.
+
+#### Chart.js
+[Chart.js](https://www.chartjs.org/) is an open-source JavaScript library for data visualization. It was used to create
+a line graph inside a WebView in the LCvd application.
 
 #### Django
 [Django](https://www.djangoproject.com/) is a Python framework for developing web apps. We used it 
@@ -52,10 +62,10 @@ The team used [Git](https://git-scm.com/) for source code management. The backen
 feature and Wiki are used for organizing the team's tasks.
 
 #### Adobe XD
-Adobe XD is a software for creating non-functional prototypes with a focus on visuals and 
-user experience. 
+[Adobe XD](https://www.adobe.com/de/products/xd.html) is a software for creating non-functional prototypes with a focus on visuals and user experience. With it's rich features and plugins the tool has been
+used collaboratively to create a visual design for the LCvd App.
 
-TODO: Mehr?
+{{<image src="adobe-xd.png" alt="Visual design of the App in Adobe XD">}}
 
 #### Miro
 [Miro](https://miro.com/) is a virtual, collaborative white board that accompanied the complete design process of LCvd. It has been used to 
@@ -72,8 +82,10 @@ TODO: Mehr?
 JetBrain's [PyCharm](https://www.jetbrains.com/pycharm/) is used as an IDE for the backend, since it is specially 
 designed for Python software.
 
-#### VisualStudio Code
-TODO?
+#### Visual Studio Code
+[Visual Studio Code](https://code.visualstudio.com/) is a code editor. It can be enriched with many extensions to fit
+the needs for different projects.
+For the frontend especially the Vetur and NativeScript extensions were used to assist the development process.
 
 #### Postman
 [Postman](https://www.postman.com/) is a client for making API requests. It has been used to document the API 
