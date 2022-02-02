@@ -96,8 +96,12 @@ needed to be set in different ways, eg. in the Django "settings.py"-file.
 ##### Deployment
 When the development of the backend was almost complete we deployed it to a Debian server with Nginx as a web server and Gunicorn 
 as the application server. Since we didn't use Docker for production we had to replace the entrypoint script that makes 
-migrations and creates a superuser with a slightly modified bash script that also starts the virtual environment and Gunicorn. 
-The script is run by the "backend" service that we created on the Debian server. 
+migrations and creates a superuser with two slightly modified bash scripts:
+* one to initialize the backend on the server by creating a superuser and installing data fixture 
+* one that makes migrations and starts the virtual environment and Gunicorn. 
+
+The latter script is run by the "backend" service that we created on the Debian server and is re-run to restart the application 
+server whenever it is stopped. 
 
 The tutorial ["How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04"](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
 helped with understanding how to deploy the Django backend with Nginx and Gunicorn.
