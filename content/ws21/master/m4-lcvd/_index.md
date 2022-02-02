@@ -43,8 +43,8 @@ The LCvd team consists of five students. Four team members worked on the elabora
 
 {{<gallery>}}
 {{<team-member image="emily.png" name="Emily">}}
-{{<team-member image="fatlind.jpg" name="Fatlind">}}
-{{<team-member image="linda.jpg" name="Linda">}}
+{{<team-member image="fatlind.png" name="Fatlind">}}
+{{<team-member image="linda.png" name="Linda">}}
 {{<team-member image="paula.png" name="Paula">}}
 {{<team-member image="shari.png" name="Shari">}}
 {{</gallery>}}
