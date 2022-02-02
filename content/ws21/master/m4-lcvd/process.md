@@ -44,6 +44,8 @@ We first created a paper prototype for our app. That way we learned which views 
 As a second prototype we created an Adobe XD prototype for the visual design. We tried out different design ideas and 
 decided to go with a green theme and color gradients.
 
+{{<image src="adobe-xd.png" alt="Visual design of the App in Adobe XD">}}
+
 #### Data Model
 Based on our features we designed the following data model. 
 

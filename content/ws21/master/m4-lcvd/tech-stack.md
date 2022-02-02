@@ -59,8 +59,6 @@ feature and Wiki are used for organizing the team's tasks.
 [Adobe XD](https://www.adobe.com/de/products/xd.html) is a software for creating non-functional prototypes with a focus on visuals and user experience. With it's rich features and plugins the tool has been
 used collaboratively to create a visual design for the LCvd App.
 
-{{<image src="adobe-xd.png" alt="Visual design of the App in Adobe XD">}}
-
 #### Miro
 [Miro](https://miro.com/) is a virtual, collaborative white board that accompanied the complete design process of LCvd. It has been used to 
 * collect information during the extensive Long Covid research
@@ -69,8 +67,6 @@ used collaboratively to create a visual design for the LCvd App.
 * collect, group and prioritize User Stories 
 * collect Paper Prototyping results
 * design the data model (shown in the example below)
-
-{{<image src="data-model.jpg" alt="LCvd's data model">}}
 
 #### PyCharm
 JetBrain's [PyCharm](https://www.jetbrains.com/pycharm/) is used as an IDE for the backend, since it is specially 
