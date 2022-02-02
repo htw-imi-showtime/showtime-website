@@ -39,12 +39,13 @@ Those we clustered into five main topics and prioritized them. Here are those Us
   * As a patient of Long Covid I want to be reminded about positive development to stay motivated
   * As a patient I want to be notified when I should see a doctor
 
-#### Prototype 
-We first created a paper prototype for our app. That way we learned which views were going to contain which functions. 
-As a second prototype we created an Adobe XD prototype for the visual design. We tried out different design ideas and 
+#### Prototyping
+After deciding on all the features we figured out the different screens the app should have and which functionalities,
+information and links should be presented on it. From there we created a paper prototype for the app.
+Next we created a second prototype in Adobe XD for the visual design and user experience. We tried out different design ideas and 
 decided to go with a green theme and color gradients.
 
-{{<image src="adobe-xd.png" alt="Visual design of the App in Adobe XD">}}
+{{<image src="prototype.png" alt="Prototyping stages">}}
 
 #### Data Model
 Based on our features we designed the following data model. 
@@ -108,5 +109,32 @@ server whenever it is stopped.
 The tutorial ["How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04"](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
 helped with understanding how to deploy the Django backend with Nginx and Gunicorn.
 
-#### Frontend 
+#### Frontend
+In the frontend we started out by setting up NativeScript and a basic NativeScript-Vue app.
+We then began implementing the most important views: the calendar, tracker, signup and login and visualization.
+Once the login was available in the backend we began implementing the requests to the backend and managing the application
+state with Vuex. We also made sure to save the JWT in the Application Settings, so that users won't have to login again after
+reopening the app. After all the requests were finished, we started working on the rest of the views.
+
+With NativeScript it is not possible to use HTML-Elements in the template, since the app is not run in a browser but in a native environment. Therefore the use of NativeScript-Elements is imperative which create a wrapper for the native UI Components of Android and iOS. This can be challenging since for some elements there are differences between Android and iOS that need to be accounted for and
+some of them can't be resolved by different styling. Another challenge is that not all the features are documented well or the
+documentation pages seem to be unavailable.
+
+This was also the case for the visulization which we wanted to create by using the NativeScript UI Charts. This turned out to be
+very difficult since the documentation on it was so spare. After working on it for a while and figuring out the details of how to use it
+ourselves, we realized that the features where not enough to achieve the visualization we had imagined. Therefore we had to find another way. Using a WebView we were able to create the visualization with the JavaScript library Chart.js. The data for the visualization is passed using the src of the WebView.
+
+```jsx
+this.webViewSrc = `~/assets/graph.html?${JSON.stringify(this.data)}`;
+```
+
+The variable webViewSrc is bound to the src of the WebView, so every time the variable changes the WebView reloads with the new data that is passed as stringified JSON in the src. In the HTML-File that creates the visualization the data can then be parsed to a JavaScript object again.
+
+```jsx
+let loc = document.location.href;
+let data = JSON.parse(
+    decodeURI(loc.substring(loc.indexOf("?") + 1))
+);
+```
+
 {{</section>}}
