@@ -8,7 +8,7 @@ team = ["Emily Gilbert", "Fatlind Krasniqi", "Linda Fernsel", "Paula Osterkamp",
 supervisor = "David Koschnick, Matthias Daiber"
 +++
 
-{{<mediathek id="73fc815213cba6193247e9f2e057d364" title="Presentation">}}
+<!--{{<mediathek id="" title="Presentation">}}-->
 
 {{<section title="Motivation">}}
 "Long COVID" is an illness with a range of possible symptoms that appear after a Corona infection, either continuingly
