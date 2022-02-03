@@ -10,12 +10,12 @@ weight = 1
 {{<image src="LiveT.png" alt="Mockup" >}}
 ## Browser Page
 {{<image src="BrowserT.png" alt="Mockup" >}}
-## Favorites
-{{<image src="MerkzettelT.png" alt="Mockup" >}}
+## Categories 
+{{<image src="filterT.png" alt="Mockup" >}}
 ## Extended View
 {{<image src="ExtendedT.png" alt="Mockup" >}}
-## Categories 
-{{<image src="KategorieT.png" alt="Mockup" >}}
+## Favorites
+{{<image src="FavoritenT.png" alt="Mockup" >}}
 ## Search
 {{<image src="SearchT.png" alt="Mockup" >}}
 ## Settings

@@ -19,8 +19,8 @@ supervisor = "Tino Nitze"
 
 {{<mediathek id="cdb9d4bc8432e2ebca013c0ce410e240" >}}
 
-{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="Doge">}}
-much wow, such stroll**r**, best app to go out for a walk with me.
+{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="video">}}
+add video here
 {{</quote>}}
 
 {{<section title="Our Goal">}}
@@ -35,10 +35,10 @@ The Penny Pincher team is comprised of **motivated students** with different lev
 {{<team-member image="dimitar.jpg" name="Dimitar">}}
 {{<team-member image="christian.jpg" name="Christian">}}
 {{<team-member image="marcel.jpg" name="Marcel">}}
-{{<team-member image="hiep.jpg" name="Hiep">}}
+{{<team-member image="hiep.jpeg" name="Hiep">}}
 {{<team-member image="magdalena.jpeg" name="Magdalena">}}
 {{<team-member image="hermes.jpg" name="Hermes">}}
-{{<team-member image="hendrik.png" name="Hendrik">}}
+{{<team-member image="hendrik.jpeg" name="Hendrik">}}
 {{<team-member image="paul.jpg" name="Paul">}}
-{{<team-member image="jannes.jpg" name="Jannes">}}
+{{<team-member image="jannes.jpeg" name="Jannes">}}
 {{</gallery>}}

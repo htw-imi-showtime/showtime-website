@@ -4,20 +4,17 @@ weight = 4
 +++
 
 {{<section title="So, what's next?">}}
-We already provided the aforementioned gardening project with access to our application for possible test runs in the near future. If it runs stable and proves to be useful, there is potential for a more regular usage, maybe even in other institutions. 
-However, Strollr would have to be deployed through official channels for a widespread release. This poses a financial issue, at least in the case of Apple's App Store.
+For now we would like to keep working on this project privately and keep improving it! We have come far but there is still a lot that we would like to do..
+
 {{</section>}}
 
 {{<section title="Additional Features">}}
 #### Social Media Hub
-At the moment, Strollr is only available in German, thus a **multi-language** feature should be implemented as a next step. The option for a **dark mode** is usually a much requested feature as well. 
-In the future, the app could be extended by the ability to **share your favorite strolls** with your friends and family and maybe even the whole world. That could be realized by providing a **proprietary platform** or including 
-plug-ins for **social media** platforms like WhatsApp, Instagram or Facebook.
+There are some new features we would like to add in the future such as adding notifications for limited time offers and being able to choose between main and sub categories in browser.
 
-This platform could include a shared map where pins indicate the starting point of shared strolls. On click, you could be forwarded to the overview of the stroll, where the tracked walk and information about the stroll are displayed. 
-Maybe you just want to **go through the pictures the other user made throughout their stroll** (of course you can like and comment) or even solve some riddles yourself. 
+For now our app is only available in German, and we would like to offer it in English as well.
 
-Since Strollr’s original idea is to capture the stroll via pictures and learn something new about the environment, the option to **help others to find out what plant, tree or animal they managed to find** along the way is vital. 
-Therefore, the sharing user could send out a request in a provided category and other users could share their guesses. 
+Another cool feature would be to create custom categories such as "For her", "For him", "The perfect Christmas present", because we believe that a big part of our users might be looking for presents. This will make their search easier and save them time!
+
 
 _So get inspired and start your own stroll._
