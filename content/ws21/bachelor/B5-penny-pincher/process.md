@@ -10,9 +10,7 @@ The **inital idea** was to create an app that allows users to find bargains **ea
 With the help of our supervisors Tino Nitze and Jakob Panten we were able to come up with the **top feature** of our app: the **Live Feed** - where you get new bargains **live**! Once we had our first meeting in the idealo headquarters, we were able to create our git project and had an unofficial Design Sprint. 
 {{</section>}}
 
-{{<image src="RouteViewCompilation2.png" alt="WalkViewMockups">}}
 
-{{<image src="HerbariumViewCompilation.png" alt="HerbariumViewMockups">}}
 
 {{<section title="Development">}}
 Once we agreed on a **design concept**, we decided to split into different **groups** to work on the different pages: live feed, browser, favorites and extended view. Since none of us had **previous experience** with Flutter, we had to briefly familiarize ourselves with the framework.

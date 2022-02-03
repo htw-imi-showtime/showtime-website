@@ -6,12 +6,12 @@ weight = 3
 {{<section title="Tech Stack Com">}}
 
 #### Discord
-Discord: Discord was our main way of communicating with each other, asking questions and it served as our remote working space. We used voice channels to split into teams and work on different tasks and text channels to inform each other of new pull requests and general info around the project.
+Discord was our main way of communicating with each other, asking questions and it served as our remote working space. We used voice channels to split into teams and work on different tasks and text channels to inform each other of new pull requests and general info around the project.
 
 
 #### Miro
 We used Miro as a means of sharing our ideas, prototypes, discussing new tasks and updating our progress on the app, basically a place for us to brainstorm during our meetings.
-{{<image src="TechStackComTranparent.png" alt="tech stack part 1" caption="communication tech stack">}}
+
 {{</section>}}
 
 
@@ -25,8 +25,6 @@ Everyone chose an IDE that they were comfortable with, as they all offer integra
 #### GitHub
 GitHub is where we stored all tasks, issues and organized them in different sections: Backlog, To Do, and Done. Most of us dug deep for the first time in Git and we had difficulties concerning commiting, merging, branches, etc. however due to our dilligence we were able to pull through and learned how to organize a git project.
 
-
-{{<image src="TechStackDevTransparent.png" alt="tech stack part 2" caption="development tech stack">}}
 
 {{</section>}}
 
