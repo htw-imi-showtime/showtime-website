@@ -11,7 +11,6 @@ team = ["Ralf Strecker", "Katrina Rizakova", "Marino Gabel", "Arnold Holler"]
 supervisor = "Alexander Kramer, Jonas Erhardt"
 +++
 
-{{<mediathek id="73fc815213cba6193247e9f2e057d364" title="Presentation">}}
 {{<section title="The Objective">}}
 VR hardware such as the HTC Vive or the Oculus Rift allows the user to manipulate virtual spaces and handle virtual objects. However, when implementing real-world objects in Virtual Reality these techniques lack the ability to represent the objects weight and haptic properties, thus detracting from the immersion of the VR experience. In certain scenarios it is useful to have real haptic feedback of an object to interact with them in virtual worlds.
 {{</section >}}
