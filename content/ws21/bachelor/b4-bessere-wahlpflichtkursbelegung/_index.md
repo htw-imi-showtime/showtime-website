@@ -29,7 +29,7 @@ Not only could we gain **much experience with web development**, but also with h
 {{<gallery>}}
 {{<team-member image="ben.jpeg" name="Ben">}}
 {{<team-member image="leonard.png" name="Leonard">}}
-{{<team-member image="jimmy.jpg" name="Jimmy">}}
+{{<team-member image="jimmy.png" name="Jimmy">}}
 {{<team-member image="leon.jpg" name="Leon">}}
 {{<team-member image="krist.png" name="Krist">}}
 {{<team-member image="linh.jpg" name="Linh">}}

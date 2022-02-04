@@ -3,9 +3,6 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="overview.png">}}
-
----
 
 {{<section title="Developing Tools">}}
 
