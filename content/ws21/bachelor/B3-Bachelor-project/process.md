@@ -35,10 +35,6 @@ thereby identifying and refining **the most important features**.
 
 {{<section title="Reflection">}}
 
-Anastasiia
-
-We look back on a project that for many of us posed the **first opportunity** to **experience the development** of a **software product** from start to finish. 
-Besides our advancement in **cross-platform application** **development**, creating Strollr taught us a great deal about **planning and managing** larger software projects. \
-While communication can be a bit challenging in a team of 8, we never experienced any major misconceptions or disagreements. Naturally, we faced a **few technical** **hurdles** when writing our code, such as **conflicting Flutter plugins** 
-or problems with the **cross-platform compatibility** of certain features. However, **determination** and **mutual help** within the team **resolved all the issues** at hand. 
+The project was for many of us a first experience of building an application from start to finish. So one of our main challenges was the lack of experience in project management and planning. Looking back on the work we did, we think that what helped us the most was good and effective communication between project members and with our mentor. Moreover, we managed to have weekly meetings, which helped us to keep eye on the project and to plan the further development of features.
+ 
 {{</section>}}

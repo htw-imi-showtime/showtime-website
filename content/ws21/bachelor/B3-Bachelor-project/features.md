@@ -16,13 +16,10 @@ personal posts. Part of every allmende profile is also one of many status icons,
 which have to be unlocked through challenges, to see if a user is a Tree-Hugger, a
 Mushroom-Head or something different.
 
-## Entries and Challenges
+## Sightings and Challenges
+A user can create entries to share their nature experience with others. A user can add a photo of insects, birds, plants, amphibians or any other organism they found to entry, add location and even record how it sounds. Each entry is displayed in the feed and can be liked and commented by others.
 
-# like
-# comment
-
-anastasiia
-
+To motivate others to explore the environment a user can create challenges. A challenge could be for example to find 5 different types of birds.
 
 ## Badges
 In the context of gamification, we wanted to implement a new rewarding feature, for finishing challenges. 
