@@ -6,12 +6,10 @@ weight = 2
 
 {{<section title="Idea">}}
 
-Jonas
-
-The **idea** for our app **originated** out of a **conversation** with a **local gardening project**. It is an approach to a rather recent question: _How do you make spending time in nature more appealing to children and adolescents who grew up on smartphones and other mobile devices?_ \
-Our supervisor, **Prof. Dr. Lenz** approached us with his initial idea for a **mobile application** which already laid out most of the **core features** that the final version of Strollr incorporates, like the ability to take photos and **visualize walks** with a map. 
-During a brainstorm session, we collected our own input and came up with a **design concept**. \
-With that in mind, our first **mockups** were created.  
+The original idea for the allmende app came from David Müller, who was the
+supervisor for our project. He created the app for his master thesis with the goal to
+inspire people for nature through social-network-structures and gamification.
+ 
 {{</section>}}
 
 {{<image src="RouteViewCompilation2.png" alt="WalkViewMockups">}}
@@ -22,7 +20,9 @@ With that in mind, our first **mockups** were created.
 
 Antonia
 
-After agreeing on **Flutter** as our **development framework**, we briefly **familiarized ourselves** with it, while **researching plugins** and **APIs** that would be helpful in implementing the planned features. \
+After agreeing on recreating the App with **React**, we briefly familiarized ourselves with it, \
+
+
 Going into the development period, we separated the group into **three teams**, concerned with the general **UI**, **map visualization** and **database design**. 
 This way, we could focus on different tasks while maintaining communication within the group and making use of agile techniques like **pair programming** and **code review**. 
 Maintaining our source code with Git allowed us to simultaneously implement different features on their respective branches and avoid conflicts when integrating them. \

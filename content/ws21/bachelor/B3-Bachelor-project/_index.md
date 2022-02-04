@@ -1,44 +1,46 @@
 +++
-title = "Bachelorprojecttemplate"
-project_id = "B0"
+title = "Allmende"
+project_id = "B3"
 
 # Properties for displaying the project in the project list
-card_image = "Logo_Icon.png"
-card_description = "Strollr is a mobile application which allows you to collect and keep all of your strolls out in nature. Simply open the app, walk through your favorite park and take pictures of our treasured environment."
+card_image = "iconAllmende.png"
+
+card_description = "Allmende is a web application that enables you to share experiences in nature with like-minded people using a unique approach.
+To what extent can social network structures and gamification contribute to improving the user experience and inspire as many people as possible for nature?"
 
 
-source_link = "https://github.com/Neyttirri/Strollr"
+source_link = 
 
 
-team = ["Antje Stockhaus", "Elena Tabakova", "Hermes Rapce", "Max Simon Schneider", "Jonas Endert", "Michelle Pötsch", "Paul Legner", "Kevin Springborn"]
-supervisor = "Prof. Dr. Tobias Lenz"
+team = ["Anastasiia Reznichenko", "Antonia Kaufmann", "Jonas Osterkorn", "Lukas Glasmacher", "Nataliia Azarnykh", "Salim Alkhodor", "Seven Erdem", "To Uyen Nguyen"]
+supervisor = "David Müller"
 +++
 
 
 {{<image src="firstMockupTest.png" alt="Mockup" >}}
 
-{{<mediathek id="cdb9d4bc8432e2ebca013c0ce410e240" >}}
-
-{{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="Doge">}}
-much wow, such stroll**r**, best app to go out for a walk with me.
-{{</quote>}}
 
 {{<section title="Our Goal">}}
-With Strollr we want to use a **playful approach** to **encourage young students** to **explore nature and discover something new with every walk**.
+With Allmende we want to encourage people for exploring nature and to share their experiences with others. Our approach is to use gamification to inspire as many people as possible for nature.
+
 {{</section>}}
 
 {{<section title="The Team">}}
+
+Antonia
+
 Behind Strollr, there is a **motivated team** of students with **varying levels** of work **and study experience**. With the ongoing pandemic and some of our **teammates** being **located outside of Berlin**, we **never got to meet in person**, but still managed to make the best out of the situation by **working remotely** with a number of **communication tools**. 
 Each of us contributing our **previous experience** and giving it **our best**, we had a great time together and hope you enjoy Strollr **as much as we do**!
+
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="jonas.jpeg" name="Jonas">}}
-{{<team-member image="kevin.png" name="Kev">}}
-{{<team-member image="max.jpeg" name="Max">}}
-{{<team-member image="paul.jpg" name="Paul">}}
-{{<team-member image="elena.jpg" name="Elena">}}
-{{<team-member image="hermes.jpg" name="Hermes">}}
-{{<team-member image="antje.png" name="Antje">}}
-{{<team-member image="michelle.jpg" name="Michelle">}}
+{{<team-member image="Anastasiia.jpg" name="Anastasiia">}}
+{{<team-member image="Antonia.jpg" name="Antonia">}}
+{{<team-member image="Jonas.jpg" name="Jonas">}}
+{{<team-member image="Lukas.jpg" name="Lukas">}}
+{{<team-member image="Nataliia.jpg" name="Nataliia">}}
+{{<team-member image="Salim.JPG" name="Salim">}}
+{{<team-member image="Sven.jpg" name="Sven">}}
+{{<team-member image="Uyen.jpg" name="Tu Uyen">}}
 {{</gallery>}}

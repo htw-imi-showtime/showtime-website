@@ -9,10 +9,24 @@ weight = 3
 
 #### Discord 
 
-During our time developing Strollr, Discord was the **main hub** for all our conversations, quick questions, short meetups as well as a medium for **exchanging** pictures and **sharing** links or useful **information**.
+Discord was the platform the used the most to communicate about the
+development of allmende. It was the place where we were in constant exchange not
+only with the team but also with our supervisor David Müller. We took advantage of
+many useful tools that discord can offer like the creation of threads to discuss
+features or the up or down-voting of messages to decide whether a feature should
+be integrated or not. These tools in combination with multiple text and voice
+channels that even allow live screen sharing made discord a good project
+management platform for us.
+
 {{<image src="TechStackComTranparent.png" alt="tech stack part 1" caption="communication tech stack">}}
 
 #### Zoom
+
+in Addition to discord we also used the video conference platform Zoom for our
+weekly meeting every Monday and also sometimes during the week for group
+session. Usually this would have been possible on discord as well but some team
+members preferred Zoom.
+
 {{</section>}}
 
 
@@ -24,15 +38,13 @@ During our time developing Strollr, Discord was the **main hub** for all our con
 
 antonia
 
-During the early planning stages, we decided that our application should be able to run on both Android and iOS. As a result of that, we narrowed down our framework options to **React Native** and **Flutter**. 
-Having **little to no experience with app development** at that time and relying mainly on our own research and experiences from previous IMI projects, we decided that **Flutter** should be the framework of our choice.
-Flutter is provided by Google and based on Dart, a programming language similar to JavaScript. Its biggest advantage is the ability to deploy projects on both **Android and iOS** with **very little adjustments**. Additionally, it is **well documented** and beginner-friendly.
 
 #### Visual Studio Code / IntelliJ
 
-jonas
-
-Instead of specifying one, we used a **variety** of different **IDEs**, all of them offering integration for the Flutter SDK. This way, everyone could choose according to their own preferences and feel comfortable while coding, which was important to us.
+The majority of team members used Visual Studio Code as their text editor
+because it offers the best compatibility when working with libraries like React and
+because it is in general a very powerful editor for web development. The rest
+preferred working with JetBrain’s IntelliJ.
 
 #### React 
 anastasiia
@@ -42,21 +54,18 @@ For the **tracking capabilities** of our App, we are using the **Google Maps API
 
 anastasiia
 
-The **version control** system of our choice is **Git** with **GitHub** as the hosting platform. Easy to use, hard to master, but definitely a 
-**good training exercise** for later jobs. We struggled with occasional **merge errors** and some other **branching issues**, but managed to overcome them by means of research and team spirit.
+
 
 #### Docker
 
 antonia 
-Since our app runs locally we chose SQLite as relational database to persist and query the data. SQLite is an **open source database** that 
-does **not require a server** and provides faster inserts, updates, and queries compared to other **local persistence solutions** (like local file or key-value store). 
-With the help of the **sqflite plugin**, flutter can easily make use of the database.
 
-#### Postman Swagger
 
-jonas
+#### Postman and Swagger
 
-{{<image src="TechStackDevTransparent.png" alt="tech stack part 2" caption="development tech stack">}}
+Another tool we used was the API Platform Postman. We used Postman a lot for
+testing features that rely on data from the backend because it really helped
+understanding how the data flows at every step of the app lifecycle.
 
 {{</section>}}
 
