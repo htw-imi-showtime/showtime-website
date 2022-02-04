@@ -41,25 +41,44 @@ Said requirement sheet was important for the organisation of the project because
 
 {{<section title="Design">}}
 
+Quite early on, the team had decided to ensure a proper design was ready for every single aspect of the project. This was owed to the team knowing from experience that proper preparation speeds up the implementation process greatly. Sticking to one design means that everything is a lot **cleaner** and **more consistent** in itself and therefore needs much fewer changes later on. 
 
+Another point that made having a proper design so very interesting and important was the possibility of **checking the design** whenever they were done. Instead of simply creating screens and passing them on to the team, each and every one of the designs was **double-checked** with a group of heavy Spotify users that agreed to do so week after week. 
+This way the designs were proved over and over again, ensuring that the **usability standpoint** was as high as possible throughout the entire process. 
+
+This meant trying out different things, different versions and improving over and over again. It meant having to **change details** and **features** more than once and even throwing away the entire basic design. 
 
 {{</section>}}
+
+{{<image src="DesignChange.PNG" alt="The old Design" caption="Old Design vs New Design">}}
+
+
 
 
 {{<section title="Implementation">}}
 
-{{<image src="Process.PNG" alt="The Process">}}
-{{<image src="technologies.PNG" alt="how the system works">}}
+The implementation was quickly set up as we decided on our tech stack very early on in the project. Everybody decided on trying out **React**, some already worked with it beforehand, so the setup process began shortly after understanding the project and having a general idea of what needed to be done. 
+
+The team's plan was to go with a proper **agile development** but it quickly became apparent that we were more or less **loosely** going for it. The team had a weekly meeting on Mondays that was fixed and occasionally met up on Thursdays with and without the product owner (our professor) to have additional talks about the process of the project. 
+
+Usually, the team split up into smaller groups, worked on tickets together using **pair programming**, **brainstormed** together whenever we had time and made the best out of what was possible for us. Every ticket was documented in Github via the **Kanban board**.
+
+{{<image src="Kanbanboard.PNG" alt="Kanban board on Github" caption="Project on Github">}}
+
+Working **remotely** on a project and finding multiple timeslots in a week that work for all of the 7 people in the team just wasn’t realistic. 
+With the help of digital meeting rooms such as Zoom, the **social distancing** in the project was no problem though and subgroups of the team were able to meet up whenever needed. 
+
 
 {{</section>}}
 
 
 {{<section title="Focus Group #2">}}
 
+To close off the **circle of usability** this project entailed, we decided to do a second round with our focus group and have them test the application. This time though, we didn’t do it in a big group but instead decided to go for small interviews with two people maximum. These were done with one **moderator** and another person **making notes**, ensuring that no comment goes unnoticed. 
 
-{{</section>}}
+The gist of user tests like these was letting the user take over the application and have them navigate through the different features on their own. This was entirely to ensure that the user would have the same experience as they would normally when using a new application. Having the test users **speak their minds** and **comment** on every single detail they see helped on finding out anything they were displeased with or simply confused by so that the team could react to them.
 
-{{<section title="Endgame">}}
+Luckily, the interviews showed that the team did a good job in incorporating the different features that were needed. Especially the homepage was fully **accepted** and **commended** by the focus group.
 
 
 {{</section>}}

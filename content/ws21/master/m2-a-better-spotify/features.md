@@ -10,7 +10,7 @@ weight = 1
 
 {{<section title="The Startpage" >}}
 
-One of the most important features which is also our **unique selling point** is our improved **Homepage**. Web Spotify’s Homepage is filled with content the user doesn’t need or doesn’t want on there. Instead of being greeted with the features and information, they do want, the user has to scroll a lot and doesn’t have the chance to **customize** it to their needs. 
+One of the most important features, which is also our **unique selling point** is our improved **Homepage**. Web Spotify’s Homepage is filled with content the user doesn’t need or doesn’t want on there. Instead of being greeted with the features and information, they do want, the user has to scroll a lot and doesn’t have the chance to **customize** it to their needs. 
 
 #### Customize the Homepage
 
@@ -22,7 +22,7 @@ Additionally, it is also possible to change the widget’s **size** to their des
 
 #### Avoiding errors
 
-To help the user on their way, we prepared the homepage with the most useful features for the wide variety of Better Spotify users and had them **pre-arranged** on the board. To ensure that there is **no unintentional changes** of the layout, the adjustment of the gridsystem needs to be activated via the press of the **edit button**. Only then will the editor open up. Otherwise the Homepage is locked into place and usable as usual. 
+To help the user on their way, we prepared the homepage with the most useful features for the wide variety of Better Spotify users and had them **pre-arranged** on the board. To ensure that there are **no unintentional changes** to the layout, the adjustment of the grid system needs to be activated via the press of the **edit button**. Only then will the editor open up. Otherwise, the Homepage is locked into place and usable as usual. 
 
 {{</section>}}
 
@@ -33,13 +33,11 @@ To help the user on their way, we prepared the homepage with the most useful fea
 {{<section title="Tag System" >}}
 Another improvement of the system was adding a way to tag songs for the user. This was not at all possible with Spotify and was high on the priority list of our focus group which was why implementing a **tag system** was out of the question. After all, it is not always possible to present one's own visions in a **one-dimensional hierarchical concept**, which is why cross-references are necessary.
 
-{{<image src="TaggingSong.gif" alt="Tagging a song" >}}
-
 With the tag system, a user has now the possibility to **sort** songs not just in one way via using the Playlist feature but also via using customizable tags. The user can **create them themself** and is free in naming them and has an assortment of different **colours** they can choose from. This helps the user to get a **visual clue** when scrolling through song lists and aids in **grouping songs** accordingly. 
 
 {{<image src="TagSystem.gif" alt="creating a new tag" caption="How to create a new tag">}}
 
-Tags also work as individual playlists for themselves as well as the user can simply click on the tag they want to access and a list with all the tagged songs inside will be displayed. This makes it a lot easier to **adjust the tags** on songs as well as checking which songs belong to the tag and which don't. 
+Tags also work as individual playlists for themselves as well as the user can simply click on the tag they want to access and a list with all the tagged songs inside will be displayed. This makes it a lot easier to **adjust the tags** on songs as well as check which songs belong to the tag and which don't. 
 
 {{<image src="Opentaglist.jpg" alt="opening the taglist" >}}
 
@@ -64,7 +62,7 @@ The last feature or focal point the project wanted to work on was improving the 
 
 With a **sidebar** that is **minimizable** to widen the main screen if wanted, **headers** that are much **sleeker** and smaller while still giving the same amount of information in a simpler way as well as a more **visually distinguishable layout** of album and playlist covers. 
 
-{{<image src="Design.gif" alt="Diff Design showcases" >}}
+{{<image src="Homepage Design.PNG" alt="Diff Design showcases" >}}
 
 All of these points were derived from the results of the **focus group interview** that was done in the beginning as well as multiple smaller feedback sessions with Spotify users, to ensure that a **broad variety of users with different need and desires** for the app agreed to the design and reviewed it properly. In the end, more **User Tests** were done to **solidify the design** and features even more.
 {{</section>}}
@@ -75,7 +73,5 @@ All of these points were derived from the results of the **focus group interview
 Due to the fact that Better Spotify runs with the help of the Spotify API, there is **no need** for the application to **save more data** than Spotify itself already owns. Therefore, the user is not obligated to give any new additional information they don’t want to hand out.
 
 Anything changed within the app is either saved in the **Spotify account** itself or **locally**, taking Better Spotify’s backend out of the equation entirely. 
-
-{{<image src="data.jpg" alt="Data connection between Better Spotify & Spotify" >}}
 
 {{</section>}}

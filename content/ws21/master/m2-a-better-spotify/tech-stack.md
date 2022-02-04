@@ -1,9 +1,9 @@
 +++
 title = "Tech Stack"
-weight = 3
+weight = 4
 +++
 
-{{<image src="tech.svg" alt="Tech Stack">}}
+{{<image src="TechStack.png" alt="Tech Stack">}}
 
 {{<section title="Backend">}}
 #### [NodeJS](https://nodejs.org/en/)
@@ -19,7 +19,7 @@ Both of these were used for connecting the Spotify API with our own backend and 
 
 {{<section title="Deployment">}}
 #### [Heroku](https://www.heroku.com)
-- Heroku was used for the Deployment of Better Spotify due to the fact that the HTW Server wasn’t enough for our purposes and the Deployment process on Heroku was much simpler and easier to use which made deployment and processing everything a lot faster and better, long term. 
+- Heroku was used for the Deployment of Better Spotify due to the fact that the deployment process on Heroku was much simpler and easier to use which made deployment and processing everything a lot faster, long term. 
 
 #### [Github](https://github.com)
 - During the process of the project, we used Github to share our code with one another, to keep a versioning system and to ensure that branching worked out well. We also made use of the Kanban Boards provided in the ‘Project’ tab of the repository to stay organized and maintain a good overview regarding what state our tickets were in.
