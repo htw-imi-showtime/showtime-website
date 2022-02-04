@@ -11,7 +11,7 @@ weight = 3
 
 Discord was the platform the used the most to communicate about the development of allmende. It was the place where we were in constant exchange not only with the team but also with our supervisor David Müller. We took advantage of many useful tools that discord can offer like the creation of threads to discuss features or the up or down-voting of messages to decide whether a feature should be integrated or not. These tools in combination with multiple text and voice channels that even allow live screen sharing made discord a good project management platform for us.
 
-{{<image src="TechStackComTranparent.png" alt="tech stack part 1" caption="communication tech stack">}}
+
 
 #### Zoom
 

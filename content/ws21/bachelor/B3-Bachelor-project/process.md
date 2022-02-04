@@ -12,13 +12,10 @@ inspire people for nature through social-network-structures and gamification.
  
 {{</section>}}
 
-{{<image src="RouteViewCompilation2.png" alt="WalkViewMockups">}}
 
-{{<image src="HerbariumViewCompilation.png" alt="HerbariumViewMockups">}}
 
 {{<section title="Development">}}
 
-Antonia
 
 After agreeing on recreating the App with **React**, we briefly familiarized ourselves with it. We devided us in pairs of two, to recreate the given features with React. It took us a great deal of time to rebuild the app and in the end we had to limitate the new features we wanted to implement in the first place. Maintaining our source code with Git allowed us to simultaneously implement different features on different branches. 
 Every monday we had a meeting via zoom with our mentor, to report our progess. We discussed problems and the next steps. We checked the time plan, whether we where in due time.

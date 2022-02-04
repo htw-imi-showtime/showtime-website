@@ -4,12 +4,12 @@ weight = 4
 +++
 
 {{<section title="So, what's next?">}}
-Allmende has a huge potentional for the futher grow. As the following step we see a development and writing a Rules of Conduct in order to moderate user-generated content. Moreover, Allmende is now accessible in a Webbrowser, the next step would be to make it available for mobile through the channels like Apple Store.
+Allmende has a huge potentional for the further grow. As the following step we see a development and writing a Rules of Conduct in order to moderate user-generated content. Moreover, Allmende is now accessible in a Webbrowser, the next step would be to make it available for mobile through the channels like Apple Store.
 
 {{</section>}}
 
 {{<section title="Additional Features">}}
-####  and additional Features
+
 Like every development team working with a deadline we had to cut out some
 features that were planned at the beginning but had to be postponed. For the future
 we are motivated to add a chat function for users to exchange information in oneon-
