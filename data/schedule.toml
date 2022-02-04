@@ -1,2 +1,16 @@
 [[slot]]
-title = "The schedule will be published soon."
+time = "10:00"
+title = "Opening"
+projectDescription = "des"
+[[slot]]
+time = "10:07"
+title = "Vorstellungen der Projekte"
+[[slot]]
+time = "ca. 11:15"
+title = "Mittagspause"
+[[slot]]
+time = "ca. 15:00"
+title = "Notenkonferenz"
+[[slot]]
+time = "ca. 15:45"
+title = "Notenverkündung"
