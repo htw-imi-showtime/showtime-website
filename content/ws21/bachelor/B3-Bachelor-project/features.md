@@ -22,10 +22,10 @@ A user can create entries to share their nature experience with others. A user c
 To motivate others to explore the environment a user can create challenges. A challenge could be for example to find 5 different types of birds.
 
 ## Badges
-In the context of gamification, we wanted to implement a new rewarding feature, for finishing challenges. 
+In the context of gamification, we wanted to implement a new rewarding feature, for finishing challenges. So we createt Badges. There are three types of badge in every animal or plant category, there are bronze, silver and gold badges. When you earned the third (gold)Badge of a category you will get a new status in your profile view.
 
 ## Map
-antonia
+You are curious about the location of the communities’ sightings? You can find out the habitat of different species in your area by looking at the Allmende Map! Clicking on a sighting location will show you the sighting. It is also possible to filter the map by categories and found species!
 
 ## Allmendex
 The allmendex is a giant collection of the local flora and fauna build into the app.
