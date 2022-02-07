@@ -15,17 +15,15 @@ The AWS environment enables us to add more resources like databases or mediastor
 #### Expressjs
 For our backend API that runs on AWS Lambda we used **[Express](https://expressjs.com/de/)** to build the http endpoint for the lambda function.
 
-#### React (Typescript) + Tailwindcss
+#### React (Typescript) + Tailwind Css
 Our frontend is built on **[React](https://reactjs.org/)** and **[Typescript](https://www.typescriptlang.org/)** which helped us to reduce bugs and unpredictable errors during development.
 Typescript also makes it easier for future developers working on the project to dive into and understand the code and how our components work.
-Using **[Tailwind Css](https://tailwindcss.com/)** and its utility first approach, we were able to rapidly build new components for our dashboard without having to spend too much time structuring our Css and thinking about methodlogies like **[BEM](http://getbem.com/introduction/)**.
-
+Using **[Tailwind Css](https://tailwindcss.com/)** and its utility first approach, we were able to build new components for our dashboard without having to spend too much time structuring our Css and thinking about methodlogies like **[BEM](http://getbem.com/introduction/)**.
 
 {{<image src="Architektur-Grafik.png" alt="IBKM Applicaion Architecture" caption="Application Architecture">}}
 {{</section>}}
 
 {{<section title="Other Tools">}}
-
 #### Gitlab
 For hosting and versioning our code we used **Gitlab** which was provided by Exxeta.
 
