@@ -3,7 +3,7 @@ title = "Process"
 weight = 2
 +++
 
-{{<image src="timeline.png" alt="Our Timeline">}}
+{{<image src="timeline30.01.22.png" alt="Our Timeline">}}
 
 
 
