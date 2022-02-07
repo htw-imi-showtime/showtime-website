@@ -10,6 +10,7 @@ card_description = "Vibro is a Video Search Program designed by and for experts.
 
 
 team = ["Stephan Stoll", "Carolin Hintze", "Fatima Rindert", "Eve Schütze", "My Tra Nguyen", "Paul Klingberg", "Lukas Lüdecke"]
+
 supervisor = "Prof. Dr.-Ing. Kai-Uwe Barthel,Nico Hezel, Konstantin Schall"
 +++
 

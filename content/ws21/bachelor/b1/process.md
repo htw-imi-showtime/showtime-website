@@ -7,6 +7,7 @@ weight = 2
 
 
 
+
 {{<section title="Development">}}
 Our starting point was an already **existing program** which we wanted to improve. By both testing the program ourselves to understand and get into Vibro and analyzing the experts view, we evaluated the program to find **common errors** and see which **features** are more often used and essential for success. In the next step of our process we derived problems, prioritized them and discussed what we actually want to achieve.
 
