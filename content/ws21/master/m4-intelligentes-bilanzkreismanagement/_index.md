@@ -1,6 +1,6 @@
 +++
 title = "Intelligentes Bilanzkreismanagement"
-project_id = "M4"
+project_id = "M3"
 
 # Properties for displaying the project in the project list
 card_image = "logo.svg"
