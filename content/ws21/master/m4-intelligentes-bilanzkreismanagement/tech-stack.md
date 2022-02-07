@@ -20,8 +20,8 @@ Our frontend is built on **[React](https://reactjs.org/)** and **[Typescript](ht
 Typescript also makes it easier for future developers working on the project to dive into and understand the code and how our components work.
 Using **[Tailwind Css](https://tailwindcss.com/)** and its utility first approach, we were able to rapidly build new components for our dashboard without having to spend too much time structuring our Css and thinking about methodlogies like **[BEM](http://getbem.com/introduction/)**.
 
-{{<image src="Architektur-Grafik.png" alt="IBKM Applicaion Architecture" caption="Application Architecture">}}
 
+{{<image src="Architektur-Grafik.png" alt="IBKM Applicaion Architecture" caption="Application Architecture">}}
 {{</section>}}
 
 {{<section title="Other Tools">}}

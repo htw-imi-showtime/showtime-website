@@ -28,4 +28,5 @@ Since our current setup works without any persistent data storage using the brow
 
 #### Custom calculations
 The provided data could be used to perform even more considerable calculations that help the user's decision making. For this purpose, adding another widget which provides different views like tables and allows to run custom calculations and functions on the contained data might be a valuable solution.
+
 {{</section>}}

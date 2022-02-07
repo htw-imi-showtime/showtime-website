@@ -31,6 +31,7 @@ Another important aspect was to work strictly within a serverless architecture u
 
 {{<section title="The Team">}}
 Since we were a rather large team we created smaller teams for project management, design, frontend and backend.
+
 Nhu and Katharina were focussing on design, The-Anh and Alain were responsible for our project management, Mischa and Bach worked on the serverless architecture and Robin's main task was to work on the frontend.
 Although we did set up a team structure we were able to work interdisciplinary most of the time. Giving each other input, helping each other and building the final application all together.
 {{</section >}}
