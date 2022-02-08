@@ -9,12 +9,14 @@ card_description = "easyContract for StartRight. For a student legal advisor, th
 # These properties may be removed if you don't need them
 website_link = "https://easycontract.ac0.de/"
 
+
 team = ["Jonah-Sophie Schuldt", "Katja Hedemann", "Cansu Ilhan", "Pavel Tsvyatkov", "Elena Deligio", "Farida Elbassiouney", "Markus Müller", "Lasse Rhys Bielenberg"]
 supervisor = "David Koschnick"
 +++
 
 {{<image src="mockup_index.png" alt="Mockup" >}}
 {{<mediathek id="3cbd1f4b84ffade971e4c5aa80385f3b">}}
+
 
 
 
