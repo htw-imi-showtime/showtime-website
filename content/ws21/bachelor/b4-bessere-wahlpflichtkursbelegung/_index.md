@@ -3,7 +3,7 @@ title = "Studyplan"
 project_id = "B4"
 
 # Properties for displaying the project in the project list
-card_image = "Logo_Icon.png"
+card_image = "logo.png"
 card_description = "With this web application, laborious elective course registration is a thing of the past. Just take advantage of this simple designed overview of the available courses with all the important information."
 
 

@@ -3,12 +3,6 @@ title = "Future"
 weight = 4
 +++
 
-{{<section title="Continued in a bachelor thesis">}}
-
-Just like we continued the work of Julia, our project is going to be continued to maybe add some of the features we came up with and improve the application even more.
-
-{{</section>}}
-
 {{<section title="Extensions">}}
 
 Our task was to make the elective course registration for IMI bachelor students easier. However, our final product can easily be extended.
