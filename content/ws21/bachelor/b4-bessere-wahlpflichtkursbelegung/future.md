@@ -5,7 +5,7 @@ weight = 4
 
 {{<section title="Extensions">}}
 
-Our task was to make the elective course registration for IMI bachelor students easier. However, our final product can easily be extended.
+Our task was to make the elective course registration for IMI bachelor students easier. However, our final product can easily be extended, which will probably be done in a bachelor thesis.
 
 #### All HTW students
 Since the studyplan can only help IMI bachelor students with their elective course registration and organization so far, the next step would be to make it **usable for master students and someday all the other students** as well.
