@@ -3,7 +3,7 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="te_logo_collection.png" alt="tech stack">}}
+{{<image src="proxy.jpg" alt="tech stack">}}
 
 {{<section title="Development">}}
 * <strong>Unity</strong><br>

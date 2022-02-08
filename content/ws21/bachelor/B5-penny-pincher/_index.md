@@ -6,14 +6,11 @@ project_id = "B5"
 card_image = "PennyPlogo.png"
 card_description = "Penny Pincher is an app that helps you find the best bargains! You can simply scroll through the live feed or search for a specific category or item and add them to favorites to view them later."
 
-
 source_link = "https://github.com/knoffhoff/penny_pincher"
-
 
 team = ["Christian Kaltenbach", "Dimitar Kolev", "Marcel Kuehnau", "Hiep Ha Le","Hermes Rapce", "Hendrik Hahn", "Paul Siewertsen", "Magdalena Karmashikova", "Jannes Stahf"]
 supervisor = "Tino Nitze"
 +++
-
 
 {{<image src="overview.png" alt="Overview" >}}
 

@@ -13,8 +13,6 @@ After that you will be sent to the Live Feed.
 </p>
 {{</section>}}
 
-
-
 {{<section title="Live Feed">}}
 <img src="/ws21/bachelor/b5-penny-pincher/LiveFeed.png" width="350px" style="float:right;padding:0 20px 20px 0">
 <br>
