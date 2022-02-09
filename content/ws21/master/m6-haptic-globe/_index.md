@@ -3,7 +3,7 @@ title = "Haptic Globe: Data at your Fingertips"
 project_id = "M6"
 
 # Properties for displaying the project in the project list
-card_image = "logo_outline.png"
+card_image = "logo_transparent_outline.png"
 card_description = "Haptic Globe immerses you in a VR visualization of global data. Hold a haptic representation of our world in one hand and use your other hand to select interesting data to overlay on the globe."
 
 source_link = "https://github.com/lenavollmer/GeZuMi"
