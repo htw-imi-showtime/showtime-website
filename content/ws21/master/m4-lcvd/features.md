@@ -67,6 +67,10 @@ enable token based authentication.
 {{<section title="Settings">}}
 In the settings users can change their email and password. They can enable or disable daily push notifications that remind them to track their symptoms. They can also choose to share their data for Long COVID research and enter additional data.
 {{</section>}}
+{{<section title="Additional Data Entry">}}
+If users are willing to help Long COVID research they can enter additional information about their age, infection and their vaccinations. Every question is optional and can be skipped. The timeline at the top indicates the progress they have made when entering their details.
+{{<image src="additional_data.png" alt="Views for entering additional data for research">}}
+{{</section>}}
 
 {{<gallery>}}
 {{<image src="symptom-selection.png" alt="Symptom selection" caption="Symptom selection">}}
