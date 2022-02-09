@@ -21,9 +21,6 @@ weight = 4
 {{</section>}}
 
 
-
-
-
 {{<section title="Frontend">}}
 #### [React](https://reactjs.org)
 - React is a widely used frontend JavaScript library that provides user interfaces and was used to work on the visuals and UI components

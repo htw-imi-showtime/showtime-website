@@ -9,7 +9,6 @@ card_description = "‘Better-Spotify' is a web application that is based on the
 source_link = "https://github.com/jakepanter/better-spotify"
 team = ["Naomi Schoppa", "Jakob Panthen", "Piranavi Satkunanathan", "Phillip Kiele", "Stefan Böhnert", "Malin Dulkies", "Lennard Grimm" ]
 supervisor = "David Strippgen"
-+++
 
 {{<mediathek id="578e28b13c46a384cd8d83edb4322b62" title="Presentation">}}
 
@@ -18,7 +17,6 @@ Even though Spotify is the most well-known streaming platform that exists in the
 
 
 The idea under which ‘Better Spotify’ was born was trying to get **feedback from heavy users** themselves and implement them in a web application that has the same features and feel of Spotify but is an **improved** and overall **better version** (hence the name).
-
 
 {{</section >}}
 
@@ -41,5 +39,4 @@ Because the Scrum method was used and we were **working agile**, each team was n
 {{<team-member image="Stefan.jpg" name="Stefan Böhnert">}}
 {{<team-member image="Malin.jpg" name="Malin Dulkies">}}
 {{<team-member image="Lennard.jpg" name="Lennard Grimm">}}
-
 {{</gallery>}}
