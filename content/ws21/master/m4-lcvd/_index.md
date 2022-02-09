@@ -63,6 +63,9 @@ The LCvd team consists of five students. Four team members worked on the elabora
 {{</section>}}
 
 {{<section title="Video sources">}}
+* Deutsche Herzstiftung e.V.. 2020 [Covid-19-Forschung: Wie schädigt das Coronavirus den Herzmuskel?](https://www.youtube.com/watch?v=61aIQctQ6nw). accessed 2.2.2.2022
+* Wiener Linien. 2020. [Warum hast du keine Maske auf?](https://www.youtube.com/watch?v=YaKhd_pwovU). accessed 2.2.2022
+* [Femme surprise PNG Photos](https://www.pngmart.com/fr/image/291253). accessed 2.2.2022
 * [Corona-Open Data](https://corona-open-data.ckan.de/dataset/covid-19-open-data-github/resource/d3b3703b-0c2f-4aa9-8b9c-92eed8ffec5d). accessed 2.2.2022
 * Gutenberg COVID-19 Studie. 2021. [Neue Studienergebnisse belegen häufige Verbreitung von Long COVID-Symptomen nach SARS-CoV-2-Infektion](https://www.unimedizin-mainz.de/presse/pressemitteilungen/aktuellemitteilungen/newsdetail/article/neue-studienergebnisse-belegen-haeufige-verbreitung-von-long-covid-symptomen-nach-sars-cov-2-infektion.html). accessed 8.2.2022
 * Quarks. 2022. [Wie schlimm ist Long Covid?](https://www.youtube.com/watch?v=x_ofvG-iauE). accessed 5.2.2022
@@ -70,3 +73,12 @@ The LCvd team consists of five students. Four team members worked on the elabora
 * BBC News. 2022. [Some long Covid patients may have hidden damage to their lungs](https://www.youtube.com/watch?v=gZrS6NDD6jo). accessed 5.2.2022
 * Tagesspiegel. 2021. [‚Long Covid‘: Spät- und Langfolgen durch Corona](https://www.youtube.com/watch?v=BlrolkAG0fc). accessed 5.2.2022
 * PBS NewsHour. 2022. [Who is most likely to suffer from long COVID?](https://www.youtube.com/watch?v=1JaoOrD97KY). accessed 5.2.2022
+* [Man Looking at Phone Cartoon Vector.svg](https://commons.wikimedia.org/wiki/File:Man_Looking_at_Phone_Cartoon_Vector.svg##) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) by [Videoplasty.com](https://videoplasty.com/), [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). accessed 7.2.2022
+* [Docker Icon](https://www.docker.com/company/newsroom/media-resources). accessed 7.2.2022
+* [Django Icon](https://www.djangoproject.com/community/logos/). accessed 7.2.2022
+* [NativeScript Icon](https://nativescript.org/). accessed 7.2.2022
+* [Vue.js Icon](https://github.com/vuejs/art/tree/9f8ee218d32b52c2d150212f22798a7a61689361). Evan You. 2016. accessed 7.2.2022
+* [PostgreSQL Icon](https://www.postgresql.org/). accessed 7.2.2022
+* [Background Music 1](https://www.youtube.com/watch?v=1CImcrvMnBY). StlabStudioMusic. 2021. accessed 7.2.2022
+* [Background Music 2](https://www.youtube.com/watch?v=Ghqc9reeD5I). Infraction. 2019. accessed 7.2.2022
+* [Background Music 3](https://uppbeat.io/track/monument-music/better-off). Better Off. Monument Music. accessed 7.2.2.2022
