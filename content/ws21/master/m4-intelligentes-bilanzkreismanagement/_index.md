@@ -3,7 +3,7 @@ title = "Intelligentes Bilanzkreismanagement"
 project_id = "M3"
 
 # Properties for displaying the project in the project list
-card_image = "logo.svg"
+card_image = "logo.png"
 card_description = "Balancing group management is a process in which the balancing group manager tries to balance power surplus and shortage by purchasing or selling electricity. Our iBKM Dashboard supports the manager's decision making in a modern, efficient and intuitive way."
 
 source_link = "https://github.com/HTW-iBKM"
