@@ -1,7 +1,6 @@
 +++
 title = "A Better Spotify"
 project_id = "M2"
-+++
 
 # Properties for displaying the project in the project list
 card_image = "logolight.jpg"
@@ -10,6 +9,9 @@ card_description = "‘Better-Spotify' is a web application that is based on the
 source_link = "https://github.com/jakepanter/better-spotify"
 team = ["Naomi Schoppa", "Jakob Panthen", "Piranavi Satkunanathan", "Phillip Kiele", "Stefan Böhnert", "Malin Dulkies", "Lennard Grimm" ]
 supervisor = "David Strippgen"
+
++++
+
 
 {{<mediathek id="578e28b13c46a384cd8d83edb4322b62" title="Presentation">}}
 
