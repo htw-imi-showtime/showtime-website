@@ -133,21 +133,41 @@ reorder object layers, fix dialogues or resize UI elements.
 
 
 {{<section title="Evaluation">}}
-Finishing the game wasn't the end of our project just yet. We still needed a few test players to compare their in-game result
-with the questionnaire results, to see how well our game can imitate the survey and if it’s a viable alternative to a regular
+Finishing the game wasn't the end of our project just yet. We still needed a few test players to **compare their in-game result
+with the questionnaire results**, to see how well our game can imitate the survey and if it’s a viable alternative to a regular
 written questionnaire.
 
 {{<image src="table.png" alt="Table: Deviation from Survey Result to Game Result">}}
 
-The table above shows the average and standard deviation from this average of every survey to game
-deviation for the five factors of Big-Five. These survey to game deviations are calculated by
-normalizing the survey and game results, which range from 10-50 and 4-12 pts. respectively,
-to 0-100 % and then subtracting these normalized game values from the normalized survey values.
+The table above shows the average and standard deviation from this average of every **survey to game variation** for the five 
+factors of Big-Five. These survey-to-game deviations are calculated by **normalising** the survey and game results, which range
+from 10-50 and 4-12 pts. respectively, to 0-100 % and then subtracting these normalised game values from the normalised 
+survey values.
 
-As seen, the deviations for the first four factors are relatively low on average, the fifth, however,
-is quite high, signaling a high discrepancy between game and survey results. Everyone of the five
-deviations have pretty high standard deviations, which means that the averages aren't really meaningful
-or significant.
+The average distances for Openness, Conscientiousness and Agreeableness are pretty low, as they are below 10, showing a **high
+similarity** between the game and survey result. The standard deviation shows how the values are spreading from the average or
+mean. Generally, 20 is an acceptable value for it, thus making Agreeableness an overall **good evaluated factor** by our game. \
+For the two mean values above 10, there are multiple causes. First of all, we had **less questions** from the questionnaire and
+less options to choose from in the game. We decided to do this to not overload the player with information, text and quests. \
+Another issue is the **non randomised order** of dialogue options in the game. Putting the same option at the same place is the
+right thing in a questionnaire, to not confuse anyone. In a game, where, in some cases, the choices are tied to progression,
+this is not recommendable. Players that are playing the game as a game, and not as a gamified personality assessment, might
+tend to pick the fastest option with no regards to what they would actually choose. 
+
+{{<image src="diagram.png" alt="Table: Diagram : Distance - Game Experience" caption="Distance - Game Experience">}}
+
+As we began working on the project, we had some theories regarding the participants and their data. One such theory is that
+players with more experience might have bigger discrepancies between the survey and game results, as they have played lots
+of games and different roles, thus **not acting like themselves in games**. \
+This diagram shows that our theory had some truth, despite the problems with Neuroticism we wrote about above. Apart from that,
+it seems that people with more experience get better values. Though, comparing them like that is not really expressive, as there
+were 5 times less inexperienced than experienced participants.
+
+Since we managed to get at least one factor with a similar result to the standard survey, we definitely **showed the value of 
+gamification**. With enough refining of the individual questions, it should be possible to successfully determine the other factors
+as well. Although, to achieve this, it would probably take a more professional psychological inside as well as more testing 
+iterations, to really get a reliable end product.
+
 
 {{</section>}}
 
