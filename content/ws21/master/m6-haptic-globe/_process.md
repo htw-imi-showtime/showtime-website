@@ -45,7 +45,7 @@ Because we already knew that we were going to create an application for data vis
 
 The Leap Motion combined with the HTC Vive was our solution for about a month. We split the team, two people were creating a hand-tracking UI, one was focusing on the globe tracker and the fourth person was looking for API’s to integrate. After one month of research and another month of prototyping, we came together with a working globe tracker, live accessible data and put the Leap Motion on the HTC Vive. This was the first time the individual systems were all put together which made us realize that there’s a problem with our solution.
 
-{{<image src="pr_leap_vive_bug.gif" caption="Infraredlight interfering with the vive tracker">}}
+{{<image src="pr_leap_vive_bug.gif" caption="interferences with the vive tracker">}}
 
 As it turns out the infrared-light emitted by the Leap Motion to light up your hands for tracking, is exactly the same wavelength as the infrared lasers used by Vive Tracker to detect its position in the room. As a result, there were interferences and our selected tracking solution for the globe was rendered useless. After some additional research and other considerations about using gloves instead of a leap motion to track hands we came up with another solution using the Oculus Quest. While the Quest is capable of hand tracking, Oculus doesn’t allow you to use it in combination with controllers at the same time. However, the controllers are not interfered with by infrared light making it usable with the Leap Motion. Therefore, we went with the kind of counterintuitive solution of using an Oculus controller for tracking the sphere and a Leap Motion for hand tracking.
 {{</section>}}
