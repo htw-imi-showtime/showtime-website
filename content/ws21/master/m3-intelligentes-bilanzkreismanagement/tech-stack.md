@@ -11,7 +11,7 @@ using **[Amazon AWS Lambda functions](https://aws.amazon.com/de/lambda/)**. The 
 At the end of each month we only have to pay for the computing powert that way required to run these functions. This results in on existent fix costs for running our application and allows to easily extend, scale and maintain our application in the future.
 The prediction data, as well as the entire frontend are stored on **[AWS S3 Buckets](https://aws.amazon.com/de/s3/)** where it is only required to pay for the exact amount of bytes our files have.
 For user management we are using **[Amazon AWS Cognito](https://aws.amazon.com/de/cognito/)**. Here the final costs depend on the amount of users our system has.
-The AWS environment enables us to add more resources like databases or mediastorage as required and when required. It also makes all occuring costs variable and therefore completely avoids fix costs that otherwise would have come up using a traditional server based architecture.
+The AWS environment enables us to add more resources like databases or media storage as required and when required. It also makes all occuring costs variable and therefore completely avoids fix costs that otherwise would have come up using a traditional server based architecture.
 
 #### Expressjs
 For our backend API that runs on AWS Lambda we used **[Express](https://expressjs.com/de/)** to build the http endpoint for the lambda function.
