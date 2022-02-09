@@ -13,7 +13,7 @@ We also made sure that everything that we've built was based on basic user resea
 During the first user interview and the final test we were able to collect and capture different suggestions and ideas that could be implemented in the future to make the application even more valuable.
 
 #### More graphs and external data sources
-Implementing more graphs allows the user to consider even more data into the decision making. Since our application can be seen as a first framework, adding more data (i.e. price data) is an easy way to add more value to it.
+Implementing more graphs allows the user to consider even more data into the decision-making. Since our application can be seen as a first framework, adding more data (i.e. price data) is an easy way to add more value to it.
 Adding additional and possibly external data sources to include more detailed information about different influencing factors for the prediction and for the user's decision like weather and market spot price.
 
 #### Deeper file management
@@ -27,6 +27,6 @@ Since our current setup works without any persistent data storage using the brow
 - Data archives
 
 #### Custom calculations
-The provided data could be used to perform even more considerable calculations that help the user's decision making. For this purpose, adding another widget which provides different views like tables and allows to run custom calculations and functions on the contained data might be a valuable solution.
+The decision-making could be used to perform even more considerable calculations that help the user's decision-making. For this purpose, adding another widget which provides different views like tables and allows to run custom calculations and functions on the contained data might be a valuable solution.
 
 {{</section>}}
