@@ -9,17 +9,17 @@ weight = 3
 
 Our entire project management was based on the Scrum framework. In order to be as flexible and organized as possible we structured the project into bi-weekly sprints.
 Before each sprint we did an extensive sprint planning, guessing story points which reflect the complexity of each user story and defining what we want to get done within the sprint.
-If needed we ended the sprint with a retrospective. Our process also included technical and functional reviews.
+If needed, we ended the sprint with a retrospective. Our process also included technical and functional reviews.
 {{</section>}}
 
 {{<section title="Design">}}
 
 #### Research, User Interviews & User Testing
 
-Since none of our team members initially knew what balancing group management is, we invested a small amount of time in researching the topic, understanding what the regular tasks of a balancing group manager is.
+Since none of our team members initially knew what balancing group management is, we invested a small amount of time in researching the topic, understanding what the regular tasks of a balancing group manager are.
 
-Our first goal was to keep the project as close to the user's needs as possible. Therefore and in order to get a better understanding of what the user actually needs we prepared a user interview.
-Through Exxeta we were able to do the user interview with a balancing group manager. This helped us to understand the daily tasks of the user and what features would be important to have in a minimum viable product.
+Our first goal was to keep the project as close to the user's needs as possible. Therefore - and in order to get a better understanding of what the user actually needs - we prepared a user interview.
+Through Exxeta we were able to do the user interview with a balancing group manager. This helped us to understand the daily tasks of the user and what features would be important to have in a minimum viable product that could support a full basic user workflow.
 
 During the evaluation of the user interview we clustered the results and extracted different features out of the information we gathered.
 These were then encapsulated into user stories which were the foundation of our sprints.
@@ -28,26 +28,26 @@ These were then encapsulated into user stories which were the foundation of our 
 
 For our final user test we prepared a complete user flow through the application. The interviewee then was prompted small tasks that would require her/him to go through that user flow.
 During the execution of those tasks we took notes on what went well and what problems the interviewee had to face when using the application.
-We also payed close attention for feature and improvement suggestions that the interviewee would make.
+We also paid close attention for feature and improvement suggestions that the interviewee made.
 As well as for the first interview, we again clustered all the notes and extracted future user stories for our application.
 
 {{<image src="UserTestNotes.jpg" alt="Interview Notes" caption="Screenshot of our Miro Board - Guideline, Clustered User Test Notes and Result">}}
 
 #### Our Design Process
 
-The design process was straight forward as Katharina and Nhu already have had experience. With the help of **Figma**, the collaboration went smooth. In general, each one fiddled for herself at the beginning of each step. Afterwards, they came together and discussed their ideas, the advantages and disadvantages of the designs. After each bi-weekly sprint, the design decisions were presented to the whole team. We've had the opportunity to work with Daniel Heusohn, a UX-Designer from Exxeta, from whom we received valueable feedback.
+The design process was straight forward as Katharina and Nhu already had experience. With the help of **Figma** the collaboration went smooth. In general, each one fiddled for herself at the beginning of each step. Afterwards, they came together and discussed their ideas, the advantages and disadvantages of the designs. After each bi-weekly sprint, the design decisions were presented to the whole team. We've had the opportunity to work with Daniel Heusohn, a UX-Designer from Exxeta, from whom we received valueable feedback.
 
 The design process was as follows:
 
-1. **Collect best practises and inspiration based on the user testing findings**
-2. **Create a low-fidility prototype**
+1. **Collect best practices and inspiration based on the user interview/test findings**
+2. **Create a low-fidelity prototype**
 3. **Define the color scheme and typography**
-4. **Create a high-fidility prototype**
+4. **Create a high-fidelity prototype**
 5. **Create developer handoff page**
 
-Starting with **collecting design inspiration and best practices** and utilizing the well prepared user stories as guideline, Katharina and Nhu then jumped into creating a **low-fidility protoype**. A simple hand drawn wireframe UI kit has been used, which consists of a minimum of needed elements to create anything one could have had imagen. They played with different variations of screen designs to weigh up which compositions might be the best fit, resulting in ten promising screens, which made it to the final cut.
+Starting with **collecting design inspiration and best practices** and utilizing the well prepared user stories as guideline, Katharina and Nhu then jumped into creating a **low-fidelity protoype**. A simple hand drawn wireframe UI kit has been used, which consists of a minimum of needed elements to create anything one could have had imagined. They played with different variations of screen designs to weigh up which compositions might be the best fit, resulting in ten promising screens, which made it to the final cut.
 
-Following the wireframes, they created a **high-fidility protoype**. Parts of the Pegasus Design System and Material Icons have been used, because of its clean and fresh design. Something worth emphasizing are the various form elements and buttons, which were designed from scratch to fit our color scheme and look.
+Following the wireframes, they created a **high-fidelity prototype**. Parts of the Pegasus Design System and Material Icons have been used, because of its clean and fresh design. Something worth emphasizing are the various form elements and buttons, which were designed from scratch to fit our color scheme and look.
 
 {{<image src="FormElementsButtons.png" alt="Interview Notes" caption="Snippet of our Figma Project - Components (Form Elements and Buttons)">}}
 
@@ -66,24 +66,24 @@ Check out our **Figma project**:
 {{<section title="Development">}}
 
 #### Frontend
-During the early stages of our project we decided to build our application on Reactjs using Typescript, since it helps to avoid unforeseeable bugs in our app that otherwise would have come up using Javascript.
+During the early stages of our project we decided to build our application on Reactjs using Typescript, since it helps to avoid runtime errors in our app that otherwise possibly would have come up using Javascript.
 We also wanted to have a **great performance**, **easy scalability** and all in all **high quality** for the frontend.
-In order to reach that goal we decided to use Tailwind css and its utility first approach. While in traditional Css it is common to build classes in which different properties define how a certain element behaves and looks,
+In order to reach that goal we decided to use Tailwind Css (Just In Time Mode) and its utility first approach. While in traditional Css it is common to build classes in which different properties define how a certain element behaves and looks,
 using the utility first approach flips this idea and instead provides classes that hold one specific property. The component then can be styled by combining these classes.
 {{<image src="UfBeforeAfter.png" alt="Example before/after utility first apporach" caption="Markup example before and after Utility First">}}
 
 Through the Utility First approach we were able to focus on building our components without having to take care of scaling our Css or use specific methodologies like BEM.
-When building the app the final Css file only contains the classes that we actually used in our code which helps to avoid loading a complete and huge Css library and therefore **guarantees fast rendering time** in the browser.
+When building the app the final Css file only contains the classes that we actually used in our code which helps to avoid the need of loading a complete and huge Css library and therefore **guarantees fast rendering time** in the browser.
 
-Since we were already using Tailwind Css we decided to use Headless Ui for our UI components like dropdown menus, transitions, tabs, etc. The reason for this decision was to keep the frontend as independent and lightweight as possible.
+Since we were already using Tailwind Css we decided to use Headless UI for our UI components like dropdown menus, transitions, tabs, etc. The reason for this decision was to keep the frontend as independent and lightweight as possible as Headless UI only delivers unstyled UI components that then can be styled using Tailwind's classes.
 
-During the entire development process we made sure that everything we develop during a sprint would get a full technical/code and functional review to ensure that we only deliver quality, readable code that is easy to maintain and extended in the future.
-We also implemented basic unit tests for our frontend using Cypress
+During the entire development process we made sure that everything we developed during a sprint would get a full technical/code and functional review to ensure that we only deliver quality, readable code that is easy to maintain and extended in the future.
+We also implemented basic integration tests for our frontend using Cypress.
 
 #### Backend
-The backend was built using the Expressjs framework running on a Nodejs Server on AWS Lambda. The main task of the backend is to process and transform CSV files with raw forecast data which were generated by the KI-Model and stored on another S3 bucket. After processing our backend provides the data in JSON format to our frontend using a http endpoint.
+The backend was built using the Expressjs framework running on a Nodejs Server on AWS Lambda. The main task of the backend is to process and transform CSV files with raw forecast data which were generated by the KI-Model and stored on another S3 bucket. After processing, our backend provides the data in JSON format to our frontend using a http endpoint.
 In order to minimize resources and setup, as well as server costs, we built the project based on a serverless architecture using AWS Lambda functions. These only run when their http endpoint gets called and only require a minimum of computing power. One Lambda Function on AWS usually only has one task, so whenever our application has to be extended in the future it is very easy to implement more functionality by adding more Lambda Functions.
-Building the app this way, we avoid all fix costs for the project because there is no need for renting servers. The only (variable) cost centers are:
+Building the app this way, we avoid all fix costs for the project since there is no need for renting servers. The only (variable) cost centers are:
 - The storage that the prediction data and our React app requires.
 - The Computing Power (RAM) that our Lambda functions require when they run.
 

@@ -21,12 +21,12 @@ In this process the balancing group manager has to balance the amount of electri
 
 The user should also be able to get insight into the machine learning blackbox through an Explainable AI tool that provides plausiblity for the prediction by displaying the main influencing factors that have an impact on it.
 In order to keep the project as cost efficient and scalable as possible, we agreed on building our entire system on a serverless architecture.
-This enables us to run the application without any fix cost since cloud computing allows to only pay for the amount of computing power of storage that is used by our system.
+This enables us to run the application without any fix costs since cloud computing allows to only pay for the amount of computing power or storage that is required to run our application.
 
 In order to accomplish our task we wanted to design and implement a **web based** dashboard which visualizes the data provided by the KI-Models.
 The user should be able to **efficiently and easily** get an insight into the data provided by the models and our backend.
 To make sure that our application serves the user's needs, we wanted to create our application based on a **user centered design process** that includes **user interviews** and **final user testing**.
-Another important aspect was to work strictly within a serverless architecture using Amazon AWS cloud computing technology.
+Another goal for us was to build the application entirely based on a serverless architecture.
 {{</section >}}
 
 {{<section title="The Team">}}
