@@ -6,10 +6,12 @@ project_id = "M6"
 card_image = "logo_transparent_outline.png"
 card_description = "Haptic Globe immerses you in a VR visualization of global data. Hold a haptic representation of our world in one hand and use your other hand to select interesting data to overlay on the globe."
 
-source_link = "https://github.com/lenavollmer/GeZuMi"
+source_link = "https://gitlab.htw-berlin.de/s0576962/haptic-globe-showtime-ws2122"
 team = ["Ralf Strecker", "Katrina Rizakova", "Marino Gabel", "Arnold Holler"]
 supervisor = "Alexander Kramer, Jonas Erhardt"
 +++
+
+{{<mediathek id="48063f0610b3a960a5e2e861f9ce25b2" title="Presentation">}}
 
 {{<section title="The Objective">}}
 VR hardware such as the HTC Vive or the Oculus Rift allows the user to manipulate virtual spaces and handle virtual objects. However, when implementing real-world objects in Virtual Reality these techniques lack the ability to represent the objects weight and haptic properties, thus detracting from the immersion of the VR experience. In certain scenarios it is useful to have real haptic feedback of an object to interact with them in virtual worlds.
