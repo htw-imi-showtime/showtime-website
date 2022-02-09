@@ -13,7 +13,7 @@ When the tracker view is open, one can switch between dates and quickly navigate
 
 #### Symptom Information
 To help patients understand their symptoms and learn what to do about them we provide them with short explanations. 
-All our information needs to be based on scientific sources. The source we currently use is the brochure 
+All our information needs to be based on scientific sources. One of the sources we currently use is the brochure 
 ["Empfehlungen zur Unterstützung einer selbstständigen Rehabilitation nach COVID-19-bedingter Erkrankung"](https://apps.who.int/iris/bitstream/handle/10665/345019/WHO-EURO-2021-855-40590-60116-ger.pdf), 
 second edition, published by the WHO Regionalbüro für Europa in 2021.
 
@@ -65,16 +65,15 @@ enable token based authentication.
 {{</section>}}
 
 {{<section title="Settings">}}
-BESCHREIBUNG
-
-BILD
+In the settings users can change their email and password. They can enable or disable daily push notifications that remind them to track their symptoms. They can also choose to share their data for Long COVID research and enter additional data.
 {{</section>}}
 
 {{<gallery>}}
-{{<image src="symptom-selection.png" alt="Symptom selection">}}
+{{<image src="symptom-selection.png" alt="Symptom selection" caption="Symptom selection">}}
 {{<image src="tracker.png" alt="Symptom tracker view" caption="Symptom tracker">}}
 {{<image src="symptom-information.png" alt="Symptom information view" caption="Symptom information">}}
 {{<image src="calendar.png" alt="Calendar" caption="Calendar">}}
 {{<image src="graph.png" alt="Symptom visualization as a graph with symptom light" caption="Symptom visualization as a graph and symptom lights">}}
 {{<image src="pdf.png" alt="PDF of symptom records" caption="Symptom visualization as PDF">}}
+{{<image src="settings.png" alt="Settings view" caption="Settings">}}
 {{</gallery>}}
