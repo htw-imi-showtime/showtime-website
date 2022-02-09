@@ -40,7 +40,7 @@ First, we created different **sections**, grouping the possible tickets and idea
 
 Said requirement sheet was important for the organization of the project because it provided the team with a way of **prioritising** the most important features. It also helped tremendously with creating graphs and tables that helped us stay on track of progress throughout the implementation process. 
 
-{{<image src="Priorities.PNG" alt="The Implementation Priorities" caption="Priority Graph">}}
+{{<image src="Priorities_new_alpha.PNG" alt="The Implementation Priorities" caption="Priority Graph">}}
 
 {{</section>}}
 
