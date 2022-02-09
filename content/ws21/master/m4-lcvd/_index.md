@@ -57,3 +57,13 @@ The LCvd team consists of five students. Four team members worked on the elabora
 [Median Kliniken, 2022]: https://www.median-kliniken.de/long-covid/de/fuer-betroffene/erfahrungsaustausch/
 [Koczulla et. al., 2021]: https://www.awmf.org/uploads/tx_szleitlinien/020-027l_S1_Post_COVID_Long_COVID_2021-07.pdf
 [Lopez-Leon et. al., 2021]: https://www.medrxiv.org/content/10.1101/2021.01.27.21250617v2.full.pdf
+{{</section>}}
+
+{{<section title="Video sources">}}
+* [Corona-Open Data](https://corona-open-data.ckan.de/dataset/covid-19-open-data-github/resource/d3b3703b-0c2f-4aa9-8b9c-92eed8ffec5d). accessed 2.2.2022
+* Gutenberg COVID-19 Studie. 2021. [Neue Studienergebnisse belegen häufige Verbreitung von Long COVID-Symptomen nach SARS-CoV-2-Infektion](https://www.unimedizin-mainz.de/presse/pressemitteilungen/aktuellemitteilungen/newsdetail/article/neue-studienergebnisse-belegen-haeufige-verbreitung-von-long-covid-symptomen-nach-sars-cov-2-infektion.html). accessed 8.2.2022
+* Quarks. 2022. [Wie schlimm ist Long Covid?](https://www.youtube.com/watch?v=x_ofvG-iauE). accessed 5.2.2022
+* CNN en Español. 2021. [¿Qué es el estado llamado “long covid” que reportan pacientes recuperados? Te lo explicamos](https://www.youtube.com/watch?v=oG3cblKP4Q0). accessed 5.2.2022
+* BBC News. 2022. [Some long Covid patients may have hidden damage to their lungs](https://www.youtube.com/watch?v=gZrS6NDD6jo). accessed 5.2.2022
+* Tagesspiegel. 2021. [‚Long Covid‘: Spät- und Langfolgen durch Corona](https://www.youtube.com/watch?v=BlrolkAG0fc). accessed 5.2.2022
+* PBS NewsHour. 2022. [Who is most likely to suffer from long COVID?](https://www.youtube.com/watch?v=1JaoOrD97KY). accessed 5.2.2022
