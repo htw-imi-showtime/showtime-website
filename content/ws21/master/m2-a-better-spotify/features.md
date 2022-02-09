@@ -4,7 +4,7 @@ weight = 2
 
 
 
-{{<image src="Difference.PNG" alt="What makes Better Spotify better" >}}
+{{<image src="Difference_new.PNG" alt="What makes Better Spotify better" >}}
 
 
 {{<section title="The Startpage" >}}

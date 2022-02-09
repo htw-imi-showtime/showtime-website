@@ -14,7 +14,7 @@ This had more than just one reason that all worked together to get to the final 
 
 Having to decide on the **scope** of the project as soon as possible, listening to priorities was crucial. Therefore it was more than important to weigh out the possibilities of what was feasible and what the users actually wanted. In the end, the queue had a **lower improvement rank** than the *startpage, the usability, design and even the playlists themselves*. 
 
-{{<image src="Priorities.PNG" alt="Pirorities" caption="The finished Priority graph">}}
+{{<image src="Priorities_new.PNG" alt="Pirorities" caption="The finished Priority graph">}}
 {{</section>}}
 
 
