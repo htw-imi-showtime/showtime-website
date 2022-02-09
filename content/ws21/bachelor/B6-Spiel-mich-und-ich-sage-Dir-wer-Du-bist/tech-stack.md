@@ -5,6 +5,8 @@ weight = 3
 
 {{<image src="TechStackComTranparent.png" alt="communication tech stack">}}
 
+
+
 {{<section title="Communication, Organisation">}}
 
 ## Discord
@@ -29,6 +31,7 @@ creative thinking** and **sharing ideas**, which the many tools miro offers supp
 
 {{</section>}}
 
+---
 
 {{<image src="TechStackDevTransparent.png" alt="development tech stack">}}
 
@@ -47,10 +50,13 @@ Itch.io is a platform which enables indie game developers to **freely host and s
 That made it possible for us to **share our game online** and run it directly in the browser, without our test players 
 having to download or install anything.
 
-
 ## PlayFab
 PlayFab is a **backend platform**, offering a variety of backend services, like analysing gaming data. \
 That meant we could easily **access the players' personality results** to evaluate and compare them.
+
+## PSPP
+GNU PSPP is a free program for **statistical analysis** of sampled data. It is the free, yet still powerful version of the 
+most commonly used statistics tool, SPSS. We used it to display and organise the participant's values.
 
 {{</section>}}
 

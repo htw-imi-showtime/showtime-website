@@ -4,13 +4,13 @@ project_id = "B6"
 
 # Properties for displaying the project in the project list
 card_image = "EndScreen.png"
-card_description = "OCEAN is a small role-playing game, designed to evaluate the players' personality type"
+card_description = "OCEAN is a small role-playing game, designed to evaluate the player's personality type"
 
 
 source_link = "https://github.com/ginogeorgiev/WerDuBist"
 website_link = "https://ocean-interactive.itch.io/ocean"
 
-team = ["Abdulrahman Kassem", "Batul Iraki", "Billy Julian Lesmana", "Gino Georgiev", "Janik Schönberg", "Liz Kintzel", "Nico Mania", "Quynh Vi Ngoc Trinh"]
+team = ["Abdulrahman Kassem", "Batul Iraki", "Billy Julian Lesmana", "Gino Georgiev", "Janik Schönberg", "Liz Kintzel", "Nico Mania", "Quynh Vi Trinh"]
 supervisor = "Martin Steinicke"
 +++
 
@@ -34,15 +34,15 @@ supervisor = "Martin Steinicke"
 
 Filling out a long **personality test** can be quite uninteresting or even boring.
 The aim of our project was to create a **video game**, which can successfully **replace a test like that**, 
-by evaluating the players' choices and playing style
+by evaluating the player's choices and playing style
 
 {{</section>}}
 
 
-{{<section title="The Team">}}
+{{<section title="Our Team">}}
 
 Our Team consists of eight students, each with a variety of **different strengths and interests**. In order to use these 
-in the most efficient way, we decided to **split up into  departments**. That way all responsibilities were clearly divided 
+in the most efficient way, we decided to **split up into departments**. That way all responsibilities were clearly divided 
 and everybody could focus on what they are best at.
 
 - 💻 **Tech:** Gino, Janik, Liz, Nico
