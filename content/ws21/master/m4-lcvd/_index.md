@@ -3,12 +3,15 @@ title = "LCvd"
 project_id = "M4"
 card_image = "logo.png"
 card_description = "LCvd is an app for tracking and visualizing the existence and strength of Long COVID symptoms"
-source_link = "https://git.myhki.de/lcvd"
+demo_link = "https://drive.google.com/drive/folders/1xu1-uZNJssIyjXAmb3FI0_Aq5kQ3-g94?usp=sharing"
 team = ["Emily Gilbert", "Fatlind Krasniqi", "Linda Fernsel", "Paula Osterkamp", "Shari Eichberger"]
 supervisor = "David Koschnick, Matthias Daiber"
 +++
-
 <!--{{<mediathek id="" title="Presentation">}}-->
+
+{{<gallery>}}
+{{<image src="app-link-qr-code.svg" alt="Drive folder with the LCvd App" caption="Download LCvd and give it a try!">}}
+{{</gallery>}}
 
 {{<section title="Motivation">}}
 "Long COVID" is an illness with a range of possible symptoms that appear after a Corona infection, either continuingly
