@@ -3,7 +3,6 @@ title = "Features"
 weight = 1
 +++
 
-
 {{<section title="Keyword Search" >}}
 With the help of the **Keyword Search** you can use words that describe the objects or scene to find a video. In the Original Vibro you had to separate keywords by using a semicolon and the Keyword Search itself was really small. In our new version we implemented **chips** that can individually be deleted and **auto-suggestions** to make it more easy for the user to search for Keywords. Also we made the Keyword Search field bigger, relocated it and combined it with the OCR Search field. 
 {{</section>}}
@@ -33,7 +32,7 @@ In the **Picture Search** you can see your **currently selected picture or color
 The **temporal search** with Shots can be used to find consecutive frames. We gave the Shots different colors that are reflected in the whole UI so the user can easily know what shot he is working on at any time. We also added an indicator at the top of the Shot tab to display whether a search is active in the Shot.
 {{</section>}}
 
-{{<image src="Shots.png" alt="Shots comparison" >}}
+{{<image src="shots.png" alt="Shots comparison" >}}
 
 
 {{<section title="Result List" >}}
@@ -61,3 +60,10 @@ Vibro’s main purpose is to find videos using different queries. Time is theref
 {{<section title="Help" >}}
 Another new feature we added for our version for novices was a help button. When hovering over the button descriptions of the different features and what they do will be displayed. We also provide a short textual overview of the program before starting a search. 
 {{</section>}}
+
+{{<section title="AVS" >}}
+We have also revised the design of the **AVS Task window**. In the AVS Task, **as many pictures as possible** must be found in a given time. The pictures must **fulfill certain conditions**, e.g. contain an apple. We have **replaced the markers** that tend to distract from the picture with markers that do not distract the user so much. 
+In addition, the images displayed are filtered. Only pictures from different videos are displayed, as finding pictures from different videos earns more points.
+{{</section>}}
+
+{{<image src="avs.png" alt="AVS comparison" >}}
