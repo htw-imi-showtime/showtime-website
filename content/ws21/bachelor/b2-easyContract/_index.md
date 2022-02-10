@@ -9,11 +9,14 @@ card_description = "easyContract for StartRight. For a student legal advisor, th
 # These properties may be removed if you don't need them
 website_link = "https://easycontract.ac0.de/"
 
-team = ["Jonah-Sophie Schuldt", "Katja Gertrud Hedemann", "Cansu Ilhan", "Pavel Tsvyatkov", "Elena Deligio", "Farida Elbassiouney", "Markus Müller", "Lasse Rhys Bielenberg"]
+
+team = ["Jonah-Sophie Schuldt", "Katja Hedemann", "Cansu Ilhan", "Pavel Tsvyatkov", "Elena Deligio", "Farida Elbassiouney", "Markus Müller", "Lasse Rhys Bielenberg"]
 supervisor = "David Koschnick"
 +++
 
 {{<image src="mockup_index.png" alt="Mockup" >}}
+{{<mediathek id="3cbd1f4b84ffade971e4c5aa80385f3b">}}
+
 
 
 
@@ -37,6 +40,6 @@ The entire team worked **closely together** to realize the vision in cooperation
 {{<team-member image="pavel.jpeg" name="Pavel">}}
 {{<team-member image="elena.jpg" name="Elena">}}
 {{<team-member image="farida.jpeg" name="Farida">}}
-{{<team-member image="marcus.png" name="Marcus">}}
+{{<team-member image="markus.png" name="Markus">}}
 {{<team-member image="lasse.jpeg" name="Lasse">}}
 {{</gallery>}}

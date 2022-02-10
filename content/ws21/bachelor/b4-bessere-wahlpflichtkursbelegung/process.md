@@ -5,7 +5,6 @@ weight = 2
 
 
 {{<section title="Brainstorming feature ideas & prioritizing">}}
-
 During the beginning of the project, we still had the chance to meet in person, which was really helpful when collecting all of our ideas. Our supervisors initial idea was to make the elective course registration for the IMI students easier, which can be accomplished in a variety of ways. This led us to a **long period of time where we thought about different approaches and how realistic it is for us to achieve these**. What specifically would make the course registration better? Do we really just focus on IMI students and their elective courses or do we already include more students than that? Do we start a survey to ask students and professors about their oppinions on the now used LSF? Answering all these questions was not easy and we thought about our decisions mulitple times after that. However, we all agreed on the main goal of improving the applications usablity, as well as the fairness of the course distribution. By creating a [user story map](https://miro.com/app/board/o9J_lh-BfEA=/?invite_link_id=768693532431) afterwards, we were able to list all the different functionalities we came up with and order them by their importance. This helped us to distinguish tasks that are mandatory for our MVP from tasks that could be interesting for later releases.
 
 {{</section>}}
@@ -39,7 +38,6 @@ Another very important step before starting to implement our ideas was to do som
 Once the foundational stuff was done, we could start working on the code all together. For that we created issues on GitHub during our weekly meetings and assigned them accordingly to everyones skills so we could make sure that our work is getting done as planned. During the weekly sprints we had after that, we always updated each other on our progress and thoughts that we have, while also being able to ask our team members if we would have any problems. 
 
 {{</section>}}  
-
 
 {{<section title="Reflection">}}
 

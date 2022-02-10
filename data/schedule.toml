@@ -4,13 +4,16 @@ title = "Opening"
 projectDescription = "des"
 [[slot]]
 time = "10:07"
-title = "Vorstellungen der Projekte"
+title = "Project Presentations"
 [[slot]]
 time = "ca. 11:15"
-title = "Mittagspause"
+title = "Lunch Break"
 [[slot]]
-time = "ca. 15:00"
-title = "Notenkonferenz"
+time = "12:00"
+title = "Exhibition"
+[[slot]]
+time = "15:00"
+title = "Break"
 [[slot]]
 time = "ca. 15:45"
-title = "Notenverkündung"
+title = "Announcement of the Grades"

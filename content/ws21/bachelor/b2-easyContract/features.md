@@ -11,7 +11,7 @@ This enables StartRight to access a database of contract modules more **quickly*
 At first the **legal form** for a new contract should be selected. 
 After that the user can see **text blocks**, matching the selected legal form. 
 These text blocks can then be **inserted** into a ready-made **text field** using **drag & drop** function. \
-There is also a possibility to **search** through the blocks, **add** new ones or **delete** them. 
+There is also a possibility to **search** through the blocks, **add** new ones, **edit** or **delete** them. 
 Finally the contract can be **downloaded** as **txt.** or **docx.** file format.
 {{</section>}}
 
