@@ -5,7 +5,7 @@ weight = 1
 
 {{<section title="Feature set" >}}
 
-## Profile - Status
+## Profile
 Since allmende is a social network app, a good looking profile page is a must have.
 That’s why we created a minimalistic profile page for the user to share information
 about themself, check which **challenges** they have accomplished and look at their
@@ -19,12 +19,15 @@ Mushroom-Head or something different.
 ## Sightings and Challenges
 A user can **create entries** to share their nature experience with others. A user can add a photo of insects, birds, plants, amphibians or any other organism they found to entry, add **location** and even **record how it sounds**. Each entry is displayed in the feed and can be **liked and commented** by others.
 
-To motivate others to explore the environment a user can **create challenges**. A challenge could be for example to find 5 different types of birds. You can view your sightings and challenges in your feed, called the **timeline**.
+To motivate others to explore the environment a user can **create challenges**. A challenge could be for example to find 5 different types of birds. You can view your sightings and challenges in your **feed**.
 
-## Badges
+{{<image src="entrysChallenges.png" alt="profile" >}}
+
+## Badges - Status
 In the context of gamification, we wanted to implement a new **rewarding feature**, for finishing challenges. So we createt **badges**. There are three types of badge in every animal or plant category, there are bronze, silver and gold badges. When you earned the third (gold)Badge of a category you will get a new **status** in your profile view.
 
 {{<image src="badges.png" alt="profile" >}}
+{{<image src="statusweb.png" alt="profile" >}}
 
 
 
@@ -34,13 +37,13 @@ You are curious about the **location of the communities’ sightings**? You can 
 {{<image src="map.png" alt="profile" >}}
 
 ## Allmendex
-The allmendex is a giant collection of the local flora and fauna build into the app.
-The idea behind allmendex was to have a clearly arranged dictionary of plants and
-animals with short, useful information and pictures while also creating a motivation
+The **allmendex** is a giant collection of the local flora and fauna build into the app.
+The idea behind allmendex was to have a clearly arranged **dictionary of plants and**
+**animals** with short, useful information and pictures while also creating a motivation
 for users to go outside and engage with their outdoor world. Since the allmendex is
-empty at the beginning, ambitious users quickly want to fill their allmendex and find
-them all.
-
+empty at the beginning, ambitious users quickly want to fill their allmendex and **find**
+**them all**.
+ 
 {{<image src="allmendex.png" alt="profile" >}}
 
 
