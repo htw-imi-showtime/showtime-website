@@ -23,7 +23,7 @@ Instead of clicking back and forth, struggling to find the right courses for you
 
 {{<section title="The Team">}}
 As a team, we wanted to clarify that all of us **picture the same outcome** of this project and wanted to give everyone the **chance to suggest ideas** from the first day on. With our **diverse experience and specialties**, we were able to inspire each other with new thoughts all the time.
-Not only could we gain **much experience with web development**, but also with how it is to **deal with a product owner** and working on the same project with multiple people in a team.
+Not only could we gain **much experience with web development**, but also with how it is to **deal with a product owner** and working on the same project with multiple people.
 {{</section >}}
 
 {{<gallery>}}

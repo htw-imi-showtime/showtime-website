@@ -11,7 +11,7 @@ Our task was to make the elective course registration for IMI bachelor students 
 Since the studyplan can only help IMI bachelor students with their elective course registration and organization so far, the next step would be to make it **usable for master students and someday all the other students** as well.
 
 #### All courses
-Instead of only being able to register for elective courses, the application can be extended so that you are able to **apply for all the other courses as well**. We were focusing on the elective courses for now, since we could see that the most trouble is happening there. We also worked out a fitting user interface while the UI team was playing around with different ideas, which could show all available courses without getting too confusing.
+Instead of only being able to register for elective courses, the application can be extended so that you are able to **apply for all the other courses as well**. We were focusing on the elective courses for now, since we could see that the most trouble is happening there. We also worked out a fitting user interface while the UI team was playing around with different ideas, which could show all available courses without getting too confusing. This could also include a time schedule that dynamically shows which courses have been selected and what time they would take place at.
 
 {{</section>}}
 
