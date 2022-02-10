@@ -71,7 +71,7 @@ great help for understanding how to implement JWT for authentication with a Djan
 We almost always applied the method of test driven development. Step by step we created 62 tests for registration, authentication,
 authorization and all endpoints. 
 
-In parallel we used a shared Postman collection to document the API endpoints. 
+In parallel, we used a shared Postman collection to document the API endpoints. 
 Postman collections can be shared with a workspace, where they can then be edited together. However, the free version of
 Postman has a member limit on workspaces, which is why some team members needed to import (and re-import after an update)
 the statically shared collection. We created pre-request scripts to allow for Postman requests to be run independently. 
@@ -82,12 +82,12 @@ The Postman collection for the LCvd API is available at https://www.getpostman.c
 
 {{<image src="tech-stack-postman-example.png" alt="A look at our Postman collection">}}
 
-We configured PyCharm to enforce the [PEP8 style standard](https://pep8.org/) for Python code.
+PyCharm was configured to enforce the [PEP8 style standard](https://pep8.org/) for Python code.
 
 ##### Docker
 Right from the start, our goal was to make the backend as easily usable as possible for the frontend developers: all team members 
 should be able to easily develop or use the backend, without worrying how to set it up and install requirements, 
-no matter which system they use. While Docker worked well on Linux and MacOS, it turned out to be difficult to use with Windows.
+no matter which system they use. While Docker worked well on Linux and macOS, it turned out to be difficult to use with Windows.
 
 So before starting to implement any features we dockerized the backend. Dockerizing Django apps is not straightforward. 
 For making migrations and creating a superuser, one would need to open the shell inside a Docker container, 
@@ -110,25 +110,29 @@ The tutorial ["How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu
 helped with understanding how to deploy the Django backend with Nginx and Gunicorn.
 
 #### Frontend
-In the frontend we started out by setting up NativeScript and a basic NativeScript-Vue app.
+In the frontend for our iOS and Android app we started out by setting up NativeScript and a basic NativeScript-Vue app.
 We then began implementing the most important views: the calendar, tracker, signup and login and visualization.
 Once the login was available in the backend we began implementing the requests to the backend and managing the application
-state with Vuex. We also made sure to save the JWT in the Application Settings, so that users won't have to login again after
+state with Vuex. We also made sure to save the JWT in the Application Settings, so that users won't have to log in again after
 reopening the app. After all the requests were finished, we started working on the rest of the views.
 
-With NativeScript it is not possible to use HTML-Elements in the template, since the app is not run in a browser but in a native environment. Therefore the use of NativeScript-Elements is imperative which create a wrapper for the native UI Components of Android and iOS. This can be challenging since for some elements there are differences between Android and iOS that need to be accounted for and
+With NativeScript it is not possible to use HTML-Elements in the template, since the app is not run in a browser but in a native environment. 
+Therefore the use of NativeScript-Elements is imperative which create a wrapper for the native UI Components of Android and iOS. 
+This can be challenging since for some elements there are differences between Android and iOS that need to be accounted for and
 some of them can't be resolved by different styling. Another challenge is that not all the features are documented well or the
 documentation pages seem to be unavailable.
 
-This was also the case for the visulization which we wanted to create by using the NativeScript UI Charts. This turned out to be
+This was also the case for the visualization which we wanted to create by using the NativeScript UI Charts. This turned out to be
 very difficult since the documentation on it was so spare. After working on it for a while and figuring out the details of how to use it
-ourselves, we realized that the features where not enough to achieve the visualization we had imagined. Therefore we had to find another way. Using a WebView we were able to create the visualization with the JavaScript library Chart.js. The data for the visualization is passed using the src of the WebView.
+ourselves, we realized that the features where not enough to achieve the visualization we had imagined. Therefore, we had to find another way. 
+Using a WebView we were able to create the visualization with the JavaScript library Chart.js. The data for the visualization is passed using the src of the WebView.
 
 ```jsx
 this.webViewSrc = `~/assets/graph.html?${JSON.stringify(this.data)}`;
 ```
 
-The variable webViewSrc is bound to the src of the WebView, so every time the variable changes the WebView reloads with the new data that is passed as stringified JSON in the src. In the HTML-File that creates the visualization the data can then be parsed to a JavaScript object again.
+The variable webViewSrc is bound to the src of the WebView, so every time the variable changes the WebView reloads with the new data that is passed as stringified JSON in the src. 
+In the HTML-File that creates the visualization the data can then be parsed to a JavaScript object again.
 
 ```jsx
 let loc = document.location.href;
