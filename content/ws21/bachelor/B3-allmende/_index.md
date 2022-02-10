@@ -3,7 +3,9 @@ title = "Allmende"
 project_id = "B3"
 
 # Properties for displaying the project in the project list
+
 card_image = "iconAllmende2.png"
+
 
 card_description = "Allmende is a web application that enables you to share experiences in nature with like-minded people using a unique approach. To what extent can social network structures and gamification contribute to improving the user experience and inspire as many people as possible for nature?"
 
