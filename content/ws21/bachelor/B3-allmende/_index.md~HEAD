@@ -12,12 +12,21 @@ team = ["Anastasiia Reznichenko", "Antonia Kaufmann", "Jonas Osterkorn", "Lukas 
 supervisor = "David Müller"
 +++
 
-
-
-
+{{<mediathek id="b0f27f012f6956609ecccd5cd8762316">}}
 
 {{<section title="Our Goal">}}
 With Allmende we want to encourage people for exploring nature and to share their experiences with others. Our approach is to use gamification to inspire as many people as possible for nature.
+
+Try it out on [allmende.de](http://generic-sauce.de:5000/login)
+
+<<<<<<< HEAD:content/ws21/bachelor/B3-allmende/_index.md
+Look at the source code on Github  [Github.de](https://github.com/allmende-app/frontend)
+=======
+Look at the source code on [Github.de](https://github.com/allmende-app/frontend)
+>>>>>>> parent of fb34a18 (Update _index.md):content/ws21/bachelor/B3-Bachelor-project/_index.md
+
+
+
 
 {{</section>}}
 
