@@ -23,7 +23,7 @@ With Allmende we want to encourage people for exploring nature and to share thei
 
 Try it out on [allmende.de](http://generic-sauce.de:5000/login)
 
-Look at the source code on [Github.de](https://github.com/allmende-app/frontend)
+Look at the source code on [Github.de](https://github.com/allmende-app)
 
 
 
