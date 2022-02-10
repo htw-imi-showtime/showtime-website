@@ -69,8 +69,8 @@ The last feature and focal point the team wanted to work on was improving the ge
 
 With a **sidebar** that is **minimizable** to widen the main screen if wanted, **headers** that are much **sleeker** and smaller while still giving the same amount of information in a simpler way as well as a more **visually distinguishable layout** of album and playlist covers. Furthermore, Better Spotify provides a dark- and light mode.
 
-{{<image src="Darkmode.PNG" alt="Darkmode des Systems" caption="Darkmode des Systems" >}}
-{{<image src="lightmode.PNG" alt="Lightmode des Systems" caption="Lightmode des Systems" >}}
+{{<image src="Darkmode.PNG" alt="Darkmode des Systems" caption="Darkmode of the System" >}}
+{{<image src="lightmode.PNG" alt="Lightmode des Systems" caption="Lightmode of the System" >}}
 
 
 All of these points were derived from the results of the **focus group interview** that was done in the beginning as well as multiple smaller feedback sessions with Spotify users, to ensure that a **broad variety of users with different needs and desires** for the app agreed to the design and reviewed it properly. In the end, more **User Tests** were done to **solidify the design** and features.
