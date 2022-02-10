@@ -18,7 +18,7 @@ After that you will be sent to the Live Feed.
 <br>
 <p style="font-size:18px;">
 The Live Feed is the <b>main feature</b> of this app. Here you can choose one or more of the eleven main categories you're interested in and see "live" <b>the newest bargains</b> for these products. Our idea behind this page was to help people who are <b>searching for presents</b> and aren't sure exactly what they want. Or maybe you're just want to hunt bargains!
-if you know what you're looking for, you can switch to the Categories page.
+If you do <b>not</b> choose <b>any</b> categories, then you see <b>all products</b> from all categories.
 </p>
 {{</section>}}
 
@@ -29,7 +29,7 @@ if you know what you're looking for, you can switch to the Categories page.
 Are you still searching a birthay present? Then this is the right place for you!
 In the Categories you can <b>choose from all the categories and subcategories</b> that our App has to offer!
 This is especially helpful, when you know exactly what you're looking for.
-Once you find the perfect item, you <b>can buy it or add it to Favorites</b>!
+Once you find the perfect item, you <b>can buy it</b> or <b>add it to Favorites</b>!
 </p>
 {{</section>}}
 
