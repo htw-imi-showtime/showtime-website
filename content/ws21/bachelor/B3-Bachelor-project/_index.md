@@ -3,12 +3,12 @@ title = "Allmende"
 project_id = "B3"
 
 # Properties for displaying the project in the project list
-card_image = "iconAllmende.png"
+card_image = "iconAllmende2.png"
 
 card_description = "Allmende is a web application that enables you to share experiences in nature with like-minded people using a unique approach. To what extent can social network structures and gamification contribute to improving the user experience and inspire as many people as possible for nature?"
 
 
-team = ["Anastasiia Reznichenko", "Antonia Kaufmann", "Jonas Osterkorn", "Lukas Glasmacher", "Nataliia Azarnykh", "Salim Alkhodor", "Seven Erdem", "To Uyen Nguyen"]
+team = ["Anastasiia Reznichenko", "Antonia Kaufmann", "Jonas Osterkorn", "Lukas Glasmacher", "Nataliia Azarnykh", "Salim Alkhodor", "Sven Erdem", "To Uyen Nguyen"]
 supervisor = "David Müller"
 +++
 
@@ -35,5 +35,5 @@ We are a team of students with varying levels of work and study experience. Neve
 {{<team-member image="Nataliia.jpg" name="Nataliia">}}
 {{<team-member image="Salim.JPG" name="Salim">}}
 {{<team-member image="Sven.jpg" name="Sven">}}
-{{<team-member image="Uyen.jpg" name="Tu Uyen">}}
+{{<team-member image="Uyen.jpg" name="To Uyen">}}
 {{</gallery>}}
