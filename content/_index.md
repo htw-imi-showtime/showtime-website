@@ -7,7 +7,7 @@ zoom_link = "TBD"
 
 {{<teaser category="about showtime" title="Projects over Distance">}}
 
-This term is the third term already that all projects and our Showtime are held in
+This term is the fourth term already that all projects and our Showtime are held in
 a distance format - sad, but also an opportunity to explore the projects
 from afar! Just dip in for one or two project presentations, visit the projects
 in their virtual booths or watch the presentation videos,
