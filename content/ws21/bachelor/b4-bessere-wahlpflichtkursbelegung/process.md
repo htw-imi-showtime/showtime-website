@@ -36,7 +36,7 @@ The very first thing we had to do before actually starting to develop our projec
 Another very important step before starting to implement our ideas was to do some research for the algorithm we wanted to use and also clarify which legal matters we had to pay attention to. This included to find out if there are already existing algorithms we could use or modify to fit our circumstances and also talking to the administration of the HTW to clarify how much impact we would be allowed to have on the course distribution.
 
 #### Creating our App
-Once the foundational stuff was done, we could start working on the code all together. For that we created issues on GitHub during our weekly meetings and asigned them accordingly to everyones skills so we could make sure that our work is getting done as planned. During the weekly sprints we had after that, we always updated each other on our progress and thoughts that we have, while also being able to ask our team members if we would have any problems. 
+Once the foundational stuff was done, we could start working on the code all together. For that we created issues on GitHub during our weekly meetings and assigned them accordingly to everyones skills so we could make sure that our work is getting done as planned. During the weekly sprints we had after that, we always updated each other on our progress and thoughts that we have, while also being able to ask our team members if we would have any problems. 
 
 {{</section>}}  
 

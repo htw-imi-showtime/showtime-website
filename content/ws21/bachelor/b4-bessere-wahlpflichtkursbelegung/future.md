@@ -19,7 +19,7 @@ Instead of only being able to register for elective courses, the application can
 
 {{<section title="Forking information from reliable source">}}
 
-Currently, the students have to manually indicate information about them, so we have to rely on them being honest with their data. By getting the correct data like starting semester, increased priority or what they are studying, we **could make sure that the data is always correct and the user would not have to do less work** before starting to use our application. Besides that, the **course information could also be obtained from an official database**.
+Currently, the students have to manually indicate information about them, so we have to rely on them being honest with their data. By getting the correct data like starting semester, increased priority or what they are studying, we **could make sure that the data is always correct and the user would have to do less work** before starting to use our application. Besides that, the **course information could also be obtained from an official database**.
 
 {{</section>}}
 
