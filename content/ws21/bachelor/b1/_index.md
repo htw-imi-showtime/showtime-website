@@ -15,7 +15,8 @@ supervisor = "Prof. Dr.-Ing. Kai-Uwe Barthel,Nico Hezel, Konstantin Schall"
 +++
 
 
-{{<image src="VibroUI.png" alt="New UI" >}}
+{{<image src="VibroUIfinal.jpg" alt="New UI" >}}
+{{<mediathek id="b9784bd43399035251eaa3a1ac2211a6" title="Our video">}}
 
 
 {{<section title="Our Goal">}}

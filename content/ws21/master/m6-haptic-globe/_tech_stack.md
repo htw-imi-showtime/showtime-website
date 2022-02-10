@@ -3,17 +3,21 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="proxy.jpg" alt="tech stack">}}
+{{<image src="te_logo_collection.png" alt="tech stack">}}
 
 {{<section title="Development">}}
 * <strong>Unity</strong><br>
-Our engine of choice, where all the little pieces come together
+Our engine of choice, where all the little pieces come together<br>
+https://unity.com/
 * <strong>Oculus</strong><br>
-We used the Oculus Rift S and the Oculus Quest with Oculus Link for a pc connection
+We used the Oculus Rift S and the Oculus Quest with Oculus Link for a pc connection<br>
+https://www.oculus.com/
 * <strong>SteamVR</strong><br>
-Allowed us to use different headsets without much hassle
+Allowed us to use different headsets without much hassle<br>
+https://www.steamvr.com/de/
 * <strong>UltraLeap</strong><br>
 For our handtracking we used the Leap Motion and the Stereo IR 170
+https://www.ultraleap.com/
 {{</section>}}
 
 {{<section title="Hardware">}}
@@ -32,7 +36,7 @@ Later we also used this for higher quality hand tracking
 
 {{<section title="Sphere">}}
 * <strong>Plastic Sphere</strong><br>
-A 16 mm plexiglass sphere was bought from a crafts storeto have a vessel for our tracking solution.
+A 16 mm plexiglass sphere was bought from a crafts store to have a vessel for our tracking solution.
 * <strong>3D printer</strong><br>
 We 3d printed the bracket to hold a controller in the sphere.
 {{</section>}}
@@ -52,9 +56,9 @@ https://opensky-network.org
 
 {{<section title="Communication">}}
 * <strong>Discord</strong><br>
-Between the team members we used Discord for its easy accessibility and usability.
+Between the team members we used Discord for its easy accessibility and usability.<br>
 * <strong>Mattermost</strong><br>
-The online communication with our supervisors
+The online communication with our supervisors<br>
 {{</section>}}
 
 {{<section title="Version Control">}}
