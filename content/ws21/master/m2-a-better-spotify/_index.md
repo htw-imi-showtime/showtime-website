@@ -7,7 +7,7 @@ card_image = "logolight.jpg"
 card_description = "‘Better-Spotify' is a web application that is based on the audio-streaming platform Spotify and is designed to provide an improved user experience. The main features Spotify offers are still prominent while also including new ones that were priorly overlooked or discarded."
 
 source_link = "https://github.com/jakepanter/better-spotify"
-team = ["Naomi Schoppa", "Jakob Panthen", "Piranavi Satkunanathan", "Phillip Kiele", "Stefan Böhnert", "Malin Dulkies", "Lennard Grimm" ]
+team = ["Naomi Schoppa", "Jakob Panten", "Piranavi Satkunanathan", "Phillip Kiele", "Stefan Böhnert", "Malin Dulkies", "Lennard Grimm" ]
 supervisor = "David Strippgen"
 
 +++
@@ -36,9 +36,9 @@ Because the Scrum method was used and we were **working agile**, each team was n
 
 {{<gallery>}}
 {{<team-member image="Naomi.jpg" name="Naomi Schoppa">}}
-{{<team-member image="Jakob.jpg" name="Jakob Panthen">}}
+{{<team-member image="Jakob.jpg" name="Jakob Panten">}}
 {{<team-member image="Pira.jpg" name="Piranavi Satkunanathan">}}
-{{<team-member image="Phillip.jpg" name="Phillip Kielie">}}
+{{<team-member image="Phillip.jpg" name="Phillip Kiele">}}
 {{<team-member image="Stefan.jpg" name="Stefan Böhnert">}}
 {{<team-member image="Malin.jpg" name="Malin Dulkies">}}
 {{<team-member image="Lennard.jpg" name="Lennard Grimm">}}
