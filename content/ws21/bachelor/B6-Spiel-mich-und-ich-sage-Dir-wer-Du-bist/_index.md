@@ -14,14 +14,12 @@ team = ["Abdulrahman Kassem", "Batul Iraki", "Billy Julian Lesmana", "Gino Georg
 supervisor = "Martin Steinicke"
 +++
 
-{{<image src="StartScreen.png" alt="Game Start Screen" >}}
+{{<mediathek id="29174a46d6a2112311306942da1c872e" >}}
 
 {{<section title="Our Game">}}
 <iframe frameborder="0" src="https://itch.io/embed/1372925?border_width=5&amp;bg_color=2a3247&amp;fg_color=ffffff&amp;link_color=f0c45d&amp;border_color=7281ab" width="560" height="175"><a href="https://ocean-interactive.itch.io/ocean">OCEAN by OCEAN-Interactive, OblivionSword, zorogreenhead, Abdool, quynhvi, kinasch, dev_mania, Gino Georgiev, Chaotic--Pan</a></iframe>
 {{</section>}}
 
-
-[comment]: <> ({{<mediathek id="cdb9d4bc8432e2ebca013c0ce410e240" >}})
 
 [comment]: <> ({{<quote source="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" caption="- somebody who cannot swim">}})
 
