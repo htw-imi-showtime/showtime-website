@@ -3,6 +3,8 @@ title = "Tech Stack and Tool Stack"
 weight = 3
 +++
 {{<section title="Tech Stack">}}
+{{<image src="architektur.jpg" alt="LCvd's system architecture">}}
+
 #### NativeScript-Vue
 [NativeScript](https://nativescript.org/) is an open-souce framework to access native APIs in JavaScript. 
 With the help of Android Studio and XCode it allows for building truly native applications with a JavaScript frontend 
