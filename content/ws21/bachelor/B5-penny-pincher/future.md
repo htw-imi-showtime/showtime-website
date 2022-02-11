@@ -10,7 +10,7 @@ For now we would like to **keep working** on this project **privately** and keep
 
 {{<section title="Additional Features">}}
 #### Social Media Hub
-There are some **new** features we would like to add in the future such as adding **notifications** for **limited time offers** and being able to choose between main and sub categories in browser.
+There are some **new** features we would like to add in the future such as adding **notifications** for **limited time offers** and being able to choose between main and sub categories in browser. We would also like to implement a feature that lets you **choose** the **discount range** in Live Feed.
 
 For now our app is available only in German, and we would like to offer it in **English** as well.
 

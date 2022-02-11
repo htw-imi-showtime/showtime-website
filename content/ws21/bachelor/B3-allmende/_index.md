@@ -3,7 +3,9 @@ title = "Allmende"
 project_id = "B3"
 
 # Properties for displaying the project in the project list
+
 card_image = "iconAllmende2.png"
+
 
 card_description = "Allmende is a web application that enables you to share experiences in nature with like-minded people using a unique approach. To what extent can social network structures and gamification contribute to improving the user experience and inspire as many people as possible for nature?"
 
@@ -12,12 +14,17 @@ team = ["Anastasiia Reznichenko", "Antonia Kaufmann", "Jonas Osterkorn", "Lukas 
 supervisor = "David Müller"
 +++
 
-
-
-
+{{<mediathek id="b0f27f012f6956609ecccd5cd8762316">}}
 
 {{<section title="Our Goal">}}
 With Allmende we want to encourage people for exploring nature and to share their experiences with others. Our approach is to use gamification to inspire as many people as possible for nature.
+
+Try it out on [allmende.de](http://generic-sauce.de:5000/login)
+
+Look at the source code on Github  [Github.de](https://github.com/allmende-app/frontend)
+
+
+
 
 {{</section>}}
 
