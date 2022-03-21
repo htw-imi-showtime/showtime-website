@@ -3,8 +3,12 @@ title = "Tech Stack and Tool Stack"
 weight = 3
 +++
 {{<section title="Tech Stack">}}
+{{<image src="architektur.jpg" alt="LCvd's system architecture">}}
+
 #### NativeScript-Vue
-[NativeScript](https://nativescript.org/) is an open-souce framework to access native API's in JavaScript. With the help of Android Studio and XCode it allows for building truly native applications with a JavaScript frontend framework, in this case Vue.js.
+[NativeScript](https://nativescript.org/) is an open-souce framework to access native APIs in JavaScript. 
+With the help of Android Studio and XCode it allows for building truly native applications with a JavaScript frontend 
+framework, in this case Vue.js.
 During the development emulators have been used to preview the app.
 
 #### TypeScript
@@ -22,7 +26,7 @@ to develop the backend of LCvd.
 
 #### DRF
 [Django Rest Framework](https://www.django-rest-framework.org/) (DRF) can be used for implementing an API. 
-It undertakes many repetitive tasks, like serialization, and can easily be extended for more sophisticated 
+It undertakes many repetitive tasks, like serialization, and can be extended for more sophisticated 
 behavior. 
 
 DRF's [APIClient](https://www.django-rest-framework.org/api-guide/testing/#apiclient) is used for testing backend features 
@@ -52,7 +56,7 @@ The API is can be accessed at https://lcvd.ac0.de/.
 {{<section title="Tool Stack">}}
 #### GitLab
 The team used [Git](https://git-scm.com/) for source code management. The backend and the frontend repositories are hosted on 
-[a GitLab instance](https://git.myhki.de/lcvd/). GitLab's [issue boads](https://docs.gitlab.com/ee/user/project/issue_board.html) 
+[a GitLab instance](https://git.myhki.de/) (private). GitLab's [issue boads](https://docs.gitlab.com/ee/user/project/issue_board.html) 
 feature and Wiki are used for organizing the team's tasks.
 
 #### Adobe XD

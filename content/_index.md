@@ -14,7 +14,7 @@ in their virtual booths or watch the presentation videos,
 websites, and demos when it fits you best!
 {{</teaser>}}
 
-{{<teaser category="projects" title="One Term Nine Projects">}}
+{{<teaser category="projects" title="One Term Ten Projects">}}
 Bachelor students do one, Master students two practical projects during their studies. This term, we
 are happy to present six projects in the Bachelor's and four Projects in the Master's programme.
 [-> discover_the_projects](/projects)

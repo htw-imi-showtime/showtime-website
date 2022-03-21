@@ -3,21 +3,15 @@ title = "Future"
 weight = 4
 +++
 
-{{<section title="Continued in a bachelor thesis">}}
-
-Just like we continued the work of Julia, our project is going to be continued to maybe add some of the features we came up with and improve the application even more.
-
-{{</section>}}
-
 {{<section title="Extensions">}}
 
-Our task was to make the elective course registration for IMI bachelor students easier. However, our final product can easily be extended.
+Our task was to make the elective course registration for IMI bachelor students easier. However, our final product can easily be extended, which will probably be done in a bachelor thesis.
 
 #### All HTW students
 Since the studyplan can only help IMI bachelor students with their elective course registration and organization so far, the next step would be to make it **usable for master students and someday all the other students** as well.
 
 #### All courses
-Instead of only being able to register for elective courses, the application can be extended so that you are able to **apply for all the other courses as well**. We were focusing on the elective courses for now, since we could see that the most trouble is happening there. We also worked out a fitting user interface while the UI team was playing around with different ideas, which could show all available courses without getting too confusing.
+Instead of only being able to register for elective courses, the application can be extended so that you are able to **apply for all the other courses as well**. We were focusing on the elective courses for now, since we could see that the most trouble is happening there. We also worked out a fitting user interface while the UI team was playing around with different ideas, which could show all available courses without getting too confusing. This could also include a time schedule that dynamically shows which courses have been selected and what time they would take place at.
 
 {{</section>}}
 
@@ -25,7 +19,7 @@ Instead of only being able to register for elective courses, the application can
 
 {{<section title="Forking information from reliable source">}}
 
-Currently, the students have to manually indicate information about them, so we have to rely on them being honest with their data. By getting the correct data like starting semester, increased priority or what they are studying, we **could make sure that the data is always correct and the user would not have to do less work** before starting to use our application. Besides that, the **course information could also be obtained from an official database**.
+Currently, the students have to manually indicate information about them, so we have to rely on them being honest with their data. By getting the correct data like starting semester, increased priority or what they are studying, we **could make sure that the data is always correct and the user would have to do less work** before starting to use our application. Besides that, the **course information could also be obtained from an official database**.
 
 {{</section>}}
 

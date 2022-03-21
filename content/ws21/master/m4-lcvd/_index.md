@@ -3,12 +3,15 @@ title = "LCvd"
 project_id = "M4"
 card_image = "logo.png"
 card_description = "LCvd is an app for tracking and visualizing the existence and strength of Long COVID symptoms"
-source_link = "https://git.myhki.de/lcvd"
+demo_link = "https://drive.google.com/drive/folders/1xu1-uZNJssIyjXAmb3FI0_Aq5kQ3-g94?usp=sharing"
 team = ["Emily Gilbert", "Fatlind Krasniqi", "Linda Fernsel", "Paula Osterkamp", "Shari Eichberger"]
 supervisor = "David Koschnick, Matthias Daiber"
 +++
+{{<mediathek id="bc5e966aa37b8e26ba4a7949e0d49e01" title="Presentation">}}
 
-<!--{{<mediathek id="" title="Presentation">}}-->
+{{<gallery>}}
+{{<image src="app-link-qr-code.svg" alt="Drive folder with the LCvd App" caption="Download LCvd and give it a try!">}}
+{{</gallery>}}
 
 {{<section title="Motivation">}}
 "Long COVID" is an illness with a range of possible symptoms that appear after a Corona infection, either continuingly
@@ -57,3 +60,25 @@ The LCvd team consists of five students. Four team members worked on the elabora
 [Median Kliniken, 2022]: https://www.median-kliniken.de/long-covid/de/fuer-betroffene/erfahrungsaustausch/
 [Koczulla et. al., 2021]: https://www.awmf.org/uploads/tx_szleitlinien/020-027l_S1_Post_COVID_Long_COVID_2021-07.pdf
 [Lopez-Leon et. al., 2021]: https://www.medrxiv.org/content/10.1101/2021.01.27.21250617v2.full.pdf
+{{</section>}}
+
+{{<section title="Video sources">}}
+* Deutsche Herzstiftung e.V.. 2020 [Covid-19-Forschung: Wie schädigt das Coronavirus den Herzmuskel?](https://www.youtube.com/watch?v=61aIQctQ6nw). accessed 2.2.2.2022
+* Wiener Linien. 2020. [Warum hast du keine Maske auf?](https://www.youtube.com/watch?v=YaKhd_pwovU). accessed 2.2.2022
+* [Femme surprise PNG Photos](https://www.pngmart.com/fr/image/291253). accessed 2.2.2022
+* [Corona-Open Data](https://corona-open-data.ckan.de/dataset/covid-19-open-data-github/resource/d3b3703b-0c2f-4aa9-8b9c-92eed8ffec5d). accessed 2.2.2022
+* Gutenberg COVID-19 Studie. 2021. [Neue Studienergebnisse belegen häufige Verbreitung von Long COVID-Symptomen nach SARS-CoV-2-Infektion](https://www.unimedizin-mainz.de/presse/pressemitteilungen/aktuellemitteilungen/newsdetail/article/neue-studienergebnisse-belegen-haeufige-verbreitung-von-long-covid-symptomen-nach-sars-cov-2-infektion.html). accessed 8.2.2022
+* Quarks. 2022. [Wie schlimm ist Long Covid?](https://www.youtube.com/watch?v=x_ofvG-iauE). accessed 5.2.2022
+* CNN en Español. 2021. [¿Qué es el estado llamado “long covid” que reportan pacientes recuperados? Te lo explicamos](https://www.youtube.com/watch?v=oG3cblKP4Q0). accessed 5.2.2022
+* BBC News. 2022. [Some long Covid patients may have hidden damage to their lungs](https://www.youtube.com/watch?v=gZrS6NDD6jo). accessed 5.2.2022
+* Tagesspiegel. 2021. [‚Long Covid‘: Spät- und Langfolgen durch Corona](https://www.youtube.com/watch?v=BlrolkAG0fc). accessed 5.2.2022
+* PBS NewsHour. 2022. [Who is most likely to suffer from long COVID?](https://www.youtube.com/watch?v=1JaoOrD97KY). accessed 5.2.2022
+* [Man Looking at Phone Cartoon Vector.svg](https://commons.wikimedia.org/wiki/File:Man_Looking_at_Phone_Cartoon_Vector.svg##) from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) by [Videoplasty.com](https://videoplasty.com/), [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). accessed 7.2.2022
+* [Docker Icon](https://www.docker.com/company/newsroom/media-resources). accessed 7.2.2022
+* [Django Icon](https://www.djangoproject.com/community/logos/). accessed 7.2.2022
+* [NativeScript Icon](https://nativescript.org/). accessed 7.2.2022
+* [Vue.js Icon](https://github.com/vuejs/art/tree/9f8ee218d32b52c2d150212f22798a7a61689361). Evan You. 2016. accessed 7.2.2022
+* [PostgreSQL Icon](https://www.postgresql.org/). accessed 7.2.2022
+* [Background Music 1](https://www.youtube.com/watch?v=1CImcrvMnBY). StlabStudioMusic. 2021. accessed 7.2.2022
+* [Background Music 2](https://www.youtube.com/watch?v=Ghqc9reeD5I). Infraction. 2019. accessed 7.2.2022
+* [Background Music 3](https://uppbeat.io/track/monument-music/better-off). Better Off. Monument Music. accessed 7.2.2.2022
