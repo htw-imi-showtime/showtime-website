@@ -4,7 +4,7 @@ title = "IMI Showtime"
 theme = "showtime-theme-2021"
 
 [params]
-    current_semester = "ws21"
+    current_semester = "ss22"
 
 [markup]
     [markup.goldmark]

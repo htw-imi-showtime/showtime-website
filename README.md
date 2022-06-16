@@ -92,7 +92,7 @@ git submodule update
 ```
 
 ## Including additional content
-In addition to the required content you can add any content you want - at least this term (winter semester 2021/22) this site
+In addition to the required content you can add any content you want - at least this term (summer semester 2022) this site
 replaces the Showtime Fair with the booths and posters. Please consider
 - the Urheberrecht for all material you provide: Include the information (source, creator etc.) in the caption
 - please reduce the file sizes for all images and videos that are included in the site
@@ -180,9 +180,9 @@ scaffolds the folder structure for the projects of the new semester.
 ```shell
 ./new_semester.sh <semester>
 ```
-Example: Transitioning to summer semester 2021/22
+Example: Transitioning to summer semester 2022
 ```shell
-./new_semester.sh ss21
+./new_semester.sh ss22
 ```
 
 ## Deployment Setup
