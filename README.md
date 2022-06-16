@@ -48,14 +48,14 @@ cd showtime-website
 
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ws21/bachelor/b0-template-project/ content/ws21/bachelor/b#-your-project/
+cp -R content/ss22/bachelor/b0-template-project/ content/ss22/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-project/
+cp -R content/ss22/master/m0-template-project/ content/ss22/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-5. Fill out your project's homepage `content/ws21/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+5. Fill out your project's homepage `content/ss22/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    **Please don't use Markdown headings (hashtags) directly, since those headings won't be displayed correctly.**
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
@@ -64,7 +64,7 @@ cp -R content/ws21/master/m0-template-project/ content/ws21/master/m#-your-proje
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ws21/<bachelor|master>/<project_number-your-project>
+git add content/ss22/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
