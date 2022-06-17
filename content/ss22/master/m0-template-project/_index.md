@@ -30,6 +30,9 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="10755.png" name="teammember">}}
-{{<team-member image="10755.png" name="teammember">}}
+{{<team-member image="hacker.png" name="teammember">}}
+{{<team-member image="hacker.png" name="teammember">}}
+{{<team-member image="hacker.png" name="teammember">}}
+{{<team-member image="hacker.png" name="teammember">}}
+{{<team-member image="hacker.png" name="teammember">}}
 {{</gallery>}}
