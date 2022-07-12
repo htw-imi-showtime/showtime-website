@@ -4,7 +4,7 @@ project_id = "M5"
 
 # Properties for displaying the project in the project list
 card_image = "placeholder.jpg"
-card_description = "‘AdyBuddy' is a mobile application developed for obesity prevention of children and young teenagers, involing their family or friends to bring about effective sustainable changes in their nutritional and exercise behavior."
+card_description = "‘AdyBuddy' is a mobile application developed for obesity prevention of children and young teenagers, involing their family or friends to bring about effective sustainable changes in their nutritional and exercise behavior through weekly challenges."
 
 
 team = ["Lisa Trage", "Tu Huong Vu", "Naomi Schoppa", "Julia Zamaitat", "Hedi Talmoudi", "Dustin Reimann", "Darwin Becker"]
