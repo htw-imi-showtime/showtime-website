@@ -21,28 +21,31 @@ After the rough concept was in place, one team created a **User Story Map**, bas
 
 {{<image src="usm.png" alt="Picture of our User Story Map" caption="User Story Map">}}
 
-{{<image src="chatbot.png" alt="Initial analysis of user habits" caption="Initial analysis of user habits">}}
-
-
 
 {{</section>}}
 
 {{<section title="Design">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+While still in the final moves of the conceptual phase, we started creating the designs. It was important to us that the app is appealing especially for our **target group** - young children - and that content is presented in clear and understandable language.
+
+To achieve this, we iteratively created various design concepts, evaluated them together, and either discarded them altogether or revised them. 
+
+We are very happy with our final design and find that it provides both children and adults with an appealing way to improve their habits a little bit every day.
+
+{{<image src="designs.png" alt="Picture of some of our screen designs" caption="Some of our screen designs">}}
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 {{</section>}}
 
 {{<section title="Implementation">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+At the beginning of our implementation phase, we weren't sure whether to use Flutter or React Native as our front-end technology. Since almost no one had experience with either framework, it was a gut decision and we chose Flutter. 
+
+We worked agile based on the Scrum method with weekly sprints. In our **weekly meeting**, everyone reported what they had worked on during the week and what problems they had encountered. Every now and then we also had meetings with our project supervisor in case we had any questions for him. There were certain requests from the team overseeing the project that we followed up on in the implementation. In addition, we made **independent decisions and worked independently**.
+
+Since each team member was working on their own tickets, we created a **Kanban board** for this so that everyone could see what the others were working on at any given time. When there were bigger challenges, we also worked on a problem in smaller groups. Our meetings took place both on-site and remotely. 
+
+{{<image src="kanban.png" alt="Picture of Project Board on Gitlab" caption="Project on Gitlab">}}
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 {{</section>}}
