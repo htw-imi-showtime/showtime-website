@@ -9,9 +9,11 @@ As the very first step of our research, we read multiple **studies** and article
 
 As a next step, we conducted a **market analysis**: there are already a lot of health and weight related applications on the market, what distinguishes them from one another and what do they all have in common? We didn't want to just become the 100th app you can use to eventually – mostly unsuccessfully – to lose weight. This is what gave us our unique selling point: most apps focus on the individual. We focus on the **power of shared success**.
 
-{{<image src="research.png" alt="Picture of Miro Research Collection" caption="Research and ideas collected on Miro">}}
 
 {{</section>}}
+
+{{<image src="research.png" alt="Picture of Miro Research Collection" caption="Research and ideas collected on Miro">}}
+
 
 {{<section title="Concept">}}
 
@@ -19,10 +21,10 @@ After we had done all the research and collected all the ideas, we started to wo
 
 After the rough concept was in place, one team created a **User Story Map**, based on which we planned our MVP and further releases. Another team has been working on the **details of the challenges** that form the basis of our app and how the individual needs of a user could be measured in order to provide **tailored assitance** in the change of the users habits. We needed to make sure to design an application that young children as well as their parents could use to *reach their goals as a team*, or family indeed.
 
+{{</section>}}
+
 {{<image src="usm.png" alt="Picture of our User Story Map" caption="User Story Map">}}
 
-
-{{</section>}}
 
 {{<section title="Design">}}
 While still in the final moves of the conceptual phase, we started creating the designs. It was important to us that the app is appealing especially for our **target group** - young children - and that content is presented in clear and understandable language.
@@ -33,8 +35,6 @@ We are very happy with our final design and find that it provides both children 
 
 {{<image src="designs.png" alt="Picture of some of our screen designs" caption="Some of our screen designs">}}
 
-
-
 {{</section>}}
 
 {{<section title="Implementation">}}
@@ -44,8 +44,7 @@ We worked agile based on the Scrum method with weekly sprints. In our **weekly m
 
 Since each team member was working on their own tickets, we created a **Kanban board** for this so that everyone could see what the others were working on at any given time. When there were bigger challenges, we also worked on a problem in smaller groups. Our meetings took place both on-site and remotely. 
 
+{{</section>}}
+
 {{<image src="kanban.png" alt="Picture of Project Board on Gitlab" caption="Project on Gitlab">}}
 
-
-
-{{</section>}}
