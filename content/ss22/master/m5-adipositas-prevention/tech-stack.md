@@ -3,31 +3,52 @@ title = "Tech Stack"
 weight = 4
 +++
 
-{{<section title="Tech Stack Com & Design">}}
 
-## Java
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+{{<image src="logos.png" alt="Our used technologies">}}
 
-## Python
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-## C#
-{{<image src="techstackcom.png" alt="tech stack part 1" caption="communication & design tech stack">}}
 
-{{</section>}}
+{{<section title="Concept & Design">}}
+#### [Figma](https://figma.com)
+- To create our design drafts and final designs, we used the graphics editor Figma.
 
-{{<section title="Tech Stack Dev">}}
-## GitHub Desktop
-GitHub Desktop allowed us to easily **work together** on the **same codebase**.
-
-## SceneBuilder
-With SceneBuilder we worked to **change the UI** of our program and adjust it to our ideas. 
-
-## Eclipse
-As an IDE we used Eclipse to **code and run** the program.
-{{<image src="techstackdev.png" alt="tech stack part 2" caption="development tech stack">}}
-
+#### [Miro](https://miro.com/)
+- Miro offers a great opportunity to collect and share ideas with all the team members.
 {{</section>}}
 
 
 
+{{<section title="Frontend">}}
+#### [Flutter](https://flutter.dev)
+- To build our app, we used Flutter. It is an open-source framework from Google that allows you to build platform independent apps, based on the programming language [Dart](https://dart.dev).
+{{</section>}}
+
+
+{{<section title="Backend">}}
+#### [Docker](https://www.docker.com)
+- Docker is a software for isolating applications using container virtualization. We used it to run our database with the server.
+
+#### [NodeJS](https://nodejs.dev)
+- We used a NodeJS server for our backend with [Typescript](https://www.typescriptlang.org). 
+
+#### [ExpressJS](https://expressjs.com)
+- It is a framework for NodeJS applications that provides additional features for faster development.
+
+#### [MongoDB](https://www.mongodb.com)
+- We decided to use this document-based database system for our application due to its flexibility. 
+{{</section>}}
+
+
+{{<section title="Deployment">}}
+#### [Gitlab](https://about.gitlab.com)
+- To manage our codebase, we used Gitlab. We had a repository for both the frontend and the backend. We also created a Kanban board to have an overview of our open tickets and who was working on which ticket. 
+{{</section>}}
+
+
+{{<section title="Communication">}}
+#### [Zoom](https://zoom.us)
+- If we did not meet at the HTW, we resorted to Zoom for our meetings
+
+#### [Discord](https://discord.com)
+- In order to clarify quick questions outside of our meetings or to keep each other up to date, we set up a Discord server where our communication took place.
+{{</section>}}

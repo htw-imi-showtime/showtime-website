@@ -3,7 +3,7 @@ title = "AdyBuddy – Obesity Prevention"
 project_id = "M5"
 
 # Properties for displaying the project in the project list
-card_image = "placeholder.jpg"
+card_image = "logo.jpg"
 card_description = "‘AdyBuddy' is a mobile application developed for obesity prevention of children and young teenagers, involing their family or friends to bring about effective sustainable changes in their nutritional and exercise behavior through weekly challenges."
 
 
