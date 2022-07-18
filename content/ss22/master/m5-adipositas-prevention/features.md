@@ -6,7 +6,11 @@ weight = 2
 
 {{<section title="Initial Analysis" >}}
 After the initial registration, the user is asked about their previous exercise and eating habits. By analyzing this data, we assign users to a **level of health awareness** according to the ["Stages of Change"](https://medicine.llu.edu/academics/resources/stages-change-model) model. From the data provided, e.g. the amount of fruit and vegetables eaten daily, and the calculated awareness level, we then calculate a percentage increase in the initial value, which forms the basis for the defined goals in the weekly challenge.
+
+{{<image src="analysis.gif" alt="GIF of user analysis" caption="User analysis">}}
 {{</section>}}
+
+
 
 
 {{<section title="Start A Weekly Challenge" >}}
@@ -24,10 +28,14 @@ AdyBuddy is based on a multimodal approach: exercise, nutrition and education. E
 
 {{<section title="Eat Better" >}}
 The second pillar is nutrition. Based on their previous habits, users are suggested, for example, how many servings of fruit they should eat per day or the maximum number of snacks they should consume. Users can indicate with a tap whether they have just drunk a glass of water or eaten an apple and always have an eye on how many portions are still outstanding. This creates an **awareness of what is actually consumed throughout the day**, something that most people are often not even aware of.
+{{<image src="nutrition.gif" alt="GIF of nutrition screen" caption="Nutrition challenges">}}
+
 {{</section>}}
 
 {{<section title="Educate Yourself" >}}
 Education and awareness are the basis for making *good and healthy choices*. With the help of **weekly quizzes, children**, but also adults, learn a lot about the ingredients of food in their everyday lives. If you ever answer a question incorrectly, you can always go back, because **repetition consolidates knowledge**.
+{{<image src="quiz.gif" alt="GIF of quiz" caption="Educational quiz">}}
+
 {{</section>}}
 
 {{<section title="Work As A Team" >}}
