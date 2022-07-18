@@ -36,6 +36,6 @@ All of us participated in a long initial concecptional period within the first f
 {{<team-member image="naomi.jpg" name="Naomi Schoppa">}}
 {{<team-member image="julia.jpg" name="Julia Zamaitat">}}
 {{<team-member image="hacker.png" name="Hedi Talmoudi">}}
-{{<team-member image="hacker.png" name="Tu Huong Vu">}}
+{{<team-member image="huong.jpg" name="Tu Huong Vu">}}
 {{<team-member image="hacker.png" name="Darwin Becker">}}
 {{</gallery>}}
