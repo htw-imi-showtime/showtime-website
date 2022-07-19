@@ -9,7 +9,7 @@ For about the first **five weeks** of our project, we were just doing conceptual
 {{</section>}}
 
 {{<section title="Complex functionalities in a short period of time" >}}
-Precisely because of our long conceptual phase, it was not possible for us to incorporate all the functionalities in their complexity as we had actually planned. For example, we wanted to integrate various movement challenges, design a chatbot that does the incoming user evaluation or create a larger educational area with various facts and visualizations. But these things could easily be integrated in **further releases**.
+Precisely because of our long conceptual phase, it was not possible for us to incorporate all the functionalities in their complexity as we had actually planned. For example, we wanted to integrate various movement challenges or create a larger educational area with various facts and visualizations. But these things could easily be integrated in **further releases**.
 {{</section>}}
 
 
