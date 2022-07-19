@@ -23,17 +23,17 @@ The weekly goals are sub-calculated to each day of the week, so you don't immedi
 {{</section>}}
 
 {{<section title="Move More" >}}
-AdyBuddy is based on a multimodal approach: exercise, nutrition and education. Exercise represents the first pillar. Children today move less than they did a few years ago. Therefore the user is given a daily step goal to achieve. More exercise challenges are planned for the future to bring **more physical activity into the user's everyday life.**
+AdyBuddy is based on a multimodal approach: exercise, nutrition and education. Exercise represents the first pillar. Children today move less than they did a few years ago. Therefore the user is given a daily step goal to achieve. More exercise challenges are planned for future releases to bring **more physical activities into the user's everyday life.**
 {{</section>}}
 
 {{<section title="Eat Better" >}}
-The second pillar is nutrition. Based on their previous habits, users are suggested, for example, how many servings of fruit they should eat per day or the maximum number of snacks they should consume. Users can indicate with a tap whether they have just drunk a glass of water or eaten an apple and always have an eye on how many portions are still outstanding. This creates an **awareness of what is actually consumed throughout the day**, something that most people are often not even aware of.
+The second pillar is nutrition. Based on their previous habits, users are suggested, for example, how many servings of fruit they should eat per day or the maximum number of snacks they should consume. Users can indicate with a tap whether they have just drunk a glass of water or eaten an apple and always have an eye on how many portions haven't been consumed yet. This creates an **awareness of what is actually consumed throughout the day**, something that most people are often not even aware of.
 {{<image src="nutrition.gif" alt="GIF of nutrition screen" caption="Nutrition challenges">}}
 
 {{</section>}}
 
 {{<section title="Educate Yourself" >}}
-Education and awareness are the basis for making *good and healthy choices*. With the help of **weekly quizzes, children**, but also adults, learn a lot about the ingredients of food in their everyday lives. If you ever answer a question incorrectly, you can always go back, because **repetition consolidates knowledge**.
+Education and awareness are the basis for making *good and healthy choices*. With the help of **weekly quizzes**, not only children, but also adults, learn a lot about the ingredients of food in their everyday lives. If you ever answer a question incorrectly, you can always go back, because **repetition consolidates knowledge**.
 {{<image src="quiz.gif" alt="GIF of quiz" caption="Educational quiz">}}
 
 {{</section>}}

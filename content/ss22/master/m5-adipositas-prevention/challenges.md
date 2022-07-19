@@ -4,7 +4,7 @@ weight = 3
 +++
 
 {{<section title="Long conceptual phase" >}}
-For about the first **five weeks** of our project, we were just doing conceptual work. We had to **build an entire app without any precise specifications** as to what functions it should perform. Therefore, we did many rounds in the first weeks to develop ideas, develop and discard concepts, and finally work out all the important details: What is the unique selling point of our app? What is our target audience? And then when we knew these things more concretely: How do we build the challenges? How does the scoring system work? How do we take into account very different types of users?That took a lot of time that we didn't have for the implementation.
+For about the first **five weeks** of our project, we were just doing conceptual work. We had to **build an entire app without any precise specifications** as to what functions it should perform. Therefore, we did many rounds in the first weeks to develop ideas, develop and discard concepts, and finally work out all the important details: What is the unique selling point of our app? What is our target audience? And then when we knew these things more concretely: How do we build the challenges? How does the scoring system work? How do we take into account very different types of users? That took a lot of time that we didn't have for the implementation.
 
 {{</section>}}
 
