@@ -24,3 +24,5 @@ The audio analysis, takes a good look into the features of your song. Through th
 The video generation of our product represents the most important part of Bloompipe. Here the image generation takes place with a generative adversarial network by Nvidia called StyleGAN-ada-pytorch. StyleGAN is designed to generate beautiful images from random input vectors. For your video we are calculating a set of input vectors that represent the dynamics in your music. This vector set can  be influenced by choosing one of our presets or using the expert settings. We then generate images for every frame in the video. At the end our post production, these images are consolidated into a final video with some added saturation, contrast. After all is done, your track will be underlayed. Voila, here’s your video.
 {{</section>}}
 
+{{<image src="steps.png" alt="Step by Step Instructions" caption="Step by Step Instructions">}}
+

@@ -4,7 +4,7 @@ project_id = "B1"
 
 # Properties for displaying the project in the project list
 card_image = "smoothin_pipe.gif"
-card_description = "Let images dance to your favourite sounds.."
+card_description = "Let images dance to your favourite sounds..."
 
 website_link = "https://bloompipe.de"
 
@@ -14,8 +14,11 @@ team = ["Max Blank", "Jonas Blome", "Max Decken", "Eero Kaan", "Liav Keren", "Be
 supervisor = "Prof. Dr. Kai-Uwe Barthel, Konstantin Schall"
 +++
 
-
-
+{{<gallery>}}
+{{<image src="smoothin_pipe.gif" alt="smoothin_pipe">}}
+{{<image src="teleport_dancer.gif" alt="teleport_dancer">}}
+{{<image src="boomerang_bass_hit.gif" alt="boomerang_bass_hit">}}
+{{</gallery>}}
 
 
 {{<section title="What is Bloompipe?">}}

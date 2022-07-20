@@ -5,7 +5,7 @@ weight = 2
 
 
 {{<section title="The Process">}}
-Our journey began with creating milestones from the ground of creativity. This, of course, should help us over time to plan and structure our project as well as possible. For this task we used the sacred methods of agile methods which at the end helped us to complete the project task. We met weekly, at least once a weak, on Tuesdays with our professor and once on Mondays as a group to discuss the task status. In addition, the professor wanted us to present the status of the project, so we had the opportunity to prepare for the Showtime with the small showtimes we did on tuesdays. We also managed to develop an MVP in the first 4 weeks which served us as an backup until the showtime. Through the meetings with our professor we got a lot of input on our project, so testing and fixing bugs actually always went hand in hand with the changes the professor suggested us to do. The last weeks of the project we dedicated to the Showtime preparation, we prepared the presentation, ordered stickers, and so on. Then it was the time to shine……
+Our journey began with creating milestones from the ground of creativity. This, of course, should help us over time to plan and structure our project as well as possible. For this task we used the sacred methods of agile methods which at the end helped us to complete the project task. We met weekly, at least once a weak, on Tuesdays with our professor and once on Mondays as a group to discuss the task status. In addition, the professor wanted us to present the status of the project, so we had the opportunity to prepare for the Showtime with the small showtimes we did on tuesdays. We also managed to develop an MVP in the first 4 weeks which served us as an backup until the showtime. Through the meetings with our professor we got a lot of input on our project, so testing and fixing bugs actually always went hand in hand with the changes the professor suggested us to do. The last weeks of the project we dedicated to the Showtime preparation, we prepared the presentation, ordered stickers, and so on. Then it was the time to shine...
 {{</section>}}
 
 {{<section title="Teams">}}
@@ -48,8 +48,7 @@ Content for our account. Bloom Pipe is still in the Beta-phase and is therefore 
 ## More Webapp
 After the Payment u probably want MORE. Yes ! MORE Web APP is coming. The Possibilities of (evolving) “creating” will be constantly improved and equipped and filled with new content. So that each output reflects the full state of the art of your audio.
 
-## BIG BLOOOOOOMING THANKs
-to everyone.  Power Flower
+**BIG BLOOOOOOMING THANKs** to everyone.  Power Flower
 
 {{<image src="BP_Futur.jpg" alt="Bloompipe Flower" caption="Rendering by Max Blank">}}
 
