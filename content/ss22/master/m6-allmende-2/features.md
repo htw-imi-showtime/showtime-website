@@ -4,11 +4,11 @@ weight = 1
 +++
 
 {{<section title="Minimalistic Social Media Application" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Share your pictures with other people and tag the location and species for your findings! Other people can like and comment your posts to support vivid discussions on your new discoveries!
 {{</section>}}
 
-{{<section title="Species Detection" >}}
-With advanced Deep Learning Technology you can identify your discoveries via your own pictures. Just upload your picture and choose a catagory and within seconds you get multiple species with their propabilities. 
+{{<section title="Species Detection">}}
+With advanced Deep Learning Technology you can identify your discoveries via your own pictures. Just upload your picture and choose a catagory and within seconds you get possible species with their propabilities. 
 {{</section>}}
 
 
