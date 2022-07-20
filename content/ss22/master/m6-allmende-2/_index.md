@@ -25,6 +25,7 @@ To achieve the goals in a short period of time and to use everyones abilities ef
 - **Backend**
 - **Machine Learning** 
 
+Each team initially worked mostly alone and grew closer to the other teams as they progressed. At the end we worked as one team and combined each component to create one coherent Web Application. This was supported by weekly meetings for all members to share our progress and to discuss how to proceed further.
 
 Each team initially worked mostly alone and grew closer to the other teams as they progressed. At the end we worked as one team and combined each component to create one coherent Web Application. This was supported by weekly meetings for all members to share our progress and to discuss how to proceed further.
 
