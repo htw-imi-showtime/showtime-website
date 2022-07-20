@@ -5,8 +5,7 @@ weight = 4
 
 {{<section title="Frontend">}}
 
-In the Frontend we had Componets like the species selector which is a scrollable list of species. We wanted to create an accessible App with a modern userinterface. To make the species selector accessible we used a hidden radio button in the background. 
-In addition bringing the authentification to work was a more complex task then we first thought. Therefore we had to deal with CORS Error and so on.
+In the Frontend we had componets like the species selector which is a scrollable list of species. We wanted to create an accessible App with a modern user interface. To make the species selector accessible we used a hidden radio button in the background. We made sure that all our components to be accessible and semantically correct. Making all components accssible took us some time. In addition bringing the authentification to work was a more complex task then we first thought. Therefore we had to deal with CORS Error. 
 
 {{</section>}}
 

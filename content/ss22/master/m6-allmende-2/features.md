@@ -22,9 +22,9 @@ With advanced Deep Learning Technology you can identify **over 4000** Species! J
 
 {{<gallery>}}
 
-{{<image src="screenshot4.png" alt="Choosing Category" caption="Choosing category">}}
-{{<image src="screenshot1.png" alt="Getting the best fitting result" caption="Getting the best fitting result">}}
-{{<image src="screenshot5.png" alt="Posting your discoveries" caption="Posting your discoveries">}}
+{{<image src="screenshot4.png" alt="Choosing Category" caption="Choose category">}}
+{{<image src="screenshot1.png" alt="Getting the best fitting result" caption="Get the best fitting result">}}
+{{<image src="screenshot5.png" alt="Posting your discoveries" caption="Post your discoveries">}}
 
 {{</gallery>}}
 
