@@ -13,8 +13,7 @@ supervisor = "Alexander Haferland Veronika Babic"
 +++
 
 
-{{<image src="placeholder.jpg" alt="placeholder" >}}
-{{<mediathek id="cfcbe4ac5dd604a2f49db68dc9c3fb26" title="Our video">}}
+{{<image src="Logo_ZeroC_combi_bl.png" alt="placeholder" >}}
 
 
 {{<section title="Our Goal">}}
@@ -30,7 +29,7 @@ We’re a diverse international team with different background who got together 
 {{<gallery>}}
 {{<team-member image="Daria.jpg" name="Daria Katysheva">}}
 {{<team-member image="hacker.png" name="Claude Farmer">}}
-{{<team-member image="hacker.png" name="Fathoni Rachmatullah">}}
+{{<team-member image="Fathoni.jpg" name="Fathoni Rachmatullah">}}
 {{<team-member image="hacker.png" name="Habib Farhan">}}
 {{<team-member image="hacker.png" name="Nurul Quamila">}}
 {{<team-member image="hacker.png" name="Rene Redanz">}}
