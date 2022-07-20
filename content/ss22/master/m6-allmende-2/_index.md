@@ -7,7 +7,7 @@ card_image = "button.png"
 card_description = "Explore the Nature around you! With our new Web Application Allmende you can track and share your discoveries with fellow nature enthusiasts! With advanced Deep Learning Technology you can identify your discoveries via your own pictures and learn more about your local flora and fauna. Track your sightings on your personal map and explore where other people made exciting discoveries."
 
 source_link = "https://github.com/allmende-app/allmende"
-team = ["Cong Nguyen", "Vu Minh Le", "Stefan Böhnert", "Jonas Fischer", "Julian Gaibler", "Ilhalm Muhammad"]
+team = ["Cong Nguyen-Dinh", "Vu Minh Le", "Stefan Böhnert", "Jonas Fischer", "Julian Gaibler", "Ilham Muhammad"]
 
 supervisor = "David Müller"
 +++
@@ -30,10 +30,10 @@ Each team initially worked mostly alone and grew closer to the other teams as th
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="Cong.jpg" name="Cong Nguyen">}}
+{{<team-member image="Cong.jpg" name="Cong Nguyen-Dinh">}}
 {{<team-member image="Minh.jpg" name="Vu Minh Le">}}
 {{<team-member image="Stefan.jpg" name="Stefan Böhnert">}}
 {{<team-member image="Fischer.jpg" name="Jonas Fischer">}}
 {{<team-member image="Julian.jpg" name="Julian Gaibler">}}
-{{<team-member image="Ilhalm.jpg" name="Ilhalm Muhammad">}}
+{{<team-member image="Ilhalm.jpg" name="Ilham Muhammad">}}
 {{</gallery>}}
