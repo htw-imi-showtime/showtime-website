@@ -24,10 +24,10 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="hacker.png" name="Cong Nguyen">}}
-{{<team-member image="hacker.png" name="Minh">}}
+{{<team-member image="hacker.png" name="Cong Nguyen Dinh">}}
+{{<team-member image="hacker.png" name="Vu Minh Le">}}
 {{<team-member image="hacker.png" name="Stefan Böhnert">}}
 {{<team-member image="hacker.png" name="Jonas Fischer">}}
 {{<team-member image="hacker.png" name="Julian Gaibler">}}
-{{<team-member image="hacker.png" name="Ilhalm">}}
+{{<team-member image="hacker.png" name="Ilhalm Muhammad">}}
 {{</gallery>}}
