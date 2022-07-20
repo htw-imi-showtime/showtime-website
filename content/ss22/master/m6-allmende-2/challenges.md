@@ -4,6 +4,10 @@ weight = 4
 +++
 
 {{<section title="Frontend">}}
+
+In the Frontend we had Componets like the species selector which is a scrollable list of species. We wanted to create an accessible App with a modern userinterface. To make the species selector accessible we used a hidden radio button in the background. 
+In addition bringing the authentification to work was a more complex task then we first thought. Therefore we had to deal with CORS Error and so on.
+
 {{</section>}}
 
 {{<section title="Microservice architecture">}}
@@ -25,5 +29,6 @@ To create a model for predicting a large number of species of plant, animal, and
 {{<section title="Collecting Datasets">}}
 Having a dataset is obligatory for creating a Machine Learning Model. We decided to collect the data from a platform on the internet called GBIF. From this platform we were able to collect images of various species based on human observation in a particular region. Some images we found must be filtered out from our dataset because they are not appropriate for being our training data. Filtering the datasets and removing unfit pictures took a lot of time.
 {{</section>}}
+
 
 
