@@ -3,30 +3,38 @@ title = "Allmende 2"
 project_id = "M6"
 
 # Properties for displaying the project in the project list
-card_image = "placeholder.jpg"
-card_description = "This is just a template"
+card_image = "button.png"
+card_description = "Explore the Nature around you! With our new Web Application Allmende you can track and share your discoveries with fellow nature enthusiasts! With advanced Deep Learning Technology you can identify your discoveries via your own pictures and learn more about your local flora and fauna. Track your sightings on your personal map and explore where other people made exciting discoveries."
 
-team = ["Cong Nguyen Dinh", "Vu Minh Le", "Stefan Böhnert", "Jonas Fischer", "Julian Gaibler", "Ilhalm Muhammad"]
+source_link = "https://github.com/allmende-app/allmende"
+team = ["Cong Nguyen", "Minh Le", "Stefan Böhnert", "Jonas Fischer", "Julian Gaibler", "Ilhalm Muhammad"]
 
 supervisor = "David Müller"
 +++
 
 {{<section title="Our Goal">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+With Allmende we want to encourage people for exploring nature and to share their experiences with others. With adavance Deep Learning Technology people can identify flora and fauna and learn more about nature and their surroundings.
+
+We want the users to rediscover nature together!
 {{</section>}}
 
 {{<section title="The Team">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+To achieve the goals in a short period of time and to use everyones abilities effective, the team was divided into three operational areas for each component of our software project:
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- **Frontend**
+- **Backend**
+- **Machine Learning** 
+
+
+Each team initially worked mostly alone and grew closer to the other teams as they progressed. At the end we worked as one team and combined each component to create one coherent Web Application. This was supported by weekly meetings for all members to share our progress and to discuss how to proceed further.
 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="hacker.png" name="Cong Nguyen Dinh">}}
-{{<team-member image="hacker.png" name="Vu Minh Le">}}
-{{<team-member image="hacker.png" name="Stefan Böhnert">}}
-{{<team-member image="hacker.png" name="Jonas Fischer">}}
-{{<team-member image="hacker.png" name="Julian Gaibler">}}
-{{<team-member image="hacker.png" name="Ilhalm Muhammad">}}
+{{<team-member image="Cong.jpg" name="Cong Nguyen">}}
+{{<team-member image="Minh.jpg" name="Vu Minh Le">}}
+{{<team-member image="Stefan.jpg" name="Stefan Böhnert">}}
+{{<team-member image="Fischer.jpg" name="Jonas Fischer">}}
+{{<team-member image="Julian.jpg" name="Julian Gaibler">}}
+{{<team-member image="Ilhalm.jpg" name="Ilhalm Muhammad">}}
 {{</gallery>}}
