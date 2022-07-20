@@ -17,6 +17,8 @@ In the Backend we use Node.js in combination with express. The Node.js Backend p
 
 The Frontend communicated with the Backend to persist or to request data. Therefore we used Vue.js to create a Single Page Application. To save global state like user information during the visition on the site we used Pinia.
 
+For the whole system we use Docker to improve the communication between all three layers in our application. To get the Services run in a Productive environment we added Nginx as a Load Balancer. The communication inside of the docker container works as follows: the clients send the requests to the host. The server itself exposed the ports 80 and 443 for the clients, which are responsible for the http- and https-protocol. These open ports are linked to the exposed “Nginx”-container ports and incoming request from the clients are redirected to this load balancer. The load balancer handles all the requests and sends these to the corresponding containers inside the Docker environment. The clients do not have direct access to the other running services since these containers have not expose the ports to the host machine.  Requests URLs which have the “api”-string part in it will be redirected to the “NodeJS”-service (server container) while other not matching route will be redirected to the “Vue”-container (the frontend service).
+
 {{</section>}}
 
 {{<section title="Communication & Organisation">}}
@@ -53,15 +55,23 @@ We used TypeScript as our frontend programming language.
 
 ## Node.js
 
+We used Node.js in combination with ExpressJS as our server side JavaScript WebService. 
+
 ## TypeScript
 
 For the Backend we used TypeScript as our main programming language. 
 
 ## MongoDB
 
+MongoDB is a JSON based database to persits data.
+
 ## Redis
 
+Redis is used to save the session cookies for authorization, when the user logged in successful. 
+
 ## nginx
+
+Nginx is used as a web server and load balancer.
 
 {{</section>}}
 
