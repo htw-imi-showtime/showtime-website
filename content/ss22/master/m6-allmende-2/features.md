@@ -8,7 +8,7 @@ Share your pictures with other people and tag the location and species for your 
 {{</section>}}
 
 {{<section title="Species Detection">}}
-With advanced Deep Learning Technology you can identify your discoveries via your own pictures. Just upload your picture and choose a catagory and within seconds you get possible species with their propabilities. 
+With advanced Deep Learning Technology you can identify over 4000 Species! Just upload your picture and choose a catagory and within seconds you get possible species with their propabilities. 
 {{</section>}}
 
 
