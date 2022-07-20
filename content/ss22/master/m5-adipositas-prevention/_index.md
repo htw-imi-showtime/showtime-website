@@ -23,7 +23,7 @@ That's where **AdyBuddy** comes in: our application is aimed at children and tee
 {{<section title="The Team">}}
 To achieve the best results in the limited time, we initially formed three teams:
 - One team was mainly responsible for **conceptual work, research and UX**.
-- The second startet with the development of the **frontend**.
+- The second started with the development of the **frontend**.
 - A seperate team set up the development environment for the **backend** and implemented the required logic.
 
 All of us participated in a long initial conceptual period within the first four weeks, followed by a couple of weeks where everyone worked in one of the teams described. After that, **everyone worked wherever there was work to be done** at the time – there were no longer strict teams. That meant that everyone could **gain experiences** in areas that they were interested in during the project.

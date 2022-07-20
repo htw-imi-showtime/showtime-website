@@ -24,6 +24,7 @@ The weekly goals are sub-calculated to each day of the week, so you don't immedi
 
 {{<section title="Move More" >}}
 AdyBuddy is based on a multimodal approach: exercise, nutrition and education. Exercise represents the first pillar. Children today move less than they did a few years ago. Therefore the user is given a daily step goal to achieve. More exercise challenges are planned for future releases to bring **more physical activities into the user's everyday life.**
+{{<image src="movement.gif" alt="GIF of nutrition screen" caption="Nutrition challenges">}}
 {{</section>}}
 
 {{<section title="Eat Better" >}}
