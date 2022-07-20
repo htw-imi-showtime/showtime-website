@@ -3,6 +3,14 @@ title = "Tech Stack"
 weight = 3
 +++
 
+{{<section title="Architecture">}}
+
+{{<image src="architecture.jpg" alt="architecture" caption="architecture">}}
+
+<!-- TODO: add Text here -->
+
+{{</section>}}
+
 {{<section title="Communication & Organisation">}}
 
 ## Discord
@@ -10,20 +18,24 @@ weight = 3
 ## Zoom
 
 ## GitHub
-GitHub Desktop allowed us to easily **work together** on the **same codebase**.
-
-<!-- {{<image src="techstackcom.png" alt="tech stack part 1" caption="communication & design tech stack">}} -->
+GitHub allowed us to easily **work together** on the **same codebase**. 
 
 {{</section>}}
 
 {{<section title="Frontend">}}
 ## VueJS
 
+## Pinia
+
+## TypeScript
+
 {{</section>}}
 
 {{<section title="Backend">}}
 
 ## Node.js
+
+## TypeScript
 
 ## MongoDB
 
