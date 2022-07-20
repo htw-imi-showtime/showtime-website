@@ -13,7 +13,7 @@ supervisor = "David Müller"
 +++
 
 {{<section title="Our Goal">}}
-With Allmende we want to encourage people for exploring nature and to share their experiences with others. With adavance Deep Learning Technology people can identify flora and fauna and learn more about nature and their surroundings.
+With Allmende we want to encourage people for exploring nature and to share their experiences with others. With advanced Deep Learning Technology people can identify flora and fauna and learn more about nature and their surroundings.
 
 We want the users to rediscover nature together!
 {{</section>}}

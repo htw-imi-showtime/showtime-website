@@ -7,8 +7,8 @@ weight = 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 {{</section>}}
 
-{{<section title="Image Classification" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+{{<section title="Species Detection" >}}
+With advanced Deep Learning Technology you can identify your discoveries via your own pictures. Just upload your picture and choose a catagory and within seconds you get multiple species with their propabilities. 
 {{</section>}}
 
 
