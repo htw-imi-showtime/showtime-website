@@ -67,11 +67,11 @@ For the Backend we used TypeScript as our main programming language.
 
 {{<section title="Machine Learning">}}
 ## Flask
-
+Flask is a micro web framework for python and was used to create our prediction microservice.
 ## TensorFlow
-
+TensorFlow is an open source platform for machine learning and was used for training our models and to predict our images in the microservice.
 ## Google Collab
-
+Google colab is used for developing and running python code in the browser. They provide high-end hardware for efficient training of machine learning models on their server.
 {{</section>}}
 
 
