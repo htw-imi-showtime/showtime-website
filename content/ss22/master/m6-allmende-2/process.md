@@ -11,4 +11,4 @@ We all came together every Wednesday to discuss our progress and how to continue
 At the end we worked as one team and combined each component to create one coherent Web Application. We used the last days to further improve the Software and for bug fixing which was followed by thorough testing of the end product. 
 {{</section>}}
 
-{{<image src="kanban.png" alt="Empty Kanban Board at the end of the  project">}}
+{{<image src="kanban.png" alt="Kanban Board on Github" caption="Kanban Board on Github">}}
