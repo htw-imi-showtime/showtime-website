@@ -7,7 +7,7 @@ card_image = "button.png"
 card_description = "Explore the Nature around you! With our new Web Application Allmende you can track and share your discoveries with fellow nature enthusiasts! With advanced Deep Learning Technology you can identify your discoveries via your own pictures and learn more about your local flora and fauna. Track your sightings on your personal map and explore where other people made exciting discoveries."
 
 source_link = "https://github.com/allmende-app/allmende"
-team = ["Cong Nguyen", "Minh Le", "Stefan Böhnert", "Jonas Fischer", "Julian Gaibler", "Ilhalm Muhammad"]
+team = ["Cong Nguyen", "Vu Minh Le", "Stefan Böhnert", "Jonas Fischer", "Julian Gaibler", "Ilhalm Muhammad"]
 
 supervisor = "David Müller"
 +++
