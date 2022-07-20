@@ -31,11 +31,11 @@ All of us participated in a long initial conceptual period within the first four
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="hacker.png" name="Lisa Trage">}}
-{{<team-member image="hacker.png" name="Dustin Reimann">}}
+{{<team-member image="lisa.jpg" name="Lisa Trage">}}
+{{<team-member image="dustin.jpg" name="Dustin Reimann">}}
 {{<team-member image="naomi.jpg" name="Naomi Schoppa">}}
 {{<team-member image="julia.jpg" name="Julia Zamaitat">}}
-{{<team-member image="hacker.png" name="Hedi Talmoudi">}}
+{{<team-member image="hedi.jpg" name="Hedi Talmoudi">}}
 {{<team-member image="huong.jpg" name="Thu Huong Vu">}}
 {{<team-member image="darwin.jpg" name="Darwin Becker">}}
 {{</gallery>}}
