@@ -42,5 +42,5 @@ We will implement a personalized pipeline. Each user will be able to generate an
 ## Connection to a Payment Gateway
 Bloompipe is still in the beta-phase so to speak and is therefore free of charge. But without funding the app cannot be maintaied indefinitely. So we will have to add the possibility some day to indeed capture transactions.
 
-{{<image src="img-bp-flower.jpg" alt="Bloompipe Flower" caption="Rendering by Max Blank">}}
+{{<image src="music-input.gif" alt="Music Input Graphic" caption="Rendering by Max Blank">}}
 {{</section>}}
