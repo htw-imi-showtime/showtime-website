@@ -5,8 +5,11 @@ weight = 3
 
 {{<section title="Frontend">}}
 
-## Ionic (Capacitor)
+## Ionic
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+## Capacitor
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Vue 3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -17,16 +20,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {{</section>}}
 
 {{<section title="Backend">}}
-## Nest.js
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+At its core, our backend should just be a simple CRUD API for the resources needed by our app and editor. To make the implementation of the API straightforward while also providing type-safety with Typescript, we decided to use Nest.js as our backend framework with MongoDB and Nest.js' mongoose package for our database.
 
+**[Nest.js](https://nestjs.com)**
+* an express-based Node.js framwork for building efficient server-side applications - provides first-class Typescript and OpenAPI support, giving us the ability to generate our API documentation from Typescript annotations and JSDoc/TSDoc comments
+
+**[MongoDB](https://www.mongodb.com/)**
+* a document-oriented NoSQL database which we used with Nest.js' mongoose package
+
+**[NodeJS](https://nodejs.org/)**
+* the JavaScript runtime for our backend
+
+**[OpenAPI](https://spec.openapis.org/oas/v3.1.0.html)**
+* a specification for API description files - used by us for documenting our API to improve collaboration between frontend and backend teams
 {{</section>}}
 
-{{<section title="CI / CD">}}
+{{<section title="CI/CD">}}
 ## Docker
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+To make deploying our project's components as easy as possible while also (mostly) eliminating the "It works on my machine" type of errors, we decided to build Docker images for our backend and our editor. This gave us the possibility to develop, test and deploy most of our project in a uniform environment across multiple devices and it made our deployment process as simple as uploading a Docker compose file to our deployment server and running `docker-compose up` to spin up all the containers required for our application stack.
+
+**Docker on M1 Macs**
+
+[//]: # (TODO: add content)
 
 ## AWS
+
+[//]: # (TODO: add content about deploying on HTW server, then switching to AWS and using HTW server as CI/CD server)
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 {{</section>}}
