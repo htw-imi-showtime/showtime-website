@@ -16,7 +16,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {{<image src="techstackcom.png" alt="tech stack part 1" caption="communication & design tech stack">}}
 
 ## Multi-language support
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+{{</section>}}
 
 {{<section title="Editor">}}
 
@@ -28,3 +30,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Multi-language support
 {{<image src="techstackcom.png" alt="tech stack part 1" caption="communication & design tech stack">}}
+
+{{</section>}}
