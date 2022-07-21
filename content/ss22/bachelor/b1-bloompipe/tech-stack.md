@@ -4,61 +4,64 @@ weight = 3
 +++
 
 {{<section title="Organisation and Communication">}}
-For organizing our teams and everything else we used the following platforms and services.
+For organizing our internal teams and for everything else we used the following platforms and services:
 
-**Slack:** Our main communication platform
+**Slack:**
+Our main communication platform
 
-**Notion:** Code Documentation, Notes, Task Dashboard, Link Database, Protocols etc.
+**Notion:**
+Code Documentation, Task Dashboard, Link Database, SCRUM Acrtifacts (Different types of protocols) and Notes
 
-**Zoom:** For quick Videocalls
+**Zoom:**
+For video calls
 
-**WhatsApp:** For informal communication
+**WhatsApp:**
+Our informal communication platform
 
 {{<image src="img-techstack-com.png" alt="Communication Tech Stack" caption="Communication Tech Stack">}}
 {{</section>}}
 
 {{<section title="Development">}}
 ## AI & Data Analysis
-**Python 3.9:** We worked mostly in PyCharm, with many different packages and libraries including: StyleGAN2, numpy, torch, librosa, matplotlib.pyplot and Pillow.Image.
+**Python 3.9:**
+We worked mostly in PyCharm, with many different packages and libraries including: StyleGAN2, numpy, torch, librosa, matplotlib.pyplot and Pillow.Image.
 
-We used **StyleGAN2-ADA-PyTorch** to create and train pkl weight files for image generation.
-We trained over 20000 manually curated images, resulting in different generative styles.
-For training our custom StyleGAN models we used the HTW DeepGreen Servers.
+We used **StyleGAN2-ADA-PyTorch** to create and train so called PKL weight files for image generation. We have collected and trained over 20000 manually curated images, resulting in different generative styles. For training our custom StyleGAN models we utilized the DeepGreen Servers provided by the HTW.
 
 ## Architecture & Server
+**Microservice Architecture Philosophy:**
+All Stages of the Pipeline are their own capsulated modules which communicate over a common RESTful-API.
 
-**Microservice Architecture Philosophy:** All Parts of the Pipeline are thier own little Modules.
+**RESTFul-API & Websockets:**
+This enables the connection between the modules of the pipeline. This was implemented with Flask (Python-based modules) and Express (Web-based modules).
 
-**RESTFull API & Websockets:** This enables the connection between the Pipline Modules, this is implemented with Flask(Python-Modules) and Express(Web-Modules).
+**GitLab and automated CI/CD:**
+We work with our internal GitLab server for keeping the code of all modules. We also implemented an automated CI/CD pipeline there as a cornerstone of our development work, after initial manual deploying and testing always hollistic. This enables fast Feedback.
 
-**GitLab and automated CI/CD:** We have a private GitLab-Server for keeping the code of all modules. We also implemented an automated CI / CD piple there as a cornerstone of our development work, after initial manual deploying and testing always hollistic. This enables fast Feedback.
+**Docker-Container:**
+Every of our Modul is it's own Docker-Container. We use internal routing with Docker Compose and Nginx Reverse Proxy for SSL-Encryption and entrypoint mapping.
 
-**Docker-Container:** Every of our Modul is it's own Docker-Container. We use internal routing with Docker Compose and Nginx Reverse Proxy for SSL-Encryption and entrypoint mapping.
-
-**Dev and Prod Structure:** We have 2x the same structure in parallel. This gives us the oppertunity to have a test and dev structure internally, but our live product is still uncoupled from it.
+**Dev- and Prod-Structure:**
+We have 2x the same structure in parallel. This gives us the oppertunity to have a test and dev structure internally, but our live product is still uncoupled from it.
 
 **Dedicated GPU Server:**
 We have a dedicated Server for the demanding generation of Style-GAN, whichs needs a powerfull GPU. This server is dynamically added to the Pipleine as a spot-instance for cost saving reasons.
 
-**Differnt Utility Servers: ** We have a Mailserver, a Storage Server, a Database, an Assets-Server and our GitLab Server.
+**Differnt Utility Servers:**
+We have a Mailserver, a Storage Server, a Database, an Assets-Server and our GitLab Server.
 
 ## Web
-We used **Node.js**, **Bootstrap** and **Websockets**.
+For our web-based modules "Landing", "WebApp" and "ServiceAgent", we utilized **Node.js**, **Bootstrap** and **Websockets** as our core technologies.
 
 ## Design
-**3D Animations:** We used 3Ds Max, Corona Renderer, AfterEffects, Media Encoder. 
-In 3DS Max we modelled and animated the graphics for the presentation of our Pipeline. The rendering was done in Corona Render. For the Post Process and managing the files and output we used Adobe After Effects and Media Encoder.
+**3D Animations:**
+We used Autodesk 3DS Max, Corona Renderer, Adobe After Effects and Media Encoder. 
+In Autodesk 3DS Max we modelled and animated the visuals for the presentation of our Pipeline. The rendering was done in Corona Render. For the Post Process stage and to manage the files and output we used Adobe After Effects and Media Encoder.
 
-Also some nice mentions to [https://ezgif.com](https://ezgif.com/) if you need some gifs and you don't have access to some Adobe Products.
-
-**Mockups & Wireframing:** Figma. 
+**Mockups & Wireframing:**
+Figma. 
 
 We also used the Adobe Creative Cloud (Illustrator, Photoshop, InDesign, After Effects, Media Encoder) for visual design.
 
-**Formular-Presentation:** Interactive Google Document that is accessible for an interactive showtime presentation via touch screen and can be edited cloud-based.
-
 {{<image src="img-techstack-dev.png" alt="Development Tech Stack" caption="Development Tech Stack">}}
 {{</section>}}
-
-
-
