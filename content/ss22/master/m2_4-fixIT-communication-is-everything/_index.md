@@ -6,12 +6,12 @@ project_id = "M2_4"
 card_image = "FixITLogoBig.png"
 card_description = "FixIT! is an interactive game between a PC and a VR player to investigate the non-verbal exchange of information by means of vibration, sound signals and drawing. Communication is the key during this space-themed riddle/adventure game as players must find and reassemble parts of their broken spacecraft-antenna."
 
+source_link = "https://github.com/Master-project-Interaktion-in-VR/Project_InteractionInVR"
 
 team = ["Vivienne Drongowski", "Samuel Günther", "Matthias Hamborg", "Fatlind Krasniqi", "Hasan Sivrikaya", "Emircan Yüksel", "Faye Bullwinkel"]
 
 supervisor = "Jonas Ehrhardt, Alexander Kramer"
 +++
-
 
 {{<image src="FixITLogo.svg" alt="FixIT logo">}}
 <div style="display: block; margin-left: auto; margin-right: auto; width: 720px;">

@@ -12,7 +12,6 @@ team = ["Participants", "Of", "The", "Project"]
 supervisor = "Names of the supervisors"
 +++
 
-
 {{<image src="placeholder.jpg" alt="placeholder" >}}
 {{<mediathek id="cfcbe4ac5dd604a2f49db68dc9c3fb26" title="Our video">}}
 
