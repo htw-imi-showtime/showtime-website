@@ -21,13 +21,15 @@ We created a scenario where the VR player was teleported to a lost planet to rep
 The PC player stayed behind on the spaceship to monitor the other player's activities and retrieve important 
 information from the ship's computer.
 
-<div style="margin-top: 50px; display: inline-block">
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=0910771e56f49906f7deabbfe9bb881e&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=0910771e56f49906f7deabbfe9bb881e&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="186" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-    <p style="color:#ff7578; text-transform: uppercase;">VR view in environment</p>
-</div>
-<div style="display: inline-block">
-    <img style="width:300px; height:186px" src="/ss22/master/m2_4-fixit-communication-is-everything/pc_view_with_open_minimap.jpg" alt="pc view with opened minimap">
-    <p style="color:#ff7578; text-transform: uppercase;">PC view with opened minimap</p>
+<div style="display: table; clear: both">
+    <div style="float: left; height: 250px; width: 50%; padding: 0 10px;">
+        <iframe style="display: block; margin-left: auto; margin-right: auto;" src="https://mediathek.htw-berlin.de/media/embed?key=0910771e56f49906f7deabbfe9bb881e&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=0910771e56f49906f7deabbfe9bb881e&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="165" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code"></iframe>
+        <p style="color:#ff7578; text-transform: uppercase; text-align: center">VR view in environment</p>
+    </div>
+    <div style="float: left; height: 250px; width: 50%; padding: 0 10px;">
+        <img style="display: block; margin-left: auto; margin-right: auto;" src="/ss22/master/m2_4-fixit-communication-is-everything/pc_view_with_open_minimap.jpg" alt="pc view with opened minimap">
+        <p style="color:#ff7578; text-transform: uppercase; text-align: center">PC view with opened minimap</p>
+    </div>
 </div>
 
 
@@ -39,8 +41,8 @@ make sure that the player was always protected while walking and teleporting aro
 Therefore, we installed safe walls around the virtual table that prevented the player from bumping into the real-world table.
 
 <figure>
-<iframe src="https://mediathek.htw-berlin.de/media/embed?key=b1b17b0f84861e66fabb6fca24100006&width=720&height=401&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=b1b17b0f84861e66fabb6fca24100006&width=720&height=401&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="401" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-<figcaption>Calibration of the safe walls</figcaption>
+<iframe src="https://mediathek.htw-berlin.de/media/embed?key=b1b17b0f84861e66fabb6fca24100006&width=720&height=401&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=b1b17b0f84861e66fabb6fca24100006&width=720&height=401&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="401" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code" style=""></iframe>
+<p style="color:#ff7578; text-transform: uppercase; text-align: center">Calibration of the safe walls</p>
 </figure>
 
 #### Finding antenna parts
@@ -54,13 +56,15 @@ provided to the PC player in the form of a video. The VR player had three attemp
 while each antenna part could be removed and placed again individually. If the task wasn’t accomplished, we presented 
 an option to automatically assemble the antenna correctly.
 
-<div style="margin-top: 50px; display: inline-block">
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=1e476480785fe71a378e6a364ca3bfdf&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=1e476480785fe71a378e6a364ca3bfdf&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-    <p style="color:#ff7578; text-transform: uppercase;">Assembling antenna parts in VR</p>
-</div>
-<div style="display: inline-block">
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=5d653196a2df4273f1eee5a1f9a08e55&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=5d653196a2df4273f1eee5a1f9a08e55&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-    <p style="color:#ff7578; text-transform: uppercase;">Assembling antenna parts in real life</p>
+<div style="display: table; clear: both; width:720px ">
+    <div style="float: left; height: 250px; width: 50%; padding: 10px 10px 0 10px;">
+        <iframe style="display: block; margin-left: auto; margin-right: auto;" src="https://mediathek.htw-berlin.de/media/embed?key=1e476480785fe71a378e6a364ca3bfdf&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=1e476480785fe71a378e6a364ca3bfdf&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code"></iframe>
+        <p style="color:#ff7578; text-transform: uppercase;  text-align: center">Assembling antenna in VR</p>
+    </div>
+    <div style="float: left; height: 250px; width: 50%; padding: 0 10px;">
+        <iframe style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px;" src="https://mediathek.htw-berlin.de/media/embed?key=5d653196a2df4273f1eee5a1f9a08e55&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=5d653196a2df4273f1eee5a1f9a08e55&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=true&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code"></iframe>
+        <p style="color:#ff7578; text-transform: uppercase; text-align: center">Assembling antenna in real life</p>
+    </div>
 </div>
 
 #### Choosing correct buttons
@@ -89,13 +93,15 @@ Both players were able to draw at certain points during the game. On the PC, thi
 mouse or, alternatively, with a drawing trackpad; in VR, players could draw either with the controller on the floor 
 of the real world or with their finger on a predetermined area on the table.
 
-<div style="margin-top: 50px; display: inline-block">
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=9ee31c6a842a84194eb514d139b8c6b5&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=9ee31c6a842a84194eb514d139b8c6b5&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-    <p style="color:#ff7578; text-transform: uppercase;">Drawing with finger in VR</p>
-</div>
-<div style="display: inline-block">
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=7908b34132e0e4b021b8440923f485b2&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=7908b34132e0e4b021b8440923f485b2&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-    <p style="color:#ff7578; text-transform: uppercase;">Drawing with finger in real life</p>
+<div style="display: table; clear: both; margin-top: 20px">
+    <div style="float: left; height: 250px; width: 50%; padding: 10px 10px 0 10px;">
+        <iframe style="display: block; margin-left: auto; margin-right: auto;" src="https://mediathek.htw-berlin.de/media/embed?key=9ee31c6a842a84194eb514d139b8c6b5&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=9ee31c6a842a84194eb514d139b8c6b5&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code"></iframe>
+        <p style="color:#ff7578; text-transform: uppercase; text-align: center">Drawing with finger in VR</p>
+    </div>
+    <div style="float: left; height: 250px; width: 50%; padding: 0 10px;">
+        <iframe style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px;" src="https://mediathek.htw-berlin.de/media/embed?key=7908b34132e0e4b021b8440923f485b2&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=7908b34132e0e4b021b8440923f485b2&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code"></iframe>
+        <p style="color:#ff7578; text-transform: uppercase; text-align: center">Drawing with finger in real life</p>
+    </div>
 </div>
 
 {{</section>}}
@@ -110,17 +116,16 @@ The second element was a magnifying glass that the VR player had to use to make 
 Only when the player looked through the magnifying glass at the item did it become visible in the virtual world and the 
 player could collect it.
 
-<figure style="width:280px; height:202px; display: inline-block; marign-right:70px">
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=c67dd70e22e835a933b86dd1fbe87e4e&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=c67dd70e22e835a933b86dd1fbe87e4e&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="360" height="202" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-    <figcaption>Item: magnifying glass</figcaption>    
-</figure>
-
-<figure style="width:280px; height:202px; display: inline-block; margin-left:70px">
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=13568410c430a67d9b0653b43423b7f6&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=13568410c430a67d9b0653b43423b7f6&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="360" height="202" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
-    <figcaption>Item: metal detector</figcaption>    
-</figure>
-
-
+<div style="display: table; clear: both; margin-top: 20px;">
+    <div style="float: left; height: 250px; width: 50%; padding: 0 10px;">
+        <iframe style="display: block; margin-left: auto; margin-right: auto;" src="https://mediathek.htw-berlin.de/media/embed?key=c67dd70e22e835a933b86dd1fbe87e4e&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=c67dd70e22e835a933b86dd1fbe87e4e&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code"></iframe>
+        <p style="color:#ff7578; text-transform: uppercase; text-align: center">Item: magnifying glass</p>
+    </div>
+    <div style="float: left; height: 250px; width: 50%; padding: 0 10px;">
+        <iframe style="display: block; margin-left: auto; margin-right: auto;" src="https://mediathek.htw-berlin.de/media/embed?key=13568410c430a67d9b0653b43423b7f6&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=13568410c430a67d9b0653b43423b7f6&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="300" height="168" allowfullscreen="allowfullscreen" allowtransparency="true" aria-label="media embed code"></iframe>
+        <p style="color:#ff7578; text-transform: uppercase; text-align: center">Item: metal detector</p>
+    </div>
+</div>
 
 
 {{</section>}}
