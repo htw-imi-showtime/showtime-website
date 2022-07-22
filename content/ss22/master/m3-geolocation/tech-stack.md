@@ -53,12 +53,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {{<section title="Development">}}
 ## GitLab
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Our repository was located in GitLab. We also used features like issues, labels, boards and milestones to manage and coordinate our project. We worked in two-week sprints in the form of milestones, for which we defined issues at the beginning of the sprint that we would like to work on in the upcoming sprint. During the sprint, we continously merged our newly created features in the dev branch through merge requests that had to be approved by another team member who were assigned as reviewers. After each completed milestone we tried to merge dev into master branch to trigger the deployment of our application. 
 
 ## Miro
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+We used the online whiteboard application Miro for brainstorming, debating, and creating thoughts, especially in the early stages of our project.
+{{<image src="miro_example_research.png" alt="tech stack miro part 1" caption="Miro Research">}}
+{{<image src="miro_example_prototypes.png" alt="tech stack miro part 2" caption="Miro Prototypes">}}
 
 ## Discord
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 {{<image src="techstackdev.png" alt="tech stack part 2" caption="development tech stack">}}
 

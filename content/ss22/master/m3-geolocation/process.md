@@ -3,7 +3,6 @@ title = "Process"
 weight = 2
 +++
 
-{{<image src="placeholder.jpg" alt="Our Placeholder">}}
 
 
 {{<section title="Idea">}}
