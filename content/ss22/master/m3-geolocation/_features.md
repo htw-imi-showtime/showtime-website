@@ -39,16 +39,15 @@ weight = 1
 
 {{<section title="Editor">}}
 
+
+## Interactive Map
+Through the map, editors see the location of the 
+
+## Multi-language support
+Our WH2 Editor provide the possibility to not only be used in english and german but further more also provides the possibilty to create pois and their assets in multiple languages.
+
 ## Create POIs by category
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-## Interactive Map
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-## Multi-language support
-
-{{<image src="techstackcom.png" alt="tech stack part 1" caption="communication & design tech stack">}}
 
 {{</section>}}
