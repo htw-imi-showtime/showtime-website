@@ -35,7 +35,7 @@ For editing some textures from the version downloaded online or masking out the 
 
 {{<section title="Photogrammetry">}}
 * <strong>Meshroom</strong><br>
-Free photogrammetry tool to turn our photos into rough 3D-Models for the busts in the final part of the game.
+Free photogrammetry tool to turn our photos into rough 3D-Models for the busts in the final part of the demo.
 * <strong>Polycam</strong><br>
 Polycam was used for photogrammetry scans where Meshroom did not give the desired result. Polycam seemed promising at first because it uses a Lidar sensor in addition to the images, but in the end only the Photo mode was used because it provided a higher level of detail.
 {{</section>}}

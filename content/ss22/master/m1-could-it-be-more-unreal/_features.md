@@ -22,7 +22,7 @@ Our focus was not to challenge the user with a complex world, but to amaze the u
 {{</section>}}
 
 {{<section title="The Wildlife">}}
-To give life to our world, it contains wandering deer that graze and birds that eat and fly. The animals have a complex AI that reacts to the characters in the game. The deer behave realistically by always staying in a group and one deer behaves as an alpha male. All other deer stay close to the alpha. The deer run away, if a playable character gets too close.<br><br>
+To give life to our world, it contains wandering deer that graze and birds that eat and fly. The animals have a complex AI that reacts to the characters in the demo. The deer behave realistically by always staying in a group and one deer behaves as an alpha male. All other deer stay close to the alpha. The deer run away, if a playable character gets too close.<br><br>
 Also, in various places in the world, there is a group of birds that are pecking at soil for food. The birds behave the same as the deer, if a playable character gets too close, the birds fly away with a colorful dissolve effect.<br><br>
 A world without insects is not a truly living world. Our world offers butterflies flying around in certain places, which provide more life.
 {{<image src="deer.jpg" caption="Deer wandering around">}}
