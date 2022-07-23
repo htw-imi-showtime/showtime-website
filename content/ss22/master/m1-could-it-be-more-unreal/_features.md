@@ -3,7 +3,6 @@ title = "Features"
 weight = 1
 +++
 
-<<<<<<< HEAD
 {{<section title="Main Menu and Pause Menu">}}
 Our playable showcase demo offers a main menu with various options to interact with. The <strong>HOST</strong> button starts a new session and the user acts as a host. The <strong>JOIN</strong> button has the function of joining an existing session. The button <strong>QUIT</strong> closes the application. It is required to log in to Steam, when playing the demo, as the demo is only playable with 2 users.<br></br>
 The demo also includes a pause menu - in case you need a little break. From the pause menu, you can continue exploring, or quit the application. If a client quits the demo, a new client can join the session. But if the host quits the demo, the other connected clients will leave the demo also.
@@ -68,9 +67,4 @@ Niagara Fluids is a plugin that adds templates for real-time fluid simulation. I
 Photogrammetry is the process of making models from photographs. We used it for the construction of some real-world assets. Which exactly? It will be revealed when playing the showcase demo. Photogrammetry is quite an expensive process. In order to create a good 3D Mesh, you need to take a lot of pictures of the object from all angles. The more images you have, the better. You can always filter out repetitive or poor-quality images. The more pictures, the longer the calculation takes.
 {{<image src="photo1.jpg" caption="Photogrammetry using Meshroom">}}
 {{<image src="photo2.jpg" caption="Refinement using Blender">}}
-=======
-{{<section title="Main Menu">}}
-{{<image src="main_menu.png" caption="Main Menu">}}
-work in progress
->>>>>>> upstream/master
 {{</section>}}

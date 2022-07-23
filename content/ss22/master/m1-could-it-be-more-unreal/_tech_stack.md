@@ -3,11 +3,7 @@ title = "Tech Stack"
 weight = 3
 +++
 
-<<<<<<< HEAD
 {{<image src="tech_stack.jpg" alt="tech stack">}}
-=======
-{{<image src="tech_stack.png" alt="tech stack">}}
->>>>>>> upstream/master
 
 {{<section title="Development">}}
 * <strong>Unreal Engine 5</strong><br>
@@ -15,32 +11,19 @@ Unreal Engine 5 was our main tool.<br> We built our project and put all small pa
 * <strong>Steam</strong><br>
 We were able to play Could it be more Unreal? with Steam multiplayer using the Advanced Steam Sessions plugin.
 * <strong>MetaHuman</strong><br>
-<<<<<<< HEAD
 MetaHuman is a framework that enables anyone to create highly realistic human characters.
-=======
-Faceware Live Link Plugin... work in progress
->>>>>>> upstream/master
 {{</section>}}
 
 {{<section title="Modeling">}}
 * <strong>Blender</strong><br>
-<<<<<<< HEAD
 Blender is a 3D content creation software and was used to create assets for our project.
 * <strong>Quixel Bridge</strong><br>
 Quixel Bridge is an asset marketplace containing thousands of real-world scanned 3D assets (Megascans) and surfaces.
-=======
-Blender is a 3D content creation software and was used to create the assets for our project.
->>>>>>> upstream/master
 {{</section>}}
 
 {{<section title="Brand Design">}}
 * <strong>Illustrator</strong><br>
 Adobe Illustrator is a vector based graphics program for creating the icons of the radial menu and the graphics for the tutorial screen.
-<<<<<<< HEAD
-=======
-* <strong>Photoshop</strong><br>
-work in progress
->>>>>>> upstream/master
 * <strong>Indesign</strong><br>
 To create a quick storyboard, a self-created template in InDesign was used. This gave us the opportunity to iterate more quickly in the process of finding the visual language for the trailer.
 {{</section>}}
