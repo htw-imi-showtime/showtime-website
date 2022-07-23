@@ -1,27 +1,19 @@
 +++
-showtime_date = "11/02/2022"
-showtime_place = "REMOTE"
+showtime_date = "29/07/2022"
+showtime_place = "WH H001"
 is_live = "false"
 zoom_link = "TBD"
 +++
 
-{{<teaser category="about showtime" title="Projects over Distance">}}
+{{<teaser category="about showtime" title="Back in Presence">}}
 
-This term is the fourth term already that all projects and our Showtime are held in
-a distance format - sad, but also an opportunity to explore the projects
-from afar! Just dip in for one or two project presentations, visit the projects
-in their virtual booths or watch the presentation videos,
-websites, and demos when it fits you best!
+After four terms over distance our Showtime of Sommersemester 2022 will be held in presence!  It'll be great to see  you on 29/07 at 10:00 am in Room H001 on our campus Wilhelminenhof! 
+[-> check_the_schedule](/schedule)
 {{</teaser>}}
 
 {{<teaser category="projects" title="One Term Ten Projects">}}
 Bachelor students do one, Master students two practical projects during their studies. This term, we
-are happy to present six projects in the Bachelor's and four Projects in the Master's programme.
+are happy to present five projects in the Bachelor's and five Projects in the Master's programme.
 [-> discover_the_projects](/projects)
 {{</teaser>}}
 
-{{<teaser category="schedule" title="Almost as in real life">}}
-We try to mimick our "real" showtime as closely as possible - there will be short project presentations in the morning, and
-a project fair with virtual booths and plenty of opportunities to explore the projects in the afternoon.
-[-> check_the_schedule](/schedule)
-{{</teaser>}}
