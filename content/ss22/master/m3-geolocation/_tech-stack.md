@@ -5,16 +5,24 @@ weight = 3
 
 {{<section title="Frontend">}}
 
-## Ionic
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+The frontend of our project consist of a mobile app and an editor. To save resources we decided to keep the used technologies of both of them as similar as possible. This way everyone was able to work at the app and the editor interchangeably.
 
-## Capacitor
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Vue 3**
 
-## Vue 3
-Vue is a frontend framework that is based on the concept of xx. We decided to use this technology since all of our team members had work with it in the past at least once.
+Vue.js is a frontend framework for developing user interfaces. It uses declarative rendering and reactivity to update the DOM upon JavaScript state changes and has great TypeScript support. We decided to use Vue.js because all of our team members had worked with it in the past at least once. Pinia is used for state management, since it works best with the Vue.js Composition API.
 
-## TypeScript
+**Ionic & Capacitor**
+
+Ionic is an open-source UI kit for building cross-platform apps. As it is based on Web Components, any UI framework can be used in conjunction. There are many UI components available with Ionic, most of which are optimized for mobile apps but can also be used in web applictions.
+
+In combination with Capacitor it is possible to build native apps via AndroidStudio and XCode and access native APIs. Capacitor is therefore only used for the mobile app.
+
+**Leaflet**
+
+Leaflet is an open-source JavaScript library for interactive maps. It is mobile friendly and can be extended with plugins. We used Leaflet for the editor and the app.
+
+[//]: # (TODO: add techstack image)
+
 {{<image src="techstackcom.png" alt="tech stack part 1" caption="communication & design tech stack">}}
 
 {{</section>}}
@@ -53,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {{<section title="Development">}}
 ## GitLab
-Our repository was located in GitLab. We also used features like issues, labels, boards and milestones to manage and coordinate our project. We worked in two-week sprints in the form of milestones, for which we defined issues at the beginning of the sprint that we would like to work on in the upcoming sprint. During the sprint, we continously merged our newly created features in the dev branch through merge requests that had to be approved by another team member who were assigned as reviewers. After each completed milestone we tried to merge dev into master branch to trigger the deployment of our application. 
+Our repository was located in GitLab. We also used features like issues, labels, boards and milestones to manage and coordinate our project. We worked in two-week sprints in the form of milestones, for which we defined issues at the beginning of the sprint that we would like to work on in the upcoming sprint. During the sprint, we continously merged our newly created features into the dev branch through merge requests that had to be approved by another team member who were assigned as reviewers. After each completed milestone we merged the dev branch into the main branch to trigger the deployment of our application. 
 
 ## Miro
 We used the online whiteboard application Miro for brainstorming, debating, and creating thoughts, especially in the early stages of our project.

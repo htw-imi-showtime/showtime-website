@@ -5,6 +5,8 @@ weight = 1
 
 {{<section title="App">}}
 
+[//]: # (TODO: add screenshots)
+
 ## Home screen
 
 One of the core features of the App is the map where users can see their position and all the available points of interest (POI) are indicated with markers. The markers are shown in different colors acoording to the category of the POI. Categories are used to group POI by similar histories. Clicking on a marker will navigate to the detail view of that POI.
