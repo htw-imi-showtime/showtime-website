@@ -49,24 +49,27 @@ Users can access a help popover via the menu button. The popover explains the us
 
 {{<section title="Editor">}}
 
-## Interactive Map
-
-Through the map, editors see the location of the
-
-## Multi-language support
-
-Our WH2 Editor provide the possibility to not only be used in english and german but further more also provides the possibilty to create pois and their assets in multiple languages.
-
-## Create POIs by category
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-## POI detail preview
-
 ## Authentification
 
+The different institutions we work with each have to register for an account where they then can set their default language, and create pois and categories.
+{{<image src="authentification.PNG" alt="login screen" caption="Login Screen">}}
 
 ## Homescreen with filtering of POIs
 
+## Create POIs by category
+Each editor can create categories with a specific color in which they later can assign pois to (e.g Queerwalk, forced labor in Berlin, etc). The pois contain an address, an address description, a description and assets (text, audio, video and images). The address can be typed in or set by clicking on a location on the map.
+
+{{<image src="poi-creation.PNG" alt="editor poi creation" caption="POI Creation">}}
+
+## Interactive Map
+
+## POI detail preview
+
+{{<image src="poi-detail-de.PNG" alt="editor poi detail de" caption="German">}}
+
+
+## Multi-language support
+
+Our WH2 Editor provides the possibility to not only to be used in multiple languages but further more also allows the editors to create pois, categories and their assets in those. Currently we support english and german.
 
 {{</section>}}

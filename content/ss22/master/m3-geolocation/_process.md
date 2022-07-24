@@ -34,19 +34,13 @@ While starting the development process and implementing the main features, we al
 
 
 {{<section title="Development">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+We worked in two-week sprints in the form of milestones, for which we defined issues at the beginning of the sprint that we would like to work on in the upcoming sprint. During the sprint, we continously merged our newly created features into the dev branch through merge requests that had to be approved by another team member who were assigned as reviewers. After each completed milestone we merged the dev branch into the main branch to trigger the deployment of our application.
 
 ## Challenges
 
 One of the main features that distinguishes the mobile app from others, is the notifications that are based on the geolocation of the users. The challenge with this feature is, that the location of the user has to be periodically updated while the app is running in the background. This was accomplished by using the capacitor community plugin [background-geolocation](https://www.npmjs.com/package/@capacitor-community/background-geolocation) which provides the functionality to add watchers that keep the app running in the background and receive geolocation updates. On Android devices a notification has to be shown the entire time the app is running in the background. A local notification will be sent when the user is nearby a POI. Local notifications are triggered by the app itself, rather than a push notification from the server. The [local-notifications](https://capacitorjs.com/docs/apis/local-notifications) plugin was used to implement this feature.
 
-[//]: # (TODO: multi language and assets challenges)
+Another chaleange was to provide multi language information. This applies not only to static UI elements of the editor or app, which can be easily translated by the library [i18n](https://vue-i18n.intlify.dev/), but also to the POIs, categories and assets, which must be able to be created in different languages. For that we thought about solving it through a query parameter, which creates the corresponding depending on which language the detail poi view is displayed in. But still, the default language of our WH2 Editor is german, so every poi, category or asset has to be created in german before another translationen can be added.
 
 {{</section>}}
 

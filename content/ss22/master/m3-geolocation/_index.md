@@ -14,7 +14,7 @@ supervisor = "Alexander Kramer"
 
 
 {{<section title="Our Goal">}}
-Through our project we and our cooperation partners want to provide our users access to important cultural, historical and social issues. With functionalities like location based notications, share options and personalized area of interest it is possible to explore the city through topics one is really interested in. We don't want to limit ourselves to Berlin, but educate people everywhere in every language.
+Through our project we and our cooperation partners want to provide our users access to important cultural, historical and social issues. With functionalities like location based notifucations, share options and personalized area of interests, it is possible to explore the city through topics one is really interested in. We don't want to limit ourselves to Berlin, but educate people everywhere in every language.
 {{</section>}}
 
 {{<section title="The Team">}}
@@ -23,8 +23,8 @@ The WH2 team consists of 4 students with experience in web and app development, 
 {{</section >}}
 
 {{<gallery>}}
-{{<team-member image="hacker.png" name="Paula">}}
-{{<team-member image="hacker.png" name="Luis">}}
-{{<team-member image="hacker.png" name="Emily">}}
-{{<team-member image="hacker.png" name="Mahja">}}
+{{<team-member image="paula.jpeg" name="Paula">}}
+{{<team-member image="luis.jpg" name="Luis">}}
+{{<team-member image="emily.jpg" name="Emily">}}
+{{<team-member image="mahja.jpeg" name="Mahja">}}
 {{</gallery>}}
