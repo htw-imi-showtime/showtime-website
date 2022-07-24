@@ -60,7 +60,7 @@ follows the VR avatar to zoom in on the drawings.
 
 <figure>
     <iframe src="https://mediathek.htw-berlin.de/media/embed?key=78c90c9eb3ccca9e3acc48b16efa313a&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=78c90c9eb3ccca9e3acc48b16efa313a&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="405" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style="display: block; margin: 0 auto"></iframe>
-    <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">Drawing on the floor with controller</p>
+    <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">Drawing on the floor with controller - early prototype</p>
 </figure>
 
 #### Assembling the antenna
@@ -70,7 +70,7 @@ the computer mouse or, alternatively, a drawing trackpad. The drawings appear ne
 
 <figure>
     <iframe src="https://mediathek.htw-berlin.de/media/embed?key=63ef76467742db9951f5b93c0b54a2e8&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=63ef76467742db9951f5b93c0b54a2e8&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="405" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style="display: block; margin: 0 auto"></iframe>
-    <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">PC to VR drawing instructions for assembly</p>
+    <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">PC to VR drawing instructions for assembly - early prototype</p>
 </figure>
 
 With these communication technologies, the VR player has three attempts to assemble the antenna correctly, while 
@@ -84,7 +84,7 @@ appears to automatically assemble the antenna correctly for the player.
 
 #### Choosing correct buttons
 As a final task, the PC player is presented with a control panel that displays buttons with various runes.
-{{<image src="pc_view_with_open_controlpanel.jpg" alt="PC View with opened control panel" caption="PC GUI with opened control panel">}}
+{{<image src="pc_view_with_open_controlpanel.jpg" alt="PC View with opened control panel" caption="Final PC GUI with opened control panel">}}
 
 The VR player is now shown which buttons should be pressed and in which order. The VR player can also draw with 
 their finger on a predetermined area on the real-world table. Once the task is completed the antenna 
