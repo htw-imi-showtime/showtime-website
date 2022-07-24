@@ -106,9 +106,6 @@ glass that can be used to make the antenna parts visible: an item only becomes v
 virtual world if the player has looked through the magnifying glass and spotted the item. Both items can be accessed 
 via a hand menu implemented on the VR controller.
 
-<figure>
-    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=67c6cf324f2472a735598831417afcca&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=67c6cf324f2472a735598831417afcca&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="405" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style="display: block; margin: 0 auto"></iframe>
-    <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">Handmenu with items: metal detector and magnifying glass</p>
-</figure>
+{{<image src="metaldetector.png" alt="pc view with opened minimap" caption="Blender model of the metal detektor">}}
 
 {{</section>}}
