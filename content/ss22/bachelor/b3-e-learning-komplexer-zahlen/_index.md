@@ -15,14 +15,10 @@ supervisor = "Martin Steinicke, Adrian Sabrowski"
 
 {{<image src="Alien in Spaceship (1).jpg" alt="placeholder">}}
 {{<section title="Our Goal">}}
-We are driven by goals and we do a lot to get closer to them each day. We all also know that it can sometimes be 
-challenging that there are obstacles put in our way. According to **our expert**, complex numbers are often exactly that 
-for many **electrical engineering students** during their studies. Most of them have **no prior knowledge** from school or other 
-areas in this topic. Nevertheless, the subject area plays an **essential role** for later problems. Complex numbers are for 
-example used to **calculate complex alternating currents** (AC) and therefore the knowledge must be present. 
-The transfer of this knowledge has so far been approached via the **classical route** and, as already mentioned, has often 
-represented a crossroads for some students. That's why we want to spice up the world of complex numbers to make learning
-easier for our fellow students with a **playful learning app**.
+Tired of **non-interactive** math tutorials? Still, unsure what complex numbers are really used for? Then follow along our 
+**complex space adventure** and learn how to deal with complex numbers in a **playful way**. Based on the **principles of game-based 
+learning**, our complex space adventure prototype teaches you conversions, formulas, and different coordinate systems. 
+Take your chance and become the **new complex numbers ace**.
 {{</section>}}
 
 {{<section title="The Team">}}
