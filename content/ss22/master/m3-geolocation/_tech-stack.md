@@ -5,7 +5,7 @@ weight = 3
 
 {{<section title="Frontend">}}
 
-The frontend of our project consist of a mobile app and an editor. To save resources we decided to keep the used technologies of both of them as similar as possible. This way everyone was able to work at the app and the editor interchangeably.
+The frontend of our project consists of a mobile app and an editor. To save resources we decided to keep the used technologies of both of them as similar as possible. This way everyone was able to work at the app and the editor interchangeably.
 
 **Vue 3**
 
@@ -45,15 +45,12 @@ At its core, our backend should just be a simple CRUD API for the resources need
 ## Docker
 To make deploying our project's components as easy as possible while also (mostly) eliminating the "It works on my machine" type of errors, we decided to build Docker images for our backend and our editor. This gave us the possibility to develop, test and deploy most of our project in a uniform environment across multiple devices and it made our deployment process as simple as uploading a Docker compose file to our deployment server and running `docker-compose up` to spin up all the containers required for our application stack.
 
-**Docker on M1 Macs**
+#### Docker on M1 Macs
+As mentioned above, using Docker eliminates most errors stemming from different machine setups, but not all of them. Since Apple introduced the new aarm64 CPU architecture for their new M1 Macs, there are some difficulties when building images for development on MacBooks in some cases, e.g. when npm packages don't contain binaries for the aarch64 architecture. To eliminate all of these issues, we needed to include some additional build steps in our Dockerfiles for Docker to build the missing binaries itself.
 
-[//]: # (TODO: add content)
+## Deployment on our HTW project server and AWS
+In the beginning of the project we requested a project server from HTW for the deployment of our front- and backend. What we did not know at that time was that the IMI-GitLab instance we used as our VCS platform does not provide any GitLab runners (servers that run jobs from CI/CD pipelines), so we had to set up our own runner for our repository. Since the runner used almost all of our project server's resources, we decided to deploy our project on AWS instead. For that we created an EC2 instance of the t2.micro tier and configured our CI/CD pipeline to deploy the built Docker images onto this instance using our Docker Compose file and Docker Hub as our container registry.
 
-## AWS
-
-[//]: # (TODO: add content about deploying on HTW server, then switching to AWS and using HTW server as CI/CD server)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 {{</section>}}
 
