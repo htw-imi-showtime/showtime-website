@@ -14,7 +14,11 @@ supervisor = "Alexander Kramer"
 
 
 {{<section title="Our Goal">}}
-Through our project we and our cooperation partners want to provide our users access to important cultural, historical and social issues. With functionalities like location based notifucations, share options and personalized area of interests, it is possible to explore the city through topics one is really interested in. We don't want to limit ourselves to Berlin, but educate people everywhere in every language.
+Oftentimes people walk past places with distinctive histories without even realising. With our project we want to provide users with access to information about important cultural, historical and social events and connect this information to places around them. The location based notifications are designed to make it as simple as possible for the users to engage with these topics in their day to day lives. They can also share newly found information with other people and personalize their area and topics of interest.
+
+The editor is designed for institutions that want to share information and draw attention to different topics. They can manage their places and assets while categorizing them, so that users can easily find them.
+
+The app currently only offers data about places in Berlin, but this is not a limitation. Users are able to select between English and German, which opens up the possibility to add other languages in the future.
 {{</section>}}
 
 {{<section title="The Team">}}
