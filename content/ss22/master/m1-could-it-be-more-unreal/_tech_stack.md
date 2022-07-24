@@ -3,7 +3,7 @@ title = "Tech Stack"
 weight = 3
 +++
 
-{{<image src="tech_stack.png" alt="tech stack">}}
+{{<image src="tech_stack.jpg" alt="tech stack">}}
 
 {{<section title="Development">}}
 * <strong>Unreal Engine 5</strong><br>
@@ -11,19 +11,19 @@ Unreal Engine 5 was our main tool.<br> We built our project and put all small pa
 * <strong>Steam</strong><br>
 We were able to play Could it be more Unreal? with Steam multiplayer using the Advanced Steam Sessions plugin.
 * <strong>MetaHuman</strong><br>
-Faceware Live Link Plugin... work in progress
+MetaHuman is a framework that enables anyone to create highly realistic human characters.
 {{</section>}}
 
 {{<section title="Modeling">}}
 * <strong>Blender</strong><br>
-Blender is a 3D content creation software and was used to create the assets for our project.
+Blender is a 3D content creation software and was used to create assets for our project.
+* <strong>Quixel Bridge</strong><br>
+Quixel Bridge is an asset marketplace containing thousands of real-world scanned 3D assets (Megascans) and surfaces.
 {{</section>}}
 
 {{<section title="Brand Design">}}
 * <strong>Illustrator</strong><br>
 Adobe Illustrator is a vector based graphics program for creating the icons of the radial menu and the graphics for the tutorial screen.
-* <strong>Photoshop</strong><br>
-work in progress
 * <strong>Indesign</strong><br>
 To create a quick storyboard, a self-created template in InDesign was used. This gave us the opportunity to iterate more quickly in the process of finding the visual language for the trailer.
 {{</section>}}
@@ -35,7 +35,7 @@ For editing some textures from the version downloaded online or masking out the 
 
 {{<section title="Photogrammetry">}}
 * <strong>Meshroom</strong><br>
-Free photogrammetry tool to turn our photos into rough 3D-Models for the busts in the final part of the game.
+Free photogrammetry tool to turn our photos into rough 3D-Models for the busts in the final part of the demo.
 * <strong>Polycam</strong><br>
 Polycam was used for photogrammetry scans where Meshroom did not give the desired result. Polycam seemed promising at first because it uses a Lidar sensor in addition to the images, but in the end only the Photo mode was used because it provided a higher level of detail.
 {{</section>}}
