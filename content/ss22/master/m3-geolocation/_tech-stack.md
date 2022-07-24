@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {{</section>}}
 
-{{<section title="Development">}}
+{{<section title="Tools">}}
 ## GitLab
 Our repository was located in GitLab. We also used features like issues, labels, boards and milestones to manage and coordinate our project. We worked in two-week sprints in the form of milestones, for which we defined issues at the beginning of the sprint that we would like to work on in the upcoming sprint. During the sprint, we continously merged our newly created features into the dev branch through merge requests that had to be approved by another team member who were assigned as reviewers. After each completed milestone we merged the dev branch into the main branch to trigger the deployment of our application. 
 

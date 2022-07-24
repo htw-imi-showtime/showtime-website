@@ -1,6 +1,6 @@
 +++
 title = "Future"
-weight = 3
+weight = 4
 +++
 
 {{<section title="Frontend">}}
