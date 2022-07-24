@@ -26,6 +26,7 @@ information from the ship's computer.
     <iframe src="https://mediathek.htw-berlin.de/media/embed?key=0910771e56f49906f7deabbfe9bb881e&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=0910771e56f49906f7deabbfe9bb881e&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="405" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style="display: block; margin: 0 auto"></iframe>
     <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">An insight of the VR environment</p>
 </figure>
+
 #### Calibration of desk
 One of the first tasks that needs to be solved by the VR player, is the calibration of a real-world desk. 
 This does not only ensure that the player gets familiar with the virtual environment and the controls of the game it 
@@ -61,6 +62,7 @@ follows the VR avatar to zoom in on the drawings.
     <iframe src="https://mediathek.htw-berlin.de/media/embed?key=78c90c9eb3ccca9e3acc48b16efa313a&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=78c90c9eb3ccca9e3acc48b16efa313a&width=720&height=405&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="405" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style="display: block; margin: 0 auto"></iframe>
     <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">Drawing on the floor with controller</p>
 </figure>
+
 #### Assembling the antenna
 After all parts are found, the VR player must assemble them correctly. The corresponding instructions are provided 
 to the PC player in the form of a video. The PC player must now draw these instructions on a notepad, simply using 
