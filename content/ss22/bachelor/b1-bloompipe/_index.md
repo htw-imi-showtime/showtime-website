@@ -18,7 +18,7 @@ supervisor = "Prof. Dr. Kai-Uwe Barthel, Konstantin Schall"
 {{<image src="img-anim-teleport-dancer.gif" alt="Teleport Dancer">}}
 {{</gallery>}}
 
-{{<mediathek id="cfcbe4ac5dd604a2f49db68dc9c3fb26" title="How to use it">}}
+{{<mediathek id="208e1140d29794cf7037102a69773125" title="Here is Bloompipe!">}}
 
 {{<section title="Our Goal">}}
 Whether you’re an aspiring artist, musician, or anyone who is curious about digital art, Bloompipe is a user-friendly tool that let's people easily participate in the art world to create a visual and artistic music video instantly - without much effort.
