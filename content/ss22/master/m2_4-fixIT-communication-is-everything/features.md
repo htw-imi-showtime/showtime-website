@@ -8,8 +8,9 @@ weight = 1
 Throughout the semester we were able to design and develop a first version of our game. 
 Due to the limited time we had to set aside many ideas and compromise on several aspects of the final game design. 
 Keeping that in mind, we made sure to design all aspects of our game intuitively so that the software remains easily 
-extensible. Additionally, we created a documentation of all the tools, assets and further preparations that are 
-needed to get this project up and running.
+extensible. Additionally, we created a 
+[documentation](https://github.com/Master-project-Interaktion-in-VR/Project_InteractionInVR/blob/main/CONTRIBUTE.md) 
+of all the tools, assets and further preparations that are needed to get this project up and running.
 
 {{</section>}}
 
