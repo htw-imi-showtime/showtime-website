@@ -19,9 +19,6 @@ To **develop the design and mockups** we used the web version of Figma, a collab
 
 After a continous discussion we decided to **create our app** with React Native, since most of us already had some experience either with JavaScript or React. React Native is an open-source cross-platform framework for writing native apps that utilizes React and JavaScript. It allowed us to separate the logic into small and reusable components.
 
-## Visual Studio Code
-As an IDE we used Visual Studio Code to **code and run** the program.
-{{<image src="techstackdev.png" alt="tech stack part 2" caption="development tech stack">}}
 {{</section>}}
 
 {{<section title="Version Control">}}

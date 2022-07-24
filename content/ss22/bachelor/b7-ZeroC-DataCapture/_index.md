@@ -9,7 +9,7 @@ card_description = "Our app enables a simple, automated and secure collection of
 
 team = ["Daria Katysheva", "Claude Farmer", "Fathoni Rachmatullah", "Habib Farhan", "Nurul Quamila", "Rene Redanz", "Tanem Basaraner"]
 
-supervisor = "Alexander Haferland Veronika Babic"
+supervisor = "Alexander Haferland, Veronika Babic"
 +++
 
 {{<image src="Logo_ZeroC_combi_bl.png" alt="placeholder" >}}
@@ -25,10 +25,10 @@ We’re a diverse international team with different background who got together 
 
 {{<gallery>}}
 {{<team-member image="Daria.jpg" name="Daria Katysheva">}}
-{{<team-member image="hacker.png" name="Claude Farmer">}}
+{{<team-member image="Claude.jpg" name="Claude Farmer">}}
 {{<team-member image="Fathoni.jpg" name="Fathoni Rachmatullah">}}
 {{<team-member image="hacker.png" name="Habib Farhan">}}
-{{<team-member image="hacker.png" name="Nurul Quamila">}}
+{{<team-member image="Elsya.jpg" name="Nurul Quamila">}}
 {{<team-member image="hacker.png" name="Rene Redanz">}}
 {{<team-member image="hacker.png" name="Tanem Basaraner">}}
 {{</gallery>}}
