@@ -23,8 +23,6 @@ Leaflet is an open-source JavaScript library for interactive maps. It is mobile 
 
 [//]: # (TODO: add techstack image)
 
-{{<image src="techstackcom.png" alt="tech stack part 1" caption="communication & design tech stack">}}
-
 {{</section>}}
 
 {{<section title="Backend">}}
@@ -67,6 +65,9 @@ Our repository was located in GitLab. We also used features like issues, labels,
 We used the online whiteboard application Miro for brainstorming, debating, and creating thoughts, especially in the early stages of our project.
 {{<image src="miro_example_research.png" alt="tech stack miro part 1" caption="Miro Research">}}
 {{<image src="miro_example_prototypes.png" alt="tech stack miro part 2" caption="Miro Prototypes">}}
+
+## AdobeXD
+To create a visual design for the app, we used AdobeXD. It's prototyping feature was used to create transitions between the different pages in order to use it as a high-fidelity prototype.
 
 ## Discord
 Our main communication tool was Discord, where we had a project server in which we could keep us up-to-date in between our weekly meet ups.
