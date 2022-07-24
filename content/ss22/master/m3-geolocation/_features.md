@@ -54,4 +54,12 @@ Our WH2 Editor provide the possibility to not only be used in english and german
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+## POI detail preview
+
+## Authentification
+
+
+## Homescreen with filtering of POIs
+
+
 {{</section>}}

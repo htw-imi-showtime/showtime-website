@@ -69,9 +69,7 @@ We used the online whiteboard application Miro for brainstorming, debating, and 
 {{<image src="miro_example_prototypes.png" alt="tech stack miro part 2" caption="Miro Prototypes">}}
 
 ## Discord
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-{{<image src="techstackdev.png" alt="tech stack part 2" caption="development tech stack">}}
+Our main communication tool was Discord, where we had a project server in which we could keep us up-to-date in between our weekly meet ups.
 
 {{</section>}}
 

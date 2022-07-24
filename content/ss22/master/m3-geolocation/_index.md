@@ -18,7 +18,7 @@ Through our project we and our cooperation partners want to provide our users ac
 {{</section>}}
 
 {{<section title="The Team">}}
-The WH2 team consists of 4 students with experience in web and app development, even though this tech stack was new to everybody. One team member was mainly responsible for the backend, one for the app and two for the editor. but in general everyone helped in all areas.
+The WH2 team consists of 4 students with experience in web and app development, even though this tech stack was new to everybody. One team member was mainly responsible for the backend, one for the app and two for the editor. But in general everyone helped in all areas.
 
 {{</section >}}
 
