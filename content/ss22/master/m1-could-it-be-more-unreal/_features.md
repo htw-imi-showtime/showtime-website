@@ -3,11 +3,13 @@ title = "Features"
 weight = 1
 +++
 
-{{<section title="Main Menu and Pause Menu">}}
+{{<section title="Main Menu, Pause Menu, Help Menu">}}
 Our playable showcase demo offers a main menu with various options to interact with. The <strong>HOST</strong> button starts a new session and the user acts as a host. The <strong>JOIN</strong> button has the function of joining an existing session. The button <strong>QUIT</strong> closes the application. It is required to log in to Steam, when playing the demo, as the demo is only playable with 2 users.<br></br>
-The demo also includes a pause menu - in case you need a little break. From the pause menu, you can continue exploring, or quit the application. If a client quits the demo, a new client can join the session. But if the host quits the demo, the other connected clients will leave the demo also.
+The demo also includes a pause menu - in case you need a little break. From the pause menu, you can continue exploring, or quit the application. If a client quits the demo, a new client can join the session. But if the host quits the demo, the other connected client will leave the demo also.<br><br>
+If a user gets lost with the controls, it is possible to activate a help menu or tutorial menu which shows the controller controls. As our demo does not support keyboard and mouse controls, it might be tricky for one or another to figuring out the use of a game controller.
 {{<image src="main_menu.jpg" caption="Main Menu">}}
 {{<image src="pause_menu.jpg" caption="Pause Menu">}}
+{{<image src="help_menu.jpg" caption="Help Menu shows the controls">}}
 {{</section>}}
 
 {{<section title="Multiplayer">}}

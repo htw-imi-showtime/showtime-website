@@ -70,9 +70,10 @@ The map and the list of pois are conncected seamlessly. Selecting a specific poi
 Also when creating a poi, it is possible to providing the coordinates by clicking on the map. This helps with pois which are located on a special place which cannot be expressed by an address.
 
 ## POI detail preview
+The detailview of a poi serves as a preview to what the users will see when coming accross this point. This serves editors to double check the content they have added and try it out themselves. From here they can also edit the point and make any changes to the general information of the content, as they please. 
+It includes the main picture selected for the point, the detailed address and an address descripton in case needed. The rest of the detailview is dynamically built, depending on the content types that are available. 
 
 {{<image src="poi-detail-de.PNG" alt="editor poi detail de" caption="German">}}
-
 
 ## Multi-language support
 

@@ -4,20 +4,43 @@ weight = 2
 +++
 
 {{<section title="First things first">}}
-{{<image src="miro_board.png" caption="general ideas collected">}}
 Every project has a beginning and an end. Before we started doing anything, we were discussing possible ideas for a project. We had to do something with the new <strong>Unreal Engine 5</strong>, but the question was, what do we want to do? And how do we want to do it? Who wants to do what? To begin with, we had a many questions, and we tried to hold all our ideas in a Miro board.
+{{<image src="miro_board.png" caption="general ideas collected">}}
+{{</section>}}
+
+{{<section title="Concept Art">}}
+Drawings of varying levels of quality were made using Photoshop to convey ideas about the map layout, riddles and other events visually to the other team members. Most were simple drawings in black and white, occasionally with shading if three-dimensional form or lighting was relevant to the situation depicted.
+{{<image src="concept1.png" caption="Concept Art(1)">}}
+{{<image src="concept2.png" caption="Concept Art(2)">}}
+{{<image src="concept3.png" caption="Concept Art(3)">}}
 {{</section>}}
 
 {{<section title="Assets creation (a selection)">}}
 One of our focus was to create some various assets ourselves using the software Blender. This point was important to us, because self-created assets give the project more independence. Nevertheless, we also made use of existing assets. In the following, you will see a selection of our self-made assets for the project.<br><br>
-Our project features a medieval wall. And this wall has small roofs.
-{{<image src="roof.png" caption="roof">}}
-This is the wall with the small roofs. The whole wall including the gate was built entirely by ourself. This asset is part of a riddle that must be solved in order to pass through the gate. Teamwork is required!
-{{<image src="wall.png" caption="wall">}}
-Our world offers a small riddle where several mirrors play an important role. These mirrors are located in a cave. The cave is cold and wet and the mirror suffered - it is completely rotten and dirty.
-{{<image src="mirror.png" caption="mirror">}}
-This asset here is a tribute to the developers of the Unreal Engine. This asset is the logo of the game Unreal Tournament from 1999, and can be seen in various places in the demo.
-{{<image src="unreal_logo.png" caption="unreal tournament logo">}}
+The photorealistic nature of the showcase demo, coupled with Nanite allowed high-poly meshes to be created and used directly in Unreal Engine. This workflow was used for example for the wall and gate at the beginning of the demo. A simple low-poly model was created, subdivided and the resulting geometry was displaced via heightmaps that came coupled with the PBR-textures that were then applied to the resulting geometry. To reduce file size, the geometry was then decimated, which is a process somewhat akin to lossy compression, where low-detail vertices get removed from the mesh. 
+{{<image src="wall1.png" caption="The wall in the making">}}
+{{<image src="wall2.png" caption="The wall as final result">}}
+The cave was a special case, as modeling such an organic shape would have been difficult. As a base, a low-poly mesh was constructed, containing the openings at both ends as well as the chambers and pathways. The pillars in the main chamber were separate meshes combined with the cave via a boolean operation. With the complete base the remaining detail, roundings and protrusions were sculpted in. For texturing triplanar mapping was used, as UV-mapping such a complex object without obvious texture stretching or texture boundaries would have proven an exercise in futility. Furthermore, painting a custom texture, while possible, would have produced an enormous texture, which was not the case with the simple tiling texture used and projected along world space coordinates.
+{{<image src="cave1.png" caption="The Cave in the making">}}
+{{<image src="cave2.jpg" caption="The Cave as final result">}}
+Finally, simple modeling was also used, as the walkway found in the cave was essentially a lot of cuboids fitted together in a convincing manner. Of course to resemble real wooden construction the perfectly straight and right angle boxes were subdivided and distorted and had their edges beveled so as to look more convincingly wooden and hand-made.
+{{<image src="walkway1.png" caption="The walkway in the making">}}
+{{<image src="walkway2.jpg" caption="The walkway as final result in the demo">}}
+For even better texturing, vertex colors were used on many custom objects to vary their appearance in different parts of the model. One example is how the material of the cave is glossier where water would run into the pond. Another is the material for the mirrors blending between very corroded bronze, mildly corroded bronze and shiny bronze as well as varying the roughness of the shiny part, all using vertex colors to blend the various textures. 
+{{<image src="mirror1.png" caption="The mirror in the making">}}
+{{<image src="mirror2.png" caption="The mirror as final result">}}
+{{</section>}}
+
+{{<section title="Photogrammetry">}}
+First experiments using around 50 pictures shot with the subjects standing and using a wide-angle lens from close up produced barely if at all usable results. Missing features, artifacts and a generally low-resolution scan of the subjects made post-processing extremely difficult. Our teammate Hendrik then delivered a good scan of himself, which allowed us to pinpoint the differences and come up with a theory as to how to get Meshroom to produce better scans. He used a crop-sensor DSLR with a 50mm lens, giving him a narrow field of view. Coupled with the distance the camera was moved between pictures, this gave Meshroom very little information to also reconstruct the background, Information which was plentiful in the wide-angle shots used previously. In the second round of scans, more pictures were taken per person - around 150 - and make-up markers were added on the face to aid the algorithm in creating an accurate point cloud. Additionally, the background was manually masked out in all pictures preventing any reconstruction of anything but the subject. This produced good to excellent results, which were easily post processed via sculpting in Blender. For texturing again triplanar mapping was used with vertex colors determining parts of increased roughness, such as the hair, bears (if present) and eyes as that makes these parts visually distinct. 
+{{<image src="brokenscan.png" caption="Broken scan of our teammate holzi">}}
+{{</section>}}
+
+{{<section title="AI of the wildlife">}}
+For the AI of the deer and birds in our world, we used Behavior-Trees. The Behavior-Tree defines the behavior of controlled pawns. It always includes a blackboard where important information is stored, e.g. the position of an opponent. Information in a blackboard can also be synchronized, so that several objects have access to a variable.
+In addition to blackboards, we also used Unreal's AI Perception, which can simulate different senses of a pawn such as hearing or seeing.
+{{<image src="tree.png" caption="The Behavior-Tree">}}
+{{<image src="perception.png" caption="Birds fly away if you get too close.">}}
 {{</section>}}
 
 {{<section title="Project Management">}}
