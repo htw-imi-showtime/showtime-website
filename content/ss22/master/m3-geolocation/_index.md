@@ -16,7 +16,7 @@ supervisor = "Alexander Kramer"
 {{<section title="Our Applications">}}
 ## App
 You can download the Android app by scanning this qr code.
-{{<image src="qr-code.png" alt="qr code android app" caption="QR Code Android app">}}
+{{<image src="qr-code.jpg" alt="qr code android app" caption="QR Code Android app">}}
 
 ## Editor
 Our WH3 Editor can be found [here](http://what-happened-here.de/).
