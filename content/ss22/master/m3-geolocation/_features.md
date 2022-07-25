@@ -55,6 +55,9 @@ The different institutions we work with each have to register for an account whe
 {{<image src="authentification.PNG" alt="login screen" caption="Login Screen">}}
 
 ## Homescreen with filtering of POIs
+The homescreen of the editor shows the map with the pinned locations on the right side, and an overview of all the pois on the left side. The small icons in the card of each point indicate what kind of content is stored. The markers are colored based on the category of the content and the filter option lets users choose which categories they want to look at. Specific points can be found by narrowing down the shown categories or by simply using the search function. As this view is for the content managers it functions as an overview of the distribution of the ponits, and a preview of the content for each point. From here they can also navigate to creating and adding new points.
+
+{{<image src="editor-home.PNG" alt="editor homescreen" caption="Homescreen">}}
 
 ## Create POIs by category
 Each editor can create categories with a specific color in which they later can assign pois to (e.g Queerwalk, forced labor in Berlin, etc). The pois contain an address, an address description, a description and assets (for now audio and images). The address can be typed in or set by clicking on a location on the map.
@@ -62,6 +65,9 @@ Each editor can create categories with a specific color in which they later can 
 {{<image src="poi-creation.PNG" alt="editor poi creation" caption="POI Creation">}}
 
 ## Interactive Map
+The map and the list of pois are conncected seamlessly. Selecting a specific point from the list of pois on the left navigates to it's detailed preview of the content, whilst the map centers around this point by flying to it with a little animation. The same happens when a marker on the map is clicked.
+
+Also when creating a poi, it is possible to providing the coordinates by clicking on the map. This helps with pois which are located on a special place which cannot be expressed by an address.
 
 ## POI detail preview
 
