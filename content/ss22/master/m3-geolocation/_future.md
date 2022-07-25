@@ -4,17 +4,16 @@ weight = 4
 +++
 
 {{<section title="General">}}
-The next step for our project is to contact more institutions who want to cooperate with us. We mainly want to focus on those who treat cultural, historical and social issues.
+The next step for our project is to contact more institutions who want to cooperate with us. We mainly want to focus on those who treat cultural, historical and social issues. The concept of the app will flourish when more data is added that users can discover.
 
 {{</section>}}
 
 {{<section title="App">}}
-For the app we discussed the opportunities to include gamification in our app. 
-Our main result was to let the user gather points by visiting POIs and combine that with possibility to donate the worth of the points to the institution which provided the information.
+To expand the App we want to include the option to have predefined routes that users can actively choose to explore different neighbourhoods and topics. Just like the notification feature, walking close by a POI on a route could for example start the audio. We also discussed the option to include gamification in our app. This would allow users to gather points by visiting different POI and gain achievements for it.
 {{</section>}}
 
 {{<section title="Editor">}}
-Our first goal is to include the option in the FE to add more text or videos to a POI.
+Our first goal is to include the option to add more data to a POI in the format of text and video.
 
-Futhermore we wanted to provide cooperating institutions more template options for the information provided from them for a POI. This provides more variety when discovering the pois.
+Furtheremore it would be great to add import options to add POI from Excel Sheets for example. This would make the initial creation process of the POI easier and quicker and allow the institutions to add more of their information to the app.
 {{</section>}}
