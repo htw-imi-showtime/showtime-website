@@ -34,7 +34,23 @@ We included a total of three tasks in our first prototype. With the help and ins
 
 
 {{<section title="User Testing">}}
-tbd
+The goal of our project was to investigate non-verbal communication between two players with one player in a 
+virtual environment and the other one at a PC. 
+
+Therefore, we integrated in-game tracking into our unity application. We set up a tracking object that monitored how often the PC player used the provided buttons, how much time players 
+spent in each scene, whether tasks were completed, and how many attempts were required. We also collected immediate 
+feedback during gameplay which mostly regarded the usability of our game.
+
+In a subsequent questionnaire we asked players about their subjective game experience. We included questions about the 
+general enjoyability of the game, their motivation to play the game, the perceived social presence of the other player 
+and their assessment of the collaboration and group process. We also asked about the players' previous experience with VR.
+
+From our research question, we derived the following hypotheses:
+1. All tasks can be solved by the players intuitively or by communicating with each other
+2. The higher the motivation of the players, the better (faster, less tries) the tasks can be solved
+3. The more experience a player has in VR, the better the tasks can be solved
+
+The final results will be presented at this year's Showtime.
 
 
 {{</section>}}
