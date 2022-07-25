@@ -57,7 +57,7 @@ The different institutions we work with each have to register for an account whe
 ## Homescreen with filtering of POIs
 
 ## Create POIs by category
-Each editor can create categories with a specific color in which they later can assign pois to (e.g Queerwalk, forced labor in Berlin, etc). The pois contain an address, an address description, a description and assets (text, audio, video and images). The address can be typed in or set by clicking on a location on the map.
+Each editor can create categories with a specific color in which they later can assign pois to (e.g Queerwalk, forced labor in Berlin, etc). The pois contain an address, an address description, a description and assets (for now audio and images). The address can be typed in or set by clicking on a location on the map.
 
 {{<image src="poi-creation.PNG" alt="editor poi creation" caption="POI Creation">}}
 
