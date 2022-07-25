@@ -14,7 +14,7 @@ supervisor = "Alexander Kramer"
 +++
 
 {{<section title="Editor">}}
-Our WH3 Editor can be found [here](http://54.161.202.167/api).
+Our WH3 Editor can be found [here](http://what-happened-here.de/).
 We kindly ask you to use the test user account with email "test@test.com" and password "test1234".
 {{</section>}}
 
