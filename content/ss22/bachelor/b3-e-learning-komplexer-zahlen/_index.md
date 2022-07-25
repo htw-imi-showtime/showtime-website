@@ -4,7 +4,7 @@ project_id = "B3"
 
 # Properties for displaying the project in the project list
 card_image = "fixRocketLogo.png"
-card_description = "Complex numbers - not as complex as they seem. We developed a mobile game prototype to make this statement realtity."
+card_description = "Complex numbers - not as complex as they seem. We developed a mobile game prototype to make this statement reality."
 
 
 team = ["Robert Sourmenelian", "Richard Seidel", "Nina Weddige", "Jana El Mouaied El Azm", "Nell Ehrlinger"] 
@@ -42,4 +42,5 @@ The core of the project was, of course, the development phase. Here we divided i
 {{<team-member image="Robert Sourmenelian.jpg" name="Robert Sourmenelian">}}
 {{<team-member image="Nell_Ehrlinger.jpg" name="Nell Ehrlinger">}}
 {{<team-member image="hacker.png" name="Jana El Mouaied El Azm">}}
+{{<team-member image="profile_pic.png" name="Bozee">}}
 {{</gallery>}}
