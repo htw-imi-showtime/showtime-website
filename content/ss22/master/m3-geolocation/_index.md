@@ -19,7 +19,7 @@ You can download the Android app by scanning this qr code.
 {{<image src="qr-code.jpg" alt="qr code android app" caption="QR Code Android app">}}
 
 ## Editor
-Our WH3 Editor can be found [here](http://what-happened-here.de/).
+Our WH2 Editor can be found [here](http://what-happened-here.de/).
 We kindly ask you to use the test user account with email "test@test.com" and password "test1234".
 {{</section>}}
 
