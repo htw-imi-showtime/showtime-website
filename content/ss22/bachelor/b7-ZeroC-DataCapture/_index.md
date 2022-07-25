@@ -29,6 +29,6 @@ We’re a diverse international team with different background who got together 
 {{<team-member image="Fathoni.jpg" name="Fathoni Rachmatullah">}}
 {{<team-member image="hacker.png" name="Habib Farhan">}}
 {{<team-member image="Elsya.jpg" name="Nurul Quamila">}}
-{{<team-member image="hacker.png" name="Rene Redanz">}}
+{{<team-member image="ReneRedanz.png" name="Rene Redanz">}}
 {{<team-member image="hacker.png" name="Tanem Basaraner">}}
 {{</gallery>}}
