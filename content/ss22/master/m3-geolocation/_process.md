@@ -24,7 +24,7 @@ To decide on what features we would like the applications to have, we used Miro 
 {{<image src="development_mvp.png" alt="documented features in miro" caption="Features">}}
 
 Then we built wireframes for the app and the editor's user interfaces. By doing this, we were able to decide on a general layout and structure for the interfaces without getting too involved with the details.
-{{<image src="wireframe-editor.png" alt="wireframes of the editor" caption="Wireframes of the editor">}}
+{{<image src="miro_example_prototypes.png" alt="wireframes of the editor" caption="Wireframes of the editor">}}
 {{<image src="wireframe-app.png" alt="wireframes of the app" caption="Wireframes of the app">}}
 
 While starting the development process and implementing the main features, we also worked on a visual design for the app in AdobeXD. This is where we decided on our color scheme which was later incorporate into the editor as well.
