@@ -57,12 +57,13 @@ The different institutions we work with each have to register for an account whe
 ## Homescreen with filtering of POI
 The homescreen of the editor shows the map with the pinned locations on the right side, and an overview of all the POI on the left side. The small icons in the card of each point indicate what kind of content is stored. The markers are colored based on the category of the content and the filter option lets users choose which categories they want to look at. Specific points can be found by narrowing down the shown categories or by simply using the search function. As this view is for the content managers it functions as an overview of the distribution of the ponits, and a preview of the content for each point. From here they can also navigate to creating and adding new points.
 
-{{<image src="editor-home.PNG" alt="editor homescreen" caption="Homescreen">}}
+{{<image src="editor-homeview.png" alt="editor homescreen" caption="Homescreen with all categories">}}
 
+{{<image src="editor-filter.png" alt="editor filter" caption="Homescreen with Filterfunction">}}
 ## Create POI by category
 Each editor can create categories with a specific color in which they later can assign POI to (e.g Queerwalk, forced labor in Berlin, etc). The POI contain an address, an address description, a description and assets (for now audio and images). The address can be typed in or set by clicking on a location on the map.
 
-{{<image src="poi-creation.PNG" alt="editor poi creation" caption="POI Creation">}}
+{{<image src="editor-create.png" alt="editor create" caption="Creating a new poi">}}
 
 ## Interactive Map
 The map and the list of POI are conncected seamlessly. Selecting a specific point from the list of POI on the left navigates to it's detailed preview of the content, whilst the map centers around this point by flying to it with a little animation. The same happens when a marker on the map is clicked.
@@ -73,7 +74,8 @@ Also when creating a POI, it is possible to providing the coordinates by clickin
 The detailview of a POI serves as a preview to what the users will see when coming accross this point. This serves editors to double check the content they have added and try it out themselves. From here they can also edit the point and make any changes to the general information of the content, as they please. 
 It includes the main picture selected for the point, the detailed address and an address descripton in case needed. The rest of the detailview is dynamically built, depending on the content types that are available. 
 
-{{<image src="poi-detail-de.PNG" alt="editor poi detail de" caption="German">}}
+{{<image src="editor-detail.png" alt="editor poi detail" caption="Detailview of a poi in German">}}
+{{<image src="editor-detail2.png" alt="editor poi detail" caption="Detailview of a poi in German">}}
 
 ## Multi-language support
 
