@@ -40,7 +40,7 @@ The WH2 team consists of four students with experience in web and app developmen
 {{</section >}}
 
 {{<section title="The Partners">}}
-Since our goal is to provide an app with subjects by different institution, we reached out to potential cooperation partners parallel to the development of our apps. Thank you at this point for your help and support!
+Since our goal is to fill our app with interesting subjects from different institution, we reached out to potential cooperation partners parallel to the development of our apps. Thank you at this point for your help, support and informative POI!
 
 - ["werk stadt – für alle"](https://werkstadtfueralle.wordpress.com/), a project self-managed by students at the TU Berlin. They cover three topics "Queer Berlin", "BIPoC Berlin" and "FLINTA".
 - ["RECLAIM TEMPELHOF!"](https://sites.google.com/view/reclaim/startseite?authuser=0), agency for performative formats with an urban and socio-political focus in and about public space.

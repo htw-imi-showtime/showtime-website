@@ -6,7 +6,7 @@ weight = 2
 
 
 {{<section title="Idea">}}
-The initial idea for this project was brought to HTW by the Marc Sinan Company, that is currently working on a project creating different audio walks through Berlin in order to educate about its history of forced labour. The task was to build a mobile App, that would allow users to follow the Audio Tours and navigate them through the city and a content management system, to maintain the data from their side. 
+The initial idea for this project was brought to HTW by the [Marc Sinan Company](https://marcsinan.com/), that is currently working on a project creating different audio walks through Berlin in order to educate about its history of forced labour. The task was to build a mobile app, that would allow users to follow the audio tours and navigate them through the city and a content management system, to maintain the data from their side. 
 Because of a heavy workload on both sides and non-aligning deadlines, the cooperation could not be realized throughout the whole project, but they encored us to put our own spin on the main idea and use their data to test what we came up with.
 
 What led us to choosing this project and spoke to us the most was the challenge of finding multidisciplinary ways of storytelling and educating people about historic events. 
