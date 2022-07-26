@@ -9,7 +9,7 @@ weight = 1
 
 One of the core features of the App is the map where users can see their position and all the available points of interest (POI) are indicated with markers. The markers are shown in different colors acoording to the category of the POI. Categories are used to group POI by similar histories. Clicking on a marker will navigate to the detail view of that POI.
 
-Underneath the Map is a modal with a list of all the available POIs. For each place it shows the name, address, distance and available media. If users are searching for a particular place they can use the search input to find it. Selecting a place also opens the detail view.
+Underneath the Map is a modal with a list of all the available POI. For each place it shows the name, address, distance and available media. If users are searching for a particular place they can use the search input to find it. Selecting a place also opens the detail view.
 {{<image src="app-home.gif" alt="app home screen" caption="Home Screen">}}
 
 ## Detailed information about a place
@@ -49,11 +49,11 @@ Users can access a help popover via the menu button. The popover explains the us
 
 ## Authentification
 
-The different institutions we work with each have to register for an account, where they then can set their default language and their own POIs and categories.
+The different institutions we work with each have to register for an account, where they then can set their default language and their own POI and categories.
 {{<image src="authentification.PNG" alt="login screen" caption="Login Screen">}}
 
-## Home screen with filtering of POIs
-The home screen of the Editor shows the map with the pinned locations on the right side, and an overview of all the POI on the left side. The small icons in the card of each point indicate what kind of content is stored. The markers are colored based on the category of the content and the filter option lets users choose which categories they want to look at. Specific points can be found by narrowing down the shown categories or by simply using the search function. As this view is for the content managers, it functions as an overview of the distribution of the POIs, and a preview of the content for each point. From here, they can also navigate to creating and adding new points.
+## Home screen with filtering of POI
+The home screen of the Editor shows the map with the pinned locations on the right side, and an overview of all the POI on the left side. The small icons in the card of each point indicate what kind of content is stored. The markers are colored based on the category of the content and the filter option lets users choose which categories they want to look at. Specific points can be found by narrowing down the shown categories or by simply using the search function. As this view is for the content managers, it functions as an overview of the distribution of the POI, and a preview of the content for each point. From here, they can also navigate to creating and adding new points.
 
 {{<image src="editor-homeview.png" alt="editor home screen" caption="Home screen with all categories">}}
 

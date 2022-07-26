@@ -15,6 +15,8 @@ The app depends on great organizations to prepare and edit the content,so we wan
 
 {{<section title="App">}}
 To expand the App we want to include the option to have predefined routes that users can actively choose to explore different neighbourhoods and topics. Just like the notification feature, walking close by a POI on a route could for example start the audio. We also discussed the option to include gamification in our app. This would allow users to gather points by visiting different POI and gain achievements for it.
+
+Another feature to improve the user experience is to provide offline functionality. This can be reached by locally safe the map and use GPS withough Internet for tracking the location.
 {{</section>}}
 
 {{<section title="Editor">}}
