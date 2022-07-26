@@ -24,9 +24,9 @@ We would like to expand the possibilities of uploading data for a POI, starting 
 ## Dynamic imports
 Furtheremore it would be great to add import options to add POI from Excel Sheets for example. This would make the initial creation process of the POI easier and quicker and allow the institutions to add more of their information to the app.
 
-## Editing mode / publishing pois selectively
-We would like to provide editors with an editing mode, that lets them work on a collection of pois over some time, without making them visible in the app just yet.
+## Editing mode / publishing POI selectively
+We would like to provide editors with an editing mode, that lets them work on a collection of POI over some time, without making them visible in the app just yet.
 
-## Toggle to see pois from other organizations
-Currently editors can only see the points that were added by their own institution for better usability. We would like to add a toggle option, that would additionally show all other pois by other institutions. This could come in handy, to check if a poi from another organization already exists in a specific location, when adding a new point.
+## Toggle to see POI from other organizations
+Currently editors can only see the points that were added by their own institution for better usability. We would like to add a toggle option, that would additionally show all other POI by other institutions. This could come in handy, to check if a POI from another organization already exists in a specific location, when adding a new point.
 {{</section>}}
