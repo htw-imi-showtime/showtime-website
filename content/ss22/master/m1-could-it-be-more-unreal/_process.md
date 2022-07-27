@@ -4,7 +4,7 @@ weight = 2
 +++
 
 {{<section title="First things first">}}
-Every project has a beginning and an end. Before we started doing anything, we were discussing possible ideas for a project. We had to do something with the new <strong>Unreal Engine 5</strong>, but the question was, what do we want to do? And how do we want to do it? Who wants to do what? To begin with, we had a many questions, and we tried to hold all our ideas in a Miro board.
+Every project has a beginning and an end. Before we started doing anything, we were discussing possible ideas for a project. We had to do something with the new <strong>Unreal Engine 5</strong>, but the question was, what do we want to do? And how do we want to do it? Who wants to do what? To begin with, we had many questions, and we tried to hold all our ideas in a Miro board.
 {{<image src="miro_board.png" caption="general ideas collected">}}
 {{</section>}}
 
@@ -36,11 +36,27 @@ First experiments using around 50 pictures shot with the subjects standing and u
 {{<image src="brokenscan.png" caption="Broken scan of our teammate holzi">}}
 {{</section>}}
 
+{{<section title="Blueprints Visual Scripting">}}
+It is possible to create your Unreal Engine application with the object-oriented programming language C++, or with the use of Unreal Engine's Blueprint Visual Scripting system. This system is based on the concept of using a node-based interface to create gameplay. It is extremely flexible and powerful as it provides, even for non-programmers, an environment to create games and other applications. Our team decided to go for the Blueprint system than C++. Not everyone in our group is familiar with C++, and the Blueprint system was very attractive to everyone and offered a good alternative. The entire gameplay and game logic was realized with this system.
+{{<image src="blueprint1.jpg" caption="Example of Blueprints(1)">}}
+{{<image src="blueprint2.jpg" caption="Example of Blueprints(2)">}}
+{{</section>}}
+
 {{<section title="AI of the wildlife">}}
-For the AI of the deer and birds in our world, we used Behavior-Trees. The Behavior-Tree defines the behavior of controlled pawns. It always includes a blackboard where important information is stored, e.g. the position of an opponent. Information in a blackboard can also be synchronized, so that several objects have access to a variable.
+For the AI of the deer and ravens in our world, we used Behavior-Trees. The Behavior-Tree defines the behavior of controlled pawns. It always includes a blackboard where important information is stored, e.g. the position of an opponent. Information in a blackboard can also be synchronized, so that several objects have access to a variable.
 In addition to blackboards, we also used Unreal's AI Perception, which can simulate different senses of a pawn such as hearing or seeing.
 {{<image src="tree.png" caption="The Behavior-Tree">}}
-{{<image src="perception.png" caption="Birds fly away if you get too close.">}}
+{{<image src="perception.png" caption="Ravens fly away if you get too close">}}
+{{</section>}}
+
+{{<section title="MetaHumans">}}
+For our character models we used Epic Games' MetaHuman-Creator, which is a toolset within the Unreal eco system for achieving lifelike human characters. Our animations are retargeted to fit our MetaHumans.
+{{<image src="meta.png" caption="One of our metahuman characters">}}
+{{</section>}}
+
+{{<section title="IK Retargeting">}}
+With Unreal Engine 5 the developer gets a new workflow which greatly speeds up the retargeting process for any humanoid character. Futhermore there is a new IK Rig System, which lets one alter IK Goals during Runtime.
+{{<image src="ik.png" caption="IK Retargeting">}}
 {{</section>}}
 
 {{<section title="Project Management">}}

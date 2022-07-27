@@ -14,13 +14,13 @@ Since we are a big team, we split up into groups at the beginning of the project
 
 Max, Till, Holzi and Rika developed the concept for the demo. Furthermore, Max, Till and Holzi took care of the assets and level design. Especially, Max's self-made assets made the demo even more immersive. Till also gave life to the characters through animation.
 
-Rika, Marino, Dominic and Jördis took care of the implementation of the different puzzle logics, NPCs and other smaller features.
+Rika, Marino, Dominic and Jördis took care of the implementation of different riddle logics, the multiplayer, NPCs and other smaller features.
 
 Hendrik was responsible for everything that had to do with lighting, the implementation of a real-time fluid simulation and contributed a lot to the atmosphere. Additionally, Hendrik and Till also took care of the creation of the showcase trailer.
 
 Due to the limitation of the available hardware, Holzi and Hendrik worked hard to optimize the showcase demo continuously.  
 
-Dominic also took over the role of our team leader, was responsible for the multiplayer, was our gitmaster and took care of the creation of this website.
+Dominic also took over the role of our team leader, was our gitmaster and took care of the creation of this website.
 
 The teamwork worked very well, and we are all very proud and satisfied with our showcase demo!
 {{</section >}}
