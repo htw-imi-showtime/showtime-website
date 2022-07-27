@@ -4,9 +4,9 @@ weight = 2
 +++
 
 {{<section title="The Process">}}
-Our journey began with creating milestones from the ground of creativity. This, of course, should help us over time to plan and structure our project as well as possible. For this task we used the sacred tools of agile methods which at the end helped us to complete the project task. We held our weeklies every mondays, on Tuesday mornings with our professor and again on Tuesdays evening to prepare for the next sprint week ahead of us.
+Our journey began with creating milestones from the ground of creativity. This, of course, should help us over time to plan and structure our project as well as possible. For this task we used the sacred tools of agile methods which at the end helped us to complete the project task. We held our weekly meetings every mondays, on Tuesday mornings with our professor and again on Tuesdays evening to prepare for the next sprint week ahead of us.
 
-In addition, our professor tasked us to present the status of the project, so we had the opportunity to prepare for the Showtime with the small "showtimes" we did on Tuesdays. We also managed to develop an MVP in the first four weeks, which served us as a backup until the showtime. Through the meetings with our professor, we got a lot of input on our project, so testing and fixing bugs actually always went hand in hand with the changes the professor suggested us to do. The last weeks of the project we dedicated to the Showtime preparation, we prepared the presentation itself, ordered stickers, and so on. Then it was our time to shine.
+In addition, our professor tasked us to present the status of the project, so we had the opportunity to prepare for the Showtime with the small "showtimes" we did on Tuesdays. We also managed to develop an MVP in the first four weeks, which served us as a backup until the showtime. Through the meetings with our professor, we got a lot of input on our project, so testing and fixing bugs actually always went hand in hand with the changes the professor suggested us to do. The last weeks of the project we dedicated to the Showtime preparation. We prepared the presentation itself, ordered stickers, and so on. Then it was our time to shine.
 {{</section>}}
 
 {{<section title="Teams">}}
@@ -31,7 +31,7 @@ This is where the magic of all teams comes together.
 
 {{<section title="Future">}}
 ## Let it Bloom
-We are now Ready and Online with our first public version to make the internet bloom. All creators, musicians, producers, techies or hobbyists, are invited to try our tool out.
+We are now Ready and Online with our first public version to make the internet bloom. All creators, musicians, producers, techies or hobbyists, are invited to try our tool.
 
 ## New Styles
 New hand-selected and elaborately trained sets will be added to the existing styles. Also if you have a favorite Style, please send us your recommendation and we will consider training them in our gym that is a GPU farm.
@@ -42,5 +42,5 @@ We will implement a personalized pipeline. Each user will be able to generate an
 ## Connection to a Payment Gateway
 Bloompipe is still in the beta-phase so to speak and is therefore free of charge. But without funding the app cannot be maintaied indefinitely. So we will have to add the possibility some day to indeed capture transactions.
 
-{{<image src="music-input.gif" alt="Music Input Graphic" caption="Rendering by Max Blank">}}
+{{<image src="img-bp-flower.jpg" alt="Bloompipe Flower" caption="Rendering by Max Blank">}}
 {{</section>}}

@@ -4,7 +4,7 @@ project_id = "B1"
 
 # Properties for displaying the project in the project list
 card_image = "img-logo.png"
-card_description = "Bloompipe is a website that enables you to upload your favourite music and receive a bespoke music video. To achieve this, Bloompipe utilizes our custom audio analysis and neural network technologies."
+card_description = "Bloompipe is a website that enables you to upload your favourite music and receive a bespoke music video in return. To achieve this, Bloompipe utilizes our custom audio analysis and neural network technologies."
 
 website_link = "https://bloompipe.de"
 
