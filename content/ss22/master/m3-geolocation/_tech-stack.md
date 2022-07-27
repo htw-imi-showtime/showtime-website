@@ -3,6 +3,13 @@ title = "Tech Stack"
 weight = 3
 +++
 
+{{<section title="Tech Stack">}}
+
+{{<image src="techstack.png" alt="tech stack overview" caption="Overview Tech stack">}}
+
+{{</section>}}
+
+
 {{<section title="Frontend">}}
 
 The frontend of our project consists of a mobile app and an editor. To save resources we decided to keep the used technologies of both of them as similar as possible. This way everyone was able to work at the app and the editor interchangeably.
@@ -20,8 +27,6 @@ In combination with Capacitor it is possible to build native apps via AndroidStu
 **Leaflet**
 
 Leaflet is an open-source JavaScript library for interactive maps. It is mobile friendly and can be extended with plugins. We used Leaflet for the editor and the app.
-
-[//]: # (TODO: add techstack image)
 
 {{</section>}}
 
