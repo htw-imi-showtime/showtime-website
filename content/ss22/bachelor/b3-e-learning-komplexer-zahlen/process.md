@@ -12,14 +12,14 @@ weight = 2
 {{</gallery>}}
 
 {{<section title="Idea">}}
-All of us have goals and we do a lot to get closer to them each day. We all also know that it can sometimes be challenging 
-that there are obstacles put in our way. According to our expert, complex numbers are often exactly that challenge for many
-electrical engineering students during their studies. Most of them have no prior knowledge from school or other areas in 
-this topic. Nevertheless, the subject area plays an essential role for later problems. Complex numbers are for example
-used to calculate complex alternating currents (AC) and therefore the knowledge of complex numbers must be present. The 
-transfer of this knowledge has so far been approached via the classical route and, as already mentioned, has often represented 
-a crossroads for some students. That's why we want to spice up the world of complex numbers to make learning easier for 
-our fellow students with a playful learning app.
+All of us have **goals** and we do a lot to get closer to them each day. We all also know that it can sometimes be **challenging**
+that there are obstacles put in our way. According to our **expert**, complex numbers are often exactly that challenge for **many
+electrical engineering students** during their studies. Most of them have **no prior knowledge** from school or other areas in 
+this topic. Nevertheless, the subject area plays **an essential role** for later problems. Complex numbers are for example
+used to **calculate complex alternating currents** (AC) and therefore the knowledge of complex numbers must be present. The 
+transfer of this knowledge has so far been approached **via the classical route** and, as already mentioned, has often represented 
+a **crossroads for some students**. That's why we want to spice up the world of complex numbers to **make learning easier** for 
+our fellow students with a **playful learning app**.
 {{</section>}}
 
 {{<section title="Research">}}
@@ -46,7 +46,7 @@ gather some first information. We later had several more meetings with him regar
 by step through the **knowledge thats conveyed in the course**.<br> A great help was also an article called ***“Engineering 
 Students’ Difficulties in Learning Complex Numbers”*** by Iswanti Ciptowiyono which presented the role of **complex numbers 
 in engineering** and the difficulties for students. One of the most used references during our research was the **pointer diagram.**
-{{<image src="PhasenverscheibungSpule.gif" alt="Pointer Diagram">}}
+{{<image src="PhasenverscheibungSpule.gif" alt="Pointer Diagram">}} 
 It shows the relation between a **wave which represents AC and the rotation in a circle**. This explains why complex numbers 
 in **polar/euler form** for example can be used to **calculate AC**.<br> A **questionnaire** offered us a deeper inside into 
 the **difficulties** students face when they learn complex numbers. The questionnaire we designed includes some basic questions 
@@ -56,12 +56,14 @@ The goal of the survey was to understand with which part the **students struggle
 understanding **why they need complex numbers**. The second most difficult topic was **converting a number from one form to 
 another** (e.g., Cartesian to Euler) and **drawing cartesian or polar coordinates**. So we decided to cover the basics and 
 build a bridge from what we already know to what we want to learn.
+
+[Link to gif](https://schulblog.net/fus/wp-content/uploads/sites/2/2021/01/PhasenverscheibungSpule.gif)
 {{</section>}}
 
 {{<section title="Concept">}}
 Right at the beginning we developed **different concept ideas** in brainstorming sessions. The concept and research part was a 
 lengthy phase for us in which many **optimizations and improvements** took place. How can we **simplify** such a complex topic
-so that it becomes **understandable**, **conveys knowledge** and is **fun** at the same time? <img src="Thinking.png" width="20%"/>
+so that it becomes **understandable**, **conveys knowledge** and is **fun** at the same time? 
 
 Things that were especially important for us:
 
@@ -76,7 +78,7 @@ What we finally came up with:
 * **✍ Storyline idea:**<br>
 You are the captain of a spaceship helping an alien named "Bozeee" instructed by his god hestia to colonize different planets. 
 On your way to the planets that offer potential habitat you will encounter asteroids and alien spaceships. The player has to 
-destroy them and outsmart alien technologies to reach the destination to seed suitable planets.<br>
+destroy them and outsmart alien technologies to reach the destination to seed suitable planets. {{<image src="Comic.png" alt="Comic">}}
 * **🎮 Basic game idea:**<br>
 In order to destroy the meteorites, the player goes through different levels(build up on each other introducing each one another subtopic).
 Step by step the player will learn more about the topic, from simple drag and drop on coordinates/asteroids to finding 
@@ -89,21 +91,23 @@ The player is instructed by his alien companion   <br>
 The player calculates the flight curve of the rocket to destroy the asteroid  <br>
 Later, e.g. frequencies have to be adjusted mathematically or visually to other curves  <br>
 The "Fire" button gets pressed, and the player receives direct feedback. <br> <br>
-**🛸 We decided to focus on the first three to four levels:**<br>
+**🛸 We decided to focus on the first three levels:**<br>
 * **In level 1️⃣**, the asteroids appear on your cockpit display and the player drags and drops to adjust the route so that an 
 arrow points to the asteroid. The length of the arrow and the angle are displayed on the side. A simulation shows the path of the rocket. If the alignment is correct, the 
 asteroid will be destroyed.<br>
 **LEARNING GOAL:** according to Bloom's Taxonomy (**Understand and memorize**): the player **identifies** the path aka vector of the 
 complex number and **memorizes** that it has a length and angle.
-<br>
+{{<image src="level1_smol.gif" alt="Level 1">}} 
 * **In level 2️⃣** new asteroids are on their way! Their are a lot of them but…...what happened? The display now no longer
 shows asteroids! The player only gets coordinates and has to determine the point himself.<br>
 **LEARNING GOAL:** according to Bloom's Taxonomy (**Understand and apply**): the player **locates** the position of the
- asteroid in the coordinate system and **uses** previous knowledge to find the right field.<br>
+ asteroid in the coordinate system and **uses** previous knowledge to find the right field.
+ {{<image src="level2_smol.gif" alt="Level 2">}} 
 * **In level 3️⃣** the drop-assisted aim module of the spaceship does not work anymore, so the player has to calculate the amplitude/length as well as the 
-angle. 
+angle.<br>
 **LEARNING GOAL:** according to Bloom's Taxonomy(**apply**): the player **solves** the necessary equations to calculate the length 
-and angle which are needed for the **transformation from cartesian to euler coordinates**.<br>
+and angle which are needed for the **transformation from cartesian to euler coordinates**.
+{{<image src="level3_smol.gif" alt="Level 3">}} 
 * **🎙 Feedback Design:**<br>
 The Article ***“Make More Mistakes”*** from Dave Eng in 2019 and others underline that feedback is one of the **most important 
 tools** in game-based learning. Feedback can come in various forms. The forms we have chosen are based on the literature 
@@ -147,11 +151,14 @@ to complete a task. We decided to not incorporate it as participants tend to **t
 {{</section>}}
 
 {{<section title="Mode of operation">}}
-* **Two meetings weekly**
-* **Sprints**
-* **Backlog**
-* **Teams**
-* **Self-organized but supervized**
-* **Project manager**
-
+* **🗓 Weekly meetings**<br>
+    We held **two weekly meetings** to track our progress and plan for the next week. Every Sunday we set our goals for our next **sprint**, which was a week for us. In the middle of the week, we held a **second meeting** to check that everyone was making progress, answer questions, and discuss details.
+    At the beginning of the project, we also **created a backlog**, which was gradually expanded. We planned the tasks we needed to do to **understand the subject matter** (Research phase) and **develop our game** (development phase). Each week we then decided which **tasks to prioritize** in our next sprint.<br>
+* **👭🏻👬 Teams**<br>
+    After our research phase, we formed **teams that focused on different goals**. We had a **development team** that consisted of three people. One person/team that focused on **creating assets** for the game, and the last team that focused on **conceptual tasks** and everything
+    everything that needed to be prepared for showtime.<br>
+* **💡 Self-organized, but supervised**.<br>
+    In our team, everyone worked **self-organized**. We divided up the tasks and always asked for help, yet we decided that everyone is
+    **responsible for his or her own work**. We didn't have the time to always work together, so we worked separately and came to our 
+    meetings together to **define goals and evaluate our work**.
 {{</section>}}
