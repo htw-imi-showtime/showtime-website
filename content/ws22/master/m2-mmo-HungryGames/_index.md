@@ -28,7 +28,24 @@ Hungry Games is a 2D game that initially appears to be cute, but quickly turns o
 {{</section>}}
 
 {{<section title="Features">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, urna in fermentum maximus, ex tellus facilisis lorem, eget maximus metus nisl in tortor. Suspendisse sed nunc non ligula tincidunt elementum nec eu leo.
+
+The MMO can be played with up to 100 players. The mirror networking library for Unity was used here. 
+
+
+All maps are procedurally generated, with care taken to ensure that they are all playable. This was achieved by evaluating all generated maps beforehand by an Function. A Perlin Noise function was used, which was refined by an implementation of a Flood Filling algorithm. The maps are generated using a seed sent from the server to client. 
+
+
+Hungry Games includes several playable characters, all of which differ in their abilities and appearance.
+
+
+Various pick-ups and power-ups help players to survive. Some change movement speed, and others restore health that has already been lost.
+
+
+Players have the ability to hide behind objects for a short time, making them invisible to other players. This allows the player to take a short break and, if necessary, evade pursuers.
+
+
+If a game round is not completely full, the game is filled up to a certain number of participants with player bots.
+
 {{</section>}}
 
 {{<section title="Process">}}
@@ -36,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, urn
 {{</section>}}
 
 {{<section title="Tech Stack">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, urna in fermentum maximus, ex tellus facilisis lorem, eget maximus metus nisl in tortor. Suspendisse sed nunc non ligula tincidunt elementum nec eu leo.
+{{<image src="HungryGamesTechStack.png" alt="Mockup" >}}
 {{</section>}}
 
 {{<section title="Future">}}
