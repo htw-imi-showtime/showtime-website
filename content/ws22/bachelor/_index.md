@@ -1,5 +1,5 @@
 +++
-type = "bachelor"
+type = "ws22"
 
 [cascade]
     type = "Bachelor"
