@@ -5,7 +5,7 @@ project_id = "M2a"
 # Properties for displaying the project in the project list
 card_image = "HungryGamesLogo.png"
 card_description = "“Hungry Games” is a massively multiplayer online game that offers the opportunity to experience a death match game adventure with up to 100 other players." 
-website_link = "https://easycontract.ac0.de/"
+#website_link = "https://easycontract.ac0.de/"
 
 
 team = ["David Holz", "Hendrik Kiewitt", "Max Linke", "Rika Petersen"]
@@ -49,7 +49,14 @@ If a game round is not completely full, the game is filled up to a certain numbe
 {{</section>}}
 
 {{<section title="Process">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, urna in fermentum maximus, ex tellus facilisis lorem, eget maximus metus nisl in tortor. Suspendisse sed nunc non ligula tincidunt elementum nec eu leo.
+The project group organized itself with regular meetings in the large group (M2a and M2b) and with continuous meetings within the smaller group (M2a), which took place as needed. For these meetings and agreements, mainly the voice and text functions of Discord were utilized.
+
+At the beginning of the project, there was a phase of brainstorming which first took place as a whole group before two smaller groups were formed from the larger group. Both groups then worked on their own projects, but were in constant exchange regarding progress and to support each other.
+
+In the M2a group, everyone worked on one feature, so that everyone could focus on their field and develop it further. Each group member also dealt with the mirror network component by adding their own feature to the multiplayer and thus dealing with the topic of multiplayer.
+
+The fact that the M2a group had a very broad range of skills meant that many areas could be covered by the group itself, for example, all ingame assets were created by the group itself. And group members who are already very experienced in dealing with Unity could support other group members well in case of problems. 
+
 {{</section>}}
 
 {{<section title="Tech Stack">}}
