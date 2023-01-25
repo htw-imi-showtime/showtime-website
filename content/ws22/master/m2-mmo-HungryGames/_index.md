@@ -12,7 +12,6 @@ team = ["David Holz", "Hendrik Kiewitt", "Max Linke", "Rika Petersen"]
 supervisor = "Prof. Dr. Tobias Lenz"
 +++
 
-## Here: a piecture of your project
 
 {{<image src="HungryGamesScreenshot.png" alt="Mockup" >}}
 
@@ -34,15 +33,20 @@ The MMO can be played with up to 100 players. The mirror networking library for 
 
 All maps are procedurally generated, with care taken to ensure that they are all playable. This was achieved by evaluating all generated maps beforehand by an Function. A Perlin Noise function was used, which was refined by an implementation of a Flood Filling algorithm. The maps are generated using a seed sent from the server to client. 
 
+{{<image src="HungryGamesMaps01.png" alt="Mockup" >}}
 
 Hungry Games includes several playable characters, all of which differ in their abilities and appearance.
+
+{{<image src="HungryGamesCharacter.png" alt="Mockup" >}}
 
 
 Various pick-ups and power-ups help players to survive. Some change movement speed, and others restore health that has already been lost.
 
+{{<image src="HungryGamesPickUps.png" alt="Mockup" >}}
 
 Players have the ability to hide behind objects for a short time, making them invisible to other players. This allows the player to take a short break and, if necessary, evade pursuers.
 
+{{<image src="HungryGamesHidingspots.png" alt="Mockup" >}}
 
 If a game round is not completely full, the game is filled up to a certain number of participants with player bots.
 
