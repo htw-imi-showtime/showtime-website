@@ -1,23 +1,24 @@
 +++
-title = "Bubble Bobble, remastered and xtreme"
+title = "Bubble Bobble remastered and xtreme"
 project_id = "M2b"
 
 # Properties for displaying the project in the project list
 card_image = "girl-g3b28da4fc_1280.jpg"
-card_description = "Bubble Bobble extreme remastered is a massive multiplayer online game with two teams. Which team can collect the most diamonds? Play together with or against your friends in an epic battle and defeat the enemy bots." 
+card_description = "Introducing the ultimate multiplayer experience, where bots and players compete in fast-paced, action-packed battles. Join one of two teams and work together to outsmart and outmaneuver your opponents. With support for up to 30 players or bots in a single game, the possibilities are endless. The objective of the game is to collect as many diamonds as possible while navigating through a randomly generated map. With dynamic environments and challenging opponents, this game will test your strategic thinking and teamwork skills. Get ready to dominate the competition and come out on top as the ultimate champion."
 website_link = "https://github.com/m3-retro-mmo/bubble-bobble"
 
 team = ["Katharina Blaß", "Faye Bullwinkel", "Vivienne Drongowski", "Jonas Fischer", "Mahja Sarschar", "Julian Wels"]
 supervisor = "Prof. Dr. Tobias Lenz"
 +++
+<!-- TODO: insert correct number for up to x Player -->
 
-## Here: a picture of your project
+<!-- ## Here: a picture of your project -->
+<!-- TODO: insert image of main menu here -->
+<!-- {{<image src="girl-g3b28da4fc_1280.jpg" alt="Mockup" >}} -->
 
-{{<image src="girl-g3b28da4fc_1280.jpg" alt="Mockup" >}}
+<!-- ## You may upload a video to the HTW mediathek and link it -->
 
-## You may upload a video to the HTW mediathek and link it
-
-{{<mediathek id="3cbd1f4b84ffade971e4c5aa80385f3b">}}
+<!-- {{<mediathek id="3cbd1f4b84ffade971e4c5aa80385f3b">}} -->
 
 {{<section title="Our Goal">}}
 Fast-pasted massively multiplayer online games have received a lot of recognition in recent years and have proven to be a successful and popular gaming concept, not least thanks to Fall Guys.
@@ -28,15 +29,22 @@ We developed an enhanced game concept, remastered the existing design, developed
 {{</section>}}
 
 {{<section title="Features">}}
-- bots
-- 2 teams
-- up to x player / bots in one game
-- collecting diamonds
-- random map generation
+<!-- TODO: is that enough? or did i missed something? -->
+Players and Bots are divided into **two teams**, each with a unique set of objectives and strategies. 
+The objective of the game is to collect **diamonds** scattered throughout the map, with the team that collects the most diamonds declared the winner.
+Each match takes place on a **randomly generated map**. 
+The map features various **obstacles and terrains**, adding an extra layer of challenge to the gameplay. 
+With a combination of teamwork, strategy, and quick thinking, players must outsmart and outmaneuver their opponents to come out victorious.
 {{</section>}}
 
 {{<section title="Process">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, urna in fermentum maximus, ex tellus facilisis lorem, eget maximus metus nisl in tortor. Suspendisse sed nunc non ligula tincidunt elementum nec eu leo.
+The development of our game is a collaborative process that utilizes various tools to ensure smooth and efficient workflow. 
+We use **Github** as our main source control management tool, where all the code is tracked, shared and reviewed. 
+The team also uses the **Github Canban Board** to manage the development tasks and progress, which allows us to easily visualize and prioritize the work that needs to be done. 
+We use **Discord** as our primary communication platform, where developers can discuss and share updates, ideas, and troubleshoot any issues. 
+**Zoom** is also used for virtual meetings with our supervisor. 
+Additionally, we use **Miro** to model the bot behavior, this allows us to simulate the game and test different bot strategies before we implement them in the game. 
+All these tools help us to ensure that the development process is well coordinated, and that we deliver a high-quality game.
 {{</section>}}
 
 {{<section title="Tech Stack">}}
@@ -48,5 +56,5 @@ All custom assets for our game including the player, cave and bubble assets were
 {{</section>}}
 
 {{<section title="Future">}}
-Future Bubble Bobble extreme remastered could be extended by many more features. At the current state the game is almost production ready. There are a lot of things we could add like power-ups or more animations. To get the game productive ones would need a large, scalable and stable network setup with a good cloud infrastructure.     
+Future Bubble Bobble extreme remastered could be extended by many more features. At the current state the game is almost production ready. There are a lot of things we could add like **power-ups** or more **animations**. To get the game productive ones would need a large, scalable and stable network setup with a good **cloud infrastructure**.     
 {{</section>}}
