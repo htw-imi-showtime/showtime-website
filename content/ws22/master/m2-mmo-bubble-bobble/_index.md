@@ -2,15 +2,17 @@
 title = "Bubble Bobble remastered and xtreme"
 project_id = "M2b"
 
+
 # Properties for displaying the project in the project list
 card_image = "girl-g3b28da4fc_1280.jpg"
-card_description = "Introducing the ultimate multiplayer experience, where bots and players compete in fast-paced, action-packed battles. Join one of two teams and work together to outmaneuver your opponents. With support for up to 30 players or bots in a single game, the possibilities are endless. Get ready to dominate the competition and come out on top as the ultimate champion!"
+card_description = "Introducing a Massively Multiplayer Online Game with Scalable Generic Network Component, where bots and players compete in fast-paced, action-packed battles. Join one of two teams and work together to outmaneuver your opponents. With support for up to 30 players or bots in a single game, the possibilities are endless. Get ready to dominate the competition and come out on top as the ultimate champion!"
 website_link = "https://github.com/m3-retro-mmo/bubble-bobble"
 
-team = ["Katharina Blaß", "Faye Bullwinkel", "Vivienne Drongowski", "Jonas Fischer", "Mahja Sarschar", "Julian Wels"]
+team = ["Katharina Blaß", "Faye Bullwinkel", "Vivienne Drongowski", "Jonas Fischer", "Mahja Sarschar", "Julian Gaibler"]
 supervisor = "Prof. Dr. Tobias Lenz"
 +++
 <!-- TODO: insert correct number for up to x Player -->
+<!-- From intro: the ultimate massively multiplayer experience -->
 
 <!-- ## Here: a picture of your project -->
 <!-- TODO: insert image of main menu here -->
@@ -34,15 +36,14 @@ We developed an enhanced game concept, remastered the existing design, developed
 The objective of the game is to collect **diamonds** scattered on a **randomly generated map**.
 The map features various **obstacles and terrains**, adding an extra layer of challenge to the gameplay. 
 
-Players and Bots are divided equally into **two teams**. Each bot is capable to play the game autonomously and has a unique set of objectives and strategies that are randomly assigned at the start of the game.
+Players are split evenly into **two teams**. If necessary, the remaining characters will be filled in with **bots**, up to a certain total number. Each bot is capable to play the game autonomously and has a unique set of objectives and strategies that are randomly assigned at the start of the game.
 With a combination of teamwork, strategy, and quick thinking, players must outsmart and outmaneuver their opponents to collect the most diamonds and win the game.
 
 **Bubble Bobble remastered and xtreme** features a robust network code, which was integrated into the game with the help of the [**Mirror**](https://mirror-networking.com/) library. 
 This allows for seamless multiplayer functionality, ensuring that players can enjoy the game together with minimal lag.
 
-The game is also characterized by **customized and performant assets**, ensuring that the game runs smoothly and efficiently even with a large number of players. 
-Additionally, we have extended the game with **intuitive UI elements** to enhance the player experience. 
-Overall, our efforts have resulted in a polished and enjoyable game that players can enjoy for hours on end.
+The game is characterized by several hand-crafted assets and performant frame-based animations, ensuring that the game runs smoothly and efficiently, even with a large number of players. 
+In addition, we have added intuitive UI elements to the game to enhance the player experience. Overall, our efforts have resulted in a polished and entertaining game that players can enjoy for hours.
 {{</section>}}
 
 {{<section title="Process">}}
@@ -50,9 +51,9 @@ The development of our game was a collaborative process with the team of the [**
 During these sessions, we came up with two different game approaches that were then developed individually. 
 
 To begin with, we developed a prototype with the most important features, which served as a foundation for the final product. 
-After that, we expanded the game with custom assets and additional engaging features. 
+After that, we expanded the game with custom assets and more advanced features. 
 <!-- TODO: hier noch Details von Kathi einfügen -->
-A significant amount of time went into optimizing the custom assets' and animations' performance, ensuring that the game runs smoothly on various standalone builds. 
+Extensive testing has been conducted on the performance of skeleton and frame-based animations to ensure a smooth animation experience even with large numbers of players.
 
 With the addition of bots, we were able to ensure that there were always 30 players in the game, regardless of the number of human players that were currently online. 
 This ensured that players always had someone to play with and that the game remained active and engaging at all times. 
@@ -64,10 +65,10 @@ As initial user tests have shown, these efforts have helped create a high-qualit
 {{</section>}}
 
 {{<section title="Tech Stack">}}
-## Communication and Planning
+## Communication and Project Management
 
 We used Github as our main source control management tool, where all the code was tracked, shared and reviewed. 
-The team also used the Github Canban Board to manage the development tasks and progress, which allowed us to easily visualize and prioritize the work that needed to be done. 
+The team also used the Github Canban Board to manage the development tasks and progress, which allowed us to easily visualize and prioritize the issues of the following sprint that needed to be done. 
 
 We used Discord as our primary communication platform, where developers could discuss and share updates, ideas, and troubleshoot any issues. 
 Zoom was also used for virtual meetings with our supervisor. 
@@ -84,10 +85,14 @@ All custom assets for our game including the player, cave and bubble assets were
 {{</section>}}
 
 {{<section title="Future">}}
-Potential enhancements of **Bubble Bobble remastered and xtreme** include additional features such as **power-ups** and other **animations**.
-For a productive gaming experience the game could also be extended by a stable, scalable, and large **cloud infrastructure**. 
+Potential enhancements of **Bubble Bobble remastered and xtreme** include additional features such as **power-ups**, more detailled **animations** and **souds**.
+To ensure a reliable gaming experience as the number of players grows, the game could also be extended by a stable, scalable, and large **cloud infrastructure**. 
 This would enable the creation of user accounts, allowing players to save their ingame data and progress in a **database**. 
 A cloud infrastructure would also allow for better scalability, as well as the ability to handle even larger amounts of players.
+
+Another way to improve the game would be to include cooperative goal-setting for the bots. By working together, the bots could achieve more than they could individually, and they could also compensate for each other's weaknesses. 
+In addition, the use of multiple bots working together could also provide players with new strategies for defeating enemies.
+Overall, enhancing the bots' AI could lead to a more challenging and exciting gameplay. 
 
 Furthermore, our game could be turned into a **mobile application**. 
 This would allow players to enjoy the game on-the-go and expand the **reach** of the game to a wider audience.
