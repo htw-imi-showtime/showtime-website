@@ -5,12 +5,16 @@ project_id = "M2a"
 # Properties for displaying the project in the project list
 card_image = "HungryGamesLogo.png"
 card_description = "“Hungry Games” is a massively multiplayer online game that offers the opportunity to experience a death match game adventure with up to 100 other players." 
+
 #website_link = "https://easycontract.ac0.de/"
+
 
 
 team = ["David Holz", "Hendrik Kiewitt", "Max Linke", "Rika Petersen"]
 supervisor = "Prof. Dr. Tobias Lenz"
 +++
+
+
 
 
 {{<image src="HungryGamesScreenshot.png" alt="Mockup" >}}
@@ -23,6 +27,7 @@ supervisor = "Prof. Dr. Tobias Lenz"
 Players take on the role of a forest animal in order to survive by fighting the other animals and then eating them to fill their stomachs.
 Various power ups and gadgets help the players in this fight for survival.
 Hungry Games is a 2D game that initially appears to be cute, but quickly turns out to be a massively multiplayer online game that is up to every trick. Players should definitely not be squeamish here. 
+
 
 {{<image src="HungryGamesScreenshot.png" alt="Mockup" >}}
 
