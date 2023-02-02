@@ -10,7 +10,7 @@ To keep in touch and keep our communication up and running we used a multitude o
 - Zoom for our monday meetings
 - Teams for our hybrid thursday meetings
 - WhatsApp for quick questions and coordination
-- Slack for sharing resources and keeping in touch with Divae
+- Slack for sharing resources and keeping in touch with Diva-E
 - Trello for keeping track of our backlog and our progress on the tickets we wrote
 
 {{<gallery>}}
@@ -30,7 +30,7 @@ Miro was an essential part of our first brainstorming sessions using its collabo
 
 **Figma**
 
-Our design team used Figma to finalize our previously sketched Screen designs that we made using Miro. Our figma board functioned as our stylesheet for the the development team to rely on.
+Our design team used Figma to finalize our previously sketched Screen designs that we made using Miro. Our figma board functioned as our stylesheet for the development team to rely on.
 
 {{<gallery>}}
 {{<team-member image="miro-logo.png" name="Miro">}}
@@ -45,7 +45,7 @@ We decided on using Ionic React to quickly get our frontend up and running, whil
 
 **Capacitor**
 
-Capicator is an open source native runtime which helped us bring our Ionic App to iOS and Android.
+Capacitor is an open source native runtime which helped us bring our Ionic App to iOS and Android.
 
 **Open Library**
 

@@ -15,8 +15,8 @@ supervisor = "Alexander Pietsch - Diva-E "
 {{<gallery>}}
 {{<image src="home-screen.png" alt="App home screen" caption="The home screen of our app">}}
 {{<image src="create-club-screen.png" alt="Create a book club screen" caption="Create Book Club Screen">}}
-{{<image src="club-screen.png" alt="Screen of a specific Book Club" caption="Onboarding screen">}}
-{{<image src="Bookclub_Logo_300ppi.png" alt="Screen of a specific Book Club">}}
+{{<image src="club-screen.png" alt="Screen of a specific Book Club" caption="Screen showing a Book Club">}}
+{{<image src="Bookclub_Logo_300ppi.png" alt="Logo of Blubble App">}}
 {{</gallery>}}
 
 {{<section title="Our Goal">}}
