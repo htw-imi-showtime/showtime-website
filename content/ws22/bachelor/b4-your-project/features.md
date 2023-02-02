@@ -4,6 +4,7 @@ weight = 1
 +++
 
 {{<section title="Features">}}
+
 There are two parts of the template: 
 - the infrastructure part  (tells what ressources to deploy to AWS)
 - the business logic part (the code itself that runs in the Lambda)
@@ -18,3 +19,4 @@ The CDK template is generic: API Gateway receives traffic (we get some data abou
 {{</section>}}
 
 {{<image src="feature.png" alt="Mockup" >}}
+

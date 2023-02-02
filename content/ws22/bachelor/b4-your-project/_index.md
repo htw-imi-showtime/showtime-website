@@ -10,6 +10,7 @@ team = ["Daniel Betke", "Ekaterina Kuritsyna", "Rizki Pramadhan", "Reyhan Rumeng
 supervisor = "Robert Wolff"
 +++
 
+
 ## Template architecture
 {{<image src="template.png" alt="Mockup" >}}
 
@@ -25,14 +26,15 @@ The template was created to:
 
 
 {{<section title="The team">}}
-Our small team consists of 4 IMI students from different semesters, with different levels of programming experience and interests. None of us had worked with AWS before and neither had any experience with Node.js and TypeScript before this project, so it was quite a challenge for us. Working on the project, we met online every week to discuss progress and problems, try to find solutions, share useful resources, and most importantly, get feedback on our progress from our mentor Robert Wolff. To monitor the progress and transparency of the process, we documented meeting reports and adjusted the project plan based on how the work was progressing.
+
+Our team consists of 4 IMI students from different semesters. All of us have not worked with AWS yet and none of us have had any experience with Node.js and TypeScript prior to this project so it was quite a challenge.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="Daniel.png" name="Daniel">}}
-{{<team-member image="Katja.png" name="Ekaterina">}}
-{{<team-member image="Reyhan.png" name="Reyhan">}}
-{{<team-member image="Rizki.png" name="Rizki">}}
-{{<team-member image="Robert.png" name="Robert">}}
+{{<team-member image="Daniel.png" name="Daniel Betke">}}
+{{<team-member image="Katja.png" name="Ekaterina Kuritsyna">}}
+{{<team-member image="Reyhan.png" name="Reyhan Rumengan">}}
+{{<team-member image="Rizki.png" name="Rizki Pramadhan">}}
+{{<team-member image="Rob.jpeg" name="Robert Wolff">}}
 {{</gallery>}}
 
