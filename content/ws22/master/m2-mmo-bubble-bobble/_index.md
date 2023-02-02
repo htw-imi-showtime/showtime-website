@@ -85,14 +85,15 @@ This would allow players to enjoy the game on-the-go and expand the **reach** of
 Additionally, a mobile version of the game could be optimized for **touch controls**, which would provide a more immersive and interactive experience for players.
 {{</section>}}
 
-{{<section>}}
+{{<section title="The Team">}}
+Our group is made up of six developers, each with their unique abilities which include **game development**, **web development**, **network development**, **user experience** and **design**.
+{{</section >}}
+
 {{<gallery>}}
-{{<team-member image="katharina.jpg" name="Katharina Blaß" >}}
+{{<team-member image="katharina.jpg" name="Katharina Blaß">}}
 {{<team-member image="faye.jpg" name="Faye Bullwinkel">}}
 {{<team-member image="elena.jpg" name="Vivienne Drongowski">}}
 {{<team-member image="jonas.jpg" name="Jonas Fischer">}}
 {{<team-member image="mahja.jpg" name="Mahja Sarschar">}}
 {{<team-member image="julian.jpg" name="Julian Gaibler">}}
 {{</gallery>}}
-{{</section>}}
-
