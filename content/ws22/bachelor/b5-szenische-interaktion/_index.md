@@ -1,10 +1,10 @@
 +++
-title = "Szenische Interaktion"
+title = "Interactive Stage Design"
 project_id = "B5"
 
 # Properties for displaying the project in the project list
 card_image = "prev1.jpeg"
-card_description = "Szenische Interaktion is an overall conceptual and interactive stage design developed for immersive live performances." 
+card_description = "This project is an overall conceptual and interactive stage design developed for immersive live performances." 
 website_link = "https://isd-server.f4.htw-berlin.de/#/"
 
 
@@ -18,7 +18,7 @@ supervisor = "Alexander Kramer, Ralf Strecker"
 {{<gallery>}}
 {{<image src="prev1.jpeg" alt="Interaction in Unity">}}
 {{<image src="prev2.jpg" alt="Preview WebApp">}}
-{{<image src="prev2.jpg" alt="Preview WebApp">}}
+{{<image src="concert-square.jpg" alt="Live Konzert">}}
 {{</gallery>}}
 
 {{<section title="Our Goal">}}
@@ -36,3 +36,29 @@ Our team consists of 4 developers with different skills in web development, Unit
 {{<team-member image="lucas.jpg" name="Lucas">}}
 {{<team-member image="karl.jpg" name="Karl">}}	
 {{</gallery>}}
+
+
+{{<section title="Tech Stack">}}
+## Communication and Organisation
+- WhatsApp / Zoom
+- Miro
+- Drive
+- Docs
+- Github
+## Development
+#### Visualization
+- Unity
+#### Music Analysis
+- Reaper
+- Juce
+#### Web Frontend
+- Vue.js
+- Sass
+- Express.js
+#### Application Backend
+- Node.js
+- Prisma
+- MySQL
+{{</section>}}
+
+{{<image src="full-screen-red-mountains.jpg" alt="Visualization Preview">}}
