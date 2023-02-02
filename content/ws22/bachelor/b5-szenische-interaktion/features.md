@@ -4,7 +4,7 @@ weight = 1
 +++
 
 {{<section title="Unity" >}}
-The main part for our project is the visualization app that we build via Unity. It communicates with the music analyser Tool, to visualize the live music, and with the Web app to get the collected user input. Our visualization is realized with the Unity Particle System and with the VFX Graph. When the App is started you can start and stop the visualization of the user input, switch between songs, stop or change colors for the live input visualization.
+The main part for our project is the visualization app which we build via Unity. It communicates with the music analyzer Tool to visualize the live music and with the Web app to get the collected user input. Our visualization is realized with the Unity Particle System and with the VFX Graph. Inside the running Unity App you can start and stop the visualization of the user input, switch between songs, stop or change colors for the live input visualization and dissolve the particles for small breaks.
 {{<image src="u1.jpg" alt="Interaction in Unity">}}
 {{</section>}}
 

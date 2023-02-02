@@ -8,7 +8,7 @@ card_description = "This project is an overall conceptual and interactive stage 
 website_link = "https://isd-server.f4.htw-berlin.de/#/"
 
 
-team = ["Alexander Ehrenhoefer", "Robin Kehr", "Lucas Winter", "Karl Buklewski"]
+team = ["Robin Kehr", "Lucas Winter", "Karl Buklewski", "Alexander Ehrenhoefer"]
 supervisor = "Alexander Kramer, Ralf Strecker"
 +++
 
@@ -22,7 +22,7 @@ supervisor = "Alexander Kramer, Ralf Strecker"
 {{</gallery>}}
 
 {{<section title="Our Goal">}}
-The goal of the project is to create a stage design that the audience can actively shape in order to create a deeper bond during the concert. For this purpose, the audience will submit various drawings for the individual songs in the run-up to the concert. These will then be transformed into a stage design together with the live input of the band. 
+The goal of this project is to create an interactive stage show in which the audience can actively participate to create a deeper connection to the overall concert experience. For this purpose, the audience will submit various drawings for the individual songs in the run-up to the concert. These will then be transformed into an animation showed on the stage design together with the live input of the band. 
 {{</section>}}
 
 
