@@ -19,12 +19,12 @@ class = "bachelor"
 [[slot]]
 time = "10:19"
 title = "B5 - Szenische Interaktion"
-projectDetail = "/"
+projectDetail = "/ws22/bachelor/b5-szenische-interaktion/"
 class = "bachelor"
 
 [[slot]]
 time = "10:26"
-title = "B6 - Book Reading Club Applikation"
+title = "B6 - Book Reading Club Application"
 projectDetail = "/ws22/bachelor/b6-book-reading-club-applikation/"
 class = "bachelor"
 
