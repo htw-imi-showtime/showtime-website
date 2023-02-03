@@ -35,6 +35,10 @@ The game is characterized by several hand-crafted assets and performant frame-ba
 In addition, we have added intuitive UI elements to the game to enhance the player experience. Overall, our efforts have resulted in a polished and entertaining game that players can enjoy for hours.
 
 <!--TODO: insert video of gameplay-->
+<figure>
+    <iframe src="https://mediathek.htw-berlin.de/media/embed?key=cbd85cff9537d8a0d86c1b46737c6f5e&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=cbd85cff9537d8a0d86c1b46737c6f5e&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="600" height="300" title="Bubble Bobble Gameplay" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style="display: block; margin: 0 auto"></iframe>
+    <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">gameplay in double-speed</p>
+</figure>
 {{</section>}}
 
 {{<section title="Process">}}
@@ -51,6 +55,8 @@ The bots were programmed with AI algorithms, allowing them to mimic human behavi
 Additionally, the bots were equipped with individual strategies that were tracked and evaluated, which helped us continuously improve the game and make it more enjoyable for players.
 
 <!--TODO: insert video of bots-->
+<iframe src="https://mediathek.htw-berlin.de/media/embed?key=370368cff9ef723b2ef372f0ffb1c9cf&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=370368cff9ef723b2ef372f0ffb1c9cf&width=720&height=540&autoplay=false&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="600" height="300" title="Bubble Bobble Gameplay" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style="display: block; margin: 0 auto"></iframe>
+    <p style="color:#ff7578; text-transform: uppercase; text-align: center; margin-top: 10px">gameplay in double-speed</p>
 
 As initial user tests have shown, these efforts have helped create a high-quality game that offers players an intense and engaging experience. Detailed results will be presented at this year's Showtime.
 {{</section>}}
