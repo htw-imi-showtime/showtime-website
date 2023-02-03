@@ -89,6 +89,7 @@ Additionally, a mobile version of the game could be optimized for **touch contro
 Our group is made up of six developers, each with their unique abilities which include **game development**, **web development**, **network development**, **user experience** and **design**.
 {{</section >}}
 
+{{<section>}}
 {{<gallery>}}
 {{<team-member image="katharina.jpg" name="Katharina Blaß">}}
 {{<team-member image="faye.jpg" name="Faye Bullwinkel">}}
@@ -97,3 +98,4 @@ Our group is made up of six developers, each with their unique abilities which i
 {{<team-member image="mahja.jpg" name="Mahja Sarschar">}}
 {{<team-member image="julian.jpg" name="Julian Gaibler">}}
 {{</gallery>}}
+{{</section>}}
