@@ -3,7 +3,7 @@ title = "Hungry Games"
 project_id = "M2a"
 
 # Properties for displaying the project in the project list
-card_image = "HungryGamesLogo.png"
+card_image = "Logo_Water_1000px.png"
 card_description = "“Hungry Games” is a Massively Multiplayer Online Game that offers the possibility to experience a Deathmatch-game adventure with up to 32 other players, thanks to a Scalable Generic Network Component. This massively multiplayer online game has a high speed and quickly develops a great feeling of chaos." 
 
 
@@ -19,7 +19,7 @@ Players take on the role of a forest animal in order to survive by fighting the 
 Various power ups and gadgets help the players in this fight for survival.
 Hungry Games is a 2D game that initially appears to be cute, but quickly turns out to be a massively multiplayer online game that is up to every trick. Players should definitely not be squeamish here. 
 
-{{<image src="HungryGamesScreenshot.png" alt="Mockup" >}}
+{{<image src="HungryGames_Logo_1000px.png" alt="Mockup" >}}
 
 {{</section>}}
 
