@@ -1,2 +1,77 @@
 [[slot]]
-title = "The schedule will be published soon."
+time = "10:00"
+title = "Opening"
+class = "general"
+
+
+[[slot]]
+time = "10:05"
+title = "B2 - Augmenting a Social Game with a Mobile Companion App"
+projectDetail = "/"
+class = "bachelor"
+
+[[slot]]
+time = "10:12"
+title = "B4 - Rearchitecting Services with AWS Lambda Functions"
+projectDetail = "/ws22/bachelor/b4-rearchitecting-services"
+class = "bachelor"
+
+[[slot]]
+time = "10:19"
+title = "B5 - Szenische Interaktion"
+projectDetail = "/ws22/bachelor/b5-szenische-interaktion/"
+class = "bachelor"
+
+[[slot]]
+time = "10:26"
+title = "B6 - Book Reading Club Application"
+projectDetail = "/ws22/bachelor/b6-book-reading-club-applikation/"
+class = "bachelor"
+
+[[slot]]
+time = "10:33"
+title = "M2a - Hungry Games, Massively Multiplayer Online Game with Scalable Generic Network Component"
+projectDetail = "/ws22/master/m2-mmo-hungrygames/"
+class = "master"
+
+[[slot]]
+time = "10:40"
+title = "M2b - Bubble Bobble, Massively Multiplayer Online Game with Scalable Generic Network Component"
+projectDetail = "/ws22/master/m2-mmo-bubble-bobble/"
+class = "master"
+
+[[slot]]
+time = "10:47"
+title = "M3 - BEM Pate"
+projectDetail = "/ws22/master/m3-bempsy-buddy/"
+class = "master"
+
+[[slot]]
+time = "10:54"
+title = "M7 - Valit"
+projectDetail = "/ws22/master/m7-valit/"
+class = "master"
+
+[[slot]]
+time = "11:00"
+title = "Lunch Break"
+class = "general"
+
+[[slot]]
+time = "12:00-15:00"
+title = "Project Fair"
+text = "Project Booths in Zoom Breakout Rooms"
+class = "general"
+
+
+[[slot]]
+time = "15:00"
+title = "Break"
+text = "(and a secret grading meeting of the supervisors)"
+class = "general"
+
+[[slot]]
+time = "16:00"
+title = "Announcement Of Grades"
+text = "Project Groups meet with their project supervisors"
+class = "general"
