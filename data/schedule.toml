@@ -7,7 +7,7 @@ class = "general"
 [[slot]]
 time = "10:05"
 title = "B2 - Augmenting a Social Game with a Mobile Companion App"
-projectDetail = "/"
+projectDetail = "/ws22/bachelor/b2-mobile-companion-app/"
 class = "bachelor"
 
 [[slot]]
