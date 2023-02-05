@@ -25,4 +25,3 @@ If the incoming data does not match the expected data, the HTTP response has a s
 {{<image src="pros.png" alt="Mockup" >}}
 {{</section>}}
 
-

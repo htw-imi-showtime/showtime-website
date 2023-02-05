@@ -10,6 +10,7 @@ team = ["Daniel Betke", "Ekaterina Kuritsyna", "Rizki Pramadhan", "Reyhan Rumeng
 supervisor = "Robert Wolff"
 +++
 
+
 ## Template architecture
 {{<image src="diagram.png" alt="Mockup" >}}
 
@@ -27,6 +28,8 @@ The template was created to:
 {{<section title="The team">}}
 Our small team consists of 4 IMI students from different semesters, with different levels of programming experience and interests. None of us had worked with AWS before and neither had any experience with Node.js and TypeScript before this project, so it was quite a challenge for us.
 {{</section>}}
+
+
 
 {{<gallery>}}
 {{<team-member image="Daniel.png" name="Daniel">}}
