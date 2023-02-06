@@ -3,7 +3,11 @@ title = "Interactive Stage Design"
 project_id = "B5"
 
 # Properties for displaying the project in the project list
+<<<<<<< HEAD
 card_image = "isd-thumbnail.jpg"
+=======
+card_image = "prev1.jpeg"
+>>>>>>> a2f0ac5 (b5 fix)
 card_description = "This project is an overall conceptual and interactive stage design developed for immersive live performances." 
 website_link = "https://isd-server.f4.htw-berlin.de/#/"
 
@@ -16,9 +20,15 @@ supervisor = "Alexander Kramer, Ralf Strecker"
 
 
 {{<gallery>}}
+<<<<<<< HEAD
 {{<image src="prev1.jpeg" alt="Interaction in Unity" caption="Unity Particle System">}}
 {{<image src="prev2.jpg" alt="Preview WebApp" caption="User Drawing in WebApp">}}
 {{<image src="concert-square.jpg" alt="Live Konzert" caption="Result at the Live Concert">}}
+=======
+{{<image src="prev1.jpeg" alt="Interaction in Unity">}}
+{{<image src="prev2.jpg" alt="Preview WebApp">}}
+{{<image src="concert-square.jpg" alt="Live Konzert">}}
+>>>>>>> a2f0ac5 (b5 fix)
 {{</gallery>}}
 
 {{<section title="Our Goal">}}
