@@ -15,11 +15,11 @@ We also used the AWS Cloud Development Kit (AWS CDK) as a software development f
 {{<image src="dev.png">}}
 
 Amazon Web Services (AWS) that we used to build our infrastructure: 
-- Identity and Access Management (IAM) to provide secure access to all infrastructure operations, defines roles and rights.
+- Identity and Access Management (IAM) to provide secure access to all infrastructure operations, define roles and rights
 - API Gateway to get and process a large number of simultaneous API requests and to expose the Lambda endpoint to the internet
-- Lambda to run code serverless only on demand and only to the required extent.
+- Lambda to run code serverless only on demand and only to the required extent
 - S3 to store input traffic
-- SQS to to store transformed input data pending further processing.
+- SQS to to store transformed input data pending further processing
 {{<image src="aws.png">}}
 
 
