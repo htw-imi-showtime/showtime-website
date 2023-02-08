@@ -10,9 +10,11 @@ team = ["Daniel Betke", "Ekaterina Kuritsyna", "Rizki Pramadhan", "Reyhan Rumeng
 supervisor = "Robert Wolff"
 +++
 
+
 ## Template architecture
 {{<image src="diagram.png" alt="Mockup" >}}
 
+{{<mediathek id="e0221113f99e391d3e8f3e59d05eb160" title="How it works">}}
 
 {{<section title="Our Goal">}}
 The template was created to:

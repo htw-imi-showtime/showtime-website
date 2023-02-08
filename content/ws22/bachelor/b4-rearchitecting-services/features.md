@@ -10,7 +10,7 @@ There are two parts of the template:
 
 The CDK pattern is generic: the API Gateway receives traffic (we get some data about favorite colors, snacks and movies with different data types in JSON format) and then it is passed to the Lambda function. It doesn't matter if the incoming data is valid or not, it will be saved to the S3 bucket, but if the validation does succeed, it will also be sent to the SQS Queue from where it can be used for various internal idealo needs.
 ## Happy path (incoming data is valid):
-A POST request is given to an HTTP endpoint hosted by AWS, if the incoming data in JSON format contains valid properties, the HTTP response has a status code of 200 and the response body contains "[accepted]", the request is redirected to the Lambda function and is saved as a text file (named with a timestamp and date) to the S3 bucket in the "valid" folder, the same result is passed to the SQS Queue.
+A POST request is given to an HTTP endpoint hosted by AWS, if the incoming data in JSON format contains valid properties, the HTTP response has a status code of 200 and the response body contains "accepted", the request is redirected to the Lambda function and is saved as a text file (named with a timestamp and date) to the S3 bucket in the "valid" folder, the same result is passed to the SQS Queue.
 {{<image src="valid.png">}}
 
 ## Failure path (incoming data is invalid):
