@@ -14,6 +14,9 @@ supervisor = "Robert Wolff"
 {{<image src="diagram.png" alt="Mockup" >}}
 
 
+{{<mediathek id="e0221113f99e391d3e8f3e59d05eb160" title="How it works">}}
+
+
 {{<section title="Our Goal">}}
 The template was created to:
 - demonstrate to other engineers at idealo how to work with AWS CDK and serverless resources, show how easy they are to set up and what they can do
