@@ -9,7 +9,7 @@ website_link = ""
 
 
 team = ["Audrey Gambia", "Colin Garms", "Lana Alzbibi", "Leander Kammermeier", "Jonas Kallwies", "Maryna Kuzminchuk", "Sönke Schaarschmidt"]
-supervisor = "Alexander Pietsch - Diva-E "
+supervisor = "Alexander Pietsch - diva-e "
 +++
 
 {{<gallery>}}
@@ -32,7 +32,7 @@ We at Blubble are an innovative young team of seven students with the goal of si
 {{<team-member image="leander-kammermeier.jpg" name="Leander Kammermeier (Backend)">}}
 {{<team-member image="soenke-schaarschmidt.jpg" name="Sönke Schaarschmidt (Frontend)">}}
 {{<team-member image="maryna-kuzminchuk.jpg" name="Maryna Kuzminchuk (Frontend/Backend)">}}
-{{<team-member image="jonas-kallwies.jpg" name="Jonas Kallwies (Project Managment)">}}
+{{<team-member image="jonas-kallwies.jpg" name="Jonas Kallwies (Project Management)">}}
 
 {{</gallery>}}
 {{</section>}}
