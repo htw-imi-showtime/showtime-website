@@ -1,4 +1,4 @@
-name: deploy staging (htw-imi-showtime.github.io)
+name: deploy staging (https://htw-imi-showtime.github.io)
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify --buildDrafts -e staging
+      run: hugo --minify -e staging
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
