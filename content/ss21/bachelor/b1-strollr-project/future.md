@@ -21,3 +21,5 @@ Since Strollr’s original idea is to capture the stroll via pictures and learn 
 Therefore, the sharing user could send out a request in a provided category and other users could share their guesses. 
 
 _So get inspired and start your own stroll._
+
+{{</section>}}

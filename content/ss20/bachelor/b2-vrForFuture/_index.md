@@ -48,3 +48,4 @@ We are all astonished about VR technology and confident about it's role in the f
 - [Homepage](https://vrforfuture.github.io/)
 - [Donwload](https://github.com/VRForFuture/HuntersPathsBuilds)
 - [Source Code](https://github.com/VRForFuture/HuntersPathsPublic)
+{{</section>}}

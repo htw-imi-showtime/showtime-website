@@ -12,3 +12,4 @@ We had ideas like: Scotland Yard as a board game, children's games like hide and
  After some further discussions on the how's and what's of the game, we started debating which tools to use for the game. Since two of us had already worked with unity, and we were keen on creating a mobile cross-platform application, we settled on unity. 
  So we started researching how we could use Unity to create a network to control the data within the app. There were multiple options like Photon or Mirror (third-party solutions), though Unity's Netcode seemed the best solution for us. 
 Once a simple network functionality had been established, we split up and started working on the game logic, UI / Design and further network specif tasks. 
+{{</section>}}

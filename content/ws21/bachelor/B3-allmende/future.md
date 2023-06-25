@@ -20,3 +20,5 @@ specific animal or just a beautiful walk in the nature. These walks can then be
 seated and discussed by everyone in the community. Lastly we thought that the app
 would really benefit from a thread-feature like reddit for users to ask questions and
 general larger discussion.
+
+{{</section>}}

@@ -82,3 +82,4 @@ The LCvd team consists of five students. Four team members worked on the elabora
 * [Background Music 1](https://www.youtube.com/watch?v=1CImcrvMnBY). StlabStudioMusic. 2021. accessed 7.2.2022
 * [Background Music 2](https://www.youtube.com/watch?v=Ghqc9reeD5I). Infraction. 2019. accessed 7.2.2022
 * [Background Music 3](https://uppbeat.io/track/monument-music/better-off). Better Off. Monument Music. accessed 7.2.2.2022
+{{</section>}}

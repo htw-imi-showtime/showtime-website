@@ -19,7 +19,4 @@ In the future, more gamification features will be included in the game. To incen
 
 Different types of **levels or game modes** are also in planning. One version would be to have a **predefined game time**, of 60 seconds for example, with the objective of matching **as many target shapes as possible**. Another alternative is the '**blind mode**'. In this game mode, only one player would see the target shape. They then need to quickly and clearly direct their teammates to their target positions.
 
-
-
-
-
+{{</section>}}

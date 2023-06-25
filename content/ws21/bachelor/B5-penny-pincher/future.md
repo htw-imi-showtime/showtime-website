@@ -17,3 +17,5 @@ For now our app is available only in German, and we would like to offer it in **
 Another cool feature would be to create **custom categories** such as "The perfect Christmas present", "The perfect Valentine's present" etc. because we believe that a big part of our users might be looking for presents. This will make their search easier and save them time!
 
 _So, what are you waiting for? Go ahead and find the perfect bargain!_
+
+{{</section>}}

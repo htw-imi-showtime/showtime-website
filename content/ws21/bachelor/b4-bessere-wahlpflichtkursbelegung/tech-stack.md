@@ -47,3 +47,5 @@ For the developing process, we used the **"MEVN" stack**, which consists of wide
 * internet hosting provider of the version control software Git, to manage multiple people working on the same code
 
 {{<image src="organization.png">}}
+
+{{</section>}}
