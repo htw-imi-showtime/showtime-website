@@ -15,19 +15,18 @@ base :
 -  open ${base_url}
 -  hugo --disableFastRender --buildDrafts --baseURL ${base_url} --port 1313 server
 
-linkinator-markdown:
+
+# run npm install first
+
+lc-markdown:
 - ./node_modules/.bin/linkinator ./* --markdown --recurse
 
-linkinator-public:
-- ./node_modules/.bin/linkinator --recurse --skip '^http' ./public/
-
-
-linkinator-readme:
+lc-readme:
 - ./node_modules/.bin/linkinator ./README.md --markdown
 
 
 lc-base:
-- ./node_modules/.bin/linkinator "http://localhost:1313/showtime-website" --recurse --format CSV > .linkinator/local-subdir.csv
+- ./node_modules/.bin/linkinator http://localhost:1313/showtime-website --recurse --format CSV > .linkinator/local-subdir.csv
 
 lc-staging:
 - ./node_modules/.bin/linkinator https://htw-imi-showtime.github.io/ --recurse  --format CSV > .linkinator/staging.csv
