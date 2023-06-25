@@ -210,8 +210,8 @@ Example: Transitioning to summer semester 2022
 ### Staging and Production Preview
 
 Every push to main results in a deploy to 
-- staging: [https://htw-imi-showtime.github.io/showtime-website/](https://htw-imi-showtime.github.io/showtime-website/) (with drafts)
-- and production preview: [https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/) (without drafts)
+- development: [https://htw-imi-showtime.github.io/showtime-website/](https://htw-imi-showtime.github.io/showtime-website/) (with drafts)
+- staging: [https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/) (without drafts)
 #### Staging Deployment Details
 
 Every push on main is deployed to the Github Page in the repo
