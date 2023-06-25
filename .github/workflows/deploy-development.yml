@@ -1,5 +1,5 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: deploy production preview
+# deploys to <gh-user>.github.io/showtime-website
+name: deploy development
 
 on:
   # Runs on pushes targeting the default branch
