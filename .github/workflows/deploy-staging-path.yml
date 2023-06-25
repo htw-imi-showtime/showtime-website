@@ -1,4 +1,4 @@
-name: deploy staging (https://htw-imi-showtime.github.io)
+name: deploy staging (https://htw-imi-showtime.github.io/staging)
 
 on:
   push:
@@ -19,9 +19,9 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify \
-                -e staging \
-                --baseURL=https://htw-imi-showtime.github.io/staging/ \
+      run: hugo --environment staging \
+                --minify \
+                --baseURL https://htw-imi-showtime.github.io/staging/ \
                 --buildDrafts 
 
     - name: Deploy
