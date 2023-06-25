@@ -1,13 +1,25 @@
 # IMI Showtime Website
-The official IMI showtime website
+The official IMI showtime [Website: https://showtime.f4.htw-berlin.de/](https://showtime.f4.htw-berlin.de/)
 
-[![deploy staging (htw-imi-showtime.github.io)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml)
+## Builds & Deployments
+
+### Staging
+
+every push to master, including drafts: [https://htw-imi-showtime.github.io/staging](https://htw-imi-showtime.github.io/staging)
+
+[![deploy staging (https://htw-imi-showtime.github.io/staging)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml)
+
+[![gh pages](https://github.com/htw-imi-showtime/staging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/htw-imi-showtime/staging/actions/workflows/pages/pages-build-deployment)
+
+### Preview
+
+every push to master, without drafts (same as production)
+
+### Production
+
 [![deploy production (https://showtime.f4.htw-berlin.de/)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-production.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-production.yml)
 
-
-[Staging: https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/)
-
-[Website: https://showtime.f4.htw-berlin.de/](https://showtime.f4.htw-berlin.de/)
+## Documentation
 
 - [Adding a new project](#adding-a-new-project)
 - [Updating your Fork](#updating-your-fork)
