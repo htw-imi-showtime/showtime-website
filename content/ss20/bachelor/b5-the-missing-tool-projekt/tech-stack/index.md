@@ -26,4 +26,4 @@ We used a form of SCRUM to organize our project work and therefore used Jira for
 {{</section>}}
 
 We are nearly at the end. But what's next? Read about the things we planned for the future:
-[Future Features](../future-features)
+[Future Features](../future-features/)

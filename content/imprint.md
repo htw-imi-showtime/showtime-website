@@ -34,8 +34,8 @@ Falls Sie vermuten, dass von dieser Website aus eines Ihrer Schutzrechte verletz
 Theme-Design: [Tobi Hoffmann](http://tobihoffmann.com/) \
 Theme-Development: [Luis Hankel](https://kaes3kuch3n.de/)
 
-Die Icons `demo`, `code` und `website` auf den Projektseiten sind aus dem Material-Design-Projekt entnommen und unter der [Apache License 2.0](/licenses/material-icons.txt) lizensiert.
+Die Icons `demo`, `code` und `website` auf den Projektseiten sind aus dem Material-Design-Projekt entnommen und unter der [Apache License 2.0](../licenses/material-icons.txt) lizensiert.
 
-Die auf der Website verwendete Schriftfamilie JetBrains Mono ist unter der [Open Font License](/licenses/jetbrains-mono.txt) lizensiert. 
+Die auf der Website verwendete Schriftfamilie JetBrains Mono ist unter der [Open Font License](../licenses/jetbrains-mono.txt) lizensiert. 
 
 Copyright (c) 2021: Some rights reserved CC-BY-NC-SA

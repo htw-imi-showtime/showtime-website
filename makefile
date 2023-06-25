@@ -34,3 +34,5 @@ lc-staging:
 lc-dev:
 - ./node_modules/.bin/linkinator https://bkleinen.github.io/showtime-website --recurse  --format CSV > .linkinator/development.csv
 
+lc-clean:
+- cat .linkinator/development.csv| grep BROKEN | grep -e "^https://bkleinen.github.io/showtime-website" > .linkinator/development-broken.csv

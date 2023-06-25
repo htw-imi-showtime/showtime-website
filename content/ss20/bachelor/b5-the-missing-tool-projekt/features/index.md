@@ -31,4 +31,4 @@ You can also move cards from one board to another, by simply draggin on the card
 {{</section>}}
 
 Are you interested in how we managed to keep focused working on The Missing Tool?
-Read on: [Our Focus](../our-focus)
+Read on: [Our Focus](../our-focus/)

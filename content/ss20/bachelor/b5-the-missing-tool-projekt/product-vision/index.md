@@ -19,4 +19,5 @@ To define the MVP we created a user story map that defines which features we wan
 {{</section>}}
 
 Do you want to get a first impression of what you can do on our tool? Take a look at the next page:
-[Features](../features)
+[Features]({{<relref "features" >}})
+
