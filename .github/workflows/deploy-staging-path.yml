@@ -19,10 +19,12 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --environment staging \
-                --minify \
-                --baseURL https://htw-imi-showtime.github.io/staging/ \
-                --buildDrafts 
+      run: |
+        hugo \
+          --environment staging \
+          --minify \
+          --baseURL "https://htw-imi-showtime.github.io/staging/" \
+          --buildDrafts 
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
