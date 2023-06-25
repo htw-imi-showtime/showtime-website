@@ -9,11 +9,15 @@ every push to master, including drafts: [https://htw-imi-showtime.github.io/stag
 
 [![deploy staging (https://htw-imi-showtime.github.io/staging)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml)
 
-[![gh pages](https://github.com/htw-imi-showtime/staging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/htw-imi-showtime/staging/actions/workflows/pages/pages-build-deployment)
+[![gh pages-build-deployment](https://github.com/htw-imi-showtime/staging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/htw-imi-showtime/staging/actions/workflows/pages/pages-build-deployment)
 
 ### Preview
 
-every push to master, without drafts (same as production)
+every push to master, without drafts (same as production): [https://htw-imi-showtime.github.io/preview](https://htw-imi-showtime.github.io/preview)
+
+[![deploy preview (https://htw-imi-showtime.github.io/preview)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-preview.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-preview.yml)
+
+[![gh pages-build-deployment](https://github.com/htw-imi-showtime/preview/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/htw-imi-showtime/preview/actions/workflows/pages/pages-build-deployment)
 
 ### Production
 
