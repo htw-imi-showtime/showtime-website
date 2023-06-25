@@ -1,0 +1,35 @@
+name: deploy staging (https://htw-imi-showtime.github.io)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Hugo setup
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.114.1'
+        extended: true
+
+    - name: Build
+      run: hugo --minify -e staging
+
+
+      - name: Build
+      run: hugo --minify \
+                -e production \
+                --baseURL=https://htw-imi-showtime.github.io/production-preview/ \
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.PRODUCTION_PREVIEW_DEPLOY_KEY }}
+        external_repository: htw-imi-showtime/production-preview
+        publish_branch: master
