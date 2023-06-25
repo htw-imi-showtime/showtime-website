@@ -48,7 +48,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: "Echo Info"
+      - name: "Echo Configure Pages Output"
         # see https://github.com/actions/configure-pages/blob/main/action.yml
         run: |
           echo configure-pages output: 
@@ -56,7 +56,6 @@ jobs:
           echo origin ${{ steps.pages.outputs.origin }}
           echo description ${{ steps.pages.outputs.description }}
           echo base_path ${{ steps.pages.outputs.base_path }}
-
 
       - name: Build with Hugo
         env:
@@ -67,7 +66,7 @@ jobs:
           hugo \
             --buildDrafts \
             --minify \
-            --baseURL "${{ steps.pages.outputs.origin }}/"${{ steps.pages.outputs.base_path }}"
+            --baseURL "${{ steps.pages.outputs.base_url }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
