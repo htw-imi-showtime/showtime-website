@@ -14,3 +14,24 @@ base_url=http://localhost:1313/showtime-website
 base :
 -  open ${base_url}
 -  hugo --disableFastRender --buildDrafts --baseURL ${base_url} --port 1313 server
+
+linkinator-markdown:
+- ./node_modules/.bin/linkinator ./* --markdown --recurse
+
+linkinator-public:
+- ./node_modules/.bin/linkinator --recurse --skip '^http' ./public/
+
+
+linkinator-readme:
+- ./node_modules/.bin/linkinator ./README.md --markdown
+
+
+lc-base:
+- ./node_modules/.bin/linkinator "http://localhost:1313/showtime-website" --recurse --format CSV > .linkinator/local-subdir.csv
+
+lc-staging:
+- ./node_modules/.bin/linkinator https://htw-imi-showtime.github.io/ --recurse  --format CSV > .linkinator/staging.csv
+
+lc-dev:
+- ./node_modules/.bin/linkinator https://bkleinen.github.io/showtime-website --recurse  --format CSV > .linkinator/development.csv
+

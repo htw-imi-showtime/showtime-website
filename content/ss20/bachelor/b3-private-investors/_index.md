@@ -36,9 +36,9 @@ Wir bieten eine komfortable, mobile Anwendung für private Immobilieninvestoren.
 {{< mediathek id="305adbbc06493ee3b78b8579020b793e" title="Start your search" >}}
 
 {{<section title="Weitere Inhalte">}}
-- [Videos](_videos)
-- [Behind the Scenes](_fotos)
-- [Design](_design)
-- [Technologie-Stack](_techstack)
-- [Das Team](_dasteam)
+- [Videos](videos)
+- [Behind the Scenes](fotos)
+- [Design](design)
+- [Technologie-Stack](techstack)
+- [Das Team](dasteam)
 {{</section>}}
