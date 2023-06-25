@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   deploy:
+    if: github.repository_owner != 'htw-imi-showtime'
     runs-on: ubuntu-latest
     steps:
        
