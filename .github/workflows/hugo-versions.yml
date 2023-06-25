@@ -1,4 +1,4 @@
-name: Builds Hugo Site in a Variety of Configurations.
+name: build hugo with various versions
 
 on:
   push:
