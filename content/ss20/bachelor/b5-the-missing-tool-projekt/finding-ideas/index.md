@@ -21,5 +21,5 @@ After exploring our options we were a bit disillusioned about the results we fou
 
 {{<section title="Our final vision">}}
 Do you want to know, how we defined our final product vision considering all technological constraints? Then read on:
-[Product Vision](../product-vision)
+[Product Vision](../product-vision/)
 {{</section>}}

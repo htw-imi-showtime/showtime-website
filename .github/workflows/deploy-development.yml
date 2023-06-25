@@ -1,5 +1,5 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: deploy production preview
+# deploys to <gh-user>.github.io/showtime-website
+name: deploy development
 
 on:
   # Runs on pushes targeting the default branch
@@ -48,6 +48,15 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: "Echo Configure Pages Output"
+        # see https://github.com/actions/configure-pages/blob/main/action.yml
+        run: |
+          echo configure-pages output: 
+          echo base_url ${{ steps.pages.outputs.base_url }}
+          echo origin ${{ steps.pages.outputs.origin }}
+          echo description ${{ steps.pages.outputs.description }}
+          echo base_path ${{ steps.pages.outputs.base_path }}
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -57,7 +66,7 @@ jobs:
           hugo \
             --buildDrafts \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

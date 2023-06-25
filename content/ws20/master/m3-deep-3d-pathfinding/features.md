@@ -8,7 +8,7 @@ weight = 1
     .nomargin > figure > img{ margin: 0; }
 </style>
 
-The majority of our time was spent on coming up with new concepts and developing prototypes to test them. Most of our “features” are behind the scenes in our scripts, our model parameters and the general setup. Each machine learning project is different and there are no well known solutions that “just work” for every application. What we present here is only a high level impression of our work, where we summarize the current state and give some details on the prediction quality of our models. You can find more detailed information about our approaches on the <a href="/ws20/master/m3-deep-3d-pathfinding/process">process</a> page.
+The majority of our time was spent on coming up with new concepts and developing prototypes to test them. Most of our “features” are behind the scenes in our scripts, our model parameters and the general setup. Each machine learning project is different and there are no well known solutions that “just work” for every application. What we present here is only a high level impression of our work, where we summarize the current state and give some details on the prediction quality of our models. You can find more detailed information about our approaches on the <a href="{{ref "ws20/master/m3-deep-3d-pathfinding/process" }}>process</a> page.
 {{<section title="Result comparison">}}
 <div class="nomargin">
 {{<image src="results_table.jpg">}}
@@ -18,7 +18,7 @@ The majority of our time was spent on coming up with new concepts and developing
 {{<image src="gan_mse.png">}}
 
 - For the **reinforcement learning** model, the agent was trained for 50.000 - 200.000 iterations depending on size of the worlds.
-- Our **supervised transfer learning** model was trained with over 4000 different environments, each with around 40 different variations, resulting in a total of 168.000 data samples. This model was only trained for 2D worlds. Please refer to our <a href="/ws20/master/m3-deep-3d-pathfinding/process">process</a> page to learn about the limitations.
+- Our **supervised transfer learning** model was trained with over 4000 different environments, each with around 40 different variations, resulting in a total of 168.000 data samples. This model was only trained for 2D worlds. Please refer to our [process](../process) page to learn about the limitations.
 {{<image src="tl_loss.png">}}
 
 

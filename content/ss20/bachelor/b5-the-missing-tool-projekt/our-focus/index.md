@@ -24,4 +24,4 @@ To achieve a great experience for our users we did two iterations of Usability T
 {{</section>}}
 
 Do you fancy to find out about the technologies we used in our project? Feel free to read on:
-[Tech Stack & Development Tools](../tech-stack)
+[Tech Stack & Development Tools](../tech-stack/)

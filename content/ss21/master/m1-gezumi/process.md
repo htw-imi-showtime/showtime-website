@@ -23,10 +23,7 @@ As the development progressed and more features were starting to get implemented
 
 The final implemented design can be seen below.
 
-<figure>
-    <img src="/ss21/master/m1-gezumi/whole-user-flow.gif" alt="User flow gif" style="max-height: 50vh">
-</figure>
-
+{{<image src="whole-user-flow.gif" alt="User flow gif" style="max-height: 50vh">}}
 
 {{</section>}}
 

@@ -4,7 +4,7 @@ weight = 1
 +++
 
 {{<section title="Welcome Screen">}}
-<img src="/ws21/bachelor/b5-penny-pincher/welcome.png" width="350px" style="float:left;padding:0 20px 20px 0">
+{{<image-float src="welcome.png" width="350px" float="left">}}
 <br>
 <p style="font-size:18px;">
 With our App you will find the <b>best</b> bargains!
@@ -14,6 +14,7 @@ After that you will be sent to the Live Feed.
 {{</section>}}
 
 {{<section title="Live Feed">}}
+{{<image-float src="LiveFeed.png" width="350px" float="right">}}
 <img src="/ws21/bachelor/b5-penny-pincher/LiveFeed.png" width="350px" style="float:right;padding:0 20px 20px 0">
 <br>
 <p style="font-size:18px;">
@@ -23,6 +24,7 @@ If you do <b>not</b> choose <b>any</b> categories, then you see <b>all products<
 {{</section>}}
 
 {{<section title="Categories">}}
+{{<image-float src="browser.png" width="350px" float="left">}}
 <img src="/ws21/bachelor/b5-penny-pincher/browser.png" width="350px" style="float:left;padding:0 20px 20px 0">
 <br>
 <p style="font-size:18px;">
@@ -34,6 +36,7 @@ Once you find the perfect item, you <b>can buy it</b> or <b>add it to Favorites<
 {{</section>}}
 
 {{<section title="Filter">}}
+{{<image-float src="filter.png" width="350px" float="right">}}
 <img src="/ws21/bachelor/b5-penny-pincher/filter.png" width="350px" style="float:right;padding:0 20px 20px 0">
 <br>
 <p style="font-size:18px;">
@@ -44,6 +47,7 @@ And if you wish, you can also <b>save your searches</b> in the bottom left corne
 {{</section>}}
 
 {{<section title="Extended View">}}
+{{<image-float src="extended.png" width="350px" float="left">}}
 <img src="/ws21/bachelor/b5-penny-pincher/extended.png" width="350px" style="float:left;padding:0 20px 20px 0">
 <br>
 <p style="font-size:18px;">
@@ -52,6 +56,7 @@ In the Extended View you can see <b>some details for the product</b> as well as 
 {{</section>}}
 
 {{<section title="Favorites">}}
+{{<image-float src="Favoriten.png" width="350px" float="right">}}
 <img src="/ws21/bachelor/b5-penny-pincher/Favoriten.png" width="350px" style="float:right;padding:0 20px 20px 0">
 <br>
 <p style="font-size:18px;">
@@ -62,6 +67,7 @@ Some bargains have a time limit and Favorites are going to refresh themselves au
 {{</section>}}
 
 {{<section title="Search bar">}}
+{{<image-float src="Search.png" width="350px" float="left">}}
 <img src="/ws21/bachelor/b5-penny-pincher/Search.png" width="350px" style="float:left;padding:0 20px 20px 0">
 <br>
 <p style="font-size:18px;">
@@ -72,6 +78,7 @@ The search bar in Favorites allows you to look <b>through your saved items</b> i
 {{</section>}}
 
 {{<section title="Settings">}}
+{{<image-float src="settings.png" width="350px" float="right">}}
 <img src="/ws21/bachelor/b5-penny-pincher/settings.png" width="350px" style="float:right;padding:0 20px 20px 0">
 <br>
 <p style="font-size:18px;">

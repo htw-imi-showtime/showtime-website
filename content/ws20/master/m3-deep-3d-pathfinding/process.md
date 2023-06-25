@@ -126,7 +126,7 @@ To solve this problem there are two possible approaches:
 - A better solution is an additional logic for the agent, whereby it does not always select only the action with the highest Q-value. For example, the agent could save which fields of the world have already been visited and which action was taken there. When the agent returns to a field that has already been visited, it selects the action with the next highest Q-value that has not yet been taken. This approach would prevent the back and forth jumping behavior.
 
 ## Advantages over GANs and reinforcement learning
-The transfer learning approach can find paths in worlds of any size in which it can survey the obstacles in its FOV (maximum 4x4 large obstacles), independent of start and target positions. An example of such a world is the custom world illustrated in the <a href="/ws20/master/m3-deep-3d-pathfinding/features">Features: World Generator</a> chapter. In worlds of this type, the approaches with GANs and reinforcement learning fail for sizes bigger than 25x25, while transfer learning can even handle worlds of the size 50x50 and larger.
+The transfer learning approach can find paths in worlds of any size in which it can survey the obstacles in its FOV (maximum 4x4 large obstacles), independent of start and target positions. An example of such a world is the custom world illustrated in the [Features](../features): World Generator</a> chapter. In worlds of this type, the approaches with GANs and reinforcement learning fail for sizes bigger than 25x25, while transfer learning can even handle worlds of the size 50x50 and larger.
 {{</section >}}
 
 [1] <a href="https://miro.medium.com/max/563/1*mjFDw7hrGGY6jVqPlZm9vg.jpeg">medium.com</a>

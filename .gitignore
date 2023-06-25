@@ -10,3 +10,7 @@ Thumbs.db
 # Ignore Idea
 .idea/
 .history/
+
+# Linkinator
+node_modules/
+.linkinator/
