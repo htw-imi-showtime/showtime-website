@@ -7,7 +7,7 @@ card_description = "The Missing Tool allows users to collaborate in real-time on
 
 source_link = "https://github.com/JuliaZamaitat/TheMissingTool"
 demo_link = "https://onboard.f4.htw-berlin.de"
-website_link = "https://htw-imi-showtime.github.io/"
+website_link = "#"
 
 team = ["Annina Keller", "Noschdar Sindy", "Jannis Bautsch", "Julia Zamaitat", "Linh Le", "Luc-Stephan Nkok", "Alain Ngoufack"]
 supervisor = "Prof. Dr. Barne Kleinen"
