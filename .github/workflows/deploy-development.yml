@@ -13,20 +13,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Split Name
-      uses: jungwinter/split@v2
-      id: repo
-      with:
-        msg: ${{ github.repository }}
-        separator: '/'
-
-    - name: echo
-      run: |
-        echo github.event.repository.name ${{ github.event.repository.name }}
-        echo github.repository ${{ github.repository }}
-        echo github.repository ${{ github.repository_owner }}
-        echo owner ${{ steps.repo.outputs._0 }}
-        echo repo  ${{ steps.repo.outputs._1 }}
        
     - uses: actions/checkout@v3
       with:
@@ -44,7 +30,7 @@ jobs:
         hugo \
           --environment staging \
           --minify \
-          --baseURL "https://bkleinen.github.io/showtime-website/" \
+          --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.repository }}/" \
           --buildDrafts
 
     - name: Deploy
