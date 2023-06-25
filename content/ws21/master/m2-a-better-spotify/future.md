@@ -59,7 +59,3 @@ So far there are only extensions to browsers that make it possible for the user 
 
 {{</section>}}
 
-
-
-
-

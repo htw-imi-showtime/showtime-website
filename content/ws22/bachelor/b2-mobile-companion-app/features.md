@@ -20,3 +20,4 @@ The whole logic of the game – including a voting system – has been virtualiz
 There is a voting function in place for every essential vote the game has to offer: The determination of which convict should be ‘democratically removed’ next by the villagers, which target will be the next victim of the werewolves and even the witches ‘vote’ for whom she will be giving a potion to.
 
 
+{{</section>}}
