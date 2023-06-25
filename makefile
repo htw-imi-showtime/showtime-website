@@ -12,5 +12,5 @@ open :
 
 base_url=http://localhost:1313/showtime-website
 base :
--  open ${base_url}/ws22/
+-  open ${base_url}
 -  hugo --buildDrafts -p 1313 --baseURL ${base_url} server
