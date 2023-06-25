@@ -6,6 +6,7 @@ on:
 
 jobs:
   deploy:
+    if: github.repository == 'htw-imi-showtime/showtime-website'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -19,13 +20,15 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --environment production \
-                --minify \
-                --baseURL https://htw-imi-showtime.github.io/production-preview/ 
+      run: |
+        hugo \
+          --environment production \
+          --minify \
+          --baseURL "https://htw-imi-showtime.github.io/production-preview/"
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.PRODUCTION_PREVIEW_DEPLOY_KEY }}
         external_repository: htw-imi-showtime/production-preview
-        publish_branch: master
+        publish_branch: main
