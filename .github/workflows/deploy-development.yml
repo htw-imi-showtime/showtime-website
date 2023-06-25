@@ -1,0 +1,57 @@
+name: deploy development (https://<user>.github.io/showtime-website)
+
+on:
+  push:
+    branches: [ master ]
+  
+  workflow_dispatch:
+    
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Split Name
+      uses: jungwinter/split@v2
+      id: repo
+      with:
+        msg: ${{ github.repository }}
+        separator: '/'
+
+    - name: echo
+      run: |
+        echo github.event.repository.name ${{ github.event.repository.name }}
+        echo github.repository ${{ github.repository }}
+        echo github.repository ${{ github.repository_owner }}
+        echo owner ${{ steps.repo.outputs._0 }}
+        echo repo  ${{ steps.repo.outputs._1 }}
+       
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Hugo setup
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.114.1'
+        extended: true
+
+
+    - name: Build
+      run: |
+        hugo \
+          --environment staging \
+          --minify \
+          --baseURL "https://bkleinen.github.io/showtime-website/" \
+          --buildDrafts
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+
+
+        
