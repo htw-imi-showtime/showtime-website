@@ -61,7 +61,7 @@ cp -R content/ws22/master/m0-template/ content/ws22/master/m#-your-project/
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
    You may also put images in your project's directory (**less than 100 MB per file**, please upload videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)).
    For an example on how to include videos, images, quotes and GitHub gists, please have a look at the documentation below or the examples included in the template projects.
-6. Preview your changes locally to make sure everything looks fine by executing `hugo server` and visiting http://localhost:1313/ in your browser.
+6. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
 git add content/ws22/<bachelor|master>/<project_number-your-project>
@@ -72,8 +72,28 @@ git push
 
 Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/
 
-One week before the Showtime takes place, the website will be published on our production server: https://showtime.f4.htw-berlin.de/
+One week before the Showtime takes place, the website will be published to our production server: https://showtime.f4.htw-berlin.de/
 
+### New in SoSe 23: Please use Draft Mode
+
+**tl;dr: use draft=true and --buildDraft to publish project sites only to staging.**
+
+- add draft = true to _index.md:
+  If you've created your project dir before 25.6.23: 
+  Please add draft = true to the front matter of the top _index.md in your project subfolder. 
+  (See the templates for an example.)
+
+- for your local build as well as for staging, `hugo server --buildDrafts` is used 
+- on production, drafts are not included
+
+- before the showtime, draft should be set to false
+
+- this allows projects to be published on an individual schedule if needed, 
+  but most importantly, it allows for publishing the Showtime Date and possibly other 
+  info without the need for all or any projects to be ready
+- see see hugo documentation
+   [https://gohugo.io/getting-started/usage/#draft-future-and-expired-content](https://gohugo.io/getting-started/usage/#draft-future-and-expired-content)
+  and this brief blog post: [https://makewithhugo.com/working-with-drafts/](https://makewithhugo.com/working-with-drafts/)
 ## Updating your Fork
 
 To get the updates on the central repository into your fork, do the following:
@@ -187,7 +207,12 @@ Example: Transitioning to summer semester 2022
 
 ## Deployment Setup
 
-### Staging
+### Staging and Production Preview
+
+Every push to main results in a deploy to 
+- staging: [https://htw-imi-showtime.github.io/showtime-website/](https://htw-imi-showtime.github.io/showtime-website/) (with drafts)
+- and production preview: [https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/) (without drafts)
+#### Staging Deployment Details
 
 Every push on main is deployed to the Github Page in the repo
 https://github.com/htw-imi-showtime/htw-imi-showtime.github.io
