@@ -4,6 +4,10 @@ on:
   release:
     types: [published]
 
+  push:
+    tags:
+      - '2023.*'
+
   workflow_dispatch:
     
 jobs:
