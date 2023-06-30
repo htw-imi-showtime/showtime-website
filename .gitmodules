@@ -3,6 +3,6 @@
 	url = ../../htw-imi-showtime/showtime-theme-2021.git
 	branch = main
 [submodule "archive"]
-	path = archive
+	path = content/archive
 	url = git@github.com:drblinken/showtime-project-archive.git
 	branch = main
