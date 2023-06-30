@@ -1,3 +1,6 @@
 [submodule "themes/showtime-theme-2021"]
 	path = themes/showtime-theme-2021
 	url = ../../htw-imi-showtime/showtime-theme-2021.git
+[submodule "archive"]
+	path = archive
+	url = git@github.com:drblinken/showtime-project-archive.git
