@@ -4,5 +4,5 @@
 	branch = main
 [submodule "archive"]
 	path = content/archive
-	url = git@github.com:drblinken/showtime-project-archive.git
+	url = ../../htw-imi-showtime/showtime-website-project-archive.git
 	branch = main
