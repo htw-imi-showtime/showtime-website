@@ -41,6 +41,24 @@ every push to master, without drafts (same as production): [https://htw-imi-show
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
 1. Fork the project to your GitHub account.
 2. Clone the project:
+2.a Without archive submodule:
+```
+git clone --depth 1  https://github.com/<your-account>/showtime-website.git
+cd showtime-website
+```
+or using SSH:
+```
+git clone --depth 1 git@github.com:<your-account>/showtime-website.git
+cd showtime-website
+```
+
+then get the theme submodule:
+
+```
+git submodule update --init themes/showtime-theme-2021
+```
+
+2.b Complete with both submodule:
 ```
 git clone --depth 1 --recurse-submodules https://github.com/<your-account>/showtime-website.git
 cd showtime-website
@@ -57,7 +75,7 @@ cd showtime-website
    If you get an error:
    * Did you forget to clone the submodules? If so, you can get the theme submodule by running
    ```
-   git submodule update --init --recursive
+   git submodule update --init themes/showtime-theme-2021
    ```
    * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
 
