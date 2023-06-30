@@ -3,11 +3,9 @@ title = "Projects"
 layout = "projects_list"
 +++
 
-
 This term there are [6 bachelor's](#B1) and [6 master's](#M1) projects.
 Detailled Project descriptions will be added soon. To get an idea of the
 scope and characteristics of our projects, [visit the archive](../ws22).
-
 
 <!-- this part below can be completely deleted as soon as the projects go online. -->
 <a name="B1"></a>
@@ -27,3 +25,4 @@ scope and characteristics of our projects, [visit the archive](../ws22).
 - **M4 - ShopGPT - Domain-specific extension of GPT**
 - **M5 - Generierung von Quiz-Fragen für das E-Learning mit künstlicher Intelligenz**
 - **M6 - Entwicklung eines Frameworks zur Generierung und Auswertung von akustischer Manipulation von Stresssituationen in VR**
+
