@@ -1,6 +1,6 @@
 +++
 title = "ws20"
 full_title = "Winter semester 2020"
-layout = "projects_archive"
+layout = "projects_list"
 weight = 20202
 +++
