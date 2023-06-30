@@ -2,7 +2,7 @@ name: deploy staging (https://htw-imi-showtime.github.io/staging)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   deploy:

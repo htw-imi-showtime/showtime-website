@@ -2,7 +2,6 @@ name: deploy development (https://<user>.github.io/showtime-website)
 
 on:
   push:
-
     branches: [ main ]
   
   workflow_dispatch:

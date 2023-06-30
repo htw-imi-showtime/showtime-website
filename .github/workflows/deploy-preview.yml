@@ -2,7 +2,7 @@ name: deploy preview (https://htw-imi-showtime.github.io/preview)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   deploy:
