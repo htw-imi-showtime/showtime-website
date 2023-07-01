@@ -11,3 +11,11 @@ theme = "showtime-theme-2021"
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+
+[permalinks]
+  [permalinks.page]
+    posts = '/articles/:year/:month/:slug/'
+    tutorials = '/training/:slug/'
+  [permalinks.section]
+    posts = '/articles/'
+    tutorials = '/training/'
