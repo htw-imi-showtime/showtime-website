@@ -14,8 +14,6 @@ theme = "showtime-theme-2021"
 
 [permalinks]
   [permalinks.page]
-    posts = '/articles/:year/:month/:slug/'
-    tutorials = '/training/:slug/'
+    archive = '/:filename/'
   [permalinks.section]
-    posts = '/articles/'
-    tutorials = '/training/'
+    archive = '/'
