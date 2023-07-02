@@ -11,9 +11,9 @@ Showtime of Sommersemester 2023 will be held in presence.  It'll be great to see
 [-> check_the_schedule](schedule)
 {{</teaser>}}
 
-{{<teaser category="projects" title="One Term Eight Projects">}}
+{{<teaser category="projects" title="One Term Ten Projects">}}
 Bachelor students do one, Master students two practical projects during their studies. This term, we
-are happy to present four projects in the Bachelor's and four Projects in the Master's program.
+are happy to present five projects in the Bachelor's and five Projects in the Master's program.
 [-> discover_the_projects](projects)
 {{</teaser>}}
 
