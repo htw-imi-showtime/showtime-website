@@ -25,22 +25,36 @@ every push to master, without drafts (same as production): [https://htw-imi-show
 
 ## Documentation
 
-- [Adding a new project](#adding-a-new-project)
-- [Updating your Fork](#updating-your-fork)
-- [Including additional content](#including-additional-content)
-  - [Sections](#sections)
-  - [Images](#images)
-  - [Gallery](#gallery)
-    - [Special Case: Team Gallery](#special-case-team-gallery)
-  - [Videos](#videos)
-  - [HTW Mediathek Player](#htw-mediathek-player)
-  - [GitHub Gists](#github-gists)
-- [Adding a new semester](#adding-a-new-semester)
+- [IMI Showtime Website](#imi-showtime-website)
+  - [Builds \& Deployments](#builds--deployments)
+    - [Staging](#staging)
+    - [Preview](#preview)
+    - [Production](#production)
+  - [Documentation](#documentation)
+  - [Adding a new project](#adding-a-new-project)
+    - [New in SoSe 23: Please use Draft Mode](#new-in-sose-23-please-use-draft-mode)
+  - [Updating your Fork](#updating-your-fork)
+  - [Including additional content](#including-additional-content)
+    - [Sections](#sections)
+    - [Images](#images)
+    - [Gallery](#gallery)
+      - [Special Case: Team Gallery](#special-case-team-gallery)
+    - [Videos](#videos)
+    - [HTW Mediathek Player](#htw-mediathek-player)
+    - [GitHub Gists](#github-gists)
+- [Site Administration](#site-administration)
+  - [Adding a new semester](#adding-a-new-semester)
+  - [Deployment Setup](#deployment-setup)
+    - [Staging and Production Preview](#staging-and-production-preview)
+      - [Staging Deployment Details](#staging-deployment-details)
+    - [Production](#production-1)
+    - [Create a new Release:](#create-a-new-release)
 
 ## Adding a new project
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
 1. Fork the project to your GitHub account.
 2. Clone the project:
+
 2.a Without archive submodule:
 ```
 git clone --depth 1  https://github.com/<your-account>/showtime-website.git
@@ -82,14 +96,14 @@ cd showtime-website
 
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ws22/bachelor/b0-template/ content/ws22/bachelor/b#-your-project/
+cp -R content/ss23/bachelor/b0-template/ content/ss23/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws22/master/m0-template/ content/ws22/master/m#-your-project/
+cp -R content/ss23/master/m0-template/ content/ss23/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-5. Fill out your project's homepage `content/ws22/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+5. Fill out your project's homepage `content/ss23/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    **Please don't use Markdown headings (hashtags) directly, since those headings won't be displayed correctly.**
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
@@ -98,7 +112,7 @@ cp -R content/ws22/master/m0-template/ content/ws22/master/m#-your-project/
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ws22/<bachelor|master>/<project_number-your-project>
+git add content/ss23/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
