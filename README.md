@@ -112,7 +112,7 @@ cp -R content/ss23/master/m0-template/ content/ss23/master/m#-your-project/
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ws22/<bachelor|master>/<project_number-your-project>
+git add content/ss23/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
