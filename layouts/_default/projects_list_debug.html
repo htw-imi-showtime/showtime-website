@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+
+{{ $semester := .Title }}
+{{ $title := "DEBUG" }}
+{{ $show_semester_selection := true}}
+
+
+{{ if eq .Title "Projects" }}
+    {{ $semester = .Site.Params.current_semester }}
+   {{  $title = .Title }}
+   {{ $show_semester_selection = false}}
+{{ end }}
+
+
+    <header>
+        <h1>
+            {{ $title }}
+            <span class="light block">
+                {{ partial "semester" (dict "type" "short" "semester" $semester) }}</span>
+            <span class="underscore-spacer"> </span>
+        </h1>
+
+        <section class="underscore">
+            <div class="spacer"></div>
+
+
+<p>all these work on localhost:</p>
+
+<div class="select-wrapper">
+   <select name="semester"  id = "semester-select">
+   <option value="/debug#1">/debug#1</option>
+    <option value="debug#2">debug#2</option>
+    <option value="../debug#7">../debug#7</option>
+    <option value="{{ .RelPermalink }}#3">{{ .RelPermalink }}#3(.RelPermalink)</option>
+    <option value="{{ .Permalink }}?4">{{ .Permalink }}?4(.Permalink)</option>
+    <option value="{{ "/debug" | relURL }}?5">"debug" | relURL ?5</option>
+    <option value="{{ .Title | relURL }}?8">.Title | relURL ?8 (original version)</option>
+    <option value="{{ "/debug" | absURL }}?6">"debug" | absURL ?6 </option>
+    <option value="/archive/ss22/">/archive/ss22/</option>
+    <option value="archive/ss22/">archive/ss22/</option>
+    <option value="archive/ss22/">archive/ss22/</option>
+    
+    
+   </select>
+</div>
+the original one: 
+
+            {{ if $show_semester_selection }}
+                {{ partial "semester_selection.html" . }}
+            {{ end }}
+
+
+
+
+
+
+
+            {{- .Content -}}
+        </section>
+       
+    </header>
+
+         {{ $current_semester_page := .Site.GetPage $semester}}
+         <!--
+        <hr> {{ range $current_semester_page.Pages }}
+        {{ .RelPermalink }}<br>
+        {{ end }}
+        <hr>
+        -->
+        {{ partial "project_list_partial.html" $current_semester_page }}
+
+{{ end }}
