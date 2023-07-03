@@ -7,8 +7,6 @@ on:
   push:
     tags:
       - '2023.*'
-
-  workflow_dispatch:
     
 jobs:
   deploy:
