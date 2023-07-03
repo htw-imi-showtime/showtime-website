@@ -3,10 +3,6 @@ name: deploy production (https://showtime.f4.htw-berlin.de/)
 on:
   release:
     types: [published]
-
-#  push:
-#    tags:
-#      - '2023.*'
     
 jobs:
   deploy:
@@ -24,7 +20,10 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify -e production
+      run: |
+        hugo \
+          --environment production \
+          --minify
 
     - name: Deploy
       uses: appleboy/scp-action@v0.1.1

@@ -2,7 +2,7 @@ name: build hugo with various versions
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   hugo:
