@@ -50,7 +50,18 @@ every push to master, without drafts (same as production): [https://htw-imi-show
     - [Production](#production-1)
     - [Create a new Release:](#create-a-new-release)
 
-## Adding a new project
+## Default Branch renamed to Main!
+
+**The default branch was renamed to main!** If you want to continue working with your existing clone, you need to rename your master branch to `main`:
+
+```
+git branch -m master main
+git fetch origin main
+git branch -u origin/main main
+git remote set-head origin -a
+
+```
+## Adding your project presentation
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
 1. Fork the project to your GitHub account.
 2. Clone the project:

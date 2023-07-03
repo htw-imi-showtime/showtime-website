@@ -4,9 +4,9 @@ on:
   release:
     types: [published]
 
-  push:
-    tags:
-      - '2023.*'
+#  push:
+#    tags:
+#      - '2023.*'
     
 jobs:
   deploy:
