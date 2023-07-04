@@ -62,6 +62,9 @@ git remote set-head origin -a
 
 ```
 ## Adding your project presentation
+
+**Please remember to keep your images as small as possible!**
+
 If you want to add your project to the website, please follow these steps and create a pull request when you're done:
 1. Fork the project to your GitHub account.
 2. Clone the project:
