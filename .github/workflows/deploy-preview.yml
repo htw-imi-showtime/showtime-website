@@ -4,6 +4,8 @@ on:
   push:
     branches: [ main ]
 
+  workflow_dispatch:
+
 jobs:
   deploy:
     if: github.repository == 'htw-imi-showtime/showtime-website'
