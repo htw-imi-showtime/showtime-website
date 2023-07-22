@@ -3,7 +3,7 @@ title = "Future"
 weight = 5
 +++
 
-{{<section title="Multiple Images Uploaded" >}}
+{{<section title="Uploading multiple images" >}}
 It is intended that ShopGPT will support the ability to upload multiple images in the future. This will enable users to provide more detailed visual information about the products they are seeking, allowing for even more accurate and tailored recommendations.
 {{</section>}}
 
