@@ -32,7 +32,7 @@ The ShopGPT team is a dynamic and talented team of four IMI-Master students. Ind
 {{<team-member image="ilham.jpeg" name="Ilham">}}
 {{<team-member image="huong.jpg" name="Huong">}}
 {{<team-member image="kim.jpg" name="Kim">}}
-{{<team-member image="matthias.jpeg" name="Huong">}}
+{{<team-member image="matthias.jpeg" name="Matthias">}}
 {{</gallery>}}
 
 {{<section title="Our partners">}}
@@ -42,6 +42,6 @@ We are thankful for their ongoing moral and technical support, their vision, and
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="chris-lennan.jpg" name="Chris">}}
+{{<team-member image="chris-lennan.jpg" name="Christopher">}}
 {{<team-member image="jakob.jpg" name="Jakob">}}
 {{</gallery>}}
