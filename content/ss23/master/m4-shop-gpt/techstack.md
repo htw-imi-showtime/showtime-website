@@ -1,6 +1,6 @@
 +++
 title = "Tech Stack"
-weight = 1
+weight = 4
 +++
 
 {{<section title="Tech Stack">}}
