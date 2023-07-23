@@ -3,14 +3,41 @@ title = "Challenges"
 weight = 3
 +++
 
-{{<section title="Multiple Images Uploaded" >}}
-It is intended that ShopGPT will support the ability to upload multiple images in the future. This will enable users to provide more detailed visual information about the products they are seeking, allowing for even more accurate and tailored recommendations.
+{{<section title="New AI Technology" >}}
+Using cutting-edge AI technology presented us with a significant challenge. 
+It required considerable time and effort to thoroughly research Prompt Engineering, GPT models, 
+Langchain framework and grasp these concepts, ensuring a solid understanding for effective 
+integration into our project.
 {{</section>}}
 
-{{<section title="Combination of Text and Image Input" >}}
-Currently, the user can either text or upload an image. We want to work towards seamlessly integrating both text and image input simultaneously within ShopGPT. This means users will have the flexibility to describe their desired products through text and supplement it with visual references, enabling a richer and more comprehensive shopping experience.
+{{<section title="Keeping Up with Rapid Technology Changes" >}}
+As technology rapidly evolves, we encountered challenges in staying up-to-date with frequent 
+updates in LangChain versions, OpenAI function calls, GPT models, and Vector Database. 
+This necessitated continuous monitoring and adaptation to ensure compatibility.
 {{</section>}}
 
-{{<section title="Quality Improvement" >}}
-One of the most important future goals is to improve the performance of ShopGPT, ensuring faster response times and a smoother user experience. We also want to advance our image recognition capabilities to provide even more accurate and precise results by fine-tuning the image embedding model based on the idealo database. Additionally, we aim to offer responses more precisely in any user's preferred language, catering to a more diverse user base. Inclusive design is also a key focus, ensuring that ShopGPT is accessible and user-friendly for everyone.
+{{<section title="Accessing Idealo's Database" >}}
+The process of gaining access to Idealo's database and API was not as fast as we expected, 
+which did impact the early stages of development. Despite the delays, we persevered and 
+established effective communication to overcome this obstacle.
+{{</section>}}
+
+{{<section title="Image similarity search Vector DB" >}}
+Developing an image similarity search with Vector DB posed a significant challenge for us, 
+due to limited time and various methods considered to retrieve similar images from the database. 
+Creating custom scripts to retrieve extensive product metadata and embedding data effectively 
+in our vector database introduced additional complexities.
+{{</section>}}
+
+{{<section title="Filter products" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Nulla facilisis neque id vulputate malesuada. 
+Quisque dignissim finibus urna sed sagittis.
+{{</section>}}
+
+{{<section title="Deployment Hurdles" >}}
+Although we considered deploying our website, we encountered security concerns and limitations. 
+Due to security concerns and the early version prototype status of Idealo, we couldn't expose 
+the OpenSearch API key for deployment. Additionally, we needed to ensure cost-effectiveness and 
+prevent potential misuse by users. As a result, we made the decision not to proceed with deployment at this time.
 {{</section>}}
