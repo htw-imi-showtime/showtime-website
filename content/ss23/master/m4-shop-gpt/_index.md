@@ -22,7 +22,7 @@ The key objective of our project, therefore, is to **effectively address this is
 Using the latest AI technology, we let users have the flexibility to choose their way to communicate with the assistant, through text or image. We aspire to optimize the decision-making process by offering valuable advice, and recommendations. Most importantly, we hope that our innovative features will make shopping on idealo more intuitive, fun, and seamless for our users.
 {{</section>}}
 
-{{<section title="The team">}}
+{{<section title="The Team">}}
 **Meet the Brilliant Minds Behind ShopGPT**
 
 The ShopGPT team is a dynamic and talented team of four IMI-Master students. Individually, we bring diverse skills and perspectives to the table. From machine learning and natural language processing to user experience design and software engineering, our collective expertise ensures that ShopGPT is built on a solid foundation of innovation, reliability, and user-centricity. Throughout the project period, we had actively supported each other by pair programming and knowledge sharing for the most effective outcome.
@@ -35,7 +35,7 @@ The ShopGPT team is a dynamic and talented team of four IMI-Master students. Ind
 {{<team-member image="matthias.jpeg" name="Matthias">}}
 {{</gallery>}}
 
-{{<section title="Our partners">}}
+{{<section title="Our Partners">}}
 Our journey would not have been possible without the unwavering support and guidance of our project partners from idealo. 
 
 We are thankful for their ongoing moral and technical support, their vision, and ideas, that have been shaping the development of ShopGPT.
