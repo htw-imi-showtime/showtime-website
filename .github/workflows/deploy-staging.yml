@@ -30,6 +30,7 @@ jobs:
           --minify \
           --baseURL "https://htw-imi-showtime.github.io/staging/" \
           --buildDrafts 
+        mv hugo-temp/public public
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
