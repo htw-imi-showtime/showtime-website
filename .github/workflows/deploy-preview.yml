@@ -23,7 +23,9 @@ jobs:
 
     - name: Build
       run: |
+        ./bin/hugo-temp.sh
         hugo \
+          --source hugo-temp \
           --environment production \
           --minify \
           --baseURL "https://htw-imi-showtime.github.io/preview/"
