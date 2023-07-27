@@ -28,12 +28,7 @@ Using the latest AI technology, we let users have the flexibility to choose thei
 The ShopGPT team is a dynamic and talented team of four IMI-Master students. Individually, we bring diverse skills and perspectives to the table. From machine learning and natural language processing to user experience design and software engineering, our collective expertise ensures that ShopGPT is built on a solid foundation of innovation, reliability, and user-centricity. Throughout the project period, we had actively supported each other by pair programming and knowledge sharing for the most effective outcome.
 {{</section>}}
 
-{{<gallery>}}
-{{<team-member image="ilham.jpeg" name="Ilham">}}
-{{<team-member image="huong.jpg" name="Huong">}}
-{{<team-member image="kim.jpg" name="Kim">}}
-{{<team-member image="matthias.jpeg" name="Matthias">}}
-{{</gallery>}}
+{{<image src="team.png" alt="team">}}
 
 {{<section title="Our Partners">}}
 Our journey would not have been possible without the unwavering support and guidance of our project partners from idealo. 
@@ -43,5 +38,5 @@ We are thankful for their ongoing moral and technical support, their vision, and
 
 {{<gallery>}}
 {{<team-member image="chris-lennan.jpg" name="Christopher">}}
-{{<team-member image="jakob.jpg" name="Jakob">}}
+{{<team-member image="jakob-panten.jpg" name="Jakob">}}
 {{</gallery>}}
