@@ -11,15 +11,15 @@ draft = true
 +++
 
 
-Experience the ease of finding your desired products from idealo's extensive database with our cutting-edge AI capabilities, powered by the GPT-model.
+Experience the ease of finding your desired products from **_idealo_**'s extensive database with our cutting-edge AI capabilities, powered by the GPT-model.
 Simply chat with the AI or upload an image, and let ShopGPT work its magic, presenting you with a list of tailored recommendations. 
 Get ready to elevate your shopping game with ShopGPT.
 
 {{<section title="Our Goal">}}
-At present, one of the primary challenges faced by idealo users revolves around the **overwhelming number of filters**, as well as an **extensive list of products** on the main website. This can significantly prolong the process of searching for a specific product, demanding an unnecessary substantial amount of time from users. 
+At present, one of the primary challenges faced by **_idealo_** users revolves around the **overwhelming number of filters**, as well as an **extensive list of products** on the main website. This can significantly prolong the process of searching for a specific product, demanding an unnecessary substantial amount of time from users. 
 The key objective of our project, therefore, is to **effectively address this issue** and build a powerful shopping assistant to **simplify the shopping process**.
 
-Using the latest AI technology, we let users have the flexibility to choose their way to communicate with the assistant, through text or image. We aspire to optimize the decision-making process by offering valuable advice, and recommendations. Most importantly, we hope that our innovative features will make shopping on idealo more intuitive, fun, and seamless for our users.
+Using the latest AI technology, we let users have the flexibility to choose their way to communicate with the assistant, through text or image. We aspire to optimize the decision-making process by offering valuable advice, and recommendations. Most importantly, we hope that our innovative features will make shopping on **_idealo_** more intuitive, fun, and seamless for our users.
 {{</section>}}
 
 {{<section title="The Team">}}
@@ -31,7 +31,7 @@ The ShopGPT team is a dynamic and talented team of four IMI-Master students. Ind
 {{<image src="team.png" alt="team">}}
 
 {{<section title="Our Partners">}}
-Our journey would not have been possible without the unwavering support and guidance of our project partners from idealo. 
+Our journey would not have been possible without the unwavering support and guidance of our project partners from **_idealo_**. 
 
 We are thankful for their ongoing moral and technical support, their vision, and ideas, that have been shaping the development of ShopGPT.
 {{</section>}}

@@ -27,13 +27,13 @@ This benchmarking process helped us ensure that our chatbot stood out and delive
 {{</section>}}
 
 {{<section title="Concept & Prototype">}}
-The goal is to create a domain-specific shopping assistant with similar capabilities as ChatGPT, specifically tailored to idealo content.
+The goal is to create a domain-specific shopping assistant with similar capabilities as ChatGPT, specifically tailored to **_idealo_** content.
 
-First, it is important to consider the use cases and understand what users need or want when they visit the idealo website. 
+First, it is important to consider the use cases and understand what users need or want when they visit the **_idealo_** website. 
 This involves brainstorming ideas and identifying specific features that can assist users with their shopping process. 
 Collaborative tools like Miro can be used to gather and organize these ideas, creating a comprehensive list of features for the shopping assistant.
 
-Next, leveraging existing design resources such as idealo, ChatGPT, Bing, and Bard can provide valuable insights and inspiration. 
+Next, leveraging existing design resources such as **_idealo_**, ChatGPT, Bing, and Bard can provide valuable insights and inspiration. 
 By studying these resources, the team can gather information about the interface, functionality, and user experience that have 
 been successful in similar applications. This knowledge can be applied to design the user interface (UI) of the shopping assistant.
 {{<image src="ideas.png" alt="Collecting ideas on Miro board">}}
@@ -54,7 +54,7 @@ This provided us with a clear overview and enabled effective tracking of our pro
 {{<image src="github_project.png" alt="GitHub project kanban board">}}
 
 Pull requests were thoroughly reviewed and approved before merging, typically scheduled for Thursdays. 
-On Fridays, we conducted showcases with our partners from idealo, highlighting our latest achievements and gathering more insights from them.
+On Fridays, we conducted showcases with our partners from **_idealo_**, highlighting our latest achievements and gathering more insights from them.
 
 **App implementation**. When it came to implementation, we initially focused on building an MVP, utilizing a basic front-end from a chatbot UI. 
 This allowed us to prioritize backend development, ensuring the core features were solid before moving on to UI redesign. 
