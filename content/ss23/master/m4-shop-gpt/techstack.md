@@ -59,7 +59,7 @@ weight = 4
 
 {{<section title="Application Architecture">}}
 
-{{<image src="software_structure.png" alt="Application Architecture">}}
+{{<image src="architecture.png" alt="Application Architecture">}}
 
 {{</section>}}
 
