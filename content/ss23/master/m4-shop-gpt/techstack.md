@@ -45,15 +45,15 @@ weight = 4
 
 #### [OpenAI API](https://openai.com/)
 
-- API to use the latest model (GPT 3.5 / GPT 4) of OpenAI as the main intelligent processing of our web application
+- API to use the latest model (GPT 3.5 / GPT 4) of OpenAI as the main intelligent processing of our web application.
 
-#### OpenSearch API / AWS
+#### OpenSearch API
 
-- Custom database filter built by [idealo](https://www.idealo.de/) based on AWS
+- **_idealo_**'s custom product search API.
 
 #### [LangChain (JS)](https://js.langchain.com/docs/get_started/introduction)
 
-- Provided essential functionalities for language processing, allowing the AI assistant to comprehend user queries, analyze text and image inputs, and generate contextually relevant and accurate responses
+- Provided essential functionalities for language processing, allowing the AI assistant to comprehend user queries, analyze text and image inputs, and generate contextually relevant and accurate responses.
 
 {{</section>}}
 
