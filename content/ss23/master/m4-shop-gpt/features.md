@@ -44,7 +44,7 @@ With our Chatbot Response Creativity Selection, you can set the tone of your con
 {{<image src="conversation_style.png" alt="conversation-style" caption="Neutral Creativity">}}
 {{</section>}}
 
-{{<section title="UI Theme">}}
+{{<section title="UI Themes">}}
 Have you ever been in a theme battle? No worry, customers preferences are important to us. ShopGPT lets you choose your preferred theme while using the app.
 
 {{<image src="themes.png" alt="themes" caption="Dark / Light Theme">}}
