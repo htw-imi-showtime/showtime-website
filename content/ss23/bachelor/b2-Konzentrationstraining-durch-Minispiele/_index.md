@@ -1,20 +1,18 @@
+
 +++
 title = "Konzentrationstraining durch Minispiele"
 project_id = "B2"
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
-card_description = "This is only a template" 
+card_image = "ICCSharpLogo.jpeg"
+card_description = "This Game is with the cute doodle look, easy to control but harder to play than you might think. Through different types of mini-games your concentration will be tested and challenged to its maximum."
 
-team = ["Alexander Stämmler", "Enno Kleinfeldt", "Jannis Suchanek", "Jerome Delafosse", "Milana Tran", "Nermin Rustic", 
-"Pascal Radtke"]
+source_link = "https://github.com/ChariotGames/Minigame.git"
+team = ["Alexander Stämmler", "Enno Kleinfeldt", "Jannis Suchanek", "Jerome Delafosse", "Milana Tran", "Nermin Rustic", "Pascal Radtke"]
 supervisor = "Prof. Dr. Tobias Lenz"
 draft = true
 +++
 
-Concentration training through mini-games! 
-
-A stimulus overload or an actual training to increase concentration?
 
 {{<section title="Our Goal">}}
 
@@ -37,5 +35,12 @@ We have dynamically divided the tasks according to ability and interest, so that
 
 {{</section>}} 
 
-{{<gallery>}} {{team-member image="cat.jpg" name="Alexander Stämmler", team-member image="cat.jpg" name="Enno Kleinfeldt",, team-member image="cat.jpg" name="Jannis Suchanek" team-member image="cat.jpg" name="Jerome Delafosse", team-member image="cat.jpg" name="Milana Tran", team-member image="cat.jpg" name="Nermin Rustic", team-member image="cat.jpg" name="Pascal Radtke">}} {{</gallery>}}
-
+{{<gallery>}} 
+	{{<team-member image="AlexProfil.png" name="Alexander Stämmler">}}
+	{{<team-member image="EnnoProfil.png" name="Enno Kleinfeldt">}}
+	{{<team-member image="jannis.png" name="Jannis Suchanek">}}
+	{{<team-member image="JeromeProfil.png" name="Jerome Delafosse">}}
+	{{<team-member image="MilanaProfil.png" name="Milana Tran">}}
+	{{<team-member image="NerminProfil.png" name="Nermin Rustic">}}
+	{{<team-member image="PascalProfil.png" name="Pascal Radtke">}} 
+{{</gallery>}}
