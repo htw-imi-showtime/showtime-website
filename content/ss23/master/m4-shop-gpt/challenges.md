@@ -29,12 +29,6 @@ Creating custom scripts to retrieve extensive product metadata and embedding dat
 in our vector database introduced additional complexities.
 {{</section>}}
 
-{{<section title="Products search and filter" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Nulla facilisis neque id vulputate malesuada.
-Quisque dignissim finibus urna sed sagittis.
-{{</section>}}
-
 {{<section title="Deployment Hurdles" >}}
 Although we considered deploying our website, we encountered security concerns and limitations.
 Due to security concerns and the early version prototype status of Idealo, we couldn't expose
