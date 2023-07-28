@@ -36,7 +36,4 @@ Our journey would not have been possible without the unwavering support and guid
 We are thankful for their ongoing moral and technical support, their vision, and ideas, that have been shaping the development of ShopGPT.
 {{</section>}}
 
-{{<gallery>}}
-{{<team-member image="chris-lennan.jpg" name="Christopher">}}
-{{<team-member image="jakob-panten.jpg" name="Jakob">}}
-{{</gallery>}}
+{{<image src="partners.png" alt="idealo partners">}}
