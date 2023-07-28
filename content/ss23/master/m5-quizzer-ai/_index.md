@@ -14,10 +14,13 @@ draft = true
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
 
 <!-- {{<image src="header.png" alt="Logo" >}} -->
+{{<section title="Objective">}}
+The primary objective of our project was to enhance and expand a small prototype for generating quiz questions using OpenAI and make it ready for release. The aim was to provide clients with an easier way to create quiz questions. To achieve this, we utilized Fine-Tuning and Embeddings. Users can import their specific knowledge or create their custom models to improve the question format.
+{{</section>}}
 
 {{<section title="Our Partner">}}
 {{<image src="_mll_logo.png" alt="Development" >}}
-**Mobile Learning Labs** entwickelt mit Quizzer ein international preisgekröntes System für spielerisches mobiles Lernen. Das System bietet eine einzigartige Kombination aus effektiven Lernmethoden und spielerischen Elementen - verpackt in einer Quiz-App. Das Trainingssystem der App ermöglicht nachhaltiges Lernen und die Quiz-Duelle Live-Wettbewerbe, Avatare und Awards sorgen für Spaß, Motivation und Erfolgserlebnisse. Quizzer ist bei Kunden wie **Edeka**, der **Österreichischen Sparkassenakademie**, **EnBW** und der größten **Polizeischule der Schweiz** in den unterschiedlichsten Bereichen im Einsatz.
+**Mobile Learning Labs** develops **Quizzer**, an internationally award-winning system for playful mobile learning. The system offers a unique combination of effective learning methods and playful elements, all wrapped up in a quiz app. The app's training system enables sustainable learning, and the quiz duels, live competitions, avatars, and awards ensure fun, motivation, and a sense of achievement. **Quizzer** is utilized by various clients, including **Edeka**, the **Austrian Sparkassenakademie**, **EnBW**, and the largest police school in Switzerland, across diverse fields.
 {{</section>}} 
 
 {{<section title="👨‍💻 The Team">}}
