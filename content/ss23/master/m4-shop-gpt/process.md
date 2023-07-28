@@ -4,9 +4,9 @@ weight = 2
 +++
 
 {{<section title="Research">}}
-**Choosing Machine Learning (ML) models**. We explored different options for ML models that can power the chatbot. 
-Some of the options considered are Azure AI, GPT, Alpaca, and Llama. 
-We assessed their features, capabilities, and compatibility with our requirements to make a decision.
+**Choosing Machine Learning (ML) models**. We explored different options for ML models that could power the chatbot. 
+Some of the options considered were GPT-3 from OpenAI, Alpaca from Stanford University, and Llama from Meta. 
+We assessed their features, capabilities, and compatibility with our requirements to make an informed decision.
 
 **Getting to know LangChain**. LangChain is a framework specifically designed to simplify the creation of applications utilizing large language models. 
 As we were new to this framework, we had to research and practice in order to gain a comprehensive 
