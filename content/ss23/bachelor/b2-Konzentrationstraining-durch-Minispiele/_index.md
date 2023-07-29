@@ -36,11 +36,11 @@ We have dynamically divided the tasks according to ability and interest, so that
 {{</section>}} 
 
 {{<gallery>}} 
-	{{<team-member image="AlexProfil.png" name="Alexander Stämmler">}}
-	{{<team-member image="EnnoProfil.png" name="Enno Kleinfeldt">}}
-	{{<team-member image="jannis.png" name="Jannis Suchanek">}}
-	{{<team-member image="JeromeProfil.png" name="Jerome Delafosse">}}
-	{{<team-member image="MilanaProfil.png" name="Milana Tran">}}
-	{{<team-member image="NerminProfil.png" name="Nermin Rustic">}}
-	{{<team-member image="PascalProfil.png" name="Pascal Radtke">}} 
+{{<team-member image="AlexProfil.png" name="Alexander Stämmler">}}
+{{<team-member image="EnnoProfil.png" name="Enno Kleinfeldt">}}
+{{<team-member image="jannis.png" name="Jannis Suchanek">}}
+{{<team-member image="JeromeProfil.png" name="Jerome Delafosse">}}
+{{<team-member image="MilanaProfil.png" name="Milana Tran">}}
+{{<team-member image="NerminProfil.png" name="Nermin Rustic">}}
+{{<team-member image="PascalProfil.png" name="Pascal Radtke">}} 
 {{</gallery>}}
