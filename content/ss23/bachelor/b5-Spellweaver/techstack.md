@@ -10,10 +10,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque i
 
 {{</section>}}
 
-{{<section title="Future">}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
-
-
-{{</section>}}
-
+{{<image src="filename.type" alt="Alt text for image" caption="The image's caption">}}
+{{<image src="filename.type" alt="Alt text for image" caption="The image's caption">}}
+{{<image src="filename.type" alt="Alt text for image" caption="The image's caption">}}
+{{<image src="filename.type" alt="Alt text for image" caption="The image's caption">}}
+{{<image src="filename.type" alt="Alt text for image" caption="The image's caption">}}
