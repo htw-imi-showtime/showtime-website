@@ -15,6 +15,6 @@ ShopGPT analyzes product descriptions and specifications to automatically compar
 
 - *Short product description*
 
-A concise summary of product specifications, showcasing key advantages and disadventages. Located at the top of the page for instant visibility, ensuring users access essential information effortlessly.
+A concise summary of product specifications, showcasing key advantages and disadvantages. Located at the top of the page for instant visibility, ensuring users access essential information effortlessly.
 
 {{</section>}}
