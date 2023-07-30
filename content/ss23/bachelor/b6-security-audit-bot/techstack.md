@@ -8,18 +8,15 @@ weight = 1
 {{<section title="Projekt Management">}}
 
 The project management was mainly done via GitLab. Our GitLab server was provided by our project supervisors David Koschnick and Christoph Bork.
-Under their guidance, we focused on agile methods and predominantly followed a scrum-like approach.
+Under their guidance, we focused on agile methods and mainly followed a scrum-like approach.
 
 For our weekly sprints, we used the issue (ticket) board and milestones (epics).
-This allowed us to approach our tasks in a structured way and track the progress in the project well.
-The GitLab wiki feature served as our documentation area where we could share our knowledge and agreed deliverables.
+This allowed us to approach our tasks in a structured way and track the increment progress in the project well.
+The GitLab wiki served as our documentation area where we could share our knowledge and note our agreed deliverables.
 
 The progress of the sprint backlog was tracked through the closed tickets on the board, which gave us an overview of completed tasks.
 To check the individual progress of team members, we used the "Activity" tab, which listed all activities in the corresponding repository.
-This allowed us to collaborate efficiently and transparently and successfully manage the project's progress.
-
-Thanks to this effective use of GitLab, we were able to manage the project smoothly and work together towards our goals.
-The clear structure and transparent communication facilitated collaboration and contributed to our success.
+This allowed us to collaborate efficiently, transparently and successfully manage the project's progress.
 
 {{</section>}} 
 
@@ -30,9 +27,18 @@ The clear structure and transparent communication facilitated collaboration and 
 
 {{<section title="Development">}}
 
-We used primarily Pycharm and Visual Studio Code.
-Python and Typescript were our mainly used languages.
-Gitlab was our Code Management platform.
+For the development of the user interface, we used the Visual Studio Code IDE since its highly customizable with a wide range of extensions that can significantly increase productivity.
+For example, snippets for different languages and libraries.
+
+Our Backend is using FastAPI, which is based on Python.
+Therefore we used PyCharm, since it is a powerful IDE designed for Python programming.
+It offers intelligent coding assistance, remote development capabilities, built-in testing and debugging tools, and robust support for web development frameworks.
+
+As a tool for source code management we used GitLab.
+It offers Git-based repositories which enables clear code reviews, asset version control, and powerful branching patterns.
+With robust security and compliance features, GitLab ensures the protection of source code and project access, making it an ideal choice for collaborative development.
+
+
 
 {{</section>}} 
 
@@ -45,7 +51,18 @@ Gitlab was our Code Management platform.
 
 {{<section title="Frontend">}}
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+As a front-end framework we have chosen Vue 3.
+It is a popular lightweight library for building interactive web interfaces.
+Due to dynamic components with a simple and flexible API it is great for building modern single page applications.
+The latest version, Vue 3, introduces the Composition API, which is a set of additive, function-based APIs that allow flexible composition of component logic.
+It provides better TypeScript support and overall improved performance.
+
+Vite is a modern web development build tool, designed to provide a fast development server and efficient bundling.
+Developed by the creator of Vue.js, Vite offers speedy cold start times, smaller bundle sizes, and improved developer experience, making it an excellent choice for building high-performance applications.
+
+Pinia is the state management library officially recommended for Vue applications.
+It is designed to be intuitive, type safe, extensible, and modular by design.
+On top, it provides built-in devtools support and is extremely lightweight.
 
 {{</section>}} 
 
@@ -83,8 +100,9 @@ Both containers run inside the same docker network, which allows them to communi
 The gitlab-ci.yml defines the process of building the new docker image and running it in a new container.
 It is executed by a Gitlab Runner, running in a Docker container as well.
 Therefore we are using docker-in-docker as service (dind) because we are building containers from inside a container itself.
-Because the runner is inside a container too and registered inside GitLab we can just use the docker socket address to connect the docker instance of the server. 
-The frontend container provides the GUI on port 80, which automatically ensures that the GUI will be open when requesting the server url.
+The ci/cd gitlab runner is inside a container too and registered inside GitLab.
+We can just use the docker socket address to connect the docker instance of the server. 
+The frontend container provides the GUI on port 80, which automatically ensures that the GUI will be open when requesting the server  url.
 
 {{</section>}} 
 
