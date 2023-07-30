@@ -2,7 +2,7 @@ name: deploy staging (https://htw-imi-showtime.github.io/staging)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, hugo-modules ]
 
   workflow_dispatch:
 
@@ -18,18 +18,15 @@ jobs:
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.114.1'
+        hugo-version: '0.115.1'
         extended: true
 
     - name: Build
       run: |
-        ./bin/hugo-temp.sh
         hugo \
-          --source hugo-temp \
           --environment staging \
           --baseURL "https://htw-imi-showtime.github.io/staging/" \
           --buildDrafts 
-        mv hugo-temp/public public
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
