@@ -27,7 +27,6 @@ jobs:
         hugo \
           --source hugo-temp \
           --environment staging \
-          --minify \
           --baseURL "https://htw-imi-showtime.github.io/staging/" \
           --buildDrafts 
         mv hugo-temp/public public
