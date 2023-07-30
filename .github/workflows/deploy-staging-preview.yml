@@ -7,28 +7,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  checkout:
+  deploy:
     if: github.repository == 'htw-imi-showtime/showtime-website'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
         submodules: true
-
-    - name: upload repo
-      uses: actions/upload-artifact@v3
-      with:
-        name: hugo-repo
-        path: .
-
-  build-tryout:
-    runs-on: ubuntu-latest
-    needs: checkout
-    steps:
-    - name: download hugo-repo
-      uses: actions/download-artifact@v3
-      with:
-        name: hugo-repo
 
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2
@@ -39,28 +24,13 @@ jobs:
     - name: Build
       run: |
         hugo \
-          --source hugo-temp \
           --environment staging \
           --baseURL "https://htw-imi-showtime.github.io/tryout/" \
           --buildDrafts 
-    
-    - name: upload site
-      uses: actions/upload-artifact@v3
+   
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        name: public-staging
-        path: public
-    
-  deploy-tryout:
-    runs-on: ubuntu-latest
-    needs: build-tryout
-    steps:
-      - name: download public
-        uses: actions/download-artifact@v3
-        with:
-          name: public-staging
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.TRYOUT_DEPLOY_KEY }}
-          external_repository: htw-imi-showtime/tryout
-          publish_branch: main
+        deploy_key: ${{ secrets.TRYOUT_DEPLOY_KEY }}
+        external_repository: htw-imi-showtime/tryout
+        publish_branch: main
