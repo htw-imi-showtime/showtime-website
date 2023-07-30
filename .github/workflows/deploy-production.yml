@@ -21,9 +21,12 @@ jobs:
 
     - name: Build
       run: |
+        ./bin/hugo-temp.sh
         hugo \
+          --source hugo-temp \
           --environment production \
           --minify
+        mv hugo-temp/public public
 
     - name: Deploy
       uses: appleboy/scp-action@v0.1.1

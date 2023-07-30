@@ -1,1 +1,3 @@
 baseURL = "https://htw-imi-showtime.github.io/"
+[params]
+    archive_path = "ws22"
