@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 
+
 {{ $semester := .Title }}
 {{ $title := "DEBUG" }}
 {{ $show_semester_selection := true}}
@@ -87,5 +88,17 @@ the original one:
         <hr>
         -->
         {{ partial "project_list_partial.html" $current_semester_page }}
+
+        sort $projects "Params.project_id"
+
+        Projects SoSe:
+{{ with .Site.GetPage "ss23" }}
+    {{ range .Pages }}
+        {{ range sort .Pages ".Params.project_id" }}
+            {{ . }}{{.Params.project_id}} - {{ .Title}}<br/>
+        {{ end }}
+    {{end}}
+{{ end }}
+
 
 {{ end }}

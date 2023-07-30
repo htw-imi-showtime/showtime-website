@@ -1,2 +1,34 @@
 [[slot]]
-title = "The schedule will be published soon."
+time = "10:00"
+title = "Opening"
+class = "general"
+
+[[slot]]
+time = "10:05"
+title = "Project Presentations"
+
+
+
+[[slot]]
+time = "11:25"
+title = "Lunch Break"
+class = "general"
+
+[[slot]]
+time = "12:00-15:00"
+title = "Project Fair"
+text = "Project Booths in Zoom Breakout Rooms"
+class = "general"
+
+
+[[slot]]
+time = "15:00"
+title = "Break"
+text = "(and a secret grading meeting of the supervisors)"
+class = "general"
+
+[[slot]]
+time = "16:00"
+title = "Announcement Of Grades"
+text = "Project Groups meet with their project supervisors"
+class = "general"
