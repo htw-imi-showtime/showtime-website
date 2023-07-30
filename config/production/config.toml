@@ -1,1 +1,3 @@
 baseURL = "https://showtime.f4.htw-berlin.de/"
+[params]
+    archive_path = "ws22"

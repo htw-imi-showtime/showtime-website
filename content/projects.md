@@ -5,7 +5,7 @@ layout = "projects_list"
 
 This term there are [5 bachelor's](#B2) and [5 master's](#M2) projects.
 Detailed Project descriptions will be added soon. To get an idea of the
-scope and characteristics of our projects, [visit the archive](../archive/ws22).
+scope and characteristics of our projects, [visit the archive](../{{< archive-path >}}).
 
 <!-- this part below can be completely deleted as soon as the projects go online. -->
 <a name="B1"></a>
