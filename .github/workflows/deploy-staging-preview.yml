@@ -21,7 +21,7 @@ jobs:
         name: hugo-repo
         path: .
 
-  build-staging:
+  build-tryout:
     runs-on: ubuntu-latest
     needs: checkout
     steps:
@@ -38,13 +38,11 @@ jobs:
 
     - name: Build
       run: |
-        ./bin/hugo-temp.sh
         hugo \
           --source hugo-temp \
           --environment staging \
-          --baseURL "https://htw-imi-showtime.github.io/staging/" \
+          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
           --buildDrafts 
-        mv hugo-temp/public public
     
     - name: upload site
       uses: actions/upload-artifact@v3
@@ -54,7 +52,7 @@ jobs:
     
   deploy-tryout:
     runs-on: ubuntu-latest
-    needs: build-staging
+    needs: build-tryout
     steps:
       - name: download public
         uses: actions/download-artifact@v3
