@@ -5,7 +5,7 @@ weight = 1
 
 
 
-{{<section title="Projekt Management">}}
+{{<section title="Project Management">}}
 
 The project management was mainly done via GitLab. Our GitLab server was provided by our project supervisors David Koschnick and Christoph Bork.
 Under their guidance, we focused on agile methods and predominantly followed a scrum-like approach.
