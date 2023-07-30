@@ -2,7 +2,6 @@
 showtime_date = "04/08/2023"
 showtime_place = "WH H001"
 is_live = "false"
-is_live_bool = false
 zoom_link = "TBD"
 +++
 

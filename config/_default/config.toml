@@ -6,9 +6,20 @@ theme = "showtime-theme-2021"
 [params]
     current_semester = "ss23"
     production_site = "https://showtime.f4.htw-berlin.de/"
-    archive_path = "archive/ws22"
+    archive_path = "ws22"
 
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+
+[module]
+  private = '*.*'
+  proxy = 'direct'
+  workspace = 'off'
+  replacements = 'github.com/htw-imi-showtime/showtime-website-project-archive -> ../project-archive'
+[[module.imports]]
+  path = 'github.com/htw-imi-showtime/showtime-website-project-archive'
+[[module.mounts]]
+  source = "content"
+  target = "content"
