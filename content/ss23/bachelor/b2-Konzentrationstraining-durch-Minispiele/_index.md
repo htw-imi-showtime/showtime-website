@@ -11,7 +11,6 @@ team = ["Alexander Stämmler", "Enno Kleinfeldt", "Jannis Suchanek", "Jerome Del
 supervisor = "Prof. Dr. Tobias Lenz"
 draft = true
 +++
-
 {{<section title="Our Goal">}}
 Our goal is to challenge and by that promote concentration.
 
@@ -30,11 +29,11 @@ We have dynamically divided the tasks according to ability and interest, so that
 {{</section>}}
 
 {{<gallery>}} 
-	{{<team-member image="AlexProfil.png" name="Alexander Stämmler">}}
-	{{<team-member image="EnnoProfil.png" name="Enno Kleinfeldt">}}
-	{{<team-member image="jannis2.png" name="Jannis Suchanek">}}
-	{{<team-member image="JeromeProfil.png" name="Jerome Delafosse">}}
-	{{<team-member image="MilanaProfil.png" name="Milana Tran">}}
-	{{<team-member image="NerminProfil.png" name="Nermin Rustic">}}
-	{{<team-member image="PascalProfil.png" name="Pascal Radtke">}} 
+{{<team-member image="Alex2.png" name="The Voice (Sound)">}}
+{{<team-member image="Enno2.png" name="The Unreal (Dev)">}}
+{{<team-member image="jannis2.png" name="The Bughunter (QA)">}}
+{{<team-member image="Jerome2.png" name="The Changeling (Support)">}}
+{{<team-member image="Milana2.png" name="The Doodleista (Art)">}}
+{{<team-member image="Nermin2.png" name="The Unity (Backend/-drop)">}}
+{{<team-member image="Pascal2.png" name="The Streamer (Design)">}}
 {{</gallery>}}

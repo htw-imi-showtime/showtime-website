@@ -22,4 +22,5 @@ What great game can do without high-scores, collecting points and a pressuring t
 
 But we used them for "scientific reasons". ;) <br>
 The points incentivise you to to stay engaged in playful testing of your concentration, while the high-scores indirectly show your progression and betterment of concentration, by constantly reaching higher values. The timer is a dreading sight at the beginning, but a great measuring Tools for your brain's endurance in the end. 
+{{<image src="highscore.png">}}
 {{</section>}}
