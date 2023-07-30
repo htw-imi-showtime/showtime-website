@@ -6,6 +6,7 @@ project_id = "B4"
 card_image = "Logo.png"
 card_description = "Tired of endless, unproductive meetings that seem to go on forever? Say goodbye to chaos and hello to efficiency with Visual Agenda – the app that revolutionizes the way you plan and run your meetings!"
 
+source_link = "https://github.com/VisualAgenda"
 team = ["Anna Lindner", "Abdullah Tilki", "Samantha Peart"]
 supervisor = "Alexander Pietsch - diva-e"
 draft = true
@@ -14,7 +15,7 @@ draft = true
 {{<gallery>}}
 {{<figure src="Vorschau1.png" alt="homescreen" caption="Homescreen">}}
 {{<figure src="Vorschau3.png" alt="vorschlag von Teilnehmenden" caption="Comment function">}}
-{{<figure src="Vorschau2.png" alt="visualAgenda" caption="Agenda">}}
+{{<figure src="Vorschau2_new.png" alt="visualAgenda" caption="Agenda">}}
 {{</gallery>}}
 
 {{<section title="Our Goal">}}
