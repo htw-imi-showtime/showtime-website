@@ -19,7 +19,7 @@ website_link = "https://itsec.ac0.de/"
 {{<section title="Our Goal">}}
 
 Our software is designed to significantly improve our customers security posture.
-Through a simple and straightforward process, you get a overview of possivle access points to your system so that potentially required actions can be taken immediately.
+Through a simple and straightforward process, you get a overview of possible access points to your system so that potentially required actions can be taken immediately.
 This allows you to respond to potential threats in a timely manner and effectively secure your environment.
 
 {{</section>}}
