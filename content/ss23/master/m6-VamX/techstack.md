@@ -6,14 +6,14 @@ weight = 1
 {{<section title="Tech Stack">}}
 {{<image src="logos.png" alt="Alt text">}}
 
-* **Unity** Within the Unity game engine, we developed the sound framework and built the VR test environment. It provided us with many build-in features for programming with sounds and was well suited for development with VR.
-* **XR Interaction Toolkit** The XR Interaction Toolkit offered us all the basic functions for interaction in VR. With the help of input events and haptic feedback, we were able to make the minigames more interesting and created a good gaming experience.
-* **FMod** FMod has provided us with many more sound manipulation options in addition to the Unity build-in sound system. Within FMod it is possible to edit individual sounds differently and integrate them into Unity.
-* **Unity Editor Scripting** Editor scripting in Unity allows you to create your own editing windows within Unity. It provides many additional UI elements that made editing sounds easier and more organized.
-* **Oculus** The Oculus software enables wireless as well as wired linking of the Oculus Quest with Unity. This connection is essential for real-time manipulation of the sound.
-* **GitHub** For version management of our project in Git, we used Github. It allowed us to work in parallel and secured our program code.
-* **Notion** We used Notion as our project management tool. With Notion we were able to manage tasks, record the project status and document our development process.
-* **Discord** We used Discord for internal communication and to record important links and informations.
+Within the **Unity game engine**, we developed the sound framework and built the VR test environment. It provided us with many build-in features for programming with sounds and was well suited for development with VR.
+The **XR Interaction Toolkit** offered us all the basic functions for interaction in VR. With the help of input events and haptic feedback, we were able to make the minigames more interesting and created a good gaming experience.
+**FMod** has provided us with many more sound manipulation options in addition to the **Unity build-in sound system**. Within **FMod** it is possible to edit individual sounds differently and integrate them into **Unity**.
+**Unity Editor Scripting** Editor scripting in Unity allows you to create your own editing windows within **Unity**. It provides many additional UI elements that made editing sounds easier and more organized.
+The **Oculus** software enables wireless as well as wired linking of the **Oculus Quest** with **Unity**. This connection is essential for real-time manipulation of the sound.
+For version management of our project in Git, we used **GitHub**. It allowed us to work in parallel and secured our program code.
+We used **Notion** as our project management tool. With **Notion** we were able to manage tasks, record the project status and document our development process.
+We used **Discord** for internal communication and to record important links and informations.
 
 
 {{</section>}}
