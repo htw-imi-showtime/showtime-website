@@ -10,6 +10,13 @@ hugoP :  open
 open :
 -  open http://localhost:1313
 
+stag_url=http://localhost:1315/staging
+hugoStaging : openStaging
+-  hugo --environment staging --baseURL "${stag_url}" --buildDrafts --port 1315 server
+
+openStaging :
+-  open ${stag_url}
+
 base_url=http://localhost:1313/showtime-website
 base :
 -  open ${base_url}
