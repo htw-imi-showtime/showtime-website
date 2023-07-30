@@ -7,6 +7,10 @@ hugo :  open
 hugoP :  open
 -  hugo -p 1313 server
 
+hugoA : open
+- ./bin/hugo-temp.sh
+- hugo -p 1313 -s hugo-temp server
+
 stag_url=http://localhost:1315/staging
 hugoStaging : openStaging
 -  hugo --environment staging --baseURL "${stag_url}" --buildDrafts --port 1315 server
