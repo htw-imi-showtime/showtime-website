@@ -35,5 +35,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.PRODUCTION_PREVIEW_DEPLOY_KEY }}
-        external_repository: htw-imi-showtime/production-preview
+        external_repository: htw-imi-showtime/preview
         publish_branch: main
