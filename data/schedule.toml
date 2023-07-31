@@ -5,12 +5,68 @@ class = "general"
 
 [[slot]]
 time = "10:05"
-title = "Project Presentations"
+title = "B2 - Konzentrationstraining durch Minispiele"
+projectDetail = "/ss23/bachelor/b2-Konzentrationstraining-durch-Minispiele/"
+class = "bachelor"
 
+[[slot]]
+time = "10:12"
+title = "B3 - ShopGPT - Smarter Comparisions, Better Decisions"
+projectDetail = "/ss23/bachelor/b3-shop-gpt/"
+class = "bachelor"
+
+[[slot]]
+time = "10:19"
+title = "B4 - VisualAgenda"
+projectDetail = "/ss23/bachelor/b4-visualAgenda/"
+class = "bachelor"
+
+[[slot]]
+time = "10:26"
+title = "B5 - Spellweaver- Words of Power"
+projectDetail = "/ss23/bachelor/b5-Spellweaver/"
+class = "bachelor"
+
+[[slot]]
+time = "10:33"
+title = "B6 - Security Audit Bot"
+projectDetail = "/ss23/bachelor/b6-security-audit-bot/"
+class = "bachelor"
 
 
 [[slot]]
-time = "11:25"
+time = "10:40"
+title = "M2 - Entwicklung eines Chatbots zur Erkennung vom Gesundheitszustand von chronisch kranken Menschen"
+projectDetail = "/ss23/master/m2-mentist/"
+class = "master"
+
+[[slot]]
+time = "10:47"
+title = "M3 - Intu"
+projectDetail = "/ss23/master/m3-intu/"
+class = "master"
+
+[[slot]]
+time = "10:54"
+title = "M4 - ShopGPT - AI Shopping Assistant"
+projectDetail = "/ss23/master/m4-shop-gpt/"
+class = "master"
+
+[[slot]]
+time = "11:01"
+title = "M5 - Quizzer AI"
+projectDetail = "/ss23/master/m5-quizzer-ai/"
+class = "master"
+
+[[slot]]
+time = "11:08"
+title = "M6 - VamX-Virtual Audio Manipulation Experience"
+projectDetail = "/ss23/master/m6-VamX/"
+class = "master"
+
+
+[[slot]]
+time = "11:15"
 title = "Lunch Break"
 class = "general"
 
