@@ -1,90 +1,67 @@
 [[slot]]
 time = "10:00"
 title = "Opening"
-class = "general"
+
+# title, link and class are now determined by project_id
+# see layouts/_default/schedule.html in theme
 
 [[slot]]
 time = "10:05"
-title = "B2 - Konzentrationstraining durch Minispiele"
-projectDetail = "ss23/bachelor/b2-konzentrationstraining-durch-minispiele/"
-class = "bachelor"
+project_id = "B2"
 
 [[slot]]
 time = "10:12"
-title = "B3 - ShopGPT - Smarter Comparisions, Better Decisions"
-projectDetail = "ss23/bachelor/b3-shop-gpt/"
-class = "bachelor"
+project_id = "B3"
 
 [[slot]]
 time = "10:19"
-title = "B4 - VisualAgenda"
-projectDetail = "ss23/bachelor/b4-visualagenda/"
-class = "bachelor"
+project_id = "B4"
 
 [[slot]]
 time = "10:26"
-title = "B5 - Spellweaver- Words of Power"
-projectDetail = "ss23/bachelor/b5-spellweaver/"
-class = "bachelor"
+project_id = "B5"
 
 [[slot]]
 time = "10:33"
-title = "B6 - Security Audit Bot"
-projectDetail = "ss23/bachelor/b6-security-audit-bot/"
-class = "bachelor"
+project_id = "B6"
 
 
 [[slot]]
 time = "10:40"
-title = "M2 - Entwicklung eines Chatbots zur Erkennung vom Gesundheitszustand von chronisch kranken Menschen"
-projectDetail = "ss23/master/m2-mentist/"
-class = "master"
+project_id = "M2"
 
 [[slot]]
 time = "10:47"
-title = "M3 - Intu"
-projectDetail = "ss23/master/m3-intu/"
-class = "master"
+project_id = "M3"
 
 [[slot]]
 time = "10:54"
-title = "M4 - ShopGPT - AI Shopping Assistant"
-projectDetail = "ss23/master/m4-shop-gpt/"
-class = "master"
+project_id = "M4"
 
 [[slot]]
 time = "11:01"
-title = "M5 - Quizzer AI"
-projectDetail = "ss23/master/m5-quizzer-ai/"
-class = "master"
+project_id = "M5"
 
 [[slot]]
 time = "11:08"
-title = "M6 - VamX-Virtual Audio Manipulation Experience"
-projectDetail = "ss23/master/m6-vamx/"
-class = "master"
-
+project_id = "M6"
 
 [[slot]]
 time = "11:15"
 title = "Lunch Break"
-class = "general"
 
 [[slot]]
 time = "12:00-15:00"
 title = "Project Fair"
 text = "Project Booths in H001"
-class = "general"
 
 
 [[slot]]
 time = "15:00"
 title = "Break"
 text = "(and a secret grading meeting of the supervisors)"
-class = "general"
 
 [[slot]]
 time = "16:00"
 title = "Announcement Of Grades"
 text = "Project Groups meet with their project supervisors"
-class = "general"
