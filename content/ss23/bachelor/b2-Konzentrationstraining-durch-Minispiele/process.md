@@ -2,8 +2,10 @@
 title = "Process"
 weight = 1
 +++
+
 {{<section title="Process">}}
 To start with, we first had to define what a mini-game looks like. As we were able to determine, it was not so easy to commit to the necessary functions. We decided to look at the mini-games as a whole and to view our mini-games as individual tasks of a gaming experience.
+
 By implementing simple functions such as pressing a button or moving the control stick in one direction, every gamer's heart is addressed.
 
 After we had determined the direction of the game, we collected our ideas and recorded them on "miro" with the help of mind maps. We divided the types of games into 4 different categories: Skill, Cognitive, Memory and Reaction.

@@ -4,11 +4,12 @@ weight = 1
 +++
 
 {{<section title="Features">}}
+
 * **Game-Modes**
 
 The game is divided into two segments. A single player mode where each of our simple games can be played separately from others. 
 
-In the endless mode where you can play until you run out of hearts. In this mode two randomly selected games of matching genres are displayed in parallel, on the right and left side respectively, and can be played simultaneously. 
+In the endless mode you can play until you run out of hearts. In this mode two randomly selected games of matching genres are displayed in parallel, on the right and left side respectively, and can be played simultaneously. 
 
 {{<image src="Modus.png" caption="The skilled ones should start with the Parallel-Mode.">}}
 {{<image src="Ingame.png" caption="The Parallel-Mode in Action">}}
