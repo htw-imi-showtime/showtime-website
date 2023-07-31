@@ -6,30 +6,38 @@
     </h1>
     <section class="underscore">
         <div class="spacer"></div>
-        {{ .Content }}
-    </section>
-</header>
- {{ $current_semester_page := .Site.GetPage .Site.Params.current_semester }}
- {{ slice $current_semester_page }}
- <ul>
 
+            {{ partial "semester_selection.html" . }}
+       
+
+        {{- .Content -}}
+    </section>
+
+</header>
+<main>
+
+
+ 
+ {{ $current_semester := slice (.Site.GetPage .Site.Params.current_semester) }}
  {{ $all_weight_reversed :=  sort .Site.Pages ".Weight" "desc" }}
  {{ $all_weight_reversed = where $all_weight_reversed "Params.category" "project-archive" }}
- {{ $all :=  append  $all_weight_reversed (slice $current_semester_page) }} 
- {{ $all_weight_reversed }}
- {{ $all }}
+ {{ $all :=  append $all_weight_reversed $current_semester }} 
+
  {{ range $all  }}
- {{ . }}
- <li>**{{ .RelPermalink }}" {{ .Title }} {{ .Params.full_title }}</li>
-    <ul>{{ range .Pages }}
-    <li>{{ .RelPermalink }}" {{ .Title }} {{ .Params.full_title }}
-        <ul>{{ range .Pages }}
+ 
+ <h2><a href="{{ .RelPermalink }}">{{ .Params.full_title | upper }}</a></h2>
+    {{ $semester := .Title }}
+    {{ range .Pages }}
+        
+        <h4><a href="{{ .RelPermalink }}">{{ .Params.Cascade.Type | upper }} {{ $semester | upper}}</a></h4>
+ 
+        <ul>{{ range sort .Pages ".Params.project_id"}}
             <li><a href="{{ .RelPermalink }}"> {{ .Params.project_id }} - {{ .Title }}</a>  ({{ .Params.supervisor }})
         
             {{ end }}</ul>
-    {{ end }}</ul>
+    {{ end }}
     
 {{ end }}
 </ul>
-the archive
+</main>
 {{ end }}
