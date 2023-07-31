@@ -1,4 +1,4 @@
-name: build hugo with various versions
+name: HUGO VERSIONS
 
 on:
   push:
