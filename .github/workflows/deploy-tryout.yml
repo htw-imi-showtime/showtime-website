@@ -1,8 +1,8 @@
-name: deploy staging (https://htw-imi-showtime.github.io/staging)
+name: deploy tryout (https://htw-imi-showtime.github.io/staging)
 
 on:
   push:
-    branches: [ main, hugo-modules ]
+    branches: [ hugo-modules ]
 
   workflow_dispatch:
 
@@ -25,12 +25,12 @@ jobs:
       run: |
         hugo \
           --environment staging \
-          --baseURL "https://htw-imi-showtime.github.io/staging/" \
+          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
           --buildDrafts 
-
+   
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.STAGING_DEPLOY_KEY }}
-        external_repository: htw-imi-showtime/staging
+        deploy_key: ${{ secrets.TRYOUT_DEPLOY_KEY }}
+        external_repository: htw-imi-showtime/tryout
         publish_branch: main

@@ -16,17 +16,14 @@ jobs:
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.114.1'
+        hugo-version: '0.115.1'
         extended: true
 
     - name: Build
       run: |
-        ./bin/hugo-temp.sh
         hugo \
-          --source hugo-temp \
           --environment production \
           --minify
-        mv hugo-temp/public public
 
     - name: Deploy
       uses: appleboy/scp-action@v0.1.1
