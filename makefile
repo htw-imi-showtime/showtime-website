@@ -52,3 +52,6 @@ ci:
 - open https://htw-imi-showtime.github.io/staging/
 - open https://htw-imi-showtime.github.io/preview/
 - open https://htw-imi-showtime.github.io/tryout/
+
+get-theme:
+- git submodule update --init themes/showtime-theme-2021
