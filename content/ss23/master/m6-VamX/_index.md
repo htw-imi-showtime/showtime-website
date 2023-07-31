@@ -27,4 +27,3 @@ We are five students from different semesters of the IMI Master program at the H
 {{<team-member image="Ruslan.jpg" name="Ruslan Novikov">}}
 {{<team-member image="Tim.jpg" name="Tim Markmann">}}
 {{</gallery>}}
-
