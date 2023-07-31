@@ -1,0 +1,1 @@
+hugo mod init github.com/htw-imi-showtime/showtime-website-project-archive

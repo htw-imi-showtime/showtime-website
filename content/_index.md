@@ -5,9 +5,10 @@ is_live = "false"
 zoom_link = "TBD"
 +++
 
-{{<teaser category="about showtime" title="Back in Presence">}}
+{{<teaser category="about showtime" title="Project Fair & Presentations">}}
 
-Showtime of Sommersemester 2023 will be held in presence.  It'll be great to see  you on 04/08 at 10:00 am in Room H001 on our campus Wilhelminenhof! 
+The Bachelor's and Master's International Media and Computing Study Programs present their Practice Projects with Presentations and a Project Fair.
+It'll be great to see  you on 04/08 at 10:00 am for the presentations or between 12:00 and 15:00 for the fair in Room H001 on our <a href="https://www.htw-berlin.de/campus/campus-wilhelminenhof/">Campus Wilhelminenhof!</a>
 [-> check_the_schedule](schedule)
 {{</teaser>}}
 
