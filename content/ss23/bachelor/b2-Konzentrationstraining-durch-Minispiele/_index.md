@@ -20,4 +20,5 @@ Parallel mini-games in the areas of memory, reaction, cognition and rhythm are d
 The mini-games are deliberately designed to simulate the simplest tasks in combination.
 
 It sounds easier than it is, so come to our booth and test it and your concentration yourself.
+{{<image src="ICCsharpCover.jpeg">}}
 {{</section>}}

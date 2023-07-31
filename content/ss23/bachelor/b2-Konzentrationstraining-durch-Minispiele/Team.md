@@ -4,7 +4,7 @@ weight = 1
 +++
 
 {{<section title="The team">}}
-We are a striving group of IMI students, gathered together for the IMI Showtime project to create a wonderful experience for everyone joining our fair stand. Many of us are very creative minds, artistically versatile yet specialists in their respective fields and (semi-)experienced, good game designers. Hence we decided to do the game related project.
+We are a striving group of IMI students, gathered together for the IMI Showtime project to create a wonderful experience for everyone joining our fair booth. Many of us are very creative minds, artistically versatile yet specialists in their respective fields and (semi-)experienced, good game designers. Hence we decided to do the game related project.
 {{</section>}}
 
 {{<gallery>}} 
