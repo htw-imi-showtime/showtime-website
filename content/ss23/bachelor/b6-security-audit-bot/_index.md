@@ -10,7 +10,7 @@ card_description = "With our SecurityAuditBot we present you a user-friendly and
 
 team = ["Kjell Liebher", "Minh Vo", "Mirijam Trippel"]
 supervisor = "David Koschnick & Christoph Bork"
-draft = false
+draft = true
 
 website_link = "https://itsec.ac0.de/"
 +++
