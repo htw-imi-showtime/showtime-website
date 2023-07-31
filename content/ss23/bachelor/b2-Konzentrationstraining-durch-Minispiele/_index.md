@@ -4,7 +4,7 @@ project_id = "B2"
 
 ## Properties for displaying the project in the project list
 card_image = "ICCsharpCover.jpeg"
-card_description = "This Game is with the cute doodle look, easy to control but harder to play than you might think. Through different types of mini-games your concentration will be tested and challenged to its maximum."
+card_description = "'I cant C#' is our Game to challenge your concentration and multitasking abilities. Designed with a cute doodle look, easy to control but harder to play than you might think. Through different types of mini-games your concentration will be tested and challenged to its maximum."
 
 source_link = "https://github.com/ChariotGames/I-Cant-C-Sharp.git"
 team = ["Alexander Stämmler", "Enno Kleinfeldt", "Jannis Suchanek", "Jerome Delafosse", "Milana Tran", "Nermin Rustic", "Pascal Radtke"]
