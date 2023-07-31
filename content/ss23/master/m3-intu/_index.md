@@ -8,10 +8,10 @@ card_description = "Intu is a web-based learning platform that delivers educatio
 
 team = ["Piranavi Satkunanathan", "Martin Christian Solihin", "Alexander Brjazgunov", "Christopher Knapp", "Finja-Malin Scheltens", "Henry Ordelt"] 
 supervisor = "André Selmanagic"
-draft = true
+draft = false
 +++
 
-
+{{<image src="Intu-header.png" alt="Mockup image for intu">}}
 
 {{<section title="Our Goal">}}
 Learning is not a one-size-fits-all process: it's a dynamic and unique journey that varies immensely from person to person. Some students may thrive in an auditory learning environment, where they can passively listen to explanations. Others may find their learning potential amplified when they're reading text or exploring concepts on their own and becoming fully engaged in the learning process. Still, most succeed best with a combination of different methods, blending various learning preferences to create an approach that's uniquely their own. Recognizing these preferences not only results in a faster and better comprehension of the learning content but also keeps students motivated.That’s why intu’s primary goal is to cater to these diverse learning preferences of students.
@@ -32,11 +32,11 @@ Intus’ team structure was highly dynamic from the get-go: Initially, all team 
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="intu-logo.png" name="Piranavi">}}
-{{<team-member image="intu-logo.png" name="Martin">}}
-{{<team-member image="intu-logo.png" name="Alexander">}}
-{{<team-member image="intu-logo.png" name="Christopher">}}
-{{<team-member image="intu-logo.png" name="Finja-Malin">}}
-{{<team-member image="intu-logo.png" name="Henry">}}
+{{<team-member image="Pira.jpg" name="Piranavi">}}
+{{<team-member image="martin.jpeg" name="Martin">}}
+{{<team-member image="Alex.jpeg" name="Alexander">}}
+{{<team-member image="Chris.jpg" name="Christopher">}}
+{{<team-member image="finja.jpg" name="Finja-Malin">}}
+{{<team-member image="henry.png" name="Henry">}}
 {{</gallery>}}
 
