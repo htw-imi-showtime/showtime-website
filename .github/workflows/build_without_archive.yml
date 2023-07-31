@@ -1,8 +1,8 @@
-name: build without archive
+name: BUILD WITHOUT ARCHIVE
 
 on:
   push:
-    branches: [ main ]
+    branches: [ XXX ]
 
   workflow_dispatch:
 

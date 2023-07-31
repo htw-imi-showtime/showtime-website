@@ -1,4 +1,4 @@
-name: deploy preview (https://htw-imi-showtime.github.io/preview)
+name: DEPLOY PREVIEW
 
 on:
   push:
@@ -13,7 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        submodules: true
+        submodules: false
+    - name: Get Theme
+      run: |
+        git submodule update --init themes/showtime-theme-2021
 
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2

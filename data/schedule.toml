@@ -1,34 +1,85 @@
 [[slot]]
 time = "10:00"
 title = "Opening"
-class = "general"
+
+# title, link and class are now determined by project_id
+# see layouts/_default/schedule.html in theme
+
+# if the project is still a draft, title is taken from here.
 
 [[slot]]
 time = "10:05"
-title = "Project Presentations"
-
+project_id = "B2"
+title = "B2 - I Can't C#"
+text = "Konzentrationstraining durch Minispiele"
 
 
 [[slot]]
-time = "11:25"
+time = "10:12"
+project_id = "B3"
+title = "B3 - ShopGPT - Intelligent Shopping Made Simple"
+
+[[slot]]
+time = "10:19"
+project_id = "B4"
+text = "Web App for Agenda Planning and Timekeeping"
+title = "B3 - ShopGPT - Intelligent Shopping Made Simple"
+
+[[slot]]
+time = "10:26"
+project_id = "B5"
+title = "B5 - Spellweaver- Words of Power"
+
+[[slot]]
+time = "10:33"
+project_id = "B6"
+title = "B6 - Security Audit Bot"
+
+
+[[slot]]
+time = "10:40"
+project_id = "M2"
+text = "Entwicklung eines Chatbots zur Erkennung vom Gesundheitszustand von chronisch kranken Menschen"
+title = "M2 - Mentist"
+
+[[slot]]
+time = "10:47"
+project_id = "M3"
+text = "web-based learning platform with intuitive knowledge management"
+title = "M3 - Intu"
+
+[[slot]]
+time = "10:54"
+project_id = "M4"
+title = "M4 - ShopGPT - AI Shopping Assistant"
+
+[[slot]]
+time = "11:01"
+project_id = "M5"
+text = "Content Creation with OpenAI"
+title = "M5 - Quizzer AI"
+
+[[slot]]
+time = "11:08"
+project_id = "M6"
+title = "M6 - VamX-Virtual Audio Manipulation Experience"
+
+[[slot]]
+time = "11:15"
 title = "Lunch Break"
-class = "general"
 
 [[slot]]
 time = "12:00-15:00"
 title = "Project Fair"
 text = "Project Booths in H001"
-class = "general"
 
 
 [[slot]]
 time = "15:00"
 title = "Break"
 text = "(and a secret grading meeting of the supervisors)"
-class = "general"
 
 [[slot]]
 time = "16:00"
 title = "Announcement Of Grades"
 text = "Project Groups meet with their project supervisors"
-class = "general"
