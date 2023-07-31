@@ -2,7 +2,18 @@
   title = "IMI Showtime Summer 23"
   description = "Friday, August 4, 2023"
   date = "2023-08-04"
+
 [[dates]]
   title = "Project Assignment Winter 23/24"
-  description = "TBD"
-  date = "TBD"
+  description = "Wednesday, October 11, 2023 in the afternoon"
+  date = "2023-10-11"
+
+[[dates]]
+  title = "IMI Showtime Winter 23/24"
+  description = "Friday, February 2, 2024"
+  date = "2024-02-02"
+
+[[dates]]
+  title = "IMI Showtime Summer 24"
+  description = "Friday, July 26, 2024"
+  date = "2024-07-26"
