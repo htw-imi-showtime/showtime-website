@@ -3,17 +3,25 @@ title = "Features"
 weight = 1
 +++
 
+{{<section title="❓ Generate Quizzes">}}
+
+TODO
+
+{{</section>}}
+
+
 {{<section title="📕 Embeddings">}}
 
 Embedding of user-supplied information:
-As the knowledge of OpenAI's models is limited with a cutoff date in time and lack of really specific information, more recent or specialized information is unavailable to the AI. To counter this, we are using embeddings to inject our information into the AI prompts. Hereby, chunks of information, like paragraphs, are transformed into a vector space. These vectors capture semantic relationships and patterns to be able to classify their textual content. If the AI is now supposed to create quiz questions on a certain topic, it can compare the prompt embedding with the embeddings in the application database via semantic search to check which sections of text match this topic semantically and how much they match. The information found in the section is then used as the base for question generation.
-In our application, embeddings can be generated from all kinds of documents, like factual books, internal documentations, exam preparations, and so on. Our tool accepts docx Word documents, which get cleaned up by another AI function, so only relevant information is extracted from the document before embedding. For example, page numbers should be left out, and line breaks should be undone in each paragraph. Excel files with already cleaned up information can also be used for fast import of user-compiled data.
+As the knowledge of OpenAI's models is limited with a cutoff date in time and lack of really specific information, more recent or specialized information is unavailable to the AI. To counter this, we are using **embeddings** to inject our information into the AI prompts. Hereby, chunks of **information**, like paragraphs, are transformed into a **vector space**. These vectors capture **semantic relationships** and **patterns** to be able to classify their textual content. If the AI is now supposed to create quiz questions on a certain topic, it can compare the prompt embedding with the embeddings in the application database via **semantic search** to check which sections of text match this topic semantically and how much they match. The information found in the section is then used as the base for question generation.
+
+In our application, embeddings can be generated from all kinds of documents, like factual **books**, **internal documentations**, **exam preparations**, and so on. Our tool accepts docx Word documents, which get cleaned up by another AI function, so only relevant information is extracted from the document before embedding. For example, page numbers should be left out, and line breaks should be undone in each paragraph. Excel files with already cleaned up information can also be used for fast import of user-compiled data.
 Users can then specify which slice of embedded knowledge to use or use all of the saved embeddings found in the application database for question generation.
 
 {{</section>}}
 
 
-{{<section title="🎛 Fine Tuning">}}
+{{<section title="⚙️ Fine Tuning">}}
 
 
 Users are given the opportunity to train their own model, tailored to their specific queries and responses. Fine-tuning, in our case, is all about predicting the user's input and generating suitable responses. To accomplish this, a dataset is needed—the larger, the better. This dataset is saved in a JSONL file, comprised of a prompt and a completion. Afterwards, it is possible to train one of the standard language models provided by OpenAI.

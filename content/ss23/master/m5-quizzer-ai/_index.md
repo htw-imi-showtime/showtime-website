@@ -8,7 +8,7 @@ card_description = "Quizzer AI is an advanced content creation tool that utilise
 
 team = ["Dustin Reimann", "Felix Huber", "Michael Hurst"]
 supervisor = "Christian Kiefer"
-draft = true
+draft = false
 +++
 
 {{<image src="_logo_horizontal.svg" alt="Quizzer Ai Logo">}}
