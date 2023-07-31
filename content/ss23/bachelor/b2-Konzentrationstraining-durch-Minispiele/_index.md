@@ -1,5 +1,5 @@
 +++
-title = "I Can´t C#"
+title = "I Can't C#"
 project_id = "B2"
 
 ## Properties for displaying the project in the project list
