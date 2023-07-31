@@ -1,0 +1,39 @@
+name: deploy tryout (https://htw-imi-showtime.github.io/staging)
+
+on:
+  push:
+    branches: [ build_without_archive ]
+
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    if: github.repository == 'htw-imi-showtime/showtime-website'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: false
+    - name: Get Theme
+      run: |
+      git submodule update --init themes/showtime-theme-2021
+
+    - name: Hugo setup
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.115.1'
+        extended: true
+
+    - name: Build
+      run: |
+        hugo \
+          --environment staging \
+          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
+          --buildDrafts 
+   
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.TRYOUT_DEPLOY_KEY }}
+        external_repository: htw-imi-showtime/tryout
+        publish_branch: main
