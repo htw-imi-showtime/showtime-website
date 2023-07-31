@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        hugo-version: [0.111.3, 0.114.1]
+        hugo-version: [0.111.3, 0.114.1, 0.115.1]
         hugo-environment: [staging, production]
     steps:
     - uses: actions/checkout@v3
@@ -24,4 +24,4 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify -e ${{ matrix.hugo-environment }}
+      run: hugo --minify -e ${{ matrix.hugo-environment }} --buildDrafts
