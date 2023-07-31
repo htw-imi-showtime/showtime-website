@@ -2,7 +2,7 @@ name: deploy tryout (https://htw-imi-showtime.github.io/staging)
 
 on:
   push:
-    branches: [ hugo-modules ]
+    branches: [ main ]
 
   workflow_dispatch:
 
