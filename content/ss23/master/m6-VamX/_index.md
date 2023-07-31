@@ -8,7 +8,7 @@ card_description = "A Unity framework for generating and evaluating acoustic man
 
 team = ["Emircan Yüksel", "Juri Wiechmann", "Robin Jaspers", "Ruslan Novikov", "Tim Markmann"]
 supervisor = "Alexander Kramer, Martin Steinicke"
-draft = true
+draft = false
 +++
 {{<image src="VamXtry.png" alt="Alt text">}}
 Acoustics are stimulating. They influence us in many different ways, create stress or comfort. Our stress level impacts our actions. But stress does not necessarily have to be negative. Depending on the task, stress can even be beneficial for the desired outcome. With VamX (Virtual Audio Manipulation Experience) we have developed a framework that supports the manipulation of sound in virtual environments and therefore also the manipulation of the stress level.

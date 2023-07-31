@@ -2,12 +2,10 @@
 title = "Features"
 weight = 1
 +++
-
-{{<section title="Features">}}
+{{<mediathek id="533cd81f4b8c446af8757c8d4dcefd88" title="Features">}}
+{{<section title="">}}
 
 ## VamX
-
-{{<mediathek id="533cd81f4b8c446af8757c8d4dcefd88" title="Our project demo">}}
 
 Vamx is a editor tool that allows multiple sounds instances to be grouped and controlled by a single component.
 
