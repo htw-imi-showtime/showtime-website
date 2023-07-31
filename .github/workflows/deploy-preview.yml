@@ -2,7 +2,7 @@ name: deploy preview (https://htw-imi-showtime.github.io/preview)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, hugo-modules ]
 
   workflow_dispatch:
 
@@ -13,27 +13,27 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        submodules: true
+        submodules: false
+    - name: Get Theme
+      run: |
+        git submodule update --init themes/showtime-theme-2021
 
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.114.1'
+        hugo-version: '0.115.1'
         extended: true
 
     - name: Build
       run: |
-        ./bin/hugo-temp.sh
         hugo \
-          --source hugo-temp \
           --environment production \
           --minify \
           --baseURL "https://htw-imi-showtime.github.io/preview/"
-        mv hugo-temp/public public
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.PRODUCTION_PREVIEW_DEPLOY_KEY }}
-        external_repository: htw-imi-showtime/production-preview
+        external_repository: htw-imi-showtime/preview
         publish_branch: main

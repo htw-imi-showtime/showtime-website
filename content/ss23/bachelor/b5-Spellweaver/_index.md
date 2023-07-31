@@ -9,10 +9,11 @@ card_description = "Ever dreamed of being a wizard? In Spellweaver you have to c
 team = ["Esther Gülpen Garray", "Felix Anders","Adrian Joos","Jana Meißner","Luca Hobiger"]
 supervisor = "Tamara Voigt, Jonas Ehrhardt"
 draft = false
-+++
+        
 
 
 {{<section title="Our Goal">}}
+
 If you’ve ever used a VR Headset, you might’ve run into the tedious task of inputting text. This experience is quite similar to navigating a keyboard with the remote of your smart-TV. A viable alternative offered by more and more web services is speech-to-text input. And that was our calling.
 
 We then asked ourselves which **STT (speech-to-text)** options are there, and how do we implement them into Unity? After all, what better way is there to introduce a feature than by gamifying it. And so we set the following goals:
@@ -26,6 +27,7 @@ It should also make it relatively easy for other developer to implement new API�
 {{</section>}}
 
 {{<section title="Introduction">}}
+
 Once started, you have to choose one of the implemented STT-API’s.<br> 
 After that, you’ll join the wondrous world of Spellweaver - Words of Power. There you’ll find a **wand and a book** full of all kinds of Spells.<br>
 Above both the book and the stand with the wand you’ll find two boards. One will show you the performance of your cast, while the other gives you two play options: sandbox or challenge. Both will spawn different kind of enemy types, but only one will give you a time limit and a final score.
