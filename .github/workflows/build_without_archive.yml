@@ -16,7 +16,7 @@ jobs:
         submodules: false
     - name: Get Theme
       run: |
-      git submodule update --init themes/showtime-theme-2021
+        git submodule update --init themes/showtime-theme-2021
 
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2
