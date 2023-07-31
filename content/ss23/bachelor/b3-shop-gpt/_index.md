@@ -1,5 +1,5 @@
 +++
-title = "ShopGPT - Smarter Comparisons, Better Decisions"
+title = "ShopGPT - Intelligent Shopping Made Simple"
 project_id = "B3"
 
 # Properties for displaying the project in the project list
@@ -18,7 +18,7 @@ Our goal is to transform the online shopping experience for users through the po
 {{</section>}}
 
 {{<section title="The team">}}
-We are a diverse group of seven students with various levels of programming experience. Throughout the project,everyone was able to expand their knowledge, learn from the others and explore various areas of interest.  
+We are a diverse group of seven students with various levels of programming experience. Throughout the project, everyone was able to expand their knowledge, learn from the others and explore various areas of interest.  
 {{</section>}} 
 
 {{<gallery>}}
