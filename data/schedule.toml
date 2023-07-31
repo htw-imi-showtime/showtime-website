@@ -10,55 +10,50 @@ title = "Opening"
 [[slot]]
 time = "10:05"
 project_id = "B2"
-title = "B2 - Konzentrationstraining durch Minispiele"
+text = "Konzentrationstraining durch Minispiele"
 
 
 [[slot]]
 time = "10:12"
 project_id = "B3"
-title = "B3 - ShopGPT - Smarter Comparisions, Better Decisions"
 
 [[slot]]
 time = "10:19"
 project_id = "B4"
-title = "B4 - VisualAgenda"
+text = "Web App for Agenda Planning and Timekeeping"
 
 [[slot]]
 time = "10:26"
 project_id = "B5"
-title = "B5 - Spellweaver- Words of Power"
 
 [[slot]]
 time = "10:33"
 project_id = "B6"
-title = "B6 - Security Audit Bot"
 
 
 [[slot]]
 time = "10:40"
 project_id = "M2"
-title = "M2 - Entwicklung eines Chatbots zur Erkennung vom Gesundheitszustand von chronisch kranken Menschen"
+text = "Entwicklung eines Chatbots zur Erkennung vom Gesundheitszustand von chronisch kranken Menschen"
 
 
 [[slot]]
 time = "10:47"
 project_id = "M3"
-title = "M3 - Intu"
+text = "web-based learning platform with intuitive knowledge management"
 
 [[slot]]
 time = "10:54"
 project_id = "M4"
-title = "M4 - ShopGPT - AI Shopping Assistant"
 
 [[slot]]
 time = "11:01"
 project_id = "M5"
-title = "M4 - ShopGPT - AI Shopping Assistant"
+text = "Content Creation with OpenAI"
 
 [[slot]]
 time = "11:08"
 project_id = "M6"
-title = "M6 - VamX-Virtual Audio Manipulation Experience"
 
 [[slot]]
 time = "11:15"
