@@ -5,7 +5,7 @@ title = "Opening"
 # title, link and class are now determined by project_id
 # see layouts/_default/schedule.html in theme
 
-# if the project is still a draft, title is taken from here.
+# if the project is still a draft, the title is taken from here.
 
 [[slot]]
 time = "10:05"
