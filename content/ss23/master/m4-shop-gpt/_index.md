@@ -1,13 +1,14 @@
 +++
 title = "ShopGPT - AI Shopping Assistant"
 project_id = "M4"
+sub_title = "domain-specific extension of GPT"
 
 # Properties for displaying the project in the project list
 card_image = "ShopGPT_Logo.png"
 card_description = "Welcome to ShopGPT web application - The AI-based domain-specific shopping assistant! Discover how ShopGPT revolutionizes the way you shop on Europe's beloved price comparison platform idealo."
 team = ["Ilham Muhammad", "Thu Huong Vu", "Kim Ngan Le Dang", "Matthias Hamborg"]
 supervisor = "Christopher Lennan, Jakob Panten"
-draft = true
+draft = false
 +++
 
 

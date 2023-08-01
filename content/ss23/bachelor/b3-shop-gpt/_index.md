@@ -1,6 +1,7 @@
 +++
 title = "ShopGPT - Intelligent Shopping Made Simple"
 project_id = "B3"
+sub_title = "Shopping Companion combining Idealo's Data with OpenAI's API"
 
 # Properties for displaying the project in the project list
 card_image = "b3-logo.jpeg"
@@ -8,7 +9,7 @@ card_description = "ShopGPT offers a personalized shopping experience, designed 
 
 team = ["Axel Ferris Adiputro", "Rahaf Alharoun", "Raneem Alharoun", "Simon Lugenbiehl", "Marta Murawska", "Batuhan-Kaan Piskin", "Joey Smeets"]
 supervisor = "Jakob Panten"
-draft = true
+draft = false
 +++
 
 {{<section title="Our Goal">}}

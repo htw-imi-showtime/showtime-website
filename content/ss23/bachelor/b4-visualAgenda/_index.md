@@ -1,6 +1,8 @@
 +++
 title = "Visual Agenda"
 project_id = "B4"
+sub_title = "Agenda Planning and Timekeeping for Meetings"
+
 
 # Properties for displaying the project in the project list
 card_image = "Logo.png"
@@ -9,7 +11,7 @@ card_description = "Tired of endless, unproductive meetings that seem to go on f
 source_link = "https://github.com/VisualAgenda"
 team = ["Anna Lindner", "Abdullah Tilki", "Samantha Peart"]
 supervisor = "Alexander Pietsch - diva-e"
-draft = true
+draft = false
 +++
 
 {{<gallery>}}
