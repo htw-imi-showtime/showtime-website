@@ -10,10 +10,10 @@ The project was built upon an existing prototype, reducing the need for starting
 
 {{<section title="🧠 AI & API">}}
 {{<image src="techstack_api.png" alt="openai_api" >}}
-For the generation of quiz questions, we use the OpenAI API and utilize its powerful models such as GPT-3.5-Turbo and even GPT-4. In addition to the typical prompts used in ChatGPT, we have the flexibility to pass additional parameters to further refine the desired answers and improve the overall quality of the generated quiz questions.
+For the generation of quiz questions, we use the OpenAI API and utilize its powerful models such as **GPT-3.5-Turbo** and even **GPT-4**. In addition to the typical prompts used in ChatGPT, we have the flexibility to pass additional parameters to further refine the desired answers and improve the overall quality of the generated quiz questions.
 {{</section>}}
 
-{{<section title="Miscellaneous">}}
+{{<section title="✨ Miscellaneous">}}
 {{<image src="techstack_misc.png" alt="Miscellaneous" >}}
 Since the development environment was already available, we followed these guidelines and used **Andriod Studio**, which is perfectly suited for the development of Flutter. Also **BitBucket** was already predefined. This was a small challenge, since the experience was limited to GitHub and GitLab. **Trello** was helpful in distributing tasks and making it easier to keep track of the project's progress.
 {{</section>}}

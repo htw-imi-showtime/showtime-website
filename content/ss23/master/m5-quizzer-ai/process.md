@@ -3,13 +3,13 @@ title = "Process"
 weight = 1
 +++
 
-{{<section title="Process">}}
-{{<image src="process_trello.png" alt="Process Trello" caption="Trello board">}}
+{{<section title="📋 Process">}}
 In our project, we managed the process using a **Trello** board, a helpful tool for organizing tasks and responsibilities. The Kanban board allowed us to efficiently distribute tasks among the team members and track the progress of each assignment. This method facilitated **clear communication** and coordination throughout the project, ensuring that everyone knew their roles and deadlines. We also held meeting sessions every Monday via **Microsoft Teams**. This helped us stay on track, kept us in discussion, and we were able to plan ahead for the current week. Regular communications and text chat happened through **Discord**.
+{{<image src="process_trello.png" alt="Process Trello" caption="Trello board">}}
 
 {{</section>}} 
 
-{{<section title="📋 Project start">}}
+{{<section title="📅 Project start">}}
 
 As the **OpenAI API** Tools and AI, in general, were relatively new to us, we dedicated the first two weeks to really understanding and researching what  and fine-tunings do and how to improve our prompts. We decided on specialists for each big task, with Dustin being our **Flutter** expert and principal developer, Felix being responsible for **fine-tuning**, training our model and creating an easy-to-use fine-tuning assistant, and Michael being responsible for **embeddings** with a semantic search functionality, figuring out ways to import and clean up documents for embeddings, and doing general project management to keep the project on track. Electing specialists and having only 3 members in the team was a huge advantage for us. This way **everybody knew their craf**t, could teach the others about their findings, and work in a really focused manner. This also made project management easier, as dividing tasks was trivial, and therefore we had clean communication and more opportunities for precise timekeeping.
 
@@ -27,7 +27,7 @@ Our result is an easy-to-use Question Generator, with advanced features like the
 
 {{</section>}} 
 
-{{<section title="🟰 Project Results">}}
+{{<section title="✅ Project Results">}}
 
 We realized the main requirements of the project tender and contributed our own features and ideas in the process. At the same time we were always in communication with Mobile Learning Labs to create a **common vision**. Etensive **documentation** was provided, which can be used by the customers of Mobile Learning Labs.
 
