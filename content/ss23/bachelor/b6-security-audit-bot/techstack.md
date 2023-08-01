@@ -21,7 +21,7 @@ This allowed us to collaborate efficiently, transparently and successfully manag
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="Techstack-Gitlab-logo.svg" name="Git Lab">}}
+{{<team-member image="Techstack-Gitlab-logo.png" name="Git Lab">}}
 {{</gallery>}}
 
 
