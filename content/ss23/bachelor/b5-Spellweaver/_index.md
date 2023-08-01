@@ -9,7 +9,7 @@ card_description = "Ever dreamed of being a wizard? In Spellweaver you have to c
 team = ["Esther Gülpen Garray", "Felix Anders","Adrian Joos","Jana Meißner","Luca Hobiger"]
 supervisor = "Tamara Voigt, Jonas Ehrhardt"
 draft = true
-        
++++
 
 
 {{<section title="Our Goal">}}

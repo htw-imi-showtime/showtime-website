@@ -1,8 +1,7 @@
-name: BUILD WITHOUT ARCHIVE
+name: BUILD HUGO FOR PR
 
 on:
-  push:
-    branches: [ XXX ]
+  pull_request:
 
   workflow_dispatch:
 
@@ -31,10 +30,3 @@ jobs:
           --baseURL "https://htw-imi-showtime.github.io/tryout/" \
           --buildDrafts 
    
-    - name: Deploy
-      if: false
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        deploy_key: ${{ secrets.TRYOUT_DEPLOY_KEY }}
-        external_repository: htw-imi-showtime/tryout
-        publish_branch: main
