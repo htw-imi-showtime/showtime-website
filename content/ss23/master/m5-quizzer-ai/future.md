@@ -11,7 +11,7 @@ We're planning to expand our Flutter application by integrating **Bloc** for sta
 
 {{<section title="🤖 future models">}}
 
-As of now, the only currently available models for fine-tuning from OpenAI will be **discontinued** and no longer accessible in the near future. Instead, new models like **gpt-3.5-turbo** or **gpt-4** will be made available for fine-tuning in the upcoming months. With the introduction of these new models, there may be changes in the procedures, and **Quizzer AI will need to be adjusted** accordingly to accommodate these changes.
+As of now, the only currently available models for fine-tuning from OpenAI will be **discontinued** and no longer accessible in the near future. Instead, new models like **GPT-3.5-Turbo** or **GPT-4** will be made available for fine-tuning in the upcoming months. With the introduction of these new models, there may be changes in the procedures, and **Quizzer AI will need to be adjusted** accordingly to accommodate these changes.
 
 {{</section>}}
 
