@@ -2,7 +2,7 @@ name: DEPLOY TRYOUT
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, project_urls ]
 
   workflow_dispatch:
 
