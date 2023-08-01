@@ -1,4 +1,4 @@
-name: deploy production (https://showtime.f4.htw-berlin.de/)
+name: DEPLOY PRODUCTION
 
 on:
   release:

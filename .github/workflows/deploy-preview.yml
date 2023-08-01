@@ -1,4 +1,4 @@
-name: deploy preview (https://htw-imi-showtime.github.io/preview)
+name: DEPLOY PREVIEW
 
 on:
   push:
