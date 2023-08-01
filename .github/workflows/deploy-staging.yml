@@ -2,7 +2,7 @@ name: DEPLOY STAGING
 
 on:
   push:
-    branches: [ main, hugo-modules ]
+    branches: [ main, project_urls ]
 
   workflow_dispatch:
 
