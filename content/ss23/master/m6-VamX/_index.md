@@ -1,6 +1,7 @@
 +++
 title = "VamX-Virtual Audio Manipulation Experience"
 project_id = "M6"
+sub_title = "framework for generating and evaluating acoustic manipulation of stressful situations in VR."
 
 # Properties for displaying the project in the project list
 card_image = "VamXlogo.png"

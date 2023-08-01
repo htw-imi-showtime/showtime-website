@@ -1,6 +1,7 @@
 +++
 title = "Spellweaver- Words of Power"
 project_id = "B5"
+sub_title = "Text Input in VR using speech-to-text (STT)"
 
 # Properties for displaying the project in the project list
 card_image = "logo2.png"
@@ -8,7 +9,7 @@ card_description = "Ever dreamed of being a wizard? In Spellweaver you have to c
 
 team = ["Esther Gülpen Garray", "Felix Anders","Adrian Joos","Jana Meißner","Luca Hobiger"]
 supervisor = "Tamara Voigt, Jonas Ehrhardt"
-draft = true
+draft = false
 +++
 
 

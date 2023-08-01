@@ -1,6 +1,8 @@
 +++
 title = "Mentist"
 project_id = "M2"
+sub_title = "chatbot companion supporting mentally ill individuals"
+
 
 # Properties for displaying the project in the project list
 card_image = "Mentist.png"
@@ -8,7 +10,7 @@ card_description = "Mentist provides a digital tool and platform supporting ment
 
 team = ["Yasine Deghaies", "Mai Nguyen", "Brandon Mandzik", "Nilofar Ahmadi"]
 supervisor = "David Koschnick"
-draft = true
+draft = false
 +++
 
 {{<section title="Our Goal">}}

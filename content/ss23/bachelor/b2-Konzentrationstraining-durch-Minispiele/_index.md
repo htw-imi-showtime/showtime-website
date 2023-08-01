@@ -1,7 +1,7 @@
-
 +++
 title = "I Can't C#"
 project_id = "B2"
+sub_title = "Mini-Games for Concentration and Multi-Tasking"
 
 ## Properties for displaying the project in the project list
 card_image = "ICCsharpCover.jpeg"
@@ -10,7 +10,7 @@ card_description = "'I can't C#' is our Game to challenge your concentration and
 source_link = "https://github.com/ChariotGames/I-Cant-C-Sharp.git"
 team = ["Alexander Stämmler", "Enno Kleinfeldt", "Jannis Suchanek", "Jerome Delafosse", "Milana Tran", "Nermin Rustic", "Pascal Radtke"]
 supervisor = "Prof. Dr. Tobias Lenz"
-draft = true
+draft = false
 +++
 
 {{<section title="Our Goal">}}

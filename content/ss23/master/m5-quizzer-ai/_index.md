@@ -1,6 +1,7 @@
 +++
 title = "Quizzer AI"
 project_id = "M5"
+sub_title = "Generation of Quiz-Questions supporting e-learning with AI"
 
 # Properties for displaying the project in the project list
 card_image = "_card_white.png"
@@ -8,7 +9,7 @@ card_description = "Quizzer AI is an advanced content creation tool that utilise
 
 team = ["Dustin Reimann", "Felix Huber", "Michael Hurst"]
 supervisor = "Christian Kiefer"
-draft = true
+draft = false
 +++
 
 {{<image src="_logo_horizontal.svg" alt="Quizzer Ai Logo">}}
