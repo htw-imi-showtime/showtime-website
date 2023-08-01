@@ -15,7 +15,7 @@ In the initial stages, we invested considerable time in extensive research and w
 
 * **Developing a natural chatbot by beginners**
 
-As each member was new to the realm of data science and machine learning, developing a natural chatbot became quite a challenge. Despite being newcomers to this domain, we were determined to learn and build a chatbot that could provide meaningful support to the sensitive target group in a short given time. In addition to the complexities of grasping data science concepts, we faced the unique task of designing a natural chatbot that could effectively communicate with mentally ill users. This presented an extra layer of challenge, as our chatbot needed to include thorough research and exude empathy, compassion, and sensitivity while engaging with individuals dealing with emotional struggles. 
+As each member was new to the realm of data science and machine learning, developing a natural chatbot became quite a challenge. Despite being newcomers to this domain, we were determined to learn and build a chatbot that could provide meaningful support to the sensitive target group in a short given time. In addition to the complexities of grasping data science concepts, we faced the unique task of designing a natural chatbot that could effectively communicate with users having mental health issues. This presented an extra layer of challenge, as our chatbot needed to include thorough research and exude empathy, compassion, and sensitivity while engaging with individuals dealing with emotional struggles. 
 
 * **Time management and unexpected departure** 
 
