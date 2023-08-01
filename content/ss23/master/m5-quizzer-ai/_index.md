@@ -1,6 +1,7 @@
 +++
 title = "Quizzer AI"
 project_id = "M5"
+sub_title = "Generation of Quiz-Questions supporting e-learning with AI"
 
 # Properties for displaying the project in the project list
 card_image = "_card_white.png"

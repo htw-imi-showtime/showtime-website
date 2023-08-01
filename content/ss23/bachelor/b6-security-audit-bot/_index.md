@@ -1,8 +1,7 @@
 +++
 title = "Security Audit Bot"
 project_id = "B6"
-
-
+sub_title = "chat-bot to detect open access points"
 
 # Properties for displaying the project in the project list
 card_image = "Index-securityauditbot-logo.svg"
@@ -10,7 +9,7 @@ card_description = "With our SecurityAuditBot we present you a user-friendly and
 
 team = ["Kjell Liebher", "Minh Vo", "Mirijam Trippel"]
 supervisor = "David Koschnick & Christoph Bork"
-draft = true
+draft = false
 
 website_link = "https://itsec.ac0.de/"
 +++

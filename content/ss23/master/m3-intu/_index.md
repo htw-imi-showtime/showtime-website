@@ -1,6 +1,8 @@
 +++
 title = "Intu"
 project_id = "M3"
+sub_title = "interactive tutorials with intuitive knowledge management"
+
 
 # Properties for displaying the project in the project list
 card_image = "intu-logo.png"

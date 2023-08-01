@@ -1,14 +1,16 @@
 +++
 title = "Mentist"
 project_id = "M2"
+sub_title = "chatbot companion supporting individuals with mental illness"
+
 
 # Properties for displaying the project in the project list
 card_image = "Mentist.png"
-card_description = "Mentist provides a digital tool and platform supporting mentally ill individuals on their journey towards improved mental health. It provides easy access to compassionate assistance with the help of an intelligent chatbot which serves as a reliable and trusted companion.Through a series of interactive assessments and thoughtful analysis, users can gain valuable insights into their emotional state, identifying areas that require attention and care. A personalized calendar operates as a gentle reminder keeping track of your mental health journey. With Mentist, the power of technology is harnessed to promote healing, personal growth and empowerment." 
+card_description = "Mentist provides a digital tool and platform supporting individuals with mental illness on their journey towards improved mental health. It provides easy access to compassionate assistance with the help of an intelligent chatbot which serves as a reliable and trusted companion.Through a series of interactive assessments and thoughtful analysis, users can gain valuable insights into their emotional state, identifying areas that require attention and care. A personalized calendar operates as a gentle reminder keeping track of your mental health journey. With Mentist, the power of technology is harnessed to promote healing, personal growth and empowerment." 
 
 team = ["Yasine Deghaies", "Mai Nguyen", "Brandon Mandzik", "Nilofar Ahmadi"]
 supervisor = "David Koschnick"
-draft = true
+draft = false
 +++
 
 {{<section title="Our Goal">}}
