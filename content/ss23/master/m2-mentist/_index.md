@@ -14,7 +14,7 @@ draft = false
 +++
 
 {{<section title="Our Goal">}}
-Depression is one of the most common and severely underestimated illnesses. Currently, 11.3% of women and 5.1% of men in Germany are affected by depression. In total, 8.2% of the German population experience depression within a year, which amounts to 5.3 million citizens. (source: Stiftung Deutsche Depressionshilfe > raussuchen)
+Depression is one of the most common and severely underestimated illnesses. Currently, 11.3% of women and 5.1% of men in Germany are affected by depression. In total, 8.2% of the German population experience depression within a year, which amounts to 5.3 million citizens. 
 On that account Mentist was born to address the concerning reality of surrounding mental health in our everyday's life. Mentist provides easy access to compassionate support with a trusted chatbot and offers the tools utilizing various features to keep track of your important journey. Our mission is to empower those fighting with mental health issues, offering them the tools, guidance, and comforting support necessary to find their way back to a healthier, more fulfilling life and create a welcoming safe space.
 {{</section>}}
 
