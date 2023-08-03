@@ -1,6 +1,6 @@
 +++
 title = "Tech Stack"
-weight = 3
+weight = 4
 +++
 
 
@@ -35,6 +35,9 @@ Tailwind CSS is a preferred utility-first CSS framework for building stylish and
 [Vite](https://vitejs.dev)<br>
 Vite is used as a modern build tool and development server that significantly enhances the web development workflow. Vite's fast development server with instant hot module replacement enables rapid iteration and provides quick feedback during the development process. Its efficient build process, leveraging native ES modules for production, leads to optimized and high-performance web applications.
 
+[Editor.js](https://editorjs.io)<br>
+EditorJS is a block-styled editor that outputs clean JSON instead of HTML. It is used for the implementation of the Knowledge Base of intu.
+
 [Strapi](https://strapi.io)<br>
 Strapi is an open-source, Node.js-based headless content management system. It’s running as the backend of intu because of its flexibility and its seamless integration with databases.
 
@@ -50,3 +53,4 @@ GitLab served as the chosen platform for managing the project's codebase, with b
 [Slack](https://slack.com)<br>
 Slack served as the primary tool for communication, offering structured channels for discussions and video calls throughout the project's duration.
 {{</section>}}
+
