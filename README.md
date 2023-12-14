@@ -86,7 +86,7 @@ then get the theme submodule:
 git submodule update --init themes/showtime-theme-2021
 ```
 
-2.b Complete with both submodule:
+2.b Complete with both submodules:
 ```
 git clone --depth 1 --recurse-submodules https://github.com/<your-account>/showtime-website.git
 cd showtime-website
