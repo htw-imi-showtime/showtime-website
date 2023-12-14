@@ -1,6 +1,7 @@
 +++
-showtime_date = "04/08/2023"
+showtime_date = "02/02/2024"
 showtime_place = "WH H001"
+showtime_save_the_date = "Save the date!!"
 is_live = "false"
 zoom_link = "TBD"
 +++
