@@ -2,7 +2,7 @@ name: DEPLOY STAGING
 
 on:
   push:
-    branches: [ main, project_urls ]
+    branches: [ ws2023 ]
 
   workflow_dispatch:
 
