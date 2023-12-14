@@ -6,7 +6,7 @@ theme = "showtime-theme-2021"
 [params]
     current_semester = "ws23"
     production_site = "https://showtime.f4.htw-berlin.de/"
-    archive_path = "ws23"
+    archive_path = "ss23"
 
 [markup]
     [markup.goldmark]
