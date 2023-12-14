@@ -2,7 +2,7 @@ name: DEPLOY TRYOUT
 
 on:
   push:
-    branches: [ ws2023 ]
+    branches: [ main ]
 
   workflow_dispatch:
 

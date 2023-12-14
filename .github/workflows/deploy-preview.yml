@@ -2,7 +2,7 @@ name: DEPLOY PREVIEW
 
 on:
   push:
-    branches: [ main, project_urls ]
+    branches: [ main ]
 
   workflow_dispatch:
 
