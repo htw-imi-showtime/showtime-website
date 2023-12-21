@@ -1,2 +1,96 @@
 [[slot]]
-title = "The schedule will be published soon."
+time = "10:00"
+title = "Opening"
+class = "general"
+
+[[slot]]
+time = "10:05"
+title = "B1 - Human readable Mongo-Queries"
+projectDetail = "/"
+class = "bachelor"
+
+[[slot]]
+time = "10:12"
+title = "B2 - Mobile Multitouch Multiplayer"
+projectDetail = "/"
+class = "bachelor"
+
+[[slot]]
+time = "10:19"
+title = "B4 - Hypno Buddy: Nachhaltige Therapieerfolge in der Hypnose-Therapie für Kinder und Jugendliche"
+projectDetail = "/"
+class = "bachelor"
+
+[[slot]]
+time = "10:26"
+title = "B5 - It's a match! Designing & developing a new Moodle plugin to support self-regulated learning"
+projectDetail = "/"
+class = "bachelor"
+
+[[slot]]
+time = "10:33"
+title = "B6 - Avatars: Wirkung von verschiedenen NPC-Repräsentationen in VR-Lernszenarien"
+projectDetail = "/"
+class = "bachelor"
+
+[[slot]]
+time = "10:40"
+title = "B7 - Entwicklung eines digital-haptischen Stadtmodels zur Informationsvermittlung mittels XR/AR"
+projectDetail = "/"
+class = "bachelor"
+
+
+[[slot]]
+time = "10:47"
+title = "M1 - Somethin' AR"
+projectDetail = "/"
+class = "master"
+
+[[slot]]
+time = "10:54"
+title = "M3 - Lehreinsatzplannung"
+projectDetail = "/"
+class = "master"
+
+[[slot]]
+time = "11:01"
+title = "M4 - Gaming for Future: Ein Videospiel über Wasserknappheit in Brandenburg"
+projectDetail = "/"
+class = "master"
+
+[[slot]]
+time = "11:08"
+title = "M5 - Entwicklung einer Virtual Office Anwendung zur Förderung der Mitarbeitenden-Interaktion"
+projectDetail = "/"
+class = "master"
+
+[[slot]]
+time = "11:15"
+title = "M6 - Vergleich verschiedener Large Language Models für die Generierung von Quiz-Fragen für das E-Learning"
+projectDetail = "/"
+class = "master"
+
+
+[[slot]]
+time = "11:22"
+title = "Lunch Break"
+class = "general"
+
+[[slot]]
+time = "12:00-15:00"
+title = "Project Fair"
+text = "Project Booths in H001"
+class = "general"
+
+
+[[slot]]
+time = "15:00"
+title = "Break"
+text = "(and a secret grading meeting of the supervisors)"
+class = "general"
+
+[[slot]]
+time = "16:00"
+title = "Announcement Of Grades"
+text = "Project Groups meet with their project supervisors"
+class = "general"
