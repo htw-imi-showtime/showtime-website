@@ -15,7 +15,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque i
 
 {{<section title="Our Goal">}}
 Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus. 
+{{</section>}}
 
+{{<section title="Technology">}}
+Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus. 
 {{</section>}}
 
 
