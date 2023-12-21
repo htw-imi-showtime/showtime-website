@@ -1,4 +1,4 @@
-name: deploy development (https://<user>.github.io/showtime-website)
+name: DEPLOY DEVELOPMENT
 
 on:
   push:

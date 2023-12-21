@@ -5,68 +5,74 @@ class = "general"
 
 [[slot]]
 time = "10:05"
-title = "B2 - Konzentrationstraining durch Minispiele"
-projectDetail = "/ss23/bachelor/b2-Konzentrationstraining-durch-Minispiele/"
+title = "B1 - Human readable Mongo-Queries"
+projectDetail = "/"
 class = "bachelor"
 
 [[slot]]
 time = "10:12"
-title = "B3 - ShopGPT - Smarter Comparisions, Better Decisions"
-projectDetail = "/ss23/bachelor/b3-shop-gpt/"
+title = "B2 - Mobile Multitouch Multiplayer"
+projectDetail = "/"
 class = "bachelor"
 
 [[slot]]
 time = "10:19"
-title = "B4 - VisualAgenda"
-projectDetail = "/ss23/bachelor/b4-visualAgenda/"
+title = "B4 - Hypno Buddy: Nachhaltige Therapieerfolge in der Hypnose-Therapie für Kinder und Jugendliche"
+projectDetail = "/"
 class = "bachelor"
 
 [[slot]]
 time = "10:26"
-title = "B5 - Spellweaver- Words of Power"
-projectDetail = "/ss23/bachelor/b5-Spellweaver/"
+title = "B5 - It's a match! Designing & developing a new Moodle plugin to support self-regulated learning"
+projectDetail = "/"
 class = "bachelor"
 
 [[slot]]
 time = "10:33"
-title = "B6 - Security Audit Bot"
-projectDetail = "/ss23/bachelor/b6-security-audit-bot/"
+title = "B6 - Avatars: Wirkung von verschiedenen NPC-Repräsentationen in VR-Lernszenarien"
+projectDetail = "/"
+class = "bachelor"
+
+[[slot]]
+time = "10:40"
+title = "B7 - Entwicklung eines digital-haptischen Stadtmodels zur Informationsvermittlung mittels XR/AR"
+projectDetail = "/"
 class = "bachelor"
 
 
 [[slot]]
-time = "10:40"
-title = "M2 - Entwicklung eines Chatbots zur Erkennung vom Gesundheitszustand von chronisch kranken Menschen"
-projectDetail = "/ss23/master/m2-mentist/"
-class = "master"
-
-[[slot]]
 time = "10:47"
-title = "M3 - Intu"
-projectDetail = "/ss23/master/m3-intu/"
+title = "M1 - Somethin' AR"
+projectDetail = "/"
 class = "master"
 
 [[slot]]
 time = "10:54"
-title = "M4 - ShopGPT - AI Shopping Assistant"
-projectDetail = "/ss23/master/m4-shop-gpt/"
+title = "M3 - Lehreinsatzplannung"
+projectDetail = "/"
 class = "master"
 
 [[slot]]
 time = "11:01"
-title = "M5 - Quizzer AI"
-projectDetail = "/ss23/master/m5-quizzer-ai/"
+title = "M4 - Gaming for Future: Ein Videospiel über Wasserknappheit in Brandenburg"
+projectDetail = "/"
 class = "master"
 
 [[slot]]
 time = "11:08"
-title = "M6 - VamX-Virtual Audio Manipulation Experience"
-projectDetail = "/ss23/master/m6-VamX/"
+title = "M5 - Entwicklung einer Virtual Office Anwendung zur Förderung der Mitarbeitenden-Interaktion"
+projectDetail = "/"
+class = "master"
+
+[[slot]]
+time = "11:15"
+title = "M6 - Vergleich verschiedener Large Language Models für die Generierung von Quiz-Fragen für das E-Learning"
+projectDetail = "/"
 class = "master"
 
 
 [[slot]]
-time = "11:15"
+time = "11:22"
 title = "Lunch Break"
 class = "general"
 

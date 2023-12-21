@@ -86,7 +86,7 @@ then get the theme submodule:
 git submodule update --init themes/showtime-theme-2021
 ```
 
-2.b Complete with both submodule:
+2.b Complete with both submodules:
 ```
 git clone --depth 1 --recurse-submodules https://github.com/<your-account>/showtime-website.git
 cd showtime-website
@@ -161,10 +161,16 @@ One week before the Showtime takes place, the website will be published to our p
 To get the updates on the central repository into your fork, do the following:
 (see [Github on Syncing a Fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 )
+
+mit `git remote get-url upstream` überprüfen, ob upstream schon gesetzt ist (bei fork &clone ist das meist schon so), sonst:
+
+
+    git remote add upstream git@github.com:htw-imi-showtime/showtime-website.git   
+    
 ```
-git remote add upstream git@github.com:htw-imi-showtime/showtime-website.git
-git fetch upstream
-git merge upstream/master
+git remote add upstream git@github.com:htw-imi-showtime/showtime-website.git   
+git fetch upstream main
+git merge --no-ff upstream/main
 ```
 
 To update the theme submodule, run
