@@ -27,6 +27,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque i
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="cat.jpg" name="Justin Gebert">}}
+{{<team-member image="cat.jpg" name="Pia Dünow">}}
+{{<team-member image="cat.jpg" name="Sina Han">}}
+{{<team-member image="cat.jpg" name="Marwa Hariz">}}
+{{<team-member image="cat.jpg" name="Mai Le Phoung">}}
+{{<team-member image="cat.jpg" name="Nataliia Remezova">}}
 {{</gallery>}}
 
