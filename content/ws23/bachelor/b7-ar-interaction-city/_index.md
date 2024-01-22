@@ -4,25 +4,19 @@ project_id = "B7"
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"
-card_description = "Step into the 'Vision2050,' an immersive journey into the year 2050 where the boundaries between reality and the virtual world blur. Experience a XR adventure showcasing a net-zero future, revealing the harmonious coexistence of advanced technology and environmental sustainability. Witness firsthand how we all can shape a cleaner and greener world, as you explore a dynamic vision of tomorrow through the lens of innovation and ecological balance."
+card_description = "Experience Vision2050: a virtual journey into the future on your tabletop. Our Augmented Reality (AR) project empowers you to shape the destiny of a vibrant city. Designed for all ages, it allows hands-on transformation from a fossil-fuel-driven city to an emission-free heaven. By pressing buttons, adjusting sliders, or swapping houses on your table, actively influence the virtual city's environmental footprint. This seamless integration of physical actions with the virtual world makes grasping and visualizing a carbon-neutral future easy for everyone. Dive into Vision2050 and witness the real-life impact on the virtual world at your fingertips!"
 
 team = ["Christian Wolter", "Yasmine Haidri", "Jonas Mantay", "Timo Boomgaarden"]
 supervisor = "Alexander Kramer"
 draft = true
 +++
 
-Step into the 'Vision2050,' an immersive journey into the year 2050 where the boundaries between reality and the virtual world blur. Experience a XR adventure showcasing a net-zero future, revealing the harmonious coexistence of advanced technology and environmental sustainability. Witness firsthand how we all can shape a cleaner and greener world, as you explore a dynamic vision of tomorrow through the lens of innovation and ecological balance.
-
 {{<section title="Our Goal">}}
-Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus.
-{{</section>}}
-
-{{<section title="Technology">}}
-Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus.
+"Vision2050" aims to inspire people to live more sustainably. With this innovative augmented reality experience, we hope to educate and empower users of all ages, encouraging them to actively participate in the transition to a green and carbon-neutral future. By seamlessly merging physical interactions with the virtual city, we hope to develop a sense of responsibility and knowledge, ultimately promoting positive change in the actual world. Join us in creating a more sustainable future, one virtual action at a time.
 {{</section>}}
 
 {{<section title="The team">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis.
+We are a team of four dedicated IMI students, who want to give you a new XR experience.
 {{</section>}}
 
 {{<gallery>}}
