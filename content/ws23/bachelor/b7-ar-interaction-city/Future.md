@@ -4,5 +4,6 @@ weight = 2
 +++
 
 {{<section title="Future">}}
-The topic of this project was to find out if its possible to combine real life interactions with an extended reality view. With the success of the three interactions (Button press, turning a know, exchangign elements) we can think about implementing new interactions. It would also be possible to think about changing the status of a physical object by an interaction in the XR-View.
+Our project is very open and creates a basis for extended reality. You can consider incorporating new interactions, such as switches or touch panels, or changing the platform and running the project on a tablet or VR glasses.
+New use cases can also be devised and tested. This project could be used very well in industry for maintenance work on machines and establish communication from the machine to the goggles.
 {{</section>}}

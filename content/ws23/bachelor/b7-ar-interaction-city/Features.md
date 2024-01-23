@@ -3,14 +3,34 @@ title = "Features"
 weight = 1
 +++
 
+{{<section title="Communication">}}
+
+#### Wifi
+
+To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.
+
+#### MQTT
+
+Communication takes place via MQTT, an open network protocol for machine-to-machine communication.
+The Arduino uses the MQTT protocol to send messages to the Raspberry Pi, which acts as an MQTT broker. At the same time, the HoloLens glasses subscribe to these messages to receive real-time information. This seamless exchange enables efficient communication between the devices, with the Raspberry Pi acting as the central intermediary to establish the connection between the Arduino and the HoloLens.
+{{<gallery>}}
+{{<image src="Wifi.png" alt="Wifi Logo" caption="Wifi">}}
+{{<image src="MQTT.png" alt="MQTT Logo" caption="MQTT">}}
+{{</gallery>}}
+{{</section>}}
+
 {{<section title="Interactions">}}
+There are an infinite number of ways to interact with objects in the real world. For our project, we decided on the three interactions of pressing, turning and removing/placing. These are represented by a button, a potentiometer and an NFC reader.
 
-- Button press
-  With a simple button press you can see how the industry sector could look like in the year 2050. An Industry sector with zero emmissions.
+#### Button press
 
-- Turn the knob
-  Decide which energy mix the future will have. Should it be 0% sustainable 100% or something inbetween? Through turning the knob you can decide yourself how the energy is mixed and how the future will look like.
+With the press of a button, we show what the industrial sector could look like in 2050. An industrial sector that is sustainable and has hardly any emissions.
 
-- Exchange the house
-  Why is everyone talking about Heat pumps and why shouldnt I use my old oil stove anymore. By physically exchanging a house in our city model you can find out more about how your house can be more sustainable and what you should take care about.
-  {{</section>}}
+#### Turn the knob
+
+Decide for yourself what the energy mix will look like in 2050. You can choose between 0% and 100% sustainability in energy production using a rotary control.
+
+#### Change of object
+
+Remove a house from our city model and swap it for a different one. This allows you to decide how sustainable the housing sector will be in 2050. Should nothing change, or will everyone have solar panels on their roof?
+{{</section>}}
