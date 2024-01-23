@@ -6,8 +6,7 @@ project_id = "M4"
 card_image = "Game1.png"
 card_description = "Gaming For Future" 
 
-team = ["Eliot Hoff", " Kenneth Englisch", "Cong Nguyen-Dinh", "Adib Ghassani Waluya
-"]
+team = ["Eliot Hoff", " Kenneth Englisch", "Cong Nguyen-Dinh", "Adib Ghassani Waluya"]
 supervisor = "David Mueller"
 draft = true
 +++
@@ -21,25 +20,27 @@ The player can place tiles on the map. Each tile has different influences on the
 {{</section>}}
 
 {{<gallery>}}
-{{<image src="Game1.png" alt="App home screen" caption="Level Selection">}}
-{{<image src="Game2.png" alt="Profile screen" caption="Level 1">}}
+{{<image src="Game1.png" alt="App home screen" caption="Level 1">}}
+{{<image src="Game2.png" alt="Profile screen" caption="Level Selection">}}
 {{</gallery>}}
 
 {{<section title="The team">}}
 Our team included Eliot Hoff, Kenneth Englisch, Cong Nguyen-Dinh, Adib Ghassani Waluya and our supervisor David.
-We devided the tasks equally and spend the first few weeks with researching and planning the game. We tracked our project progression via Github and communicated via Discord.
+We divided the tasks equally and spend the first few weeks with researching and planning the game. We tracked our project progression via Github and communicated via Discord.
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="Adib.jpg" name="Adib">}}
-{{<team-member image="Cong.jpg" name="Cong">}}
+{{<team-member image="Adib.jpeg" name="Adib">}}
+{{<team-member image="Cong.jpeg" name="Cong">}}
 {{<team-member image="Kenneth.jpg" name="Kenneth">}}
+{{<team-member image="Elliot.png" name="Elliot">}}
 {{</gallery>}}
 
 {{<section title="Technologies">}}
 For this project we used mainly the Unity Engine to develop the game.
-Other programs that we used were Figma,Photoshop and Excel.
-Discord was used for communications.
+Other programs that we used were Figma,Photoshop and Excel. Sometimes we had to use Blender as well.
+Discord was used for communication.
+{{<image src="Tech.png" alt="Profile screen" caption="Tech Stack">}}
 {{</section>}} 
 
 {{<section title="Keymaps">}}
