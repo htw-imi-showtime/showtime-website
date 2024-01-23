@@ -9,7 +9,7 @@ weight = 1
 {{<image src="github.png" alt="Github Icon" caption="Github">}}
 {{<image src="discord.png" alt="Discord" caption="Discord">}}
 {{<image src="zoom.avif" alt="Zoom" caption="Zoom">}}
-{{<image src="whatsapp.png" alt="Whatapp" caption="Whatapp">}}
+{{<image src="whatsapp.png" alt="Whatsapp" caption="Whatsapp">}}
 {{</gallery>}}
 {{</section>}}
 
