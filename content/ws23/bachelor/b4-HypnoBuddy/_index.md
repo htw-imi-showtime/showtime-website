@@ -22,11 +22,11 @@ Our team consists of six developers currently pursuing our IMI bachelor's studie
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="Justin Gebert">}}
-{{<team-member image="cat.jpg" name="Pia Dünow">}}
+{{<team-member image="justin.png" name="Justin Gebert">}}
+{{<team-member image="pia.png" name="Pia Dünow">}}
 {{<team-member image="sina.png" name="Sina Han">}}
-{{<team-member image="cat.jpg" name="Marwa Hariz">}}
-{{<team-member image="cat.jpg" name="Mai Le Phoung">}}
+{{<team-member image="marwa.png" name="Marwa Hariz">}}
+{{<team-member image="mai.png" name="Mai Le Phoung">}}
 {{<team-member image="nathaliia.jpeg" name="Nataliia Remezova">}}
 {{</gallery>}}
 
