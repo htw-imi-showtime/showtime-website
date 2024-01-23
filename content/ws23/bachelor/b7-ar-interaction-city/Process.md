@@ -4,7 +4,7 @@ weight = 1
 +++
 
 {{<section title="Organization">}}
-Scrum like, 2 weekly meetings
+After our planning phase where we developed the idea and wrote all the issues (tickets) for our project we switch to a kanban like development phase.
 {{</section>}}
 
 {{<section title="Concept & Story">}}
