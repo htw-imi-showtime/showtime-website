@@ -4,7 +4,7 @@ project_id = "B4"
 
 # Properties for displaying the project in the project list
 card_image = "bunnyCard.png"
-card_description = "Hypno Buddy is an innovative app designed to enhance the effectiveness of hypnotherapy sessions, particularly for children and adolescents. The app facilitates seamless communication between hypnotherapists, young clients, and parents, empowering all parties involved.  Hypno Buddy strengthens the bond and trust between therapists and patients, emphasizing mutual collaboration. Patients receive support, visualization, and reflection to reinforce progress in their daily life without external pressure, while therapists benefit from enhanced communication for resource sharing. "
+card_description = "Hypno Buddy, an innovative app, enhances hypnotherapy effectiveness, especially for children and adolescents. Facilitating seamless communication between therapists, young clients, and parents, it empowers all parties. Strengthening the bond and trust between therapists and patients, Hypno Buddy emphasizes mutual collaboration. Patients receive support for daily progress without external pressure, and therapists benefit from enhanced communication for resource sharing."
 
 team = ["Justin Gebert", "Pia Dünow", "Sina Han", "Marwa Hariz", "Mai Le Phuong", "Nataliia Remezova"]
 supervisor = "Andreas Lehner"
