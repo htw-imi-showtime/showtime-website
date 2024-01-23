@@ -32,7 +32,7 @@ We divided the tasks equally and spend the first few weeks with researching and 
 {{<gallery>}}
 {{<team-member image="Adib.jpeg" name="Adib">}}
 {{<team-member image="Cong.jpeg" name="Cong">}}
-{{<team-member image="Kenneth.jpg" name="Kenneth">}}
+{{<team-member image="Kenneth.png" name="Kenneth">}}
 {{<team-member image="Elliot.png" name="Elliot">}}
 {{</gallery>}}
 

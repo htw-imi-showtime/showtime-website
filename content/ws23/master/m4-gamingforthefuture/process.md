@@ -14,19 +14,18 @@ We engaged in back-and-forth communication with Rebecca and David to refine the 
 {{</section>}}
 
 {{<section title="Flow Charts">}}
-Developed flow charts to map out the game walkthrough, providing a structured overview of the user experience and then
+Developed flow charts to map out the game. Then
 we created initial prototypes and designs using Figma to visualize the project.
 {{</section>}}
 
 {{<section title="Programming">}}
-We programmed mostly in Unity. Every week we had discussions with David and regular meetings with each other  to discuss goals for the upcoming week. We pushed our Code to Gitlab. Where we worked on different branches. 
+We programmed mostly in Unity. Every week we had discussions with David and regular meetings with each other  to discuss goals for the upcoming week. We pushed our code to Gitlab. Where we worked on different branches. 
 {{</section>}}
 {{<section title="Issue Assignment">}}
 Each team member selected a specific issue to work on based on their skills or preferences.
 {{</section>}}
 {{<section title="Testing">}}
-We regularly tested the game with both Rebecca and David to gather feedback.
-Used this feedback to make necessary adjustments and improvements.
+We regularly tested the game with both Rebecca and David to gather feedback and used this feedback to make necessary adjustments and improvements.
 In January, we conducted testing sessions with real users from NABU.
 {{</section>}}
 
