@@ -19,18 +19,32 @@ In this context, our study, AvataVR, focuses on examining the visual impact of V
 {{<section title="Concept">}}
 The concept involves constructing an immersive VR application, ranging from 5 to 10 minutes, designed to investigate the effects of different avatars on the learner. 
 In this application, an avatar introduces itself and provides a short instructional session, enabling the study of various impact factors.
-To make this instructional session as hands-on as possible, we partnered with the company se.services. 
+To make this instructional session as hands-on as possible, we partnered with the company **se.services**. 
 {{<image src="se_logo.svg" caption="se.services GmbH Logo">}}
-Collaborating with their Training Coordinator Markus Zippel, who has trained countless of electricians during his career, we crafted a scenario to later evaluate the users experience.{{</section>}}
+Collaborating with their Head Instructor Markus Zippel, who has trained countless of electricians during his career, we crafted a scenario to later evaluate the users experience.{{</section>}}
+
+
+{{<section title="Avatar Design">}}
+"In our study, we aimed to examine potential variations in the player's connection to the instructor based on its visual representation.
+One group of participants interacted with a human-looking 3D model, while the other received instructions from a more abstract representation, like in this instance, a robot.
+{{</section>}} 
 
 {{<section title="Technical Implementation">}}
-
+To ensure that the NPCs only differ in their visual representation, we utilized identical audio speech clips and movement animations for all characters. 
+For this purpose, we recorded our experienced instructor in our on-campus motion capture lab.
+The camera-based system records the subject from eight angles and calculates a corresponding skeleton in real time.
+Compared to high-end systems used in professional movie productions, this setup is much easier to install and use. However, it is also more susceptible to inaccuracies, requiring additional post-processing to clean up the recordings.
 The application was developed using the OpenXR Library in the Unity game engine. 
 Thanks to the library's unified interface, it is possible to play the scene with all common VR headsets without the need for scene rewriting. 
 In our case, we had access to modern Oculus Quest headsets, which are relatively consumer-friendly as they do not require external sensors to be set up in the room.
 
 {{</section>}}
 
+
+{{<section title="Scientific Foundations">}}
+Our questionnaire is designed with precision, drawing from solid scientific principles to explore the nuanced dynamics of user-avatar interactions in virtual reality (VR). 
+Rooted in established psychological theories, we focus on key elements like social presence, trust, affect, and the immersive experience.
+{{</section>}} 
 
 {{<section title="The team">}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
