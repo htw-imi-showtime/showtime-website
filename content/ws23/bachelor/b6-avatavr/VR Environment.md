@@ -1,11 +1,11 @@
 +++
-title = "VR Environment"
+title = "VR Scene"
 draft = false
 +++
 
 ### The VR Testing Environment
 
-#### A key part of the immersive VR experience is to be placed in an environment that seems coherent and believable to the user. The challenge consisted of creating such an environment not distracting enough to turn the focus away from the NPC instructor.
+#### A key part of the immersive VR experience is to be placed in an environment that seems coherent and believable to the user. The challenge consisted of creating such an environment while not making it distracting enough to turn the focus away from the NPC instructor. For a majority of our testers this was the first time experiencing a surroundin Virtual Reality
 
 {{<section title="Room 1">}}
 ## Introduction inside the Apartment
