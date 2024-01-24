@@ -1,6 +1,6 @@
 +++
 title = "VR Environment"
-draft = true
+draft = false
 +++
 
 ### The VR Testing Environment

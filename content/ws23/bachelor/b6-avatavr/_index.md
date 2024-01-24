@@ -8,7 +8,7 @@ card_description = "Exploring the Impact of Diverse NPC Representations in VR Le
 
 team = ["Robert Dolibog", "Vladyslav Kyselov", "Imanuel Leiserowitz", "Nathalie Claire Huppert","Karolina Serova", "Danylo Vovochok"]
 supervisor = "Martin Steinicke & Alexander Kramer"
-draft = true
+draft = false
 +++
 
 Rapid advancements in Virtual Reality (VR) technology have transformed what was once dismissed by many as a 'gimmick' into a rapidly evolving realm with practical applications.
