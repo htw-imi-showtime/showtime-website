@@ -14,6 +14,6 @@ We agreed that we wanted to do something about the environment, as this is also 
 {{</section>}}
 
 {{<section title="Development">}}
-We initially split the development into three sub-projects. We had to create a basis for the Arduino, the Raspberry had to be set up and the Unity project for the HoloLens also needed a basis. We then started to establish communication between the Arduino and the Raspberry Pi and then between the Raspberry Pi and the HoloLens.
+We initially split the development into three sub-projects. We had to create a basis for the Arduino, the Raspberry had to be set up and the Unity project for the HoloLens also needed a basis. We then started to establish communication between the Arduino and the Raspberry Pi and between the Raspberry Pi and the HoloLens.
 Once the communication between the hardware was working, we were able to focus on improving it and also building the Unity model so that the data sent from the Arduino to the HoloLens also controlled interactions in the HoloLens.
 {{</section>}}

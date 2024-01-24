@@ -16,15 +16,21 @@ We used Mattermost for our internal communication and for issue tracking.
 
 To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio (Code) and Unity with MRTK2.
 
+- Programming Language: C#
+
 #### Raspberry
 
 The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware.
 It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too.
 The Raspberry Pi was set up with the CLI
 
+- Programming Language: Bash
+
 #### Arduino
 
 The Arduino was developed using the Arduino IDE
+
+- Programming Language: C++
 
 {{<gallery>}}
 {{<image src="Hololens.png" alt="Hololens Logo" caption="Hololens">}}
@@ -43,6 +49,7 @@ The Arduino was developed using the Arduino IDE
 - Button
 - Potenziometer
 - PN532 NFC/RFID Reader
+- LED
 
 #### Communication
 
