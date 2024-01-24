@@ -2,13 +2,11 @@
 title = "Gallery"
 draft = true
 +++
-
 # Motion Capturing
 
-{{<image src="IMG_1716.jpg">}}
-{{<image src="IMG_1726.jpg">}}
-{{<image src="IMG_1729.jpg">}}
-{{<image src="IMG_1739.jpg">}}
+{{<image src="gallery1.png">}}
+
+
 
 # The Team
 
