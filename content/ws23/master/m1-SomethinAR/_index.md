@@ -24,7 +24,7 @@ When we began this project, our team members had different levels of experience.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="julia.jpeg" name="Julia Zamaitat">}}
+{{<team-member image="julia.jpg" name="Julia Zamaitat">}}
 {{<team-member image="kitty.jpg" name="team member Kitty">}}
 
 {{</gallery>}}
