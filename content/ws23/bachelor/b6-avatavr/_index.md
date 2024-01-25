@@ -30,6 +30,9 @@ In collaboration with their Head Instructor Markus Zippel, who has trained count
 {{<section title="Avatar Design">}}
 In our study, we aimed to examine potential variations in the player's connection to the instructor based on its visual representation. One group of participants interacted with a human-looking 3D model, while the other received instructions from a more abstract representation, a robot.
 {{</section>}} 
+{{<section title="Collaboration Framework">}}
+For this project, we implemented a variation of a collaboration framework, such as Scrum and Agile development. By conducting meetings every 3 to 4 days, we ensured that everyone was keeping up with the workflow and the status of the project.
+{{</section>}}
 
 {{<section title="Technical Implementation">}}
 To ensure that the NPCs only differ in their visual representation, we utilized identical audio speech clips and movement animations for both characters. For this purpose, we recorded a professional training supervisor in our on-campus motion capture lab. The camera-based system records the subject from eight angles and calculates a corresponding skeleton in real time. Compared to high-end systems used in professional movie productions, this setup is much easier to setup and use. However, it is also more susceptible to inaccuracies, requiring additional post-processing to clean up the recordings. The application was developed using the OpenXR Library in the Unity game engine. Thanks to the library's unified interface, it is possible to play the scene with all common VR headsets without the need for different distributions of the application. In our case, we had access to a set of modern Oculus Quest headsets, which are relatively consumer-friendly as they do not require external sensors to be set up in the room.
