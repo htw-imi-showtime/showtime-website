@@ -18,7 +18,7 @@ Supported by some amusing voicelines the player is playfully introduced into the
 {{<section title="Room 2">}}
 
 ## Lesson in the Workshop
-In this workshop setting, the avatar guides the user through the differences between a basic circuit diagram, as commonly known from physics classes, and an electrician's circuit diagram. Not only do the symbols differ, but now there are also ciruits switches included in the drawings. The instructor emphasizes a fundamental rule in the electrician's craft: **always disable the fuses before working on the electrical components!**
+In this workshop setting, the avatar guides the user through the differences between a basic circuit diagram, as commonly known from physics classes, and an electrician's circuit diagram. Not only do the symbols differ, but now there are also ciruits switches included in the drawings. The instructor emphasizes a fundamental rule in the electrician's craft: **always disable the circuit switches before working on the electrical components!**
 
 The instructor then challenges the user to reconstruct the circuit. Various 3D assets, including a switch, a lamp, and cables, are laid out on the table in front of the player. A template next to them allows the components to be placed and snapped into place. The power source and fuse switches are already mounted on the edge of the template, animated to signify electrical flow.
 
