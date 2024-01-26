@@ -1,6 +1,6 @@
 +++
 title = "Challenges"
-weight = 1
+weight = 3
 +++
 
 {{<section title="UI">}}
