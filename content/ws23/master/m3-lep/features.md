@@ -6,7 +6,7 @@ weight = 1
 {{<section title="Efficient automated semester planning">}}
 Whether it's sorting out a **schedule** for one **single course of study** or finding a suitable timetable for the whole **faculty** 
 in one of the two upcoming semesters, **LEP handles it**.
-Taking into account factors like teacher availability/preferences or module details such as length and rhythm, LEP utilizes Timefold AI, **optimizing planning** effortlessly.
+Taking into account factors like teacher availability/preferences or module details such as length and rhythm, LEP utilizes Timefold AI to **optimize planning**.
 
 And most importantly considers time for **lunch breaks**!
 {{</section>}}
@@ -17,7 +17,7 @@ And most importantly considers time for **lunch breaks**!
 **Say goodbye to mailing back and forth spreadsheets!**
 
 With personalized access levels, **teachers** as well as **coordinators** enjoy a platform designed 
-to **mirror the real-world process** with distinct features tailored to meet the specific requirements of each role.
+to **mirror the real-world process** with distinct features, tailored to meet the specific requirements of each role.
 - Additionally, LEP supports both English and German **language settings** and access to **detailed room information** within the faculty for all users.
 {{</section>}}
 
@@ -36,11 +36,11 @@ Streamlining planning with LEP empowers coordinators by finding a first **practi
 Here they can also **look up schedules** for all or specific course of study within selected semester types.
 This reduces days of manual planning into minutes, leaving time to focus on the personal touch of the created plans as well as other strategic decisions.
 
-Additionally, LEP offers a quick way to create, modify and remove modules for the responsible faculty so the coordinators always have an overview
+Additionally, LEP offers a quick way to **create, modify and remove modules** for the responsible faculty so the coordinators always have an overview
 of the module management.
 {{</section>}}
 
 {{<section title="Robust security measures">}}
-By prioritizing security through anonymized user and module data, LEP ensures privacy and compliance to **safeguard sensitive information** like personal preferences,
+By prioritizing security through **anonymized user and module data**, LEP ensures privacy and compliance to **safeguard sensitive information** like personal preferences,
 while **secure login protocols** guarantee protected access to the platform for teachers and coordinators alike.
 {{</section>}}
