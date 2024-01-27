@@ -6,9 +6,9 @@ weight = 1
 {{<section title="Efficient automated semester planning">}}
 Whether it's sorting out a **schedule** for one **single course of study** or finding a suitable timetable for the whole **faculty** 
 in one of the two upcoming semesters, **LEP handles it**.
-Taking into account factors like teacher availability/preferences or module details such as length and rhythm, LEP utilizes Timefold AI to **plan things right.**
+Taking into account factors like teacher availability/preferences or module details such as length and rhythm, LEP utilizes Timefold AI, **optimizing planning** effortlessly.
 
-And most important considers time for **lunch breaks**!
+And most importantly considers time for **lunch breaks**!
 {{</section>}}
 
 [//]: # (- **Minimizes manual planning efforts** for coordinators, freeing up time to focus on other strategic tasks.- **Optimized, compact planning** for teachers and students- **No more headache** with overlapping modules, giving students **more freedom to choose**.)
@@ -41,6 +41,6 @@ of the module management.
 {{</section>}}
 
 {{<section title="Robust security measures">}}
-By prioritizing security by anonymized user and module data, LEP ensures privacy and compliance to **safeguard sensitive information** like personal preferences,
+By prioritizing security through anonymized user and module data, LEP ensures privacy and compliance to **safeguard sensitive information** like personal preferences,
 while **secure login protocols** guarantee protected access to the platform for teachers and coordinators alike.
 {{</section>}}
