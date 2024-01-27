@@ -1,11 +1,11 @@
-+++ 
-title = "Features" 
++++
+title = "Features"
 weight = 1
 +++
 
 {{<section title="Communication">}}
 
-#### Wifi
+#### Wi-Fi
 
 To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.
 

@@ -20,8 +20,8 @@ To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio
 
 #### Raspberry
 
-The Rapsberry Pi runs the Debian Raspberry Distribution and is the communication middleware.
-It serves as the mqtt broker and the wifi hotspot that the arduino and hololens connect too.
+The Raspberry Pi runs the Debian Raspberry Distribution and is the communication middleware.
+It serves as the MQTT broker and the Wi-Fi hotspot that the Arduino and HoloLens connect too.
 The Raspberry Pi was set up with the CLI
 
 - Programming Language: Bash
@@ -45,9 +45,9 @@ The Arduino was developed using the Arduino IDE
 
 #### Interactions
 
-- Arduino Uno Wifi Rev2
+- Arduino UNO WiFi Rev2
 - Button
-- Potenziometer
+- Potentiometer
 - PN532 NFC/RFID Reader
 - LED
 
@@ -57,7 +57,7 @@ The Arduino was developed using the Arduino IDE
 
 #### XR/AR Apps
 
-- Hololens 2
+- HoloLens 2
 
 {{<gallery>}}
 {{<image src="Arduino.png" alt="Arduino Logo" caption="Arduino">}}
