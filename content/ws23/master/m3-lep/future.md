@@ -4,53 +4,39 @@ weight = 5
 +++
 
 {{<section title="Consideration of further Rhythm Types">}}
-In our latest version, we've handled regulations dealing with diverse rhythms, ensuring LEP factors in weekly and biweekly 
-modules for time collisions as well as special constraints.
-We understand that exceptions, such as one-time events like introductions and unique faculty-specific rhythms like 3x6, demand more consideration 
-and code restructuring to enhance adaptability.
-
-<!---
-- in current version constraints regulate weekly and biweekly modules, prioritized the larger, crucial aspects of scheduling
-- there are exceptions like modules that are single events like introductions or other faculties have rhythm called threexsix.
-- these have to be considered in the planning as well in future but for that we need some code restructuring as well
---->
+In our **current version**, we've handled regulations dealing with the most common rhythms, ensuring LEP factors in **weekly and biweekly** 
+module planning for time collisions as well as special constraints.<br />
+We understand that exceptions, demand more consideration and code restructuring **in future** to enhance adaptability. 
+Especially **one-time events** like introductions at the start of semester have to be handled differently as well as
+unique faculty-specific rhythms like **3x6**, where the module starts slightly delayed in the semester, initially five times 
+every two weeks and then ends on a single day during the penultimate month of the semester.
 {{</section>}}
 
 {{<section title="Adapt to various teaching approaches">}}
-Modules taught by multiple teachers introduces complexities like split SWSs and unique time allocations 
-for various events. While our current version addresses this to a certain extent, future iterations may dive deeper 
-into handling split SWSs and optimized time allocations, preparing for diverse teaching approaches
-and acknowledging the complex and dynamic nature of university schedules.
+**Modules taught by multiple teachers** introduce complexities such as splitting SWS between them as well as conflict over 
+time allocations for one single module. While our current version already takes this into account to a certain extent for some exercises, 
+future development iterations may go deeper into dealing with this kind of module, preparing for diverse teaching approaches, 
+and acknowledging the more **complex and dynamic parts** of our university schedule planning.<br />
+This also includes **modules with longer duration** over 5 hours, indicated by a higher sws number, which, as handled in manual planning,
+should be divided into at least two parts.<br />
 
-Modules with extended durations indicated by a higher sws number (like 7SWS - 5h15min) should be split into at least two parts as it is done
-in the manual planning.
-
-There are a few other special cases that we discovered on the way, which have to be considered through additional constraints and model adaptions.
-In this first prototype of LEP, we had to rigorously optimize and tweak the existing constraints to ensure that the performance 
-did not decrease too much.
-This initial optimization effort leads us to the next point in our potential future considerations.
-
-<!---
-- For some modules the sws's (background info: 1xSemesterWochenStunde = 45min) are split between multiple teachers!
-- leaving ridiculous numbers like 0.33 for introduction events
-- also right now modules with sws numbers like 7 (which are 5h15min) should definitely be split in the future.
-- this is also done in 
-- in conclusion there are a lot of small special cases, but they all add up to a big mountain that has to be considered through new constraints
-- for this first prototype we really had to optimize and tweak the constraints that we had to ensure that the performance did not decrease too much
-- which leads us to the next point.--->
+Amongst others these **special cases** need to be taken into account through **additional boundary constraints** and database **model adjustments**.
+In this first LEP prototype, we had to consistently optimize and adapt the existing constraints to ensure that our performance 
+did not decrease too much, which leads us to the next point of possible future adaptions.
 {{</section>}}
 
 {{<section title="Improving Performance">}}
-Achieving optimal performance in timetable solving remains our top priority. 
-As the demands on our scheduling tool increases with a growing number of modules and constraints, we've encountered 
-challenges in maintaining optimal performance with the current Timefold algorithms. Despite the initial efficiency, 
-the increasing complexity has led to a noticeable slowdown. 
-In future more time can be invested into these performance issues by trying out different solving and optimizing algorithms
-to ensure a quicker and more efficient timetable-solving process.
+Achieving optimal performance while solving a schedule remains our top priority.<br />
+As the **demands increases** on our tool with a growing number of modules and constraints, we've encountering 
+challenges in maintaining optimal performance with the default solver configuration of Timefold. Despite the initial efficiency, 
+the **increasing complexity** has led to a slowdown.
+In future more time can be invested into these performance issues by trying out various **optimizing algorithms** and the use
+of the Timefold [ Benchmarker](https://timefold.ai/docs/timefold-solver/latest/using-timefold-solver/benchmarking-and-tweaking#benchmarker) to ensure a quicker and more efficient timetable-solving process.
 {{</section>}}
 
 {{<section title="User-Friendly Enhancements">}}
-- Enhanced Visualization of overlapping modules in timetable view if there are multiple modules in the same timeslot
-- Give Coordinators power to adjust and fine-tune the resulted timetable after solving by providing options for changing the module timeslot
-afterwards with a additonal field in module planning or drag-and-drop options in the timetable view.
+A few small adjustments in the UI can be dealt with in future such as:
+- Enhanced Visualization of overlapping modules in the timetable view if there are multiple modules in the same timeslot
+- Giving Coordinators power to adjust and fine-tune the resulted timetable after solving, by providing options for changing the time of the module
+with an additional field in module planning or drag-and-drop options in the timetable view.
 {{</section>}}
