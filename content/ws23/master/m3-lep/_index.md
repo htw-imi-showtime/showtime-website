@@ -28,7 +28,7 @@ Our team consists of three students, each contributing a unique set of skills to
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="nikol.jpg" name="Nicole">}}
+{{<team-member image="nikol.jpg" name="Nikol">}}
 {{<team-member image="kim.jpg" name="Kim">}}
 {{<team-member image="hikari.jpg" name="Hikari">}}
 {{</gallery>}}
