@@ -1,17 +1,17 @@
 +++
-title = "Mobile Multitouch Multiplayer"
+title = "Mobile Multitouch Multiplayer - Spike Shielders"
 project_id = "B2"
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
-card_description = "Introducing the Mobile Multitouch Multiplayer Project: Dive into the jungle with Bobola and save the day from falling coconuts!" 
+card_image = "logo.png"
+card_description = "Introducing the Mobile Multitouch Multiplayer Project - Spike Shielders: Dive into the jungle with Bobola and save the day!" 
 
 team = ["David Voetterl", "Aidai Kalmamatova"]
 supervisor = "Tobias Lenz"
 draft = true
 +++
 
-This innovative game challenges players to collaborate on smartphones or tablets, exploring the limits of multitouch and multiplayer dynamics. 
+This innovative game challenges players to collaborate on tablets, exploring the limits of multitouch and multiplayer dynamics. 
 Grab your device, tap swiftly, and immerse yourself in this magical adventure. How many fingers can you use to save Bobola and the jungle life? Let's find out!
 
 {{<section title="Our Goal">}}
@@ -28,7 +28,7 @@ We are a small team of two dedicated IMI Students - David Voetterl and Aidai Kal
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member-1 image="cat.jpg" name="David Voetterl">}}
-{{<team-member-2 image="cat.jpg" name="Aidai Kalmamatova">}}
+{{<team-member image="david.jpg" name="David Voetterl">}}
+{{<team-member image="aidai.jpg" name="Aidai Kalmamatova">}}
 {{</gallery>}}
 
