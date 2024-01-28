@@ -3,6 +3,8 @@ title = "Tech Stack"
 weight = 5
 +++
 
+<div class="mb-0">{{<image src="techstack.png" alt="Picture of Our Tech Stack">}}</div>
+
 {{<section title="VR Headsets">}}
 
 #### [Oculus](https://www.oculus.com/deeplink/?action=view&path=%252&locale=de_DE)

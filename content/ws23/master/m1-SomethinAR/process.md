@@ -34,7 +34,7 @@ The project was started with the mindset that we want to try out these new and f
 
 {{<section title="Conducting Technical Research">}}
 
-XR technology is a rapidly evolving field, as we discovered firsthand during our research into the **Meta XR SDK** and **Oculus Integration and Interaction SDK**. We delved deep into VR technology using **Unity**, exploring how we could use it for our project. Our focus was on **synchronization across multiple headsets** and creating a mixed world within the game that smoothly combined elements from both the virtual and the real world, in line with our desired effect.
+XR technology is a rapidly evolving field, as we discovered firsthand during our research into the **Meta XR SDK** and **Oculus Integration and Interaction SDK**. We delved deep into XR technology using **Unity**, exploring how we could use it for our project. Our focus was on **synchronization across multiple headsets** and creating a mixed world within the game that smoothly combined elements from both the virtual and the real world, in line with our desired effect.
 
 Our research also led us to investigate the **transfer and sharing of spatial data** for colocation features in our game, as well as the **interaction between real-world objects and virtual elements**. We aimed to integrate these components for the **Meta Quest 3**, requiring us to understand various concecpts of XR technology to build our game.
 

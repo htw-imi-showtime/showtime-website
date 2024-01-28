@@ -4,7 +4,7 @@ weight = 1
 +++
 
 {{<section title="Terminology">}}
-Even though we've spent a lot of time working with extended reality, we sometimes find ourselves questioning the precise terms used in this field. So, we decided to create a brief guide to some of the most frequently used terms in the world of XR:
+Even though we've spent a lot of time working with extended reality, we sometimes find ourselves questioning the precise terms used in this field. So, we thought it couldn't be different for you and decided to create a brief guide to some of the most frequently used terms in the world of XR:
 {{</section>}}
 
 {{<section title="Virtual Reality (VR)">}}
