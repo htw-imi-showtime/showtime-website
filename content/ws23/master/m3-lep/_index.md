@@ -1,10 +1,10 @@
 +++
-title = "LehrEinsatzPlanung"
+title = "LEP"
 project_id = "M3"
 
 # Properties for displaying the project in the project list
 card_image = "LEP.png"
-card_description = "The AI-powered academic schedule planning tool" 
+card_description = "LehrEinsatzPlanung - The AI-powered academic schedule planning tool" 
 
 team = ["Nikol Stefanova", "Kim Ngan Le Dang","Hikari Sophia Stölzle"]
 supervisor = "Prof.Dr. Gefei Zhang"

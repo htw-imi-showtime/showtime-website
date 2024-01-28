@@ -3,31 +3,54 @@ title = "Challenges"
 weight = 3
 +++
 
-{{<section title="UI">}}
-
-
-In the initial stages of development, one key challenge our team faced was designing a user interface (UI) that effectively accommodates the input of constraints and preferences from teachers. Creating a user-friendly and simple UI for teachers to specify their requirements posed a significant hurdle, as it required striking a balance between complexity and user-friendliness. We undertook extensive brainstorming sessions ensuring that it could efficiently capture the nuanced constraints and preferences without overwhelming the teacher.
-
+{{<section title="UX-UI Design">}}
+In the initial stages of development, one key challenge our team faced was **designing a user interface** (UI) that effectively 
+accommodates the input of constraints and preferences from teachers. None of us is a professional UX-UI designer, therefore, creating 
+an appealing and simple UI for admin or teachers to specify their requirements posed a significant hurdle, as it required striking 
+a balance between complexity and user-friendliness. We undertook several brainstorming sessions ensuring that the UI could be used efficiently 
+without overwhelming the user.
 {{</section>}}
-{{<section title="Data">}}
 
-One of the first problems in our development journey was about efficiently reading and importing the data stored in Excel files into our database. Handling data migration from Excel to a database format was challenging, as the structure of Excel files differs significantly from relational databases. We needed to devise a systematic approach to parse and extract information from these files, ensuring accuracy and maintaining data integrity during the transition.
-
+{{<section title="Data migration & data structure">}}
+One of the first problem in our development journey revolved around efficiently **reading and importing** the data stored 
+in Excel files into our database. Handling data migration from Excel to a database format presented a unique set of challenges. 
+Throughout the project implementation, further key challenges included establishing effective storage solutions within our database, 
+**defining data structures and relations**, and ensuring the data integrity and consistency. Addressing these hurdles was essential 
+for a successful project outcome, and the devised solutions significantly enhanced the effectiveness of our data migration process.
 {{</section>}}
+
 {{<section title="Solving library">}}
+In our student project, the main challenge lay in developing a time planning system capable of generating a schedule 
+that meets all our constraints. Our search for an open-source solution led us to **Timefold**, a promising library for 
+automated schedule generation. However, integrating _Timefold_ into our project posed its own set of challenges, 
+such as aligning our data structure and code implementation with _Timefold_'s functionality. The adaptation process 
+required in-depth comprehension of _Timefold_ itself. The library proved to be transformative, becoming the backbone of our project.
 
-In our student project, the challenge lay in crafting a time planning system that follows constraints such as non-overlapping lectures and exclusive teacher commitments. Our search for an open-source solution led us to Timefold, a promising library in the realm of automated schedule generation. However, integrating Timefold into our project posed its own set of challenges. The adaptation process required in-depth comprehension, with the addition of annotations and the creation of specific classes and data structure adjustment to align our code with Timefold's functionality. The library proved to be transformative, becoming the backbone of our project. Timefold, by virtue of its capabilities, emerged as a pivotal asset, contributing significantly to the overall success of our endeavor. In overcoming these challenges, we not only technically integrated Timefold but also elevated the efficiency and effectiveness of our time planning system.
+**Experimenting with different solver configurations and approaches** to solve the planning issue also consumed 
+a considerable amount of time. We tried numerous configurations in an effort to optimize the system, but these 
+attempts were time-consuming and often did not yield the expected improvements in schedule optimization. In overcoming 
+these challenges, we not only technically integrated _Timefold_ but also elevated the efficiency and effectiveness of our 
+time planning system.
 {{</section>}}
 
-{{<section title="Timefold">}}
-
-Addressing the intricacies of constraint formulation within the development project presented a notable challenge. The specified constraints were documented in a human-readable manner, and the subsequent task centered on adeptly translating them into a format compatible with Timefold for scoring solutions. Timefold operates with constraints structured in a stream-like fashion, introducing an additional layer of complexity to the translation process.
-
-
+{{<section title="Implementing constraints">}}
+**Implementing defined constraints** was a notable challenge during the development phase. 
+The specified constraints were initially documented in a human-readable manner, and then our focus shifted to 
+transforming them into a format compatible with _Timefold_ for scoring solutions. _Timefold_ operates with constraints 
+structured in a stream-like fashion, introducing an additional layer of complexity to the translation process. 
+The successful implementation of the constraints allows us to generate a schedule that meets all the predefined 
+constraints and to ensure the feasibility of the planning.
 {{</section>}}
 
 {{<section title="Security">}}
-In light of our project's engagement with sensitive personal information, ensuring robust security measures was a paramount concern. To safeguard the stored data in MongoDB and prevent any potential data leaks, we implemented a meticulous approach involving the utilization of Java Cryptography Extension (JCE) and Java Cryptography Architecture (JCA) for data anonymization. This ensured that data remained secure and inaccessible to unauthorized entities. Navigating the intricacies of implementing data anonymization using JCE and JCA presented a significant initial challenge. However, the complexity intensified during the integration of the login functionality. Overcoming the hurdles of configuring Cross-Origin Resource Sharing (CORS) options to permit specific origins and filtering out unauthorized login attempts proved to be a formidable task. The most intricate aspect of the process emerged during the seamless integration with Spring Boot, where adhering to the Spring Boot conventions posed a notable challenge. Despite these challenges, our team successfully addressed these complexities, establishing a secure foundation for the project's functionality. This dedication to data security ensures a safe and confidential environment for the users of our platform.
-
-
+Security was also a priority in our project, especially because we dealt with sensitive personal information. 
+To safeguard the stored data in MongoDB and prevent any potential data leaks, we implemented an approach involving 
+the utilization of Java Cryptography Extension (JCE) and Java Cryptography Architecture (JCA) for data encryption 
+and decryption. The task became even more complex when we added the Login feature, which required the 
+implementation of JSON Web Token (JWT) for secure authentication and configuring Cross-Origin Resource Sharing 
+(CORS) to allow only known sources and block unauthorized attempts. One of the most challenging parts was **integrating 
+everything smoothly with Spring Boot** while adhering to its guidelines and conventions. Despite these challenges, 
+our team successfully addressed these complexities, including the seamless integration of JWT for login authentication 
+and ensuring that the data is stored in an anonymized format, establishing a secure foundation for the project's 
+functionality. This dedication to data security ensures a safe and confidential environment for the users of our platform.
 {{</section>}}
