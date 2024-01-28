@@ -25,7 +25,7 @@ Employed to locally scope CSS by automatically creating a unique class name for 
 #### [Postman](https://www.postman.com/)
 Utilized for testing and interacting with APIs during development, ensuring that our endpoints are well-tested, robust, and ready for integration.
 #### [Swagger](https://swagger.io/)
-Used for API documentation, providing a clear, interactive interface for backe-nd services, simplifying development and integration efforts.
+Used for API documentation, providing a clear, interactive interface for back-end services, simplifying development and integration efforts.
 {{</section>}}
 
 {{<image src="workflow.png" alt="Application workflow" caption="Application Workflow">}}

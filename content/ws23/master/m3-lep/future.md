@@ -14,15 +14,13 @@ every two weeks and then ends on a single day during the penultimate month of th
 
 {{<section title="Adapt to various teaching approaches">}}
 **Modules taught by multiple teachers** introduce complexities such as splitting SWS between them as well as conflict over 
-time allocations for one single module. While our current version already takes this into account to a certain extent for some exercises, 
-future development iterations may go deeper into dealing with this kind of module, preparing for diverse teaching approaches, 
-and acknowledging the more **complex and dynamic parts** of our university schedule planning.<br />
-This also includes **modules with longer duration** over 5 hours, indicated by a higher sws number, which, as handled in manual planning,
+time allocations for one single module. It's also worth expanding the case of teachers who **teach across multiple courses** 
+as well as dealing with **modules with longer duration** over 5 hours, indicated by a higher sws number, which, as handled in manual planning,
 should be divided into at least two parts.<br />
-
-Amongst others these **special cases** need to be taken into account through **additional boundary constraints** and database **model adjustments**.
-In this first LEP prototype, we had to consistently optimize and adapt the existing constraints to ensure that our performance 
-did not decrease too much, which leads us to the next point of possible future adaptions.
+While our current version already takes this into account to a certain extent for some cases, these **special cases** 
+require more consideration through **additional boundary constraints** and database **model adjustments**.<br />
+Future development iterations may go deeper into addressing these kind of cases, preparing for diverse teaching approaches,
+and acknowledging the more **complex and dynamic parts** of our university schedule planning.<br />
 {{</section>}}
 
 {{<section title="Improving Performance">}}

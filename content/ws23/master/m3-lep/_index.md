@@ -24,7 +24,7 @@ This is where LEP steps in. Our goal is to automate this manual scheduling proce
 
 
 {{<section title="The team">}}
-Our team consists of three students, each contributing a unique set of skills to this practical project. We combine front-end , back-end development, database management, and unit testing to create an effective application. Our collaborative approach extends beyond our team - we actively engage with our project supervisor and the university's scheduling staff, ensuring that our solution is well tailored to meet the actual needs of university. Together, we're not just coding an application, we're redefining how academic scheduling is done.
+Our team consists of three students, each contributing a unique set of skills to this practical project. We combine front- and back-end development, database management, and unit testing to create an effective application. Our collaborative approach extends beyond our team - we actively engage with our project supervisor and the university's scheduling staff, ensuring that our solution is well tailored to meet the actual needs of university. Together, we're not just coding an application, we're redefining how academic scheduling is done.
 {{</section>}} 
 
 {{<gallery>}}
