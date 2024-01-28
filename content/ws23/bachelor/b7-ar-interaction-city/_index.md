@@ -4,7 +4,7 @@ project_id = "B7"
 
 # Properties for displaying the project in the project list
 card_image = "Logo.png"
-card_description = "Vision.IO shows the possibilities of merging the augmented world with the real world. Transform what you see in augmented reality with the help of physical interactions.  Immerse yourself in a new experience that turns augmented reality into extended reality."
+card_description = "Vision.IO, a digital-haptic city model for information communication through XR/AR showcases the potential of merging augmented reality with physical interactions. This immersive experience transforms augmented reality into extended reality, offering an innovative way to perceive and interact with urban environments."
 
 team = ["Christian Wolter", "Yasmine Haidri", "Jonas Mantay", "Timo Boomgaarden"]
 supervisor = "Alexander Kramer"
