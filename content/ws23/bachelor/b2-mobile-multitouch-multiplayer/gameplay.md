@@ -33,4 +33,6 @@ Now, we wanted everyone to enjoy our game together. So, we decided to make it mu
 
 {{<image src="unity screen division.png" alt="">}} 
 
+{{<image src="altogether.png" alt="">}} 
+
 {{</section>}}
