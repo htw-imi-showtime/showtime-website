@@ -40,15 +40,20 @@ The study aimed to explore the impact of avatar design on the relationship betwe
 
 To measure the effectiveness of the different avatars, we drew inspiration from existing research methodologies:
 
-- **Telepresence, Copresence, and Social Presence:** The study drew inspiration from Kristine L. Nowak and Frank Biocca's work on the effect of agency and anthropomorphism on users' sense of telepresence, copresence, and social presence in virtual environments.
+- **Telepresence, Copresence, and Social Presence:** The study drew inspiration from Kristine L. Nowak and Frank Biocca's work on the effect of agency and anthropomorphism on users' sense of telepresence, copresence, and social presence in virtual environments. [^1]
 
-- **Emotion Measurement:** The Self-Assessment Manikin and the Semantic Differential, as introduced by Margaret M. Bradley and Peter J. Lang, were employed to measure the emotional responses of participants during the virtual interactions.
+- **Emotion Measurement:** The Self-Assessment Manikin and the Semantic Differential, as introduced by Margaret M. Bradley and Peter J. Lang, were employed to measure the emotional responses of participants during the virtual interactions. [^2]
 
-- **Impact on Learning Environment:** The study considered the impact of avatar trust on learners' perceived participation intentions in an e-learning environment, based on the research by Seong Wook Chae, Kun Chang Lee, and Young Wook Seo.
+- **Impact on Learning Environment:** The study considered the impact of avatar trust on learners' perceived participation intentions in an e-learning environment, based on the research by Seong Wook Chae, Kun Chang Lee, and Young Wook Seo. [^3]
 
 The gathered data and feedback from the participants were crucial in assessing the effectiveness of different avatar representations in virtual educational settings.
 {{</section>}}
 
+[^1]: Kristine L. Nowak; Frank Biocca, "The Effect of the Agency and Anthropomorphism on Users' Sense of Telepresence, Copresence, and Social Presence in Virtual Environments," Presence (Volume: 12, Issue: 5, October 2003), Published online: October 2003, [DOI: 10.1162/105474603322761289](https://doi.org/10.1162/105474603322761289)
+
+[^2]: Bradley and P. J. Lang, "Measuring Emotion: The Self-Assessment Manikin and the Semantic Differential," Published online: 16 Mar 2016, DOI: 10.1016/0005-7916(94)90063-9
+
+[^3]: Seong Wook Chae, Kun Chang Lee, & Young Wook Seo, "Exploring the Effect of Avatar Trust on Learners’ Perceived Participation Intentions in an e-Learning Environment," Published online: 16 Mar 2016. [DOI: 10.1080/10447318.2016.1150643](https://doi.org/10.1080/10447318.2016.1150643)
 
 
 
