@@ -8,7 +8,7 @@ card_description = "Vision.IO, a digital-haptic city model for information comm
 
 team = ["Christian Wolter", "Yasmine Haidri", "Jonas Mantay", "Timo Boomgaarden"]
 supervisor = "Alexander Kramer"
-draft = true
+draft = false
 +++
 
 {{<image src="Logo.png" alt="Logo">}}

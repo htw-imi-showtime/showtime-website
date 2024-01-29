@@ -8,7 +8,7 @@ card_description = "AI-powered timetable solver"
 
 team = ["Nikol Stefanova", "Kim Ngan Le Dang","Hikari Sophia Stölzle"]
 supervisor = "Prof.Dr. Gefei Zhang"
-draft = true
+draft = false
 +++
 
 Welcome to LEP, Powered by TimeFold AI: Revolutionize The University Timetabling with Our Smart, Automated Scheduling Solution! 
