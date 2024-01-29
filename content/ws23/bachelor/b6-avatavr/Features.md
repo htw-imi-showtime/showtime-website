@@ -28,7 +28,7 @@ Now, the user has the opportunity to try again, earning the instructor's praise 
 {{</section>}}
 
 ## Conducting the study using different Avatar Representations
-{{</section>}}
+
 
 {{<section title="the study">}}
 
