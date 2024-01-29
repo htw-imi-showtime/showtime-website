@@ -18,6 +18,7 @@ Game-Based Learning approach.
 NABU (Naturschutzverband e.V) is an NGO with approximately 900,000 members (more than 1% of the population)
 environmental education, spreading of public awareness, cooperations with local groups,
 institutions and authorities to promote nature-friendly policies
+{{<image src="Nabu.png" alt="Nabu" caption="Nabu">}}
 {{</section>}}
 
 {{<section title="Gameplay">}}
