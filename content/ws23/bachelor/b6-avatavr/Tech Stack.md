@@ -25,6 +25,7 @@ To capture the instructors movements we recorded his speech aswell as his moveme
 
 - Captury (for real-time motion-capturing)
 - Blender (for cutting and cleaning the captured data)
+- Logic (Digital Audio Workstation for cleaning up audio clips)
   
 {{<image src="zippel1.jpg">}}
 {{<image src="zippel2.jpg">}}
