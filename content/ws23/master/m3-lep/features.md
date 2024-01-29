@@ -5,7 +5,7 @@ weight = 1
 
 {{<section title="Efficient automated semester planning">}}
 With just a few clicks, faculty staff can effortlessly generate a complete **schedule** for **each course of study** throughout the entire semester.
-Taking into account factors from module duration and rhythm to teacher's mandatory events, availability, and preferences, LEP utilizes Timefold AI to makes sure everything fits together well, making planning **simple and hassle-free**.
+Taking into account factors from module duration and rhythm to teacher's mandatory events, availability, and preferences, LEP utilizes **Timefold** to makes sure everything fits together well, making planning **simple and hassle-free**.
 {{</section>}}
 
 {{<section title="Role-Based UI for seamless collaboration">}}

@@ -4,14 +4,12 @@ project_id = "M3"
 
 # Properties for displaying the project in the project list
 card_image = "LEP.png"
-card_description = "LehrEinsatzPlanung - The AI-powered academic schedule planning tool" 
+card_description = "Welcome to LEP - Powered by TimeFold. Revolutionize the academic schedule planning with our smart, automated solution!" 
 
 team = ["Nikol Stefanova", "Kim Ngan Le Dang","Hikari Sophia Stölzle"]
 supervisor = "Prof.Dr. Gefei Zhang"
 draft = false
 +++
-
-Welcome to LEP, **Powered by TimeFold AI**: Revolutionize the academic schedule planning with our smart, automated solution! 
 
 Embrace simplicity in timetable planning with LehrEinsatzPlanung tool. Teachers effortlessly submit their availability 
 and course details, while administrators easily manage the automated, optimized timetable creation. Discover the future 
