@@ -44,11 +44,11 @@ The study aimed to explore the impact of avatar design on the relationship betwe
 
 To measure the effectiveness of the different avatars, we drew inspiration from existing research methodologies:
 
-- **Telepresence, Copresence, and Social Presence:** The study drew inspiration from Kristine L. Nowak and Frank Biocca's work on the effect of agency and anthropomorphism on users' sense of telepresence, copresence, and social presence in virtual environments. [^1]
+**Telepresence, Copresence, and Social Presence:** - The study drew inspiration from Kristine L. Nowak and Frank Biocca's work on the effect of agency and anthropomorphism on users' sense of telepresence, copresence, and social presence in virtual environments. [^1]
 
-- **Emotion Measurement:** The Self-Assessment Manikin and the Semantic Differential, as introduced by Margaret M. Bradley and Peter J. Lang, were employed to measure the emotional responses of participants during the virtual interactions. [^2]
+**Emotion Measurement:** - The Self-Assessment Manikin and the Semantic Differential, as introduced by Margaret M. Bradley and Peter J. Lang, were employed to measure the emotional responses of participants during the virtual interactions. [^2]
 
-- **Impact on Learning Environment:** The study considered the impact of avatar trust on learners' perceived participation intentions in an e-learning environment, based on the research by Seong Wook Chae, Kun Chang Lee, and Young Wook Seo. [^3]
+**Impact on Learning Environment:** - The study considered the impact of avatar trust on learners' perceived participation intentions in an e-learning environment, based on the research by Seong Wook Chae, Kun Chang Lee, and Young Wook Seo. [^3]
 
 The gathered data and feedback from the participants were crucial in assessing the effectiveness of different avatar representations in virtual educational settings.
 
