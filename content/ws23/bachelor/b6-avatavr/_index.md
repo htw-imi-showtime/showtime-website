@@ -10,13 +10,15 @@ team = ["Robert Dolibog", "Vladyslav Kyselov", "Imanuel Leiserowitz", "Nathalie 
 supervisor = "Martin Steinicke & Alexander Kramer"
 draft = false
 +++
-
+{{<section title="Intro">}}
+{{<image src="cover.jpg" alt="AvataVR Logo">}}
 Rapid advancements in Virtual Reality (VR) technology have transformed what was once dismissed by many as a 'gimmick' into a rapidly evolving realm with practical applications.
 Companies like Meta and Valve now prioritize the development of VR technologies, pushing to integrate it more and more into the media landscape. 
 The Covid-19 pandemic further accelerated the shift of education into the virtual space, emphasizing the growing importance of immersive learning experiences.
 In this context, our study focuses on examining the visual impact of VR learning, specifically exploring the potential of avatars to enhance educational experiences within this evolving virtual landscape.
+{{</section>}} 
 
-{{<image src="cover.jpg" alt="AvataVR Logo">}}
+
 
 
 {{<section title="Concept">}}
