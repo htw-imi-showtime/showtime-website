@@ -10,7 +10,7 @@ weight = 4
 The backbone of our back-end, chosen for its powerful suite of features that simplify the development of stand-alone applications with minimal configuration.
 #### [MongoDB](https://www.mongodb.com/)
 Our NoSQL database of choice, allowing for flexible data schema and efficient, scalable storage of application data.
-#### [TimeFold AI](https://timefold.ai/)
+#### [TimeFold](https://timefold.ai/)
 Integrated as the core engine for intelligent and automated scheduling, ensuring optimal allocation of resources and efficient timetabling.
 
 #### [ReactJS](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/)

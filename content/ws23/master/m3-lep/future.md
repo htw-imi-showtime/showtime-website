@@ -29,7 +29,7 @@ As the **demands increases** on our tool with a growing number of modules and co
 challenges in maintaining optimal performance with the default solver configuration of Timefold. Despite the initial efficiency, 
 the **increasing complexity** has led to a slowdown.
 In future more time can be invested into these performance issues by trying out various **optimizing algorithms** and the use
-of the Timefold [ Benchmarker](https://timefold.ai/docs/timefold-solver/latest/using-timefold-solver/benchmarking-and-tweaking#benchmarker) to ensure a quicker and more efficient timetable-solving process.
+of the _Timefold_ [ Benchmarker](https://timefold.ai/docs/timefold-solver/latest/using-timefold-solver/benchmarking-and-tweaking#benchmarker) to ensure a quicker and more efficient timetable-solving process.
 {{</section>}}
 
 {{<section title="User-Friendly Enhancements">}}
