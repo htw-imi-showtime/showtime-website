@@ -36,10 +36,8 @@ Now, the user has the opportunity to try again, earning the instructor's praise 
 
 In order to examine if the difference in character design had an impact on the relationship with the teacher, we conducted tests on two groups of participants during the span of two days on campus. The participants filled out questionnaires to provide insights into their experience and perception.
 
-{{<gallery>}}
 {{<image src="test1.jpg" alt="Testing Procedure">}}
 {{<image src="test2.jpg" alt="Poster">}}
-{{</gallery>}}
 
 The study aimed to explore the impact of avatar design on the relationship between the user and the virtual instructor. Two distinct avatar representations were used, and participants were divided into two groups, each exposed to a different representation.
 
