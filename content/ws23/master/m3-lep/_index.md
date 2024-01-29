@@ -8,7 +8,7 @@ card_description = "LehrEinsatzPlanung - The AI-powered academic schedule planni
 
 team = ["Nikol Stefanova", "Kim Ngan Le Dang","Hikari Sophia Stölzle"]
 supervisor = "Prof.Dr. Gefei Zhang"
-draft = true
+draft = false
 +++
 
 Welcome to LEP, **Powered by TimeFold AI**: Revolutionize the academic schedule planning with our smart, automated solution! 
