@@ -6,7 +6,7 @@ project_id = "B4"
 card_image = "bunnyCard.png"
 card_description = "Hypno Buddy, an innovative app, enhances hypnotherapy effectiveness, especially for children and adolescents. Facilitating seamless communication between therapists, young clients, and parents, it empowers all parties."
 source_link = "https://github.com/justingebert/b4-hypnobuddy"
-team = ["Justin Gebert", "Pia Dünow", "Sina Han", "Marwa Hariz", "Mai Le Phuong", "Nataliia Remezova"]
+team = ["Pia Dünow", "Justin Gebert", "Sina Han", "Marwa Hariz", "Mai Le Phuong", "Nataliia Remezova"]
 supervisor = "Andreas Lehner"
 draft = true
 +++
