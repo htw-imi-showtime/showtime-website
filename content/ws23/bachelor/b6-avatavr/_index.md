@@ -16,6 +16,9 @@ Companies like Meta and Valve now prioritize the development of VR technologies,
 The Covid-19 pandemic further accelerated the shift of education into the virtual space, emphasizing the growing importance of immersive learning experiences.
 In this context, our study focuses on examining the visual impact of VR learning, specifically exploring the potential of avatars to enhance educational experiences within this evolving virtual landscape.
 
+{{<image src="cover.jpg" alt="AvataVR Logo">}}
+
+
 {{<section title="Concept">}}
 The creation of the testing environment involved the construction of an immersive VR application, between 5 to 10 minutes of Playtime,
 designed to investigate the effects of different avatars on the learner. 
@@ -26,6 +29,7 @@ we partnered with the company se.services. The local electronics service provide
 {{<image src="se_logo.svg" caption="se.services GmbH Logo">}}
 In collaboration with their Head Instructor Markus Zippel, who has trained countless of electricians during his career, we were able to create a scenario, deliviring a basis on which we could later evaluate the users experiences.
 {{</section>}} 
+
 
 {{<section title="Avatar Design">}}
 In our study, we aimed to examine potential variations in the player's connection to the instructor based on its visual representation. One group of participants interacted with a human-looking 3D model, while the other received instructions from a more abstract representation, a robot.
