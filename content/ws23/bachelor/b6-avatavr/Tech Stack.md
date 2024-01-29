@@ -13,11 +13,12 @@ Due to the implementation of the OpenXR Library into the Game Engine Unity, we w
 This implementation is fairly new and often times riddled with failures, especially in connection with the VR Headsets.
 
 - Unity Game Engine
+- OpenXR library
 
 # Motion Capturing
 To capture the instructors movements we recorded his speech aswell as his movements, in the Lab of the creative media team of the "Institut für Kultur und Informatik an der HTW Berlin" which draws a rigged skeleton by capturing the movements from 8 angles.
 
-- Captury (for real-time capturin)
+- Captury (for real-time motion-capturing)
 - Blender (for cutting and cleaning the captured data)
   
 {{<image src="zippel1.jpg">}}
