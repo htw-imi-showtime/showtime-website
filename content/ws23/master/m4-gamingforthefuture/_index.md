@@ -8,7 +8,7 @@ card_description = "Aquasolace - Gaming For Future"
 
 team = ["Eliot Hoff", " Kenneth Englisch", "Cong Nguyen-Dinh", "Adib Ghassani Waluya"]
 supervisor = "David Mueller"
-draft = true
+draft = false
 +++
 
 {{<section title="Our Goal">}}

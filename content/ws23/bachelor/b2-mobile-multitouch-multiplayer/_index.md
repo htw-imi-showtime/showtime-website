@@ -8,7 +8,7 @@ card_description = "Introducing the Mobile Multitouch Multiplayer Project - Spik
 
 team = ["David Voetterl", "Aidai Kalmamatova"]
 supervisor = "Tobias Lenz"
-draft = true
+draft = false
 +++
 
 This innovative game challenges players to collaborate on tablets, exploring the limits of multitouch and multiplayer dynamics. 

@@ -8,7 +8,7 @@ card_description = "Hypno Buddy, an innovative app, enhances hypnotherapy effect
 source_link = "https://github.com/justingebert/b4-hypnobuddy"
 team = ["Pia Dünow", "Justin Gebert", "Sina Han", "Marwa Hariz", "Mai Le Phuong", "Nataliia Remezova"]
 supervisor = "Andreas Lehner"
-draft = true
+draft = false
 +++
 
 {{<section title="Hypno Buddy">}}
