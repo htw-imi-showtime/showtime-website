@@ -27,7 +27,28 @@ Ideally, the user starts building without deactivating the fuse switches. If a c
 Now, the user has the opportunity to try again, earning the instructor's praise once they successfully build the circuit without causing an explosion.
 {{</section>}}
 
-## 
+## Conducting the study using different Avatar Representations
+{{</section>}}
+
+{{<section title="the study">}}
+
+## Conducting the Study Using Different Avatar Representations
+
+In order to examine if the difference in character design had an impact on the relationship with the teacher, we conducted tests on two groups of participants during the span of two days on campus. The participants filled out questionnaires to provide insights into their experience and perception.
+
+The study aimed to explore the impact of avatar design on the relationship between the user and the virtual instructor. Two distinct avatar representations were used, and participants were divided into two groups, each exposed to a different representation.
+
+To measure the effectiveness of the different avatars, we drew inspiration from existing research methodologies:
+
+- **Telepresence, Copresence, and Social Presence:** The study drew inspiration from Kristine L. Nowak and Frank Biocca's work on the effect of agency and anthropomorphism on users' sense of telepresence, copresence, and social presence in virtual environments.
+
+- **Emotion Measurement:** The Self-Assessment Manikin and the Semantic Differential, as introduced by Margaret M. Bradley and Peter J. Lang, were employed to measure the emotional responses of participants during the virtual interactions.
+
+- **Impact on Learning Environment:** The study considered the impact of avatar trust on learners' perceived participation intentions in an e-learning environment, based on the research by Seong Wook Chae, Kun Chang Lee, and Young Wook Seo.
+
+The gathered data and feedback from the participants were crucial in assessing the effectiveness of different avatar representations in virtual educational settings.
+{{</section>}}
+
 
 
 
