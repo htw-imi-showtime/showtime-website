@@ -13,7 +13,7 @@ In this scene the player is greeted by the instructor, and asked to point out so
 To learn about the transformation from electric current to heat, the player needs to interact with the toaster.
 To activate an electric magnet one needs to point out the Toy Crane, and by using the lamp, the player can light up the scene.
 Supported by some amusing voicelines the player is playfully introduced into the topic of electric energy, before being confronted with more complex topics.
-{{<image src="room1Cropped.jpg" alt="Room 1">}}
+{{<image src="room1Cropped.png" alt="Room 1">}}
 {{</section>}}
 
 {{<section title="Scene 2">}}
@@ -26,7 +26,7 @@ The instructor then challenges the user to reconstruct the circuit. Various 3D a
 Ideally, the user starts building without deactivating the fuse switches. If a component under power is touched, a loud bang surprises the player, and the environment disappears. The instructor's voice from offscreen explains that the first and most important safety rule has been overlooked.
 
 Now, the user has the opportunity to try again, earning the instructor's praise once they successfully build the circuit without causing an explosion.
-{{<image src="room2Cropped.jpg" alt="Room 2">}}
+{{<image src="room2Cropped.png" alt="Room 2">}}
 
 {{</section>}}
 
