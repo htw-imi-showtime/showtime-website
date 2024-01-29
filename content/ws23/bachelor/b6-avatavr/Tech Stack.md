@@ -26,7 +26,7 @@ To capture the instructors movements we recorded his speech aswell as his moveme
 
 
 # Communication and project management
-- Citavi(literature database)
+- Citavi (literature database)
 - Mattermost (project board)
 - GitLab (repository)
 - Discord (online calls)
