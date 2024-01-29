@@ -31,7 +31,7 @@ To capture the instructors movements we recorded his speech aswell as his moveme
 {{<image src="zippel2.jpg">}}
 {{</section>}}
 
-{{<section title="Communication and Project Management
+{{<section title="Communication and Project Management">}}
 - Citavi (literature database)
 - Mattermost (project board)
 - GitLab (repository)
