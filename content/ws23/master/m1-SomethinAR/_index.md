@@ -8,7 +8,7 @@ card_description = "Somethin.AR is an immersive Multiplayer Mixed-Reality Game w
 
 team = ["Ruslan Novikov", "Juri Wiechmann", "Julia Zamaitat", "Robin Jaspers", "Diro Baloska",]
 supervisor = "David Strippgen, Robert Meyer, Fabian Quosdorf"
-draft = true
+draft = false
 +++
 
 {{<section title="Our Goal">}}
