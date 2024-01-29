@@ -11,6 +11,8 @@ supervisor = "Prof. Dr.-Ing. David Strippgen"
 draft = true
 +++
 
+{{<team-member image="app_functionality.gif" name="App Functionality">}}
+
 {{<section title="Our Goal">}}
 There's no denying that MongoDB is a powerful database with a lot of use cases but as powerful as it is - it is also a little tedious to go through once your collections and documents become bigger. And it's not very helpful to only see a list of documents and key-value pairs, if you've got a long list to go through, is it?
 
@@ -18,7 +20,7 @@ Our goal with this project is to simplify the way you interact with your Mongo d
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="alexej.jpg" name="Alexej">}}
+{{<team-member image="alexej.png" name="Alexej">}}
 {{<team-member image="marlin.png" name="Marlin">}}
 {{<team-member image="leif.png" name="Leif">}}
 {{<team-member image="tobias.png" name="Tobias">}}
