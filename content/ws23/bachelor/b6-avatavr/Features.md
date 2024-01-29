@@ -36,6 +36,11 @@ Now, the user has the opportunity to try again, earning the instructor's praise 
 
 In order to examine if the difference in character design had an impact on the relationship with the teacher, we conducted tests on two groups of participants during the span of two days on campus. The participants filled out questionnaires to provide insights into their experience and perception.
 
+{{<gallery>}}
+{{<image src="test1.jpg" alt="Testing Procedure">}}
+{{<image src="test2.jpg" alt="Poster">}}
+{{</gallery>}}
+
 The study aimed to explore the impact of avatar design on the relationship between the user and the virtual instructor. Two distinct avatar representations were used, and participants were divided into two groups, each exposed to a different representation.
 
 To measure the effectiveness of the different avatars, we drew inspiration from existing research methodologies:
@@ -47,13 +52,17 @@ To measure the effectiveness of the different avatars, we drew inspiration from 
 - **Impact on Learning Environment:** The study considered the impact of avatar trust on learners' perceived participation intentions in an e-learning environment, based on the research by Seong Wook Chae, Kun Chang Lee, and Young Wook Seo. [^3]
 
 The gathered data and feedback from the participants were crucial in assessing the effectiveness of different avatar representations in virtual educational settings.
-{{</section>}}
+
+
 
 [^1]: Kristine L. Nowak; Frank Biocca, "The Effect of the Agency and Anthropomorphism on Users' Sense of Telepresence, Copresence, and Social Presence in Virtual Environments," Presence (Volume: 12, Issue: 5, October 2003), Published online: October 2003, [DOI: 10.1162/105474603322761289](https://doi.org/10.1162/105474603322761289)
 
 [^2]: Bradley and P. J. Lang, "Measuring Emotion: The Self-Assessment Manikin and the Semantic Differential," Published online: 16 Mar 2016, DOI: 10.1016/0005-7916(94)90063-9
 
 [^3]: Seong Wook Chae, Kun Chang Lee, & Young Wook Seo, "Exploring the Effect of Avatar Trust on Learners’ Perceived Participation Intentions in an e-Learning Environment," Published online: 16 Mar 2016. [DOI: 10.1080/10447318.2016.1150643](https://doi.org/10.1080/10447318.2016.1150643)
+{{</section>}}
+
+
 
 
 
