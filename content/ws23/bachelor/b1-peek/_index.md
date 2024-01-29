@@ -8,7 +8,7 @@ card_description = "Tired of looking through thousands of documents to get the d
 
 team = ["Alexej Bormatenkow", "Marlin Pohl", "Leif Rehtanz", "Tobias Bayer", "Laura Bärtschi", "Matthis Ehrhardt"]
 supervisor = "Prof. Dr.-Ing. David Strippgen" 
-draft = true
+draft = false
 +++
 
 {{<team-member image="app_functionality.gif" name="App Functionality">}}
