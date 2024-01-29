@@ -1,11 +1,11 @@
-+++ 
-title = "Features" 
++++
+title = "Features"
 weight = 1
 +++
 
 {{<section title="Communication">}}
 
-#### Wifi
+#### Wi-Fi
 
 To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.
 
@@ -13,10 +13,7 @@ To ensure that our hardware can communicate smoothly in the same network, we use
 
 Communication takes place via MQTT, an open network protocol for machine-to-machine communication.
 The Arduino uses the MQTT protocol to send messages to the Raspberry Pi, which acts as an MQTT broker. At the same time, the HoloLens glasses subscribe to these messages to receive real-time information. This seamless exchange enables efficient communication between the devices, with the Raspberry Pi acting as the central intermediary to establish the connection between the Arduino and the HoloLens.
-{{<gallery>}}
-{{<image src="Wifi.png" alt="Wifi Logo" caption="Wifi">}}
-{{<image src="MQTT.png" alt="MQTT Logo" caption="MQTT">}}
-{{</gallery>}}
+{{<image src="Com.png" alt="Communication" caption="Communication Schema">}}
 {{</section>}}
 
 {{<section title="Interactions">}}
