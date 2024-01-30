@@ -5,6 +5,7 @@ weight = 1
 +++
 
 {{<section title="Features">}}
+
 **Keyword extraction:**
 
 - **Moodle Course:**
@@ -18,8 +19,10 @@ The matching results are displayed on the website.
 
 {{<image src="platforms.jpg" alt="Platforms">}}
 
+
 **Real-time Updates:**
 Whenever educators modify the course description or add new keywords, SmartLibrary dynamically updates, ensuring students have immediate access to the most current and relevant supplementary resources.
 
-
 {{</section>}}
+
+{{<mediathek id="22a69c8fa189ccf999150ee20de5dd45" title="Promo Video">}}
