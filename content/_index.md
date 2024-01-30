@@ -13,8 +13,8 @@ It'll be great to see  you on 02/02/2024 at 10:00 am for the presentations or be
 [-> check_the_schedule](schedule)
 {{</teaser>}}
 
-{{<teaser category="projects" title="One Term Eleven Projects">}}
-During their studies, each Bachelor student needs to do one, each Master student two practical projects. This term, we are happy to present six projects in the Bachelor's and five in the Master's program.
+{{<teaser category="projects" title="One Term Ten Projects">}}
+During their studies, each Bachelor student needs to do one, each Master student two practical projects. This term, we are happy to present six projects in the Bachelor's and four in the Master's program.
 [-> discover_the_projects](projects)
 {{</teaser>}}
 
