@@ -7,7 +7,7 @@ card_image = "logo.png"
 card_description = "Introducing the Mobile Multitouch Multiplayer Project - Spike Shielders: Dive into the jungle with Bobola and save the day!" 
 
 team = ["David Voetterl", "Aidai Kalmamatova"]
-supervisor = "Tobias Lenz"
+supervisor = "Prof. Dr. Tobias Lenz"
 draft = true
 +++
 
