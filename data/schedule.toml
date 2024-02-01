@@ -60,8 +60,8 @@ class = "master"
 
 [[slot]]
 time = "11:08"
-title = "M5 - Entwicklung einer Virtual Office Anwendung zur Förderung der Mitarbeitenden-Interaktion"
-projectDetail = "/"
+title = "M5 - Mov.IO"
+projectDetail = "../ws23/master/m5-mov.io/"
 class = "master"
 
 [[slot]]
