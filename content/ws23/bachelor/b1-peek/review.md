@@ -17,8 +17,10 @@ mit imagemagick nach png konvertiert und jeweils die kleinere Datei behalten. Da
 5.5M	b1-peek
 3.8M	b1-peek
 
-- links im md müssen angepasst werden.
+- links im md müssen noch angepasst werden.
 
+- muss das react-logo wirklich 5000 px breit sein?
+bitte verkleinern.
 ### Copyright
 - Remove Copyrighted images, die Quellenangabe reicht nicht, z.B. 
 auf einer der Quellen steht ©2020 Memento Technologies 
