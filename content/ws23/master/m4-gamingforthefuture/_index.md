@@ -1,10 +1,10 @@
 +++
-title = "M4 Aquasolace - Gaming for Future: A video game about water scarcity in Brandenburg (M4 Gaming for Future: Ein Videospiel über Wasserknappheit in Brandenburg)"
+title = "M4 Aquasolace - Gaming for Future"
 project_id = "M4"
 
 # Properties for displaying the project in the project list
 card_image = "Game1.png"
-card_description = "Aquasolace - Gaming For Future" 
+card_description = "A video game about water scarcity in Brandenburg (M4 Gaming for Future: Ein Videospiel über Wasserknappheit in Brandenburg)" 
 
 team = ["Eliot Hoff", " Kenneth Englisch", "Cong Nguyen-Dinh", "Adib Ghassani Waluya"]
 supervisor = "David Mueller"
