@@ -10,6 +10,9 @@
 
 Sehr schöne Seite! 
 
+## Inhalt: 
+habe einen Typo in title und dateiname korrigiert,
+
 ## Dateigrössen
 
 alles ok. 
@@ -31,3 +34,6 @@ for image in *.png ;  do convert "$image" "${image%.*}-converted.jpg" ; done
 for image in *.jpg ;  do convert "$image" -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB "${image%.*}-comp.jpg" ; done
 
 https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick
+
+
+

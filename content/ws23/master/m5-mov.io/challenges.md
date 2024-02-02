@@ -1,6 +1,6 @@
 +++
-title = "Challanges"
-weight = 1
+title = "Challenges"
+weight = 4
 +++
 
 {{<section title="Ideation Struggles">}}

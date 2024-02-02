@@ -1,6 +1,6 @@
 +++
 title = "Future"
-weight = 1
+weight = 5
 +++
 
 As we look to the future of mov.io, our vision goes beyond a simple virtual office platform - we envision a dynamic and customisable ecosystem that truly adapts to the individual preferences and needs of our users.
