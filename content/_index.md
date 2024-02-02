@@ -1,7 +1,7 @@
 +++
 showtime_date = "02/02/2024"
 showtime_place = "WH H001"
-showtime_save_the_date = "Save the date!!"
+showtime_save_the_date = ""
 is_live = "false"
 zoom_link = "TBD"
 +++
