@@ -9,7 +9,7 @@ In our project toolkit, we used various tools to keep things organized and clear
 
 To see our progress visually, we created a lively Miro board connected to our Gantt Chart, adding color and energy to our project tracking. And when it was time for Showtime Preparation, Confluence was our reliable guide, making sure every detail was in the right place.
 
-{{<image src="project management.png" alt="Apps for Project management: Notion, Google Apps, Confluence, Miro">}}  
+{{<image src="project_management.png" alt="Apps for Project management: Notion, Google Apps, Confluence, Miro">}}  
 
 {{</section>}}
 

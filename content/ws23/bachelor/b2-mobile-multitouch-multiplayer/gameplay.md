@@ -1,6 +1,6 @@
 +++
 title = "Gameplay"
-weight = 4 
+weight = 2 
 +++
 
 
@@ -8,7 +8,7 @@ weight = 4
 
 It all started with a sweet idea - a cute main character, and you, the player, saving it. No time to waste, so we jumped into Unity, made our main character, Bobola, and got into coding. Urgency was our guide to keep things moving.
 
-{{<image src="first design.png" alt="">}} 
+{{<image src="first_design.png" alt="">}} 
 {{</section>}}
 
 
@@ -29,9 +29,15 @@ As time passed, we couldn't replace the spike shields with coconuts, but that's 
 
 Now, we wanted everyone to enjoy our game together. So, we decided to make it multiplayer. We divided the screen in two and created a smart counter, counting clicks for each player. 
 
-{{<image src="unity counter.png" alt="">}} 
+While trying to make our game work well for mobile players, we faced a tough challenge: getting multitouch to work. Our goal was to allow multiple touches on the screen at once for multiplayer gaming. We searched the internet for ideas, but finding the right code for both multiplayer and multitouch was tough. It tested our determination and problem-solving skills.
 
-{{<image src="unity screen division.png" alt="">}} 
+After several rounds of trial and error, we came up with a promising solution.
+
+We stored all touches in an array for multitouch. For multiplayer, we used game objects assigned to each player. So, when a game object got destroyed, we knew which player to count it for.
+
+{{<image src="unity_counter.png" alt="">}} 
+
+{{<image src="unity_scr_div.png" alt="">}} 
 
 {{<image src="altogether.png" alt="">}} 
 
