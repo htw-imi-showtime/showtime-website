@@ -1,7 +1,16 @@
 +++
 title = "Tech Stack"
-weight = 4
+weight = 5
 +++
+
+<div class="mb-0">{{<image src="techstack.png" alt="Picture of Our Tech Stack">}}</div>
+
+{{<section title="VR Headsets">}}
+
+#### [Oculus](https://www.oculus.com/deeplink/?action=view&path=%252&locale=de_DE)
+
+- We used the Meta Quest 3 VR headsets and the Oculus software with Unity for running and testing our application.
+  {{</section>}}
 
 {{<section title="Game Engine">}}
 
@@ -21,18 +30,26 @@ weight = 4
 
 #### [Meta XR All-in-One SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657)
 
-- The Meta XR All-in-One SDK was instrumental in implementing immersive XR interactions in our game.
+- The Meta XR All-in-One SDK was our key asset for implementing immersive XR interactions in our game.
   {{</section>}}
 
 {{<section title="Concept & Design">}}
 
-#### [Figma](https://figma.com)
-
-- Figma was our go-to tool for designing UI elements, thanks to its user-friendly interface and versatility.
-
 #### [Miro](https://miro.com/)
 
-- Miro was essential for our team's idea sharing and visual brainstorming, enhancing our design process..
+- Miro was essential for our team's idea sharing and visual brainstorming, enhancing our design process.
+
+#### [Figma](https://figma.com)
+
+- Figma was our go-to tool for designing UI elements.
+
+{{</section>}}
+
+{{<section title="Project Planning & Product Backlog">}}
+
+#### [Github](https://github.com)
+
+- Github & Github Projects was our main hub for everything that had to do with project planning: writing tickets with user stories, features and tasks and creating weekly sprints.
 
 {{</section>}}
 

@@ -1,5 +1,6 @@
 +++
 title = "Gameplay"
+
 weight = 2 
 +++
 
@@ -13,6 +14,7 @@ It all started with a sweet idea - a cute main character, and you, the player, s
 
 
 {{<section title="Bobola's Story">}}
+
 To make the game more engaging, we introduced falling objects to save Bobola. Originally, we planned to use coconuts, but we stumbled upon spike shields in the Unity Asset Store.  
 
 Bobola's original Enchanting Tale:

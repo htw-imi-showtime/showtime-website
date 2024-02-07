@@ -9,7 +9,7 @@ card_description = "SmartLibrary is an innovative Moodle plugin developed to pro
 source_link = "https://github.com/IMI-Moodle-Projekt/smartlibrary.git"
 team = ["Ayman Abou Hashem", "Eva El Sakka", "Thi Thu Hien Tran", "Natalia Marth", "Bassel Samo"]
 supervisor = "Linda Fernsel"
-draft = true
+draft = false
 +++
 
 {{<section title="Our Goal">}}

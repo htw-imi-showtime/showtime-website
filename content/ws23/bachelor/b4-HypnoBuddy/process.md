@@ -1,6 +1,7 @@
----
-title: Process
----
++++
+title = "Process"
+weight = 2
++++
 
 - Our development journey can be broken down into distinct phases, each contributing to the evolution of our vision. Let's explore the key milestones that shaped our project from its inception to the current stage.
 
