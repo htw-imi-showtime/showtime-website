@@ -7,8 +7,8 @@ card_image = "logo.png"
 card_description = "Introducing the Mobile Multitouch Multiplayer Project - Spike Shielders: Dive into the jungle with Bobola and save the day!" 
 
 team = ["David Voetterl", "Aidai Kalmamatova"]
-supervisor = "Tobias Lenz"
-draft = false
+supervisor = "Prof. Dr. Tobias Lenz"
+draft = true
 +++
 
 This innovative game challenges players to collaborate on tablets, exploring the limits of multitouch and multiplayer dynamics. 
