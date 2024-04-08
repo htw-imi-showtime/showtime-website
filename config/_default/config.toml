@@ -4,9 +4,9 @@ title = "IMI Showtime"
 theme = "showtime-theme-2021"
 
 [params]
-    current_semester = "ws23"
+    current_semester = "ss24"
     production_site = "https://showtime.f4.htw-berlin.de/"
-    archive_path = "ss23"
+    archive_path = "ws23"
 
 [markup]
     [markup.goldmark]
@@ -18,8 +18,10 @@ theme = "showtime-theme-2021"
   proxy = 'direct'
   workspace = 'off'
   replacements = 'github.com/htw-imi-showtime/showtime-website-project-archive -> ../project-archive'
+
 [[module.imports]]
   path = 'github.com/htw-imi-showtime/showtime-website-project-archive'
+
 [[module.mounts]]
   source = "content"
   target = "content"
