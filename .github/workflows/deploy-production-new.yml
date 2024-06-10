@@ -25,7 +25,7 @@ jobs:
       run: |
         hugo \
           --environment production \
-          --baseURL = 'http://showtime2.f4.htw-berlin.de/'
+          --baseURL = 'http://showtime2.f4.htw-berlin.de/' \
           --minify
 
     - name: Deploy
