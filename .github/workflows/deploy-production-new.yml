@@ -1,6 +1,8 @@
 name: Tryout 10.6.2024
 
 on:
+  push:
+    branches: [ main ]
   release:
     types: [published]
     
