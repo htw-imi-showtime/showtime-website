@@ -1,6 +1,7 @@
 name: Tryout 10.6.2024
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   release:
