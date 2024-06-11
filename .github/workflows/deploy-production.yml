@@ -1,6 +1,7 @@
 name: DEPLOY PRODUCTION
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
     
