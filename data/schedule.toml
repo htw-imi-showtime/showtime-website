@@ -3,66 +3,6 @@ time = "10:00"
 title = "Opening"
 class = "general"
 
-[[slot]]
-time = "10:05"
-title = "B1 - Peek"
-projectDetail = "../ws23/bachelor/b1-peek/"
-class = "bachelor"
-
-[[slot]]
-time = "10:12"
-title = "B2 - Mobile Multitouch Multiplayer - Spike Shielders"
-projectDetail = "../ws23/bachelor/b2-mobile-multitouch-multiplayer/"
-class = "bachelor"
-
-[[slot]]
-time = "10:19"
-title = "B4 - Hypno Buddy"
-projectDetail = "../ws23/bachelor/b4-hypnobuddy/"
-class = "bachelor"
-
-[[slot]]
-time = "10:26"
-title = "B5 - Smart Library - It's a Match!"
-projectDetail = "../ws23/bachelor/b5-smartlibrary/"
-class = "bachelor"
-
-[[slot]]
-time = "10:33"
-title = "B6 - Avatavr"
-projectDetail = "../ws23/bachelor/b6-avatavr/"
-class = "bachelor"
-
-[[slot]]
-time = "10:40"
-title = "B7 - Vision.IO"
-projectDetail = "../ws23/bachelor/b7-ar-interaction-city/"
-class = "bachelor"
-
-
-[[slot]]
-time = "10:47"
-title = "M1 - Somethin' AR"
-projectDetail = "../ws23/master/m1-somethinar/"
-class = "master"
-
-[[slot]]
-time = "10:54"
-title = "M3 - LEP"
-projectDetail = "../ws23/master/m3-lep/"
-class = "master"
-
-[[slot]]
-time = "11:01"
-title = "M4 - Aquasolace - Gaming for Future"
-projectDetail = "../ws23/master/m4-gamingforthefuture/"
-class = "master"
-
-[[slot]]
-time = "11:08"
-title = "M5 - Mov.IO"
-projectDetail = "../ws23/master/m5-mov.io/"
-class = "master"
 
 [[slot]]
 time = "11:15"
