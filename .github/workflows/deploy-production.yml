@@ -27,12 +27,11 @@ jobs:
           --minify
 
     - name: Deploy
-      uses: appleboy/scp-action@v0.1.1
+      uses: appleboy/scp-action@v0.1.7
       with:
         host: ${{ secrets.SCP_HOST }}
         username: ${{ secrets.SCP_USERNAME }}
         key: ${{ secrets.SCP_KEY }}
-        passphrase: ${{ secrets.SCP_PASSPHRASE }}
         source: public/
         target: /var/www/html/
         rm: true
