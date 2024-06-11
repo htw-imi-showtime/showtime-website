@@ -2,7 +2,7 @@
 .RECIPEPREFIX = -
 
 hugo :  open
--  hugo --buildDrafts -p 1313 server
+-  hugo --navigateToChanged --buildDrafts -p 1313 server
 
 hugoP :  open
 -  hugo -p 1313 server
