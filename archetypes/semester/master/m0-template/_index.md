@@ -7,7 +7,7 @@ card_image = "kitty.jpg"
 card_description = "This is only a template" 
 
 team = ["Member 1", "Member 2"]
-supervisor = "Super Visor"
+supervisor = "Supervisor"
 draft = true
 +++
 
