@@ -1,1 +1,4 @@
 baseURL = "https://showtime.f4.htw-berlin.de/"
+
+[params]
+    debug = false

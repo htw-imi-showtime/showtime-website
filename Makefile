@@ -8,7 +8,8 @@ hugoP :  open
 -  hugo -p 1313 server
 
 open :
--  open http://localhost:1313
+#-  open http://localhost:1313
+-  open http://localhost:1313/ws23/bachelor/b4-hypnobuddy/
 
 stag_url=http://localhost:1315/staging
 hugoStaging : openStaging
