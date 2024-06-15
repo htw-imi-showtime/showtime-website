@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 
-
 {{ $semester := .Title }}
-{{ $title := "DEBUG" }}
+{{ $title := "Archive" }}
+{{ $title = "DEBUG" }}
 {{ $show_semester_selection := true}}
 
 
@@ -25,55 +25,11 @@
         <section class="underscore">
             <div class="spacer"></div>
 
-
-<p>all these work on localhost:
-{{ $path_prefix := "/" }}
-{{ $path_prefix_inverse := "" }}
-{{ if (eq .Site.BaseURL .Site.Params.Production_site) }}
-Production Site Detected
-{{ $path_prefix = "" }}
-{{ $path_prefix_inverse = "/" }}
-{{ else }}
-Preview Site Detected
-{{ end }}
-{{ $path := "/debug"}}
-{{ if eq .Title "debug_subpage"}}
-    {{ $path = "/debug/ws11"}}
-{{ end }}
-<br/>
-    $path: [{{- $path -}}]
-</p>
-
-{{ "/deploy/ws" | replaceRE "^/" $path_prefix}}
-
-<div class="select-wrapper">
-   <select name="semester"  id = "semester-select">
-    <option value="#">------</option>
-    <option value="{{ $path | replaceRE "^/" $path_prefix }}#0" >IMPLEMENTED#0</option>
-    <option value="..{{$path}}#1">..{{$path}}#1</option>
-    <option value="{{$path}}#2">{{$path}}#2</option>
-    <option value="../{{$path}}#7">../{{$path}}#7</option>
-    <option value="{{ .RelPermalink }}#3">{{ .RelPermalink }}#3(.RelPermalink)</option>
-    <option value="{{ .Permalink }}?4">{{ .Permalink }}?4(.Permalink)</option>
-    <option value="{{ "/{{$path}}" | relURL }}?5">"{{$path}}" | relURL ?5</option>
-    <option value="{{ .Title | relURL }}?8">.Title | relURL ?8 (original version)</option>
-    <option value="{{ "/{{$path}}" | absURL }}?6">"{{$path}}" | absURL ?6 </option>
-    <option value="/archive/ss22/">/archive/ss22/</option>
-    <option value="archive/ss22/">archive/ss22/</option>
-    <option value="../archive/ss22/">../archive/ss22/</option>
-   </select>
-</div>
-the original one: 
-
             {{ if $show_semester_selection }}
+           
                 {{ partial "semester_selection.html" . }}
+           
             {{ end }}
-
-
-
-
-
-
 
             {{- .Content -}}
         </section>
@@ -87,18 +43,6 @@ the original one:
         {{ end }}
         <hr>
         -->
-        {{ partial "project_list_partial.html" $current_semester_page }}
-
-        sort $projects "Params.project_id"
-
-        Projects SoSe:
-{{ with .Site.GetPage "ss23" }}
-    {{ range .Pages }}
-        {{ range sort .Pages ".Params.project_id" }}
-            {{ . }}{{.Params.project_id}} - {{ .Title}}<br/>
-        {{ end }}
-    {{end}}
-{{ end }}
-
+        {{ partial "project_fields.html" $current_semester_page }}
 
 {{ end }}

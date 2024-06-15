@@ -1,6 +1,8 @@
 +++
 title = "Peek"
 project_id = "B1"
+subtitle = "Peek"
+claim = ".."
 
 # Properties for displaying the project in the project list
 card_image = "leaf-eye.jpeg"
