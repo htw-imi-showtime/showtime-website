@@ -1,4 +1,4 @@
-name: DEPLOY STAGING
+name: staging
 
 on:
   push:

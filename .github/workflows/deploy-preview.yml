@@ -1,4 +1,4 @@
-name: DEPLOY PREVIEW
+name: preview
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: D PROD WITHOUT ARCHIVE
+name: production w/o archive
 
 on:
   workflow_dispatch:

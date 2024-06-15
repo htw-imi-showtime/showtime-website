@@ -1,4 +1,4 @@
-name: DEPLOY PRODUCTION
+name: production
 
 on:
   workflow_dispatch:

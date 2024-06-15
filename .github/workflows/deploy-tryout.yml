@@ -1,4 +1,4 @@
-name: DEPLOY TRYOUT
+name: st tryout
 
 on:
   push:

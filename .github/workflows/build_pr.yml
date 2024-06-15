@@ -1,4 +1,4 @@
-name: BUILD HUGO FOR PR
+name: pull request
 
 on:
   pull_request:
