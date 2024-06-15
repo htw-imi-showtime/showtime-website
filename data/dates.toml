@@ -1,14 +1,21 @@
-[[dates]]
-  title = "Bachelor's Project Signup for Summer 24"
-  description = "(Projektvergabe) WH C 349"
-  date = "2024-04-10, 12:15-13:45"
-
-[[dates]]
-  title = "Master's Project Signup for Summer 24"
-  description = "(Projektvergabe) WH C 349"
-  date = "2024-04-10, 14:00-15:30"
 
 [[dates]]
   title = "IMI Showtime Summer 24"
   description = "Friday, August 2, 2024"
+  date = "2024-08-02, 10:00-16:00"
+
+  [[dates]]
+  title = "Bachelor's Project Signup for Winter 24/25"
+  description = "(Projektvergabe) TBA"
+  date = "TBA via IMI-FAQs, usually on the first Wednesday afternoon"
+
+[[dates]]
+  title = "Master's Project Signup for Winter 24/25"
+  description = "TBA"
+  date = "TBA"
+
+
+[[dates]]
+  title = "IMI Showtime Winter 24"
+  description = "Friday, February 7, 2025"
   date = "2024-08-02, 10:00-16:00"

@@ -1,6 +1,6 @@
 +++
-title = "Master Project Template"
-project_id = "M0"
+title = "Bachelor Project Minimal Template"
+project_id = "B0"
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"

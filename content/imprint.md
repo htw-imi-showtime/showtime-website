@@ -5,14 +5,15 @@ title = "Imprint"
 Diese Seite präsentiert Praxisprojekte der Studiengänge [Internationale Medieninformatik Bachelor](https://imi-bachelor.htw-berlin.de) und [Internationale Medieninformatik Master](https://imi-master.htw-berlin.de) der HTW Berlin und ergänzt diese Webseiten.
 
 #### Redaktionelle Verantwortung und verantwortliche Ansprechperson
-Studiengangssprecher der Studiengänge Internationale Medieninformatik
+Studiengangssprecher der Studiengänge Internationale Medieninformatik ([Bachelor](https://imi-bachelor.htw-berlin.de/) & [Master](https://imi-master.htw-berlin.de/))
 
-Prof. Dr. Gefei Zhang\
+
+Prof. Dr. Barne Kleinen\
 HTW Berlin, Fachbereich 4\
 Wilhelminenhofstr. 75A\
 12495 Berlin
 
-gefei.zhang&#64;htw-berlin.de
+barne.kleinen#64;htw-berlin.de
 
 https://www.htw-berlin.de/impressum/
 
