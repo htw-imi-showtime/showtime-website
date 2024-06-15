@@ -1,7 +1,10 @@
 
 # Release Process for the Showtime Website
 
+
 One week before the Showtime takes place, the website will be published to our production server: https://showtime.f4.htw-berlin.de/
+
+
 
 ### Please use Draft Mode
 
