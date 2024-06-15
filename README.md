@@ -127,7 +127,7 @@ cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
 6. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 7. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ws23/<bachelor|master>/<project_number-your-project>
+git add content/ss24/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
@@ -135,28 +135,15 @@ git push
 
 Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/
 
-One week before the Showtime takes place, the website will be published to our production server: https://showtime.f4.htw-berlin.de/
+## Deploy your Fork on GH-Pages
 
-### Please use Draft Mode
+You can easily deploy your fork on GH-Pages by following the instructions here:
+[http://about-hugo.github.io/hugo/quick/](http://about-hugo.github.io/hugo/quick/)
 
-**tl;dr: use draft=true and --buildDraft to publish project sites only to staging.**
+The workflow is "gh-pages fork".
 
-- add draft = true to _index.md:
-  If you've created your project dir before 25.6.23: 
-  Please add draft = true to the front matter of the top _index.md in your project subfolder. 
-  (See the templates for an example.)
+For a detailed Description of the Website Release process, see this page: [release-process.md](./release-process.md)
 
-- for your local build as well as for staging, `hugo server --buildDrafts` is used 
-- on production, drafts are not included
-
-- before the showtime, draft should be set to false
-
-- this allows projects to be published on an individual schedule if needed, 
-  but most importantly, it allows for publishing the Showtime Date and possibly other 
-  info without the need for all or any projects to be ready
-- see see hugo documentation
-   [https://gohugo.io/getting-started/usage/#draft-future-and-expired-content](https://gohugo.io/getting-started/usage/#draft-future-and-expired-content)
-  and this brief blog post: [https://makewithhugo.com/working-with-drafts/](https://makewithhugo.com/working-with-drafts/)
 ## Updating your Fork
 
 To get the updates on the central repository into your fork, do the following:
