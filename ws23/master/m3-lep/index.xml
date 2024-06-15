@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LEP on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/</link>
+    <description>Recent content in LEP on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/features/</guid>
+      <description>Efficient automated semester planning With just a few clicks, faculty staff can effortlessly generate a complete schedule for each course of study throughout the entire semester. Taking into account factors from module duration and rhythm to teacher&amp;rsquo;s mandatory events, availability, and preferences, LEP utilizes Timefold to makes sure everything fits together well, making planning simple and hassle-free. Role-Based UI for seamless collaboration Say goodbye to mailing back and forth spreadsheets!</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/process/</guid>
+      <description>Research In the project&amp;rsquo;s initial phase, we conducted thorough research to establish a robust foundation for our web application. This involved exploring diverse technology stacks, evaluating programming languages, databases, and frameworks. We studied similar applications for inspiration and best practices. The implementation of timetable and schedule-solving algorithms was a key focus, with a careful assessment of existing solutions. We directly engaged with the planning team, gaining insights into manual planning methods and specific requirements.</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/challenges/</guid>
+      <description>UX-UI Design In the initial stages of development, one key challenge our team faced was designing a user interface (UI) that effectively accommodates the input of constraints and preferences from teachers. None of us is a professional UX-UI designer, therefore, creating an appealing and simple UI for admin or teachers to specify their requirements posed a significant hurdle, as it required striking a balance between complexity and user-friendliness. We undertook several brainstorming sessions ensuring that the UI could be used efficiently without overwhelming the user.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/techstack/</guid>
+      <description>App Development Java &amp;amp; Spring Boot The backbone of our back-end, chosen for its powerful suite of features that simplify the development of stand-alone applications with minimal configuration.&#xA;MongoDB Our NoSQL database of choice, allowing for flexible data schema and efficient, scalable storage of application data.&#xA;TimeFold Integrated as the core engine for intelligent and automated scheduling, ensuring optimal allocation of resources and efficient timetabling.&#xA;ReactJS &amp;amp; TypeScript Our core frontend framework, enabling us to build a dynamic, interactive user interface with type-checking for a reliable and scalable application.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/future/</guid>
+      <description>Consideration of further Rhythm Types In our current version, we&amp;rsquo;ve handled regulations dealing with the most common rhythms, ensuring LEP factors in weekly and biweekly module planning for time collisions as well as special constraints.&#xA;We understand that exceptions, demand more consideration and code restructuring in future to enhance adaptability. Especially one-time events like introductions at the start of semester have to be handled differently as well as unique faculty-specific rhythms like 3x6, where the module starts slightly delayed in the semester, initially five times every two weeks and then ends on a single day during the penultimate month of the semester.</description>
+    </item>
+  </channel>
+</rss>

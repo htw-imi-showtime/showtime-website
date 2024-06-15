@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M4 Aquasolace - Gaming for Future: A video game about water scarcity in Brandenburg (M4 Gaming for Future: Ein Videospiel über Wasserknappheit in Brandenburg) on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/</link>
+    <description>Recent content in M4 Aquasolace - Gaming for Future: A video game about water scarcity in Brandenburg (M4 Gaming for Future: Ein Videospiel über Wasserknappheit in Brandenburg) on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/process/</guid>
+      <description>Initial Meetings Discussed the project with the product owners to identify the core problem related to water scarcity in Brandenburg. Received relevant documents from Rebecca for further understanding. Communication and Iteration We engaged in back-and-forth communication with product owners to refine the project details every week. Flow Charts Developed flow charts to map out the game. Then we created initial prototypes and designs using Figma to visualize the project. Programming We programmed mostly in Unity.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/techstack/</guid>
+      <description> Tech Stack For this project we used mainly the Unity Engine to develop the game. Other programs that we used were Figma,Photoshop. Sometimes we had to use Blender as well. Coding was done in Rider or Visual Studio. Music was produced with Fl Studo and Garageband. Discord and Zoom were used for communication.&#xA;Tech Stack </description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/future/</guid>
+      <description>Future Prospect: Add visualisation of biodiversity aspects Further development of different levels Improvement of tile influence algorithm Further implementation of localization Gameplay improvement&#xA;Where we’re at: Currently, Gaming for Future only contains one level for presentation purpose Algorithm for influence of each biome tile is developed Achieved our goal, which is to emphasize the crucial issue of water scarcity E-Mail collector is implemented Available only in 2 languages</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/review/</guid>
+      <description>Für alle Projekte: bitte überprüfen, ob alle Bilddateien notwendig sind und sich nicht doch noch verkleinern lassen. (und es ggfs. Auch tun) die Texte nochmal durchgehen und straffen. Bei Team reicht z.B. wir waren 5 IMI-Master: Namen und Bilder. (evtl. Noch Aufteilung von Verantwortlichkeiten, wenn Sie nicht woanders stehen) M4 Sehr schöne Seite!&#xA;Dateigrössen alles ok.&#xA;wenn Sie wollen, könnten Sie prüfen, ob sich die Größe der Bilder weiter reduzieren lässt, z.</description>
+    </item>
+  </channel>
+</rss>

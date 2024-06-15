@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peek on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/</link>
+    <description>Recent content in Peek on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/features/</guid>
+      <description>Features Visualisation through Charts Each Key existing in the documents of your collection receives their own chart window. In it, all the values of that key from the documents will be displayed in an aggregated way. Depending on the type of the key that aggregation may be in form of a pie chart, bar chart or list. That gives you a quick overview of the existing values and their occurrences.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/process/</guid>
+      <description>Process Since our project had a lot do to with displaying data so it&amp;rsquo;s easy to understand, we first created a concept of what our application should look like in Figma. The user should be able to navigate the interface easily, without immediately being overwhelmed. To do that, we decided that the application should have a simple login interface and once logged in, the user should be presented with only the necessary options first, navigating deeper into the interface as needed.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/techstack/</guid>
+      <description> Communication Discord Zoom Planning Notion Figma Programming Visual Studio Code React NextJS ExpressJS GitHub Utility MongoDB Docker Image Sources https://es.logodownload.org/discord-logo/ https://es.logodownload.org/zoom-logo/ https://logos-download.com/40130-notion-app-logo-download.html https://es.logodownload.org/?s=figma https://logospng.org/logo-visual-studio-code/ https://logos-download.com/9747-react-logo-download.html https://creazilla.com/nodes/3244252-nextjs-icon https://www.mementotech.in/nodejs-development-company-rajkot.html https://logodix.com/github-resume https://www.kindpng.com/imgv/hhJbRxJ_mongodb-logo-png-transparent-png/ https://iconduck.com/icons/94225/docker-icon </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/</link>
+    <description>Recent content on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Challanges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/challanges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/challanges/</guid>
+      <description>Ideation Struggles The extensive ideation phase challenged the team as each member brought different perspectives, which led to difficulties in agreeing on a unified vision for mov.io. Uncertainty about the most appropriate technology required thorough research to make an informed decision. In addition, each team member brought unique insights, requiring additional effort to synthesize ideas and define key features, which impacted the initial stages of project build. Learning Curve of New Technologies Incorporating a range of new technologies, each assigned to a specific team member, presented a multi-faceted challenge.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/features/</guid>
+      <description>Features Visualisation through Charts Each Key existing in the documents of your collection receives their own chart window. In it, all the values of that key from the documents will be displayed in an aggregated way. Depending on the type of the key that aggregation may be in form of a pie chart, bar chart or list. That gives you a quick overview of the existing values and their occurrences.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/features/</guid>
+      <description>Dos And Don&amp;#39;ts Guide Introducing our Dos and Don&amp;rsquo;ts Guide: a specialized feature designed exclusively for parents in the Hypno Buddy app. This guide, created by therapists and linked directly to the patient, offers practical tips for daily life, categorizing advice to address common challenges. Unlike resources for children, parents access personalized recommendations, ensuring relevance to their unique situation. The feature, derived from therapist interviews, reflects a concise suggestion to enhance the overall effectiveness of the therapeutic process.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/features/</guid>
+      <description>Features Keyword extraction:&#xA;Moodle Course: By reading keywords from course names, course descriptions and keywords added by the educators we remove common words, which are stored in a blacklist, such as &amp;ldquo;a,&amp;rdquo; &amp;ldquo;an,&amp;rdquo; etc. (Functionality and blacklist sourced from beliefmedia.com). SmartLibrary constructs SQL queries from the extracted keywords to read material names and links associated with the keywords from the database.&#xA;Crawler: We built a crawler which can extract learning material names and keywords from the HTML code of websites such as Coursera.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</guid>
+      <description>Communication Wi-Fi To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.&#xA;MQTT Communication takes place via MQTT, an open network protocol for machine-to-machine communication. The Arduino uses the MQTT protocol to send messages to the Raspberry Pi, which acts as an MQTT broker. At the same time, the HoloLens glasses subscribe to these messages to receive real-time information.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/features/</guid>
+      <description>Efficient automated semester planning With just a few clicks, faculty staff can effortlessly generate a complete schedule for each course of study throughout the entire semester. Taking into account factors from module duration and rhythm to teacher&amp;rsquo;s mandatory events, availability, and preferences, LEP utilizes Timefold to makes sure everything fits together well, making planning simple and hassle-free. Role-Based UI for seamless collaboration Say goodbye to mailing back and forth spreadsheets!</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/features/</guid>
+      <description>Interactive WebApp Engaging Virtual Collaboration&#xA;Step into a world of seamless collaboration with our Interactive Web - App, an engaging and responsive platform designed to facilitate user interaction in a virtual environment. Our focus is on creating a dynamic space that encourages effortless collaboration and enhances the overall user experience.&#xA;Virtual Office Replicating Physical Office Online&#xA;Bring the essence of a physical office into the digital realm with our Virtual Office.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/future/</guid>
+      <description>As we look to the future of mov.io, our vision goes beyond a simple virtual office platform - we envision a dynamic and customisable ecosystem that truly adapts to the individual preferences and needs of our users.&#xA;Unleash personalisation A key aspect of our future plans revolves around providing users with an unprecedented level of customisation. Imagine having the freedom to design and personalize your virtual office space, from room layout to overall aesthetics.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/process/</guid>
+      <description>Process Since our project had a lot do to with displaying data so it&amp;rsquo;s easy to understand, we first created a concept of what our application should look like in Figma. The user should be able to navigate the interface easily, without immediately being overwhelmed. To do that, we decided that the application should have a simple login interface and once logged in, the user should be presented with only the necessary options first, navigating deeper into the interface as needed.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</guid>
+      <description>Organization The project began with a kick-off meeting in which the basic project idea was explained and requirements defined. We also immediately set weekly meeting times that fit into everyone&amp;rsquo;s schedule. In the weeks that followed, we collected ideas for implementation and entered them as issues in our issue tracker, set up the individual parts of the project and started implementing solutions. In the weekly meetings, we informed each other about the project status and discussed our next steps.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/process/</guid>
+      <description>Initial Meetings Discussed the project with the product owners to identify the core problem related to water scarcity in Brandenburg. Received relevant documents from Rebecca for further understanding. Communication and Iteration We engaged in back-and-forth communication with product owners to refine the project details every week. Flow Charts Developed flow charts to map out the game. Then we created initial prototypes and designs using Figma to visualize the project. Programming We programmed mostly in Unity.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/process/</guid>
+      <description>Research At the start of our development journey, we devoted a significant amount of time to in-depth research. Our goal? To get inside the user&amp;rsquo;s world, to understand the challenges they face on a daily basis, whether in a traditional office or in the rapidly evolving landscape of remote working. We dug deep to uncover the pros and cons and shed light on the finer details of their working environment.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b1-peek/techstack/</guid>
+      <description> Communication Discord Zoom Planning Notion Figma Programming Visual Studio Code React NextJS ExpressJS GitHub Utility MongoDB Docker Image Sources https://es.logodownload.org/discord-logo/ https://es.logodownload.org/zoom-logo/ https://logos-download.com/40130-notion-app-logo-download.html https://es.logodownload.org/?s=figma https://logospng.org/logo-visual-studio-code/ https://logos-download.com/9747-react-logo-download.html https://creazilla.com/nodes/3244252-nextjs-icon https://www.mementotech.in/nodejs-development-company-rajkot.html https://logodix.com/github-resume https://www.kindpng.com/imgv/hhJbRxJ_mongodb-logo-png-transparent-png/ https://iconduck.com/icons/94225/docker-icon </description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/tech-stack/</guid>
+      <description>Project Management In our project toolkit, we used various tools to keep things organized and clear. Notion was our main hub, providing flexibility along with the helpful Education Abo Option. Google Apps, such as TaskBoard for daily tasks and Calendar for sprint scheduling, helped us stay on course easily.&#xA;To see our progress visually, we created a lively Miro board connected to our Gantt Chart, adding color and energy to our project tracking.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/techstack/</guid>
+      <description> Projektmanagement Miro Github Discord Zoom Whatsapp Design / Styling Figma SCSS &amp;amp; CSS Bootstrap Frontend TypeScript React Vite Backend NodeJS Express JS TypeScript Mongo DB Passport JS DevOps &amp;amp; Deployment Docker Github Actions Jest (Unit Testing) Cypress (End-to-End Tests) Firebase Terraform Google Cloud Platform </description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
+      <description>Organisation and Communication We used Mattermost for our internal communication and for issue tracking.&#xA;Mattermost Development HoloLens To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio (Code) and Unity with MRTK2.&#xA;Programming Language: C# Raspberry The Raspberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the MQTT broker and the Wi-Fi hotspot that the Arduino and HoloLens connect too.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/techstack/</guid>
+      <description> Tech Stack For this project we used mainly the Unity Engine to develop the game. Other programs that we used were Figma,Photoshop. Sometimes we had to use Blender as well. Coding was done in Rider or Visual Studio. Music was produced with Fl Studo and Garageband. Discord and Zoom were used for communication.&#xA;Tech Stack </description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/techstack/</guid>
+      <description> Organization GitLab NX Gather.town Figma &amp;amp; FigJam Zoom Frontend Vue3 Nuxt3 TailwindCSS PhaserJS WebRTC Backend Express Socket.IO MongoDB </description>
+    </item>
+    <item>
+      <title>Terminology</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/terminology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/terminology/</guid>
+      <description>Terminology Even though we&amp;rsquo;ve spent a lot of time working with extended reality, we sometimes find ourselves questioning the precise terms used in this field. So, we thought it couldn&amp;rsquo;t be different for you and decided to create a brief guide to some of the most frequently used terms in the world of XR: Virtual Reality (VR) Virtual Reality is a fully immersive digital environment where the user is completely surrounded by a computer-generated world.</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/challenges/</guid>
+      <description>Getting to Grips with Unity Our journey into game development kicked off with Unity, and it was a learning curve. Understanding the ropes of this platform required time and effort, especially as we shifted from conventional programming mindsets. Yet, the more we dived in, the more we discovered Unity&amp;rsquo;s flexibility and the wealth of pre-packaged tools it offered, turning our initial challenges into stepping stones for growth. Mastering Multitouch In our quest to make games accessible to mobile players, we encountered the challenge of implementing multitouch functionality.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
+      <description>Future Our project is very open and creates a basis for extended reality. You can consider incorporating new interactions, such as switches or touch panels, or changing the platform and running the project on a tablet or VR glasses. New use cases can also be devised and tested. This project could be used very well in industry for maintenance work on machines and establish communication from the machine to the goggles.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/process/</guid>
+      <description>Our development journey can be broken down into distinct phases, each contributing to the evolution of our vision. Let&amp;rsquo;s explore the key milestones that shaped our project from its inception to the current stage. Preparation: Setting the Foundation Before diving into the technicalities, our team initiated the project by agreeing on a concrete problem within the realm of therapy that we aimed to solve. We defined major responsibilities, sharing our preferences and experiences to foster effective collaboration.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/process/</guid>
+      <description>Process We dedicated initial time to conceptualising the idea for the plugin, exploring its potential impact and benefits. This involved learning from Moodle Academy about building Moodle plugins and creating first drafts to outline key functionalities.&#xA;With a clearer vision, we strategically divided the overall idea into smaller, manageable tasks. Each task was designed to contribute to the overarching goal of the plugin.&#xA;Adopting agile methodologies, we embraced a collaborative and iterative approach.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/process/</guid>
+      <description>Collecting ideas At the beginning of our project, we had a clear goal in mind: to create a game using the Meta Quest 3 headsets provided by HTW, with a focus on multiplayer elements and mixed reality features. To get our project off the ground, we started with some hands-on exploration. We tested various games that were compatible with the Quest 3, and we even took a trip to Cosmic.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/process/</guid>
+      <description>Research In the project&amp;rsquo;s initial phase, we conducted thorough research to establish a robust foundation for our web application. This involved exploring diverse technology stacks, evaluating programming languages, databases, and frameworks. We studied similar applications for inspiration and best practices. The implementation of timetable and schedule-solving algorithms was a key focus, with a careful assessment of existing solutions. We directly engaged with the planning team, gaining insights into manual planning methods and specific requirements.</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/challenges/</guid>
+      <description>UX-UI Design In the initial stages of development, one key challenge our team faced was designing a user interface (UI) that effectively accommodates the input of constraints and preferences from teachers. None of us is a professional UX-UI designer, therefore, creating an appealing and simple UI for admin or teachers to specify their requirements posed a significant hurdle, as it required striking a balance between complexity and user-friendliness. We undertook several brainstorming sessions ensuring that the UI could be used efficiently without overwhelming the user.</description>
+    </item>
+    <item>
+      <title>Gameplay</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/gameplay/</guid>
+      <description>Put your headset on and enter another world Pop on the Meta Quest headset and jump into a different world that&amp;rsquo;s full of fun and surprises. You&amp;rsquo;ll find yourself surronded by a virtual forest behind your own walls where you can explore, discover, and just have a good time with your friends. It&amp;rsquo;s not just about playing; it&amp;rsquo;s about stepping into a whole new place that feels as real as your sourroundings.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/</guid>
+      <description> Tech Stack Our tech stack consists of the following tools &amp;amp; technologies: </description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/challenges/</guid>
+      <description>Integrating Meta SDKs with Unity Integrating the Meta XR All-in-One SDK from Oculus wasn&amp;rsquo;t as seamless as we hoped it would be. The setup process for this package was complex and sometimes inconsistent. We were required to adhere to a strict implementation with limited flexibility for customization.&#xA;Additionally, the SDK tends to generate a lot of debug messages in the console, which are often unnecessary and can hide more critical information.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/future/</guid>
+      <description>Future NLP Integration:&#xA;As part of our ongoing development, we are planning to extract keywords from learning materials on Moodle by converting PDF Files with educator’s learning materials into searchable text using a PDF Reader Library. Subsequently, we analyse the text for keywords using Natural Language Processing. This comprehensive approach ensures that the SmartLibrary plugin not only remains cutting-edge but also addresses diverse content formats, including PDF materials.</description>
+    </item>
+    <item>
+      <title>Gameplay</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/gameplay/</guid>
+      <description>Bringing Bobola to Life It all started with a sweet idea - a cute main character, and you, the player, saving it. No time to waste, so we jumped into Unity, made our main character, Bobola, and got into coding. Urgency was our guide to keep things moving.&#xA;Bobol&amp;#39;s Story To make the game more engaging, we introduced falling objects to save Bobola. Originally, we planned to use coconuts, but we stumbled upon spike shields in the Unity Asset Store.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/techstack/</guid>
+      <description>App Development Java &amp;amp; Spring Boot The backbone of our back-end, chosen for its powerful suite of features that simplify the development of stand-alone applications with minimal configuration.&#xA;MongoDB Our NoSQL database of choice, allowing for flexible data schema and efficient, scalable storage of application data.&#xA;TimeFold Integrated as the core engine for intelligent and automated scheduling, ensuring optimal allocation of resources and efficient timetabling.&#xA;ReactJS &amp;amp; TypeScript Our core frontend framework, enabling us to build a dynamic, interactive user interface with type-checking for a reliable and scalable application.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m3-lep/future/</guid>
+      <description>Consideration of further Rhythm Types In our current version, we&amp;rsquo;ve handled regulations dealing with the most common rhythms, ensuring LEP factors in weekly and biweekly module planning for time collisions as well as special constraints.&#xA;We understand that exceptions, demand more consideration and code restructuring in future to enhance adaptability. Especially one-time events like introductions at the start of semester have to be handled differently as well as unique faculty-specific rhythms like 3x6, where the module starts slightly delayed in the semester, initially five times every two weeks and then ends on a single day during the penultimate month of the semester.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/future/</guid>
+      <description>Future Prospect: Add visualisation of biodiversity aspects Further development of different levels Improvement of tile influence algorithm Further implementation of localization Gameplay improvement&#xA;Where we’re at: Currently, Gaming for Future only contains one level for presentation purpose Algorithm for influence of each biome tile is developed Achieved our goal, which is to emphasize the crucial issue of water scarcity E-Mail collector is implemented Available only in 2 languages</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/tech-stack/</guid>
+      <description>VR Headsets Oculus We used the Meta Quest 3 VR headsets and the Oculus software with Unity for running and testing our application. Game Engine Unity Unity provided the core framework for developing our game, offering both 2D and 3D capabilities essential for our project. Networking Photon Fusion 2 We chose Photon Fusion 2 for its handling capabilities of multiplayer game synchronization and networking. XR Interactions Meta XR All-in-One SDK The Meta XR All-in-One SDK was our key asset for implementing immersive XR interactions in our game.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/future/</guid>
+      <description>Further Potential of our Game During the initial stages of our game development, we brainstormed numerous ideas that, due to the fact that we spent a lot of time working on the colocation, couldn&amp;rsquo;t be realized in the current version. This section highlights some of these concepts to showcase the underlying potential and future directions our game could take. Collecting upgrades and special skills One idea we have is to introduce a system where players can collect upgrades and special skills throughout the game.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m4-gamingforthefuture/review/</guid>
+      <description>Für alle Projekte: bitte überprüfen, ob alle Bilddateien notwendig sind und sich nicht doch noch verkleinern lassen. (und es ggfs. Auch tun) die Texte nochmal durchgehen und straffen. Bei Team reicht z.B. wir waren 5 IMI-Master: Namen und Bilder. (evtl. Noch Aufteilung von Verantwortlichkeiten, wenn Sie nicht woanders stehen) M4 Sehr schöne Seite!&#xA;Dateigrössen alles ok.&#xA;wenn Sie wollen, könnten Sie prüfen, ob sich die Größe der Bilder weiter reduzieren lässt, z.</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/challenges/</guid>
+      <description>Challenges: User Management: Balancing Complexity and Simplicity The intricacies of managing users across three categories—therapists, patients, and parents—demanded a delicate balance. Based on therapists&amp;rsquo; recommendations, we opted to allow patients and parents to share the same account, simplifying the user experience. However, creating a secure yet straightforward connection between therapists and patients posed a unique challenge. To streamline this, we implemented connection codes, enabling therapists to effortlessly initiate and secure connections with their patients during the first therapy session.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/contact/</guid>
+      <description>The IMIxShowtime is a showcase of the term-long practical projects in the International Media and Computing Bachelor&amp;rsquo;s and Master&amp;rsquo;s programs. It takes place every term on the Friday of the last week of lectures.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/features/</guid>
+      <description>The VR Testing Environment One goal of our project was to construct a virtual test environment where the interaction between a user and the instructor could be examined. The challenge consisted of creating such an environment while not making it distracting enough to turn the focus away from the character that has to be evaluated. For a majority of our testers this was the first time experiencing a surrounding in Virtual Reality Scene 1 Introduction inside the Apartment In this scene the player is greeted by the instructor, and asked to point out some different uses of electric current in a regular household.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/future/</guid>
+      <description>As we reflect on our current achievements, we envision a future where our web application evolves into an essential tool for diverse forms of mental therapy. Here are key areas where we see potential for improvement: Therapy Session Calendar Streamlining Appointment Management&#xA;To streamline the therapeutic process, we plan to incorporate a comprehensive Therapy Session Calendar. This feature would empower therapists and clients to create or request new appointments directly within the app.</description>
+    </item>
+    <item>
+      <title>IMI-Showtime via Zoom</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/zoom-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/zoom-help/</guid>
+      <description>1. Install or update Zoom If you do not have the Zoom client installed yet, you can get it here:&#xA;Windows | Other platforms&#xA;If you already have the client installed, please make sure it is up to date. 2. Join the Zoom session Simply follow this link: https://htw-berlin.zoom.us/j/97320821203&#xA;3. Switching rooms To switch from the main session into breakout rooms you first need to click on the „Breakout Rooms“ button (1) and then click „Join“ for the desired room (2) and confirm with „Yes“ (3).</description>
+    </item>
+    <item>
+      <title>Important Dates</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/dates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/dates/</guid>
+      <description>After Showtime is just before the next Showtime - upcoming events:</description>
+    </item>
+    <item>
+      <title>Imprint</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/imprint/</guid>
+      <description>Diese Seite präsentiert Praxisprojekte der Studiengänge Internationale Medieninformatik Bachelor und Internationale Medieninformatik Master der HTW Berlin und ergänzt diese Webseiten.&#xA;Redaktionelle Verantwortung und verantwortliche Ansprechperson Studiengangssprecher der Studiengänge Internationale Medieninformatik&#xA;Prof. Dr. Gefei Zhang&#xA;HTW Berlin, Fachbereich 4&#xA;Wilhelminenhofstr. 75A&#xA;12495 Berlin&#xA;gefei.zhang@htw-berlin.de&#xA;https://www.htw-berlin.de/impressum/&#xA;Telefon: +49 30 5019 - 3738&#xA;Urheberschutz und Nutzung Die Urheber räumen Ihnen ganz konkret das Nutzungsrecht ein, sich eine private Kopie für persönliche Zwecke anzufertigen. Nicht berechtigt sind Sie dagegen, die Materialien zu verändern und/oder weiter zu geben oder gar selbst zu veröffentlichen.</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/privacy-policy/</guid>
+      <description>Es gilt die Datenschutzerklärung der HTW Berlin.&#xA;Diese Website verwendet keine Cookies und speichert keine Informationen, die über die üblichen Server-Logs der Webserver unter https://htw-berlin.de/ und https://github.com/ für https://htw-imi-showtime.github.io/preview/ und https://htw-imi-showtime.github.io/staging/ hinausgehen.</description>
+    </item>
+    <item>
+      <title>Project Archive Overview</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/archive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/projects/</guid>
+      <description>The Project Pitches and Group Selection will take place soon! See Dates for upcoming dates. Infos on the upcoming projects can be found in the Wiki (only for IMI Students &amp;amp; Staff with HTW Login).&#xA;To get an idea of the scope and characteristics of our projects, visit the archive.</description>
+    </item>
+    <item>
+      <title>Schedule</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/schedule/</guid>
+      <description>There will be brief project presentations with a quick Q&amp;amp;A in the morning (very brief presentations, the odd times are real, we might even be a bit quicker than this) and a project fair in the afternoon.&#xA;The Schedule below is subject to change during the detailed Showtime planning!</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/tech-stack/</guid>
+      <description>The Oculus Headsets Thanks to the &amp;ldquo;Institut für Kultur und Informatik an der HTW Berlin&amp;rdquo;, which provided us with access to cutting-edge Oculus Headsets. The Quest 2 and Quest Pro, equipped with hand sensors, offered a seamless tracking experience, eliminating the need for external scanning setups. While these headsets proved to be revolutionary, navigating through app testing during the development phase presented its own set of challenges.&#xA;Oculus Quest App Meta Developer Hub Building the VR Environment Due to the implementation of the OpenXR Library into the Game Engine Unity, we were able to develop an app that is able to be played on most of the VR Headsets available.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Somethin.AR on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/</link>
+    <description>Recent content in Somethin.AR on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terminology</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/terminology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/terminology/</guid>
+      <description>Terminology Even though we&amp;rsquo;ve spent a lot of time working with extended reality, we sometimes find ourselves questioning the precise terms used in this field. So, we thought it couldn&amp;rsquo;t be different for you and decided to create a brief guide to some of the most frequently used terms in the world of XR: Virtual Reality (VR) Virtual Reality is a fully immersive digital environment where the user is completely surrounded by a computer-generated world.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/process/</guid>
+      <description>Collecting ideas At the beginning of our project, we had a clear goal in mind: to create a game using the Meta Quest 3 headsets provided by HTW, with a focus on multiplayer elements and mixed reality features. To get our project off the ground, we started with some hands-on exploration. We tested various games that were compatible with the Quest 3, and we even took a trip to Cosmic.</description>
+    </item>
+    <item>
+      <title>Gameplay</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/gameplay/</guid>
+      <description>Put your headset on and enter another world Pop on the Meta Quest headset and jump into a different world that&amp;rsquo;s full of fun and surprises. You&amp;rsquo;ll find yourself surronded by a virtual forest behind your own walls where you can explore, discover, and just have a good time with your friends. It&amp;rsquo;s not just about playing; it&amp;rsquo;s about stepping into a whole new place that feels as real as your sourroundings.</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/challenges/</guid>
+      <description>Integrating Meta SDKs with Unity Integrating the Meta XR All-in-One SDK from Oculus wasn&amp;rsquo;t as seamless as we hoped it would be. The setup process for this package was complex and sometimes inconsistent. We were required to adhere to a strict implementation with limited flexibility for customization.&#xA;Additionally, the SDK tends to generate a lot of debug messages in the console, which are often unnecessary and can hide more critical information.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/tech-stack/</guid>
+      <description>VR Headsets Oculus We used the Meta Quest 3 VR headsets and the Oculus software with Unity for running and testing our application. Game Engine Unity Unity provided the core framework for developing our game, offering both 2D and 3D capabilities essential for our project. Networking Photon Fusion 2 We chose Photon Fusion 2 for its handling capabilities of multiplayer game synchronization and networking. XR Interactions Meta XR All-in-One SDK The Meta XR All-in-One SDK was our key asset for implementing immersive XR interactions in our game.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m1-somethinar/future/</guid>
+      <description>Further Potential of our Game During the initial stages of our game development, we brainstormed numerous ideas that, due to the fact that we spent a lot of time working on the colocation, couldn&amp;rsquo;t be realized in the current version. This section highlights some of these concepts to showcase the underlying potential and future directions our game could take. Collecting upgrades and special skills One idea we have is to introduce a system where players can collect upgrades and special skills throughout the game.</description>
+    </item>
+  </channel>
+</rss>

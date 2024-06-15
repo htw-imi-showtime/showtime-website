@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AvataVR on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/</link>
+    <description>Recent content in AvataVR on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/features/</guid>
+      <description>The VR Testing Environment One goal of our project was to construct a virtual test environment where the interaction between a user and the instructor could be examined. The challenge consisted of creating such an environment while not making it distracting enough to turn the focus away from the character that has to be evaluated. For a majority of our testers this was the first time experiencing a surrounding in Virtual Reality Scene 1 Introduction inside the Apartment In this scene the player is greeted by the instructor, and asked to point out some different uses of electric current in a regular household.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b6-avatavr/tech-stack/</guid>
+      <description>The Oculus Headsets Thanks to the &amp;ldquo;Institut für Kultur und Informatik an der HTW Berlin&amp;rdquo;, which provided us with access to cutting-edge Oculus Headsets. The Quest 2 and Quest Pro, equipped with hand sensors, offered a seamless tracking experience, eliminating the need for external scanning setups. While these headsets proved to be revolutionary, navigating through app testing during the development phase presented its own set of challenges.&#xA;Oculus Quest App Meta Developer Hub Building the VR Environment Due to the implementation of the OpenXR Library into the Game Engine Unity, we were able to develop an app that is able to be played on most of the VR Headsets available.</description>
+    </item>
+  </channel>
+</rss>

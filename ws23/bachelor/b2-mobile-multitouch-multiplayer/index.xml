@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Multitouch Multiplayer - Spike Shielders on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/</link>
+    <description>Recent content in Mobile Multitouch Multiplayer - Spike Shielders on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/tech-stack/</guid>
+      <description>Project Management In our project toolkit, we used various tools to keep things organized and clear. Notion was our main hub, providing flexibility along with the helpful Education Abo Option. Google Apps, such as TaskBoard for daily tasks and Calendar for sprint scheduling, helped us stay on course easily.&#xA;To see our progress visually, we created a lively Miro board connected to our Gantt Chart, adding color and energy to our project tracking.</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/challenges/</guid>
+      <description>Getting to Grips with Unity Our journey into game development kicked off with Unity, and it was a learning curve. Understanding the ropes of this platform required time and effort, especially as we shifted from conventional programming mindsets. Yet, the more we dived in, the more we discovered Unity&amp;rsquo;s flexibility and the wealth of pre-packaged tools it offered, turning our initial challenges into stepping stones for growth. Mastering Multitouch In our quest to make games accessible to mobile players, we encountered the challenge of implementing multitouch functionality.</description>
+    </item>
+    <item>
+      <title>Gameplay</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b2-mobile-multitouch-multiplayer/gameplay/</guid>
+      <description>Bringing Bobola to Life It all started with a sweet idea - a cute main character, and you, the player, saving it. No time to waste, so we jumped into Unity, made our main character, Bobola, and got into coding. Urgency was our guide to keep things moving.&#xA;Bobol&amp;#39;s Story To make the game more engaging, we introduced falling objects to save Bobola. Originally, we planned to use coconuts, but we stumbled upon spike shields in the Unity Asset Store.</description>
+    </item>
+  </channel>
+</rss>

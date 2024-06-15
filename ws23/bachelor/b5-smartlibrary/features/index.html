@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="/showtime-website/css/style.min.636f1ba6fd20e42c9e42db30b88cb0cb7359e461d04694ca0d06255f61545dfe.css" integrity="sha256-Y28bpv0g5CyeQtswuIywy3NZ5GHQRpTKDQYlX2FUXf4=" crossorigin="anonymous">
+
+
+<script src=https://htw-imi-showtime.github.io/showtime-website/js/title-animate.js charset="utf-8"></script>
+<script src=https://htw-imi-showtime.github.io/showtime-website/js/semester-select.js charset="utf-8"></script>
+<script src=https://htw-imi-showtime.github.io/showtime-website/js/secret.js charset="utf-8"></script>
+<title>IMI Showtime - HTW Berlin</title>
+<body>
+<nav class="background bachelor">
+    <a href="https://htw-imi-showtime.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">
+
+
+
+
+
+
+    
+        2024
+    
+
+</span></a>
+     
+    <div class = "warn">Preview Site! 
+        (with drafts)
+      <div class = "warn small">Production Site: <a href="https://showtime.f4.htw-berlin.de/">https://showtime.f4.htw-berlin.de/</a></div>
+    </div>  
+    
+    <ul>
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/projects">Projects</a></li>
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/schedule">Schedule</a></li>
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/dates">Dates</a></li>
+        
+        
+        <li><a href="/showtime-website/ws23">Archive</a></li>
+        
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/contact">Contact</a></li>
+   </ul>
+</nav>
+
+    <div class="background bachelor">
+        <header class="project-header">
+            <h1>
+                <span class="type">B5 Bachelor</span>
+                SmartLibrary - It&#39;s A Match!
+                <span class="underscore-spacer"> </span>
+            </h1>
+            <section style="text-align: right;">
+                <div class="spacer"></div>
+                
+                    <h4>Team</h4>
+                    <ul>
+                        
+                            <li>Ayman Abou Hashem</li>
+                        
+                            <li>Eva El Sakka</li>
+                        
+                            <li>Thi Thu Hien Tran</li>
+                        
+                            <li>Natalia Marth</li>
+                        
+                            <li>Bassel Samo</li>
+                        
+                    </ul>
+                
+                
+                    <h4>Supervision</h4>
+                    Linda Fernsel
+                
+            </section>
+        </header>
+    </div>
+    <div class="project-menu desktop-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/">Overview</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/process/">Process</a></li>
+            
+            <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/">Tech Stack</a></li>
+            
+            <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/future/">Future</a></li>
+            
+        </ul>
+    </div>
+    <div class="project-menu mobile-menu background bachelor">
+        <ul>
+            <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/">Overview</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/process/">Process</a></li>
+            
+        </ul>
+        <input type="checkbox" id="project-menu-button">
+        <label for="project-menu-button">
+            <span></span>
+        </label>
+        <div class="dropdown-menu">
+            <ul>
+                
+                <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/">Tech Stack</a></li>
+                
+                <li ><a href="/showtime-website/ws23/bachelor/b5-smartlibrary/future/">Future</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <main class="project">
+        
+        <section>
+    <h3>
+        
+            Features
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p><strong>Keyword extraction:</strong></p>
+<ul>
+<li><strong>Moodle Course:</strong></li>
+</ul>
+<p>By reading keywords from course names, course descriptions and keywords added by the educators we remove common words, which are stored in a blacklist, such as &ldquo;a,&rdquo; &ldquo;an,&rdquo; etc. (Functionality and blacklist sourced from beliefmedia.com). SmartLibrary constructs SQL queries from the extracted keywords to read material names and links associated with the keywords from the database.</p>
+<ul>
+<li><strong>Crawler:</strong></li>
+</ul>
+<p>We built a crawler which can extract learning material names and keywords from the HTML code of websites such as <a href="https://www.coursera.org">Coursera.org</a> and <a href="https://www.codecademy.com">Codecademy.com</a>. We parsed the HTML code to a DOM Object.  Then we save learning material name, link and keywords in a SQL database.
+The matching results are displayed on the website.</p>
+<figure>
+    <img src="/showtime-website/ws23/bachelor/b5-smartlibrary/platforms.jpg" alt="Platforms">
+</figure>
+<p><strong>Real-time Updates:</strong>
+Whenever educators modify the course description or add new keywords, SmartLibrary dynamically updates, ensuring students have immediate access to the most current and relevant supplementary resources.</p>
+
+    </div>
+</section>
+
+
+
+    
+    
+
+
+<div class="mediathek-embed">
+    
+        <h3>Promo Video</h3>
+    
+    <div class="mediathek-player">
+        <img src = "https://htw-imi-showtime.github.io/showtime-website/img/16x9.png" alt="video placeholder">
+        <iframe src="https://mediathek.htw-berlin.de/media/embed?key=22a69c8fa189ccf999150ee20de5dd45&responsive=true&autoplay=false&t=0" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no"></iframe>
+    </div>
+</div>
+
+
+    </main>
+<footer>
+    <section>
+        <a href="https://htw-imi-showtime.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">⨯</span><span class="animate">ST</span></strong> 
+
+
+
+
+
+
+    
+        2024
+    
+
+</a>
+        <ul>
+            <li><a href="https://htw-imi-showtime.github.io/showtime-website/contact">Contact</a></li>
+            <li><a href="https://htw-imi-showtime.github.io/showtime-website/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://htw-imi-showtime.github.io/showtime-website/imprint">Imprint</a></li>
+        </ul>
+    </section>
+    <img src="https://htw-imi-showtime.github.io/showtime-website/img/htw-logo.png" alt="HTW Logo">
+</footer>
+</body>
+</html>

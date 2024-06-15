@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mov.io on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/</link>
+    <description>Recent content in mov.io on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Challanges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/challanges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/challanges/</guid>
+      <description>Ideation Struggles The extensive ideation phase challenged the team as each member brought different perspectives, which led to difficulties in agreeing on a unified vision for mov.io. Uncertainty about the most appropriate technology required thorough research to make an informed decision. In addition, each team member brought unique insights, requiring additional effort to synthesize ideas and define key features, which impacted the initial stages of project build. Learning Curve of New Technologies Incorporating a range of new technologies, each assigned to a specific team member, presented a multi-faceted challenge.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/features/</guid>
+      <description>Interactive WebApp Engaging Virtual Collaboration&#xA;Step into a world of seamless collaboration with our Interactive Web - App, an engaging and responsive platform designed to facilitate user interaction in a virtual environment. Our focus is on creating a dynamic space that encourages effortless collaboration and enhances the overall user experience.&#xA;Virtual Office Replicating Physical Office Online&#xA;Bring the essence of a physical office into the digital realm with our Virtual Office.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/future/</guid>
+      <description>As we look to the future of mov.io, our vision goes beyond a simple virtual office platform - we envision a dynamic and customisable ecosystem that truly adapts to the individual preferences and needs of our users.&#xA;Unleash personalisation A key aspect of our future plans revolves around providing users with an unprecedented level of customisation. Imagine having the freedom to design and personalize your virtual office space, from room layout to overall aesthetics.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/process/</guid>
+      <description>Research At the start of our development journey, we devoted a significant amount of time to in-depth research. Our goal? To get inside the user&amp;rsquo;s world, to understand the challenges they face on a daily basis, whether in a traditional office or in the rapidly evolving landscape of remote working. We dug deep to uncover the pros and cons and shed light on the finer details of their working environment.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/master/m5-mov.io/techstack/</guid>
+      <description> Organization GitLab NX Gather.town Figma &amp;amp; FigJam Zoom Frontend Vue3 Nuxt3 TailwindCSS PhaserJS WebRTC Backend Express Socket.IO MongoDB </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SmartLibrary - It&#39;s A Match! on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/</link>
+    <description>Recent content in SmartLibrary - It&#39;s A Match! on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/features/</guid>
+      <description>Features Keyword extraction:&#xA;Moodle Course: By reading keywords from course names, course descriptions and keywords added by the educators we remove common words, which are stored in a blacklist, such as &amp;ldquo;a,&amp;rdquo; &amp;ldquo;an,&amp;rdquo; etc. (Functionality and blacklist sourced from beliefmedia.com). SmartLibrary constructs SQL queries from the extracted keywords to read material names and links associated with the keywords from the database.&#xA;Crawler: We built a crawler which can extract learning material names and keywords from the HTML code of websites such as Coursera.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/process/</guid>
+      <description>Process We dedicated initial time to conceptualising the idea for the plugin, exploring its potential impact and benefits. This involved learning from Moodle Academy about building Moodle plugins and creating first drafts to outline key functionalities.&#xA;With a clearer vision, we strategically divided the overall idea into smaller, manageable tasks. Each task was designed to contribute to the overarching goal of the plugin.&#xA;Adopting agile methodologies, we embraced a collaborative and iterative approach.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/techstack/</guid>
+      <description> Tech Stack Our tech stack consists of the following tools &amp;amp; technologies: </description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b5-smartlibrary/future/</guid>
+      <description>Future NLP Integration:&#xA;As part of our ongoing development, we are planning to extract keywords from learning materials on Moodle by converting PDF Files with educator’s learning materials into searchable text using a PDF Reader Library. Subsequently, we analyse the text for keywords using Natural Language Processing. This comprehensive approach ensures that the SmartLibrary plugin not only remains cutting-edge but also addresses diverse content formats, including PDF materials.</description>
+    </item>
+  </channel>
+</rss>

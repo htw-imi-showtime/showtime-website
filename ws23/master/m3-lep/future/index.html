@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="/showtime-website/css/style.min.636f1ba6fd20e42c9e42db30b88cb0cb7359e461d04694ca0d06255f61545dfe.css" integrity="sha256-Y28bpv0g5CyeQtswuIywy3NZ5GHQRpTKDQYlX2FUXf4=" crossorigin="anonymous">
+
+
+<script src=https://htw-imi-showtime.github.io/showtime-website/js/title-animate.js charset="utf-8"></script>
+<script src=https://htw-imi-showtime.github.io/showtime-website/js/semester-select.js charset="utf-8"></script>
+<script src=https://htw-imi-showtime.github.io/showtime-website/js/secret.js charset="utf-8"></script>
+<title>IMI Showtime - HTW Berlin</title>
+<body>
+<nav class="background master">
+    <a href="https://htw-imi-showtime.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">
+
+
+
+
+
+
+    
+        2024
+    
+
+</span></a>
+     
+    <div class = "warn">Preview Site! 
+        (with drafts)
+      <div class = "warn small">Production Site: <a href="https://showtime.f4.htw-berlin.de/">https://showtime.f4.htw-berlin.de/</a></div>
+    </div>  
+    
+    <ul>
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/projects">Projects</a></li>
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/schedule">Schedule</a></li>
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/dates">Dates</a></li>
+        
+        
+        <li><a href="/showtime-website/ws23">Archive</a></li>
+        
+        <li><a href="https://htw-imi-showtime.github.io/showtime-website/contact">Contact</a></li>
+   </ul>
+</nav>
+
+    <div class="background master">
+        <header class="project-header">
+            <h1>
+                <span class="type">M3 Master</span>
+                LEP
+                <span class="underscore-spacer"> </span>
+            </h1>
+            <section style="text-align: right;">
+                <div class="spacer"></div>
+                
+                    <h4>Team</h4>
+                    <ul>
+                        
+                            <li>Nikol Stefanova</li>
+                        
+                            <li>Kim Ngan Le Dang</li>
+                        
+                            <li>Hikari Sophia Stölzle</li>
+                        
+                    </ul>
+                
+                
+                    <h4>Supervision</h4>
+                    Prof.Dr. Gefei Zhang
+                
+            </section>
+        </header>
+    </div>
+    <div class="project-menu desktop-menu background master">
+        <ul>
+            <li ><a href="/showtime-website/ws23/master/m3-lep/">Overview</a></li>
+            
+            <li ><a href="/showtime-website/ws23/master/m3-lep/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws23/master/m3-lep/process/">Process</a></li>
+            
+            <li ><a href="/showtime-website/ws23/master/m3-lep/challenges/">Challenges</a></li>
+            
+            <li ><a href="/showtime-website/ws23/master/m3-lep/techstack/">Tech Stack</a></li>
+            
+            <li class="active"><a href="/showtime-website/ws23/master/m3-lep/future/">Future</a></li>
+            
+        </ul>
+    </div>
+    <div class="project-menu mobile-menu background master">
+        <ul>
+            <li ><a href="/showtime-website/ws23/master/m3-lep/">Overview</a></li>
+            
+            <li ><a href="/showtime-website/ws23/master/m3-lep/features/">Features</a></li>
+            
+            <li ><a href="/showtime-website/ws23/master/m3-lep/process/">Process</a></li>
+            
+        </ul>
+        <input type="checkbox" id="project-menu-button">
+        <label for="project-menu-button">
+            <span></span>
+        </label>
+        <div class="dropdown-menu">
+            <ul>
+                
+                <li ><a href="/showtime-website/ws23/master/m3-lep/challenges/">Challenges</a></li>
+                
+                <li ><a href="/showtime-website/ws23/master/m3-lep/techstack/">Tech Stack</a></li>
+                
+                <li class="active"><a href="/showtime-website/ws23/master/m3-lep/future/">Future</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <main class="project">
+        
+        <section>
+    <h3>
+        
+            Consideration of further Rhythm Types
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        In our <strong>current version</strong>, we&rsquo;ve handled regulations dealing with the most common rhythms, ensuring LEP factors in <strong>weekly and biweekly</strong>
+module planning for time collisions as well as special constraints.<br />
+We understand that exceptions, demand more consideration and code restructuring <strong>in future</strong> to enhance adaptability.
+Especially <strong>one-time events</strong> like introductions at the start of semester have to be handled differently as well as
+unique faculty-specific rhythms like <strong>3x6</strong>, where the module starts slightly delayed in the semester, initially five times
+every two weeks and then ends on a single day during the penultimate month of the semester.
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Adapt to various teaching approaches
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <strong>Modules taught by multiple teachers</strong> introduce complexities such as splitting SWS between them as well as conflict over
+time allocations for one single module. It&rsquo;s also worth expanding the case of teachers who <strong>teach across multiple courses</strong>
+as well as dealing with <strong>modules with longer duration</strong> over 5 hours, indicated by a higher sws number, which, as handled in manual planning,
+should be divided into at least two parts.<br />
+While our current version already takes this into account to a certain extent for some cases, these <strong>special cases</strong>
+require more consideration through <strong>additional boundary constraints</strong> and database <strong>model adjustments</strong>.<br />
+Future development iterations may go deeper into addressing these kind of cases, preparing for diverse teaching approaches,
+and acknowledging the more <strong>complex and dynamic parts</strong> of our university schedule planning.<br />
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            Improving Performance
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        Achieving optimal performance while solving a schedule remains our top priority.<br />
+As the <strong>demands increases</strong> on our tool with a growing number of modules and constraints, we&rsquo;ve encountering
+challenges in maintaining optimal performance with the default solver configuration of Timefold. Despite the initial efficiency,
+the <strong>increasing complexity</strong> has led to a slowdown.
+In future more time can be invested into these performance issues by trying out various <strong>optimizing algorithms</strong> and the use
+of the <em>Timefold</em> <a href="https://timefold.ai/docs/timefold-solver/latest/using-timefold-solver/benchmarking-and-tweaking#benchmarker"> Benchmarker</a> to ensure a quicker and more efficient timetable-solving process.
+    </div>
+</section>
+
+<section>
+    <h3>
+        
+            User-Friendly Enhancements
+        
+    </h3>
+    <div class="spacer"></div>
+    <div class="content">
+        <p>A few small adjustments in the UI can be dealt with in future such as:</p>
+<ul>
+<li>Enhanced Visualization of overlapping modules in the timetable view if there are multiple modules in the same timeslot</li>
+<li>Giving Coordinators power to adjust and fine-tune the resulted timetable after solving, by providing options for changing the time of the module
+with an additional field in module planning or drag-and-drop options in the timetable view.</li>
+</ul>
+    </div>
+</section>
+
+
+    </main>
+<footer>
+    <section>
+        <a href="https://htw-imi-showtime.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">⨯</span><span class="animate">ST</span></strong> 
+
+
+
+
+
+
+    
+        2024
+    
+
+</a>
+        <ul>
+            <li><a href="https://htw-imi-showtime.github.io/showtime-website/contact">Contact</a></li>
+            <li><a href="https://htw-imi-showtime.github.io/showtime-website/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://htw-imi-showtime.github.io/showtime-website/imprint">Imprint</a></li>
+        </ul>
+    </section>
+    <img src="https://htw-imi-showtime.github.io/showtime-website/img/htw-logo.png" alt="HTW Logo">
+</footer>
+</body>
+</html>

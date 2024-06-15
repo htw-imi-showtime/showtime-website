@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vision.IO on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/</link>
+    <description>Recent content in Vision.IO on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/features/</guid>
+      <description>Communication Wi-Fi To ensure that our hardware can communicate smoothly in the same network, we use a Raspberry Pi as a WLAN hotspot. This ensures an uninterrupted connection and enables our devices to work together optimally.&#xA;MQTT Communication takes place via MQTT, an open network protocol for machine-to-machine communication. The Arduino uses the MQTT protocol to send messages to the Raspberry Pi, which acts as an MQTT broker. At the same time, the HoloLens glasses subscribe to these messages to receive real-time information.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/process/</guid>
+      <description>Organization The project began with a kick-off meeting in which the basic project idea was explained and requirements defined. We also immediately set weekly meeting times that fit into everyone&amp;rsquo;s schedule. In the weeks that followed, we collected ideas for implementation and entered them as issues in our issue tracker, set up the individual parts of the project and started implementing solutions. In the weekly meetings, we informed each other about the project status and discussed our next steps.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/technology/</guid>
+      <description>Organisation and Communication We used Mattermost for our internal communication and for issue tracking.&#xA;Mattermost Development HoloLens To develop the AR/XR App that is running on the HoloLens 2 we used Visual Studio (Code) and Unity with MRTK2.&#xA;Programming Language: C# Raspberry The Raspberry Pi runs the Debian Raspberry Distribution and is the communication middleware. It serves as the MQTT broker and the Wi-Fi hotspot that the Arduino and HoloLens connect too.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b7-ar-interaction-city/future/</guid>
+      <description>Future Our project is very open and creates a basis for extended reality. You can consider incorporating new interactions, such as switches or touch panels, or changing the platform and running the project on a tablet or VR glasses. New use cases can also be devised and tested. This project could be used very well in industry for maintenance work on machines and establish communication from the machine to the goggles.</description>
+    </item>
+  </channel>
+</rss>

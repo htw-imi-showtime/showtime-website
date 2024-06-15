@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HypnoBuddy on IMI Showtime</title>
+    <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/</link>
+    <description>Recent content in HypnoBuddy on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/features/</guid>
+      <description>Dos And Don&amp;#39;ts Guide Introducing our Dos and Don&amp;rsquo;ts Guide: a specialized feature designed exclusively for parents in the Hypno Buddy app. This guide, created by therapists and linked directly to the patient, offers practical tips for daily life, categorizing advice to address common challenges. Unlike resources for children, parents access personalized recommendations, ensuring relevance to their unique situation. The feature, derived from therapist interviews, reflects a concise suggestion to enhance the overall effectiveness of the therapeutic process.</description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/techstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/techstack/</guid>
+      <description> Projektmanagement Miro Github Discord Zoom Whatsapp Design / Styling Figma SCSS &amp;amp; CSS Bootstrap Frontend TypeScript React Vite Backend NodeJS Express JS TypeScript Mongo DB Passport JS DevOps &amp;amp; Deployment Docker Github Actions Jest (Unit Testing) Cypress (End-to-End Tests) Firebase Terraform Google Cloud Platform </description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/process/</guid>
+      <description>Our development journey can be broken down into distinct phases, each contributing to the evolution of our vision. Let&amp;rsquo;s explore the key milestones that shaped our project from its inception to the current stage. Preparation: Setting the Foundation Before diving into the technicalities, our team initiated the project by agreeing on a concrete problem within the realm of therapy that we aimed to solve. We defined major responsibilities, sharing our preferences and experiences to foster effective collaboration.</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/challenges/</guid>
+      <description>Challenges: User Management: Balancing Complexity and Simplicity The intricacies of managing users across three categories—therapists, patients, and parents—demanded a delicate balance. Based on therapists&amp;rsquo; recommendations, we opted to allow patients and parents to share the same account, simplifying the user experience. However, creating a secure yet straightforward connection between therapists and patients posed a unique challenge. To streamline this, we implemented connection codes, enabling therapists to effortlessly initiate and secure connections with their patients during the first therapy session.</description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://htw-imi-showtime.github.io/showtime-website/ws23/bachelor/b4-hypnobuddy/future/</guid>
+      <description>As we reflect on our current achievements, we envision a future where our web application evolves into an essential tool for diverse forms of mental therapy. Here are key areas where we see potential for improvement: Therapy Session Calendar Streamlining Appointment Management&#xA;To streamline the therapeutic process, we plan to incorporate a comprehensive Therapy Session Calendar. This feature would empower therapists and clients to create or request new appointments directly within the app.</description>
+    </item>
+  </channel>
+</rss>
