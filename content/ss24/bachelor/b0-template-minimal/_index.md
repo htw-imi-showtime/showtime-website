@@ -1,5 +1,5 @@
 +++
-title = "Bachelor Project Template"
+title = "Bachelor Project Minimal Template"
 project_id = "B0"
 
 # Properties for displaying the project in the project list
