@@ -1,6 +1,7 @@
 +++
 title = "Process"
-weight = 1
+weight = 10
+draft = true
 +++
 
 {{<section title="Process">}}

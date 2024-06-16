@@ -21,14 +21,14 @@ source_link = ""
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
 
-{{<section title="Our Goal">}}
-Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus. 
+{{<section title="Product">}}
+(What we built) Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus. 
 
 {{</section>}}
 
 
-{{<section title="The team">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+{{<section title="Process">}}
+(How we built it) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
 {{</section>}} 
 
 {{<gallery>}}

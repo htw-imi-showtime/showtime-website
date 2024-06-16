@@ -1,8 +1,6 @@
 +++
 project_id = "M0"
 title = "Master Project Template"
-project_id = "B0"
-title = "Bachelor Project Template"
 subtitle = ""
 claim = ""
 abstract = ""
