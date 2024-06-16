@@ -1,14 +1,22 @@
 +++
-title = "Bachelor Project Template"
 project_id = "B0"
+title = "Minimal Template"
+subtitle = ""
+claim = ""
+abstract = ""
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"
+# card_description is deprecated, will be replaced by abstract/and or claim
 card_description = "This is only a template" 
 
+# Names are optional, team size is sufficient
 team = ["Member 1", "Member 2"]
 supervisor = "Supervisor"
-draft = true
+draft = false
+
+website_link = ""
+source_link = ""
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 

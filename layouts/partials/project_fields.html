@@ -5,12 +5,14 @@
     {{ range $projects }}
     <p id ="{{ .Params.project_id }}"></p>
     <h4>{{ .Params.project_id }} / {{ .Type }} <a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a></h4>
-    <ul>
-        <li>.Title: {{ .Title }}</li>
-        <li>.Params.card_description: {{ .Params.card_description }}</li>
+  
+        <p>Supervisor: {{ .Params.Supervisor }}</p>
+        <p>title = {{ .Title }}</p>
+        <p>subtitle = {{ .Params.Subtitle }}</p>
+        <p>claim =  {{ .Params.claim }}</p>
+        <p>abstract =  {{ .Params.abstract }}</p>
 
-    </ul>
-       
+       <p>card_description = {{ .Params.card_description }}</p>
         <hr class="alternate">
     {{ end }}
 </main>
