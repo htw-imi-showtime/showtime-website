@@ -1,5 +1,5 @@
 +++
-type = "master"
+type = "ss24"
 
 [cascade]
     type = "Master"
