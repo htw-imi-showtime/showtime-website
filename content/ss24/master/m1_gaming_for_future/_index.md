@@ -13,7 +13,7 @@ card_description = "Aquasolace - Gaming For Future"
 # Names are optional, team size is sufficient
 team = ["Eliot Hoff", " Kenneth Englisch", "Martin Christian Solihin", "Adib Ghassani Waluya", "Sebastian Puetz"]
 supervisor = "David Mueller"
-draft = false
+draft = true
 
 website_link = ""
 source_link = ""
@@ -38,10 +38,10 @@ Our project aimed to transform an existing simulation into an engaging game expe
 {{<section title="The Team">}}
 Our team consists of five IMI-Master students.
 {{<gallery>}}
-{{<team-member image="team_adib.jpg" name="Adib">}}
-{{<team-member image="team_kenneth.jpg" name="Kenneth">}}
 {{<team-member image="team_elliot.jpg" name="Eliot">}}
+{{<team-member image="team_kenneth.jpg" name="Kenneth">}}
 {{<team-member image="team_martin.jpg" name="Martin">}}
+{{<team-member image="team_adib.jpg" name="Adib">}}
 {{<team-member image="team_sebastian.jpg" name="Sebastian">}}
 {{</gallery>}}
 {{</section>}} 
