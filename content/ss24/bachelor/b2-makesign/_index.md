@@ -1,18 +1,18 @@
 +++
 project_id = "B2"
-title = "Bachelor Project Template"
-subtitle = ""
+
+title = "Digital Signage für den Makerspace und das Projekt IDiA"
+subtitle = "Makesign"
 claim = ""
 abstract = ""
 
-# Properties for displaying the project in the project list
-card_image = "kitty.jpg"
-# card_description is deprecated, will be replaced by abstract/and or claim
+@@ -11,25 +11,27 @@ card_image = "kitty.jpg"
 card_description = "This is only a template" 
 
 # Names are optional, team size is sufficient
-team = ["Member 1", "Member 2"]
-supervisor = "Supervisor"
+
+team = ["Member 1", "Member 2","Member 3", "Member 4","Member 5"]
+supervisor = "Prof. Dr. Barne Kleinen"
 draft = false
 
 website_link = ""
@@ -20,20 +20,20 @@ source_link = ""
 
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+
+IDiA (Ideas in Action) ist ein Projekt der Ideen- und Gründungsförderung der HTW Berlin (HTW Startup). IDiA gibt den Themen Innovationen, Experimentieren, Prototyping, Neugier und Kreativität Raum. Teil des Projektes sind der Maker Space und der bald eröffnende Coworking Space.
+In beiden Spaces sollen zwei Monitore mit Raspberry Pi angesteuert und als Digital Signage eingesetzt werden, um möglichst viele Studierende über IdiA's Angebote zu informieren.
 
 {{<section title="Our Goal">}}
-Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus. 
+Das IDiA-Team soll die Möglichkeit haben, möglichst einfach Bilder und kurze Videos hochzuladen, die dann auf den Monitoren angezeigt werden. Darüber hinaus soll auf dem Monitor im Maker Space auch die Auslastung der Maschinen aus unserem Buchungssystem abgerufen und angezeigt werden. 
 
 {{</section>}}
 
 
 {{<section title="The team">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+
 {{</section>}} 
 
 {{<gallery>}}
 {{<team-member image="cat.jpg" name="team member cat">}}
 {{</gallery>}}
-
-](https://github.com/makesign/showtime-website.git)
