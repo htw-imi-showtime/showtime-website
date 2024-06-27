@@ -6,7 +6,7 @@ claim = ""
 abstract = "Imagine a scenario where the area available for food production is decreasing. You are part of a team responsible for the indoor cultivation of algae. Those can be used to produce food. Your task is to optimise the production for these algae and feed your country in your own four walls. Interested? Explore Ecospire!"
 
 # Properties for displaying the project in the project list
-# card_image = "kitty.jpg"
+card_image = "Screenshot_Start.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
 card_description = "Imagine a scenario where the area available for food production is decreasing. You are part of a team responsible for the indoor cultivation of algae. Those can be used to produce food. Your task is to optimise the production for these algae and feed your country in your own four walls. Interested? Explore Ecospire!" 
 
