@@ -2,14 +2,14 @@
 .RECIPEPREFIX = -
 
 hugo :  open
--  hugo --navigateToChanged --buildDrafts -p 1313 server
+-  hugo --baseURL http://localhost:1313/pathprefix --navigateToChanged --buildDrafts -p 1313 server
 
 hugoP :  open
 -  hugo -p 1313 server
 
 open :
-#-  open http://localhost:1313
--  open http://localhost:1313/projects/
+#-  open http://localhost:1313/pathprefix
+-  open http://localhost:1313/pathprefix/projects/
 
 stag_url=http://localhost:1315/staging
 hugoStaging : openStaging
