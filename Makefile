@@ -9,7 +9,7 @@ hugoP :  open
 
 open :
 #-  open http://localhost:1313
--  open http://localhost:1313/ws23
+-  open http://localhost:1313/projects/
 
 stag_url=http://localhost:1315/staging
 hugoStaging : openStaging

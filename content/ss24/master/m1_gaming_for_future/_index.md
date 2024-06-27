@@ -1,7 +1,7 @@
 +++
 project_id = "M1"
-title = "Gaming for Future II: Turning the simulation into a game"
-subtitle = "Aquasolace - Gaming For Future"
+title = "Aquasolace"
+subtitle = "Gaming for Future II: Turning the simulation into a game"
 claim = "Aquasolace - Gaming For Future"
 abstract = "Aquasolace - Gaming For Future"
 
@@ -13,7 +13,7 @@ card_description = "Aquasolace - Gaming For Future"
 # Names are optional, team size is sufficient
 team = ["Eliot Hoff", " Kenneth Englisch", "Martin Christian Solihin", "Adib Ghassani Waluya", "Sebastian Puetz"]
 supervisor = "David Mueller"
-draft = true
+draft = false
 
 website_link = ""
 source_link = ""
@@ -31,7 +31,7 @@ source_link = ""
 +++
 
 {{<section title="The Goal">}}
-Our project aimed to transform an existing simulation into an engaging game experience. The focus was on expanding gameplay features and integrating a layer of biodiversity. AquaSolace is a single-player strategy and environmental simulation game designed to raise awareness about the pressing issue of water scarcity. Our objective was to capture players' attention and educate them about this critical issue through immersive gameplay and interactive learning.
+Our project aimed to transform an existing simulation ([see last term's project](/ws23/master/m4-gamingforthefuture/)) into an engaging game experience. The focus was on expanding gameplay features and integrating a layer of biodiversity. AquaSolace is a single-player strategy and environmental simulation game designed to raise awareness about the pressing issue of water scarcity. Our objective was to capture players' attention and educate them about this critical issue through immersive gameplay and interactive learning.
 <figure><img src="game_image.png" alt="Game Image" width="60%" height="60%"></figure>
 {{</section>}}
 
