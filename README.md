@@ -118,8 +118,8 @@ cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
 ```
 **Please make sure to include your project number! (e.g. B2, M1, ...)**
 
-5. Fill out your project's homepage `content/ws23/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
-   **Please don't use Markdown headings (hashtags) directly, since those headings won't be displayed correctly.**
+5. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+   
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
    You may also put images in your project's directory (**less than 100 MB per file**, please upload videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)).
@@ -136,6 +136,9 @@ git push
 Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/
 
 ## Deploy your Fork on GH-Pages
+
+**derzeit kaputt, siehe **
+[https://github.com/orgs/community/discussions/130206](https://github.com/orgs/community/discussions/130206)
 
 You can easily deploy your fork on GH-Pages by following the instructions here:
 [http://about-hugo.github.io/hugo/quick/](http://about-hugo.github.io/hugo/quick/)

@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        hugo-version: [0.115.1, 0.127.0]
+        hugo-version: [0.115.1, 0.127.0, 0.128.0]
         hugo-environment: [staging, production]
     steps:
     - uses: actions/checkout@v3
