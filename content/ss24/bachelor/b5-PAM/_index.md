@@ -11,7 +11,7 @@ card_image = "PAM.png"
 card_description = "Upgrading, Reworking and rewriting a Project Tool for a certain Company" 
 # Names are optional, team size is sufficient
 team = ["Margarita Doiko", "Hamzeh Hamzeh", "Anh Phuc Hoang", "Lukas Oswald"]
-supervisor = "Sue-Ann Bäsler"
+supervisor = ["Dr.Sue-Ann Bäsler, Martin Singer, Vu Minh Le, Mariam Maisuradze"]
 draft = false
 
 website_link = "https://globalct.com/"
