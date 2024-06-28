@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs: 
-  deploy:
+  build:
     if: github.repository_owner != 'htw-imi-showtime'
     permissions:
       contents: write
@@ -28,15 +28,26 @@ jobs:
           hugo-version: 'latest'
           extended: true
       
-      - name: Build
+      - name: Build Site
         run: |
               hugo \
                 --environment production \
                 --buildDrafts \
                 --baseURL 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
+      
+      - name: "Upload artifact"
+        uses: actions/upload-pages-artifact@v3
         with:
-          publish_dir: ./public
+          path: public
+
+  deploy:
+    name: Deploy
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
