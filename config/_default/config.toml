@@ -19,9 +19,9 @@ theme = "showtime-theme-2021"
   proxy = 'direct'
   workspace = 'off'
   replacements = 'github.com/htw-imi-showtime/showtime-website-project-archive -> ../project-archive'
- 
-# [[module.imports]]
-#  path = 'github.com/htw-imi-showtime/showtime-website-project-archive'
+
+[[module.imports]]
+  path = 'github.com/htw-imi-showtime/showtime-website-project-archive'
 
 [[module.mounts]]
   source = "content"
