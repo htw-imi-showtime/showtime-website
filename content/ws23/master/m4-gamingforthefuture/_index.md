@@ -1,5 +1,6 @@
 +++
-title = "M4 Aquasolace - Gaming for Future: A video game about water scarcity in Brandenburg (M4 Gaming for Future: Ein Videospiel über Wasserknappheit in Brandenburg)"
+title = "Aquasolace"
+subtitle = "Gaming for Future: A video game about water scarcity in Brandenburg"
 project_id = "M4"
 
 # Properties for displaying the project in the project list

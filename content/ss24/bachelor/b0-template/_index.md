@@ -1,9 +1,9 @@
 +++
-project_id = "B0"
-title = "Bachelor Project Template"
-subtitle = ""
-claim = ""
-abstract = ""
+project_id = "XB99"
+title = "B Title"
+subtitle = "subtitle"
+claim = "Claim"
+abstract = "Abstract"
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"
@@ -13,7 +13,7 @@ card_description = "This is only a template"
 # Names are optional, team size is sufficient
 team = ["Member 1", "Member 2"]
 supervisor = "Supervisor"
-draft = false
+draft = true
 
 website_link = ""
 source_link = ""
