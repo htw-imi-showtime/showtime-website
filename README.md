@@ -137,6 +137,9 @@ Once your branch was merged, you may preview your project's page on our staging 
 
 ## Deploy your Fork on GH-Pages
 
+**derzeit kaputt, siehe **
+[https://github.com/orgs/community/discussions/130206](https://github.com/orgs/community/discussions/130206)
+
 You can easily deploy your fork on GH-Pages by following the instructions here:
 [http://about-hugo.github.io/hugo/quick/](http://about-hugo.github.io/hugo/quick/)
 
