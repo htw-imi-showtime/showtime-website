@@ -6,8 +6,20 @@ on:
       - main  # Set a branch that will trigger a deployment
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs: 
   build:
+    name: Hugo Page Build
     if: github.repository_owner != 'htw-imi-showtime'
     permissions:
       contents: write
@@ -41,7 +53,7 @@ jobs:
           path: public
 
   deploy:
-    name: Deploy
+    name: Deploy to GH Pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
