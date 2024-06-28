@@ -2,14 +2,14 @@
 project_id = "M5"
 title = "Capsearch: Bridging Talent and Career"
 subtitle = ""
-claim = "CapSearch is an AI-powered platform that matches employees with optimal projects, promoting professional development and efficiency. By analyzing profiles, skills, and goals, it recommends the best job opportunities, simplifies project assignments, and saves time for large companies."
-abstract = "CapSearch is an AI-powered platform that matches employees with optimal projects, promoting professional development and efficiency. By analyzing profiles, skills, and goals, it recommends the best job opportunities, simplifies project assignments, and saves time for large companies."
+claim = "CapSearch, an AI-powered platform, assists employees with project assignments. By analyzing profiles, skills, and goals, it provides personalized job recommendations, streamlines project assignments, and enhances efficiency."
+abstract = "CapSearch, an AI-powered platform, assists employees with project assignments. By analyzing profiles, skills, and goals, it provides personalized job recommendations, streamlines project assignments, and enhances efficiency."
 hasMermaid = true
 
 # Properties for displaying the project in the project list
 card_image = "logo.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
-card_description = "CapSearch is an AI-powered platform that matches employees with optimal projects, promoting professional development and efficiency. By analyzing profiles, skills, and goals, it recommends the best job opportunities, simplifies project assignments, and saves time for large companies." 
+card_description = "CapSearch, an AI-powered platform, assists employees with project assignments. By analyzing profiles, skills, and goals, it provides personalized job recommendations, streamlines project assignments, and enhances efficiency." 
 
 # Names are optional, team size is sufficient
 team = ["Hikari Sophia Stölzle", "Nikol Stefanova", "Mohamed Amine Sallami", "Reynaldo Domenico", "Vu Minh Le"]
@@ -22,34 +22,17 @@ source_link = ""
 {{<image src="logo.png" alt="Logo">}}
 
 <section>
-In large companies with many employees, finding the optimal project that promotes
-professional development and perfectly matches individual expectations has always
-been a challenge. Even when a suitable project is found, the traditional emailing back
-and forth to exchange general information can be time and effort-consuming for both
-employees and managers. 
+In large-scale companies with numerous employees, identifying the ideal project that fosters professional growth and aligns perfectly with individual expectations has consistently posed a challenge. Even after discovering a suitable project, the conventional back-and-forth email exchanges for sharing general information can prove time consuming and labor intensive for both employees and managers. 
 </section>
 
 {{<section title="Our Goal">}}
-CapSearch offers an innovative solution to this complexity. By digitizing the process,
-Capsearch streamlines how employees are matched with projects. Instead of relying on
-manual, inefficient methods, Capsearch uses a robust Embedding-based
-Recommender System that suggests the best job opportunities for each employee. This
-algorithm takes into account various factors such as the employee&#39;s skills and project
-requirements, ensuring an ideal fit that supports both the employee&#39;s career
-development and the company&#39;s needs.
+CapSearch offers an innovative solution to this challenge. By digitizing the process, Capsearch streamlines how employees are paired with projects. Instead of relying on manual, inefficient methods, Capsearch employs a robust Embedding-based Recommender System that suggests the most suitable job opportunities for each employee. This algorithm considers factors such as the employee's skills and project requirements, ensuring an ideal match that supports both career development and company’s needs.
 {{</section>}}
 
 {{<section title="Main Idea">}}
-With CapSearch, employees can quickly and easily find jobs that match their interests
-and skills. This not only increases job satisfaction but also productivity and engagement.
-For managers, Capsearch provides a comprehensive overview of available talents,
-enabling more strategic project sourcing and better resource management.
+CapSearch empowers employees to swiftly and effortlessly discover jobs that align their interests and skills. This not only enhances job satisfaction but also boosts productivity and engagement. For project managers, Capsearch offers a comprehensive overview of available talent, enabling more strategic project sourcing and improved resource management.
 
-By using Capsearch, companies can achieve a better ratio of successful placements,
-helping to create a more dynamic and motivated workforce. This digital transformation
-simplifies the process of project sourcing, saves time and energy, and ultimately helps
-employees advance in their careers while contributing to the success of the company.
-
+By leveraging Capsearch, companies can achieve a higher ratio of successful project assignments, fostering a more dynamic and motivated workforce. This digital transformation streamlines the project sourcing process, saving time and energy, while also enabling employees to advance in their careers and contribute to the company’s overall success.
 {{</section>}}
 
 {{<section title="Process">}}
