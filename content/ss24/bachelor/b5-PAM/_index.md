@@ -18,7 +18,7 @@ source_link = "https://docs.google.com/presentation/d/1Ol_YwGXFxNpv-ld1c2AacNET4
 PAM is a tool that was originally developed for GlobalCT by Students of the Leibniz Universität in Hannover.
 
 {{<gallery>}}
-{{<pam image="pam.png" name="OG Pam">}}
+{{<image image="pam.png" name="OG Pam">}}
 {{</gallery>}}
 
 The Tool's purpose is to allow for the simple creation of Process Diagrams using a simple interface, as well the saving and exporting of those diagrams in various formats as required, organizing them depending on the preferences of the creators by allowing for a custom repository structure of folders and sub-folders.
