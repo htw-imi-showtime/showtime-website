@@ -1,10 +1,10 @@
 +++
-title = "Features"
+title = "Tech Stack"
 weight = 20
 draft = true
 +++
 
-{{<section title="Features">}}
+{{<section title="Tech Stack">}}
 
 * **Roles**
 
