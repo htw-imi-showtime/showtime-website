@@ -29,6 +29,10 @@ Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus s
 
 {{<section title="The team">}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+
+## header 2
+ - list1
+ - list2
 {{</section>}} 
 
 {{<gallery>}}
