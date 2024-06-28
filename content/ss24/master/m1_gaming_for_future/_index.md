@@ -92,7 +92,7 @@ Our team consists of five IMI-Master students.
 </div>
 {{</section>}} 
 
-{{<section title="The Steakholder">}}
+{{<section title="The Stakeholder">}}
 {{<image src="nabu_logo.jpg" alt="Nabu Logo">}}
 NABU (Naturschutzverband e.V) is an NGO with approximately 900,000 members (more than 1% of the population)
 environmental education, spreading of public awareness, cooperations with local groups,
