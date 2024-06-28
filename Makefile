@@ -2,7 +2,8 @@
 .RECIPEPREFIX = -
 
 hugo :  open
--  hugo --baseURL http://localhost:1313/pathprefix --navigateToChanged --buildDrafts -p 1313 server
+-  hugo --baseURL http://localhost:1313/pathprefix --navigateToChanged --port=1313 server
+#-  hugo --baseURL http://localhost:1313/pathprefix --navigateToChanged --buildDrafts -p 1313 server
 
 hugoP :  open
 -  hugo -p 1313 server
