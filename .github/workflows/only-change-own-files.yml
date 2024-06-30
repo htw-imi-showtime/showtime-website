@@ -60,7 +60,6 @@ jobs:
            PID2=$(echo $PID | tr '[:upper:]' '[:lower:]') 
            echo "PID2 $PID2"
            echo "project_id=$PID2" >> $GITHUB_OUTPUT
-           echo "allowed_path=ss24/$PID2" >> $GITHUB_OUTPUT
            
              
 
@@ -78,12 +77,22 @@ jobs:
 
     - name: "git diff main with check"
       run: |
-         if [[ "" != $(git diff --name-only pr_base pr_head  | grep -v ${{ steps.extract_pid.outputs.allowed_path }}) ]]; then 
+         DIFF=$(git diff --name-only pr_base pr_head)
+         grep --version
+         OK=$(echo $DIFF | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
+         if [[ 0 != $?]] then ; OK=None ; fi
+         NOK=$(echo $DIFF | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
+         if [[ 0 != $?]] then ; echo "all ok" ; fi
+         echo DIFF: $DIFF
+         echo OK: $OK
+         echo NOK: $NOK
+         
+         if [[ "" != $NOK]]; then 
                 echo "ERROR: More files changed than allowed!"
                 echo "------ Additional Files: "
-                git diff --name-only pr_base pr_head  | grep -v "${{ steps.extract_pid.outputs.allowed_path }}"
+                echo $NOK
                 echo "------ Allowed Files:"
-                git diff --name-only pr_base pr_head  | grep "${{ steps.extract_pid.outputs.allowed_path }}"
+                echo $OK
                 exit 123
             else
                 echo "all good"
