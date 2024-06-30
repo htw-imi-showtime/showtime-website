@@ -15,38 +15,20 @@ jobs:
   check-own-files:
     runs-on: ubuntu-latest
     steps:
-    - name: vars
-      if: false
-      run: |
-        echo "some github variables:" \
-        echo $GITHUB_REF  \
-        echo "sha: ${{ github.event.head_commit.sha }}" \
-        echo "message: ${{ github.event.head_commit.message }}" \
-        echo "pr commit sha: ${{ github.event.pull_request.head.sha }}" \
-        echo "pr commit ref: ${{ github.event.pull_request.head.ref }}" \
-        echo "pr commit message: ${{ github.event.pull_request.head.message }}" \
-        echo "pr commit: ${{ github.event.pull_request.head }}" \
-        echo "base ref: ${{ github.event.pull_request.base.ref }}" \
-        echo "base sha: ${{ github.event.pull_request.base.sha }}" \
-        echo "event: ${{ github.event }}" \
-        echo "event: ${{ github.event.message }}" \
 
     - uses: actions/checkout@v4
       with:
         submodules: false
     
-    - name: "checkout relevant refs"
+    - name: "checkout pr base and head"
       run: |
         git log
         git status
         git fetch --no-tags --depth=1 origin main
         git checkout main
-        echo "about to pr base"
+        echo "about to checkout pr base"
         git fetch origin ${{ github.event.pull_request.base.sha }}
         git checkout -b pr_base ${{ github.event.pull_request.base.sha }}
-        # echo "about to checkout merge commit"
-        # git fetch origin ${{ github.event.pull_request.merge_commit_sha }}
-        # git checkout -b pr_merge_commit ${{ github.event.pull_request.merge_commit_sha }}
         echo "about to checkout head"
         git fetch origin  ${{ github.event.pull_request.head.sha }}
         git checkout -b pr_head ${{ github.event.pull_request.head.sha }}
@@ -72,26 +54,31 @@ jobs:
       run: |
         DIFF=$(git diff --name-only pr_base pr_head) 
         echo DIFF: $DIFF
-        echo "---  one per line:  ---"
+        echo "---  DIFF:  ---"
         echo $DIFF | tr ' ' '\n'
         echo "-----------------------"
         
         PID="${{ steps.extract_pid.outputs.project_id }}"
         echo "project id: $PID"
-        OK=$(echo $DIFF | tr ' ' '\n' | grep "content/ss24.*$PID" || echo "") 
-        echo "-- OK\n: $OK"
-        NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "content/ss24.*$PID" || echo "") 
-        echo "NOK:\n $NOK"
-        echo "files_ok=\"$(echo $OK  | tr '\n' ' ')\"" >> $GITHUB_OUTPUT
+        RE="content/ss24.*$PID"
+        OK=$(echo $DIFF | tr ' ' '\n' | grep "$RE" || echo "")  
+        echo "-----  OK -----" && echo  $OK | tr ' ' '\n'
+        NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "$RE" || echo "") 
+        echo "----- NOK: -----" && echo $NOK | tr ' ' '\n'
+        echo "files_ok=\"$OK\"" >> $GITHUB_OUTPUT
         echo "files_not_ok=\"$NOK\" " >> $GITHUB_OUTPUT
         
-        RE="content/ss24.*$PID"
-        NOK1=$(echo $DIFF | tr ' ' '\n' | grep -v "$RE" || echo "") 
-        echo "NOK with regex:\n $NOK1"
+    - name: "check ok and nok"
+      continue-on-error: true
+      run: |
+        echo "##${{ steps.diffs.outputs.files_ok }}##"
+        echo "##${{ steps.diffs.outputs.files_not_ok }}##"
+
         
     - name: "validation"
       continue-on-error: true
       run: |
+          echo "##${{ steps.diffs.outputs.files_ok }}##"
           OK="${{ steps.diffs.outputs.files_ok }}"
           echo "files_ok: $OK"
           MATCHING=$(echo "$OK"  | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*\(/.*\)*" || echo "")
