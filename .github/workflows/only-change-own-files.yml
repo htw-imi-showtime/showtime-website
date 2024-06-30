@@ -4,6 +4,9 @@ name: Own Files Only
 # PR Titles have to start with the Project ID! (e.g. B1: ....)
 on:
   pull_request:
+  push:
+    branches:
+    - b4_semp
     
 
   workflow_dispatch:
@@ -64,19 +67,20 @@ jobs:
              
 
     - name: "diff base head"
+      if: false
       continue-on-error: true
       run: |
           echo "files changed: "
           git diff --name-only pr_base pr_head
   
-    - name: "git diff main with check"
+    - name: "git diff main"
       continue-on-error: true
       id: diffs
       run: |
-         DIFF=$(git diff --name-only pr_base pr_head)
+         DIFF=$(git diff --name-only pr_base pr_head) && echo $DIFF
          echo "project id: ${{ steps.extract_pid.outputs.project_id }}"
-         OK=$(echo $DIFF | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
-         NOK=$(echo $DIFF | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
+         OK=$(echo $DIFF | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") && echo $OK
+         NOK=$(echo $DIFF | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") && echo $NOK
          echo DIFF: $DIFF
          echo OK: $OK
          echo NOK: $NOK
