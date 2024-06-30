@@ -12,7 +12,7 @@ card_description = ""
 
 # Names are optional, team size is sufficient
 team = ["Son Xuan Hoang","Eldar Akhundzada", "Mathieu Wassmuth", "Paul Schiffner", "Yasin Dalowar"]
-supervisors = ["Jakob Panten", "Jana Dolan", "Tino Nitze"]
+supervisor = ["Jakob Panten", "Jana Dolan", "Tino Nitze"]
 draft = false
 
 website_link = ""

@@ -7,7 +7,7 @@ claim = ""
 abstract = ""
 
 team = ["Rudolfs Spridis", "Nemo Ziemer","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
-supervisors = ["Prof. Dr. Barne Kleinen", "Martin Holzhauer"]
+supervisor = ["Prof. Dr. Barne Kleinen", "Martin Holzhauer"]
 draft = false
 
 website_link = ""

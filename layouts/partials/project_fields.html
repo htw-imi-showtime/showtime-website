@@ -1,18 +1,44 @@
 {{ $projects := slice }}
+
+{{ $disk_usages := dict }}
+{{ range .Site.Data.disk_usage.disk_usage }}
+{{ printf "%T .path" .path}}
+{{ $disk_usages = merge $disk_usages (dict  .path .size )}}
+{{ $disk_usages = merge $disk_usages (dict "a" .size )}}
+{{ end }}
+
 {{ range .Pages }} {{ $projects = append .Pages $projects}} {{ end }}
 {{ $projects = sort $projects "Params.project_id"}}
 <main>
     {{ range $projects }}
     <p id ="{{ .Params.project_id }}"></p>
-    <h4>{{ .Params.project_id }} / {{ .Type }} <a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a></h4>
-  
-        <p>Supervisor: {{ .Params.Supervisor }}</p>
-        <p>title = {{ .Title }}</p>
-        <p>subtitle = {{ .Params.Subtitle }}</p>
-        <p>claim =  {{ .Params.claim }}</p>
-        <p>abstract =  {{ .Params.abstract }}</p>
+    <h3 class = "plain">{{ .Params.project_id }} {{ .Title }}</h3>
+    <h4> {{ .Type }} </h4>
+        <p><b>project_id:</b> {{ .Params.project_id }}</p>
+        <p><b>title:</b> = {{ .Title }}</p>
+        <p><b>subtitle:</b> = {{ .Params.Subtitle }}</p>
+        <p><b>supervisor:</b> {{ .Params.Supervisor }} ({{ printf "%T" .Params.Supervisor }})</p>
 
-       <p>card_description = {{ .Params.card_description }}</p>
-        <hr class="alternate">
-    {{ end }}
+        <p><b>claim</b> =  {{ .Params.claim }}</p>
+        <p><b>abstract</b> =  {{ .Params.abstract }}</p>
+        <p><b>card_description = </b> (deprecated, use claim instead!) = {{ .Params.card_description }}</p>
+       
+        <p><b>url</b>: <a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a></p>
+        <p><b>Disk Usage:</b>  {{ $path := (.File.Dir | strings.TrimSuffix "/")  }}
+           
+            {{ index $disk_usages $path }}</p>
+            
+            <p>
+        <small><pre>
+
+<b>for data/schedule.toml:</b>
+[[slot]]
+time = "10:00"
+title = "{{ .Params.project_id }} - {{ .Title }} {{ .Params.Subtitle }}"
+projectDetail = "{{ .RelPermalink }}"
+class = "{{ .Type | lower}}"
+
+    </pre></small></p>
+    <hr class="alternate">
+{{ end }}
 </main>
