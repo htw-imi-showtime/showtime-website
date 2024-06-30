@@ -80,13 +80,13 @@ jobs:
          echo "-----------------------"
          echo "-- OK\n: $OK"
          echo "NOK:\n $NOK"
-         echo files_ok="$OK" >> $GITHUB_OUTPUT
-         echo files_not_ok="$NOK" >> $GITHUB_OUTPUT
+         echo "files_ok=$(echo $OK  | tr '\n' ' ')" >> $GITHUB_OUTPUT
+         echo "files_not_ok=\"$NOK\" " >> $GITHUB_OUTPUT
          
     - name: "validation"
       continue-on-error: true
       run: |
-          which tr
+          echo "files_ok: ${{ steps.diffs.outputs.files_ok }}"
           MATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}"  | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*" || echo "")
           NONMATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}" | tr ' ' '\n' | grep -v "[bm]\d-[a-z]\w*" || echo "")
           echo "MATCHING: $MATCHING "
