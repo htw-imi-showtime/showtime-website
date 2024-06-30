@@ -57,3 +57,6 @@ ci:
 
 get-theme:
 - git submodule update --init themes/showtime-theme-2021
+
+quick-push:
+- git commit -am "commit at $(shell date "+%H:%M:%S")" && git push && open https://github.com/htw-imi-showtime/showtime-website/actions

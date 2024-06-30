@@ -19,10 +19,11 @@ website_link = ""
 source_link = ""
 +++
 
-Entweder ein Zitat einfügen, etwas aus dem Spiel oder weglassen 
-{{<image src="Platzhalter.png" alt="Platzhalter">}}
+<!-- Entweder ein Zitat einfügen, etwas aus dem Spiel oder weglassen--> 
+<!-- {{<image src="Platzhalter.png" alt="Platzhalter">}}-->  
+
 {{<section title =" Our Process" >}} 
-Minispiele programmiert sodass sie skalierbar sind, spiele Konzept betrachten (großer Streitpunkt), viele Konzept angeschaut (Wiederspielwert, Belohnungssysteme, mobiles Design, Spiel Umgebung, Scoring System),  individuelle UI. TODO!  
+Minispiele programmiert sodass sie skalierbar sind, spiele Konzept betrachten (großer Streitpunkt), viele Konzept angeschaut (Wiederspielwert, Belohnungssysteme, mobiles Design, Spiel Umgebung, Scoring System),  individuelle UI. <!--TODO!-->   
 {{</section>}}
 
 {{<section title="Our Goal">}}

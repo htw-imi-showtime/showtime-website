@@ -1,0 +1,72 @@
+# Generic Workflow that builds the hugo page from . (root dir of the repo)
+# and publishes the page with the new actions/deploy-pages gh action.
+# sets the baseURL for hugo to 'https://<owner>.github.io/<repo>'
+
+# use it with <repo>->Settings->Pages Source "GitHub Actions"
+# Contains a RUN_IF to prevent it from running in the original repo
+
+name: Deploy Page using GH-Actions
+
+on:
+  push:
+    branches:
+      - main  # Set a branch that will trigger a deployment
+  workflow_dispatch:
+    
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Hugo Page Build
+    # if: ${{ github.repository_owner != 'htw-imi-showtime' }}
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 1        # Fetch all history for .GitInfo and .Lastmod
+      
+      - name: Get Theme
+        run: |
+            git submodule update --init themes/showtime-theme-2021
+    
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+      
+      - name: Build Site
+        run: |
+              hugo \
+                --environment production \
+                --buildDrafts \
+                --baseURL 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'
+    
+      - name: "Upload artifact"
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    name: Deploy to GH Pages
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
