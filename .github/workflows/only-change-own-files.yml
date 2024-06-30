@@ -80,9 +80,7 @@ jobs:
          DIFF=$(git diff --name-only pr_base pr_head)
          grep --version
          OK=$(echo $DIFF | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
-         if [[ 0 != $?]] then ; OK=None ; fi
          NOK=$(echo $DIFF | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
-         if [[ 0 != $?]] then ; echo "all ok" ; fi
          echo DIFF: $DIFF
          echo OK: $OK
          echo NOK: $NOK
