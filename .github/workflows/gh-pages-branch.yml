@@ -1,27 +1,26 @@
-name: Deploy Page to GH-Pages using BRANCH
 # Generic Workflow that builds the hugo page from . (root dir of the repo)
-# with baseURL 
+# sets the baseURL for hugo to 'https://<owner>.github.io/<repo>'
 # publishes the hugo page using the (older) option by pushing the 
 # page to the branch gh-pages
+
 # use it with <repo>->Settings->Pages "Deploy from a branch"
 # Select Branch: "gh-pages" Select Folder: "/(root)"
+# Contains a RUN_IF to prevent it from running in the original repo
 
+# This is here for legacy reasons. If in doubt, use the workflow in gh-pages-action.yml !
 
-env:
-    BASE_URL = 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'
-    RUN_IF = (github.repository_owner != 'htw-imi-showtime')
-    BRANCH = gh_pages_deploy_fix
+name: Deploy Page using Branch
 
 on:
   push:
     branches:
-    - ${{ env.BRANCH }}  # Set a branch that will trigger a deployment
+    - gh_pages_deploy_fix # Set a branch that will trigger a deployment  
   workflow_dispatch:
 
+jobs:
 
-jobs: 
   deploy:
-    if:  ${{ env.RUN_IF }}
+    if: ${{ github.repository_owner != 'htw-imi-showtime' }}
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -29,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: false  
-          fetch-depth: 0     # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 1     # Fetch all history for .GitInfo and .Lastmod
       
       - name: Get Theme
         run: |
@@ -47,7 +46,7 @@ jobs:
               hugo \
                 --environment production \
                 --buildDrafts \
-                --baseURL ${{ env.BASE_URL }}
+                --baseURL 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
