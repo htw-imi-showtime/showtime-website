@@ -67,23 +67,28 @@ jobs:
            
   
     - name: "git diff main"
-      continue-on-error: true
+      continue-on-error: false
       id: diffs
       run: |
-         DIFF=$(git diff --name-only pr_base pr_head) 
-         echo DIFF: $DIFF
-         echo "---------- with \n: ---"
-         echo $DIFF | tr ' ' '\n'
-         echo "-----------------------"
-
-         echo "project id: ${{ steps.extract_pid.outputs.project_id }}"
-         OK=$(echo $DIFF | tr ' ' '\n' | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
-         echo "-- OK\n: $OK"
-         NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
-         echo "NOK:\n $NOK"
-         echo "files_ok=$(echo $OK  | tr '\n' ' ')" >> $GITHUB_OUTPUT
-         echo "files_not_ok=\"$NOK\" " >> $GITHUB_OUTPUT
-         
+        DIFF=$(git diff --name-only pr_base pr_head) 
+        echo DIFF: $DIFF
+        echo "---  one per line:  ---"
+        echo $DIFF | tr ' ' '\n'
+        echo "-----------------------"
+        
+        PID="${{ steps.extract_pid.outputs.project_id }}"
+        echo "project id: $PID"
+        OK=$(echo $DIFF | tr ' ' '\n' | grep "content/ss24.*$PID" || echo "") 
+        echo "-- OK\n: $OK"
+        NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "content/ss24.*$PID" || echo "") 
+        echo "NOK:\n $NOK"
+        echo "files_ok=$(echo $OK  | tr '\n' ' ')" >> $GITHUB_OUTPUT
+        echo "files_not_ok=\"$NOK\" " >> $GITHUB_OUTPUT
+        
+        RE="content/ss24.*$PID"
+        NOK1=$(echo $DIFF | tr ' ' '\n' | grep -v "$RE" || echo "") 
+        echo "NOK with regex:\n $NOK1"
+        
     - name: "validation"
       continue-on-error: true
       run: |
