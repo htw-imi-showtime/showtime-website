@@ -19,7 +19,5 @@ else
    echo "ERROR: More files changed than allowed!"
         echo "------ Additional Files: "
         echo $NOK | tr ':' '\n'
-        echo "------ Allowed Files:"
-        echo $OK | tr ':' '\n'
         exit 123    
  fi

@@ -15,7 +15,7 @@ jobs:
       run: |
         git submodule update --init themes/showtime-theme-2021
     - name: Hugo setup
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: '0.128.0'
         extended: true
