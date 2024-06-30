@@ -105,16 +105,18 @@ jobs:
         
     - name: "report error"
       run: |
-        echo "ok: ${{ steps.diffs.outputs.files_ok }}" | tr ' ' '\n'
-        echo "nok: ${{ steps.diffs.outputs.files_not_ok }}" | tr ' ' '\n'
-        if [ -z ${{ steps.diffs.outputs.files_not_ok }} ]; then 
+        OK="${{ steps.diffs.outputs.files_ok }}"
+        NOK="${{ steps.diffs.outputs.files_not_ok }}"
+        echo "ok: $OK" | tr ' ' '\n'
+        echo "nok: $NOK | tr ' ' '\n'
+        if [ -z "$NOK" ]; then 
           echo "all good"       
         else
            echo "ERROR: More files changed than allowed!"
                 echo "------ Additional Files: "
-                echo ${{ steps.diffs.outputs.files_not_ok }} | tr ' ' '\n'
+                echo $NOK | tr ' ' '\n'
                 echo "------ Allowed Files:"
-                echo ${{ steps.diffs.outputs.files_ok }} | tr ' ' '\n'
+                echo $OK | tr ' ' '\n'
                 exit 123    
          fi
 
