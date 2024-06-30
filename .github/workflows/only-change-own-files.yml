@@ -22,8 +22,6 @@ jobs:
     
     - name: "checkout pr base and head"
       run: |
-        git log
-        git status
         git fetch --no-tags --depth=1 origin main
         git checkout main
         echo "about to checkout pr base"
@@ -49,24 +47,10 @@ jobs:
            
   
     - name: "get changed files from git diff"
-      continue-on-error: false
+      continue-on-error: true
       id: diffs
       run: |
-        DIFF=$(git diff --name-only pr_base pr_head) 
-        echo DIFF: $DIFF
-        echo "---  DIFF:  ---"
-        echo $DIFF | tr ' ' '\n'
-        echo "-----------------------"
-        
-        PID="${{ steps.extract_pid.outputs.project_id }}"
-        echo "project id: $PID"
-        RE="content/ss24.*$PID"
-        OK=$(echo $DIFF | tr ' ' '\n' | grep "$RE" || echo "")  
-        echo "-----  OK -----" && echo  $OK | tr ' ' '\n'
-        NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "$RE" || echo "") 
-        echo "----- NOK: -----" && echo $NOK | tr ' ' '\n'
-        echo "files_ok=\"$OK\"" >> $GITHUB_OUTPUT
-        echo "files_not_ok=\"$NOK\" " >> $GITHUB_OUTPUT
+        bin/files_changed.sh ${{ steps.extract_pid.outputs.project_id }}
         
     - name: "check ok and nok"
       continue-on-error: true
@@ -78,29 +62,16 @@ jobs:
     - name: "validation"
       continue-on-error: true
       run: |
-          echo "##${{ steps.diffs.outputs.files_ok }}##"
-          OK="${{ steps.diffs.outputs.files_ok }}"
-          echo "files_ok: $OK"
-          MATCHING=$(echo "$OK"  | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*\(/.*\)*" || echo "")
-          echo "MATCHING: $MATCHING "
-          echo "-----"
-          NONMATCHING=$(echo "$OK" | tr ' ' '\n' | grep -v "[bm]\d-[a-z]\w*\(/.*\)*" || echo "")
-          echo "NONMATCHING: $NONMATCHING "
-          echo "-----"
-          if [ -z "$NONMATCHING" ]; then
-             echo " all paths ok."
-          else
-             echo " includes invalid paths!"
-             echo "NONMATCHING: $NONMATCHING " 
-          fi
-   
+        OK="${{ steps.diffs.outputs.files_ok }}"
+        bin/validate.sh $OK
+        
         
     - name: "report error"
       run: |
         OK="${{ steps.diffs.outputs.files_ok }}"
         NOK="${{ steps.diffs.outputs.files_not_ok }}"
-        echo "ok: $OK" | tr ' ' '\n'
-        echo "nok: $NOK | tr ' ' '\n'
+        echo "ok: $OK" | tr ':' '\n'
+        echo "nok: $NOK | tr ':' '\n'
         if [ -z "$NOK" ]; then 
           echo "all good"       
         else
