@@ -66,7 +66,7 @@ jobs:
            echo "project_id=$PID2" >> $GITHUB_OUTPUT
            
   
-    - name: "git diff main"
+    - name: "get changed files from git diff"
       continue-on-error: false
       id: diffs
       run: |
@@ -82,7 +82,7 @@ jobs:
         echo "-- OK\n: $OK"
         NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "content/ss24.*$PID" || echo "") 
         echo "NOK:\n $NOK"
-        echo "files_ok=$(echo $OK  | tr '\n' ' ')" >> $GITHUB_OUTPUT
+        echo "files_ok=\"$(echo $OK  | tr '\n' ' ')\"" >> $GITHUB_OUTPUT
         echo "files_not_ok=\"$NOK\" " >> $GITHUB_OUTPUT
         
         RE="content/ss24.*$PID"
