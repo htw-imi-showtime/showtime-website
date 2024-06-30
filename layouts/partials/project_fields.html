@@ -2,9 +2,7 @@
 
 {{ $disk_usages := dict }}
 {{ range .Site.Data.disk_usage.disk_usage }}
-{{ printf "%T .path" .path}}
-{{ $disk_usages = merge $disk_usages (dict  .path .size )}}
-{{ $disk_usages = merge $disk_usages (dict "a" .size )}}
+    {{ $disk_usages = merge $disk_usages (dict  .path .size )}}
 {{ end }}
 
 {{ range .Pages }} {{ $projects = append .Pages $projects}} {{ end }}
@@ -18,6 +16,7 @@
         <p><b>title:</b> = {{ .Title }}</p>
         <p><b>subtitle:</b> = {{ .Params.Subtitle }}</p>
         <p><b>supervisor:</b> {{ .Params.Supervisor }} ({{ printf "%T" .Params.Supervisor }})</p>
+        <p><b>tags:</b> {{ .Params.Tags }} ({{ printf "%T" .Params.Tags }})</p>
 
         <p><b>claim</b> =  {{ .Params.claim }}</p>
         <p><b>abstract</b> =  {{ .Params.abstract }}</p>
@@ -28,7 +27,7 @@
            
             {{ index $disk_usages $path }}</p>
             
-            <p>
+                {{ partial "taxonomies" . }}
         <small><pre>
 
 <b>for data/schedule.toml:</b>

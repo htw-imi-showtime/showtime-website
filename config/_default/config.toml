@@ -27,3 +27,7 @@ enableGitInfo = true
 [[module.mounts]]
   source = "content"
   target = "content"
+  
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
