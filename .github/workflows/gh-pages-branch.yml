@@ -1,0 +1,56 @@
+name: Deploy Page to GH-Pages using BRANCH
+# Generic Workflow that builds the hugo page from . (root dir of the repo)
+# with baseURL 
+# publishes the hugo page using the (older) option by pushing the 
+# page to the branch gh-pages
+# use it with <repo>->Settings->Pages "Deploy from a branch"
+# Select Branch: "gh-pages" Select Folder: "/(root)"
+
+
+env:
+    BASE_URL = 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'
+    RUN_IF = (github.repository_owner != 'htw-imi-showtime')
+    BRANCH = gh_pages_deploy_fix
+
+on:
+  push:
+    branches:
+    - ${{ env.BRANCH }}  # Set a branch that will trigger a deployment
+  workflow_dispatch:
+
+
+jobs: 
+  deploy:
+    if:  ${{ env.RUN_IF }}
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false  
+          fetch-depth: 0     # Fetch all history for .GitInfo and .Lastmod
+      
+      - name: Get Theme
+        run: |
+            git submodule update --init themes/showtime-theme-2021
+    
+        # see https://github.com/marketplace/actions/hugo-setup
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+      
+      - name: Build
+        run: |
+              hugo \
+                --environment production \
+                --buildDrafts \
+                --baseURL ${{ env.BASE_URL }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          publish_dir: ./public
