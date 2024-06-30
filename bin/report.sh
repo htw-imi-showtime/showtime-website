@@ -8,9 +8,11 @@
 OK=$1
 NOK=$2
 
-echo "-- ok:$OK" | tr ':' '\n'
-echo "-- nok:$NOK" | tr ':' '\n'
-echo "--"
+echo "--  ok --"
+echo $OK | tr ':' '\n'
+echo "-- nok --"
+echo $NOK | tr ':' '\n'
+echo "---------"
 if [ -z "$NOK" ]; then 
   echo "all good"       
 else
