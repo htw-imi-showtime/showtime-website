@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: vars
+      if: false
       run: |
         echo "some github variables:" \
         echo $GITHUB_REF  \
@@ -90,12 +91,19 @@ jobs:
     - name: "validation"
       continue-on-error: true
       run: |
-           echo ${{ steps.diffs.outputs.files_ok }}
-           echo ${{ steps.diffs.outputs.files_ok }} | grep "[bm]\d-[a-z]\w*$"
+          echo ${{ steps.diffs.outputs.files_ok }}
+          echo ${{ steps.diffs.outputs.files_ok }} | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*$"
+          if [ $? -eq 0 ]; then
+             echo " -- found something"
+          else
+             echo " -- found no match"
+          fi
    
         
     - name: "report error"
       run: |
+       echo "ok: ${{ steps.diffs.outputs.files_ok }}"
+       echo "nok: ${{ steps.diffs.outputs.files_not_ok }}"
        if [[ "" != ${{ steps.diffs.outputs.files_not_ok }} ]]; then 
                 echo "ERROR: More files changed than allowed!"
                 echo "------ Additional Files: "
