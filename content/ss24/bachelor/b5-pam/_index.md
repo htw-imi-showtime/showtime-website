@@ -10,8 +10,8 @@ card_image = "PAM.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
 card_description = "Upgrading, Reworking and rewriting a Project Tool for a certain Company" 
 # Names are optional, team size is sufficient
-team = ["Margarita Doiko", "Hamzeh Hamzeh", "Anh Phuc Hoang", "Lukas Oswald"]
-supervisor = "Sue-Ann Bäsler"
+team = ["Margarita Boiko", "Hamzeh Hamzeh", "Anh Phuc Hoang", "Lukas Oswald"]
+supervisor = ["Dr.Sue-Ann Bäsler, Martin Singer, Vu Minh Le, Mariam Maisuradze"]
 draft = false
 
 website_link = "https://globalct.com/"
@@ -40,5 +40,6 @@ The base PAM lacked quite a few features and had a very outdated design, so the 
 {{</section>}} 
 
 {{<gallery>}}
+
 {{</gallery>}}
 
