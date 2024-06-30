@@ -69,29 +69,37 @@ jobs:
           echo "files changed: "
           git diff --name-only pr_base pr_head
   
-    - name: "grep test"
-      continue-on-error: true
-      run: |
-        echo "files changed: "
-        git diff --name-only pr_base pr_head | grep -v ${{ steps.extract_pid.outputs.allowed_path }}
-
     - name: "git diff main with check"
+      continue-on-error: true
+      id: diffs
       run: |
          DIFF=$(git diff --name-only pr_base pr_head)
-         grep --version
+         echo "project id: ${{ steps.extract_pid.outputs.project_id }}"
          OK=$(echo $DIFF | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
          NOK=$(echo $DIFF | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
          echo DIFF: $DIFF
          echo OK: $OK
          echo NOK: $NOK
+         echo "files_ok=$OK" >> $GITHUB_OUTPUT
+         echo "files_not_ok=$NOK" >> $GITHUB_OUTPUT
          
-         if [[ "" != $NOK]]; then 
+    - name: "validation"
+      continue-on-error: true
+      run: |
+           echo ${{ steps.diffs.outputs.files_ok }}
+           echo ${{ steps.diffs.outputs.files_ok }} | grep "[bm]\d-[a-z]\w*$"
+   
+        
+    - name: "report error"
+      run: |
+       if [[ "" != ${{ steps.diffs.outputs.files_not_ok }} ]]; then 
                 echo "ERROR: More files changed than allowed!"
                 echo "------ Additional Files: "
-                echo $NOK
+                echo ${{ steps.diffs.outputs.files_not_ok }}
                 echo "------ Allowed Files:"
-                echo $OK
+                echo ${{ steps.diffs.outputs.files_ok }}
                 exit 123
             else
                 echo "all good"
          fi
+
