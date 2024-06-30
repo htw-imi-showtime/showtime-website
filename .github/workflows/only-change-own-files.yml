@@ -4,6 +4,9 @@ name: Own Files Only
 # PR Titles have to start with the Project ID! (e.g. B1: ....)
 on:
   pull_request:
+  push:
+    branches:
+    - b4_semp
     
 
   workflow_dispatch:
@@ -13,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: vars
+      if: false
       run: |
         echo "some github variables:" \
         echo $GITHUB_REF  \
@@ -61,37 +65,55 @@ jobs:
            echo "PID2 $PID2"
            echo "project_id=$PID2" >> $GITHUB_OUTPUT
            
-             
-
-    - name: "diff base head"
-      continue-on-error: true
-      run: |
-          echo "files changed: "
-          git diff --name-only pr_base pr_head
   
-    - name: "grep test"
+    - name: "git diff main"
+      continue-on-error: true
+      id: diffs
+      run: |
+         DIFF=$(git diff --name-only pr_base pr_head) 
+         echo "project id: ${{ steps.extract_pid.outputs.project_id }}"
+         OK=$(echo $DIFF | tr ' ' '\n' | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
+         NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
+         echo DIFF: $DIFF
+         echo "---------- with \n: ---"
+         echo $DIFF | tr ' ' '\n'
+         echo "-----------------------"
+         echo "-- OK\n: $OK"
+         echo "NOK:\n $NOK"
+         echo "files_ok=$(echo $OK  | tr '\n' ' ')" >> $GITHUB_OUTPUT
+         echo "files_not_ok=\"$NOK\" " >> $GITHUB_OUTPUT
+         
+    - name: "validation"
       continue-on-error: true
       run: |
-        echo "files changed: "
-        git diff --name-only pr_base pr_head | grep -v ${{ steps.extract_pid.outputs.allowed_path }}
-
-    - name: "git diff main with check"
+          OK="${{ steps.diffs.outputs.files_ok }}"
+          echo "files_ok: $OK"
+          MATCHING=$(echo "$OK"  | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*\(/.*\)*" || echo "")
+          echo "MATCHING: $MATCHING "
+          echo "-----"
+          NONMATCHING=$(echo "$OK" | tr ' ' '\n' | grep -v "[bm]\d-[a-z]\w*\(/.*\)*" || echo "")
+          echo "NONMATCHING: $NONMATCHING "
+          echo "-----"
+          if [ -z "$NONMATCHING" ]; then
+             echo " all paths ok."
+          else
+             echo " includes invalid paths!"
+             echo "NONMATCHING: $NONMATCHING " 
+          fi
+   
+        
+    - name: "report error"
       run: |
-         DIFF=$(git diff --name-only pr_base pr_head)
-         grep --version
-         OK=$(echo $DIFF | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
-         NOK=$(echo $DIFF | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}")
-         echo DIFF: $DIFF
-         echo OK: $OK
-         echo NOK: $NOK
-         
-         if [[ "" != $NOK]]; then 
-                echo "ERROR: More files changed than allowed!"
+        echo "ok: ${{ steps.diffs.outputs.files_ok }}" | tr ' ' '\n'
+        echo "nok: ${{ steps.diffs.outputs.files_not_ok }}" | tr ' ' '\n'
+        if [ -z ${{ steps.diffs.outputs.files_not_ok }} ]; then 
+          echo "all good"       
+        else
+           echo "ERROR: More files changed than allowed!"
                 echo "------ Additional Files: "
-                echo $NOK
+                echo ${{ steps.diffs.outputs.files_not_ok }} | tr ' ' '\n'
                 echo "------ Allowed Files:"
-                echo $OK
-                exit 123
-            else
-                echo "all good"
+                echo ${{ steps.diffs.outputs.files_ok }} | tr ' ' '\n'
+                exit 123    
          fi
+
