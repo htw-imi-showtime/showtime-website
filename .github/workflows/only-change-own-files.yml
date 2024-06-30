@@ -91,12 +91,17 @@ jobs:
     - name: "validation"
       continue-on-error: true
       run: |
-          echo ${{ steps.diffs.outputs.files_ok }}
-          echo ${{ steps.diffs.outputs.files_ok }} | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*$"
-          if [ $? -eq 0 ]; then
-             echo " -- found something"
+          echo "${{ steps.diffs.outputs.files_ok }}"
+          MATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}" | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*" || "")
+          NONMATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}" | tr ' ' '\n' | grep -v "[bm]\d-[a-z]\w*" || "")
+          echo "MATCHING: $MATCHING "
+          echo "NONMATCHING: $NONMATCHING "
+          echo "-----"
+          if [ "" -neq "$NONMATCHING" ]; then
+             echo " includes invalid paths!"
+             echo "NONMATCHING: $NONMATCHING "
           else
-             echo " -- found no match"
+             echo " all paths ok."
           fi
    
         
