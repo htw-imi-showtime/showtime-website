@@ -6,7 +6,7 @@ on:
   pull_request:
   push:
     branches:
-    - b4_semp
+    - main
     
 
   workflow_dispatch:
@@ -51,14 +51,7 @@ jobs:
       id: diffs
       run: |
         bin/files_changed.sh ${{ steps.extract_pid.outputs.project_id }}
-        
-    - name: "check ok and nok"
-      continue-on-error: true
-      run: |
-        echo "##${{ steps.diffs.outputs.files_ok }}##"
-        echo "##${{ steps.diffs.outputs.files_not_ok }}##"
-
-        
+            
     - name: "validation"
       continue-on-error: true
       run: |
@@ -70,16 +63,4 @@ jobs:
       run: |
         OK="${{ steps.diffs.outputs.files_ok }}"
         NOK="${{ steps.diffs.outputs.files_not_ok }}"
-        echo "ok: $OK" | tr ':' '\n'
-        echo "nok: $NOK | tr ':' '\n'
-        if [ -z "$NOK" ]; then 
-          echo "all good"       
-        else
-           echo "ERROR: More files changed than allowed!"
-                echo "------ Additional Files: "
-                echo $NOK | tr ' ' '\n'
-                echo "------ Allowed Files:"
-                echo $OK | tr ' ' '\n'
-                exit 123    
-         fi
-
+        bin/report.sh $OK $NOK
