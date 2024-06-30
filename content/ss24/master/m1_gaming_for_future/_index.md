@@ -3,7 +3,7 @@ project_id = "M1"
 title = "Aquasolace"
 subtitle = "Gaming for Future II: Turning the simulation into a game"
 claim = "Aquasolace - Gaming For Future"
-abstract = "Aquasolace - Gaming For Future"
+abstract = ""
 
 # Properties for displaying the project in the project list
 card_image = "game_logo.png"
