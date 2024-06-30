@@ -65,23 +65,15 @@ jobs:
            echo "PID2 $PID2"
            echo "project_id=$PID2" >> $GITHUB_OUTPUT
            
-             
-
-    - name: "diff base head"
-      if: false
-      continue-on-error: true
-      run: |
-          echo "files changed: "
-          git diff --name-only pr_base pr_head
   
     - name: "git diff main"
       continue-on-error: true
       id: diffs
       run: |
-         DIFF=$(git diff --name-only pr_base pr_head) && echo $DIFF
+         DIFF=$(git diff --name-only pr_base pr_head) 
          echo "project id: ${{ steps.extract_pid.outputs.project_id }}"
-         OK=$(echo $DIFF | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") && echo $OK
-         NOK=$(echo $DIFF | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") && echo $NOK
+         OK=$(echo $DIFF | tr ' ' '\n' | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
+         NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
          echo DIFF: $DIFF
          echo OK: $OK
          echo NOK: $NOK
@@ -92,7 +84,7 @@ jobs:
       continue-on-error: true
       run: |
           which tr
-          MATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}"  | grep "[bm]\d-[a-z]\w*" || echo "")
+          MATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}"  | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*" || echo "")
           NONMATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}" | tr ' ' '\n' | grep -v "[bm]\d-[a-z]\w*" || echo "")
           echo "MATCHING: $MATCHING "
           echo "NONMATCHING: $NONMATCHING "
