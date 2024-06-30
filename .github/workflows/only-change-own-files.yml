@@ -86,10 +86,12 @@ jobs:
     - name: "validation"
       continue-on-error: true
       run: |
-          echo "files_ok: ${{ steps.diffs.outputs.files_ok }}"
-          MATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}"  | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*" || echo "")
-          NONMATCHING=$(echo "${{ steps.diffs.outputs.files_ok }}" | tr ' ' '\n' | grep -v "[bm]\d-[a-z]\w*" || echo "")
+          OK="${{ steps.diffs.outputs.files_ok }}"
+          echo "files_ok: $OK"
+          MATCHING=$(echo "$OK"  | tr ' ' '\n' | grep "[bm]\d-[a-z]\w*" || echo "")
           echo "MATCHING: $MATCHING "
+          echo "-----"
+          NONMATCHING=$(echo "$OK" | tr ' ' '\n' | grep -v "[bm]\d-[a-z]\w*" || echo "")
           echo "NONMATCHING: $NONMATCHING "
           echo "-----"
           if [ -z "$NONMATCHING" ]; then
