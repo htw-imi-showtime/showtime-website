@@ -75,10 +75,13 @@ jobs:
          OK=$(echo $DIFF | tr ' ' '\n' | grep "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
          NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "content/ss24.*${{ steps.extract_pid.outputs.project_id }}") 
          echo DIFF: $DIFF
-         echo OK: $OK
-         echo NOK: $NOK
-         echo "files_ok=$OK" >> $GITHUB_OUTPUT
-         echo "files_not_ok=$NOK" >> $GITHUB_OUTPUT
+         echo "---------- with \n: ---"
+         echo $DIFF | tr ' ' '\n'
+         echo "-----------------------"
+         echo "-- OK\n: $OK"
+         echo "NOK:\n $NOK"
+         echo files_ok="$OK" >> $GITHUB_OUTPUT
+         echo files_not_ok="$NOK" >> $GITHUB_OUTPUT
          
     - name: "validation"
       continue-on-error: true
