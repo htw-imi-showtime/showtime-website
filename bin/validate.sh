@@ -2,7 +2,6 @@
 
 # test with
 # export OK=content/ss24/bachelor/b4-sempy/Logo.jpg:content/ss24/bachelor/b4-sempy/Paul.jpg:content/ss24/bachelor/b4-sempy/_index.md:content/ss24/bachelor/b4-sempy/cat.jpg:content/ss24/bachelor/b4-sempy/features.md:content/ss24/bachelor/b4-sempy/kitty.jpg:content/ss24/bachelor/b4-sempy/process.md
-# export OK="m1-asf:m1-ASSADFASFD/bla.md:m1-asfd/HA.png"
 # bin/validate.sh $OK
 
 echo "files_ok: $OK"
