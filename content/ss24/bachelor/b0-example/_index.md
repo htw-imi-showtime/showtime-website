@@ -24,20 +24,19 @@ tags = ["web", "rails"]
 categories = ["web technology"]
 
 intro = "This example project is just here to demonstrate where the project metadata goes."
+
 +++
 
-Text outside of sections: As the abstract is shown before the content as it's own section, you should use the "intro"
-top matter now if you want to have some extra text before the sections.
+Text outside of sections: As the abstract is shown before the content as it's own section, you should use the "intro" top matter now if you want to have some extra text before the sections.
 
 {{<section title="Section Title">}}
 Section Text
 {{</section>}}
 
 
-
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="Tick">}}
-{{<team-member image="cat.jpg" name="Trick">}}
-{{<team-member image="cat.jpg" name="Track">}}
+   {{<team-member image="cat.jpg" name="Tick">}}
+   {{<team-member image="cat.jpg" name="Trick">}}
+   {{<team-member image="cat.jpg" name="Track">}}
 {{</gallery>}}
 
