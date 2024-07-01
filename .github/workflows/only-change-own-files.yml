@@ -16,30 +16,19 @@ jobs:
         submodules: false
         fetch-depth: 1       
 
-    - name: "curl1"
-      continue-on-error: true
-      if: false
-      id: diff_files_1
-      run: |
-        changed_files=$(curl https://patch-diff.githubusercontent.com/raw/htw-imi-showtime/showtime-website/pull/350.diff 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g")
-        echo $changed_files
-        echo changed_files=$changed_files >> $GITHUB_OUTPUT
-    - name: "curl2"
+
+    - name: "curl"
       continue-on-error: true
       id: diff_files
       run: |
-         changed_files=$(curl ${{ github.event.pull_request.diff_url }} 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g")
+         diff_file=$( curl ${{ github.event.pull_request.diff_url }} )
+         echo "$diff_file"
+         echo "----------------------"
+         changed_files=$(echo $diff_file | grep -e "diff --git" | sed -e "s#diff --git a/##g")
          echo $changed_files
          echo changed_files=$changed_files >> $GITHUB_OUTPUT
           
-    - name: "curl3"
-      continue-on-error: true
-      id: diff_files_2
-      run: |
-        changed_files=$(curl ${{ github.event.pull_request.diff_url }} | grep -e "diff --git" | sed -e "s#diff --git a/##g")
-        echo $changed_files
-        # echo changed_files=$changed_files >> $GITHUB_OUTPUT
-          
+  
     - name: extract project id
       continue-on-error: true
       id: extract_pid
