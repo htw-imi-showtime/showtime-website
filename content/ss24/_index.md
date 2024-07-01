@@ -5,7 +5,5 @@ layout = "projects_list"
 category = "project-archive"
 weight = 20241
 +++
-
-
-[Project Metadata Overview](./project_overview) 
-
+<!-- [-](./project_overview) 
+-->
