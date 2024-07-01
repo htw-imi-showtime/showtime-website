@@ -11,19 +11,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        fetch-depth: 1       
+
     - name: "curl1"
       continue-on-error: true
-      id: diff_files
+      if: false
+      id: diff_files_1
       run: |
         changed_files=$(curl https://patch-diff.githubusercontent.com/raw/htw-imi-showtime/showtime-website/pull/350.diff 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g")
         echo $changed_files
         echo changed_files=$changed_files >> $GITHUB_OUTPUT
     - name: "curl2"
       continue-on-error: true
+      id: diff_files
       run: |
-          curl ${{ github.event.pull_request.diff_url }}
+         changed_files=$(curl ${{ github.event.pull_request.diff_url }} 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g")
+         echo $changed_files
+         echo changed_files=$changed_files >> $GITHUB_OUTPUT
           
-    - name: "curl2"
+    - name: "curl3"
       continue-on-error: true
       id: diff_files_2
       run: |
