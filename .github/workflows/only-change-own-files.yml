@@ -21,13 +21,15 @@ jobs:
     - name: info
       run: |
         echo "${{ toJSON(github.event.pull_request) }}"
-        
+
     - name: "curl"
       continue-on-error: true
       id: diff_files
       run: |
          changed_files=$(curl -L ${{ github.event.pull_request.diff_url }} | grep -e "diff --git" | sed -e "s#diff --git a/##g")
+         echo "-----"
          echo $changed_files
+         echo "-----"
          echo changed_files=$changed_files >> $GITHUB_OUTPUT
           
   
@@ -45,10 +47,12 @@ jobs:
     - name: "get changed files from diff extract"
       continue-on-error: true
       id: diffs
+      env:
+        CHANGED_FILES: ${{ steps.diff_files.outputs.changed_files }}
       run: |
-        changed_files=${{ steps.diff_files.outputs.changed_files }} | tr ' ' ':'
-        echo "###$changed_files###"
-        bin/files_changed_from_diff.sh ${{ steps.extract_pid.outputs.project_id }} $changed_files
+        CHANGED_FILES=$(echo "$CHANGED_FILES" | tr ' ' ':')
+        echo "###$CHANGED_FILES###"
+        bin/files_changed_from_diff.sh ${{ steps.extract_pid.outputs.project_id }} 
             
     - name: "validation"
       continue-on-error: true

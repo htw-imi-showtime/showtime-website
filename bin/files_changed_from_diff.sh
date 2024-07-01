@@ -4,7 +4,7 @@
 # export GITHUB_OUTPUT=tmp/gh-output.sh && bin/files_changed.sh b4
 
 PID=$1 
-DIFF=$2
+DIFF=$CHANGED_FILES
 
 echo DIFF: $DIFF
 echo "---  DIFF:  ---"
