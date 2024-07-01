@@ -25,7 +25,7 @@ jobs:
       id: diff_files
       run: |
          changed_files=$(curl -L ${{ github.event.pull_request.diff_url }} | grep -e "^diff --git a/" | sed -e "s#diff --git a/##g")
-         changed_files=echo $changed_files | tr '\n' ':'
+         changed_files=echo "$changed_files" | tr '\n' ':'
          echo "-----"
          echo $changed_files
          echo "-----"
