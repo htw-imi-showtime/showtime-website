@@ -35,11 +35,11 @@ jobs:
       continue-on-error: true
       run: |
           diff_file=${{ github.event.pull_request.diff_url }}
-          echo $diff_file
-          curl $diff_file 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g"
+          echo "diff_file: $diff_file"
+          curl "$diff_file" 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g"
     
     - name: "merge-base"
-      if: true
+      if: false
       run: |
         git status
         echo "------ git log --------"
