@@ -1,0 +1,61 @@
+name: Own Files Only
+
+# this workflow checks whether a pull request changes only files in the project folder"
+# PR Titles have to start with the Project ID! (e.g. B1: ....)
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check-own-files:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+    
+    - name: "checkout pr base and head"
+      run: |
+        git fetch --no-tags --depth=1 origin main
+        git checkout main
+        echo "about to checkout pr base"
+        git fetch origin ${{ github.event.pull_request.base.sha }}
+        git checkout -b pr_base ${{ github.event.pull_request.base.sha }}
+        echo "about to checkout head"
+        git fetch origin  ${{ github.event.pull_request.head.sha }}
+        git checkout -b pr_head ${{ github.event.pull_request.head.sha }}
+
+    - name: extract project id
+      id: extract_pid
+      env: 
+        PR_TITLE: ${{ github.event.pull_request.title }}
+           
+      run: |
+           echo P_ID: "$P_ID" 
+           echo "PR_TITLE: $PR_TITLE" 
+           PID="${PR_TITLE:0:2}" 
+           echo "PID $PID" 
+           PID2=$(echo $PID | tr '[:upper:]' '[:lower:]') 
+           echo "PID2 $PID2"
+           echo "project_id=$PID2" >> $GITHUB_OUTPUT
+           
+  
+    - name: "get changed files from git diff"
+      continue-on-error: true
+      id: diffs
+      run: |
+        bin/files_changed.sh ${{ steps.extract_pid.outputs.project_id }}
+            
+    - name: "validation"
+      continue-on-error: true
+      run: |
+        OK="${{ steps.diffs.outputs.files_ok }}"
+        bin/validate.sh $OK
+        
+        
+    - name: "report error"
+      run: |
+        OK="${{ steps.diffs.outputs.files_ok }}"
+        NOK="${{ steps.diffs.outputs.files_not_ok }}"
+        bin/report.sh $OK $NOK

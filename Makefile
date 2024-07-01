@@ -2,14 +2,15 @@
 .RECIPEPREFIX = -
 
 hugo :  open
--  hugo --navigateToChanged --buildDrafts -p 1313 server
+#-  hugo --baseURL http://localhost:1313/pathprefix --navigateToChanged --port=1313 server
+-  hugo --baseURL http://localhost:1313/pathprefix --navigateToChanged --buildDrafts -p 1313 server
 
 hugoP :  open
 -  hugo -p 1313 server
 
 open :
-#-  open http://localhost:1313
--  open http://localhost:1313/ws23
+#-  open http://localhost:1313/pathprefix
+-  open http://localhost:1313/pathprefix/projects/
 
 stag_url=http://localhost:1315/staging
 hugoStaging : openStaging
@@ -56,3 +57,9 @@ ci:
 
 get-theme:
 - git submodule update --init themes/showtime-theme-2021
+
+quick-push:
+- git commit -am "commit at $(shell date "+%H:%M:%S")" && git push && open https://github.com/htw-imi-showtime/showtime-website/actions
+
+disk_usage_update:
+- bin/project_sizes.sh > data/disk_usage.toml

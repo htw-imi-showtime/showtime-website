@@ -1,4 +1,4 @@
-name: pull request
+name: PR Hugo Page
 
 on:
   pull_request:
@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     if: github.repository == 'htw-imi-showtime/showtime-website'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: false
     - name: Get Theme
@@ -18,9 +18,9 @@ jobs:
         git submodule update --init themes/showtime-theme-2021
 
     - name: Hugo setup
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.115.1'
+        hugo-version: '0.128.0'
         extended: true
 
     - name: Build

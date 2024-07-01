@@ -1,8 +1,8 @@
-name: st tryout
+name: new_b1 deploy on tryout
 
 on:
   push:
-    branches: [ main ]
+    branches: [ new_b1 ]
 
   workflow_dispatch:
 
@@ -11,22 +11,25 @@ jobs:
     if: github.repository == 'htw-imi-showtime/showtime-website'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
-        submodules: true
-
+        submodules: false
+    - name: Get Theme
+      run: |
+        git submodule update --init themes/showtime-theme-2021
+  
     - name: Hugo setup
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.115.1'
+        hugo-version: '0.128.0'
         extended: true
 
     - name: Build
       run: |
         hugo \
-          --environment staging \
-          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
-          --buildDrafts 
+          --environment production \
+          --baseURL "https://htw-imi-showtime.github.io/tryout/" 
+
    
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

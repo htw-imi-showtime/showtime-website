@@ -2,6 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "de-de"
 title = "IMI Showtime"
 theme = "showtime-theme-2021"
+enableGitInfo = true
 
 [params]
     current_semester = "ss24"
@@ -19,10 +20,16 @@ theme = "showtime-theme-2021"
   proxy = 'direct'
   workspace = 'off'
   replacements = 'github.com/htw-imi-showtime/showtime-website-project-archive -> ../project-archive'
-
+ 
 [[module.imports]]
   path = 'github.com/htw-imi-showtime/showtime-website-project-archive'
 
 [[module.mounts]]
   source = "content"
   target = "content"
+  
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  study_focus = 'study_focus'
+

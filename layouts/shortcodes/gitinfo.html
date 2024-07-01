@@ -1,0 +1,14 @@
+{{ $page := .Page }}
+
+{{ with $page.GitInfo }}
+<p>Gitinfo: 
+</p><p>AbbreviatedHash: {{ .AbbreviatedHash }} 
+</p><p>AuthorDate: {{ .AuthorDate.Format "2006-01-02"  }} 
+</p><p>AuthorEmail: {{ .AuthorEmail }} 
+</p><p>AuthorName: {{ .AuthorName }} 
+</p><p>CommitDate: {{ .CommitDate.Format "2006-01-02" }} 
+</p><p>Hash: {{ .Hash }} 
+</p><p>Subject: {{ .Subject }} 
+</p>
+{{ end }}
+
