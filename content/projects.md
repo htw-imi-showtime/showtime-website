@@ -6,8 +6,8 @@ layout = "projects_list"
 
 This term there are [5 bachelor's](#B1) and [5 master's](#M1) projects:
 
+[Project Metadata Overview](../ss24/project_overview) 
 <!--
-
 
 The Project Pitches and Group Selection will take place soon!
 See [Dates](/dates) for upcoming dates. Infos on the upcoming projects

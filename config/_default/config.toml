@@ -2,6 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "de-de"
 title = "IMI Showtime"
 theme = "showtime-theme-2021"
+enableGitInfo = true
 
 [params]
     current_semester = "ss24"
@@ -26,3 +27,7 @@ theme = "showtime-theme-2021"
 [[module.mounts]]
   source = "content"
   target = "content"
+  
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'

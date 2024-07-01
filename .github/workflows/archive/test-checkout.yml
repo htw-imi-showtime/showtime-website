@@ -1,0 +1,30 @@
+name: test checkout action
+on:
+    # push:
+    #   branches:
+    #   - gh_pages_deploy_fix # Set a branch that will trigger a deployment  
+    workflow_dispatch:
+
+jobs:
+    checkout-only:
+        permissions:
+          contents: write
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v4
+            with:
+              submodules: false  
+              fetch-depth: 1     # Fetch all history for .GitInfo and .Lastmod
+          
+          - name: Get Theme
+            run: |
+                git submodule update --init themes/showtime-theme-2021
+          - name: Echo something
+            run: echo "Output after checkout - should work"
+
+    job-after-checkout:
+        runs-on: ubuntu-latest
+        needs: checkout-only
+        steps:
+          - name: Echo something
+            run: echo "Output from after-checkout job"           

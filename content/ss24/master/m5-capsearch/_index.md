@@ -14,7 +14,7 @@ card_description = "CapSearch, an AI-powered platform, assists employees with pr
 # Names are optional, team size is sufficient
 team = ["Hikari Sophia Stölzle", "Nikol Stefanova", "Mohamed Amine Sallami", "Reynaldo Domenico", "Vu Minh Le"]
 supervisor = "Parul Soni, Timo Walter"
-draft = true
+draft = false
 
 website_link = ""
 source_link = ""
