@@ -18,7 +18,6 @@ jobs:
         
     - name: "checkout pr base and head"
       run: |
-        # echo "${{ toJSON(github.event) }}"
         git fetch --no-tags --depth=1 origin main
         git checkout main
         echo "about to checkout pr base"
