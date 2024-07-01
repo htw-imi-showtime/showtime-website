@@ -24,9 +24,8 @@ jobs:
       continue-on-error: true
       id: diff_files
       run: |
-         curl -L ${{ github.event.pull_request.diff_url }} > tmp/pr.diff
-         cat tmp/pull_request.diff | grep -e "^diff --git a/" | sed -e "s#diff --git a/##g"
-         changed_files=$(cat tmp/pull_request.diff | grep -e "^diff --git a/" | sed -e "s#diff --git a/##g")
+         changed_files=$(curl -L ${{ github.event.pull_request.diff_url }} | grep -e "^diff --git a/" | sed -e "s#diff --git a/##g")
+         changed_files=echo $changed_files | tr '\n' ':'
          echo "-----"
          echo $changed_files
          echo "-----"
