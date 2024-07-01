@@ -11,59 +11,44 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 1
-        submodules: false
-        
-    - name: "checkout pr base and head"
-      run: |
-        git fetch --no-tags --depth=1 origin main
-        git checkout main
-        echo "about to checkout pr base"
-        git fetch origin ${{ github.event.pull_request.base.sha }}
-        git checkout -b pr_base ${{ github.event.pull_request.base.sha }}
-        echo "about to checkout head"
-        git fetch origin  ${{ github.event.pull_request.head.sha }}
-        git checkout -b pr_head ${{ github.event.pull_request.head.sha }}
     - name: "curl1"
       continue-on-error: true
+      id: diff_files
       run: |
-        curl https://patch-diff.githubusercontent.com/raw/htw-imi-showtime/showtime-website/pull/350.diff 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g"
-    
+        changed_files=$(curl https://patch-diff.githubusercontent.com/raw/htw-imi-showtime/showtime-website/pull/350.diff 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g")
+        echo $changed_files
+        echo changed_files=$changed_files >> $GITHUB_OUTPUT
     - name: "curl2"
       continue-on-error: true
       run: |
-          diff_file=${{ github.event.pull_request.diff_url }}
-          echo "diff_file: $diff_file"
-          curl "$diff_file" 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g"
-    
-    - name: "merge-base"
-      if: false
+          curl ${{ github.event.pull_request.diff_url }} 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g"
+
+    - name: "curl2"
+      continue-on-error: true
+      id: diff_files_2
       run: |
-        git status
-        echo "------ git log --------"
-        git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow  )%d%C(reset)' --all
-        echo "----- git merge-base pr_head pr_base -----"
-        # git merge-base pr_head pr_base
-    
+        changed_files=$(curl ${{ github.event.pull_request.diff_url }} 2> /dev/null | grep -e "diff --git" | sed -e "s#diff --git a/##g")
+        echo $changed_files
+        # echo changed_files=$changed_files >> $GITHUB_OUTPUT
+          
     - name: extract project id
       continue-on-error: true
       id: extract_pid
       env: 
         PR_TITLE: ${{ github.event.pull_request.title }}
-           
       run: |
           project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
           pid_ok=$?
           echo "project_id=$project_id" >> $GITHUB_OUTPUT
           exit $pid_ok
   
-    - name: "get changed files from git diff"
+    - name: "get changed files from diff extract"
       continue-on-error: true
       id: diffs
       run: |
-        bin/files_changed.sh ${{ steps.extract_pid.outputs.project_id }}
+        changed_files=${{ steps.diff_files.outputs.changed_files }} | tr ' ' ':'
+        echo "###$changed_files###"
+        bin/files_changed_from_diff.sh ${{ steps.extract_pid.outputs.project_id }} $changed_files
             
     - name: "validation"
       continue-on-error: true
