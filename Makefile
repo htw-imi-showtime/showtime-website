@@ -60,3 +60,6 @@ get-theme:
 
 quick-push:
 - git commit -am "commit at $(shell date "+%H:%M:%S")" && git push && open https://github.com/htw-imi-showtime/showtime-website/actions
+
+disk_usage_update:
+- bin/project_sizes.sh > data/disk_usage.toml
