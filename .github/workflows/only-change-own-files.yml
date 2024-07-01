@@ -27,6 +27,7 @@ jobs:
         git checkout -b pr_head ${{ github.event.pull_request.head.sha }}
 
     - name: extract project id
+      continue-on-error: true
       id: extract_pid
       env: 
         PR_TITLE: ${{ github.event.pull_request.title }}
