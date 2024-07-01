@@ -20,17 +20,13 @@ jobs:
         curl https://patch-diff.githubusercontent.com/raw/htw-imi-showtime/showtime-website/pull/350.diff
     - name: info
       run: |
-        echo ${{ toJSON(github.event.pull_request) }}
-    
+        echo "${{ toJSON(github.event.pull_request) }}"
+        
     - name: "curl"
       continue-on-error: true
       id: diff_files
       run: |
-         diff_file=https://patch-diff.githubusercontent.com/raw/htw-imi-showtime/showtime-website/pull/350.diff
-         # curl ${{ github.event.pull_request.diff_url }} 
-         echo "$diff_file"
-         echo "----------------------"
-         changed_files=$(echo $diff_file | grep -e "diff --git" | sed -e "s#diff --git a/##g")
+         changed_files=$(curl -L ${{ github.event.pull_request.diff_url }} | grep -e "diff --git" | sed -e "s#diff --git a/##g")
          echo $changed_files
          echo changed_files=$changed_files >> $GITHUB_OUTPUT
           
