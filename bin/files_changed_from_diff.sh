@@ -3,17 +3,18 @@
 # test with
 # export GITHUB_OUTPUT=tmp/gh-output.sh && bin/files_changed.sh b4
 
-PID=$1 
+PID=$1
+changed_files_file_name=$2 
 
 echo DIFF: $DIFF
 echo "---  DIFF:  ---"
-cat tmp/
+cat $changed_files_file_name
 echo "-----------------------"
 
 
 echo "project id: $PID"
 RE="content/ss24.*$PID"
-OK=$(echo $DIFF | tr ' ' '\n' | grep "$RE" || echo "")
+OK=$(cat $changed_files_file_name | grep "$RE" || echo "")
 OK_SEP=$(echo $OK | tr ' ' ':')
 
 echo "-----  OK nl-----"
@@ -21,7 +22,7 @@ echo  $OK | tr ' ' '\n'
 # echo "-----  OK sep -----"
 # echo  $OK_SEP 
 
-NOK=$(echo $DIFF | tr ' ' '\n' | grep -v "$RE" || echo "") 
+NOK=$(cat $changed_files_file_name | grep -v "$RE" || echo "") 
 NOK_SEP=$(echo $NOK | tr ' ' ':')
 echo "----- NOK nl-----" 
 echo $NOK | tr ' ' '\n'
