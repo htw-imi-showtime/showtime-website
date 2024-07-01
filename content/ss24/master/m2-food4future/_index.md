@@ -17,6 +17,10 @@ draft = false
 
 website_link = ""
 source_link = ""
+
+tags = ["Augmented Reality"]
+categories = []
+study_focus = ['Game Technology']
 +++
 
 {{<section title="Our Goal">}}

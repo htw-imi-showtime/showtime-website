@@ -20,6 +20,10 @@ draft = false
 # ist nicht öffentlich:
 # source_link = "https://github.com/SueAnnBaesler/PAM-Software-Project-HTW"
 
+tags = []
+categories = ["External Stakeholder"]
+study_focus = ['Web Technology']
+
 +++
 
 <!-- PAM was originally developed for GlobalCT by Students of the Leibniz Universität in Hannover. -->

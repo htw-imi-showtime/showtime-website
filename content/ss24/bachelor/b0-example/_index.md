@@ -20,8 +20,9 @@ draft = true
 website_link = ""
 source_link = ""
 
-tags = ["web", "rails"]
-categories = ["web technology"]
+tags = ["web", "rails", "raspberry pi"]
+categories = ["digital signage"]
+study_focus = ['Web Technology']
 
 intro = "This example project is just here to demonstrate where the project metadata goes."
 +++

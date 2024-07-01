@@ -14,6 +14,7 @@ website_link = ""
 source_link = "https://github.com/makesign"
 tags = ['web', 'rails']
 categories = ['Web Technology']
+study_focus = ['Web Technology']
 +++
 
 {{<section title="Our Goal">}}

@@ -18,6 +18,10 @@ draft = false
 website_link = ""
 source_link = ""
 
+tags = []
+categories = []
+study_focus = ['Game Technology']
+
 # imagemagick befehl
 # magick team_kenneth.png -strip -interlace Plane -gaussian-blur 0.05 -quality 85% team_enneth.jpg
 # magick team_adib.jpeg -strip -interlace Plane -gaussian-blur 0.05 -quality 85% team_adib.jpg

@@ -1,8 +1,8 @@
 +++
 project_id = "B4"
-title = "SEMPY"
+title = "Sempy"
 subtitle = "AI-Research Agent"
-claim = "SEMPY is an AI-Research Agent that supprts customers of the idealo website to help them make better buying decission. This is tool takes different information from different websites and summarizes them and gives the best advice."
+claim = "SEMPY is an AI-Research Agent that supports customers of the idealo website to help them make better buying decission. This is tool takes different information from different websites and summarizes them and gives the best advice."
 abstract = ""
 
 # Properties for displaying the project in the project list
@@ -18,6 +18,9 @@ draft = false
 website_link = ""
 source_link = ""
 
+tags = ["ai"]
+categories = ["External Stakeholder"]
+study_focus = ['Web Technology']
 +++
 
 {{<section title="Our Goal">}}

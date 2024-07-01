@@ -31,3 +31,5 @@ enableGitInfo = true
 [taxonomies]
   category = 'categories'
   tag = 'tags'
+  study_focus = 'study_focus'
+

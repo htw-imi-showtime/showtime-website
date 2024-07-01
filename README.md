@@ -137,38 +137,18 @@ Once your branch was merged, you may preview your project's page on our staging 
 
 ## Deploy your Fork on GH-Pages
 
-**derzeit kaputt, siehe **
-[https://github.com/orgs/community/discussions/130206](https://github.com/orgs/community/discussions/130206)
+** funktioniert wieder! **
 
 You can easily deploy your fork on GH-Pages by following the instructions here:
 [http://about-hugo.github.io/hugo/quick/](http://about-hugo.github.io/hugo/quick/)
 
-The workflow is "gh-pages fork".
+The workflow is ".github/workflows/gh-pages-action.yml"
 
 For a detailed Description of the Website Release process, see this page: [release-process.md](./release-process.md)
 
 ## Updating your Fork
 
-To get the updates on the central repository into your fork, do the following:
-(see [Github on Syncing a Fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
-)
-
-mit `git remote get-url upstream` überprüfen, ob upstream schon gesetzt ist (bei fork &clone ist das meist schon so), sonst:
-
-
-    git remote add upstream git@github.com:htw-imi-showtime/showtime-website.git   
-    
-```
-git remote add upstream git@github.com:htw-imi-showtime/showtime-website.git   
-git fetch upstream main
-git merge --no-ff upstream/main
-```
-
-To update the theme submodule, run
-
-```
-git submodule update
-```
+see [doc/update.md](doc/update.md)
 
 ## Including additional content
 In addition to the required content you can add any content you want - at least this term (summer semester 2022) this site
@@ -176,7 +156,7 @@ replaces the Showtime Fair with the booths and posters. Please consider
 - the Urheberrecht for all material you provide: Include the information (source, creator etc.) in the caption
 - please reduce the file sizes for all images and videos that are included in the site
 
-**Please do not add new subpages or change the names of the included subpages. We want all the projects to have a similar structure, so the website is more consistent for visitors.**
+**You may now add subpages.** ~~Please do not add new subpages or change the names of the included subpages. We want all the projects to have a similar structure, so the website is more consistent for visitors.~~
 
 ### Sections
 A section "pairs" a text block (one or multiple paragraphs) with a heading.

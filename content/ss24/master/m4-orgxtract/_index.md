@@ -24,6 +24,11 @@ draft = false
 
 website_link = ""
 source_link = ""
+
+tags = []
+categories = ["External Stakeholder"]
+study_focus = []
+
 +++
 
 
