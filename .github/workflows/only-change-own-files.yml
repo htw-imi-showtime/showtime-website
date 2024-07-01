@@ -27,6 +27,13 @@ jobs:
         echo "about to checkout head"
         git fetch origin  ${{ github.event.pull_request.head.sha }}
         git checkout -b pr_head ${{ github.event.pull_request.head.sha }}
+
+    - name: "merge-base"
+      run: |
+        git status
+        echo "------ git log --------"
+        git log
+        echo "----- git merge-base pr_head pr_base -----"
         git merge-base pr_head pr_base
 
     - name: extract project id
