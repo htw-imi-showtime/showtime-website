@@ -16,7 +16,7 @@ jobs:
         submodules: false
     - name: gh-event-info
       run: |
-        echo ${{ toJSON(github.event) }}
+        echo "${{ toJSON(github.event) }}"
     - name: "checkout pr base and head"
       run: |
         git fetch --no-tags --depth=1 origin main
