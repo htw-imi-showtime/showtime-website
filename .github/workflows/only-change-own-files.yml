@@ -32,14 +32,10 @@ jobs:
         PR_TITLE: ${{ github.event.pull_request.title }}
            
       run: |
-           echo P_ID: "$P_ID" 
-           echo "PR_TITLE: $PR_TITLE" 
-           PID="${PR_TITLE:0:2}" 
-           echo "PID $PID" 
-           PID2=$(echo $PID | tr '[:upper:]' '[:lower:]') 
-           echo "PID2 $PID2"
-           echo "project_id=$PID2" >> $GITHUB_OUTPUT
-           
+          project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
+          pid_ok=$?
+          echo "project_id=$project_id" >> $GITHUB_OUTPUT
+          exit $pid_ok
   
     - name: "get changed files from git diff"
       continue-on-error: true
