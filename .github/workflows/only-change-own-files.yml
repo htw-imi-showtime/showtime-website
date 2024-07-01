@@ -14,7 +14,9 @@ jobs:
     - uses: actions/checkout@v4
       with:
         submodules: false
-    
+    - name: gh-event-info
+      run: |
+        echo ${{ toJSON(github.event) }}
     - name: "checkout pr base and head"
       run: |
         git fetch --no-tags --depth=1 origin main
