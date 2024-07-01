@@ -27,6 +27,7 @@ jobs:
         echo "about to checkout head"
         git fetch origin  ${{ github.event.pull_request.head.sha }}
         git checkout -b pr_head ${{ github.event.pull_request.head.sha }}
+        git merge-base pr_head pr_base
 
     - name: extract project id
       continue-on-error: true
