@@ -32,10 +32,21 @@ jobs:
         changed_files=$(cat changed_files | tr '\n' ':')
         echo changed_files=$changed_files  
         echo changed_files=$changed_files >> $GITHUB_OUTPUT
-            
-    - name: curl
+    
+    - name: extract project id
       continue-on-error: true
-      id: diff_files
+      id: extract_pid
+      env: 
+        PR_TITLE: ${{ github.event.pull_request.title }}
+      run: |
+            project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
+            pid_ok=$?
+            echo "project_id=$project_id" >> $GITHUB_OUTPUT
+            exit $pid_ok 
+                       
+    - name: curl2
+      continue-on-error: true
+      id: diff_files2
       run: |
          changed_files=$(curl -L ${{ github.event.pull_request.diff_url }} | grep -e "^diff --git a/" | sed -e "s#diff --git a/##g")
          changed_files=echo "$changed_files" | tr '\n' ':'
@@ -43,18 +54,10 @@ jobs:
          echo $changed_files
          echo "-----"
          echo changed_files=$changed_files >> $GITHUB_OUTPUT
+         bin/files_changed_from_diff.sh ${{ steps.extract_pid.outputs.project_id }}
           
   
-    - name: extract project id
-      continue-on-error: true
-      id: extract_pid
-      env: 
-        PR_TITLE: ${{ github.event.pull_request.title }}
-      run: |
-          project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
-          pid_ok=$?
-          echo "project_id=$project_id" >> $GITHUB_OUTPUT
-          exit $pid_ok
+    
   
     - name: "get changed files from diff extract"
       continue-on-error: true
