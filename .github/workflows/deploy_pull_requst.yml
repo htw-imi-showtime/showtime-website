@@ -28,13 +28,19 @@ jobs:
         hugo \
           --environment pull_request \
           --baseURL "https://htw-imi-showtime.github.io/pull_request/${{ github.event.number }}/" \
-          --buildDrafts 
+          --buildDrafts \
+          --destination hugo_generated_site/public
+    
+    - name: copy update_pull_request_config.sh
+      run: |
+        cp bin/update_pull_request_config.sh hugo_generated_site
+        ls hugo_generated_site
 
     - name: "Upload artifact"
       uses: actions/upload-artifact@v4
       with:
         name: hugo_site
-        path: public
+        path: hugo_generated_site
 
 # see https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts
   deploy:
@@ -48,20 +54,20 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: hugo_site
-          path: public
+          path: hugo_generated_site
       - name: Update Config
         run: |
-          bin/update_pull_request_config.sh ${{ github.event.number }}
+          hugo_generated_site/update_pull_request_config.sh ${{ github.event.number }}
       - name: 'ls & cat'
         run: |
-          ls  public/
-          cat public/config/pull_request/config.toml
+          ls  hugo_generated_site/
+          cat hugo_generated_site/public/config/pull_request/config.toml
       - name: Push to pull_request repo
         uses: cpina/github-action-push-to-another-repository@main
         env:
             SSH_DEPLOY_KEY: ${{ secrets.PULL_REQUEST_DEPLOY_KEY }}
         with:
-            source-directory: 'public'
+            source-directory: 'hugo_generated_site/public'
             destination-github-username: 'htw-imi-showtime'
             destination-repository-name: 'pull_request'
             user-email: kleinen@htw-berlin.de
