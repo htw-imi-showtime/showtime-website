@@ -29,16 +29,13 @@ jobs:
 
     - uses: dorny/paths-filter@v3
       id: filter
-      env: 
-        pid: ${{ steps.extract_pid.outputs.project_id }}
-        pattern: content/ss24/${{ steps.extract_pid.outputs.project_id }}-*/**
       with:
         list-files: 'shell'
         filters: | 
           in_project:
-            - content/ss24/${{ steps.extract_pid.outputs.project_id }}-*/**'
+            - content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
           other_files:
-            - '!content/ss24/${{ steps.extract_pid.outputs.project_id }}-*/**'
+            - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
 
     - name: with_content_files
       if: steps.filter.outputs.in_project == 'true'
