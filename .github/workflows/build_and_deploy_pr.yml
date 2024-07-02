@@ -51,6 +51,20 @@ jobs:
       - name: ls
         run: |
           ls  /home/runner/work/showtime-website/showtime-website
-          ls  /home/runner/work/showtime-website/showtime-website/public
-          tree
+      - name: Push to pull_request repo
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+            SSH_DEPLOY_KEY: ${{ secrets.PULL_REQUEST_DEPLOY_KEY }}
+        with:
+            source-directory: '/home/runner/work/showtime-website/showtime-website'
+            destination-github-username: 'htw-imi-showtime'
+            destination-repository-name: 'pull_request'
+            user-email: kleinen@htw-berlin.de
+            target-branch: gh-pages
+            target-directory: ${{ github.event.number }}
+      - name: show url
+        run: |
+           echo "deployed to https://github.com/htw-imi-showtime/pull_request/${{ github.event.number }}"
+# https://cpina.github.io/push-to-another-repository-docs/
           
+# https://github.com/htw-imi-showtime/pull_request

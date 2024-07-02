@@ -23,7 +23,7 @@ jobs:
           project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
           pid_ok=$?
           echo "project_id=$project_id" >> $GITHUB_OUTPUT
-          exit $pid_ok 
+          echo "pid_ok=$pid_ok"
 
     - name: 'changed files'
       uses: dorny/paths-filter@v3
@@ -46,12 +46,27 @@ jobs:
         echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
         
     
-    - name: 'found changed files outside of project folder!!'
-      if: (steps.filter.outputs.contains_project_files == 'true') && (steps.filter.outputs.other_files == 'true')
+    - name: 'files outside of project folder'
+      if: (steps.filter.outputs.other_files == 'true')
       run: |
         echo "--------- non_project_files (may not be part of project update PR!):"
         echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
         echo "ERROR: found files outside of project folder"
+
+    - name: 'fail if both project files present and no project id in title'
+      if: (steps.filter.outputs.contains_project_files == 'true') && (steps.extract_pid.outputs.project_id != '0')
+      run: |
+          echo "ERROR: PR contains both project files and files outside of project indicated by PR Title!"
+          echo "Extracted id: ${{ steps.extract_pid.outputs.project_id }}"
+          exit 321
+  
+    - name: 'fail if both project files and other files present'
+      if: (steps.filter.outputs.contains_project_files == 'true') && (steps.filter.outputs.other_files == 'true')
+      run: |
+        echo "ERROR: PR contains both project files and files outside of project indicated by PR Title!"
+        echo "Extracted id: ${{ steps.extract_pid.outputs.project_id }}"
         exit 321
+
+ 
   
   
