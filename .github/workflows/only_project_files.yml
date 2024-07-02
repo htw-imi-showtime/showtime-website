@@ -24,7 +24,8 @@ jobs:
           project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
           pid_ok=$?
           echo "project_id=$project_id" >> $GITHUB_OUTPUT
-          echo "pid_ok=$pid_ok"
+          echo "pid_ok=$pid_ok" >> $GITHUB_OUTPUT
+          exit 0
 
     - name: 'changed files'
       uses: dorny/paths-filter@v3
