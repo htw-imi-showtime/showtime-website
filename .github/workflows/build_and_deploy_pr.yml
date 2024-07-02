@@ -50,6 +50,7 @@ jobs:
           name: hugo_site
       - name: ls
         run: |
-          ls public
+          ls  /home/runner/work/showtime-website/showtime-website
+          ls  /home/runner/work/showtime-website/showtime-website/public
           tree
           

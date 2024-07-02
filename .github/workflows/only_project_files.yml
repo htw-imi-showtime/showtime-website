@@ -1,9 +1,6 @@
 on:
   pull_request:
-    branches:
-      - test_gh_pr_actions
-      - main
-      - schedule
+  workflow_dispatch:
 
 jobs:
   check_files_in_pr:
@@ -33,21 +30,24 @@ jobs:
       id: filter
       with:
         list-files: 'shell'
-        filters: | 
+        filters: |
+          contains_project_files:
+            - 'content/ss24/**'
+            - 'content/ws23/**'
           in_project:
             - 'content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
           other_files:
             - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
 
     - name: files in project folder
-      if: steps.filter.outputs.in_project == 'true'
+      if: (steps.filter.outputs.in_project == 'true')
       run: |
         echo "--------- project_files:"
         echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
         
     
     - name: 'found changed files outside of project folder!!'
-      if: steps.filter.outputs.other_files == 'true'
+      if: (steps.filter.outputs.contains_project_files == 'true') && (steps.filter.outputs.other_files == 'true')
       run: |
         echo "--------- non_project_files (may not be part of project update PR!):"
         echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
