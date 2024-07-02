@@ -72,7 +72,8 @@ jobs:
             target-directory: ${{ github.event.number }}
       - name: show url
         run: |
-           echo "deployed to https://github.com/htw-imi-showtime/pull_request/${{ github.event.number }}"
-# https://cpina.github.io/push-to-another-repository-docs/
-          
+          echo "after the pages build and deployment action https://github.com/htw-imi-showtime/pull_request/actions"
+          echo "available at https://htw-imi-showtime.github.io/pull_request/${{ github.event.number }}"
+
+# https://cpina.github.io/push-to-another-repository-docs/        
 # https://github.com/htw-imi-showtime/pull_request
