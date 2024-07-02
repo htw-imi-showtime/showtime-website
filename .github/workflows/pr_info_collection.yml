@@ -1,0 +1,20 @@
+name: PR Info collection
+
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check-own-files:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        fetch-depth: 1       
+    
+    - name: info
+      run: |
+        echo "${{ toJSON(github) }}"

@@ -1,0 +1,32 @@
+on:
+  pull_request:
+    branches: # PRs to the following branches will trigger the workflow
+      - master
+      - develop
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Required permissions
+    permissions:
+      pull-requests: read
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dorny/paths-filter@v3
+      id: filter
+      with:
+        list-files: 'shell'
+        filters: | 
+          project_files:
+            - 'content/ss24/m4-*/**'
+          non_project_files:
+            - '!content/ss24/m4-*/**'
+
+    - name: with_content_files
+      if: steps.filter.outputs.project_files == 'true'
+      run: |
+        echo "---- project_files:"
+    
+    - name: with_other_files
+      if: steps.filter.outputs.non_project_files == 'true'
+      run: |
+        echo "---- non_project_files:"
