@@ -1,7 +1,7 @@
 +++
 title = "Process"
 weight = 10
-draft = true
+draft = false
 +++
 
 {{<section title="Process">}}
@@ -10,6 +10,7 @@ draft = true
 -----Bild----
 
 To work efficiently we defined tasks we wanted to do for the week and than split up in two groups. To give our project a structure we made a road map with a few milestones.We started out by getting familiar with Python and the Git workflow.After that we started building a class that takes information from the idealo page and pass the information from the site to an class that uses opaenAI's GPT to summarize the information. Furthermore we created a main class that combines the ai class and idealo class to see our first result. Following we  -->
+
 
 
 
