@@ -50,4 +50,5 @@ jobs:
         echo "--------- non_project_files (may not be part of project update PR!):"
         echo ${{ steps.filter.outputs.other_files_files }}
         echo "::setFailed::pull requests contains non-project files"
+        exit 321
 
