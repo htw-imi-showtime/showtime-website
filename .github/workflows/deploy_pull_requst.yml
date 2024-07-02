@@ -55,14 +55,21 @@ jobs:
         with:
           name: hugo_site
           path: hugo_generated_site
+      - name: 'ls & cat'
+        run: |
+            ls  hugo_generated_site/
+            cat hugo_generated_site/public/config/pull_request/config.toml
+
       - name: Update Config
         run: |
           chmod a+x hugo_generated_site/update_pull_request_config.sh
-          hugo_generated_site/update_pull_request_config.sh ${{ github.event.number }}
-      - name: 'ls & cat'
+          cd hugo_generated_site/public
+          ../update_pull_request_config.sh ${{ github.event.number }}
+
+      - name: 'check config'
         run: |
-          ls  hugo_generated_site/
           cat hugo_generated_site/public/config/pull_request/config.toml
+  
       - name: Push to pull_request repo
         uses: cpina/github-action-push-to-another-repository@main
         env:
