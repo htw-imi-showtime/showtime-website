@@ -1,4 +1,4 @@
-name: PR Hugo Page
+name: PR Hugo Build
 
 on:
   pull_request:

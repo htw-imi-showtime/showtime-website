@@ -1,10 +1,13 @@
 name: Context Info
+
+   
+    # pull_request:
+    #   branches:
+    #     - test_gh_pr_actions
+    #     - main
+    #     - schedule
 on:
-    pull_request:
-      branches:
-        - test_gh_pr_actions
-        - main
-        - schedule
+  workflow_dispatch:
 
 jobs:
   dump_contexts_to_log:
