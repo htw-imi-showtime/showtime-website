@@ -26,7 +26,7 @@ jobs:
     - name: Build
       run: |
         hugo \
-          --environment staging \
+          --environment pull_request \
           --baseURL "https://htw-imi-showtime.github.io/pull_request/${{ github.event.number }}/" \
           --buildDrafts 
 
@@ -49,9 +49,13 @@ jobs:
         with:
           name: hugo_site
           path: public
-      - name: ls
+      - name: Update Config
         run: |
-          ls  public
+          bin/update_pull_request_config.sh ${{ github.event.number }}
+      - name: 'ls & cat'
+        run: |
+          ls  public/
+          cat public/config/pull_request/config.toml
       - name: Push to pull_request repo
         uses: cpina/github-action-push-to-another-repository@main
         env:
