@@ -1,8 +1,9 @@
 on:
   pull_request:
-    branches: # PRs to the following branches will trigger the workflow
-      - master
-      - develop
+    branches:
+      - test_gh_pr_actions
+      - main
+    
 jobs:
   build:
     runs-on: ubuntu-latest

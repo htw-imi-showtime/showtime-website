@@ -4,6 +4,8 @@ name: Own Files Only
 # PR Titles have to start with the Project ID! (e.g. B1: ....)
 on:
   pull_request:
+    branches:
+      - test_gh_pr_actions
   workflow_dispatch:
 
 jobs:

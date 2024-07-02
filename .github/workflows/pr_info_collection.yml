@@ -3,7 +3,10 @@ name: PR Info collection
 
 on:
   pull_request:
+    branches:
+      - test_gh_pr_actions
   workflow_dispatch:
+    
 
 jobs:
   check-own-files:
