@@ -41,14 +41,14 @@ jobs:
       if: steps.filter.outputs.in_project == 'true'
       run: |
         echo "--------- project_files:"
-        echo ${{ steps.filter.outputs.in_project_files }}
+        echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
         
     
-    - name: 'non-project files found in change'
+    - name: 'non-project files found in change!!'
       if: steps.filter.outputs.other_files == 'true'
       run: |
         echo "--------- non_project_files (may not be part of project update PR!):"
-        echo ${{ steps.filter.outputs.other_files_files }}
-        echo "::setFailed::pull requests contains non-project files"
+        echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
+        echo "ERROR: found files outside of project folder"
         exit 321
 
