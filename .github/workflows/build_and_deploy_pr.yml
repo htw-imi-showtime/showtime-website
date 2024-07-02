@@ -48,19 +48,16 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: hugo_site
+          path: public
       - name: ls
         run: |
-          ls  /home/runner/work/showtime-website/showtime-website
-      - name: ls2
-        run: |
-            ls 
-            mv /home/runner/work/showtime-website/showtime-website .
+          ls  public
       - name: Push to pull_request repo
         uses: cpina/github-action-push-to-another-repository@main
         env:
             SSH_DEPLOY_KEY: ${{ secrets.PULL_REQUEST_DEPLOY_KEY }}
         with:
-            source-directory: 'showtime-website'
+            source-directory: 'public'
             destination-github-username: 'htw-imi-showtime'
             destination-repository-name: 'pull_request'
             user-email: kleinen@htw-berlin.de
