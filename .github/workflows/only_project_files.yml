@@ -46,8 +46,9 @@ jobs:
         echo ${{ steps.filter.outputs.in_project_files }}
         
     
-    - name: with_other_files
+    - name: 'non-project files found in change'
       if: steps.filter.outputs.other_files == 'true'
       run: |
-        echo "--------- non_project_files:"
+        echo "--------- non_project_files (may not be part of project update PR!):"
         echo ${{ steps.filter.outputs.other_files_files }}
+        exit 321
