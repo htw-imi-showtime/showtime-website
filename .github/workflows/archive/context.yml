@@ -1,6 +1,10 @@
 name: Context testing
 on: 
   workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+      - test_gh_pr_actions
 
 jobs:
   dump_contexts_to_log:

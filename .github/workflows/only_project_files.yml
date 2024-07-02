@@ -5,7 +5,7 @@ on:
       - main
     
 jobs:
-  build:
+  check_files_in_pr:
     runs-on: ubuntu-latest
     # Required permissions
     permissions:
@@ -31,11 +31,12 @@ jobs:
       id: filter
       env: 
         pid: ${{ steps.extract_pid.outputs.project_id }}
+        pattern: content/ss24/${{ steps.extract_pid.outputs.project_id }}-*/**
       with:
         list-files: 'shell'
         filters: | 
           in_project:
-            - 'content/ss24/$pid-*/**'
+            - $pattern
           other_files:
             - '!content/ss24/$pid-*/**'
 

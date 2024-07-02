@@ -22,4 +22,4 @@ jobs:
     
     - name: info
       run: |
-        echo "${{ toJSON(github) }}"
+        echo "${{ toJson(github) }}"
