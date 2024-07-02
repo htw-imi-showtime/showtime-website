@@ -5,6 +5,8 @@ on:
   pull_request:
     branches:
       - test_gh_pr_actions
+      - main
+      
   workflow_dispatch:
     
 

@@ -1,0 +1,53 @@
+on:
+  pull_request:
+    branches:
+      - test_gh_pr_actions
+      - main
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Required permissions
+    permissions:
+      pull-requests: read
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        fetch-depth: 20
+
+    - name: extract project id
+      continue-on-error: true
+      id: extract_pid
+      env: 
+        PR_TITLE: ${{ github.event.pull_request.title }}
+      run: |
+          project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
+          pid_ok=$?
+          echo "project_id=$project_id" >> $GITHUB_OUTPUT
+          exit $pid_ok 
+
+    - uses: dorny/paths-filter@v3
+      id: filter
+      env: 
+        pid: ${{ steps.extract_pid.outputs.project_id }}
+      with:
+        list-files: 'shell'
+        filters: | 
+          in_project:
+            - 'content/ss24/$pid-*/**'
+          other_files:
+            - '!content/ss24/$pid-*/**'
+
+    - name: with_content_files
+      if: steps.filter.outputs.in_project == 'true'
+      run: |
+        echo "--------- project_files:"
+        echo ${{ steps.filter.outputs.in_project_files }}
+        
+    
+    - name: with_other_files
+      if: steps.filter.outputs.other_files == 'true'
+      run: |
+        echo "--------- non_project_files:"
+        echo ${{ steps.filter.outputs.other_files_files }}

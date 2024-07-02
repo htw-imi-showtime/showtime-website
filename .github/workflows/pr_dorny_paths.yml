@@ -25,9 +25,10 @@ jobs:
     - name: with_content_files
       if: steps.filter.outputs.project_files == 'true'
       run: |
-        echo "---- project_files:"
+        echo "--------- project_files:"
+        
     
     - name: with_other_files
       if: steps.filter.outputs.non_project_files == 'true'
       run: |
-        echo "---- non_project_files:"
+        echo "--------- non_project_files:"
