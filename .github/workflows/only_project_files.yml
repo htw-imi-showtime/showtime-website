@@ -33,7 +33,7 @@ jobs:
         list-files: 'shell'
         filters: | 
           in_project:
-            - content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
+            - 'content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
           other_files:
             - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
 
@@ -49,4 +49,5 @@ jobs:
       run: |
         echo "--------- non_project_files (may not be part of project update PR!):"
         echo ${{ steps.filter.outputs.other_files_files }}
-        exit 321
+        echo "::setFailed::pull requests contains non-project files"
+
