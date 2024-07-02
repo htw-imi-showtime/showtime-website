@@ -3,7 +3,8 @@ on:
       branches:
         - test_gh_pr_actions
         - main
-      
+        - schedule
+  
   jobs:
     check_files_in_pr:
       runs-on: ubuntu-latest
