@@ -57,6 +57,7 @@ jobs:
           path: hugo_generated_site
       - name: Update Config
         run: |
+          chmod a+x hugo_generated_site/update_pull_request_config.sh
           hugo_generated_site/update_pull_request_config.sh ${{ github.event.number }}
       - name: 'ls & cat'
         run: |
