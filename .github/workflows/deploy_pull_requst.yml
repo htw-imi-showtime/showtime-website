@@ -26,6 +26,7 @@ jobs:
     - name: Update Config
       run: |
           ls config/pull_request
+          cat config/pull_request/config.toml
           sed -e "s/354/${{ github.event.number }}/" -i "" config/pull_request/config.toml 
           echo "----- updated config: "
           cat config/pull_request/config.toml
