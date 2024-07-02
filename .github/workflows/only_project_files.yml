@@ -27,7 +27,8 @@ jobs:
           echo "project_id=$project_id" >> $GITHUB_OUTPUT
           exit $pid_ok 
 
-    - uses: dorny/paths-filter@v3
+    - name: 'changed files'
+      uses: dorny/paths-filter@v3
       id: filter
       with:
         list-files: 'shell'
@@ -37,14 +38,14 @@ jobs:
           other_files:
             - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
 
-    - name: with_content_files
+    - name: files in project folder
       if: steps.filter.outputs.in_project == 'true'
       run: |
         echo "--------- project_files:"
         echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
         
     
-    - name: 'non-project files found in change!!'
+    - name: 'found changed files outside of project folder!!'
       if: steps.filter.outputs.other_files == 'true'
       run: |
         echo "--------- non_project_files (may not be part of project update PR!):"
