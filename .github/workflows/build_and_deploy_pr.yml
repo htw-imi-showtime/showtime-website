@@ -27,7 +27,7 @@ jobs:
       run: |
         hugo \
           --environment staging \
-          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
+          --baseURL "https://htw-imi-showtime.github.io/pull_request/${{ github.event.number }}/" \
           --buildDrafts 
 
     - name: "Upload artifact"
