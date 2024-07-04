@@ -22,7 +22,7 @@ source_link = ""
 
 
 {{<section title="Our Goal">}}
-The goal of this project is to offer an AI driven research agent on idealo's price comparison platform that supports users who have not yet made a decision on which product to buy and are looking for additional information. 
+In recent years, artificial intelligence technology has advanced significantly, and today many people use technologies such as OpenAI's GPT-4, Google's TensorFlow, and IBM Watson because these tools make life easier. Our goal is to simplify the lives of customers on idealo, helping them with their purchasing decisions and saving them a lot of time. We aim to leverage this technology to enhance the customer experience on the idealo site. Our SEMPY research aims to gather the most important product data and customer opinions in one place, avoiding the need to search on different platforms such as YouTube, Amazon, and Google. 
 
 {{</section>}}
 
