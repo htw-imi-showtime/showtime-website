@@ -135,5 +135,6 @@ jobs:
         env:
           PID: ${{ steps.extract_pid.outputs.project_id }}
         run: |
+          du --help
           ./bin/check-project-update-pr/disk-usage.sh $PID
           
