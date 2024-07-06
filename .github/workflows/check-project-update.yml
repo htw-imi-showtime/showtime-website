@@ -131,9 +131,8 @@ jobs:
       with:
         submodules: false
         fetch-depth: 1
-    - name: check disk usage
+    - name: check for template cat images
       env:
-        PR_TITLE: ${{ github.event.pull_request.title }}
-        PID: $(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
+        PID: $(bin/check-project-update-pr/extract_pid_from_pr_title.sh "${{ github.event.pull_request.title }}")
       run: ./bin/check-project-update-pr/check-for-cats.sh $PID
        
