@@ -126,7 +126,7 @@ jobs:
         env: 
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-            project_id=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh $PR_TITLE)
+            project_id=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
             pid_ok=$?
             echo "project_id=$project_id" >> $GITHUB_OUTPUT
             echo "pid_ok=$pid_ok" >> $GITHUB_OUTPUT

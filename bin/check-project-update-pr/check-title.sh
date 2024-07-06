@@ -7,7 +7,7 @@
 
 PR_TITLE=$1
 
-title_pattern="[BM][0-9]..*"
+title_pattern="[BM][0-9][ :].*"
 if ! [[ $PR_TITLE  =~ $title_pattern ]]
 then
     >&2 echo "pid '$PR_TITLE' does not match title pattern '$title_pattern'"
