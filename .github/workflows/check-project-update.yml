@@ -45,6 +45,7 @@ jobs:
         
 
   check_files_in_pr:
+      needs: check-title
       runs-on: ubuntu-latest
       # Required permissions
       permissions:
@@ -53,15 +54,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: false
-          fetch-depth: 20
+          fetch-depth: 1
       
       - name: extract project id
-        continue-on-error: true
         id: extract_pid
         env: 
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-            project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
+            project_id=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh $PR_TITLE)
             pid_ok=$?
             echo "project_id=$project_id" >> $GITHUB_OUTPUT
             echo "pid_ok=$pid_ok" >> $GITHUB_OUTPUT

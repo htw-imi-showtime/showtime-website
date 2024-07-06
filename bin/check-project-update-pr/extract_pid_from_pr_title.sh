@@ -20,5 +20,5 @@ echo $project_id
 if ! [[ $project_id  =~ $pid_pattern ]]
 then
     >&2 echo "pid '$project_id' does not match pattern '$pid_pattern'"
-    exit 121
+    exit 11
 fi
