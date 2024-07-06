@@ -3,17 +3,17 @@
 
 Please follow these Steps & Guidelines for your Pull Request:
 
-#### Before you Open the Pull Request Check and Tick these Boxes:
+#### Before you Request a Review Check and Tick these Boxes:
 
-[] Before you open the PR, make sure that the hugo site build works and check the result visually.
-[] Before you open the PR, merge your local branch with upstream/main (see [update doc](https://github.com/htw-imi-showtime/showtime-website/blob/main/doc/update.md)) 
+[] make sure that the hugo site build works and check the result visually.
+[] merge your local branch with upstream/main (see [update doc](https://github.com/htw-imi-showtime/showtime-website/blob/main/doc/update.md)) 
 [] Deploy the Site on your github pages by activating the "Deploy Page using GH-Actions" Workflow in "gh-pages-action.yml"
 [] make sure that your PR contains only files / file changes within your project subdirectory. 
 [] make sure that all your file names consist only of lower case letters, numbers, or [-_.] - with only one . for the file extension
 [] delete all unnecessary files from your PR (including cat.jpg and kitty.jpg)
 [] check the image file sizes. All Images have to be as small as possible. See [./doc/disk_usage.md](./doc/disk_usage.md) about this issues, there's a script: [./bin/images-smaller.sh](./bin/images-smaller.sh)
 
-**Note that if you consistently fail to do so, I may simply reduce the file sizes brute force using 
+**Note that if you fail to do so, I may simply reduce the file sizes brute force using 
 the script above - WITHOUT CHECKING THE QUALITY**
 
 [] if everythings seems fine, request a review by bkleinen on github. (on the upper right)
@@ -31,6 +31,11 @@ the script above - WITHOUT CHECKING THE QUALITY**
 
 4. If your disk usage exceeds 500K, provide a reason while you want to include so many images or why certain images need to be that big:
 
+
+
+#### All good? Request a Review!
+
+[] if everythings seems fine, request a review by bkleinen on github. (on the upper right)
 
 
 ### More Information
