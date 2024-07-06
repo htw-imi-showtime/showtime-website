@@ -65,7 +65,7 @@ jobs:
          
 
   get_files_in_pr:
-      name: "Download changed files and write them to changed-files.txt"
+      name: "Download changed files list"
       needs: check-title
       runs-on: ubuntu-latest
       # Required permissions
@@ -110,14 +110,14 @@ jobs:
         run: |
           echo "--------- project_files:"
           echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.in_project_files }} > changed_files/project.txt
+          echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n' > changed_files/project.txt
  
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
         run: |
           echo "--------- non_project_files (may not be part of project update PR!):"
           echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.other_files_files }} > changed_files/other.txt
+          echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n' > changed_files/other.txt
 
       - name: list artifact files
         run: |
@@ -134,6 +134,26 @@ jobs:
             path: changed_files/
             retention-days: 1  
   
+
+  check_artifact:
+    name: "check for files outside of project folder"
+    needs: get_files_in_pr
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download changed_files.txt
+        uses: actions/download-artifact@v4
+        with:
+          name: changed_files
+
+      - name: list artifact files
+      run: |
+        ls -lart 
+        tree
+        ls -lart  changed_files
+        echo "------------ changed_files/project.txt"
+        cat changed_files/project.txt
+        echo "------------ changed_files/other.txt"
+        cat changed_files/other.txt
 
 
 
