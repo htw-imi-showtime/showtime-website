@@ -110,22 +110,22 @@ jobs:
         run: |
           echo "--------- project_files:"
           echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n' > changed_files/files-project.txt
+          echo ${{ steps.filter.outputs.in_project_files }} > changed_files/files-project.txt
  
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
         run: |
           echo "--------- non_project_files (may not be part of project update PR!):"
           echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n' > changed_files/files-other.txt
+          echo ${{ steps.filter.outputs.other_files_files }} > changed_files/files-other.txt
 
       - name: list artifact files
         run: |
           ls -lart  changed_files
           echo "------------ changed_files/files-project.txt"
-          cat changed_files/files-project.txt
+          cat changed_files/files-project.txt | | tr ' ' '\n'
           echo "------------ changed_files/files-other.txt"
-          cat changed_files/files-other.txt
+          cat changed_files/files-other.txt | | tr ' ' '\n'
      
       - name: Upload changed-files.txt
         uses: actions/upload-artifact@v4
@@ -147,12 +147,12 @@ jobs:
 
       - name: list artifact files
         run: |
-          ls -lart 
           tree
+          ls -lart 
           echo "------------ files-project.txt"
-          cat files-project.txt
+          cat files-project.txt | tr ' ' '\n'
           echo "------------ files-other.txt"
-          cat files-other.txt
+          cat files-other.txt | tr ' ' '\n'
 
 
 
@@ -168,9 +168,9 @@ jobs:
       - name: 'check for files outside the project folder'
         run: |
           echo "---------"
-          cat files-other.txt
+          cat files-other.txt | tr ' ' '\n'
           echo "---------"
-          FILES=$(cat files-other.txt)
+          FILES="$(cat files-other.txt)"
           if [ ! -z $FILES ]; then
             echo "--------- non_project_files found in PR:"
             echo $FILES | tr ' ' '\n'
@@ -215,8 +215,11 @@ jobs:
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-              $FILES=$(cat files-project.txt)
-              bin/check-project-update-pr/check-for-cats-based-on-filenames.sh $PID
+          echo "----------------"
+          cat files-project.txt | tr ' ' '\n'
+          echo "----------------"
+          $FILES="$(cat files-project.txt)"
+          bin/check-project-update-pr/check-for-cats-based-on-filenames.sh "$FILES"
 
        
   check_file_name_convention:
@@ -232,7 +235,10 @@ jobs:
       - name: check name conventions
         #if: (steps.filter.outputs.in_project == 'true')
         run: |
-            FILES=$(cat changed_files/files-project.txt)
-            ./bin/check-project-update-pr/check-file-names.sh $FILES
+          echo "----------------"
+          cat files-project.txt  | tr ' ' '\n'
+          echo "----------------"
+          FILES="$(cat files-project.txt)"
+          ./bin/check-project-update-pr/check-file-names.sh $FILES
 
  
