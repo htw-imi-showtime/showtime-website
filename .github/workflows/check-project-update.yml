@@ -102,30 +102,30 @@ jobs:
       - name: create artifact dir and empty files
         run: |
           mkdir changed_files
-          touch changed_files/project.txt
-          touch changed_files/other.txt
+          touch changed_files/files-project.txt
+          touch changed_files/files-other.txt
 
       - name: write changed files
         if: (steps.filter.outputs.in_project == 'true')
         run: |
           echo "--------- project_files:"
           echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n' > changed_files/project.txt
+          echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n' > changed_files/files-project.txt
  
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
         run: |
           echo "--------- non_project_files (may not be part of project update PR!):"
           echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n' > changed_files/other.txt
+          echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n' > changed_files/files-other.txt
 
       - name: list artifact files
         run: |
           ls -lart  changed_files
-          echo "------------ changed_files/project.txt"
-          cat changed_files/project.txt
-          echo "------------ changed_files/other.txt"
-          cat changed_files/other.txt
+          echo "------------ changed_files/files-project.txt"
+          cat changed_files/files-project.txt
+          echo "------------ changed_files/files-other.txt"
+          cat changed_files/files-other.txt
      
       - name: Upload changed-files.txt
         uses: actions/upload-artifact@v4
@@ -136,7 +136,7 @@ jobs:
   
 
   check_artifact:
-    name: "check for files outside of project folder"
+    name: "look for artifact files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
@@ -149,11 +149,10 @@ jobs:
         run: |
           ls -lart 
           tree
-          ls -lart  changed_files
-          echo "------------ changed_files/project.txt"
-          cat changed_files/project.txt
-          echo "------------ changed_files/other.txt"
-          cat changed_files/other.txt
+          echo "------------ files-project.txt"
+          cat files-project.txt
+          echo "------------ files-other.txt"
+          cat files-other.txt
 
 
 
@@ -169,9 +168,9 @@ jobs:
       - name: 'check for files outside the project folder'
         run: |
           echo "---------"
-          cat changed_files/other.txt
+          cat files-other.txt
           echo "---------"
-          FILES=$(cat changed_files/other.txt)
+          FILES=$(cat files-other.txt)
           if [ ! -z $FILES ]; then
             echo "--------- non_project_files found in PR:"
             echo $FILES | tr ' ' '\n'
@@ -216,7 +215,7 @@ jobs:
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-              $FILES=$(cat changed_files/project.txt)
+              $FILES=$(cat files-project.txt)
               bin/check-project-update-pr/check-for-cats-based-on-filenames.sh $PID
 
        
@@ -233,7 +232,7 @@ jobs:
       - name: check name conventions
         #if: (steps.filter.outputs.in_project == 'true')
         run: |
-            FILES=$(cat changed_files/project.txt)
+            FILES=$(cat changed_files/files-project.txt)
             ./bin/check-project-update-pr/check-file-names.sh $FILES
 
  
