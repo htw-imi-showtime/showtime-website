@@ -16,6 +16,8 @@ Please follow these Steps & Guidelines for your Pull Request:
 **Note that if you consistently fail to do so, I may simply reduce the file sizes brute force using 
 the script above - WITHOUT CHECKING THE QUALITY**
 
+[] if everythings seems fine, request a review by bkleinen on github. (on the upper right)
+
 #### Fill out this Information:
 
 1. Change the PR Title to: <project-id> <describe your changes> (e.g. B0 - update techstack.md) and describe your changes:
@@ -28,6 +30,7 @@ the script above - WITHOUT CHECKING THE QUALITY**
 
 
 4. If your disk usage exceeds 500K, provide a reason while you want to include so many images or why certain images need to be that big:
+
 
 
 ### More Information
