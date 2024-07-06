@@ -32,6 +32,10 @@ jobs:
   check-title:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        fetch-depth: 1
     - name: check pr title starts with project id
       id: extract_pid
       env: 
