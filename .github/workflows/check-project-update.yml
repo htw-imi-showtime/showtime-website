@@ -106,6 +106,7 @@ jobs:
           touch changed_files/files-other.txt
           cp -r bin changed_files/
           chmod a+x changed_files/bin/*.sh
+          chmod a+x changed_files/bin/check-project-update-pr/*.sh
 
 
       - name: write changed files
