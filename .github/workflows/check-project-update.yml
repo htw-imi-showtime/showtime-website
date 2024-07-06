@@ -104,6 +104,8 @@ jobs:
           mkdir changed_files
           touch changed_files/files-project.txt
           touch changed_files/files-other.txt
+          cp -r bin changed_files/
+
 
       - name: write changed files
         if: (steps.filter.outputs.in_project == 'true')
@@ -181,26 +183,6 @@ jobs:
           fi
   
     
-         
-  check_for_cats:
-    if: false
-    needs: check-title
-    runs-on: ubuntu-latest
-    # Required permissions
-    permissions:
-      pull-requests: read
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: false
-        fetch-depth: 1
-    - name: check for template cat images
-      env:
-        PR_TITLE: ${{ github.event.pull_request.title }}
-      run: |
-          PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
-          ./bin/check-project-update-pr/check-for-cats.sh $PID
-
        
   check_for_cats_download:
     name: "check for cat template files"
