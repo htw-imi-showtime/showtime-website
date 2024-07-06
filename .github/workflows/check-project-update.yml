@@ -37,7 +37,7 @@ jobs:
       env: 
         PR_TITLE: ${{ github.event.pull_request.title }}
       run: |
-        project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
+        bin/check-project-update-pr/check-title.sh $PR_TITLE
         
 
   check_files_in_pr:
