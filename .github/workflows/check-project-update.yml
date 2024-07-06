@@ -67,7 +67,7 @@ jobs:
             echo "pid_ok=$pid_ok" >> $GITHUB_OUTPUT
             exit 0
       
-      - name: 'changed files'
+      - name: 'get changed files'
         uses: dorny/paths-filter@v3
         id: filter
         with:
@@ -120,3 +120,20 @@ jobs:
           PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
           ./bin/check-project-update-pr/disk-usage.sh $PID
           
+  check_for_cats:
+    needs: check-title
+    runs-on: ubuntu-latest
+    # Required permissions
+    permissions:
+      pull-requests: read
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        fetch-depth: 1
+    - name: check disk usage
+      env:
+        PR_TITLE: ${{ github.event.pull_request.title }}
+        PID: $(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
+      run: ./bin/check-project-update-pr/check-for-cats.sh $PID
+       
