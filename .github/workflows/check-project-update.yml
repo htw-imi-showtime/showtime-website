@@ -99,7 +99,7 @@ jobs:
             other_files:
               - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
       
-      - name: create empty files
+      - name: create artifact dir and empty files
         run: |
           mkdir changed_files
           touch changed_files/project.txt
@@ -118,19 +118,27 @@ jobs:
           echo "--------- non_project_files (may not be part of project update PR!):"
           echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
           echo ${{ steps.filter.outputs.other_files_files }} > changed_files/other.txt
-            
+
+      - name: list artifact files
+        run: |
+          ls -lart  changed_files
+          echo "------------ changed_files/project.txt"
+          cat changed_files/project.txt
+          echo "------------ changed_files/other.txt"
+          cat changed_files/other.txt
+     
       - name: Upload changed-files.txt
         uses: actions/upload-artifact@v4
         with:
             name: changed_files
-            path: changed_files
+            path: changed_files/
             retention-days: 1  
   
 
 
 
   check_files_in_pr:
-    name: "Checks if only files in project folder have been changed"
+    name: "check for files outside of project folder"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
@@ -138,7 +146,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: changed_files
-      - name: 'files outside of project folder'
+      - name: 'check for files outside the project folder'
         run: |
           echo "---------"
           cat changed_files/other.txt
@@ -147,6 +155,7 @@ jobs:
           if [ ! -z $FILES ]; then
             echo "--------- non_project_files found in PR:"
             echo $FILES | tr ' ' '\n'
+            echo "ERROR: these files may not be changed within a project update PR!"
             exit 14
           else
             echo "none found -> ok!"
@@ -155,6 +164,7 @@ jobs:
     
          
   check_for_cats:
+    if: false
     needs: check-title
     runs-on: ubuntu-latest
     # Required permissions
@@ -174,7 +184,7 @@ jobs:
 
        
   check_for_cats_download:
-    name: "check File Name Conventions for all files in project"
+    name: "check for cat template files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
@@ -191,7 +201,7 @@ jobs:
 
        
   check_file_name_convention:
-    name: "check File Name Conventions for all files in project"
+    name: "check file name conventions"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
