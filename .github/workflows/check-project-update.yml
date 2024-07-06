@@ -146,14 +146,14 @@ jobs:
           name: changed_files
 
       - name: list artifact files
-      run: |
-        ls -lart 
-        tree
-        ls -lart  changed_files
-        echo "------------ changed_files/project.txt"
-        cat changed_files/project.txt
-        echo "------------ changed_files/other.txt"
-        cat changed_files/other.txt
+        run: |
+          ls -lart 
+          tree
+          ls -lart  changed_files
+          echo "------------ changed_files/project.txt"
+          cat changed_files/project.txt
+          echo "------------ changed_files/other.txt"
+          cat changed_files/other.txt
 
 
 
