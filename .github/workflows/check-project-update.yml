@@ -83,14 +83,12 @@ jobs:
         run: |
           echo "--------- project_files:"
           echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
-
-      - name: check name conventions
-        continue-on-error: true
-        if: (steps.filter.outputs.in_project == 'true')
-        run: |
-            FILES=${{ steps.filter.outputs.in_project_files }}
-            ./bin/check-project-update-pr/check-file-names.sh $FILES
-            
+      
+      - name: Upload changed-files.txt
+        uses: actions/upload-artifact@v4
+        with:
+            name: changed_files
+            path: changed-files.txt   
   
       - name: 'no files outside of project folder'
         if: (steps.filter.outputs.other_files == 'false')  
@@ -144,20 +142,36 @@ jobs:
           ./bin/check-project-update-pr/check-for-cats.sh $PID
 
        
-  check_file_name_convention:
-    needs: check-title
+  check_for_cats_download:
+    name: "check File Name Conventions for all files in project"
+    needs: check_files_in_pr
     runs-on: ubuntu-latest
-    # Required permissions
-    permissions:
-      pull-requests: read
     steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: false
-        fetch-depth: 1
-    - name: check for template cat images
-      env:
-        PR_TITLE: ${{ github.event.pull_request.title }}
-      run: |
-          PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
-          ./bin/check-project-update-pr/check-for-cats.sh $PID
+      - name: Download changed_files.txt
+        uses: actions/download-artifact@v4
+        with:
+          name: changed_files
+      - name: check for template cat images
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+              PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
+              ./bin/check-project-update-pr/check-for-cats.sh $PID
+
+       
+  check_file_name_convention:
+    name: "check File Name Conventions for all files in project"
+    needs: check_files_in_pr
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download changed_files.txt
+        uses: actions/download-artifact@v4
+        with:
+          name: changed_files
+
+      - name: check name conventions
+        #if: (steps.filter.outputs.in_project == 'true')
+        run: |
+            FILES=$(cat changed-files.txt)
+            ./bin/check-project-update-pr/check-file-names.sh $FILES
+            
