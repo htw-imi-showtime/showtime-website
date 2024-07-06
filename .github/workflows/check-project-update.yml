@@ -171,7 +171,7 @@ jobs:
           cat files-other.txt | tr ' ' '\n'
           echo "---------"
           FILES="$(cat files-other.txt)"
-          if [ ! -z $FILES ]; then
+          if ! [ -z "$FILES" ]; then
             echo "--------- non_project_files found in PR:"
             echo $FILES | tr ' ' '\n'
             echo "ERROR: these files may not be changed within a project update PR!"
