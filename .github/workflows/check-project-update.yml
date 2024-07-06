@@ -123,7 +123,7 @@ jobs:
         run: |
           ls -lart  changed_files
           echo "------------ changed_files/files-project.txt"
-          cat changed_files/files-project.txt | | tr ' ' '\n'
+          cat changed_files/files-project.txt | tr ' ' '\n'
           echo "------------ changed_files/files-other.txt"
           cat changed_files/files-other.txt | tr ' ' '\n'
      
