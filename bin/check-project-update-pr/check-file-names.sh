@@ -1,13 +1,9 @@
 #!/bin/bash
 FILES=$1
-echo $FILES
-
 
 MISSMATCHES=""
 
-
 file_pattern="^[a-z][^A-Z]*\.([a-z]{2}[a-z]?)$"
-
 
 for fn in $FILES; do
     #echo "###$fn####"

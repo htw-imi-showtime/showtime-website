@@ -42,9 +42,30 @@ jobs:
         PR_TITLE: ${{ github.event.pull_request.title }}
       run: |
         ./bin/check-project-update-pr/check-title.sh "$PR_TITLE"
-        
 
-  check_files_in_pr:
+           
+  check_disk_usage:
+    needs: check-title
+    runs-on: ubuntu-latest
+    # Required permissions
+    permissions:
+      pull-requests: read
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        fetch-depth: 1
+ 
+    - name: check disk usage
+      env:
+        PR_TITLE: ${{ github.event.pull_request.title }}
+      run: |
+        PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
+        ./bin/check-project-update-pr/disk-usage.sh $PID
+         
+
+  get_files_in_pr:
+      name: "Download changed files and write them to changed-files.txt"
       needs: check-title
       runs-on: ubuntu-latest
       # Required permissions
@@ -67,7 +88,7 @@ jobs:
             echo "pid_ok=$pid_ok" >> $GITHUB_OUTPUT
             exit 0
       
-      - name: 'get changed files'
+      - name: 'download changed files from gh api'
         uses: dorny/paths-filter@v3
         id: filter
         with:
@@ -78,51 +99,61 @@ jobs:
             other_files:
               - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
       
-      - name: files in project folder
+      - name: create empty files
+        run: |
+          mkdir changed_files
+          touch changed_files/project.txt
+          touch changed_files/other.txt
+
+      - name: write changed files
         if: (steps.filter.outputs.in_project == 'true')
         run: |
           echo "--------- project_files:"
           echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
-      
-      - name: Upload changed-files.txt
-        uses: actions/upload-artifact@v4
-        with:
-            name: changed_files
-            path: changed-files.txt   
-  
-      - name: 'no files outside of project folder'
-        if: (steps.filter.outputs.other_files == 'false')  
-        run: |
-          echo "no files outside of project folder found - ok."
-
+          echo ${{ steps.filter.outputs.in_project_files }} > changed_files/project.txt
+ 
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
         run: |
           echo "--------- non_project_files (may not be part of project update PR!):"
           echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
-          echo >&2 "ERROR: found files outside of project folder"
-          exit 14
-      
-    
-  check_disk_usage:
-      needs: check-title
-      runs-on: ubuntu-latest
-      # Required permissions
-      permissions:
-        pull-requests: read
-      steps:
-      - uses: actions/checkout@v4
+          echo ${{ steps.filter.outputs.other_files_files }} > changed_files/other.txt
+            
+      - name: Upload changed-files.txt
+        uses: actions/upload-artifact@v4
         with:
-          submodules: false
-          fetch-depth: 1
+            name: changed_files
+            path: changed_files
+            retention-days: 1  
+  
 
-      - name: check disk usage
-        env:
-          PR_TITLE: ${{ github.event.pull_request.title }}
+
+
+  check_files_in_pr:
+    name: "Checks if only files in project folder have been changed"
+    needs: get_files_in_pr
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download changed_files.txt
+        uses: actions/download-artifact@v4
+        with:
+          name: changed_files
+      - name: 'files outside of project folder'
         run: |
-          PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
-          ./bin/check-project-update-pr/disk-usage.sh $PID
-          
+          echo "---------"
+          cat changed_files/other.txt
+          echo "---------"
+          FILES=$(cat changed_files/other.txt)
+          if [ ! -z $FILES ]; then
+            echo "--------- non_project_files found in PR:"
+            echo $FILES | tr ' ' '\n'
+            exit 14
+          else
+            echo "none found -> ok!"
+          fi
+  
+    
+         
   check_for_cats:
     needs: check-title
     runs-on: ubuntu-latest
@@ -144,7 +175,7 @@ jobs:
        
   check_for_cats_download:
     name: "check File Name Conventions for all files in project"
-    needs: check_files_in_pr
+    needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
       - name: Download changed_files.txt
@@ -155,13 +186,13 @@ jobs:
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-              PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
-              ./bin/check-project-update-pr/check-for-cats.sh $PID
+              $FILES=$(cat changed_files/project.txt)
+              bin/check-project-update-pr/check-for-cats-based-on-filenames.sh $PID
 
        
   check_file_name_convention:
     name: "check File Name Conventions for all files in project"
-    needs: check_files_in_pr
+    needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
       - name: Download changed_files.txt
@@ -172,6 +203,7 @@ jobs:
       - name: check name conventions
         #if: (steps.filter.outputs.in_project == 'true')
         run: |
-            FILES=$(cat changed-files.txt)
+            FILES=$(cat changed_files/project.txt)
             ./bin/check-project-update-pr/check-file-names.sh $FILES
-            
+
+ 
