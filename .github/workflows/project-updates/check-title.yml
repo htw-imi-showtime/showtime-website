@@ -1,0 +1,15 @@
+name: Check PR Title
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check-title:
+    runs-on: ubuntu-latest
+    -   name: check pr title
+        continue-on-error: true
+        id: extract_pid
+        env: 
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+            project_id=$(bin/extract_pid_from_pr_title.sh $PR_TITLE)
