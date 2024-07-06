@@ -1,4 +1,4 @@
-name: Check PR Title
+name: Project Update: Check Title
 on:
   pull_request:
   workflow_dispatch:
