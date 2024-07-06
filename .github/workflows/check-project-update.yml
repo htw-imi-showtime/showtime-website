@@ -32,7 +32,7 @@ jobs:
   check-title:
     runs-on: ubuntu-latest
     steps:
-    - name: check pr title
+    - name: check pr title starts with project id
       id: extract_pid
       env: 
         PR_TITLE: ${{ github.event.pull_request.title }}
