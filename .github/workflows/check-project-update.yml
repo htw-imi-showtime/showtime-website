@@ -104,10 +104,7 @@ jobs:
           mkdir changed_files
           touch changed_files/files-project.txt
           touch changed_files/files-other.txt
-          cp -r bin changed_files/
-          chmod a+x changed_files/bin/*.sh
-          chmod a+x changed_files/bin/check-project-update-pr/*.sh
-
+        
 
       - name: write changed files
         if: (steps.filter.outputs.in_project == 'true')
@@ -153,8 +150,6 @@ jobs:
         run: |
           tree
           ls -lart 
-          ls -lart changed_files/bin/check-project-update-pr/
-          ls -lart changed_files/bin/
           echo "------------ files-project.txt"
           cat files-project.txt | tr ' ' '\n'
           echo "------------ files-other.txt"
@@ -173,9 +168,9 @@ jobs:
           name: changed_files
       - name: 'check for files outside the project folder'
         run: |
-          echo "---------"
-          cat files-other.txt | tr ' ' '\n'
-          echo "---------"
+          # echo "---------"
+          # cat files-other.txt | tr ' ' '\n'
+          # echo "---------"
           FILES="$(cat files-other.txt)"
           if ! [ -z "$FILES" ]; then
             echo "--------- non_project_files found in PR:"
@@ -193,10 +188,17 @@ jobs:
     needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+  
       - name: Download changed_files.txt
         uses: actions/download-artifact@v4
         with:
           name: changed_files
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
       - name: check for template cat images
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
@@ -213,6 +215,10 @@ jobs:
     needs: get_files_in_pr
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+ 
       - name: Download changed_files.txt
         uses: actions/download-artifact@v4
         with:
