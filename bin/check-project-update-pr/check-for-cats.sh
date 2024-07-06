@@ -3,6 +3,9 @@ PID=$1
 CATS=""
 for fn in cat.jpg kitty.jpg; do
     cat=$(find content/**/*/$PID-* -name $fn)
+    if [ "$?" -ne "0" ]; then
+      exit 17
+    fi 
     if [ ! -z "$cat" ]; then
         CATS="$CATS\\n$cat"
         >&2 echo "found template file: $cat" 
