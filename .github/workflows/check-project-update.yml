@@ -153,6 +153,8 @@ jobs:
         run: |
           tree
           ls -lart 
+          ls -lart changed_files/bin/check-project-update-pr/
+          ls -lart changed_files/bin/
           echo "------------ files-project.txt"
           cat files-project.txt | tr ' ' '\n'
           echo "------------ files-other.txt"
