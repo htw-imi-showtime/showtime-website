@@ -125,7 +125,7 @@ jobs:
           echo "------------ changed_files/files-project.txt"
           cat changed_files/files-project.txt | | tr ' ' '\n'
           echo "------------ changed_files/files-other.txt"
-          cat changed_files/files-other.txt | | tr ' ' '\n'
+          cat changed_files/files-other.txt | tr ' ' '\n'
      
       - name: Upload changed-files.txt
         uses: actions/upload-artifact@v4
