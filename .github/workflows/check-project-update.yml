@@ -90,7 +90,7 @@ jobs:
       - name: 'no files outside of project folder'
         if: (steps.filter.outputs.other_files == 'false')  
         run: |
-          @echo "no files outside of project folder found - ok."
+          echo "no files outside of project folder found - ok."
 
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
