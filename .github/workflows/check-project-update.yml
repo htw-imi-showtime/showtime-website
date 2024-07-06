@@ -168,9 +168,6 @@ jobs:
           name: changed_files
       - name: 'check for files outside the project folder'
         run: |
-          # echo "---------"
-          # cat files-other.txt | tr ' ' '\n'
-          # echo "---------"
           FILES="$(cat files-other.txt)"
           if ! [ -z "$FILES" ]; then
             echo "--------- non_project_files found in PR:"
@@ -201,10 +198,7 @@ jobs:
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-          echo "----------------"
-          cat files-project.txt 
-          echo "----------------"
-          $FILES="$(cat files-project.txt)"
+          FILES="$(cat files-project.txt)"
           ./bin/check-project-update-pr/check-for-cats-based-on-filenames.sh "$FILES"
 
        
@@ -223,7 +217,6 @@ jobs:
           name: changed_files
 
       - name: check name conventions
-        #if: (steps.filter.outputs.in_project == 'true')
         run: |
           echo "----------------"
           cat files-project.txt 
