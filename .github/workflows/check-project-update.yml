@@ -105,6 +105,7 @@ jobs:
           touch changed_files/files-project.txt
           touch changed_files/files-other.txt
           cp -r bin changed_files/
+          chmod a+x changed_files/bin/*.sh
 
 
       - name: write changed files
@@ -198,10 +199,10 @@ jobs:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
           echo "----------------"
-          cat files-project.txt | tr ' ' '\n'
+          cat files-project.txt 
           echo "----------------"
           $FILES="$(cat files-project.txt)"
-          bin/check-project-update-pr/check-for-cats-based-on-filenames.sh "$FILES"
+          ./bin/check-project-update-pr/check-for-cats-based-on-filenames.sh "$FILES"
 
        
   check_file_name_convention:
