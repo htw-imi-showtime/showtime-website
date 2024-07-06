@@ -87,27 +87,19 @@ jobs:
           echo "--------- project_files:"
           echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
           
-      
+      - name: 'no files outside of project folder'
+          if: (steps.filter.outputs.other_files == 'false')  
+          run: |
+            @echo "no files outside of project folder found - ok."
+
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
         run: |
           echo "--------- non_project_files (may not be part of project update PR!):"
           echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
-          echo "ERROR: found files outside of project folder"
+          echo >&2 "ERROR: found files outside of project folder"
+          exit 14
       
-      - name: 'fail if both project files present and no project id in title'
-        if: (steps.filter.outputs.contains_project_files == 'true') && (steps.extract_pid.outputs.project_id != '0')
-        run: |
-            echo "ERROR: PR contains both project files and files outside of project indicated by PR Title!"
-            echo "Extracted id: ${{ steps.extract_pid.outputs.project_id }}"
-            exit 321
-      
-      - name: 'fail if both project files and other files present'
-        if: (steps.filter.outputs.contains_project_files == 'true') && (steps.filter.outputs.other_files == 'true')
-        run: |
-          echo "ERROR: PR contains both project files and files outside of project indicated by PR Title!"
-          echo "Extracted id: ${{ steps.extract_pid.outputs.project_id }}"
-          exit 321
     
   check_disk_usage:
       needs: check-title
