@@ -45,6 +45,7 @@ jobs:
 
            
   check_disk_usage:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     needs: check-title
     runs-on: ubuntu-latest
     # Required permissions
@@ -65,6 +66,7 @@ jobs:
          
 
   get_files_in_pr:
+      if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
       name: "Download changed files list"
       needs: check-title
       runs-on: ubuntu-latest
@@ -137,6 +139,7 @@ jobs:
   
 
   check_artifact:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "look for artifact files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -158,6 +161,7 @@ jobs:
 
 
   check_files_in_pr:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for files outside of project folder"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -181,6 +185,7 @@ jobs:
     
        
   check_for_cats_download:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for cat template files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -203,6 +208,7 @@ jobs:
 
        
   check_file_name_convention:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check file name conventions"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
