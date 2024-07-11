@@ -6,7 +6,7 @@ claim = ""
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "Logo.jpg"
+card_image = "logo.jpg"
 # card_description is deprecated, will be replaced by abstract/and or claim
 card_description = "SEMPY is an AI research agent that supports customers of the idealo website in making better buying decisions. This tool gathers information from various websites, summarizes it, and provides the best advice." 
 
@@ -30,9 +30,7 @@ In recent years, artificial intelligence technology has advanced significantly, 
 
 
 {{<section title="The team">}}
-The SEMPY team consists of five young IMI students who came together to build this project. Through this project, we gained a lot of knowledge about working with AI. During the development, we learned a lot by supporting each other.
-
-:
+The SEMPY team consists of five young IMI students who came together to build this project. None of us had experience working with the OpenAI API, so it was quite a challenge for us. Through this project, we gained a lot of knowledge about working with AI and learned a lot by supporting each other during the development.
 
 {{</section>}} 
 
