@@ -3,13 +3,13 @@ project_id = "B2"
 
 title = "Makesign"
 subtitle = "Digital Signage für den IDiA-Makerspace"
-claim = ""
+claim = "Makesign is a digital signage project aimed at motivating students to promote their projects while also learning more about the university's offerings."
 abstract = ""
 
-team = ["Rudolfs Spridis", "Nemo Ziemer","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
+team = ["Rudolfs Spridis", "Nemo Ziener","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
 supervisor = "Prof. Dr. Barne Kleinen, Martin Holzhauer"
 draft = false
-
+card_image = "Makesign_Logo.png"
 website_link = ""
 source_link = "https://github.com/makesign"
 
