@@ -26,9 +26,13 @@ In recent years, artificial intelligence technology has advanced significantly, 
 
 {{</section>}}
 
+{{<team-member image="Video12.gif" name="App Functionality">}}
+
 
 {{<section title="The team">}}
 The SEMPY team consists of five young IMI students who came together to build this project. Through this project, we gained a lot of knowledge about working with AI. During the development, we learned a lot by supporting each other.
+
+:
 
 {{</section>}} 
 
