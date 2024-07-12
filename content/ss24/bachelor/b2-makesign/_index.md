@@ -9,7 +9,7 @@ abstract = ""
 team = ["Rudolfs Spridis", "Nemo Ziener","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
 supervisor = "Prof. Dr. Barne Kleinen, Martin Holzhauer"
 draft = false
-card_image = "MakeSign_Logo.jpeg"
+card_image = "MakeSign_Logo.jpg"
 website_link = ""
 source_link = "https://github.com/makesign"
 
