@@ -1,6 +1,11 @@
 
 ### Opening a Pull Request to Update your Project
 
+I've started a documentation on how we should use the forking workflow here:
+
+[https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md](https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md)
+(will not be merged to main due to file sizes)
+
 Please follow these Steps & Guidelines for your Pull Request:
 
 #### Before you Request a Review Check and Tick these Boxes:
@@ -32,7 +37,7 @@ the script above - WITHOUT CHECKING THE QUALITY**
 4. If your disk usage exceeds 500K, provide a reason while you want to include so many images or why certain images need to be that big:
 
 
-#### If the checks fail...
+#### IMPORTANT: if you run into trouble / If the checks fail...
 
 - if you cannot figure out why a check fails or you think that it may be wrong, 
   don't hesitate to contact me! (e.g. by requesting a review and commenting in the pr)
