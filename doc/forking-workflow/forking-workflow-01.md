@@ -38,4 +38,3 @@ There are several reasons why I choose to change files in a project’s subfolde
 
 # Git is too complicated. We’ll just start from scratch and copy over our changes.
 Starting from Scratch is ok, but **not copying over your changes** (instead of merging them), as you will override changes from the main repo in a way that makes it impossible to trace.
-

@@ -1,6 +1,4 @@
 # Git Log
-#bear/2024/07/07/created
-#showtime/website/forking-workflow/git-log
 
 To work effectively with git from the command line, you need to be able to see your branches and commits in an overview like this: 
 ![](./git-log/image.png)
@@ -15,11 +13,17 @@ here are the relevant lines from my ~/.gitconfig :
 ```
 
 Source: [Pretty Git branch graphs](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs), improved in [Visualizing branch topology in Git](https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298)
+
 And here’s the relevant documentation in case you ever want to change something:
 [Git - pretty-formats Documentation](https://git-scm.com/docs/pretty-formats)
 
 
+
+
+
 ## Create Mermaid diagrams from git log
+
+I did a little experiment to produce git logs that could be used to create mermaid git diagrams:
 
 This is pretty close:
 ```
