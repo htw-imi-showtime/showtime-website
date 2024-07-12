@@ -1,7 +1,7 @@
 +++
 title = "Tech Stack"
 weight = 30
-draft = false
+draft = true
 hasMermaid = true
 +++
 
