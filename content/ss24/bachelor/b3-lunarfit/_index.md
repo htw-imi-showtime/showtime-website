@@ -19,6 +19,8 @@ draft = false
 website_link = ""
 source_link = ""
 
-+++
+tags = []
+categories = ["External Stakeholder"]
+study_focus = ['Web Technology']
 
-More than a fitness or period tracker, LunarFit helps athletes to better understand and adapt their training to their menstrual cycle. This lowers the risk of injury, aids regeneration and improves long-term performance gain.
++++

@@ -17,6 +17,10 @@ draft = false
 
 website_link = ""
 source_link = ""
+
+tags = ["Augmented Reality"]
+categories = []
+study_focus = ['Game Technology']
 +++
 
 {{<section title="Our Goal">}}
@@ -30,6 +34,9 @@ Our team consists out of four students of the Media and Computing Master at HTW 
 {{</section>}} 
 
 {{<gallery>}}
-<!-- {{<team-member image="cat.jpg" name="team member cat">}}-->
+{{<team-member image="team_gerrit.jpg" name="Gerrit">}}
+{{<team-member image="team_diro.jpg" name="Diro">}}
+{{<team-member image="team_yosua.jpg" name="Yosua">}}
+{{<team-member image="team_hasan.jpg" name="Hasan">}}
 {{</gallery>}}
 

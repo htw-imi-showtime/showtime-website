@@ -1,0 +1,26 @@
+
+
+{{ define "main" }}
+
+
+{{ $semester := "ss24" }}
+{{  $title := .Title }}
+
+
+    <header>
+        <h1>
+            {{ $title }}
+            <span class="light block">
+               Taxonomy</span>
+            <span class="underscore-spacer"> </span>
+        </h1>
+    </header>
+    <main>
+    {{ .Content }}
+    
+    {{ $taxonomyObject := .Data.Terms }} 
+    {{ range .Pages }}
+      <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+    {{ end }}
+    </main>
+{{ end }}
