@@ -60,20 +60,20 @@ title = "Lunch Break"
 class = "general"
 
 [[slot]]
-time = "12:00-15:00"
+time = "ca. 11:45-15:00"
 title = "Project Fair"
 text = "Project Booths in H001"
 class = "general"
 
 
 [[slot]]
-time = "15:00"
-title = "Break"
+time = "ab ca. 15:00"
+title = "Abbau"
 text = "(and a secret grading meeting of the supervisors)"
 class = "general"
 
 [[slot]]
-time = "16:00"
-title = "Announcement Of Grades"
-text = "Project Groups meet with their project supervisors"
+time = "ca. 16:00"
+title = "All Supervisors Meet in a Room on the 1st floor"
+text = "Project Groups and Supervisors meet individually afterwards"
 class = "general"
