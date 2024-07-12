@@ -9,6 +9,15 @@ in branches, see [pull_request.md](./pull_request.md)
 2. update your fork and your local clone
 Remember, both are just git repositories. You can start in either one.
 
+
+## Further Reading
+
+We are using the Forking Workflow that is common to contribute to open source repos.
+
+- Atlassian Git Tutorial: [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+- GitHub Docs: [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
+
+## Updating your Fork & Clone
 ###   a. start in fork (on github)
 
 1. Go to the main page of your fork.
