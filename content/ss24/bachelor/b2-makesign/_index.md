@@ -7,12 +7,14 @@ claim = ""
 abstract = ""
 
 team = ["Rudolfs Spridis", "Nemo Ziemer","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
-supervisor = "Prof. Dr. Barne Kleinen, Martin Holzhauer"
+supervisor = ["Prof. Dr. Barne Kleinen", "Martin Holzhauer"]
 draft = false
 
 website_link = ""
 source_link = "https://github.com/makesign"
-
+tags = ['web', 'rails']
+categories = ['Web Technology']
+study_focus = ['Web Technology']
 +++
 
 {{<section title="Our Goal">}}

@@ -18,6 +18,10 @@ draft = false
 website_link = ""
 source_link = ""
 
+tags = ["3D"]
+categories = []
+study_focus = ['Game Technology']
+
 +++
 
 Dive into a journey with our infinite zoom 3D game. Navigate through ever-changing obstacles, explore funky scenes, and test your reflexes in a game that never ends. Each scene brings new thrills, pushing your skills to the limit in a universe that continuously evolves. 

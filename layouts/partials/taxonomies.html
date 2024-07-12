@@ -1,0 +1,16 @@
+{{ $page := . }}
+
+{{ range $taxonomy, $taxonomy_term_pages_map := .Site.Taxonomies }}
+
+{{ $terms := ($page.GetTerms $taxonomy ) }}
+{{ if gt (len $terms) 0 }}
+<p>
+    {{ with $.Site.GetPage (printf "/%s" $taxonomy) }}
+        <b>{{$taxonomy}}</b>:
+    {{ range  $terms}}
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>,
+    {{ end }}
+    <a href="{{.Permalink}}">(alle ansehen)</a>
+    {{ end }}</p>
+    {{ end }}
+{{ end }}

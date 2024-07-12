@@ -12,13 +12,17 @@ card_image = "PAM.png"
 card_description = "Upgrading, Reworking and rewriting a Project Tool for a certain Company" 
 # Names are optional, team size is sufficient
 team = ["Margarita Boiko", "Hamzeh Hamzeh", "Anh Phuc Hoang", "Lukas Oswald"]
-supervisors = ["Dr.Sue-Ann Bäsler", "Martin Singer", "Vu Minh Le", "Mariam Maisuradze"]
+supervisor = ["Dr.Sue-Ann Bäsler", "Martin Singer", "Vu Minh Le", "Mariam Maisuradze"]
 draft = false
 
 # bitte hier zur projektwebseite verlinken. Der Verweis auf die Firma kann gerne in den Text.
 # website_link = "https://globalct.com/"
 # ist nicht öffentlich:
 # source_link = "https://github.com/SueAnnBaesler/PAM-Software-Project-HTW"
+
+tags = []
+categories = ["External Stakeholder"]
+study_focus = ['Web Technology']
 
 +++
 

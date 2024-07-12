@@ -9,6 +9,8 @@ enableGitInfo = true
     production_site = "https://showtime.f4.htw-berlin.de/"
     archive_path = "ws23"
     debug = true
+    preview_message = "Preview Site!"
+    preview_url = ""
 
 [markup]
     [markup.goldmark]
@@ -27,3 +29,9 @@ enableGitInfo = true
 [[module.mounts]]
   source = "content"
   target = "content"
+  
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  study_focus = 'study_focus'
+
