@@ -3,6 +3,8 @@ name: Check Project Update PR
 on:
   pull_request:
   workflow_dispatch:
+  push:
+    branches: b4_fix_pr_361
 
 jobs:
   hugo-build:
