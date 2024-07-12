@@ -135,9 +135,19 @@ git push
 
 Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/
 
+### We are using the Forking Workflow.
+
+Note: we are essentially using the "Forking Workflow" as described in the Atlassian Documentation here:
+[https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+
+I've started a documentation on how we should use the forking workflow here:
+
+[https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md](https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md)
+(will not be merged to main due to file sizes)
+
+
 ## Deploy your Fork on GH-Pages
 
-** funktioniert wieder! **
 
 You can easily deploy your fork on GH-Pages by following the instructions here:
 [http://about-hugo.github.io/hugo/quick/](http://about-hugo.github.io/hugo/quick/)
