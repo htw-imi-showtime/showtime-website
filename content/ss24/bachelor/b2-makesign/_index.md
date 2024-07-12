@@ -11,7 +11,7 @@ team = ["Rudolfs Spridis", "Nemo Ziener","Hyun Bin Jeoung", "Airon Jasinski","Ni
 supervisor = ["Prof. Dr. Barne Kleinen", "Martin Holzhauer"]
 
 draft = false
-card_image = "MakeSign_Logo.jpg"
+card_image = "makesign_logo.jpg"
 website_link = ""
 source_link = "https://github.com/makesign"
 tags = ['web', 'rails']
