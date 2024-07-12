@@ -2,12 +2,13 @@ name: PR Hugo Deploy
 # see https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
 on:
   pull_request:
-    types: [labeled]
+    # types: [labeled]
   workflow_dispatch:
 
 jobs:
   build:
-    if: ${{ (github.event.label.name == 'deploy_pr') && (github.repository == 'htw-imi-showtime/showtime-website') }}
+    if ${{ contains( github.event.pull_request.labels.*.name, 'deploy_pr') }}
+    # if: ${{ (github.event.label.name == 'deploy_pr') && (github.repository == 'htw-imi-showtime/showtime-website') }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4

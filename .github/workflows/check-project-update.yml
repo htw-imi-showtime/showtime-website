@@ -2,6 +2,8 @@ name: Check Project Update PR
 
 on:
   pull_request:
+    paths:
+      - 'content/ss24/**'
   workflow_dispatch:
 
 jobs:
