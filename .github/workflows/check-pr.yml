@@ -1,9 +1,7 @@
-name: Check PR (not project updates)
+name: Build Hugo and Check Title
 
 on:
   pull_request:
-    paths:
-      - '!content/ss24/**'
   workflow_dispatch:
 
 jobs:
