@@ -2,33 +2,12 @@ name: Check Project Update PR
 
 on:
   pull_request:
+    paths:
+      - 'content/ss24/**'
   workflow_dispatch:
 
 jobs:
-  hugo-build:
-    if: github.repository == 'htw-imi-showtime/showtime-website'
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: false
-    - name: Get Theme
-      run: |
-        git submodule update --init themes/showtime-theme-2021
-
-    - name: Hugo setup
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: '0.128.0'
-        extended: true
-
-    - name: Build
-      run: |
-        hugo \
-          --environment staging \
-          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
-          --buildDrafts 
-
+  
   check-title:
     runs-on: ubuntu-latest
     steps:
@@ -42,9 +21,9 @@ jobs:
         PR_TITLE: ${{ github.event.pull_request.title }}
       run: |
         ./bin/check-project-update-pr/check-title.sh "$PR_TITLE"
-
-           
+       
   check_disk_usage:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     needs: check-title
     runs-on: ubuntu-latest
     # Required permissions
@@ -65,6 +44,7 @@ jobs:
          
 
   get_files_in_pr:
+      if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
       name: "Download changed files list"
       needs: check-title
       runs-on: ubuntu-latest
@@ -155,6 +135,7 @@ jobs:
   
 
   check_artifact:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "look for artifact files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -176,6 +157,7 @@ jobs:
 
 
   check_files_in_pr:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for files outside of project folder"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -199,6 +181,7 @@ jobs:
     
        
   check_for_cats_download:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for cat template files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -221,6 +204,7 @@ jobs:
 
        
   check_file_name_convention:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check file name conventions"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
