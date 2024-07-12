@@ -99,7 +99,7 @@ jobs:
             other_files:
               - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
             with_spaces:
-              - '**/*\ */**'
+              - '**/*\ *'
       
       - name: create artifact dir and empty files
         run: |
