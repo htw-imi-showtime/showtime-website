@@ -32,10 +32,18 @@ the script above - WITHOUT CHECKING THE QUALITY**
 4. If your disk usage exceeds 500K, provide a reason while you want to include so many images or why certain images need to be that big:
 
 
+#### If the checks fail...
+
+- if you cannot figure out why a check fails or you think that it may be wrong, 
+  don't hesitate to contact me! (e.g. by requesting a review and commenting in the pr)
+
+- run the checks locally with: 
+
+    ./bin/check-project-update-pr/run-all.sh <project_id>
 
 #### All good? Request a Review!
 
-[] if everythings seems fine, request a review by bkleinen on github. (on the upper right)
+[] if everything seems fine, request a review by bkleinen on github. (on the upper right)
 
 
 ### More Information
