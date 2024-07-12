@@ -10,13 +10,13 @@ jobs:
     if: github.repository == 'htw-imi-showtime/showtime-website'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: true
     - name: Hugo setup
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.128.01'
+        hugo-version: '0.128.0'
         extended: true
 
     - name: Build
