@@ -1,6 +1,11 @@
 
 ### Opening a Pull Request to Update your Project
 
+I've started a documentation on how we should use the forking workflow here:
+
+[https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md](https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md)
+(will not be merged to main due to file sizes)
+
 Please follow these Steps & Guidelines for your Pull Request:
 
 #### Before you Request a Review Check and Tick these Boxes:
@@ -11,7 +16,7 @@ Please follow these Steps & Guidelines for your Pull Request:
 [] make sure that your PR contains only files / file changes within your project subdirectory. 
 [] make sure that all your file names consist only of lower case letters, numbers, or [-_.] - with only one . for the file extension
 [] delete all unnecessary files from your PR (including cat.jpg and kitty.jpg)
-[] check the image file sizes. All Images have to be as small as possible. See [./doc/disk_usage.md](./doc/disk_usage.md) about this issues, there's a script: [./bin/images-smaller.sh](./bin/images-smaller.sh)
+[] check the image file sizes. All Images have to be as small as possible. See [./doc/disk_usage.md](https://github.com/htw-imi-showtime/showtime-website/blob/main/doc/disk_usage.md) about this issues, there's a script: [./bin/images-smaller.sh](https://github.com/htw-imi-showtime/showtime-website/blob/main/bin/images-smaller.sh)
 
 **Note that if you fail to do so, I may simply reduce the file sizes brute force using 
 the script above - WITHOUT CHECKING THE QUALITY**
@@ -32,14 +37,26 @@ the script above - WITHOUT CHECKING THE QUALITY**
 4. If your disk usage exceeds 500K, provide a reason while you want to include so many images or why certain images need to be that big:
 
 
+#### IMPORTANT: if you run into trouble / If the checks fail...
+
+- if you cannot figure out why a check fails or you think that it may be wrong, 
+  don't hesitate to contact me! (e.g. by requesting a review and commenting in the pr)
+
+- run the checks locally with: 
+
+    ./bin/check-project-update-pr/run-all.sh <project_id>
 
 #### All good? Request a Review!
 
-[] if everythings seems fine, request a review by bkleinen on github. (on the upper right)
+[] if everything seems fine, request a review by bkleinen on github. (on the upper right)
 
 
 ### More Information
 
-- [Best Practices for Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/best-practices-for-pull-requests)
+We are using the Forking Workflow.
 
-- Documentation in README.MD and /doc
+- [Best Practices for Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/best-practices-for-pull-requests)
+- Atlassian Git Tutorial: [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+- GitHub Docs: [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
+- Documentation in [README.MD](https://github.com/htw-imi-showtime/showtime-website/blob/main/README.MD) and [/doc](https://github.com/htw-imi-showtime/showtime-website/blob/main/doc)
+

@@ -108,17 +108,23 @@ jobs:
 
       - name: write changed files
         if: (steps.filter.outputs.in_project == 'true')
+        env:
+          all_files: ${{ steps.filter.outputs.in_project_files }}
         run: |
           echo "--------- project_files:"
-          echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.in_project_files }} > changed_files/files-project.txt
+          pr_adds_files=$(bin/check-project-update-pr/remove_deleted_files.sh $all_files)
+          echo $pr_adds_files | tr ' ' '\n'
+          echo $pr_adds_files > changed_files/files-project.txt
  
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
+        env:
+          all_files: ${{ steps.filter.outputs.other_files_files }}
         run: |
           echo "--------- non_project_files (may not be part of project update PR!):"
-          echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.other_files_files }} > changed_files/files-other.txt
+          pr_adds_files=$(bin/check-project-update-pr/remove_deleted_files.sh $all_files)
+          echo $pr_adds_files | tr ' ' '\n'
+          echo $pr_adds_files > changed_files/files-other.txt
 
       - name: list artifact files
         run: |
