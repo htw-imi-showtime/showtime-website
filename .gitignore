@@ -16,3 +16,5 @@ node_modules/
 .linkinator/
 hugo-temp/
 tmp/
+files-other.txt
+files-project.txt
