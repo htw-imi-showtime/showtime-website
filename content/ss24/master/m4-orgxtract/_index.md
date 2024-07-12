@@ -6,7 +6,7 @@ claim = ""
 abstract = "In our quest to challenge German bureaucracy, our project transforms organizational charts stored as PDFs into machine-readable open data formats, enhancing research capabilities and promoting transparency of German authorities."
 
 # Properties for displaying the project in the project list
-card_image = "Logo2.jpg"
+card_image = "logo_orgxtract.jpg"
 # card_description is deprecated, will be replaced by abstract/and or claim
 card_description = "In our quest to challenge German bureaucracy, our project transforms organizational charts stored as PDFs into machine-readable open data formats, enhancing research capabilities and promoting transparency within German authorities." 
 
