@@ -9,10 +9,11 @@ diff_main=$*
 # echo "diff_main: $diff_main"
 files_in_pr=""
 for f in $diff_main; do 
-   # echo $f
-  dir_name=$(dirname $f)
-  base_name=$(basename $f)
-  found_file=$(find $dir_name -maxdepth 1 -name $base_name)
+  fn_with_space=$(echo "$f" | sed -e "s/__THERE_SHOULD_BE_NO_SPACES_IN_FILENAMES__/\\\\ /g")
+  # >&2 echo "----- remove? ${fn_with_space}"
+  dir_name=$(dirname "$fn_with_space")
+  base_name=$(basename "$fn_with_space")
+  found_file=$(find $dir_name -maxdepth 1 -name "$base_name")
    # echo "found file: ##$found_file##"
   if test -n "$found_file"
   then 
