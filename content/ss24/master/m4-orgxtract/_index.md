@@ -45,10 +45,10 @@ Our diverse expertise helped us solve the difficulties that came along during th
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="IMG_8353 2.jpg" name="Lorenzo Battiston">}}
-{{<team-member image="IMG_8360 2.jpg" name="Laura Langhauser">}}
-{{<team-member image="IMG_8326 2.jpg" name="Niklas Lengert">}}
-{{<team-member image="IMG_8340 2.jpg" name="Sao Chi Pham">}}
-{{<team-member image="IMG_8339 2.jpg" name="Viet Anh Jimmy Tran">}}
+{{<team-member image="lorenzo.jpg" name="Lorenzo Battiston">}}
+{{<team-member image="laura.jpg" name="Laura Langhauser">}}
+{{<team-member image="niklas.jpg" name="Niklas Lengert">}}
+{{<team-member image="chi.jpg" name="Sao Chi Pham">}}
+{{<team-member image="jimmy.jpg" name="Viet Anh Jimmy Tran">}}
 {{</gallery>}}
 
