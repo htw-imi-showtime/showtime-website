@@ -1,7 +1,6 @@
-# Update your local repo after PR has been merged
+# 03. Update your local repo after PR has been merged
 
-#bear/2024/07/07/created
- #showtime/website/forking-workflow/03
+
 
 What happened before:
 - our PR, based on branch  branch pr_02 has been merged. 

@@ -1,4 +1,4 @@
-# Forking-Workflow: Tips for the Showtime Website
+# 01. Forking-Workflow: Tips for the Showtime Website
 
 # tl; dr &dc (too long, did’t read, and don’t care):
 
@@ -38,3 +38,4 @@ There are several reasons why I choose to change files in a project’s subfolde
 
 # Git is too complicated. We’ll just start from scratch and copy over our changes.
 Starting from Scratch is ok, but **not copying over your changes** (instead of merging them), as you will override changes from the main repo in a way that makes it impossible to trace.
+
