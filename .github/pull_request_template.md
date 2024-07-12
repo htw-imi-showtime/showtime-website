@@ -46,10 +46,11 @@ the script above - WITHOUT CHECKING THE QUALITY**
 
     ./bin/check-project-update-pr/run-all.sh <project_id>
 
-#### All good? Request a Review!
+#### All good? 
 
-[] if everything seems fine, request a review by bkleinen on github. (on the upper right)
-
+If all checks run successfully the PR will be reviewed and, if no
+further changes are requested, merged and closed.
+ (this is the time to update and start a new branch!)
 
 ### More Information
 
