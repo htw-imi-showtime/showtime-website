@@ -3,11 +3,12 @@ name: PR Hugo Deploy
 on:
   pull_request:
     branches: schedule_from_meta
+    types: [labeled]
   workflow_dispatch:
 
 jobs:
   build:
-    if: github.repository == 'htw-imi-showtime/showtime-website'
+    if: ${{ (github.event.label.name == 'deploy_pr') && (github.repository == 'htw-imi-showtime/showtime-website') }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
