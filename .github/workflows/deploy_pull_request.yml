@@ -2,7 +2,6 @@ name: PR Hugo Deploy
 # see https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
 on:
   pull_request:
-    branches: schedule_from_meta
     types: [labeled]
   workflow_dispatch:
 
