@@ -14,10 +14,14 @@ card_description = "CapSearch, an AI-powered platform, assists employees with pr
 # Names are optional, team size is sufficient
 team = ["Hikari Sophia Stölzle", "Nikol Stefanova", "Mohamed Amine Sallami", "Reynaldo Domenico", "Vu Minh Le"]
 supervisor = "Parul Soni, Timo Walter"
-draft = true
+draft = false
 
 website_link = ""
 source_link = ""
+
+tags = []
+categories = ["External Stakeholder"]
+study_focus = ['Web Technology']
 +++
 {{<image src="logo.png" alt="Logo">}}
 
@@ -36,16 +40,22 @@ By leveraging Capsearch, companies can achieve a higher ratio of successful proj
 {{</section>}}
 
 {{<section title="Process">}}
-{{</section>}} 
-{{<image src="process.png" alt="Logo">}}
-{{<section title="The team">}}
+Focusing on a quality product in the end, agile principles were always a part of the development process.
+After the requirements and scope of the project had been defined, the tasks were divided within the development team in such a way that the personal skill set of each individual could be brought out and used, but also offered opportunities to learn something new together and support each other.
+the results were then presented in weekly sprints where concerns could be clarified and new ideas could be given and received in order to produce a satisfactory product.
+{{</section>}}
+
+{{<image src="process.png" alt="process of development flow">}}
+
+
+{{<section title="The Team">}}
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="Hikari">}}
-{{<team-member image="cat.jpg" name="Nikol">}}
-{{<team-member image="cat.jpg" name="Amine">}}
-{{<team-member image="cat.jpg" name="Minh">}}
-{{<team-member image="cat.jpg" name="Reynaldo">}}
+{{<team-member image="shiro.jpg" name="Hikari">}}
+{{<team-member image="nikol.jpg" name="Nikol">}}
+{{<team-member image="amine.jpg" name="Amine">}}
+{{<team-member image="minh.jpg" name="Minh">}}
+{{<team-member image="reynaldo.jpg" name="Reynaldo">}}
 {{</gallery>}}
 

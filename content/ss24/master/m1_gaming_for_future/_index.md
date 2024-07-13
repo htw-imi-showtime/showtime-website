@@ -2,13 +2,13 @@
 project_id = "M1"
 title = "Aquasolace"
 subtitle = "Gaming for Future II: Turning the simulation into a game"
-claim = "Aquasolace - Gaming For Future"
-abstract = "Aquasolace - Gaming For Future"
+claim = "Aquasolace is a single-player strategy and environmental simulation game. It was developed to raise awareness of the pressing issue of water scarcity. It aims to draw players' attention and educate them about this critical issue through immersive gameplay."
+abstract = ""
 
 # Properties for displaying the project in the project list
 card_image = "game_logo.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
-card_description = "Aquasolace - Gaming For Future" 
+card_description = "" 
 
 # Names are optional, team size is sufficient
 team = ["Eliot Hoff", " Kenneth Englisch", "Martin Christian Solihin", "Adib Ghassani Waluya", "Sebastian Puetz"]
@@ -31,7 +31,7 @@ source_link = ""
 +++
 
 {{<section title="The Goal">}}
-Our project aimed to transform an existing simulation ([see last term's project](/ws23/master/m4-gamingforthefuture/)) into an engaging game experience. The focus was on expanding gameplay features and integrating a layer of biodiversity. AquaSolace is a single-player strategy and environmental simulation game designed to raise awareness about the pressing issue of water scarcity. Our objective was to capture players' attention and educate them about this critical issue through immersive gameplay and interactive learning.
+Our project aims to transform a simulation game from previous term ([Aquasolace WS23](/ws23/master/m4-gamingforthefuture/)) into an engaging game. We focus on expanding game features and integrating biodiversity layers to the game. 
 <figure><img src="game_image.png" alt="Game Image" width="60%" height="60%"></figure>
 {{</section>}}
 
@@ -48,12 +48,12 @@ Our team consists of five IMI-Master students.
 
 {{<section title="The Responsibilities">}}
 <div style="display: flex; flex-wrap: wrap;">
-
   <div style="flex: 1; min-width: 239px; max-width: 239px; margin: 10px;">
     <h2>Eliot</h2>
     <ul>
       <li>Game Development</li>
       <li>Music Production</li>
+      <li>3D Models</li>
     </ul>
   </div>
 
@@ -84,11 +84,9 @@ Our team consists of five IMI-Master students.
     <h2>Sebastian</h2>
     <ul>
       <li>Game Development</li>
-      <li>Contact to Fiverr Artists for Animal Models</li>
-      <li>Animation</li>
+      <li>3D Animal Models and Animations</li>
     </ul>
   </div>
-
 </div>
 {{</section>}} 
 

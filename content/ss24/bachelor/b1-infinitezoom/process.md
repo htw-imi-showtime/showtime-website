@@ -14,5 +14,7 @@ After we have developed enough mechanics, our next step was to create some scene
 
 The final and most crucial step of our project was integrating them all together to create an endless zoom effect.
 
+
 Our development process was agile and iterative, allowing us to adapt quickly to new ideas and feedback, with some steps overlapping as needed.
 {{</section>}}
+
