@@ -20,4 +20,5 @@ In this game, the player starts with three lives. Colliding with an obstacle dec
 
 {{</section>}}
 
-{{<mediathek id="aadb969e49a6b637ef8bd0ea37ca98a8" title="Our project demo">}}
+
+{{<mediathek id="aadb969e49a6b637ef8bd0ea37ca98a8" title="Preview">}}
