@@ -7,6 +7,12 @@
 
 PR_TITLE=$1
 
+showtime_website_pattern="STW[ :].*"
+if [[ $PR_TITLE  =~ $showtime_website_pattern ]]
+then 
+    exit 0
+fi
+
 title_pattern="[BM][0-9][ :].*"
 if ! [[ $PR_TITLE  =~ $title_pattern ]]
 then
