@@ -11,9 +11,6 @@ jobs:
     - uses: actions/checkout@v4
       with:
         submodules: false
-    - name: Get Theme
-      run: |
-        git submodule update --init themes/showtime-theme-2021
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v3
       with:
