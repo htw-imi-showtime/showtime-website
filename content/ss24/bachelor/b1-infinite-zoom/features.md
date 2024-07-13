@@ -1,14 +1,16 @@
 +++
 title = "Features"
 weight = 20
-draft = true
+draft = false
 +++
 
 {{<section title="Features">}}
 
 * **Zoom Effect**
 
-We have used different implementations to visualise this effect. In some scenes, the objects are scaled up while the camera stays static; in others, the camera moves forward as the objects keep in their position.
+We have used different implementations to visualize this effect. In some scenes, 
+the objects are scaled up while the camera stays static; in others,
+the camera moves forward as the objects keep in their position.
 
 * **Transitions**
 
