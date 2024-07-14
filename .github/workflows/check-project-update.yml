@@ -2,33 +2,12 @@ name: Check Project Update PR
 
 on:
   pull_request:
+    paths:
+      - 'content/ss24/**'
   workflow_dispatch:
 
 jobs:
-  hugo-build:
-    if: github.repository == 'htw-imi-showtime/showtime-website'
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: false
-    - name: Get Theme
-      run: |
-        git submodule update --init themes/showtime-theme-2021
-
-    - name: Hugo setup
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: '0.128.0'
-        extended: true
-
-    - name: Build
-      run: |
-        hugo \
-          --environment staging \
-          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
-          --buildDrafts 
-
+  
   check-title:
     runs-on: ubuntu-latest
     steps:
@@ -42,9 +21,9 @@ jobs:
         PR_TITLE: ${{ github.event.pull_request.title }}
       run: |
         ./bin/check-project-update-pr/check-title.sh "$PR_TITLE"
-
-           
+       
   check_disk_usage:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     needs: check-title
     runs-on: ubuntu-latest
     # Required permissions
@@ -65,6 +44,7 @@ jobs:
          
 
   get_files_in_pr:
+      if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
       name: "Download changed files list"
       needs: check-title
       runs-on: ubuntu-latest
@@ -98,27 +78,45 @@ jobs:
               - 'content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
             other_files:
               - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
+            with_spaces:
+              - '**/*\ *'
       
       - name: create artifact dir and empty files
         run: |
           mkdir changed_files
           touch changed_files/files-project.txt
           touch changed_files/files-other.txt
-        
+          touch changed_files/files-with-spaces.txt
+
+      - name: 'fail if pr contains files with spaces'
+        if: (steps.filter.outputs.with_spaces == 'true')
+        env:
+          all_files: ${{ steps.filter.outputs.with_spaces_files }}
+        run: |
+          echo "--------- PR contains files with spaces in their name - EXITING."
+          echo $all_files | tr ' ' '\n'
+          exit 101   
 
       - name: write changed files
         if: (steps.filter.outputs.in_project == 'true')
+        env:
+          all_files: ${{ steps.filter.outputs.in_project_files }}
         run: |
           echo "--------- project_files:"
-          echo ${{ steps.filter.outputs.in_project_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.in_project_files }} > changed_files/files-project.txt
+          pr_adds_files=$(bin/check-project-update-pr/remove_deleted_files.sh $all_files)
+          echo $pr_adds_files | tr ' ' '\n'
+          echo $pr_adds_files > changed_files/files-project.txt
  
       - name: 'files outside of project folder'
         if: (steps.filter.outputs.other_files == 'true')
+        env:
+          all_files: ${{ steps.filter.outputs.other_files_files }}
         run: |
           echo "--------- non_project_files (may not be part of project update PR!):"
-          echo ${{ steps.filter.outputs.other_files_files }} | tr ' ' '\n'
-          echo ${{ steps.filter.outputs.other_files_files }} > changed_files/files-other.txt
+          pr_adds_files=$(bin/check-project-update-pr/remove_deleted_files.sh $all_files)
+          echo $pr_adds_files | tr ' ' '\n'
+          echo $pr_adds_files > changed_files/files-other.txt
+
 
       - name: list artifact files
         run: |
@@ -137,6 +135,7 @@ jobs:
   
 
   check_artifact:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "look for artifact files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -158,6 +157,7 @@ jobs:
 
 
   check_files_in_pr:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for files outside of project folder"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -181,6 +181,7 @@ jobs:
     
        
   check_for_cats_download:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for cat template files"
     needs: get_files_in_pr
     runs-on: ubuntu-latest
@@ -203,6 +204,7 @@ jobs:
 
        
   check_file_name_convention:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check file name conventions"
     needs: get_files_in_pr
     runs-on: ubuntu-latest

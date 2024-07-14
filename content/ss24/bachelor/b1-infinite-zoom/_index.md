@@ -6,7 +6,7 @@ claim = ""
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "Screenshot_Microbe.png"
+card_image = "screenshot_microbe.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
 card_description = "Buckle up, you're going for a ride." 
 
@@ -36,10 +36,10 @@ We are a motivated team of five, each bringing unique skills and creativity to t
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="Aaron.png" name="Aaron">}}
-{{<team-member image="Andy.png" name="Andy">}}
-{{<team-member image="Asli.png" name="Asli">}}
-{{<team-member image="Tizian.png" name="Tizian">}}
-{{<team-member image="Tom.png" name="Tom">}}
+{{<team-member image="aaron.png" name="Aaron">}}
+{{<team-member image="andy.png" name="Andy">}}
+{{<team-member image="asli.png" name="Asli">}}
+{{<team-member image="tizian.png" name="Tizian">}}
+{{<team-member image="tom.png" name="Tom">}}
 {{</gallery>}}
 
