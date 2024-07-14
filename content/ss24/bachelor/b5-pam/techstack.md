@@ -9,7 +9,7 @@ draft = true
 We used the following technologies in our Project:
 {{</section>}}
 
-{{<image src="Techstack.png" alt="Tech Stack">}}
+{{<image src="Techstack2.png" alt="Tech Stack">}}
 
 {{<section title="Future">}}
 
