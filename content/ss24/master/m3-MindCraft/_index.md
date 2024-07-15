@@ -17,6 +17,10 @@ draft = false
 
 website_link = ""
 source_link = ""
+
+tags = []
+categories = ["External Stakeholder"]
+study_focus = ['Game Technology']
 +++
 
 <!-- Entweder ein Zitat einfügen, etwas aus dem Spiel oder weglassen--> 
