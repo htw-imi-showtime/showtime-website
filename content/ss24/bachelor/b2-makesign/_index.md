@@ -6,17 +6,13 @@ subtitle = "Digital Signage für den IDiA-Makerspace"
 claim = "Promote your event or project simply and conveniently throughout the campus!"
 abstract = ""
 
-
 team = ["Rudolfs Spridis", "Nemo Ziener","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
-supervisor = ["Prof. Dr. Barne Kleinen", "Martin Holzhauer"]
-
+supervisor = "Prof. Dr. Barne Kleinen, Martin Holzhauer"
 draft = false
-card_image = "makesign_logo.jpg"
+card_image = "MakeSign_Logo.jpg"
 website_link = ""
 source_link = "https://github.com/makesign"
-tags = ['web', 'rails']
-categories = ['Web Technology']
-study_focus = ['Web Technology']
+
 +++
 
 {{<section title="Overview">}}
