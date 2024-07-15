@@ -24,10 +24,6 @@ jobs:
       run: |
         PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
         ls content/ss24/**/$PID-*
-        if test $? != 0; then
-          echo "no files found in content/ss24/**/$PID-*"
-        fi
-      
 
         
   check-disk-usage:
