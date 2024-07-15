@@ -1,22 +1,26 @@
 +++
-title = "Tech Stack"
+title = "Features"
 weight = 20
-draft = true
+draft = false
 +++
 
-{{<section title="Tech Stack">}}
+{{<section title="Features">}}
 
-* **Roles**
+* **Zoom Effect**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+We have used different implementations to visualize this effect. In some scenes, 
+the objects are scaled up while the camera stays static; in others,
+the camera moves forward as the objects keep in their position.
 
+* **Transitions**
 
-* **Game-Flow**
+When one scene is finished, the game transforms you into a new one, creating an endless loop.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+* **Gameplay**
 
-* **Voting Systems**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+In this game, the player starts with three lives. Colliding with an obstacle decreases half a heart from their health. The objective is to survive as long as possible to achieve the highest score, which increases based on the duration of survival.
 
 {{</section>}}
+
+
+{{<mediathek id="aadb969e49a6b637ef8bd0ea37ca98a8" title="Preview">}}
