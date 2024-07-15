@@ -10,15 +10,14 @@ jobs:
   
   check-pr-title:
     runs-on: ubuntu-latest
+    env: 
+      PR_TITLE: ${{ github.event.pull_request.title }}
     steps:
     - uses: actions/checkout@v4
       with:
         submodules: false
         fetch-depth: 1
     - name: check pr title starts with project id
-      id: extract_pid
-      env: 
-        PR_TITLE: ${{ github.event.pull_request.title }}
       run: |
         ./bin/check-project-update-pr/check-title.sh "$PR_TITLE"
     - name: check project folder name convention
