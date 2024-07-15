@@ -146,7 +146,7 @@ jobs:
   check_artifact:
     if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "look for artifact files"
-    needs: get_files_in_pr
+    needs: get-files-in-pr
     runs-on: ubuntu-latest
     steps:
       - name: Download changed_files.txt
@@ -168,7 +168,7 @@ jobs:
   check_files_in_pr:
     if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for files outside of project folder"
-    needs: get_files_in_pr
+    needs: get-files-in-pr
     runs-on: ubuntu-latest
     steps:
       - name: Download changed_files.txt
@@ -192,7 +192,7 @@ jobs:
   check_for_cats_download:
     if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check for cat template files"
-    needs: get_files_in_pr
+    needs: get-files-in-pr
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -215,7 +215,7 @@ jobs:
   check_file_name_convention:
     if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     name: "check file name conventions"
-    needs: get_files_in_pr
+    needs: get-files-in-pr
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
