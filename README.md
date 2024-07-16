@@ -71,28 +71,21 @@ If you want to add your project to the website, please follow these steps and cr
 2. Clone the project:
 
 2.a Without archive submodule:
-```
-git clone --depth 1  https://github.com/<your-account>/showtime-website.git
-cd showtime-website
-```
-or using SSH:
+
 ```
 git clone --depth 1 git@github.com:<your-account>/showtime-website.git
 cd showtime-website
 ```
 
-then get the theme submodule:
+you can always get the archive later by running:
+(currently about 1,3G)
 
 ```
-git submodule update --init themes/showtime-theme-2021
+git submodule update --init project-archive
 ```
 
-2.b Complete with both submodules:
-```
-git clone --depth 1 --recurse-submodules https://github.com/<your-account>/showtime-website.git
-cd showtime-website
-```
-or using SSH:
+2.b Complete with archive submodules:
+
 ```
 git clone --depth 1 --recurse-submodules git@github.com:<your-account>/showtime-website.git
 cd showtime-website
@@ -101,13 +94,22 @@ cd showtime-website
 3. [Install Hugo (extended)](https://gohugo.io/getting-started/installing) from https://gohugo.io \
    You can check your installation by executing `hugo server` and visiting
    http://localhost:1313/ in your browser.
+
+ 
    If you get an error:
    * Did you forget to clone the submodules? If so, you can get the theme submodule by running
-   ```
-   git submodule update --init themes/showtime-theme-2021
-   ```
+
    * Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
 
+4. Create a branch
+
+As we are using the forking workflow on the showtime website, never change main directly, but keep it synced with the
+main repository. Always work in branches. After your changes have been merged with a pull request, discard the branch, 
+update main (get your merged changes squashed into one commit) and create a new branch from there.
+
+```
+git checkout -b b0_first_version_of_our_project_site_or_anything_else_you_fancy_as_a_branch_name
+```
 
 4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
@@ -116,7 +118,11 @@ cp -R content/ws23/bachelor/b0-template/ content/ws23/bachelor/b#-your-project/
 ```
 cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
 ```
-**Please make sure to include your project number! (e.g. B2, M1, ...)**
+
+**Please make sure to include your project number! (e.g. b2, m1, ...)**
+
+File names need to be all lower case, WITHOUT SPACES and no special characters except - and _ .
+see [bin/check-project-update-pr/check-file-names.sh](bin/check-project-update-pr/check-file-names.sh)
 
 5. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    
@@ -144,7 +150,6 @@ I've started a documentation on how we should use the forking workflow here:
 
 [https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md](https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md)
 (will not be merged to main due to file sizes)
-
 
 ## Deploy your Fork on GH-Pages
 

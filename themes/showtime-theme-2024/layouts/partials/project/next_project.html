@@ -1,0 +1,96 @@
+{{ if or (eq .Type "Bachelor") (eq .Type "Master") }}
+    <li >
+    {{ $this_project := .CurrentSection}}
+    {{ $this_semester := .CurrentSection.Parent.Parent }}
+
+    {{ $this_semester_step1 :=index (findRE "^.*/((ws|ss)..)/.*" .RelPermalink) 0 }}
+    {{ $this_semester_name :=index (findRE "((ws|ss)..)" $this_semester_step1) 0 }}
+    {{ $all_semester := where .Site.Pages.ByWeight  "Params.category" "project-archive" }}
+    
+ 
+    {{ $prev_semester := $all_semester.Next $this_semester  }}
+    {{ if not $prev_semester }}
+        {{ $prev_semester = index ($all_semester | last 1) 0 }}
+    {{ end }}
+    {{ $next_semester := $all_semester.Prev $this_semester  }}
+    {{ if not $next_semester }}
+        {{ $next_semester = index $all_semester  0 }}
+    {{ end }}
+
+    {{- /* Get all projects ordered by semester, then project name . */ -}}
+
+    {{ $semester_first_project := dict }}
+    {{ $all_projects := slice }}
+    {{ $next_semester_project := "" }}
+    {{ $prev_semester_project := "" }}
+
+    {{ range $all_semester }}
+        {{ $sem := .}}
+        {{- /* Bachelor/Master */ -}}
+        {{ $projects_in_s := slice}}
+        {{ range .Pages }}
+           {{ $projects_in_s_bm := where .Pages "Params.project_id" "ne" "" }}
+           {{ $projects_in_s_bm = .Pages }}
+           {{ $projects_in_s_bm = sort $projects_in_s_bm "Params.Project_id"}}
+           {{ $projects_in_s = $projects_in_s | append $projects_in_s_bm }}
+        {{ end }}
+        {{- /* $all_projects = $all_projects | append $projects_in_s */ -}}
+        {{ if eq $this_semester $sem}}
+            {{ $all_projects = $projects_in_s }}
+        {{ end }}
+        {{ if eq $sem $prev_semester }}
+            {{ $prev_semester_project = index $projects_in_s 0 }}
+        {{ end }}
+        {{ if eq $sem $next_semester }}
+            {{ $next_semester_project = index $projects_in_s 0 }}
+        {{ end }}
+    {{ end }}
+
+   
+
+    {{- /* Get all projects in this semester. */ -}}
+
+    {{ $projects_in_this_semester := slice }}
+
+    {{ range where .Site.Pages.ByWeight.Reverse "Params.project_id" "ne" "" }} 
+        {{ $project_semester := index (findRE "((ws|ss)..)" .RelPermalink) 0 }}
+        {{ if eq $project_semester $this_semester_name }}
+            {{ $projects_in_this_semester = $projects_in_this_semester | append . }}
+        {{ end }}
+    {{ end }}
+
+    {{ $projects_in_this_semester := sort $projects_in_this_semester "Params.Project_id" }}
+   
+
+
+
+    {{- /* Semester Prev/Next Navigation. 
+        This jumps to the first project in the semester
+        */ -}}
+    {{- with $prev_semester_project  }}
+        <a href="{{ .RelPermalink }}">&lt;</a>
+    {{ else }}&nbsp;&nbsp;{{ end -}}
+
+    <a href="{{ $this_semester.RelPermalink }}">{{ $this_semester_name -}}</a>
+
+    {{- with $next_semester_project  }}
+        <a href="{{ .RelPermalink }}">&gt;</a>
+    {{ else }}&nbsp;&nbsp;{{ end -}}
+
+
+    {{- /* Project Prev/Next Navigation. */ -}}
+
+{{ $pages := $all_projects}}
+
+{{- with $pages.Next $this_project  }}
+<a href="{{ .RelPermalink }}">&lt;</a>
+{{ else }}&nbsp;&nbsp;{{ end -}}
+
+{{ $this_project.Params.project_id -}}
+
+{{- with $pages.Prev $this_project  }}
+  <a href="{{ .RelPermalink }}">&gt;</a>
+{{ else }}&nbsp;&nbsp;{{ end -}}
+  
+</li>
+{{ end }}

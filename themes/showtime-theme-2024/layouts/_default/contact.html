@@ -1,0 +1,27 @@
+{{ define "main" }}
+    <header>
+        <h1>
+            {{ .Title }}
+            <span class="underscore-spacer"> </span>
+        </h1>
+        <section class="underscore">
+            <div class="spacer"></div>
+            {{ .Content }}
+        </section>
+    </header>
+    <main class="contacts">
+        {{ range .Site.Data.contacts.contacts }}
+            <section>
+                <h3 class="no-underscore">{{ .title }}</h3>
+                <p>
+                    {{ .description }}
+                </p>
+                <p>
+                    {{ .contact }}
+                    <a href="mailto:{{ .email }}">{{ .email }}</a>
+                </p>
+            </section>
+            <hr>
+        {{ end }}
+    </main>
+{{ end }}

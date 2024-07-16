@@ -1,0 +1,70 @@
+{{ define "main" }}
+<header>
+    <h1>
+        {{ .Title }}
+        <span class="light block">{{ partial "semester" (dict "type" "short" "semester" .Site.Params.current_semester) }}</span>
+        <span class="underscore-spacer"> </span>
+    </h1>
+    <section class="underscore">
+        <div class="spacer"></div>
+        {{ .Content }}
+    </section>
+</header>
+<main class="schedule">
+    <section>
+        <ul>
+            {{ $semester := .Site.Params.current_semester }}
+            {{ $semester_projects := where $.Site.Pages "Section" $semester}}
+            
+            {{ range .Site.Data.schedule.slot }}
+            
+            {{ $slot_title := .title }}
+            {{ $slot_text := "" }}
+            {{ $slot_link := "#" }}
+            {{ $slot_class := "general" }}
+            {{ if isset . "class"}}
+                {{ $slot_class = .class }}
+            {{ end }}
+            {{ if isset . "text"}}
+                {{ $slot_text = .text }}
+            {{ end }}
+            {{ if isset . "projectDetail"}}
+                {{ $slot_link = .projectDetail }}
+            {{ end }}
+
+            {{ if isset . "project_id"}}
+                {{ $project_index := index (where $semester_projects ".Params.project_id" .project_id ) 0 }}
+                {{ with $project_index}}
+                    {{ $slot_title = printf "%s - %s: %s" .Params.project_id .Title .Params.Subtitle}}
+                    {{ $slot_link = .RelPermalink}}
+                    {{ with .Params.sub_title }}
+                        {{ $slot_text = printf "%s - %s"  $slot_text . | lower }}
+                    {{ end }}   
+                {{ end }}
+                
+                {{ if in .project_id "B" }}
+                    {{ $slot_class = "bachelor" }}
+                {{ else }}
+                    {{ if in .project_id "M" }}
+                        {{ $slot_class = "master" }}
+                    {{ end}}
+                {{ end}}
+                
+                
+            {{ end }}
+     
+            <li>
+                <p>{{ .time }}</p>
+                <div class="{{ $slot_class }}">
+                    <h3 class="no-underscore">{{ $slot_title }}</h3>
+                    {{  $slot_text }}
+                    {{ if not (eq $slot_link "#") }}
+                    <a href="{{ $slot_link | absURL }}">-> Project_Details</a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </li>
+        </ul>
+    </section>
+</main>
+{{ end }}
