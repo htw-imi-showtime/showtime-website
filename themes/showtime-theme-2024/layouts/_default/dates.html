@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <header>
+        <h1>
+            {{ .Title }}
+            <span class="underscore-spacer"> </span>
+        </h1>
+        <section class="underscore">
+            <div class="spacer"></div>
+            {{ .Content }}
+        </section>
+    </header>
+    <main class="dates">
+        {{ range .Site.Data.dates.dates }}
+            <section>
+                <div>{{ .date }}</div>
+                <div>
+                    <h3 class="no-underscore">{{ .title }}</h3>
+                    {{ .description }}
+                </div>
+            </section>
+            <hr>
+        {{ end }}
+    </main>
+{{ end }}

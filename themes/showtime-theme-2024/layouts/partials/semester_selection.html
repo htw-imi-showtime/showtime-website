@@ -1,0 +1,14 @@
+
+<p>Explore the projects of previous semesters - or see 
+    <a href="{{ with .Site.GetPage "/archive" }}{{ .RelPermalink }}{{ end }}">a complete archive overview.</a></p>
+         
+
+<div class="select-wrapper">
+   <select name="semester" id="semester-select">
+    <option value="{{ "archive" | absURL }}" {{ if eq "Project Overview" $.Title }}selected{{ end }}>Complete Overview</option>
+       {{ range where .Site.Pages.ByWeight.Reverse "Params.category" "project-archive" }}
+            <option value="{{ .RelPermalink }}" {{ if eq .Title $.Title }}selected{{ end }}>{{ .Params.full_title }}</option>
+       {{ end }}
+
+   </select>
+</div>

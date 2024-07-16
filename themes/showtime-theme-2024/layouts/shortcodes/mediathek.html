@@ -1,0 +1,18 @@
+{{ $video := newScratch }}
+{{ if .IsNamedParams }}
+    {{ $video.Set "id" (.Get "id") }}
+    {{ $video.Set "title" (.Get "title") }}
+{{ else }}
+    {{ $video.Set "id" (.Get 0) }}
+    {{ $video.Set "title" (.Get 1) }}
+{{ end }}
+
+<div class="mediathek-embed">
+    {{ with $video.Get "title" }}
+        <h3>{{ . }}</h3>
+    {{ end }}
+    <div class="mediathek-player">
+        <img src = "{{ "img/16x9.png" | absURL }}" alt="video placeholder">
+        <iframe src="https://mediathek.htw-berlin.de/media/embed?key={{ $video.Get "id" }}&responsive=true&autoplay=false&t=0" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no"></iframe>
+    </div>
+</div>
