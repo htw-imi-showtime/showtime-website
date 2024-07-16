@@ -26,7 +26,8 @@ jobs:
           --baseURL "https://htw-imi-showtime.github.io/tryout/" \
           --buildDrafts 
 
-  check-title:
+# duplicated here as this wf runs on all prs
+  check-pr-title:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4

@@ -3,35 +3,38 @@ project_id = "B2"
 
 title = "Makesign"
 subtitle = "Digital Signage für den IDiA-Makerspace"
-claim = "Makesign is a digital signage project aimed at motivating students to promote their projects while also learning more about the university's offerings."
-abstract = ""
 
+claim = "Promote your event or project simply and conveniently throughout the campus!"
+abstract = "Makesign is a digital signage project aimed at motivating students to promote their projects while also learning more about the university's offerings."
 
 team = ["Rudolfs Spridis", "Nemo Ziener","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
 supervisor = ["Prof. Dr. Barne Kleinen", "Martin Holzhauer"]
 
-draft = false
 card_image = "makesign_logo.jpg"
 website_link = ""
 source_link = "https://github.com/makesign"
-tags = ['web', 'rails']
-categories = ['Web Technology']
-study_focus = ['Web Technology']
+draft = false
 +++
 
-{{<section title="Our Goal">}}
-Plakate in den Gebäuden der Universität sind meist veraltet, da es sehr mühsam und zeitaufwendig ist, neue aufzuhängen und die alten zu entsorgen. Unsere Idee ist es, Digital Signage zu verwenden, um alten Bildschirmen als Anzeigetafeln ein neues Leben auf den Campus zu ermöglichen, um so eine einfache und effiziente Möglichkeit zu bieten Webpage-Poster oder Videos zur Schau zu stellen.
-Hierfür entwickeln wir Open Source Technologien weiter und nutzen günstige Raspberry Pi(Mini Computer), um in Verbindung mit alten Monitoren eine Möglichkeit für ein Signage Netzwerk bieten, welches alten Monitoren wieder eine Funktion gibt und jeglichen Organisatoren an dem Campus die Vermarktung von Veranstaltungen erleichtert. 
-Zudem haben wir in Zusammenarbeit mit dem [Makerspace](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/idia-spaces/maker-space/) und [IDiA](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/ueber-idia/) ein System zur graphischen Darstellung des Buchungssystems für die Maschinen des Makerspace implementiert, welches ermöglicht, die Auslastung und die Zeit der Buchungen für diese in Echtzeit durch ein Digital Signage Board Digital anzeigen zu lassen. 
-{{</section>}}
+{{<section title="Overview">}}
 
- 
+If you have an event or project you want to share or invite people to, the current method is to elaborately and painstakingly hang posters throughout the campus. Our project aims to use old monitors and TVs, which the university regularly discards, as digital signage boards that can be put up throughout the campus to display information in real time. For the end-users we offer a simple web application via which the users can upload their content to the screens across campus. 
+
+
+In collaboration with [Makerspace](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/idia-spaces/maker-space/) and [IDiA](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/ueber-idia/), we have further developed and integrated a system for graphically displaying the booking system for the machines in Makerspace. This system allows the booking schedule of these machines to be digitally displayed in real-time on digital signage boards, in and around the Makerspace.
+
 {{<section title="Future">}}
 
-Die Technologie bietet der Uni auch für die Zukunft zahlreiche Erweiterungsmöglichkeiten. Eine mögliche Anwendung wäre zum Beispiel, in den Gebäuden auf den beiden Campen alte Monitore zu nutzen, um die Abfahrt und Ankunftszeiten der Tram darzustellen. Durch die endlosen Möglichkeiten der digitalen Darstellung werden die Grenzen der Anwendung lediglich durch die Grenzen der Kreativität gesetzt.
+The technology offers numerous expansion possibilities for the future. 
+One possible application, for example, would be to use old monitors in the buildings on both campuses to display tram departure and arrival times. The possibilities for our project are only limited by the students' creativity to create content for the screens. 
 
-Wir hoffen damit mehr Studierende dazu zu motivieren Events oder Projekte zu promoten und Studierende auf Angebote auf dem Campus aufmerksam zu machen und diese damit zu ermutigen an mehr Projekten und Events der Universität teilzunehmen.
+We hope to motivate more students to promote events or projects and to make them more aware of campus offerings, thereby encouraging them to participate in more university projects and events.
+
 {{</section>}}
 
 {{<gallery>}}
 {{</gallery>}}
+
+
+
+{{</section>}}

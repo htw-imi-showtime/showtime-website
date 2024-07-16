@@ -9,11 +9,11 @@ The three of us, who had worked on the simulation last semester, provided the ne
 {{</section>}}
 
 {{<section title="Communication and Iteration">}}
-We maintained ongoing communication with product owners each week to iterate on and refine project details.
+We held weekly Scrum meetings with product owners to iterate on and refine project details, working in sprints to ensure continuous progress and alignment with our goals.
 {{</section>}}
 
 {{<section title="Programming">}}
-We primarily programmed in Unity, engaging in weekly discussions with product owners and regular team meetings to set goals for the upcoming week. Our workflow involved pushing our code to GitLab, where we collaborated on different branches.
+We primarily programmed in Unity. Our workflow involved pushing our code to GitLab, where we collaborated on different branches, including 'development' and 'main'.
 {{</section>}}
 
 {{<section title="Issue Assignment">}}
