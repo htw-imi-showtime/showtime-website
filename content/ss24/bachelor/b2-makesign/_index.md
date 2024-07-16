@@ -3,7 +3,7 @@ project_id = "B2"
 
 title = "Makesign"
 subtitle = "Digital Signage for the Campus"
-claim = "Promote your event or project simply and conveniently throughout the campus!"
+claim = "Promote your event or project easily and conveniently across the campus!"
 
 
 team = ["Rudolfs Spridis", "Nemo Ziener","Hyun Bin Jeoung", "Airon Jasinski","Niklas Aporius"]
