@@ -1,14 +1,14 @@
 +++
 project_id = "M3"
-title = "MindCraft"
-subtitle = "Entwicklung einer Serious Game-Suite zur Förderung der kognitiven Leistungsfähigkeit bei psychischen Erkrankungen"
-claim = ""
-abstract = "Ein in Kooperation mit Psycholog*innen entwickeltes Serious Game für die Verbesserung kognitiver Fähigkeiten."
+title = "CogniCity"
+subtitle = "A Serious Game Suite to help enhance coginitive abilities in the treatment of mental disorders"
+claim = "Seeing your coginitive skills fade away can be frustrating. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!"
+abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "brain.png"
+card_image = "logo_cognicity.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
-card_description = "Ein in Kooperation mit Psycholog*innen entwickeltes Serious Game für die Verbesserung kognitiver Fähigkeiten." 
+card_description = "Seeing your coginitive skills fade away can be frustrating. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!" 
 
 # Names are optional, team size is sufficient
 team = ["Alexander Schimanko", "Anton Schöps","Eve Schütze", "Justin Pallas", "Pauline Röhr"]
@@ -26,22 +26,22 @@ study_focus = ['Game Technology']
 <!-- Entweder ein Zitat einfügen, etwas aus dem Spiel oder weglassen--> 
 <!-- {{<image src="Platzhalter.png" alt="Platzhalter">}}-->  
 
-{{<section title =" Our Process" >}} 
-Minispiele programmiert sodass sie skalierbar sind, spiele Konzept betrachten (großer Streitpunkt), viele Konzept angeschaut (Wiederspielwert, Belohnungssysteme, mobiles Design, Spiel Umgebung, Scoring System),  individuelle UI. <!--TODO!-->   
-{{</section>}}
-
 {{<section title="Our Goal">}}
-"Name" ist eine Serious Game Suite die mehrere Minispielen in einer kleinen Welt präsentiert. Dabei sind die Minispiele skalierbar auf das aktuelle Können und vertreten unterschiedliche Aspekte von kognitiven Fähigkeiten, was auch über das persönliche Scoring angezeigt wird. Somit soll es im therapeutischen Umfeld einen interaktiven Ansatz bieten um die Effizienz der Therapien und die Motivation der Patienten zu fördern.
+Mental disorders can significantly impact **cognitive abilities**, making daily tasks and therapy more challenging. We believe that interactive and adaptive activities can help **improve** these cognitive functions. However, there is a lack of personalized and engaging tools designed **specifically for this purpose**.
 
+That's where our **game suite** comes in: developed in collaboration with psychologists from **Freie Universität Berlin**, our application is designed for individuals undergoing therapy for mental disorders. **CogniCity** provides engaging, adaptive **cognitive challenges** that integrate seamlessly into existing therapeutic practices. By involving patients in **fun and interactive minigames**, the game suite aims to **enhance cognitive abilities** and motivation, leading to more effective and enjoyable therapy sessions.
+
+Together, patients and therapists can work towards better mental health and **improved cognitive functions**, creating a supportive and engaging therapeutic environment.
 {{</section>}}
-
 
 {{<section title="The team">}}
-Alexander Schimanko: Programmierung, Game Design, Konzeption
-Anton Schöps: Design, Programmierung, 
-Eve Schütze: Design, Konzeption, Webseite, UI Design
-Justin Pallas: Programmierung,Godot
-Pauline Röhr: Backend, Projektmanagement
+The team constists of five students with **different interests and skillsets**. While some of us already brought a fair amount of experience in the field of game development, others were relatively new to the field. To achieve the best results in the limited time, we initially splitted the work into three categories:
+
+- Game Design & UI/UX
+- Game Development
+- Backend Development
+
+All of us participated in a long initial conceptual period within the first four weeks, followed by a couple of weeks where everyone worked on tasks within the categories that suited their skillset the best. At the end though, everyone worked **wherever there was work to be done**. This way everyone could **gather experience in new areas** and learn a lot during the project.
 {{</section>}} 
 
 {{<gallery>}}
