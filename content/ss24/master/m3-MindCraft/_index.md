@@ -2,13 +2,13 @@
 project_id = "M3"
 title = "CogniCity"
 subtitle = "A Serious Game Suite to help enhance coginitive abilities in the treatment of mental disorders"
-claim = "Seeing your coginitive skills fade away can be frustrating. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!"
+claim = "Keeping your coginitive skills in shape can be challenging. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!"
 abstract = ""
 
 # Properties for displaying the project in the project list
 card_image = "logo_cognicity.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
-card_description = "Seeing your coginitive skills fade away can be frustrating. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!" 
+card_description = "Keeping your cognitive skills in shape can be challenging. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!" 
 
 # Names are optional, team size is sufficient
 team = ["Alexander Schimanko", "Anton Schöps","Eve Schütze", "Justin Pallas", "Pauline Röhr"]
