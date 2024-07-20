@@ -35,9 +35,9 @@ The possibilities for our project are limited only by the users' creativity in g
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="Rudi.jpg" name="Rudolfs Spridis">}} 
-{{<team-member image="Nikki.jpg" name="Niklas Aporius">}}
-{{<team-member image="Nemo.jpg" name="Nemo Ziener">}}
-{{<team-member image="Hyun.jpg" name="Hyun Bin Jeoung">}}
-{{<team-member image="Airon.jpg" name="Airon Jasinski">}}
+{{<team-member image="rudi.jpg" name="Rudolfs Spridis">}} 
+{{<team-member image="nikki.jpg" name="Niklas Aporius">}}
+{{<team-member image="nemo.jpg" name="Nemo Ziener">}}
+{{<team-member image="hyun.jpg" name="Hyun Bin Jeoung">}}
+{{<team-member image="airon.jpg" name="Airon Jasinski">}}
 {{</gallery>}}
