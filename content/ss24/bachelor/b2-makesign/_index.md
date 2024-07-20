@@ -22,7 +22,7 @@ study_focus = ['Web Technology']
 {{<section title="Overview">}}
 If you have an event or project you want to share or invite people to, the current method is to elaborately and painstakingly hang posters throughout the campus. This problem has also plagued [IDiA](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/ueber-idia/) in the past. In collaboration with IDiA, our project aims to digitize this process by using old monitors and TVs as digital signage boards that can be placed throughout the campus to display information in real-time, enabling the university to repurpose its old hardware. For the end-users, we offer a simple web application through which users can upload their content to the screens across campus.
 
-We have developed a system for the IDiA [Makerspace](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/idia-spaces/maker-space/), to graphically display the booking system for the machines in Makerspace, such as the 3D Printers and the CNC routers. This system allows the booking schedule of these machines to be reviewed by the students at the makerspace in real-time on digital signage boards.
+We have developed a system for the IDiA [Makerspace](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/idia-spaces/maker-space/), to graphically display the booking system for the machines in Makerspace, such as the 3D Printers and the CNC routers. This system allows the booking schedule of these machines to be reviewed by the students at the Makerspace in real-time on digital signage boards.
 {{</section>}}
 
  
