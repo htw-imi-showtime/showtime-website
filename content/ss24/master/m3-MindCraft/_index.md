@@ -1,14 +1,14 @@
 +++
 project_id = "M3"
 title = "CogniCity"
-subtitle = "A Serious Game Suite to help enhance coginitive abilities in the treatment of mental disorders"
-claim = "Keeping your coginitive skills in shape can be challenging. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!"
+subtitle = "A Serious Game Suite to help enhance coginitive abilities"
+claim = "Seeing your coginitive skills fade away can be frustrating. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!"
 abstract = ""
 
 # Properties for displaying the project in the project list
 card_image = "logo_cognicity.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
-card_description = "Keeping your cognitive skills in shape can be challenging. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!" 
+card_description = "Seeing your cognitive skills fade away can be frustrating. Wouldn't it be awesome if you could train them in a fun and engaging way while also keeping track of your progress at the same time? Well, looks like it's time to move to CogniCity then!" 
 
 # Names are optional, team size is sufficient
 team = ["Alexander Schimanko", "Anton Schöps","Eve Schütze", "Justin Pallas", "Pauline Röhr"]
@@ -26,23 +26,31 @@ study_focus = ['Game Technology']
 <!-- Entweder ein Zitat einfügen, etwas aus dem Spiel oder weglassen--> 
 <!-- {{<image src="Platzhalter.png" alt="Platzhalter">}}-->  
 
-{{<section title="Our Goal">}}
-Mental disorders can significantly impact **cognitive abilities**, making daily tasks and therapy more challenging. We believe that interactive and adaptive activities can help **improve** these cognitive functions. However, there is a lack of personalized and engaging tools designed **specifically for this purpose**.
+{{<section title="The Problem">}}
+How good our **cognitive abilities** are has a **significant impact** on how good we perceive our own **life quality**.<sup>1</sup> 
 
-That's where our **game suite** comes in: developed in collaboration with psychologists from **Freie Universität Berlin**, our application is designed for individuals undergoing therapy for mental disorders. **CogniCity** provides engaging, adaptive **cognitive challenges** that integrate seamlessly into existing therapeutic practices. By involving patients in **fun and interactive minigames**, the game suite aims to **enhance cognitive abilities** and motivation, leading to more effective and enjoyable therapy sessions.
+Unfortunately some health conditions and their treatments can lead to a **decline in these abilities**. For example, imagine a teenager who has to spent a lot of time in the hospital due to a **chronic illness** and is unable to attend school regularly. Or a young adult who suffers from a heart desease and has to take regular **medication which can affect their cognitive abilities**. 
 
-Together, patients and therapists can work towards better mental health and **improved cognitive functions**, creating a supportive and engaging therapeutic environment.
+To fight the potential decline in those abilities, it is important to **train them regularly**. However, the training should be **fun and engaging** to keep the motivation high. This is where **CogniCity** comes in: a **game suite** that provides **interactive and adaptive minigames** to help improve cognitive abilities in a fun and engaging way.
+
+Source: <sup>1</sup>: [Charité - Universitätsmedizin Berlin, "Lebensqualität und Gesundheit - Subjektive Perspektiven von selbstauskunftsfähigen Pflegeheimbewohnern - eine qualitative Studie", 2014](https://econtent.hogrefe.com/doi/pdf/10.1024/1012-5302/a000390)
+{{</section>}}
+
+{{<section title="The Solution">}}
+Embedded in a research project of the **Freie Universität Berlin**, we aim to develop a **game suite** that is specifically designed to support individuals who are **in danger of cognitive decline** due to health conditions or their treatments. Our goal is to provide a **fun and engaging** way to train cognitive abilities, while also keeping track of the progress made. **CogniCity** provides a **variety of minigames** that can be used to train different cognitive abilities, such as **logical thinking**, **working memory** or **spatial thinking**.
 {{</section>}}
 
 {{<section title="The team">}}
-The team constists of five students with **different interests and skillsets**. While some of us already brought a fair amount of experience in the field of game development, others were relatively new to the field. To achieve the best results in the limited time, we initially splitted the work into three categories:
+While the core of the team consists of five HTW students, experts at the **Freie Universität Berlin** supported the project by answering our **psychological and mathematical questions**. This way we were able to create a **scientifically based solution**. 
+
+To make use of the different skillsets in our group, we splitted the work into three categories:
 
 - Game Design & UI/UX
 - Game Development
 - Backend Development
 
-All of us participated in a long initial conceptual period within the first four weeks, followed by a couple of weeks where everyone worked on tasks within the categories that suited their skillset the best. At the end though, everyone worked **wherever there was work to be done**. This way everyone could **gather experience in new areas** and learn a lot during the project.
-{{</section>}} 
+We used an **agile workflow** and assigned new tasks **dynamically** to ensure an **efficient development process**. 
+{{</section>}}
 
 {{<gallery>}}
 {{<team-member image="cat.jpg" name="Alexander Schimanko">}}
