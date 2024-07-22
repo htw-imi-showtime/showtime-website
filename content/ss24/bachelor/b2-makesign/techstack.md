@@ -25,7 +25,7 @@ weight = 1
 {{<image src="js-logo.png" alt="Javascript-Logo" caption="Javascript">}}
 {{<image src="rails-logo.png" alt="Rails-Logo" caption="Ruby on Rails">}}
 {{<image src="rubymine-logo.jpg" alt="Rubymine-Logo" caption="Rubymine">}}
-{{<image src="shell-logo.jpg" alt="Shell-Logo" caption="Shell">}}
+{{<image src="shell-logo.png" alt="Shell-Logo" caption="Shell">}}
 {{<image src="ubuntu-logo.jpg" alt="Ubuntu-Logo" caption="Ubuntu">}}
 {{<image src="vsc-logo.jpg" alt="Visual Studio Code-Logo" caption="Visual Studio Code">}}
 {{<image src="css-logo.png" alt="CSS-Logo" caption="CSS">}}
