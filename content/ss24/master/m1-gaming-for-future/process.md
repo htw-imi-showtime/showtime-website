@@ -1,7 +1,7 @@
 +++
 title = "Process"
 weight = 10
-draft = true
+draft = false
 +++
 
 {{<section title="Initial Meetings">}}
@@ -12,8 +12,8 @@ The three of us, who had worked on the simulation last semester, provided the ne
 We held weekly Scrum meetings with product owners to iterate on and refine project details, working in sprints to ensure continuous progress and alignment with our goals.
 {{</section>}}
 
-{{<section title="Programming">}}
-We primarily programmed in Unity. Our workflow involved pushing our code to GitLab, where we collaborated on different branches, including 'development' and 'main'.
+{{<section title="Programming Workflow">}}
+We managed our Source Code using the Gitflow Workflow and GitLab. Features were implemented, tested and reviewed before integrating them into the devolpment and later the main branch.
 {{</section>}}
 
 {{<section title="Issue Assignment">}}
