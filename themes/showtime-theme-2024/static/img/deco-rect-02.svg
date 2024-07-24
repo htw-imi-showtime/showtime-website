@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="57px" viewBox="0 0 23 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>deco_rect_02</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-2" transform="translate(-810.000000, -887.000000)">
+            <g id="Rectangles" transform="translate(170.000000, 318.000000)">
+                <g id="deco_rect_02" transform="translate(640.000000, 569.000000)">
+                    <rect id="Rectangle" fill="#67FFD2" x="7" y="0" width="16" height="50"></rect>
+                    <rect id="Rectangle" fill="#FCFF75" style="mix-blend-mode: lighten;" x="0" y="7" width="16" height="50"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

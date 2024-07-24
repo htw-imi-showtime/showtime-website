@@ -1,0 +1,18 @@
+
+
+
+{{ $projects := slice }}
+{{ range .Pages }} {{ $projects = append .Pages $projects}} {{ end }}
+{{ $projects = sort $projects "Params.project_id"}}
+{{ $anchor_prefix := "meta_list"}}
+
+<main>
+    {{ range $projects }}
+    <div >
+        <a href="{{ .RelPermalink }}">{{ .Params.project_id }} {{ .Title }}</a>
+         - <small>{{ .Params.Subtitle }}
+         </small><a href="#{{ partial "project/anchor.html" (dict "id" .Params.project_id  "a_pref" "meta_list" ) }}">&darr;</a>
+    </div>
+
+{{ end }}
+</main>

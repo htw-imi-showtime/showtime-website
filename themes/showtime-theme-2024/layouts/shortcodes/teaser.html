@@ -1,0 +1,17 @@
+{{ $teaser := newScratch }}
+{{ if .IsNamedParams }}
+    {{ $teaser.Set "category" (.Get "category") }}
+    {{ $teaser.Set "title" (.Get "title") }}
+{{ else }}
+    {{ $teaser.Set "category" (.Get 0) }}
+    {{ $teaser.Set "title" (.Get 1) }}
+{{ end }}
+
+<section class="teaser">
+    <h4 class="category">{{ $teaser.Get "category" }}</h4>
+    <h3>{{ $teaser.Get "title" }}</h3>
+    <div>
+        {{ .Inner | markdownify }}
+    </div>
+    <hr>
+</section>
