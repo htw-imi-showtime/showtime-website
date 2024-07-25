@@ -1,0 +1,25 @@
+{{ $image := newScratch }}
+{{ if .IsNamedParams }}
+    {{ if $.Page.Resources.GetMatch (.Get "src") }}
+        {{ $image.Set "src" ($.Page.Resources.GetMatch (.Get "src")) }}
+    {{ else }}
+        {{ $image.Set "src" ($.Page.Parent.Resources.GetMatch (.Get "src")) }}
+    {{ end }}
+    {{ $image.Set "alt" (.Get "alt") }}
+    {{ $image.Set "caption" (.Get "caption") }}
+{{ else }}
+    {{ if $.Page.Resources.GetMatch (.Get 0) }}
+        {{ $image.Set "src" ($.Page.Resources.GetMatch (.Get 0)) }}
+    {{ else }}
+        {{ $image.Set "src" ($.Page.Parent.Resources.GetMatch (.Get 0)) }}
+    {{ end }}
+    {{ $image.Set "alt" (.Get 1) }}
+    {{ $image.Set "caption" (.Get 2) }}
+{{ end }}
+
+<figure>
+    <img src="{{ ($image.Get "src").RelPermalink }}" alt="{{ $image.Get "alt" }}">
+{{ if $image.Get "caption" }}
+<figcaption>{{ $image.Get "caption" }}</figcaption>
+{{ end }}
+</figure>

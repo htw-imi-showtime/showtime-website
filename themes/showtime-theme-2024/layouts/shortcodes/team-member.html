@@ -1,0 +1,21 @@
+{{ $member := newScratch }}
+{{ if .IsNamedParams }}
+    {{ if $.Page.Resources.GetMatch (.Get "image") }}
+        {{ $member.Set "image" ($.Page.Resources.GetMatch (.Get "image")) }}
+    {{ else }}
+        {{ $member.Set "image" ($.Page.Parent.Resources.GetMatch (.Get "image")) }}
+    {{ end }}
+    {{ $member.Set "name" (.Get "name") }}
+{{ else }}
+    {{ if $.Page.Resources.GetMatch (.Get 0) }}
+        {{ $member.Set "image" ($.Page.Resources.GetMatch (.Get 0)) }}
+    {{ else }}
+        {{ $member.Set "image" ($.Page.Parent.Resources.GetMatch (.Get 0)) }}
+    {{ end }}
+    {{ $member.Set "name" (.Get 1) }}
+{{ end }}
+
+<figure class="team-member">
+    <img src="{{ ($member.Get "image").RelPermalink }}" alt="Portrait of {{ $member.Get "name" }}">
+    <figcaption>{{ $member.Get "name" }}</figcaption>
+</figure>

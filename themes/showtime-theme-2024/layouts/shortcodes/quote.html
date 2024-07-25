@@ -1,0 +1,15 @@
+{{ $quote := newScratch }}
+{{ if .IsNamedParams }}
+    {{ $quote.Set "source" (.Get "source") }}
+    {{ $quote.Set "caption" (.Get "caption") }}
+{{ else }}
+    {{ $quote.Set "source" (.Get 0) }}
+    {{ $quote.Set "caption" (.Get 1) }}
+{{ end }}
+
+<figure>
+    <blockquote cite="{{ $quote.Get "source" }}">
+        {{ .Inner | markdownify }}
+    </blockquote>
+    <figcaption>{{ $quote.Get "caption" }}</figcaption>
+</figure>

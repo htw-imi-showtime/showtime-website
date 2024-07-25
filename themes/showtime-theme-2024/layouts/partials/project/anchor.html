@@ -1,0 +1,8 @@
+{{- $project_id := .id -}}
+{{- $anchor_prefix := .a_pref -}}
+{{- printf "%s_%s" $project_id $anchor_prefix -}}
+{{/*
+    usage:
+     partial "project/anchor.html" (dict "id" .Params.project_id  "a_pref" "some_prefix" ) 
+     
+     */}}
