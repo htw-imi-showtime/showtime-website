@@ -5,6 +5,9 @@ draft = false
 +++
 
 {{<section title="Process">}}
+
+{{<image src="pipeline.jpg" alt="Screenshot von der Pipeline" caption="Pipeline of data processing.">}}
+
 At the beginning of the project, there was a brainstorming phase where we wanted to define how our project should look like at the end of the semester. Initially, we thought of having a tool where customers could have a conversation on the idealo website and ask everything about the product. We took inspiration from Perplexity AI, ChatGPT, and similar AI tools. 
 
 After a long discussion, we concluded that we would generate the output of the OpenAI API and place it on the website. We had a rough idea how our project should look like. Our supervisors recommended us to use GitHub for the project because it makes it efficient to collaborate as a group. Following a lengthy discussion, we decided to use the programming language “Python” because it is more convinient to use the OpenAI API with it. 
@@ -24,5 +27,4 @@ At this stage of the project we have only used information that can be found on 
 
 We did a lot of fine-tuning at the end improving the quality of our prompts, resulting in a more detailed and correct output. Furthermore, we improved on the efficiency of our program by synchronicing the AI request and multithreading which reduced our program runtime by more than 50 percent.
 
-{{<image src="pipeline.jpg" alt="Screenshot von der Pipeline" caption="Pipeline of data processing.">}}
 {{</section>}}
