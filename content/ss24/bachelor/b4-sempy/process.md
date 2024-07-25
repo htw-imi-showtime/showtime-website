@@ -6,7 +6,7 @@ draft = false
 
 {{<section title="Process">}}
 
-{{<image src="pipeline.jpg" alt="Screenshot von der Pipeline" caption="Pipeline of data processing.">}}
+{{<image src="pipelinen.jpg" alt="Screenshot von der Pipeline" caption="Pipeline of data processing.">}}
 
 At the beginning of the project, there was a brainstorming phase where we wanted to define how our project should look like at the end of the semester. Initially, we thought of having a tool where customers could have a conversation on the idealo website and ask everything about the product. We took inspiration from Perplexity AI, ChatGPT, and similar AI tools. 
 
