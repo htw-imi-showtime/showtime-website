@@ -1,0 +1,31 @@
+{{ $semester := .semester }}
+{{ $type := slicestr $semester 0 2 }}
+{{ $year := slicestr $semester 2 }}
+
+{{ if eq .type "long" }}
+    {{ if eq $type "ws" }}
+        Winter semester
+    {{ else }}
+        Summer semester
+    {{ end }}
+{{ else if eq .type "short" }}
+    {{ if eq $type "ws" }}
+        winter
+    {{ else }}
+        summer
+    {{ end }}
+{{ end }}
+
+{{ if eq $type "ss" }}
+    {{ if eq (len $year) 2 }}
+        20{{ print $year }}
+    {{ else }}
+        {{ print $year }}
+    {{ end }}
+{{ else if eq $type "ws" }}
+    {{ if and (eq (len $year) 2) (eq .type "long") }}
+        20{{ print $year }}/{{ print (add (int $year) 1) }}
+    {{ else }}
+        {{ print $year }}/{{ print (add (int $year) 1) }}
+    {{ end }}
+{{ end }}

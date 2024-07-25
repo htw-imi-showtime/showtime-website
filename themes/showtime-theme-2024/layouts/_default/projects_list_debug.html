@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ $semester := .Title }}
+{{ $title := "Project Overview" }}
+{{ $show_semester_selection := false}}
+
+{{ if eq .Title "Projects" }}
+    {{ $semester = .Site.Params.current_semester }}
+   {{  $title = .Title }}
+   {{ $show_semester_selection = false}}
+{{ end }}
+{{ $current_semester_page := .Site.GetPage $semester}}
+
+    <header>
+        <h1>
+            {{ $title }}
+            <span class="light block">
+                {{ partial "semester" (dict "type" "short" "semester" $semester) }}</span>
+            <span class="underscore-spacer"> </span>
+        </h1>
+
+        <section class="underscore">
+            <div class="spacer"></div>
+
+            {{ if $show_semester_selection }}{{ partial "semester_selection.html" . }}{{ end }}
+
+           
+            {{- .Content -}}
+            {{ partial "project/short_list.html" $current_semester_page }}
+       
+        </section>
+       
+    </header>
+
+        
+         <!--
+        <hr> {{ range $current_semester_page.Pages }}
+        {{ .RelPermalink }}<br>
+        {{ end }}
+        <hr>
+        -->
+
+        {{ partial "project/meta_data_overview.html" $current_semester_page }}
+
+{{ end }}

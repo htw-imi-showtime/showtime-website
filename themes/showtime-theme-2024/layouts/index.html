@@ -1,0 +1,70 @@
+{{ define "main" }}
+<section class="start">
+    <img class="deco-01" src="{{ "img/deco-rect-01.svg" | absURL }}" alt="decorative element">
+    <img class="deco-02" src="{{ "img/deco-rect-02.svg" | absURL }}" alt="decorative element">
+    <div class="content">
+        {{ if eq .Params.is_live "false" }}
+        <div>
+            <div>
+                <h1>
+                    IMI<span class="light">×</span>Showtime<br>
+                    <span class="light">{{ partial "semester" (dict "type" "short" "semester" .Site.Params.current_semester) }}</span>
+                </h1>
+                <p>
+                    <strong>
+                        Projects showcase<br>
+                        {{ partial "semester" (dict "type" "long" "semester" .Site.Params.current_semester) }}
+                    </strong><br>
+                    International Media and Computing B/M<br>
+                    HTW Berlin
+                </p>
+            </div>
+            <img src="{{"img/showtime-keyvisual.svg" | absURL }}" alt="IMI-Showtime keyvisual">
+        </div>
+        {{ else }}
+        <div class="live">
+            <img class="keyvisual-live" src="{{"img/showtime-keyvisual-live.svg" | absURL }}" alt="IMI-Showtime keyvisual">
+            <h1>
+                IMI<span class="light">×</span>ST
+                <span class="light">{{ partial "semester" (dict "semester" .Site.Params.current_semester) }} is live!</span>
+            </h1>
+            <div>
+                <a href="{{ .Params.zoom_link }}"><button>Join via Zoom!</button></a>
+                <a href="{{ "zoom-help" | absURL }}">How do I zoom?</a>
+            </div>
+
+        </div>
+        {{end}}
+        <div>
+            <a href="#down"><img src="{{"img/arrow-down.svg" | absURL }}" alt="arrow down"></a>
+            {{ if eq .Params.is_live "false" }}
+            <h1>
+                <span class="light">_</span><br>
+                {{ $std := .Params.showtime_save_the_date }}
+                 {{ if (not (eq "" $std)) }}
+                {{ $std }}<br>{{ end }}
+                {{ .Params.showtime_date }}<br>
+                <span class="light">{{ .Params.showtime_place }}</span>
+            </h1>
+            {{end}}
+        </div>
+    </div>
+</section>
+<section id="down" class="home-content">
+    <main>
+        {{ .Content }}
+        <section class="call-to-action">
+            <h3>Work with<br><span class="light">our students</span></h3>
+            <div>
+                <p>
+                    We’re always looking for new exciting partners for new projects.
+                    Browse through the  <a href="{{ "projects" | absURL }}">current projects</a>
+                    or <a href="{{ .Site.Params.Archive_path | relURL }}"> former ones in the archive</a> to get an idea
+                      what might be possible.
+                </p>
+                <a href="{{ "contact" | absURL }}"><button>-> contact us</button></a>
+            </div>
+        </section>
+    </main>
+</section>
+{{ end }}

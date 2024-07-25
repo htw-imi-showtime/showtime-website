@@ -1,0 +1,43 @@
+name: Build Hugo and Check Title
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  hugo-build:
+    if: github.repository == 'htw-imi-showtime/showtime-website'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+
+    - name: Hugo setup
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: '0.128.0'
+        extended: true
+
+    - name: Build
+      run: |
+        hugo \
+          --environment staging \
+          --baseURL "https://htw-imi-showtime.github.io/tryout/" \
+          --buildDrafts 
+
+# duplicated here as this wf runs on all prs
+  check-pr-title:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        fetch-depth: 1
+    - name: check pr title starts with project id or "STW"
+      id: extract_pid
+      env: 
+        PR_TITLE: ${{ github.event.pull_request.title }}
+      run: |
+        ./bin/check-project-update-pr/check-title.sh "$PR_TITLE"
+

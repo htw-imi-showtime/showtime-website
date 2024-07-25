@@ -5,25 +5,75 @@ class = "general"
 
 
 [[slot]]
+time = "10:05"
+project_id = "B1"
+
+
+[[slot]]
+time = "10:12"
+project_id = "B2"
+
+
+[[slot]]
+time = "10:19"
+project_id = "B3"
+
+
+[[slot]]
+time = "10:26"
+project_id = "B4"
+
+
+[[slot]]
+time = "10:33"
+project_id = "B5"
+
+
+[[slot]]
+time = "10:40"
+project_id = "M1"
+
+
+[[slot]]
+time = "10:47"
+project_id = "M2"
+
+
+[[slot]]
+time = "10:54"
+project_id = "M3"
+
+
+[[slot]]
+time = "11:01"
+project_id = "M4"
+
+
+[[slot]]
+time = "11:08"
+project_id = "M5"
+
+
+[[slot]]
 time = "11:15"
 title = "Lunch Break"
 class = "general"
 
 [[slot]]
-time = "12:00-15:00"
+time = "ca. 11:45-15:00"
 title = "Project Fair"
 text = "Project Booths in H001"
 class = "general"
 
 
 [[slot]]
-time = "15:00"
-title = "Break"
+time = "ab ca. 15:00"
+title = "Abbau"
 text = "(and a secret grading meeting of the supervisors)"
 class = "general"
 
 [[slot]]
-time = "16:00"
-title = "Announcement Of Grades"
-text = "Project Groups meet with their project supervisors"
+time = "ca. 16:00"
+title = "All Supervisors Meet in a Room on the 1st floor"
+text = "Project Groups and Supervisors meet individually afterwards"
 class = "general"
