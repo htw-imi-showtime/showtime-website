@@ -24,4 +24,5 @@ At this stage of the project we have only used information that can be found on 
 
 We did a lot of fine-tuning at the end improving the quality of our prompts, resulting in a more detailed and correct output. Furthermore, we improved on the efficiency of our program by synchronicing the AI request and multithreading which reduced our program runtime by more than 50 percent.
 
+{{<image src="pipeline.jpg" alt="Screenshot von der Pipeline" caption="Pipeline of data processing.">}}
 {{</section>}}
