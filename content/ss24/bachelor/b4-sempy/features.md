@@ -11,4 +11,6 @@ Our SEMPY Button offers a relaxed shopping experience that provides customers wi
 
 We take information from idealo, YouTube and Amazon and give them to the OpenAi to process and summerize them. It then generates a text with all the important information in an overview with pros and cons, a short summary of customer reviews, a review video, FAQ's and an recommendation of an target audience. 
 
+{{<image src="openmodal.gif" alt="Gif von Modalbutton" caption="SEMPY Button on the idealo Website.">}}
+
 {{</section>}}
