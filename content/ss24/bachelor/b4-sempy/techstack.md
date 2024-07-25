@@ -25,9 +25,9 @@ weight = 1
 
 {{<section title="Backend">}}
 {{<gallery>}}
-{{<image src="python.png" alt="Python Icon" caption="Python">}}
-{{<image src="openai.png" alt="OpenAI API Icon" caption="OpenAI API">}}
-{{<image src="youtube.png" alt="YouTubeAPI Icon" caption="YouTubeAPI">}}
-{{<image src="flask.png" alt="Flask Icon" caption="Flask">}}
+{{<image src="pythonn.png" alt="Python Icon" caption="Python">}}
+{{<image src="openain.png" alt="OpenAI API Icon" caption="OpenAI API">}}
+{{<image src="youtuben.png" alt="YouTubeAPI Icon" caption="YouTubeAPI">}}
+{{<image src="flaskn.png" alt="Flask Icon" caption="Flask">}}
 {{</gallery>}}
 {{</section>}}
