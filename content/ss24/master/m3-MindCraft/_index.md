@@ -53,10 +53,10 @@ We used an **agile workflow** and assigned new tasks **dynamically** to ensure a
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="Alexander Schimanko">}}
-{{<team-member image="cat.jpg" name="Anton Schöps">}}
-{{<team-member image="cat.jpg" name="Eve Schütze">}}
-{{<team-member image="cat.jpg" name="Justin Pallas">}}
-{{<team-member image="cat.jpg" name="Pauline Röhr">}}
+{{<team-member image="placeholder.png" name="Alexander Schimanko">}}
+{{<team-member image="anton.jpg" name="Anton Schöps">}}
+{{<team-member image="placeholder.png" name="Eve Schütze">}}
+{{<team-member image="justin.jpg" name="Justin Pallas">}}
+{{<team-member image="pauline.jpg" name="Pauline Röhr">}}
 {{</gallery>}}
 
