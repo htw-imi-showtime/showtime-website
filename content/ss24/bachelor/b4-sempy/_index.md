@@ -11,7 +11,7 @@ card_image = "sempylogo.jpg"
 card_description = "SEMPY is an AI research agent that supports customers of the idealo website in making better buying decisions. This tool gathers information from various websites, summarizes it, and provides the best advice." 
 
 # Names are optional, team size is sufficient
-team = ["**S**on Xuan Hoang","**E**ldar Akhundzada", "**M**athieu Wassmuth", "**P**aul Schiffner", "**Y**asin Dalowar"]
+team = ["Son Xuan Hoang","Eldar Akhundzada", "Mathieu Wassmuth", "Paul Schiffner", "Yasin Dalowar"]
 supervisor = "Jakob Panten & Jana Dolan & Tino Nitze"
 draft = false
 
