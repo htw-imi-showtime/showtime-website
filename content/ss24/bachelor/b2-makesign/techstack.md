@@ -15,7 +15,7 @@ weight = 1
 {{<section title="Organization">}}
 {{<gallery>}}
 {{<image src="github-logo.png" alt="Github-Logo" caption="Github">}}
-{{<image src="google-docs-logo.png" alt="Google-Docs-Logo" caption="Google-Docs">}}
+{{<image src="Google-docs-logo.png" alt="Google-Docs-Logo" caption="Google-Docs">}}
 {{</gallery>}}
 {{</section>}}
 
