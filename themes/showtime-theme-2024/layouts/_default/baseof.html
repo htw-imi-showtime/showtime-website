@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    {{- partial "head.html" . -}}
+    <body>
+
+<!-- HEADER - can be moved back to partial when this issue is resolved: https://github.com/gohugoio/hugo/issues/7936   -->
+        
+     <nav class="background {{ .Type | lower }}">
+         <a href="{{ .Site.BaseURL }}" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">{{ partial "semester" (dict "semester" .Site.Params.current_semester)}}</span></a>
+         {{ if not (eq .Site.BaseURL .Site.Params.Production_site )}} 
+         <div class = "warn">
+            {{ .Site.Params.Preview_message}} 
+             {{ with .Site.Params.Preview_url}}
+             <a href="{{ . }}">↗️</a>
+             {{ end }}
+          
+             
+             ({{ if .Site.BuildDrafts }}with{{ else }}without{{ end }} drafts)
+         </div>  
+         {{ end }}
+         <ul>
+             <li><a href="{{ "projects" | absURL }}">Projects</a></li>
+             <li><a href="{{ "schedule" | absURL }}">Schedule</a></li>
+             <li><a href="{{ "dates" | absURL }}">Dates</a></li>
+             {{ $archive_page := .GetPage .Site.Params.Archive_path }}
+             {{ with $archive_page}}
+             <li><a href="{{ .Site.Params.Archive_path | relURL }}">Archive</a></li>
+             {{ else }}
+             <li><a href="{{ "archive" | relURL }}">Archive</a></li>
+             {{ end }}
+             <li><a href="{{ "contact"  | absURL }}">Contact</a></li>
+             {{- block "project_navigation" . }}{{- end }}
+        </ul>
+     </nav>
+
+<!-- HEADER -->
+
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+
+        {{ if or (.Store.Get "hasMermaid") (.Params.HasMermaid) }}
+            <script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+{{ end }}
+    </body>
+</html>
+
+{{ define "project_navigation" }}
+    {{ $first_project := partial "project/first_project_in_semester.page" .}}
+    <li><a href="{{ $first_project.RelPermalink | relURL}}">Browse Projects</a></li>
+{{ end }}

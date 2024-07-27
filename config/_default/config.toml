@@ -1,7 +1,7 @@
 baseURL = "http://localhost:1313/"
 languageCode = "de-de"
 title = "IMI Showtime"
-theme = "showtime-theme-2021"
+theme = "showtime-theme-2024"
 enableGitInfo = true
 
 [params]

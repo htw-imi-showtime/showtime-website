@@ -1,0 +1,14 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8">
+
+{{  $sassTemplate := resources.Get "sass/main.template" }}
+{{- $options := dict "transpiler" "libsass" "targetPath" "css/style.css" }}
+{{- with $sassTemplate  | resources.ExecuteAsTemplate "main.scss" . | toCSS $options  | minify | fingerprint -}}
+   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
+
+<script src={{ "js/title-animate.js" | absURL }} charset="utf-8"></script>
+<script src={{ "js/semester-select.js" | absURL }} charset="utf-8"></script>
+<script src={{ "js/secret.js" | absURL }} charset="utf-8"></script>
+<title>IMI Showtime - HTW Berlin</title>
