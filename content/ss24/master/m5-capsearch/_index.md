@@ -44,6 +44,7 @@ Focusing on a quality product in the end, agile principles were always a part of
 After the requirements and scope of the project had been defined, the tasks were divided within the development team in such a way that the personal skill set of each individual could be brought out and used, but also offered opportunities to learn something new together and support each other.
 the results were then presented in weekly sprints where concerns could be clarified and new ideas could be given and received in order to produce a satisfactory product.
 {{</section>}}
+{{<image src="c4model.png" alt="indepth explanation using the c4 model with focus on the recommender">}}
 
 {{<image src="process.png" alt="process of development flow">}}
 

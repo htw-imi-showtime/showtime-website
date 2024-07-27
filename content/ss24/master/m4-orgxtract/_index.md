@@ -2,8 +2,8 @@
 project_id = "M4"
 title = "OrgXtract"
 subtitle = ""
-claim = ""
-abstract = "In our quest to challenge German bureaucracy, our project transforms organizational charts stored as PDFs into machine-readable open data formats, enhancing research capabilities and promoting transparency of German authorities."
+claim = "In our quest to challenge German bureaucracy, our project transforms organizational charts stored as PDFs into machine-readable open data formats, enhancing research capabilities and promoting transparency of German authorities."
+abstract = ""
 
 # Properties for displaying the project in the project list
 card_image = "logo_orgxtract.jpg"
@@ -34,7 +34,7 @@ study_focus = []
 
 
 {{<section title="Our Goal">}}
-The project aims to transform organizational charts, traditionally stored as PDFs, into a machine-readable format to enhance transparency in German authorities personnel structure. It focuses on converting these static documents into data that can be easily analyzed, to provide deeper insights into public administration.
+The project aims to **transform organizational charts**, traditionally stored as PDFs, into a machine-readable format to enhance transparency in German authorities personnel structure. It focuses on converting these static documents into data that can be easily analyzed, to provide deeper insights into public administration.
 The goal was to create a tool for the Open Knowledge Foundation team to extract data from organizational charts of public authorities in PDF and use the output data to conduct their research.
 {{</section>}}
 
