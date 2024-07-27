@@ -11,7 +11,7 @@ card_image = "Screenshot_Start.png"
 card_description = "Imagine a scenario where the area available for food production is decreasing. You are part of a team responsible for the indoor cultivation of algae. Those can be used to produce food. Your task is to optimise the production for these algae and feed your country in your own four walls. Interested? Explore Ecospire!" 
 
 # Names are optional, team size is sufficient
-team = ["Gerrit Behrens", "Diro Baloska", "Yosua Sentosa", "Hasan Alkurdi"]
+team = ["Gerrit Behrens", "Diro Baloska", "Yosua Sentinosa", "Hasan Alkurdi"]
 supervisor = "Carsten Busch"
 draft = false
 
