@@ -11,5 +11,5 @@ When you are already an expert on doing research stage one you can go back to th
 <br><br> 
 To test the game, visit us on IMI-Showtime on: <strong>02, August 2024 at WH H001 (12am to 3pm)</strong>.
 
-{{<image src="Screenshot_Phase_1.jpg" alt="Screenshot phase 1">}}
+{{<image src="screenshot_phase_1.jpg" alt="Screenshot phase 1">}}
 {{</section>}}
