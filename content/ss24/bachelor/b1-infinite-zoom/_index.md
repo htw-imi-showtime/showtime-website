@@ -24,7 +24,7 @@ study_focus = ['Game Technology']
 
 +++
 
-Dive into a journey with our infinite zoom 3D game. Navigate through obstacles, explore funky scenes, and test your reflexes in a game that never ends. Each scene brings new thrills, pushing your skills to the limit in a universe that continuously evolves. 
+Dive into a journey with our infinite zoom 3D game. Navigate through obstacles, explore funky scenes and test your reflexes in a game that never ends. Each scene brings new thrills, pushing your skills to the limit in a universe that continuously evolves. 
 
 {{<section title="Our Goal">}}
 Our mission is to create an immersive and endlessly engaging experience. We aim to develop a game that not only entertains but also inspires players to explore the infinite possibilities of a dynamic 3D world.
