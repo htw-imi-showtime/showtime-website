@@ -9,8 +9,6 @@ name: Deploy Page using GH-Actions
 
 on:
   push:
-    branches:
-      - main  # Set a branch that will trigger a deployment
   workflow_dispatch:
     
 permissions:
