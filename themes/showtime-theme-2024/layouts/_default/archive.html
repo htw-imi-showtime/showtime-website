@@ -1,0 +1,54 @@
+{{ define "main" }}
+<header>
+    <h1>
+        {{ .Title }}
+        <span class="underscore-spacer"> </span>
+    </h1>
+    <section class="underscore">
+        {{ $archive_page := .GetPage .Site.Params.Archive_path }} 
+        <div class="spacer"></div>
+        {{ if $archive_page}}
+            {{ partial "semester_selection.html" . }}
+        {{ end }}
+
+        {{- .Content -}}
+        <p>
+            
+        {{ with $archive_page}}
+                    Complete Project Archive.
+        {{ else }}
+        
+            Project Archive not included, only showing the current semester!
+        {{ end }}
+        </p>
+    </section>
+
+</header>
+<main>
+
+
+ 
+ {{ $current_semester := slice (.Site.GetPage .Site.Params.current_semester) }}
+ {{ $all_weight_reversed :=  sort .Site.Pages ".Weight" "desc" }}
+ {{ $all_weight_reversed = where $all_weight_reversed "Params.category" "project-archive" }}
+ {{ $all :=  append $all_weight_reversed $current_semester }} 
+ {{ $all = $all_weight_reversed}}
+
+ {{ range $all  }}
+ 
+ <h2><a href="{{ .RelPermalink }}">{{ .Params.full_title | upper }}</a></h2>
+    {{ $semester := .Title }}
+    {{ range .Pages }}
+        
+        <h4><a href="{{ .RelPermalink }}">{{ .Params.Cascade.Type | upper }} {{ $semester | upper}}</a></h4>
+ 
+        <ul>{{ range sort .Pages ".Params.project_id"}}
+            <li><a href="{{ .RelPermalink }}"> {{ .Params.project_id }} - {{ .Title }}</a>  ({{ .Params.supervisor }})
+        
+            {{ end }}</ul>
+    {{ end }}
+    
+{{ end }}
+</ul>
+</main>
+{{ end }}

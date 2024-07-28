@@ -1,0 +1,23 @@
+
+{{ $all_semester := where .Site.Pages.ByWeight  "Params.category" "project-archive" }}
+    
+    {{ $all_projects := slice }}
+    {{ $next_semester_project := "" }}
+    {{ $prev_semester_project := "" }}
+
+    {{ range $all_semester }}
+        {{ $sem := .}}
+        {{- /* Bachelor/Master */ -}}
+        {{ $projects_in_s := slice}}
+        {{ range .Pages }}
+           {{ $projects_in_s_bm := where .Pages "Params.project_id" "ne" "" }}
+           {{ $projects_in_s_bm = .Pages }}
+           {{ $projects_in_s_bm = sort $projects_in_s_bm "Params.Project_id"}}
+           {{ $projects_in_s = $projects_in_s | append $projects_in_s_bm }}
+        {{ end }}
+        {{ $all_projects = $all_projects | append $projects_in_s }}
+        
+    {{ end }}
+
+
+{{ return index $all_projects 0 }}
