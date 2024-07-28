@@ -39,3 +39,4 @@ Our team consists out of four students of the Media and Computing Master at HTW 
 {{<team-member image="team_hasan.jpg" name="Hasan - Content / 3D_Artist">}}
 {{</gallery>}}
 
+
