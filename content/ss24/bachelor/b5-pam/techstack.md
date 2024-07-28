@@ -18,5 +18,23 @@ As this is a project on a limited-time basis, we are not planning on adding new 
 As for our personal futures, we plan on taking the skills we developed in this project and perhaps improving on them in our repertoire to use in our future jobs and prospects.
 
 
+
+{{</section>}}
+
+{{<section title="Personal Reflections">}}
+
+Lukas Oswald:
+
+
+Margarita Boiko:
+
+
+Hamzeh Hamzeh:
+
+
+Anh Phuc Hoang:
+
+
+
 {{</section>}}
 
