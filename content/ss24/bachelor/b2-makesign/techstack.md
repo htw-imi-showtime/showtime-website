@@ -1,6 +1,8 @@
 +++
 title = "Tech Stack"
 weight = 1
+
+draft = true
 +++
 
 {{<section title="Communication">}}

@@ -1,6 +1,9 @@
 +++
 title = "Features"
 weight = 1
+
+draft = true
+
 +++
 
 {{<section title="Features">}}
