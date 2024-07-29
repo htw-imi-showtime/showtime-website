@@ -43,9 +43,16 @@ All of this allows to make more informed decisions and communicate better with t
 {{</section>}}
 
 {{<section title="Process">}}
-Lunarfit was developed in cooperation with the Institute of Sports Science at the University of Bern.
+The foundation of our project was provided by the Institute of Sports Science at the University of Bern, giving us a scientific basis to build upon. They initially presented their idea using a Miro Board, setting the stage for our development process. As we progressed, we continuously refined and expanded the concept, ensuring it evolved effectively the project.
+
+Before officially starting, we conducted a market analysis to assess the landscape and understand user requirements. Using the insights gained, we defined a set of features and created database and API schemas and clickable mockups in Figma to visualize the app's functionality.
+
+Next, we evaluated different tech stacks to identify the one that would best support our ideas. We then employed an agile development process, holding weekly meetings to maintain flexibility and respond to feedback quickly. This iterative approach allowed us to continuously optimize our ideas, ensuring it was both functional and user-friendly.
 {{</section>}}
 
+{{<section title="Team">}}
+Each team member was assigned a specific part of the app to focus on, promoting a sense of responsibility. This division of labor streamlined the development process and ensured that all aspects of the app received the necessary attention.
+{{</section>}}
 {{<gallery>}}
 {{<team-member image="p-marie.jpg" name="Marie Menge">}}
 {{<team-member image="p-lilly.jpg" name="Lilly Mydlach">}}
