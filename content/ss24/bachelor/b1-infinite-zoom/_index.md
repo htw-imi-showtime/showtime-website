@@ -27,12 +27,14 @@ study_focus = ['Game Technology']
 Dive into a journey with our infinite zoom 3D game. Navigate through obstacles, explore funky scenes and test your reflexes in a game that never ends. Each scene brings new thrills, pushing your skills to the limit in a universe that continuously evolves. 
 
 {{<section title="Our Goal">}}
-Our mission is to create an immersive and endlessly engaging experience. We aim to develop a game that not only entertains but also inspires players to explore the infinite possibilities of a dynamic 3D world.
+The main task of this project was to create a constant zoom effect in a 3D environment that evolves with time and never stops. We wanted to make this experience more engaging for the audience, so we implemented a game mode where the users must avoid the obstacles that come in their way. 
+
+ Our aim is to develop a game that not only entertains but also inspires players to explore the infinite possibilities of a dynamic 3D world.
 {{</section>}}
 
 
 {{<section title="The team">}}
-We are a motivated team of five, each bringing unique skills and creativity to the project.
+We are a motivated team of five imi students, each bringing unique skills and creativity to the project.
 {{</section>}} 
 
 {{<gallery>}}
