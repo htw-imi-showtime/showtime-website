@@ -1,10 +1,20 @@
 +++
 title = "Process"
-weight = 10
+weight = 1
+
 draft = true
 +++
 
 {{<section title="Process">}}
 
+At the beginning of the project, we had a kick-off meeting with Prof. Dr. Barne, our project supervisor, and Martin Holzhauer, our lead connection to the IDiA Makerspace. Martin explained his needs for the digital signage, which considers showing ads for the Makerspace and most importantly, the booking reservations of the IDiA booking website. 
+To get a general idea on digital signage, we looked around the campus for already existing digital signage use cases for inspiration, as well as possible cases, in which it might be practical to implement. After that, we looked at the IDiA booking website and selected the most important information necessary for the viewers to see on a separate “dashboard”. In addition, each of us sketched wireframes to find the necessary functions and the designs we needed. We researched which hardware, software, and frameworks we could use for the implementation. 
+For the hardware, Martin already used a Raspberry Pi for his prototype digital signage version, which simply cycled through some pictures of IDiA ads. A Raspberry Pi is a minicomputer, with a Linux based operating system, a small build, and that is pretty affordable, which makes it a practical use case for our project. The Raspberry Pi’s performance was sufficient for our needs. After talking with experts in the matter, we settled on the “Raspberry Pi 3 Model B+”, being the most practical for our project, and borrowed 3 Raspberry Pis on the spot. 
+At first, we divided up the team into 3 parts, with each working on a general task. The first, worked on setting up the operating system of the Raspberry Pi. The second, worked on the overall designs for the dashboard to get a feeling for Martin on how it will look like, as well as a smooth implementation on HTML/CSS/JS. The third, worked on finding a way to connect to the API of the IDiA booking website.
+We managed to run Linux on the Raspberry Pis relatively quickly, but had problems connecting them to the universities' internet, Eduroam, as well as getting them past the HTW-Firewall to work remotely on our notebooks. For the API, we had to write some E-Mails back and forth to the corresponding developer of the IDiA booking website, until we received our very own API-Key to fetch data from the booking website and convert them to JSON objects and display them on the dashboard.
+As we finished up the internet connection of the Raspberry Pis, as well as finishing up the dashboard with HTML/CSS/JS, the corresponding teams moved on to researching open-source software solutions, to change the contents on the digital signage. We came across a software called [Concerto](https://www.concerto-signage.org/overview), which would be able to handle all our necessities for the software. Multiple problems occurred, as we dove more deeply into the software. Concerto is fully written in the programming language Ruby and the framework Rails, which we collectively had no experience with. Furthermore, the last update was 7 years ago, which is why the UI and Code were not only extremely outdated but also did not work properly due to the changes to the Framework. So it was our task to update and improve Concerto. 
+Our supervisor supported us in this process, as it was difficult to improve the code without much "Ruby on Rails" knowledge. We struggled with this for a long time and had weekly meetings with our supervisor.
+In the following weeks, we were able to configure our Raspberry Pi, so that it could automatically run and project a website on a monitor. Additionally, we finished up the dashboard connecting our design with the API via a server.
+In the last weeks of the project, we sadly had to decide against further fixing Concerto and use the knowledge we gained from the process to set up our own rails application which fulfills the tasks we defined at the beginning. Our last job was to set up a web server with "Docker" to host the website, in which the user can upload the files they want to display.
 
 {{</section>}}

@@ -1,7 +1,7 @@
 +++
 project_id = "B2"
 
-title = "Makesign"
+title = "MakeSign"
 subtitle = "Digital Signage for the IDiA Makerspace"
 claim = "A digital signage solution to promote events, projects, and schedules, simply and conveniently"
 
@@ -20,19 +20,14 @@ study_focus = ['Web Technology']
 
 
 {{<section title="Overview">}}
-If you have an event or project you want to share or invite people to, the current method is to elaborately and painstakingly hang posters throughout the campus. This problem has also plagued [IDiA](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/ueber-idia/) in the past. In collaboration with IDiA, our project aims to digitize this process by using old monitors and TVs as digital signage boards that can be placed throughout the campus to display information in real-time, enabling the university to repurpose its old hardware. For the end-users, we offer a simple web application through which users can upload their content to the screens across campus.
 
-We have developed a system for the IDiA [Makerspace](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/idia-spaces/maker-space/), to graphically display the booking system for the machines in Makerspace, such as the 3D Printers and the CNC routers. This system allows the booking schedule of these machines to be reviewed by the students at the Makerspace in real-time on digital signage boards.
-{{</section>}}
+In collaboration with [IDiA](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/ueber-idia/), we developed a project that aims to create a digital signage solution for the [Makerspace](https://entrepreneurship.htw-berlin.de/ueber-uns/ideas-in-action-idia/idia-spaces/maker-space/).
+MakeSign will be used to display adverts and reservations for tools.
 
- 
-{{<section title="Future">}}
-
-The technology offers numerous expansion possibilities. For example, monitors could be put up as digital signage boards across the campus on varios high traffic spots and the system could be opened up to allow students and professors to upload their project or event posters. Another potential expansion would be to integrate the BVGs Api and to display tram arrival and departure times in real-time across different areas of the campus.
-The possibilities for our project are limited only by the users' creativity in generating content for the screens. We aim to help IDiA and their Makerspace more effectively promote their events and provide a user-friendly system that allows for easy expansion. In the future, we hope to increase university students' awareness of campus offerings, thereby encouraging greater participation in projects and events, whether organized by IDiA, other students, or professors.
-
+Key features include a well-structured dashboard for displaying time slots of 3D printers, laser cutters and CNC machines, as well as a system for uploading images to be displayed on monitors using micro computers.
 
 {{</section>}}
+
 
 {{<gallery>}}
 {{<team-member image="rudi.jpg" name="Rudolfs Spridis">}} 
