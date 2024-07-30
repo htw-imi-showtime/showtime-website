@@ -1,7 +1,7 @@
 +++
 project_id = "B4"
-title = "SEMPY AI-Research Agent"
-subtitle = ""
+title = "SEMPY"
+subtitle = "AI-Research Agent"
 claim = ""
 abstract = ""
 
@@ -12,7 +12,7 @@ card_description = "SEMPY is an AI research agent that supports customers of the
 
 # Names are optional, team size is sufficient
 team = ["Son Xuan Hoang","Eldar Akhundzada", "Mathieu Wassmuth", "Paul Schiffner", "Yasin Dalowar"]
-supervisor = "Jakob Panten & Jana Dolan & Tino Nitze"
+supervisor = ["Jakob Panten", "Jana Dolan", "Tino Nitze"]
 draft = false
 
 website_link = ""
