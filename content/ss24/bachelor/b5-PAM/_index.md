@@ -15,10 +15,9 @@ team = ["Margarita Boiko", "Hamzeh Hamzeh", "Anh Phuc Hoang", "Lukas Oswald"]
 supervisor = ["Dr. Sue-Ann Bäsler", "Martin Singer", "Vu Minh Le", "Mariam Maisuradze"]
 draft = false
 
-# bitte hier zur projektwebseite verlinken. Der Verweis auf die Firma kann gerne in den Text.
-# website_link = "https://globalct.com/"
-# ist nicht öffentlich:
-# source_link = "https://github.com/SueAnnBaesler/PAM-Software-Project-HTW"
+
+website_link = "https://showtime.f4.htw-berlin.de/ss24/bachelor/b5-pam/"
+
 
 tags = []
 categories = ["External Stakeholder"]
