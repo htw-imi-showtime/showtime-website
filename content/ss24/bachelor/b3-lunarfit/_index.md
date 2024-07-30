@@ -8,9 +8,6 @@ abstract = "More than a fitness or period tracker, LunarFit helps athletes bette
 # Properties for displaying the project in the project list
 card_image = "lunarfit-preview-no-claim.jpg"
 
-# card_description is deprecated, will be replaced by abstract/and or claim
-# card_description = "Exercise in Harmony with Your Cycle" 
-
 # Names are optional, team size is sufficient
 team = ["Marie Menge", "Lilly Mydlach", "Kieu Truc Tran", "Jonas Trenkler", "Leon Snakowski"]
 supervisor = "David Koschnick"
