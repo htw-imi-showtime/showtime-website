@@ -4,7 +4,7 @@ weight = 40
 draft = false
 +++
 
-{{<image src="techstack_logos.png" alt="Techstack">}}
+
 
 {{<section title="Organization">}}
 * **[Github](https://github.com/FDS-HTW-2024/fds_orgchart)** for code collaboration and distribution

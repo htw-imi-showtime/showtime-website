@@ -1,7 +1,7 @@
 +++
 project_id = "M5"
-title = "Capsearch: Bridging Talent and Career"
-subtitle = ""
+title = "Capsearch"
+subtitle = "Bridging Talent and Career"
 claim = "CapSearch, an AI-powered platform, assists employees with project assignments. By analyzing profiles, skills, and goals, it provides personalized job recommendations, streamlines project assignments, and enhances efficiency."
 abstract = "CapSearch, an AI-powered platform, assists employees with project assignments. By analyzing profiles, skills, and goals, it provides personalized job recommendations, streamlines project assignments, and enhances efficiency."
 hasMermaid = true
@@ -13,7 +13,7 @@ card_description = "CapSearch, an AI-powered platform, assists employees with pr
 
 # Names are optional, team size is sufficient
 team = ["Hikari Sophia Stölzle", "Nikol Stefanova", "Mohamed Amine Sallami", "Reynaldo Domenico", "Vu Minh Le"]
-supervisor = "Parul Soni, Timo Walter"
+supervisor = ["Parul Soni", "Timo Walter"]
 draft = false
 
 website_link = ""

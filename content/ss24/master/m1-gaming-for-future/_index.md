@@ -12,7 +12,7 @@ card_description = ""
 
 # Names are optional, team size is sufficient
 team = ["Eliot Hoff", " Kenneth Englisch", "Martin Christian Solihin", "Adib Ghassani Waluya", "Sebastian Puetz"]
-supervisor = "David Mueller"
+supervisor = "David Müller"
 draft = false
 
 website_link = ""
@@ -31,7 +31,7 @@ source_link = ""
 +++
 
 {{<section title="The Goal">}}
-Our project aims to transform a simulation game from previous term ([Aquasolace WS23](/ws23/master/m4-gamingforthefuture/)) into an engaging game. We focus on expanding game features and integrating biodiversity layers to the game. 
+Our project aims to transform a simulation game from previous term ([Aquasolace WS23](../../../ws23/master/m4-gamingforthefuture/)) into an engaging game. We focus on expanding game features and integrating biodiversity layers to the game. 
 <figure><img src="game_image.png" alt="Game Image" width="60%" height="60%"></figure>
 {{</section>}}
 

@@ -12,7 +12,7 @@ card_description = "Imagine a scenario where the area available for food product
 
 # Names are optional, team size is sufficient
 team = ["Gerrit Behrens", "Diro Baloska", "Yosua Sentosa", "Hasan Alkurdi"]
-supervisor = "Carsten Busch"
+supervisor = "Prof. Dr. Carsten Busch"
 draft = false
 
 website_link = ""
