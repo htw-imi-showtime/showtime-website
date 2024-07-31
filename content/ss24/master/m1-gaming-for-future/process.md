@@ -23,3 +23,7 @@ Each team member chose a specific issue to address based on their individual ski
 {{<section title="Testing">}}
 We conducted regular game testing sessions with the product owners to gather feedback. This feedback was crucial for making necessary adjustments and improvements to the game.
 {{</section>}}
+
+{{<section title="System Architecture">}}
+{{<image src="architecture_diagram.jpg" alt="System Architecture Diagram">}}
+{{</section>}}
