@@ -46,5 +46,17 @@
 {{ range $projects }}
 {{ partial "project/schedule_data.toml" . }}
 {{ end }}
-</main>
+
 </pre></small>
+<hr/>
+<small>
+<b>for bt:</b>
+<pre>
+{{ range $projects -}}
+"{{ .Params.project_id }}": - "{{ .Params.project_id }} - {{ .Title }} {{ .Params.Subtitle }}",
+
+{{ end }}
+</pre>
+</small>
+</main>
+
