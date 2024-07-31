@@ -52,6 +52,7 @@ Our team consists of five IMI-Master students.
     <ul>
       <li>Game Development</li>
       <li>UI/UX Design</li>
+      <li>Website</li>
     </ul>
   </div>
 
