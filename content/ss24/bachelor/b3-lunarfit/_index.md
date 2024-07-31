@@ -6,7 +6,7 @@ claim = "Exercise in Harmony with Your Cycle"
 abstract = "More than a fitness or period tracker, LunarFit helps athletes better understand and adapt their training to their menstrual cycle. This reduces the risk of injury, aids in recovery, and supports long-term performance development."
 
 # Properties for displaying the project in the project list
-card_image = "lunarfit_preview-no-claim.jpg"
+card_image = "lunarfit-preview-no-claim.jpg"
 
 # card_description is deprecated, will be replaced by abstract/and or claim
 # card_description = "Exercise in Harmony with Your Cycle" 
@@ -43,7 +43,7 @@ All of this allows to make more informed decisions and communicate better with t
 {{</section>}}
 
 {{<section title="Process">}}
-The foundation of our project was provided by the Institute of Sports Science at the University of Bern, giving us a scientific basis to build upon. They initially presented their idea using a Miro Board, setting the stage for our development process. As we progressed, we continuously refined and expanded the concept, ensuring it evolved effectively the project.
+The foundation of our project was provided by the Institute of Sports Science at the University of Bern, giving us a scientific basis to build upon. They initially presented their idea using a Miro Board, setting the stage for our development process. As we progressed, we continuously refined and expanded the concept, ensuring it evolved effectively throughout the project.
 
 Before officially starting, we conducted a market analysis to assess the landscape and understand user requirements. Using the insights gained, we defined a set of features and created database and API schemas and clickable mockups in Figma to visualize the app's functionality.
 
