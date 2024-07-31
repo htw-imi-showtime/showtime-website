@@ -25,5 +25,5 @@ We conducted regular game testing sessions with the product owners to gather fee
 {{</section>}}
 
 {{<section title="System Architecture">}}
-{{<image src="architecture_diagram.jpg" alt="System Architecture Diagram">}}
+<figure style="margin:0;"><img src="../architecture_diagram.jpg" alt="System Architecture Diagram"></figure>
 {{</section>}}
