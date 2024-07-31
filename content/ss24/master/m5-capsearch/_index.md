@@ -1,7 +1,7 @@
 +++
 project_id = "M5"
-title = "Capsearch: Bridging Talent and Career"
-subtitle = ""
+title = "Capsearch"
+subtitle = "Bridging Talent and Career"
 claim = "CapSearch, an AI-powered platform, assists employees with project assignments. By analyzing profiles, skills, and goals, it provides personalized job recommendations, streamlines project assignments, and enhances efficiency."
 abstract = "CapSearch, an AI-powered platform, assists employees with project assignments. By analyzing profiles, skills, and goals, it provides personalized job recommendations, streamlines project assignments, and enhances efficiency."
 hasMermaid = true
@@ -13,7 +13,7 @@ card_description = "CapSearch, an AI-powered platform, assists employees with pr
 
 # Names are optional, team size is sufficient
 team = ["Hikari Sophia Stölzle", "Nikol Stefanova", "Mohamed Amine Sallami", "Reynaldo Domenico", "Vu Minh Le"]
-supervisor = "Parul Soni, Timo Walter"
+supervisor = ["Parul Soni", "Timo Walter"]
 draft = false
 
 website_link = ""
@@ -44,6 +44,7 @@ Focusing on a quality product in the end, agile principles were always a part of
 After the requirements and scope of the project had been defined, the tasks were divided within the development team in such a way that the personal skill set of each individual could be brought out and used, but also offered opportunities to learn something new together and support each other.
 the results were then presented in weekly sprints where concerns could be clarified and new ideas could be given and received in order to produce a satisfactory product.
 {{</section>}}
+{{<image src="c4model.png" alt="indepth explanation using the c4 model with focus on the recommender">}}
 
 {{<image src="process.png" alt="process of development flow">}}
 
