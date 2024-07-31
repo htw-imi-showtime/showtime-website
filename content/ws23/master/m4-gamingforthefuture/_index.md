@@ -8,7 +8,7 @@ card_image = "Game1.png"
 card_description = "Aquasolace - Gaming For Future" 
 
 team = ["Eliot Hoff", " Kenneth Englisch", "Cong Nguyen-Dinh", "Adib Ghassani Waluya"]
-supervisor = "David Mueller"
+supervisor = "David Müller"
 draft = false
 +++
 
