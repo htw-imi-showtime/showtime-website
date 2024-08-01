@@ -6,17 +6,25 @@ draft = false
 
 {{<section title="Features">}}
 
-* **Roles**
+* **Supervised tile based gridmap interactions**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+Map interactions are controlled and supervised in order to restrict specific player interactions, removing some of the previous sandbox-aspect of the game. 
 
+* **Ground water level sensitive game winning conditions**
 
-* **Game-Flow**
+Player actions directly influence groundwater levels. These influence changes are computed by respectinga data-table though and built to try and mimic somereal-life behavior in the environment.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+* **Reviving species**
 
-* **Voting Systems**
+Such objectives are displayed in the form of quests and can be achieved in the game by modifying the biomes configuration on the map and applying the right configurations in the above table (and some other hidden conditions).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+* **Suitable habitat identification**
+
+Identifying complex habitats that can be considered suitable for a specie appeared quite challenging and asked many experiments. 
+Our actual solution uses a flood-fill algorithm and allow a fluid a peridodic update of the potential suitable habitats for the species.
+
+* **Localization**
+
+The game is supported in English & German language version to provide better accessiblity.
 
 {{</section>}}
