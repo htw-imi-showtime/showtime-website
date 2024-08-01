@@ -16,7 +16,7 @@ Player actions directly influence groundwater levels. These influence changes ar
 
 * **Reviving species**
 
-Such objectives are displayed in the form of quests and can be achieved in the game by modifying the biomes configuration on the map and applying the right configurations in the above table (and some other hidden conditions).
+Such objectives are displayed in the form of quests and can be achieved in the game by modifying the biomes configuration on the map and applying the right configurations and some other hidden conditions.
 
 * **Suitable habitat identification**
 
