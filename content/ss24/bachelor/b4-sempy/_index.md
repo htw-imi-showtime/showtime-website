@@ -22,11 +22,13 @@ source_link = ""
 
 
 {{<section title="Our Goal">}}
-In recent years, artificial intelligence technology has advanced significantly, and today many people use technologies such as OpenAI's GPT-4, Google's TensorFlow, and IBM Watson because these tools make life easier. Our goal is to simplify the user experience on idealo, helping with purchasing decisions and saving time during researching for a product. Our SEMPY research aims to gather the most important product data and customer opinions in one place, avoiding the need to search on different platforms such as YouTube, Amazon, and Google. 
+In recent years, artificial intelligence technology has advanced significantly, and today many people use technologies such as OpenAI's GPT-4. Our goal is to simplify the user experience on idealo, helping with purchasing decisions and saving time during researching for a product. Our SEMPY research aims to gather the most important product data and customer opinions in one place, avoiding the need to search on different platforms such as YouTube, Amazon and Google. Instead SEMPY processes data from idealo and external websites (Amazon, Youtube) with OpenAI to generate summaries, pros and cons, customer reviews, FAQs, and targeted audience recommendations.
 {{</section>}}
 
+{{<image src="screenbildmodaln.jpg" alt="Screenshot vom Modal" caption="SEMPY-modal on the idealo Website.">}}
+
 {{<section title="The Team">}}
-Team SEMPY consists of us five young IMI students **S**on, **E**ldar, **M**athieu, **P**aul and **Y**asin (SEMPY) who came together to build this project. None of us had experience working with the OpenAI API, so it was quite a challenge for us. Through this project, we gained a lot of knowledge about working with AI and by supporting each other during the development.
+Team SEMPY consists of us five young IMI students **S**on, **E**ldar, **M**athieu, **P**aul and **Y**asin (SEMPY) who came together to build this project. None of us had experience working with the OpenAI API, so it was quite a challenge for us. Through this project, we gained a lot of knowledge about working with AI and by supporting each other during the development. To collaborate on coding, we used GitHub, and for communication, we relied on Miro, Discord, and WhatsApp. 
 
 
 {{</section>}} 
