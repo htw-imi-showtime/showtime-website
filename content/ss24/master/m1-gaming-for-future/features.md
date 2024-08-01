@@ -12,7 +12,7 @@ Map interactions are controlled and supervised in order to restrict specific pla
 
 * **Ground water level sensitive game winning conditions**
 
-Player actions directly influence groundwater levels. These influence changes are computed by respectinga data-table though and built to try and mimic somereal-life behavior in the environment.
+Player actions directly influence groundwater levels. These influence changes are computed by respecting a data-table though and built to try and mimic somereal-life behavior in the environment.
 
 * **Reviving species**
 
