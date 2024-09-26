@@ -40,6 +40,10 @@
                     {{ with .Params.sub_title }}
                         {{ $slot_text = printf "%s - %s"  $slot_text . | lower }}
                     {{ end }}   
+                    {{ with  .Params.Supervisor }}
+                        {{ $slot_text = printf "%s %s" $slot_text . }}
+                    {{ end }} 
+                   
                 {{ end }}
                 
                 {{ if in .project_id "B" }}
