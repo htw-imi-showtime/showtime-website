@@ -9,7 +9,7 @@ draft = true
 We used the following technologies in our Project:
 {{</section>}}
 
-{{<image src="Techstack.png" alt="Tech Stack">}}
+{{<image src="techstack2.png" alt="Tech Stack">}}
 
 {{<section title="Future">}}
 
@@ -19,4 +19,5 @@ As for our personal futures, we plan on taking the skills we developed in this p
 
 
 {{</section>}}
+
 

@@ -17,17 +17,6 @@ draft = false
 
 website_link = ""
 source_link = ""
-
-# imagemagick befehl
-# magick team_kenneth.png -strip -interlace Plane -gaussian-blur 0.05 -quality 85% team_enneth.jpg
-# magick team_adib.jpeg -strip -interlace Plane -gaussian-blur 0.05 -quality 85% team_adib.jpg
-# magick team_elliot.png -strip -interlace Plane -gaussian-blur 0.05 -quality 85% team_elliot.jpg
-# magick team_martin.jpg -strip -interlace Plane -gaussian-blur 0.05 -quality 85% team_martin.jpg
-# magick team_sebastian.jpg -strip -interlace Plane -gaussian-blur 0.05 -quality 85% team_sebastian.jpg
-
-# magick game_logo.png -strip -interlace Plane -quality 85% game_logo.png
-# magick nabu_logo.jpg -strip -interlace Plane -quality 85% nabu_logo.jpg
-# magick game_image.png -strip -interlace Plane -quality 85% game_image.png
 +++
 
 {{<section title="The Goal">}}
@@ -37,14 +26,15 @@ Our project aims to transform a simulation game from previous term ([Aquasolace 
 
 {{<section title="The Team">}}
 Our team consists of five IMI-Master students.
+{{</section>}} 
+
 {{<gallery>}}
-{{<team-member image="team_elliot.jpg" name="Eliot">}}
+{{<team-member image="team_eliot.jpg" name="Eliot">}}
 {{<team-member image="team_kenneth.jpg" name="Kenneth">}}
 {{<team-member image="team_martin.jpg" name="Martin">}}
 {{<team-member image="team_adib.jpg" name="Adib">}}
 {{<team-member image="team_sebastian.jpg" name="Sebastian">}}
 {{</gallery>}}
-{{</section>}} 
 
 {{<section title="The Responsibilities">}}
 <div style="display: flex; flex-wrap: wrap;">
@@ -62,6 +52,7 @@ Our team consists of five IMI-Master students.
     <ul>
       <li>Game Development</li>
       <li>UI/UX Design</li>
+      <li>Website</li>
     </ul>
   </div>
 
