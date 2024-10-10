@@ -1,5 +1,5 @@
 +++
-showtime_date = "02/08/2024"
+showtime_date = "07/02/2025"
 showtime_place = "WH H001"
 showtime_save_the_date = "save the date!!"
 is_live = "false"
