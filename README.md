@@ -150,7 +150,7 @@ Every push to main results in a deploy to
 - staging: [https://htw-imi-showtime.github.io/](https://htw-imi-showtime.github.io/) (without drafts)
 
 <details>
-<summary> ##### Staging Deployment Details </summary>
+<summary> Staging Deployment Details </summary>
 
 Every push on main is deployed to the Github Page in the repo
 https://github.com/htw-imi-showtime/htw-imi-showtime.github.io
