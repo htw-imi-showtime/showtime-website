@@ -39,7 +39,7 @@ every push to master, without drafts (same as production): [https://htw-imi-show
 
 ## Adding your project presentation
 
-A detailed step by step guide is [here](doc\adding_project.md).
+A detailed step by step guide is [here](doc\git\adding_project.md).
 
 <details>
 
@@ -47,6 +47,7 @@ A detailed step by step guide is [here](doc\adding_project.md).
 
 1. Fork the project to your GitHub account.
 2. Clone the project:
+(cloning the archive submodule is optional)
 
 2.a Without archive submodule:
 
@@ -85,7 +86,7 @@ cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
 
 8. Add your changes to the git index, commit them to the repository and push them to GitHub.
 
-9. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch.
+9. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. For more info see [pull_request.md](doc\git\pull_request.md)
 
 </details>
 
@@ -99,6 +100,8 @@ I've started a documentation on how we should use the forking workflow here:
 
 [https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md](https://github.com/htw-imi-showtime/showtime-website/blob/documentation/doc/forking-workflow/index.md)
 (will not be merged to main due to file sizes)
+
+You can find a short documentation about updating your fork and clone [here](doc/git/update.md)
 
 ### Deploy your Fork on GH-Pages
 
@@ -124,7 +127,7 @@ Please consider:
 
 ### Content Guide
 
-A comprehensive guide to using content blocks, images, galleries, videos and GitHub gists can be found [here](doc/content_guide.md).
+A comprehensive guide to using content blocks, images, galleries, videos and GitHub gists can be found [here](doc/project/content_guide.md).
 
 
 ## Site Administration

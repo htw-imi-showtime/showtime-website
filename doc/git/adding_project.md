@@ -45,7 +45,7 @@ update main (get your merged changes squashed into one commit) and create a new 
 git checkout -b b0_first_version_of_our_project_site_or_anything_else_you_fancy_as_a_branch_name
 ```
 
-4. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
+5. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
 cp -R content/ws23/bachelor/b0-template/ content/ws23/bachelor/b#-your-project/
 ```
@@ -58,19 +58,19 @@ cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
 File names need to be all lower case, WITHOUT SPACES and no special characters except - and _ .
 see [bin/check-project-update-pr/check-file-names.sh](bin/check-project-update-pr/check-file-names.sh)
 
-5. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+6. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
    You may also put images in your project's directory (**less than 100 MB per file**, please upload videos to the HTW Mediathek and [embed them](#HTW-Mediathek-Player)).
    For an example on how to include videos, images, quotes and GitHub gists, please have a look at the documentation below or the examples included in the template projects.
-6. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
-7. Add your changes to the git index, commit them to the repository and push them to GitHub:
+7. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
+8. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
 git add content/ss24/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
-8. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
+9. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. ([GitHub Help: Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))
 
 Once your branch was merged, you may preview your project's page on our staging server: https://htw-imi-showtime.github.io/

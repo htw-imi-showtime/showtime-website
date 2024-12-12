@@ -1,9 +1,9 @@
 +++
 project_id = "M0"
 title = "Master Project Template"
-subtitle = ""
-claim = ""
-abstract = ""
+subtitle = "informativ, kurz - kurzer 2. titel, der im Unterschied zum title(name) den Inhalt erahnen lässt"
+claim = "kurz - fasst die Mission, das so genannte Mission Statement des Projekts zusammen"
+abstract = "informativ - kurze, trockene inhaltliche Zusammenfassung"
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"

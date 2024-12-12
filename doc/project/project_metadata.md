@@ -17,9 +17,9 @@ und in trocken aber mit inhalt ;-) :
 | Fancy      | title    | claim    |
 | Informativ | subtitle | abstract |
 
-- **title**: eher der projekt**name** (muss für hugo weiter title sein, zugleich der page title)
-- **subtitle**: kurzer 2. titel, der im Unterschied zum title(name) den Inhalt erahnen lässt
-- **claim**: [https://www.google.com/search?q=was+ist+ein+claim](https://www.google.com/search?q=was+ist+ein+claim)
-- **abstract**: kurze, trockene inhaltliche Zusammenfassung
+- **title**: fancy, kurz - eher der projekt **name** (muss für hugo weiter title sein, zugleich der page title)
+- **subtitle**: informativ, kurz - kurzer 2. titel, der im Unterschied zum title(name) den Inhalt erahnen lässt
+- **claim**: fancy, etwas länger - [https://www.google.com/search?q=was+ist+ein+claim](https://www.google.com/search?q=was+ist+ein+claim)
+- **abstract**: informativ - kurze, trockene inhaltliche Zusammenfassung
 
 
