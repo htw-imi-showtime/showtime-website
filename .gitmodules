@@ -1,7 +1,3 @@
-[submodule "themes/showtime-theme-2021"]
-	path = themes/showtime-theme-2021
-	url = ../../htw-imi-showtime/showtime-theme-2021.git
-	branch = main
 [submodule "archive"]
 	path = project-archive
 	url = ../../htw-imi-showtime/showtime-website-project-archive.git

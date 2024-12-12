@@ -1,21 +1,21 @@
 +++
-title = "Features"
+title = "Optional Subpage"
 weight = 20
-draft = true
+draft = false
 +++
 
-{{<section title="Features">}}
+{{<section title="Optional Subpage">}}
 
-* **Roles**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
-
-
-* **Game-Flow**
+* **Subheader 1**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
 
-* **Voting Systems**
+
+* **Subheader 2**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+
+* **Subheader 3**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
 

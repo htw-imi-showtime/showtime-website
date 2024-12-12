@@ -26,5 +26,5 @@ see  https://github.com/htw-imi-showtime/showtime-website/pull/344 for an exampl
 6. after the PR has been merged, update the main branch in your clone and fork. (see [./update.md](./update.md))
 7. create a new branch for new changes.
 
-(you can or cannot delete the old branch used for the first pr.)
+(you can or cannot delete the old branch used for the first pull request.)
 
