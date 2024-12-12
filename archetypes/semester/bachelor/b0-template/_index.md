@@ -6,7 +6,7 @@ claim = "kurz - fasst die Mission, das so genannte Mission Statement des Projekt
 abstract = "informativ - kurze, trockene inhaltliche Zusammenfassung"
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg" 
+card_image = "kitty.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Member 1", "Member 2"]
