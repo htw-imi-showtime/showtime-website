@@ -74,10 +74,10 @@ cd showtime-website
 5. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 
 ```
-cp -R content/ws23/bachelor/b0-template/ content/ws23/bachelor/b#-your-project/
+cp -R archetypes/semester/bachelor/b0-template/ content/ws#_or_ss#/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
+cp -R archetypes/semester/master/m0-template/ content/ws#_or_ss#/master/m#-your-project/
 ```
 
 6. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.
