@@ -34,12 +34,12 @@ every push to master, without drafts (same as production): [https://htw-imi-show
   - [Deployment Setup](#deployment-setup)
     - [Staging and Production Preview](#staging-and-production-preview)
     - [Production](#production-1)
-    - [Create a new Release:](#create-a-new-release)
+    - [Create a new Release](#create-a-new-release)
 
 
 ## Adding your project presentation
 
-A detailed step by step guide is [here](doc\git\adding_project.md).
+A detailed step by step guide is [here](doc/git/adding_project.md).
 
 <details>
 
@@ -80,13 +80,13 @@ cp -R content/ws23/bachelor/b0-template/ content/ws23/bachelor/b#-your-project/
 cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
 ```
 
-6. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+6. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.
 
 7. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 
 8. Add your changes to the git index, commit them to the repository and push them to GitHub.
 
-9. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. For more info see [pull_request.md](doc\git\pull_request.md)
+9. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. For more info see [pull_request.md](doc/git/pull_request.md)
 
 </details>
 
