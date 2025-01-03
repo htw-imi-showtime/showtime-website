@@ -1,10 +1,10 @@
 +++
-title = "Optional Subpage"
+title = "Gallery"
 weight = 10
 draft = false
 +++
 
-{{<section title="Optional Subpage">}}
+{{<section title="Gallery">}}
 
 * **Subheader 1**
 
