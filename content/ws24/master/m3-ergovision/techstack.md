@@ -4,13 +4,13 @@ weight = 20
 draft = false
 +++
 
-{{<image src="techstack.jpeg" alt="VeloScape's Tech Stack">}}
+{{<image src="techstack.jpeg" alt="ErgoScape's Tech Stack">}}
 {{<section title="Concept & Design">}}
 [Miro](https://miro.com/)<br>
 Miro was used for the initial brainstorming session, for concretising the requirements and concept, and for the wireframes. It allowed the team to discuss and visualise ideas and record decisions.
 
 [Figma](https://figma.com/)<br>
-Figma was used to create the UI component library, style guide and final design of the user interface of VeloScape.
+Figma was used to create the UI component library, style guide and final design of the user interface of ErgoScape.
 {{</section>}}
 
 {{<section title="Development">}}
@@ -20,7 +20,7 @@ Nuxt is a powerful Vue.js framework that simplifies the development of universal
 By harnessing Nuxt, the team was able to create reusable UI components, accelerate development speed, and deliver a modern and intuitive web application, enhancing the overall user experience.
 
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)<br>
-JavaScript is a versatile and widely used programming language that enables the development of interactive and dynamic web applications. By leveraging JavaScript, the team was able to create engaging and responsive user interfaces, implement complex logic, and enhance the functionality of VeloScape.
+JavaScript is a versatile and widely used programming language that enables the development of interactive and dynamic web applications. By leveraging JavaScript, the team was able to create engaging and responsive user interfaces, implement complex logic, and enhance the functionality of ErgoScape.
 
 [TypeScript](https://typescriptlang.org)<br>
 TypeScript is a powerful superset of JavaScript and introduces static typing. With TypeScript, errors can be caught early during development, leading to more reliable and maintainable code. The enhanced tooling support, including code autocompletion and refactoring suggestions, also contributes to increased productivity.
@@ -36,10 +36,10 @@ Vite is used as a modern build tool and development server that significantly en
 Pinia is a modern and lightweight alternative to Vuex for Vue 3. It provides a simple and intuitive API for managing the state of the application, making it easier to build scalable and maintainable applications.
 
 [Python](https://python.org)<br>
-Python is a versatile and high-level programming language that is widely used for web development, data analysis, artificial intelligence, and scientific computing. By leveraging Python, the team was able to build the backend of VeloScape, implement complex business logic, and ensure seamless communication between the frontend and the database.
+Python is a versatile and high-level programming language that is widely used for web development, data analysis, artificial intelligence, and scientific computing. By leveraging Python, the team was able to build the backend of ErgoScape, implement complex business logic, and ensure seamless communication between the frontend and the database.
 
 [Django](https://djangoproject.com)<br>
-Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It follows the DRY (Don't Repeat Yourself) principle and focuses on automating as much as possible. By leveraging Django, the team was able to build a robust and scalable backend for VeloScape, ensuring efficient data management and seamless integration with the frontend.
+Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It follows the DRY (Don't Repeat Yourself) principle and focuses on automating as much as possible. By leveraging Django, the team was able to build a robust and scalable backend for ErgoScape, ensuring efficient data management and seamless integration with the frontend.
 {{</section>}}
 
 {{<section title="Codebase & Communication">}}
