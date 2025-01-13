@@ -20,10 +20,10 @@ source_link = ""
 Achieve the most accurate results in spiroergometry tests by keeping participants motivated right up to their true physical limits. ErgoScape transforms the test into an immersive experience, combining dynamic visuals, real-time performance data, and well-timed verbal encouragement.
 {{</section>}}
 
-{{<image src="ergoscape_mockup.jpg" alt="ErgoScape Mockup">}}
+{{<image src="spline_mockup.png" alt="ErgoScape Mockup">}}
 
 {{<section title="What is Spiroergometry?">}}
-Spiroergometry is a specialized test that measures how efficiently your body takes in oxygen and expels carbon dioxide during exercise. It can be used to diagnose various medical conditions, such as heart and lung diseases, and to determine the fitness level of athletes. Typically, participants must push themselves to the brink of exhaustion for the results to be accurate — something that’s often easier said than done.
+Spiroergometry is a specialized test that measures how efficiently your body takes in oxygen and expels carbon dioxide during exercise. It can be used to diagnose various medical conditions, such as heart and lung diseases, and to determine the fitness level of a person. Typically, participants must push themselves to the brink of exhaustion for the results to be accurate — something that’s often easier said than done.
 {{</section>}}
 
 {{<section title="Our Goal">}} 
