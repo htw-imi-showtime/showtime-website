@@ -9,7 +9,7 @@ abstract = "The Berlin Fire Department struggled with apprenticeship recruitment
 card_image = "kitty.jpg"
 
 # Names are optional, team size is sufficient
-team = ["Christoph Friedrich", "Duha Kasem", "Maria Ivanova", "Nam Khanh Nguyen", "Nhi Phan", "Sandip Sarraf", "Sara Tahmasebi Adar"]
+team = ["Christoph Friedrich", "Duha Kasem", "Maria Ivanova", "Nam Khanh Nguyen", "Phuong Nhi Phan", "Sandip Sarraf", "Sara Tahmasebi Adar"]
 supervisor = ["Alexander Kramer", "Carsten Busch"]
 draft = false
 
@@ -29,11 +29,11 @@ on media and site content.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="team/p-christoph.jpg" name="Christoph Friedrich">}}
+{{<team-member image="team/p-christoph.jpeg" name="Christoph Friedrich">}}
 {{<team-member image="team/p-duha.jpg" name="Duha Kasem">}}
 {{<team-member image="team/p-maria.jpg" name="Maria Ivanova">}}
-{{<team-member image="team/p-nam.jpg" name="Nam Khanh Nguyen">}}
-{{<team-member image="team/p-nhi.jpg" name="Nhi Phan">}}
+{{<team-member image="team/p-nam.jpeg" name="Nam Khanh Nguyen">}}
+{{<team-member image="team/p-nhi.jpg" name="Phuong Nhi Phan">}}
 {{<team-member image="team/p-sandip.jpg" name="Sandip Sarraf">}}
 {{<team-member image="team/p-sara.jpg" name="Sara Tahmasebi Adar">}}
 {{</gallery>}}
