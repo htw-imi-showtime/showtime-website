@@ -43,11 +43,11 @@ ErgoScape's team structure was highly dynamic from the get-go: Initially, all te
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="placeholder.png" name="To Uyen Nguyen Thi">}}
-{{<team-member image="placeholder.png" name="Christopher Knapp">}}
-{{<team-member image="placeholder.png" name="Julius Schultz">}}
-{{<team-member image="placeholder.png" name="Hasan Alkurdi">}}
-{{<team-member image="placeholder.png" name="Justin Pallas">}}
-{{<team-member image="placeholder.png" name="Nic Rubner">}}
+{{<team-member image="team/uyen.jpeg" name="To Uyen Nguyen Thi">}}
+{{<team-member image="team/chris.jpeg" name="Christopher Knapp">}}
+{{<team-member image="team/julius.jpeg" name="Julius Schultz">}}
+{{<team-member image="team/hasan.jpeg" name="Hasan Alkurdi">}}
+{{<team-member image="team/justin.jpeg" name="Justin Pallas">}}
+{{<team-member image="team/nic.jpeg" name="Nic Rubner">}}
 {{</gallery>}}
 
