@@ -8,7 +8,7 @@ draft = false
 ErgoScape immerses participants in a virtual cycling experience. The application uses first-person cycling videos while adjusting the playing speed based on the live data from the spiroergometry test and enriching the experience with additional visual effects and motivational elements like progress bars and verbal encouragement.
 {{</section>}}
 
-{{<image src="cycling_experience.png" caption="Immersive Cycling Experience" alt="Immersive Cycling Experience">}}
+{{<image src="cycling_experience.jpg" caption="Immersive Cycling Experience" alt="Immersive Cycling Experience">}}
 
 {{<section title="Live Data Integration">}}
 During the spiroergometry test, a lot of medical data, such as heart rate, oxygen consumption, and carbon dioxide production, is collected by the MetaSoft Studio software. ErgoScape reads this data in real-time by taking a live screencapture of the MetaSoft Studio window and using OCR to read the data from the screen. This data is then used to adjust the simulation and to display live performance data on the screen.
