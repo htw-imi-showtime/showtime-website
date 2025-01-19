@@ -42,15 +42,15 @@ main repository. Always work in branches. After your changes have been merged wi
 update main (get your merged changes squashed into one commit) and create a new branch from there.
 
 ```
-git checkout -b b0_first_version_of_our_project_site_or_anything_else_you_fancy_as_a_branch_name
+git checkout -b b#_your_project_as_a_branch_name
 ```
 
 5. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
 ```
-cp -R content/ws23/bachelor/b0-template/ content/ws23/bachelor/b#-your-project/
+cp -R archetypes/semester/bachelor/b0-template/ content/ws#_or_ss#/bachelor/b#-your-project/
 ```
 ```
-cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
+cp -R archetypes/semester/master/m0-template/ content/ws#_or_ss#/master/m#-your-project/
 ```
 
 **Please make sure to include your project number! (e.g. b2, m1, ...)**
@@ -58,7 +58,7 @@ cp -R content/ws23/master/m0-template/ content/ws23/master/m#-your-project/
 File names need to be all lower case, WITHOUT SPACES and no special characters except - and _ .
 see [bin/check-project-update-pr/check-file-names.sh](bin/check-project-update-pr/check-file-names.sh)
 
-6. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+6. Fill out your project's homepage `content/ws24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\
@@ -67,7 +67,7 @@ see [bin/check-project-update-pr/check-file-names.sh](bin/check-project-update-p
 7. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 8. Add your changes to the git index, commit them to the repository and push them to GitHub:
 ```
-git add content/ss24/<bachelor|master>/<project_number-your-project>
+git add content/ws#_or_ss#/<bachelor|master>/<project_number-your-project>
 git commit -m "Your commit message"
 git push
 ```
