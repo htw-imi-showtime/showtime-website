@@ -11,10 +11,11 @@ card_image = "kitty.jpg"
 # Names are optional, team size is sufficient
 team = ["Member 1", "Member 2"]
 supervisor = "Supervisor"
-draft = false
 
 website_link = ""
 source_link = ""
+
+draft = true
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 

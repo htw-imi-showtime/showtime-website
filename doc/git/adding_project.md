@@ -58,7 +58,7 @@ cp -R archetypes/semester/master/m0-template/ content/ws#_or_ss#/master/m#-your-
 File names need to be all lower case, WITHOUT SPACES and no special characters except - and _ .
 see [bin/check-project-update-pr/check-file-names.sh](bin/check-project-update-pr/check-file-names.sh)
 
-6. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
+6. Fill out your project's homepage `content/ws24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.\
    
    Have a look at the [section documentation](#Sections) below or the template projects for including headings.\
    If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).\

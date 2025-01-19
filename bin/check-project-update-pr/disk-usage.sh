@@ -1,6 +1,6 @@
 #!/bin/bash
 PID=$1
-SIZE=$(du -ks content/ss24/**/$PID-* | cut -f -1)
+SIZE=$(du -ks content/ws24/**/$PID-* | cut -f -1)
 LIMIT=500
 
 if [ "$SIZE" -le "$LIMIT" ]
