@@ -16,9 +16,6 @@ supervisor = ["Dr. Sue-Ann Bäsler", "Martin Singer", "Vu Minh Le", "Mariam Mais
 draft = false
 
 
-website_link = "https://showtime.f4.htw-berlin.de/ss24/bachelor/b5-pam/"
-
-
 tags = []
 categories = ["External Stakeholder"]
 study_focus = ['Web Technology']
