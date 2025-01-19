@@ -10,7 +10,7 @@ card_image = "chef_logo2.png"
 
 # Names are optional, team size is sufficient
 team = ["Maxim", "Leah", "Leonid", "Sascha", "Sergej", "Sodbilegt"]
-supervisor = "Prof. Strippgen"
+supervisor = "Prof. Dr. Strippgen"
 draft = false
 
 website_link = ""
