@@ -1,5 +1,5 @@
 +++
-title = "Tech Stack"
+title = "Tools"
 weight = 20
 draft = false
 +++
