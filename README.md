@@ -80,7 +80,7 @@ cp -R archetypes/semester/bachelor/b0-template/ content/ws#_or_ss#/bachelor/b#-y
 cp -R archetypes/semester/master/m0-template/ content/ws#_or_ss#/master/m#-your-project/
 ```
 
-6. Fill out your project's homepage `content/ss24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.
+6. Fill out your project's homepage `content/ws24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.
 
 7. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 
