@@ -1,9 +1,7 @@
 +++
-title = "ss24"
-full_title = "Summer Semester 2024"
+title = "ws24"
+full_title = "Winter Semester 2024"
 layout = "projects_list"
 category = "project-archive"
-weight = 20241
+weight = 20242
 +++
-<!-- [-](./project_overview) 
--->
