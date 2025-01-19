@@ -1,5 +1,5 @@
 +++
-title = "ss24"
+title = "ws24"
 full_title = "Summer semester 2024"
 layout = "projects_list_debug"
 category = "project-archive-debug"
