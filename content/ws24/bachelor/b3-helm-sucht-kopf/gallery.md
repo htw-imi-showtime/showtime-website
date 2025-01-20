@@ -1,7 +1,7 @@
 +++
 title = "Gallery"
 weight = 10
-draft = false
+draft = true
 +++
 
 {{<gallery>}}
