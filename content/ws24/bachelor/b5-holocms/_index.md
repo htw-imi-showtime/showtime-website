@@ -6,7 +6,7 @@ claim = ""
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "holocms_logo.png"
+card_image = "holo_logo.png"
 # card_description is deprecated, will be replaced by abstract/and or claim
 card_description = "Experience the future of digital content with HoloCMS, where a simple QR scan opens up augmented reality adventures filled with engaging media." 
 
@@ -50,8 +50,8 @@ We are a team of three ambitious students from the International Media and Compu
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="holocms_team_sarah.png" name="Sarah">}}
-{{<team-member image="holocms_team_vivian.png" name="Vivian">}}
-{{<team-member image="holocms_team_bernd.png" name="Bernd">}}
+{{<team-member image="holocms_sarah.png" name="Sarah">}}
+{{<team-member image="holocms_vivian.png" name="Vivian">}}
+{{<team-member image="holocms_bernd.png" name="Bernd">}}
 {{</gallery>}}
 
