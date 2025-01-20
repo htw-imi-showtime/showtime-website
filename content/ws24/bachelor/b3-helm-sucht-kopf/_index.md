@@ -22,6 +22,11 @@ study_focus = ['Web Technology']
 +++
 {{<image src="feuerwehr-banner.png" alt="A banner showing the pages of the website.">}}
 
+{{<section title="Our Goal">}}
+Our primary goal is to revamp the Berlin Fire Department's career page to make it modern, engaging, and informative. We aim to increase visibility for their training programs, attract a diverse pool of young applicants, and ensure they can make well-informed decisions about their future careers in emergency services.
+By improving the user experience, we not only make the fire department's offerings more visible but also enhance the likelihood of attracting passionate and committed candidates who are better suited to the department’s needs.
+{{</section>}}
+
 {{<section title="Team">}}
 Each team member was assigned an aspect to focus on, ensuring that the website is designed
 to completion. Some members worked on design, some on implementation and deployment, some
