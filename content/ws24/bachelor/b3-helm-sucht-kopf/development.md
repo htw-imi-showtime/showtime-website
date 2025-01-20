@@ -9,7 +9,7 @@ draft = false
 * **Issue:** 
 The project idea was presented to us by the Berlin Fire Department,
 who outlined the main problems with the official website, especially
-with its confusing layout and difficulty for applicants to find the
+with its layout and difficulty for applicants to find the
 apprenticeship that would suit them.
 * **Solution:**
 We resolved to improve their career page and spent a lot of time

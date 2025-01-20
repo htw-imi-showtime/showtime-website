@@ -3,7 +3,7 @@ project_id = "B3"
 title = "Berliner Feuerwehr: Helm sucht Kopf"
 subtitle = ""
 claim = "Fire Department Recruiting Made Easy"
-abstract = "The Berlin Fire Department struggled with apprenticeship recruitment for years. That's where we step in."
+abstract = "#HelmsuchtKopf is an innovative project aimed at addressing the shortage of young talent for critical positions in the Berlin Fire Department. Through a modern, user-friendly digital platform, we aim to inspire and engage the younger generation in exploring a career with the fire department. By focusing on clear, accessible, and interactive content, we help guide users towards making informed decisions about their future."
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"
