@@ -18,7 +18,7 @@ source_link = ""
 +++
 
 
-<img src="Screenshot1.png" alt="Description of the picture" width="1000">
+<img src="screenshot1_compressed.png" alt="Description of the picture" width="1000">
 
 
 {{<section title="Goal">}}
@@ -34,12 +34,12 @@ Early in the development process, we decided to divide our efforts into two dedi
 
 
 {{<gallery>}}
-{{<team-member image="Maxim.jpeg" name="Maxim">}}
-{{<team-member image="Leah.png" name="Leah">}}
-{{<team-member image="Leonid.png" name="Leonid">}}
-{{<team-member image="Sascha.jpeg" name="Sascha">}}
-{{<team-member image="Sodoo.png" name="Sodoo">}}
-{{<team-member image="Sergej.jpeg" name="Sergej">}}
+{{<team-member image="maxim.jpeg" name="Maxim">}}
+{{<team-member image="leah.png" name="Leah">}}
+{{<team-member image="leonid.png" name="Leonid">}}
+{{<team-member image="sascha.jpeg" name="Sascha">}}
+{{<team-member image="sodoo.png" name="Sodoo">}}
+{{<team-member image="sergej.jpeg" name="Sergej">}}
 
 {{</gallery>}}
 
