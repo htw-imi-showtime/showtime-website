@@ -6,7 +6,7 @@ claim = "Explore new ways of what VR entertainment can achieve"
 abstract = "CHEF is a virtual reality game that blends physical engagement with cutting-edge VR technology to deliver an immersive experience. Designed for immediate playability, the game features captivating visuals and mechanics that hook players from the start without requiring extensive instructions."
 
 # Properties for displaying the project in the project list
-card_image = "chef_logo2.png"
+card_image = "chef_logo2.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Maxim", "Leah", "Leonid", "Sascha", "Sergej", "Sodbilegt"]
@@ -18,7 +18,7 @@ source_link = ""
 +++
 
 
-<img src="screenshot1_compressed.png" alt="Description of the picture" width="1000">
+<img src="screenshot1_compressed.jpg" alt="Description of the picture" width="1000">
 
 
 {{<section title="Goal">}}
@@ -35,10 +35,10 @@ Early in the development process, we decided to divide our efforts into two dedi
 
 {{<gallery>}}
 {{<team-member image="maxim.jpeg" name="Maxim">}}
-{{<team-member image="leah.png" name="Leah">}}
-{{<team-member image="leonid.png" name="Leonid">}}
+{{<team-member image="leah.jpg" name="Leah">}}
+{{<team-member image="leonid.jpg" name="Leonid">}}
 {{<team-member image="sascha.jpeg" name="Sascha">}}
-{{<team-member image="sodoo.png" name="Sodoo">}}
+{{<team-member image="sodoo.jpg" name="Sodoo">}}
 {{<team-member image="sergej.jpeg" name="Sergej">}}
 
 {{</gallery>}}
