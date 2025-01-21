@@ -6,7 +6,7 @@ claim = "Empowering ME/CFS Patients with AI-Driven Insights"
 abstract = "Elara is an innovative health app designed for ME/CFS patients. It provides symptom tracking, AI-powered analysis, personalized health recommendations, and a supportive community forum. Elara aims to enhance the quality of life for those managing ME/CFS."
 
 # Properties for displaying the project in the project list
-card_image = "Logo.svg"
+card_image = "logo.svg"
 
 team = ["Luong Hoang", "Santiago Badaya", "Shuvam Sah", "Talha Tayyab", "Ha Luu", "Duy Anh Nguyen", "Simona Tröger" ]
 supervisor = "Frederik Marquart"
@@ -73,7 +73,7 @@ The Elara project was brought to life by a dedicated team of students passionate
 - **Ha Luu**: UI/UX Designer, Frontend Developer - Contributed to interface design and implemented frontend features to deliver a seamless user experience.
 - **Duy Anh Nguyen**: UI/UX Designer - Worked on creating aesthetically pleasing designs for flyers and posters
 - **Simona Tröger**: Researcher, Team's Representative - Gathered and analyzed critical information on ME/CFS, and represented the team in key discussions.
-- **Talha Tayyab**: 
+- **Talha Tayyab**:
   {{</section>}}
 
 {{<gallery>}}
@@ -84,6 +84,5 @@ The Elara project was brought to life by a dedicated team of students passionate
 {{<team-member image="talha.webp" name="Talha Tayyab">}}
 {{<team-member image="talha.webp" name="Duy Anh Nguyen">}}
 {{<team-member image="talha.webp" name="Ha Luu">}}
-
 
 {{</gallery>}}
