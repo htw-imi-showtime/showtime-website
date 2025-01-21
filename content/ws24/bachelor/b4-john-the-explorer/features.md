@@ -18,6 +18,6 @@ Explore activities, landmarks, and local events in your chosen city, with insigh
 
 {{<section title="AI-Driven Dynamic Assistance">}}
 
-Engage with an AI-powered NPC for conversational trip planning, enjoy a hands-free experience through speech recognition and text-to-speech technologies, and immerse yourself in an interactive travel journey. With real-time updates of destination images based on your preferences, the process becomes highly engaging, ensuring a personalized and dynamic travel planning experience.
+Engage with an AI-powered NPC for conversational trip planning, enjoy a hands-free experience through speech recognition and text-to-speech technologies. With real-time updates of destination images based on your preferences, the process ensures a personalized and dynamic travel planning experience.
 
 {{</section>}}

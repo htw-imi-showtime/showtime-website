@@ -6,7 +6,7 @@ claim = "Your Smart Travel Companion for Effortless Journeys"
 abstract = "The Travel Advisor John simplifies trip planning with AI and real-time data, offering personalized recommendations through an intuitive, voice-driven interface and an immersive, interactive experience."
 
 # Properties for displaying the project in the project list
-<!-- card_image = "kitty.jpg" -->
+card_image = "logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Muhammad Naeem Laghari", "Hammad Alam", "Yudan Pan"]
@@ -22,10 +22,12 @@ The John the Explorer aims to revolutionize travel by providing personalized rec
 {{</section>}}
 
 {{<section title="The Team">}}
+
 {{</section>}}
 
 {{<gallery>}}
-
-<!-- {{<team-member image="cat.jpg" name="team member cat">}} -->
+{{<team-member image="team_muhammad.jpg" name="Muhammad">}}
+{{<team-member image="team_hammad.jpg" name="Hammad">}}
+{{<team-member image="team_yudan.jpg" name="Yudan">}}
 
 {{</gallery>}}
