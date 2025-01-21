@@ -25,7 +25,7 @@ concurrency:
 jobs:
   build:
     name: Hugo Page Build
-    # if: ${{ github.repository_owner != 'htw-imi-showtime' }}
+    if: ${{ github.repository_owner != 'htw-imi-showtime' }}
     permissions:
       contents: write
     runs-on: ubuntu-latest
