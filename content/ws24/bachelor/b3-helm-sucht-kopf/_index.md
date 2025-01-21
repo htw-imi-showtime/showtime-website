@@ -38,11 +38,11 @@ their aspirations.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="assets/team/Christoph.jpg" name="Christoph Friedrich">}}
-{{<team-member image="assets/team/Duha.jpg" name="Duha Kasem">}}
-{{<team-member image="assets/team/Maria.jpg" name="Maria Ivanova">}}
-{{<team-member image="assets/team/Nam.jpg" name="Nam Khanh Nguyen">}}
-{{<team-member image="assets/team/Nhi.jpg" name="Phuong Nhi Phan">}}
-{{<team-member image="assets/team/Sandip.jpg" name="Sandip Sarraf">}}
-{{<team-member image="assets/team/Sara.jpg" name="Sara Tahmasebi Adar">}}
+{{<team-member image="team/christoph.jpg" name="Christoph Friedrich">}}
+{{<team-member image="team/duha.jpg" name="Duha Kasem">}}
+{{<team-member image="team/maria.jpg" name="Maria Ivanova">}}
+{{<team-member image="team/nam.jpg" name="Nam Khanh Nguyen">}}
+{{<team-member image="team/nhi.jpg" name="Phuong Nhi Phan">}}
+{{<team-member image="team/sandip.jpg" name="Sandip Sarraf">}}
+{{<team-member image="team/sara.jpg" name="Sara Tahmasebi Adar">}}
 {{</gallery>}}

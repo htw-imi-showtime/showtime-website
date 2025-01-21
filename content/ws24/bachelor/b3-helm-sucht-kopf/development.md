@@ -6,11 +6,11 @@ draft = true
 
 {{<section title="Tech Stack">}}
 {{<gallery>}}
-{{<image src="assets/tech/react.png" alt="React">}}
-{{<image src="assets/tech/nextjs.png" alt="Next.js">}}
-{{<image src="assets/tech/figma.png" alt="Figma">}}
-{{<image src="assets/tech/vercel.png" alt="Vercel">}}
-{{<image src="assets/tech/gitlab.png" alt="GitLab">}}
+{{<image src="tech/react.png" alt="React">}}
+{{<image src="tech/nextjs.png" alt="Next.js">}}
+{{<image src="tech/figma.png" alt="Figma">}}
+{{<image src="tech/vercel.png" alt="Vercel">}}
+{{<image src="tech/gitlab.png" alt="GitLab">}}
 {{</gallery>}}
 {{</section>}}
 

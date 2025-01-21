@@ -5,6 +5,6 @@ draft = true
 +++
 
 {{<gallery>}}
-{{<team-member image="assets/team/Aaron.jpg" name="Aaron, our cameraman">}}
-{{<team-member image="assets/team/Azubis.jpg" name="Berliner Feuerwehr Azubis">}}
+{{<team-member image="team/aaron.jpg" name="Aaron, our cameraman">}}
+{{<team-member image="team/azubis.jpg" name="Berliner Feuerwehr Azubis">}}
 {{</gallery>}}
