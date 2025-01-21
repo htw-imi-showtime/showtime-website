@@ -12,7 +12,7 @@ Discover affordable flights, personalized hotel recommendations, and real-time a
 
 {{<section title="Interactive Travel Insights">}}
 
-Explore activities, landmarks, and local events in your chosen city, with insights on hidden gems and local favorites. Receive detailed flight schedules, durations, and prices.
+Explore activities, landmarks, and local events in your chosen city, with insights on hidden gems and local favorites. Receive detailed flight schedules, durations and prices.
 
 {{</section>}}
 
