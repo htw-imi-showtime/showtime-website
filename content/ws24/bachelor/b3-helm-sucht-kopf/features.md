@@ -6,15 +6,16 @@ draft = true
 
 {{<section title="Features">}}
 
-1. **Modern, Mobile-First Design:**  
-   A clean, minimalist design that is easy to navigate on any device, ensuring accessibility and engagement for young users.
-2. **Interactive Decision Tree Quiz:**  
-   Similar to a "Wahl-O-Mat," this quiz helps users identify their strengths and discover which career paths in the fire department are the best fit for them.
-3. **Virtual Tour:**  
-   An immersive, point-of-view virtual tour that lets users explore the fire department’s facilities and experience the work and education environment first-hand.
-4. **Smart Chatbot:**  
-   A text-based tool that provides fast, accurate answers to users' questions ensuring they get the information they need without delay.
-5. **Advanced Filter Functionality:**  
-   A robust filter system that allows users to quickly and easily find relevant career information tailored to their interests, skills and previous education.
+To make sure we reach as many people as possible, we’ve included four main features:
+
+1. **Classic Filter Page:**  
+   Easily find the right opportunity by filtering based on your highest level of education and personal preferences.
+2. **Interactive Quiz with a Storyline:**  
+   Take a short, engaging quiz to test your personality and decision-making skills. Based on your answers, we’ll guide you to the entry path that suits you best.
+3. **Interactive Virtual Tour:**  
+   Take an interactive tour through the different training rooms and get
+   a feel for what it’s like to be a part of the team.
+4. **FAQ Chatbot:**  
+   Got questions? Our chatbot is here to help with quick answers
 
 {{</section>}}

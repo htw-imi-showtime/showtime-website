@@ -2,11 +2,11 @@
 project_id = "B3"
 title = "Helm sucht Kopf"
 subtitle = "Recruiting für die Berliner Feuerwehr"
-claim = "Fire Department Recruiting Made Easy"
-abstract = "#HelmsuchtKopf is an innovative project aimed at addressing the shortage of young talent for critical positions in the Berlin Fire Department. Through a modern, user-friendly digital platform, we aim to inspire and engage the younger generation in exploring a career with the fire department. By focusing on clear, accessible, and interactive content, we help guide users towards making informed decisions about their future."
+claim = "Everyone can be a hero, but even heroes need guidance."
+abstract = "We collaborated with #HelmSuchtKopf, a campaign by the Berlin Fire Department, to create a solution that simplifies obtaining information and helps individuals find the right entry opportunities through gamification and interactivity. As part of this initiative, we developed a website with innovative features and tools, making it easier for individuals to explore their ideal entry path in an intuitive way."
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
+card_image = "assets/logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Christoph Friedrich", "Duha Kasem", "Maria Ivanova", "Nam Khanh Nguyen", "Phuong Nhi Phan", "Sandip Sarraf", "Sara Tahmasebi Adar"]
@@ -20,25 +20,29 @@ tags = []
 categories = ["External Stakeholder"]
 study_focus = ['Web Technology']
 +++
-{{<image src="feuerwehr-banner.png" alt="A banner showing the pages of the website.">}}
 
-{{<section title="Our Goal">}}
-Our primary goal is to revamp the Berlin Fire Department's career page to make it modern, engaging, and informative. We aim to increase visibility for their training programs, attract a diverse pool of young applicants, and ensure they can make well-informed decisions about their future careers in emergency services.
-By improving the user experience, we not only make the fire department's offerings more visible but also enhance the likelihood of attracting passionate and committed candidates who are better suited to the department’s needs.
+[//]: # ({{<image src="assets/banner.png" alt="A banner showing the pages of the website.">}})
+
+{{<section title="Intro">}}
+Helping prospective firefighters navigate their path into the Berliner Feuerwehr and explore the
+opportunities available.
 {{</section>}}
 
-{{<section title="Team">}}
-Each team member was assigned an aspect to focus on, ensuring that the website is designed
-to completion. Some members worked on design, some on implementation and deployment, some
-on media and site content.
+{{<section title="The Goal">}}
+
+The goal of #HelmSuchtKopf is to inspire and attract more trainees to the fire
+department.Through our website's interactive features, we aim to make the process enjoyable,
+interactive and engaging, helping tomorrow’s heroes find the entry opportunities that best match
+their aspirations.
+
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="team/p-christoph.jpeg" name="Christoph Friedrich">}}
-{{<team-member image="team/p-duha.jpg" name="Duha Kasem">}}
-{{<team-member image="team/p-maria.jpg" name="Maria Ivanova">}}
-{{<team-member image="team/p-nam.jpeg" name="Nam Khanh Nguyen">}}
-{{<team-member image="team/p-nhi.jpg" name="Phuong Nhi Phan">}}
-{{<team-member image="team/p-sandip.jpg" name="Sandip Sarraf">}}
-{{<team-member image="team/p-sara.jpg" name="Sara Tahmasebi Adar">}}
+{{<team-member image="assets/team/Christoph.jpg" name="Christoph Friedrich">}}
+{{<team-member image="assets/team/Duha.jpg" name="Duha Kasem">}}
+{{<team-member image="assets/team/Maria.jpg" name="Maria Ivanova">}}
+{{<team-member image="assets/team/Nam.jpg" name="Nam Khanh Nguyen">}}
+{{<team-member image="assets/team/Nhi.jpg" name="Phuong Nhi Phan">}}
+{{<team-member image="assets/team/Sandip.jpg" name="Sandip Sarraf">}}
+{{<team-member image="assets/team/Sara.jpg" name="Sara Tahmasebi Adar">}}
 {{</gallery>}}
