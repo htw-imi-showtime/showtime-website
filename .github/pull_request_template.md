@@ -8,7 +8,7 @@ I've started a documentation on how we should use the forking workflow here:
 
 Please follow these Steps & Guidelines for your Pull Request:
 
-#### Before you Request a Review Check and Tick these Boxes:
+#### First, Check and Tick these Boxes:
 
 [] make sure that the hugo site build works and check the result visually.
 [] merge your local branch with upstream/main (see [update doc](https://github.com/htw-imi-showtime/showtime-website/blob/main/doc/update.md)) 
@@ -20,8 +20,6 @@ Please follow these Steps & Guidelines for your Pull Request:
 
 **Note that if you fail to do so, I may simply reduce the file sizes brute force using 
 the script above - WITHOUT CHECKING THE QUALITY**
-
-[] if everythings seems fine, request a review by bkleinen on github. (on the upper right)
 
 #### Fill out this Information:
 

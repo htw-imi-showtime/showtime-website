@@ -88,6 +88,10 @@ cp -R archetypes/semester/master/m0-template/ content/ws#_or_ss#/master/m#-your-
 
 9. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. For more info see [pull_request.md](doc/git/pull_request.md)
 
+10. More information can be found in the [pull request template](.github/pull_request_template.md)
+
+11. As you are not (or, unless you are) member of the organization/repo htw-imi-showtime/showtime-website, you cannot use the github feature to request a review. Feel free to use the comments for that, and open the pull request as early as possible. We need to enable the Workflow runs once manually, after that they will be re-run automatically on each push to your branch the PR is based upon. 
+
 </details>
 
 
