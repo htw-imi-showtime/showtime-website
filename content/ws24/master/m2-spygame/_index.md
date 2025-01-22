@@ -60,9 +60,9 @@ Liz Kintzel: Guard
 
 {{<gallery>}}
 {{<team-member image="cat.jpg" name="Anton Streit">}}
-{{<team-member image="cat.jpg" name="Eve Schütze">}}
-{{<team-member image="cat.jpg" name="Laura Unverzagt">}}
-{{<team-member image="cat.jpg" name="Liz Kintzel">}}
-{{<team-member image="cat.jpg" name="Tim Markmann">}}
+{{<team-member image="eve_img.jpg" name="Eve Schütze">}}
+{{<team-member image="laura_img.jpg" name="Laura Unverzagt">}}
+{{<team-member image="liz_img.jpg" name="Liz Kintzel">}}
+{{<team-member image="tim_img.jpg" name="Tim Markmann">}}
 {{</gallery>}}
 
