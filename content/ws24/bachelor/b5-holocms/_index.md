@@ -1,8 +1,8 @@
 +++
 project_id = "B5"
 title = "HoloCMS"
-subtitle = "FROM QR TO AR: A NEW DIMENSION OF CONTENT DELIVERY"
-claim = ""
+subtitle ="Integrate Augmented Reality via QR-Codes"
+claim = "FROM QR TO AR: A NEW DIMENSION OF CONTENT DELIVERY"
 abstract = ""
 
 # Properties for displaying the project in the project list
