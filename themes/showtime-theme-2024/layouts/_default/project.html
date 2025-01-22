@@ -37,9 +37,13 @@
             </section>
         </header>
     </div>
+  
+    {{ $label := cond (eq 0 (len .CurrentSection.Pages) ) "The Project" "Overview"}}
+    
     <div class="project-menu desktop-menu background {{ .Type | lower }}">
         <ul>
-            <li {{if .IsNode }}class="active"{{ end }}><a href="{{ .CurrentSection.RelPermalink }}">Overview</a></li>
+            <li {{if .IsNode }}class="active"{{ end }}>
+                <a href="{{ .CurrentSection.RelPermalink }}">{{ $label}}</a></li>
             {{ range .CurrentSection.Pages }}
             <li {{if eq . $ }}class="active"{{ end }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{ end }}       
@@ -64,6 +68,7 @@
             </ul>
         </div>
     </div>
+    
     <main class="project">
         {{ if .IsNode }}
             {{ with .CurrentSection.Params.demo_link }}
