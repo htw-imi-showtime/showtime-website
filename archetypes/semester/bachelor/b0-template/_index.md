@@ -1,7 +1,8 @@
 +++
 project_id = "B0"
 title = "Master Project Template"
-subtitle = "informativ, kurz - kurzer 2. titel, der im Unterschied zum title(name) den Inhalt erahnen lässt"
+subtitle = "informativ, kurz - kurzer 2. titel, der
+als Ergänzung zum title(name) über den Inhalt des Projektes informiert"
 claim = "kurz - fasst die Mission, das so genannte Mission Statement des Projekts zusammen"
 abstract = "informativ - kurze, trockene inhaltliche Zusammenfassung"
 
