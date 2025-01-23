@@ -20,7 +20,7 @@ lastsem=$2
 sed -e "s/current_semester = [ws]s[0-9]\{2\}/current_semester = $1/" -i "" config/_default/config.toml
 
 # Update the semester set in the config file
-sed -e "s/archive_path = [ws]s[0-9]\{2\}/archive_path = $1/" -i "" config/_default/config.toml
+sed -e "s/archive_path = [ws]s[0-9]\{2\}/archive_path = $2/" -i "" config/_default/config.toml
 
 
 # emtpy the schedule

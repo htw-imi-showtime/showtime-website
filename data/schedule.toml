@@ -50,7 +50,7 @@ title = "Lunch Break"
 class = "general"
 
 [[slot]]
-time = "ca. 11:30-15:00"
+time = "11:30-15:00"
 title = "Project Fair"
 text = "Project Booths in H001"
 class = "general"

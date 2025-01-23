@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  
   check-pr-title:
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
     runs-on: ubuntu-latest
     env: 
       PR_TITLE: ${{ github.event.pull_request.title }}

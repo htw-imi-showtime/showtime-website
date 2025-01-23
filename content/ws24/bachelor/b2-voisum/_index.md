@@ -1,7 +1,7 @@
 +++
 project_id = "B2"
 title = "VoiSum"
-subtitle = ""
+subtitle = "Use AI to summarize voice messages"
 claim = "Voice In, Clarity Out"
 abstract = """Ever get those super long voice messages from friends or family and think "ugh, not another one"? Sure, you can blast through them at 2x speed, but let's be real - who wants to sit through all those "umm"s and random stories? That's where our project comes in handy: we're building this cool product that takes those rambling voice messages, uses AI to cut out all the fluff, and gives you back a clean, short summary. No more wasting time on voice messages that could've been much shorter!"""
 

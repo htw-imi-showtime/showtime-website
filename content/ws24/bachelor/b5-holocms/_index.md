@@ -1,14 +1,14 @@
 +++
 project_id = "B5"
 title = "HoloCMS"
-subtitle = "FROM QR TO AR: A NEW DIMENSION OF CONTENT DELIVERY"
-claim = ""
-abstract = ""
+subtitle ="Integrate Augmented Reality via QR-Codes"
+subtitle_old = "FROM QR TO AR: A NEW DIMENSION OF CONTENT DELIVERY"
+claim = "Experience the future of digital content with HoloCMS, where a simple QR scan opens up augmented reality adventures filled with engaging media." 
+
+abstract = "HoloCMS is a mixed reality app for the Microsoft HoloLens 2 that lets users scan custom QR codes to view dynamic content from a web based content management system (CMS) in augmented reality (AR). Developed for the Research and Education Center for Culture and Information Technology (FKI), HoloCMS allows users to explore points of interest enriched with visual and interactive displays. "
 
 # Properties for displaying the project in the project list
 card_image = "holo_logo.png"
-# card_description is deprecated, will be replaced by abstract/and or claim
-card_description = "Experience the future of digital content with HoloCMS, where a simple QR scan opens up augmented reality adventures filled with engaging media." 
 
 # Names are optional, team size is sufficient
 team = ["Sarah", "Vivian", "Bernd"]
@@ -23,8 +23,6 @@ categories = []
 study_focus = ['Game Technology']
 
 +++
-
-HoloCMS is a mixed reality app for the Microsoft HoloLens 2 that lets users scan custom QR codes to view dynamic content from a web based content management system (CMS) in augmented reality (AR). Developed for the Research and Education Center for Culture and Information Technology (FKI), HoloCMS allows users to explore points of interest enriched with visual and interactive displays. 
 
 {{<section title="Our Goal">}}
 The main goal of HoloCMS is to create an interactive and user friendly platform that leverages AR for educational and cultural experiences. By combining QR code technology with the Microsoft HoloLens 2, we aim to offer an immersive way for users to discover and explore detailed information intuitively.
