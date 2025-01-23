@@ -2,8 +2,9 @@
 project_id = "M2"
 title = "Get In - Keep Out"
 subtitle = "A role-based multiplayer game in Unreal Engine"
-claim = "“Get In - Keep Out” is a three-player, role game, where players jump into the roles of an agent, a hacker and a guard as part of the GIKO Company. As part of the GOSH Training Program, the agent and hacker must work together to navigate through randomly generated levels, while the guard and the NPCs they control, try to stop them. Hack the doors, trick the drones or alternatively command them to achieve your goal: get in or keep them out!"
-abstract = ""
+claim = "Hack the doors, trick the drones or alternatively command them to achieve your goal: get in or keep them out!"
+abstract = "“Get In - Keep Out” is a three-player role game, where players jump into the roles of an agent, a hacker and a guard as part of the GIKO Company. As part of the GOSH Training Program, the agent and hacker must work together to navigate through randomly generated levels, while the guard and the NPCs they control, try to stop them."
+
 
 # Properties for displaying the project in the project list
 card_image = "project_logo.png"
@@ -11,7 +12,7 @@ card_image = "project_logo.png"
 # Team
 team = ["Anton Streit", "Eve Schütze", "Laura Unverzagt", "Liz Kintzel", "Tim Markmann"]
 supervisor = "Prof. Dr. Tobias Lenz"
-draft = true
+draft = false
 
 website_link = ""
 source_link = ""
