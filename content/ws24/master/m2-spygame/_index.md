@@ -17,10 +17,6 @@ website_link = ""
 source_link = ""
 +++
 
-{{<section title="The Pitch">}}
-“Get In - Keep Out” is a three-player, role game, where players jump into the roles of an agent, a hacker and a guard as part of the GIKO Company. As part of the GOSH Training Program, the agent and hacker must work together to navigate through randomly generated levels, while the guard and the NPCs they control, try to stop them. Hack the doors, trick the drones or alternatively command them to achieve your goal: get in or keep them out!
-{{</section>}}
-
 {{<section title="The Goal">}}
 We created a unique gaming experience for each player:
 
