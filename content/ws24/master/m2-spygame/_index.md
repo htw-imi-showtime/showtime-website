@@ -6,7 +6,7 @@ claim = "“Get In - Keep Out” is a three-player, role game, where players jum
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "Project Logo.png"
+card_image = "Project Logo.jpg"
 
 # Team
 team = ["Anton Streit", "Eve Schütze", "Laura Unverzagt", "Liz Kintzel", "Tim Markmann"]
