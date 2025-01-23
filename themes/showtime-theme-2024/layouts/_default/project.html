@@ -93,14 +93,10 @@
             {{ . }}
         {{ end }}
         {{ with .Params.Abstract }}
-        <section>
-            <h3>Abstract</h3>
-            <div class="spacer"></div>
-            <div class="content">
-                {{ . }}
-            </div>
-        </section>
+            <p> {{ . }}</p>
+           
         {{ end }}
+
         {{ .Content }}
     </main>
 {{ end }}
