@@ -31,7 +31,7 @@ The foundation of our project was provided by the Institute of Sports Science at
 {{</section>}}
 
 {{<section title="Main Ideas">}}
-In Order to achieve this, ErgoScape immerses participants in a virtual cycling experience. The software uses live data from the spiroergometry test to adjust the simulation. This way, participants feel like they are really cycling along the track. Additionally, live performance data is displayed on the screen to give participants feedback on their progress and motivate them to push themselves to their limits. Verbal encouragement is provided at key moments to keep participants motivated right up to their true physical limits.
+In order to achieve this, ErgoScape immerses participants in a virtual cycling experience. The software uses live data from the spiroergometry test to adjust the simulation. This way, participants feel like they are really cycling along the track. Additionally, live performance data is displayed on the screen to give participants feedback on their progress and motivate them to push themselves to their limits. Verbal encouragement is provided at key moments to keep participants motivated right up to their true physical limits.
 
 Because doctors might not be as tech-savvy as we are, ErgoScape was designed to be as user-friendly as possible while still allowing the flexibility needed to adapt to every tester's individual needs: You can seamlessly configure the test on one device and run the corresponding simulation on another - or both on the same device. Whatever suits your needs best.
 
