@@ -12,7 +12,7 @@ team = ["Luong Hoang", "Santiago Badaya", "Shuvam Kumar Sah", "Talha Tayyab", "H
 supervisor = "Frederik Marquart"
 draft = false
 
-website_link = "https://elara-health.vercel.app/"
+demo_link = "https://elara-health.vercel.app/"
 
 categories = ["Health Technology"]
 study_focus = ['Web Technology', 'AI Integration']
@@ -22,7 +22,7 @@ study_focus = ['Web Technology', 'AI Integration']
 {{<image src="hero_image.webp" alt="Elara Website image " >}}
 
 {{<section title="Our Goal">}}
-ME/CFS (Myalgische Enzephalomyelitis/Chronic Fatigue Syndrome) affects millions of people worldwide, yet it remains poorly understood and stigmatized.
+ME/CFS (Myalgische Enzephalomyelitis/Chronic Fatigue Syndrome) affects millions of people worldwide, yet it remains poorly understood and often stigmatized.
 
 Elara aims to bridge this gap by empowering patients with tools to better understand their condition, track their symptoms, and access personalized health insights. By fostering awareness and providing actionable recommendations, Elara supports ME/CFS patients in managing their daily lives more effectively.
 
