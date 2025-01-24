@@ -6,7 +6,7 @@ claim = "Everyone can be a hero, but even heroes need guidance. We help prospect
 abstract = "We collaborated with #HelmSuchtKopf, a campaign by the Berlin Fire Department, to create a solution that simplifies obtaining information and helps individuals find the right entry opportunities through gamification and interactivity. As part of this initiative, we developed a website with innovative features and tools, making it easier for individuals to explore their ideal entry path in an intuitive way."
 
 # Properties for displaying the project in the project list
-card_image = "assets/logo.jpg"
+card_image = "assets/B3_Logo.png"
 
 # Names are optional, team size is sufficient
 team = ["Christoph Friedrich", "Duha Kasem", "Maria Ivanova", "Nam Khanh Nguyen", "Phuong Nhi Phan", "Sandip Sarraf", "Sara Tahmasebi Adar"]
