@@ -31,7 +31,7 @@ project_id = "B5"
 
 [[slot]]
 time = "10:40"
-project_id = "M1"
+project_id = "B6"
 
 
 [[slot]]
@@ -45,22 +45,12 @@ project_id = "M3"
 
 
 [[slot]]
-time = "11:01"
-project_id = "M4"
-
-
-[[slot]]
-time = "11:08"
-project_id = "M5"
-
-
-[[slot]]
-time = "11:15"
+time = "11:00"
 title = "Lunch Break"
 class = "general"
 
 [[slot]]
-time = "ca. 11:45-15:00"
+time = "11:30-15:00"
 title = "Project Fair"
 text = "Project Booths in H001"
 class = "general"
