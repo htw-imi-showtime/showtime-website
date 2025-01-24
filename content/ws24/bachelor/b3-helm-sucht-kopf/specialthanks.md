@@ -1,7 +1,7 @@
 +++
 title = "Special Thanks"
 weight = 10
-draft = true
+draft = false
 +++
 
 {{<gallery>}}
