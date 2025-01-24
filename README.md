@@ -60,7 +60,8 @@ cd showtime-website
 git submodule update --init project-archive
 ```
 
-2.b Complete with archive submodules:
+2.b Complete with archive submodule:
+(The former semester - you don't need it and its large.)
 
 ```
 git clone --depth 1 --recurse-submodules git@github.com:<your-account>/showtime-website.git
@@ -69,15 +70,16 @@ cd showtime-website
 
 3. [Install Hugo (extended)](https://gohugo.io/getting-started/installing)
 
-4. Create a branch. Never change main directly, but keep it synced with the main repository and discard the branch.
+4. Create a branch. Never change main directly, but keep main synced with the main repository and merge main into your branch regularly. 
 
-5. Create a new project directory for your project by duplicating either the bachelor's or the master's sample project directory:
-
+5. Create your project directory like in the 2 examples below. Make sure
+to replace the semester, the b/m and the project name appropriately.
+All file names should only contain lowercase letters, numbers, `-` and one `.` to separate the extension.
 ```
-cp -R archetypes/semester/bachelor/b0-template/ content/ws#_or_ss#/bachelor/b#-your-project/
-```
-```
-cp -R archetypes/semester/master/m0-template/ content/ws#_or_ss#/master/m#-your-project/
+# example for bachelor - the last parameter is the directory name that will be created:
+hugo new --kind project ws24/bachelor/b3-myproject
+# example for master:
+hugo new --kind project ws24/master/m3-the-short-project-name
 ```
 
 6. Fill out your project's homepage `content/ws24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.
@@ -86,7 +88,13 @@ cp -R archetypes/semester/master/m0-template/ content/ws#_or_ss#/master/m#-your-
 
 8. Add your changes to the git index, commit them to the repository and push them to GitHub.
 
-9. Create a new pull request on GitHub that merges your version of the repo's `master` branch onto the htw-imi-showtime `master` branch. For more info see [pull_request.md](doc/git/pull_request.md)
+9. To publish your branch directly, Activate Github Actions, Switch on Github Pages for your repo (settings->Pages, choose GitHub Actions as source), and run the "Deploy Page using GH-Actions" workflow manually.
+
+9. Create a new pull request on GitHub that merges your version of your branch onto the htw-imi-showtime `main` branch. For more info see [pull_request.md](doc/git/pull_request.md)
+
+10. More information can be found in the [pull request template](.github/pull_request_template.md)
+
+11. As you are not (or, unless you are) member of the organization/repo htw-imi-showtime/showtime-website, you cannot use the github feature to request a review. Feel free to use the comments for that, and open the pull request as early as possible. We need to enable the Workflow runs once manually, after that they will be re-run automatically on each push to your branch the PR is based upon. 
 
 </details>
 
