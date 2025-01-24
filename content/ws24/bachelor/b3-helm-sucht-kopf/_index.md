@@ -1,8 +1,8 @@
 +++
 project_id = "B3"
 title = "Helm sucht Kopf"
-subtitle = "Recruiting für die Berliner Feuerwehr"
-claim = "Everyone can be a hero, but even heroes need guidance."
+subtitle = "Recruiting for the Berlin Fire Department"
+claim = "Everyone can be a hero, but even heroes need guidance. We help prospective firefighters navigate their path to the Berliner Feuerwehr and explore available opportunities."
 abstract = "We collaborated with #HelmSuchtKopf, a campaign by the Berlin Fire Department, to create a solution that simplifies obtaining information and helps individuals find the right entry opportunities through gamification and interactivity. As part of this initiative, we developed a website with innovative features and tools, making it easier for individuals to explore their ideal entry path in an intuitive way."
 
 # Properties for displaying the project in the project list
@@ -13,7 +13,7 @@ team = ["Christoph Friedrich", "Duha Kasem", "Maria Ivanova", "Nam Khanh Nguyen"
 supervisor = ["Alexander Kramer", "Carsten Busch"]
 draft = false
 
-website_link = "https://karriere-berliner-feuerwehr.vercel.app/"
+# website_link = "https://karriere-berliner-feuerwehr.vercel.app/"
 # source_link = ""
 
 tags = []
@@ -22,11 +22,6 @@ study_focus = ['Web Technology']
 +++
 
 [//]: # ({{<image src="assets/banner.png" alt="A banner showing the pages of the website.">}})
-
-{{<section title="Intro">}}
-Helping prospective firefighters navigate their path into the Berliner Feuerwehr and explore the
-opportunities available.
-{{</section>}}
 
 {{<section title="The Goal">}}
 

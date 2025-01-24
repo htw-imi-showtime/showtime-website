@@ -1,7 +1,7 @@
 +++
 title = "Development"
 weight = 10
-draft = true
+draft = false
 +++
 
 {{<section title="Tech Stack">}}
