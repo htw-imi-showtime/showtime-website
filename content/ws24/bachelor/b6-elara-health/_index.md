@@ -12,7 +12,7 @@ team = ["Luong Hoang", "Santiago Badaya", "Shuvam Kumar Sah", "Talha Tayyab", "H
 supervisor = "Frederik Marquart"
 draft = false
 
-demo_link = "https://elara-health.vercel.app/"
+app_link = "https://elara-health.vercel.app/"
 
 categories = ["Health Technology"]
 study_focus = ['Web Technology', 'AI Integration']
