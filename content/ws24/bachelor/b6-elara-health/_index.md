@@ -8,7 +8,7 @@ abstract = "Elara is an innovative health app designed for ME/CFS patients. It p
 # Properties for displaying the project in the project list
 card_image = "logo.svg"
 
-team = ["Luong Hoang", "Santiago Badaya", "Shuvam Sah", "Talha Tayyab", "Ha Luu", "Duy Anh Nguyen", "Simona Tröger" ]
+team = ["Luong Hoang", "Santiago Badaya", "Shuvam Kumar Sah", "Talha Tayyab", "Ha Luu", "Duy Anh Nguyen", "Simona Tröger" ]
 supervisor = "Frederik Marquart"
 draft = false
 
@@ -18,6 +18,8 @@ categories = ["Health Technology"]
 study_focus = ['Web Technology', 'AI Integration']
 
 +++
+
+{{<image src="hero_image.webp" alt="Elara Website image " >}}
 
 {{<section title="Our Goal">}}
 ME/CFS (Myalgische Enzephalomyelitis/Chronic Fatigue Syndrome) affects millions of people worldwide, yet it remains poorly understood and often stigmatized.
@@ -73,16 +75,15 @@ The Elara project was brought to life by a dedicated team of students passionate
 - **Ha Luu**: UI/UX Designer, Frontend Developer - Contributed to interface design and implemented frontend features to deliver a seamless user experience.
 - **Duy Anh Nguyen**: UI/UX Designer - Worked on creating aesthetically pleasing designs for flyers and posters
 - **Simona Tröger**: Researcher, Team's Representative - Gathered and analyzed critical information on ME/CFS, and represented the team in key discussions.
-- **Talha Tayyab**:
+- **Talha Tayyab**: UI/UX Designer - Contributed to the design of user-friendly interfaces and ensured the platform’s visual consistency and intuitive user experience.
   {{</section>}}
 
 {{<gallery>}}
 {{<team-member image="luong.webp" name="Luong Hoang">}}
 {{<team-member image="simona.webp" name="Simona Tröger">}}
-{{<team-member image="shuvam.webp" name="Shuvam Sah">}}
+{{<team-member image="shuvam.webp" name="Shuvam Kumar Sah">}}
 {{<team-member image="santiago.webp" name="Santiago Badaya">}}
 {{<team-member image="talha.webp" name="Talha Tayyab">}}
-{{<team-member image="talha.webp" name="Duy Anh Nguyen">}}
-{{<team-member image="talha.webp" name="Ha Luu">}}
-
+{{<team-member image="duy_anh.webp" name="Duy Anh Nguyen">}}
+{{<team-member image="ha_luu.webp" name="Ha Luu">}}
 {{</gallery>}}
