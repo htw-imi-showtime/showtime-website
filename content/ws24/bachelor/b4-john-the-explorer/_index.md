@@ -17,6 +17,8 @@ website_link = ""
 source_link = ""
 +++
 
+<img src="scene.jpg" alt="scene of the project" width="1000">
+
 {{<section title="Our Goal">}}
 The John the Explorer aims to revolutionize travel by providing personalized recommendations that connect user preferences with global travel opportunities. Through advanced AI, it simplifies the travel planning process, making it accessible and effortless for all types of travelers. Additionally, it empowers decision-making with real-time insights and interactive guidance.
 {{</section>}}
