@@ -41,10 +41,16 @@
                         {{ $slot_text = printf "%s - %s"  $slot_text . | lower }}
                     {{ end }}   
                     {{ with  .Params.Supervisor }}
-                        {{ $slot_text = printf "%s %s" $slot_text . }}
-                    {{ end }} 
-                   
+                        {{ if eq "string" (printf "%T" . ) }}
+                            {{ $slot_text = printf "%s %s" $slot_text . }}
+                        {{ else }} 
+                            {{ $slot_text = delimit . ", " }}
+                      
+                        {{ end }}
+                    {{ end }}
                 {{ end }}
+
+
                 
                 {{ if in .project_id "B" }}
                     {{ $slot_class = "bachelor" }}

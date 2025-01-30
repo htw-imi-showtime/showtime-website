@@ -37,9 +37,13 @@
             </section>
         </header>
     </div>
+  
+    {{ $label := cond (eq 0 (len .CurrentSection.Pages) ) "The Project" "Overview"}}
+    
     <div class="project-menu desktop-menu background {{ .Type | lower }}">
         <ul>
-            <li {{if .IsNode }}class="active"{{ end }}><a href="{{ .CurrentSection.RelPermalink }}">Overview</a></li>
+            <li {{if .IsNode }}class="active"{{ end }}>
+                <a href="{{ .CurrentSection.RelPermalink }}">{{ $label}}</a></li>
             {{ range .CurrentSection.Pages }}
             <li {{if eq . $ }}class="active"{{ end }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{ end }}       
@@ -64,8 +68,15 @@
             </ul>
         </div>
     </div>
+    
     <main class="project">
         {{ if .IsNode }}
+             {{ with .CurrentSection.Params.app_link }}
+             <a class="project-link" href="{{ . }}">
+                 <img src = "{{ "img/demo.svg" | absURL }}" alt="App Link Icon">
+                 Test our App
+             </a>
+             {{ end }}
             {{ with .CurrentSection.Params.demo_link }}
             <a class="project-link" href="{{ . }}">
                 <img src = "{{ "img/demo.svg" | absURL }}" alt="Demo Link Icon">
@@ -74,13 +85,13 @@
             {{ end }}
             {{ with .CurrentSection.Params.source_link }}
             <a class="project-link" href="{{ . }}">
-                <img src = "{{ "img/code.svg" | absURL }}" alt="Demo Link Icon">
+                <img src = "{{ "img/code.svg" | absURL }}" alt="Source Code Link Icon">
                 Source_Code
             </a>
             {{ end }}
             {{ with .CurrentSection.Params.website_link }}
             <a class="project-link" href="{{ . }}">
-                <img src = "{{ "img/website.svg" | absURL }}" alt="Demo Link Icon">
+                <img src = "{{ "img/website.svg" | absURL }}" alt="Website Link Icon">
                 Website
             </a>
             {{ end }}
@@ -93,14 +104,10 @@
             {{ . }}
         {{ end }}
         {{ with .Params.Abstract }}
-        <section>
-            <h3>Abstract</h3>
-            <div class="spacer"></div>
-            <div class="content">
-                {{ . }}
-            </div>
-        </section>
+            <p> {{ . }}</p>
+           
         {{ end }}
+
         {{ .Content }}
     </main>
 {{ end }}

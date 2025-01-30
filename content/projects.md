@@ -4,7 +4,7 @@ layout = "projects_list"
 +++
 
 
-This term there are [5 bachelor's](#B1) and [2 master's](#M3) projects[:](../ws24/project_overview)
+This term there are [5 bachelor's](#B1) and [2 master's](#M2) projects[:](../ws24/project_overview)
 <!--
 
 The Project Pitches and Group Selection will take place soon!

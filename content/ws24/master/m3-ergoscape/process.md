@@ -9,7 +9,7 @@ As the very first step of our research, we read studies and articles about the t
 {{</section>}}
 
 {{<section title="Conception">}}
-After we had a clear understanding of the requirements, we started brainstorming ideas for the concept of ErgoVision. We used Miro to visualize our ideas and GitLab to discuss and record decisions. We decided to create an immersive audiovisual environment that would motivate the participants during the spiroergometry test. To achieve that, we knew quite early that we wanted to create a virtual track that the participants could cycle along. 
+After we had a clear understanding of the requirements, we started brainstorming ideas for the concept of ErgoScape. We used Miro to visualize our ideas and GitLab to discuss and record decisions. We decided to create an immersive audiovisual environment that would motivate the participants during the spiroergometry test. To achieve that, we knew quite early that we wanted to create a virtual track that the participants could cycle along. 
 
 However, we were not sure what this track should look like and what technology we should use to create it. Originally we thought about implementing a virtual 3D track using three.js to have full control in the simulation of the track ride, but we had various concerns about the reception of the participants and the implementation in terms of immersion. Then we discovered that there are hundreds of good-quality first-person cycling videos on YouTube that feel very immersive out of the box. We decided to use these videos as the base for our virtual track and to enhance them with additional visual effects and motivational elements. 
 
