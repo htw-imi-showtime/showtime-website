@@ -1,0 +1,9 @@
+{{- $key := .Get 0 }}
+{{- if eq nil $key}}
+    {{- $key = "date"}}
+{{- end }}
+{{- range $.Site.Data.schedule.showtime }}
+{{-  index . $key }}
+{{ end -}}
+
+

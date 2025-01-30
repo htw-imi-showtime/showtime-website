@@ -13,7 +13,7 @@ team = ["Christoph Friedrich", "Duha Kasem", "Maria Ivanova", "Nam Khanh Nguyen"
 supervisor = ["Alexander Kramer", "Carsten Busch"]
 draft = false
 
-website_link = "https://karriere-berliner-feuerwehr.vercel.app/"
+# website_link = "https://karriere-berliner-feuerwehr.vercel.app/"
 # source_link = ""
 
 tags = []
