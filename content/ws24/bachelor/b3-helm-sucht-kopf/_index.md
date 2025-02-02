@@ -10,7 +10,7 @@ card_image = "assets/logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Christoph Friedrich", "Duha Kasem", "Maria Ivanova", "Nam Khanh Nguyen", "Phuong Nhi Phan", "Sandip Sarraf", "Sara Tahmasebi Adar"]
-supervisor = ["Alexander Kramer", "Carsten Busch"]
+supervisor = ["Alexander Kramer", "Prof. Dr. Carsten Busch"]
 draft = false
 
 app_link = "https://karriere-berliner-feuerwehr.vercel.app/"
