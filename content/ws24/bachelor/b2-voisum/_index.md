@@ -12,7 +12,7 @@ card_image = "voisum_logo.jpeg"
 
 # Names are optional, team size is sufficient
 team = ["Jasmin Furche", "Tiphannie Byakuleka", "Veronika Zhaboklitskaya","Akrem Cheniour",  "Jannis Elsner", "Jenny Phuong Anh Nguyen", "Yusuf Ünlen"]
-supervisor = "Prof. Tobias Lenz"
+supervisor = "Prof. Dr. Tobias Lenz"
 
 website_link = ""
 source_link = ""

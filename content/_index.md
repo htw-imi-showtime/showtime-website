@@ -13,7 +13,7 @@ zoom_link = "TBD"
 {{<teaser category="about showtime" title="Project Fair & Presentations">}}
 
 The Bachelor and Master students of the International Media and Computing Study Programs present their Practice Projects with presentations and a Project Fair.
-It'll be great to see  you on {{<showtime-date>}} at {{<showtime-date "showtime-start">}} for the presentations or between {{<showtime-date "fair-start">}} and {{<showtime-date "fair-end">}} for the fair in Room H001 on our <a href="https://www.htw-berlin.de/campus/campus-wilhelminenhof/">Campus Wilhelminenhof!</a>
+It'll be great to see  you on {{<showtime-date>}} at {{<showtime-date "showtime-start">}} for the presentations and between {{<showtime-date "fair-start">}} and {{<showtime-date "fair-end">}} for the fair in Room H001 on our <a href="https://www.htw-berlin.de/campus/campus-wilhelminenhof/">Campus Wilhelminenhof!</a>
 [-> check_the_schedule](schedule)
 {{</teaser>}}
 
