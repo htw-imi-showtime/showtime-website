@@ -5,9 +5,9 @@ theme = "showtime-theme-2024"
 enableGitInfo = true
 
 [params]
-    current_semester = "ws24"
+    current_semester = "ss25"
     production_site = "https://showtime.f4.htw-berlin.de/"
-    archive_path = "ss24"
+    archive_path = "ws24"
     debug = true
     preview_message = "Preview Site!"
     preview_url = ""
