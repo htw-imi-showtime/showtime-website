@@ -22,7 +22,7 @@
         <p><b>project_id:</b> {{ .Params.project_id }}</p>
         <p><b>title:</b> = {{ .Title }}</p>
         <p><b>subtitle:</b> = {{ .Params.Subtitle }}</p>
-        <p><b>team:</b> {{ .Params.Team }} ({{ printf "%T" .Params.Supervisor }})</p>
+        <p><b>team:</b> {{ .Params.Team }} ({{ printf "%T" .Params.Team }})</p>
         <p><b>supervisor:</b> {{ .Params.Supervisor }} ({{ printf "%T" .Params.Supervisor }})</p>
       
         <p><b>claim</b> =  {{ .Params.claim }}</p>
@@ -53,7 +53,7 @@
 <b>for bt:</b>
 <pre>
 {{ range $projects -}}
-"{{ .Params.project_id }}": - "{{ .Params.project_id }} - {{ .Title }} {{ .Params.Subtitle }}",
+"{{ .Params.project_id }}": - "{{ .Params.project_id }} - {{ .Title }}: {{ .Params.Subtitle }}",
 
 {{ end }}
 </pre>
