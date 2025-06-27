@@ -16,9 +16,7 @@ This semester, we had the opportunity to turn these earlier concepts into someth
 {{</section>}}
 
 {{<section title="Product Goal">}}
-Our product goal was to create a fun and engaging e-learning unit that helps learners learn Java fundamentals in a creative and interactive way.
-
-It should especially target the students of the first semester of the Media Informatics Bachelor's program.
+The aim of our product was to develop an e-learning unit that introduces Programming fundamentals in a creative and interactive format, tailored specifically to the needs of international first-semester Media and Computing students.
 {{</section>}}
 
 {{<section title="Prototyping & Implementation">}}
