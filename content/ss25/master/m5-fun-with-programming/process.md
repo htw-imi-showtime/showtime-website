@@ -7,19 +7,28 @@ weight = 10
 draft = true
 +++
 
-{{<section title="Optional Subpage">}}
+{{<section title="Background & Starting Point">}}
+This project builds on the insights we gained in the ‘Didactics of Media’ course with Prof. Weber-Wulff last semester. In that course, we explored different ways of conveying knowledge to learners. We also examined what learning actually means and how many different approaches there are to understanding a subject.
 
-* **Subheader 1**
+At the end of the semester, we worked in small groups to design e-learning unit concepts based on selected topics from the Bachelor's course Informatics 1.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+This semester, we had the opportunity to turn these earlier concepts into something tangible by designing a new e-learning unit that incorporates and expands upon the already existing concepts.
+{{</section>}}
 
+{{<section title="Product Goal">}}
+Our product goal was to create a fun and engaging e-learning unit that helps learners learn Java fundamentals in a creative and interactive way.
 
-* **Subheader 2**
+It should especially target the students of the first semester of the Media Informatics Bachelor's program.
+{{</section>}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+{{<section title="Prototyping & Implementation">}}
+{{</section>}}
 
-* **Subheader 3**
+{{<section title="Team Roles & Workflow">}}
+{{</section>}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+{{<section title="Challenges">}}
+{{</section>}}
 
+{{<section title="Reflection">}}
 {{</section>}}
