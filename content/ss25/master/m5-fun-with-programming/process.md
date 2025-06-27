@@ -20,12 +20,17 @@ The aim of our product was to develop an e-learning unit that introduces Program
 {{</section>}}
 
 {{<section title="Prototyping & Implementation">}}
+Low, Mid and High fidelity prototypes
 {{</section>}}
 
 {{<section title="Team Roles & Workflow">}}
+CMS editors
+Frontend developers
+Backend and Ops developers
 {{</section>}}
 
 {{<section title="Challenges">}}
+Docker Strapi deployment
 {{</section>}}
 
 {{<section title="Reflection">}}
