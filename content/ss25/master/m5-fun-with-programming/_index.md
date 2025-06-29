@@ -41,13 +41,11 @@ We also designed a consistent visual identity for the course, complete with a ma
 {{</section>}}
 
 {{<section title="Process">}}
-**TODO: In this section, describe the product development process**
+We started by building on concepts developed during a previous course on media didactics, aiming to create an engaging e-learning unit for first-semester international students.
 
-Our development process followed these phases:
+After prototyping and iterating on our ideas, we implemented the unit using Nuxt.js and Strapi, with a focus on modular, interactive content.
 
-* **1. Concept & Research:**  
-  We started by identifying common struggles of first-semester students in Java courses. Interviews with students and teachers revealed a need for more engaging, low-barrier teaching material. Inspired by game-based learning principles, we settled on a fantasy storyline as the core metaphor.
-{{</section>}}
+Along the way, we overcame challenges in deployment, backend structure, and data integration—working as a team with complementary strengths in frontend, backend, and content development.{{</section>}}
 
 {{<section title="Learning Experience">}}
 **What makes this approach different**
