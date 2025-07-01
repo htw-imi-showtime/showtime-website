@@ -16,10 +16,10 @@ website_link = "https://visual-computing.com/"
 source_link = ""
 +++
 
-{{<section title="The 360° Direcotors Cut Viewer">}}
+{{<section title="The 360° Directors Cut Viewer">}}
 ...
 {{</section>}}
-# TODO Add picture
+
 {{<image src="gui_picture.jpg" caption="" alt="">}} 
 
 {{<section title="The Goal">}}
@@ -37,6 +37,7 @@ We want to help video editors to improve the attention span of their points of i
 {{<section title="The Team">}}
 ...
 {{</section>}}
+
 
 {{<gallery>}}
 {{<team-member image="team_anton.jpg" name="Anton Schöps">}}
