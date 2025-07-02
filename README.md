@@ -39,7 +39,6 @@ every push to master, without drafts (same as production): [https://htw-imi-show
 
 ## Adding your project presentation
 
-A detailed step by step guide is [here](doc/git/adding_project.md).
 
 <details>
 
@@ -75,11 +74,12 @@ cd showtime-website
 5. Create your project directory like in the 2 examples below. Make sure
 to replace the semester, the b/m and the project name appropriately.
 All file names should only contain lowercase letters, numbers, `-` and one `.` to separate the extension.
+
 ```
 # example for bachelor - the last parameter is the directory name that will be created:
-hugo new --kind project ws24/bachelor/b3-myproject
+hugo new --kind project ss25/bachelor/b3-myproject
 # example for master:
-hugo new --kind project ws24/master/m3-the-short-project-name
+hugo new --kind project ss25/master/m3-the-short-project-name
 ```
 
 6. Fill out your project's homepage `content/ws24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.
