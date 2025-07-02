@@ -54,7 +54,7 @@ every push to master, without drafts (same as production): [https://htw-imi-show
 git clone --depth 1 git@github.com:<your-account>/showtime-website.git
 cd showtime-website
 ```
-
+you can always get the archive later by running:
 ```
 git submodule update --init project-archive
 ```
@@ -67,13 +67,21 @@ git clone --depth 1 --recurse-submodules git@github.com:<your-account>/showtime-
 cd showtime-website
 ```
 
-3. [Install Hugo (extended)](https://gohugo.io/getting-started/installing)
+3. [Install Hugo (extended)](https://gohugo.io/getting-started/installing)  
+&nbsp;  
+You can check your installation by executing hugo server and visiting http://localhost:1313/ in your browser. If you get an error:
+    - Did you install the Hugo extended version? This is needed for Hugo to correctly compile the theme's SCSS files
+
 
 4. Create a branch. Never change main directly, but keep main synced with the main repository and merge main into your branch regularly. 
 
-5. Create your project directory like in the 2 examples below. Make sure
-to replace the semester, the b/m and the project name appropriately.
-All file names should only contain lowercase letters, numbers, `-` and one `.` to separate the extension.
+```
+git checkout -b b#_your_project_as_a_branch_name
+```
+
+5. Create your project directory like in the 2 examples below.   
+Make sure to replace the semester, the b/m, the project name appropriately and make sure to include your project number (e.g. b2, m1, ...)!  
+All file names should only contain lowercase letters, numbers, `-`, `_` and one `.` to separate the extension.
 
 ```
 # example for bachelor - the last parameter is the directory name that will be created:
@@ -82,17 +90,26 @@ hugo new --kind project ss25/bachelor/b3-myproject
 hugo new --kind project ss25/master/m3-the-short-project-name
 ```
 
-6. Fill out your project's homepage `content/ws24/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.
+6. Fill out your project's homepage `content/ss25/<bachelor/master>/##-your-project/_index.md` and any subpages in your project's directory you'd like to keep. Delete the subpages you don't need.  
+&nbsp;  
+Have a look at the [section documentation](doc/project/content_guide.md) or the template projects for including headings, images and videos.  
+If you need help with the markdown syntax, have a look at this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).  
+You may also put images in your project's directory (**less than 100 MB per file**, please upload videos to the HTW Mediathek and embed them).
 
 7. Preview your changes locally to make sure everything looks fine by executing `hugo server --buildDrafts` and visiting http://localhost:1313/ in your browser. (of use `make`)
 
 8. Add your changes to the git index, commit them to the repository and push them to GitHub.
 
+```
+git add content/ss25/<bachelor|master>/<project_number-your-project>
+git commit -m "Your commit message"
+git push
+```
+
 9. To publish your branch directly, Activate Github Actions, Switch on Github Pages for your repo (settings->Pages, choose GitHub Actions as source), and run the "Deploy Page using GH-Actions" workflow manually.
 
-9. Create a new pull request on GitHub that merges your version of your branch onto the htw-imi-showtime `main` branch. For more info see [pull_request.md](doc/git/pull_request.md)
-
-10. More information can be found in the [pull request template](.github/pull_request_template.md)
+10. Create a new pull request on GitHub that merges your version of your branch onto the htw-imi-showtime `main` branch. For more info see [pull_request.md](doc/git/pull_request.md)  
+More information can be found in the [pull request template](.github/pull_request_template.md)
 
 11. As you are not (or, unless you are) member of the organization/repo htw-imi-showtime/showtime-website, you cannot use the github feature to request a review. Feel free to use the comments for that, and open the pull request as early as possible. We need to enable the Workflow runs once manually, after that they will be re-run automatically on each push to your branch the PR is based upon. 
 
@@ -118,11 +135,11 @@ You can easily deploy your fork on GH-Pages by following the instructions here:
 
 The workflow is ".github/workflows/gh-pages-action.yml"
 
-For a detailed Description of the Website Release process, see this page: [release-process.md](./release-process.md)
+For a detailed Description of the Website Release process, see this page: [release-process.md](doc/release-process.md)
 
 ### Updating your Fork
 
-You can find a documention in the following sub-page: [doc/update.md](doc/update.md)
+You can find a documention in the following sub-page: [doc/git/update.md](doc/git/update.md)
 
 
 ## Including additional content
