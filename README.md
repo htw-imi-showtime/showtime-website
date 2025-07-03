@@ -40,10 +40,6 @@ every push to master, without drafts (same as production): [https://htw-imi-show
 ## Adding your project presentation
 
 
-<details>
-
-<summary> Short Explanation </summary>
-
 1. Fork the project to your GitHub account.
 2. Clone the project:
 (cloning the archive submodule is optional)
@@ -113,7 +109,6 @@ More information can be found in the [pull request template](.github/pull_reques
 
 11. As you are not (or, unless you are) member of the organization/repo htw-imi-showtime/showtime-website, you cannot use the github feature to request a review. Feel free to use the comments for that, and open the pull request as early as possible. We need to enable the Workflow runs once manually, after that they will be re-run automatically on each push to your branch the PR is based upon. 
 
-</details>
 
 
 ## We are using the Forking Workflow.
