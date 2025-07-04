@@ -14,7 +14,7 @@ claim = "Student feedback shapes better teaching. By enabling students to rate t
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
 # *** KANN WEGGELASSEN WERDEN ***, hat in der früheren Gliederung mehr sinn gemacht,
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
-abstract = "die 1. Seite soll die unten angegebenen 3 Sections haben, die Titel der Sections können aber angepasst werden(dies ist das abstract)"
+
 
 # Properties for displaying the project in the project list
 card_image = "logo.png"
