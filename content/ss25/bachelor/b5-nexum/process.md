@@ -29,7 +29,7 @@ Initially, we had no clearly defined roles, which caused some overlap and ineffi
 - **Charlotte** – Team coordination, backend development, server setup and some frontend tasks
 - **Vu** – Backend development and some frontend tasks  
 - **Andrey** – Lead frontend developer  
-- **Julia & Maria** – UI/UX design and frontend feedback  
+- **Julia & Mariia** – UI/UX design and frontend feedback  
 - **Daria** – UI/UX design and user testing
 
 This division improved coordination, allowed people to specialize, and reduced duplicated efforts.

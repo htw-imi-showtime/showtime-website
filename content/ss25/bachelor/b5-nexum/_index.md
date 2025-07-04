@@ -9,7 +9,7 @@ abstract = "Nexum is a lightweight audience engagement platform that supports li
 
 card_image = "images/logo.png"
 
-team = ["Vu Duc Le", "Andrey Krasavin", "Daria Myronova", "Júlia Vieira de Souza", "Maria Manzon", "Charlotte John"]
+team = ["Vu Duc Le", "Andrey Krasavin", "Daria Myronova", "Júlia Vieira de Souza", "Mariia Manzon", "Charlotte John"]
 supervisor = "Prof. Dr. Gefei Zhang"
 
 draft = false
@@ -17,8 +17,6 @@ draft = false
 source_link = "https://gitlab.htw-berlin.de/s0592097/weslido"
 website_link = "http://nexum.f4.htw-berlin.de/home"
 +++
-
-#
 
 
 {{<section title="Our Goal">}}
@@ -79,7 +77,7 @@ UI/UX design and testing
 **Júlia Vieira de Souza**
 UI/UX design and frontend feedback
 
-**Maria Manzon**
+**Mariia Manzon**
 UI/UX design and frontend feedback
 
 **Charlotte John**
@@ -90,7 +88,7 @@ Team coordination, backend development, server setup and some frontend tasks
 {{<team-member image="images/temp_member_image.png" name="Andrey Krasavin">}}
 {{<team-member image="images/temp_member_image.png" name="Daria Myronova">}}
 {{<team-member image="images/temp_member_image.png" name="Júlia Vieira de Souza">}}
-{{<team-member image="images/temp_member_image.png" name="Maria Manzon">}}
+{{<team-member image="images/temp_member_image.png" name="Mariia Manzon">}}
 {{<team-member image="images/temp_member_image.png" name="Charlotte John">}}
 {{</gallery>}}
 
