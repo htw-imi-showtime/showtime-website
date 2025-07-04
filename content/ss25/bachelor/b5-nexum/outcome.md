@@ -1,0 +1,26 @@
++++
+title = "Outcome"
+weight = 2
+draft = true
++++
+{{<section title="Our WebApp">}}
+add images...
+{{</section>}}
+
+{{<section title="Features">}}
+
+* **Open Text polls**
+...
+* **Word Cloud polls**
+...
+* **Multiple Choice polls**
+...
+* **Ranking polls**
+...
+* **Rating polls**
+...
+* **Image polls**
+...
+* **QnA** 
+...
+{{</section>}}
