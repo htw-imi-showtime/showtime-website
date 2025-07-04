@@ -18,6 +18,9 @@ source_link = "https://gitlab.htw-berlin.de/s0592097/weslido"
 website_link = "http://nexum.f4.htw-berlin.de/home"
 +++
 
+#
+
+
 {{<section title="Our Goal">}}
 
 Slido is a popular platform that adds interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. However, many of its advanced features require a paid subscription, which can limit access.
@@ -45,7 +48,12 @@ For a more detailed description of our process click [here](process).
 
 {{<section title="Outcome">}}
 
-The result is a working web app called *Nexum*. It’s a compact tool that offers:
+The result is a working web app called *Nexum*. 
+
+{{<image src="images/homepage.png" alt="Our Homepage">}}
+{{<image src="images/session.png" alt="An example how a session can look">}}
+
+It’s a compact tool that offers:
 
 - Live Q&A  
 - Multiple-choice polls  
