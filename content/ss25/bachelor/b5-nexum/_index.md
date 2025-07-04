@@ -7,7 +7,7 @@ claim = "An open, accessible platform for live Q&A, polls, and audience engageme
 
 abstract = "Nexum is a lightweight audience engagement platform that supports live polls and Q&A features – designed to be anonymous, easy to use, and entirely browser-based."
 
-card_image = ""
+card_image = "images/logo.png"
 
 team = ["Vu Duc Le", "Andrey Krasavin", "Daria Myronova", "Júlia Vieira de Souza", "Maria Manzon", "Charlotte John"]
 supervisor = "Prof. Dr. Gefei Zhang"
@@ -29,7 +29,7 @@ Our project is inspired by Slido but focuses on providing a smaller, free altern
 
 * **What we wanted to solve**
 
-Many existing tools either come with a steep learning curve or require subscriptions for key features. We wanted to create a straightforward solution that anyone can quickly set up and use, providing just the essential functions needed to interact with an audience during live events — all without extra hurdles or fees.
+Many existing tools either come with a steep learning curve or require subscriptions for key features. We wanted to create a straightforward solution that anyone can quickly set up and use, providing the essential functions needed to interact with an audience during live events — without extra hurdles or fees.
 
 {{</section>}}
 
