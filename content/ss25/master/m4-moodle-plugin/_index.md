@@ -28,7 +28,11 @@ team = [
     "Viet Anh Jimmy Tran",
 ]
 # this can be just one or a list as with team:
-supervisor = "Prof. Dr. Lucy Weggler"
+supervisor = [
+    "Prof. Dr. Lucy Weggler", 
+    "Prof. Dr. Gefei Zhang",
+]
+
 draft = false
 
 
