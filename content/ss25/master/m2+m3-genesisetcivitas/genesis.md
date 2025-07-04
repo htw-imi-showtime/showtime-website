@@ -52,4 +52,5 @@ A big challenge in procedural generation is finding that the algorithm works to 
 {{</section>}}
 {{<gallery>}}
 {{<team-member image="freddie_img.jpg" name="Frederick Freund">}}
+{{<team-member image="oliver_img.jpg" name="Oliver Hirth">}}
 {{</gallery>}}
