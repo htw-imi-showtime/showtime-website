@@ -4,7 +4,7 @@ weight = 10
 draft = false
 +++
 {{<section title="Goals and Achievements">}}
-  goal for Civitas was the simulation of growing civilisations via player input in a god game setting. The effective utilisation of the created world maps by Genesis has been essential to achieve this goal.
+ Our goal for Civitas was the simulation of growing civilisations via player input in a god game setting. The effective utilisation of the created world maps by Genesis has been essential to achieve this goal.
 
  **First steps in a new world**
 
