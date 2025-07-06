@@ -17,7 +17,7 @@ claim = "Do not let her see you."
 abstract = "Take on the role of lil' Marvin. A boy trapped inside a mysterious dollhouse. Lurking outside the windows is Dolly, a nightmarish entity that will hunt you relentlessly. Dolly’s House is a puzzle-horror game that experiments with different lighting and rendering techniques to create an atmospheric and dark experience. It is set to test the limitations of what is possible to create using light in a game-engine."
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
+card_image = "CoverPic.jpeg"
 
 # Names are optional, team size is sufficient
 team = ["Farel Alfarizi Hasan", "Jessica Wiecha","Kartik Kushwaha", "Linh Vuong", "Max", "Malte Szemlics", "Winston John Reichelt"]
@@ -121,6 +121,6 @@ and you wonder why you ever got involved in the first place."
 
 
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="Placeholder.png" name="Placeholder">}}
 {{</gallery>}}
 
