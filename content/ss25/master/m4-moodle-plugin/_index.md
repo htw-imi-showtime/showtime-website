@@ -9,7 +9,7 @@ title = "Moodle Plugin"
 subtitle = "Collecting and analyzing student feedback"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
-claim = "SStudent feedback shapes better teaching. Our plugin lets students rate question difficulty, turning quick reflections into valuable insights that help teachers improve learning experiences."
+claim = "Student feedback shapes better teaching. Our plugin lets students rate question difficulty, turning quick reflections into valuable insights that help teachers improve learning experiences."
 
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
 # *** KANN WEGGELASSEN WERDEN ***, hat in der früheren Gliederung mehr sinn gemacht,
