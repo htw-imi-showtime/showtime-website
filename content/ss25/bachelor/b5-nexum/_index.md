@@ -3,9 +3,9 @@ project_id = "B5"
 title = "Nexum"
 subtitle = "Free, anonymous interaction for talks and classes"
 
-claim = "An open, accessible platform for live Q&A, polls, and audience engagement in talks or lectures."
+claim = "An open, easy-to-use platform for live Q&A, polls, and audience engagement in talks or lectures."
 
-abstract = "Nexum is a lightweight audience engagement platform that supports live polls and Q&A features – designed to be anonymous, easy to use, and entirely browser-based."
+abstract = "Nexum is a lightweight audience engagement platform that supports live polls and Q&A features – designed to be anonymous, easy to use, responsive, and entirely browser-based."
 
 card_image = "images/logo.png"
 
@@ -23,7 +23,7 @@ website_link = "http://nexum.f4.htw-berlin.de/home"
 
 Slido is a popular platform that adds interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. However, many of its advanced features require a paid subscription, which can limit access.
 
-Our project is inspired by Slido but focuses on providing a smaller, free alternative with the core features needed for live interaction. The goal was to build a simple, open tool that supports anonymous participation and real-time feedback, particularly to help improve teaching and presentations without subscription barriers.
+Our project is inspired by Slido but focuses on providing a smaller, free alternative with the core features needed for live interaction. The goal was to build a simple, open, NIEDRIGSCHWELLIG tool that supports anonymous participation and real-time feedback, particularly to help improve teaching and presentations without subscription barriers.
 
 * **What we wanted to solve**
 
@@ -36,7 +36,7 @@ Many existing tools either come with a steep learning curve or require subscript
 
 We began the project by defining core features based on user stories. From there, we followed a lightweight Scrum-inspired process: weekly meetings with our supervisor, regular team check-ins, and a shared GitHub backlog to track progress.
 
-Initially, roles were informal, but after about two weeks we defined responsibilities, which helped the team work more efficiently. Most development happened on feature branches in GitLab, with regular communication via chat and short calls. Merge conflicts and integration were addressed in the dedicated weekly team meetings.
+Initially, roles were informal, but after about two weeks we defined responsibilities, which helped the team work more efficiently. Most development happened on feature branches in GitLab, with regular communication via chat and short calls. Merge conflicts and integration were addressed in the dedicated weekly team meetings. Code reviews weren’t formalized but happened organically as part of pair debugging or through Assignees for merge requests during integration.
 
 After deploying the web app on a server, we tested it as a team and gathered usability feedback from each other and Prof. Zhang, leading to several improvements.
 
