@@ -1,5 +1,5 @@
 +++
-project_id = "M2 + M3 Genesis et Civitas"
+project_id = "M2 M3 Genesis et Civitas"
 title = "Genesis et Civitas"
 subtitle = "A top-down god game using dynamically generated world maps"
 claim = "Move tectonic plates to create mountains and let it rain, before you build up civilisations and send your apostle to their aid."
