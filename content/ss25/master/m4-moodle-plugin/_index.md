@@ -9,7 +9,7 @@ title = "Moodle Plugin"
 subtitle = "Collecting and analyzing student feedback"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
-claim = "Student feedback shapes better teaching. By enabling students to rate the difficulty of selected test questions, our plugin transforms quick reflections into valuable insights, helping teachers to identify areas of difficulty, adapt content and enhance the learning experience."
+claim = "SStudent feedback shapes better teaching. Our plugin lets students rate question difficulty, turning quick reflections into valuable insights that help teachers improve learning experiences."
 
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
 # *** KANN WEGGELASSEN WERDEN ***, hat in der früheren Gliederung mehr sinn gemacht,
@@ -47,7 +47,7 @@ website_link = ""
 +++
 
 {{<section title="Our Goal">}}
-Our goal is to create a plugin that allows students to quickly rate the difficulty of questions during a Moodle test. To avoid overwhelming them, students are not required to provide feedback on every question. The aim is to gather reliable, real-world feedback directly from learners. Reason for this is to create a valuable dataset for teachers, helping them to identify the questions that challenge students the most. The goal is to create the plugin to fit Moodle’s structure, to not only solve our stakeholders issue but help all teachers using moodle tests. Over time, this insight will support more targeted teaching, better course design and, ultimately, more effective learning experiences.
+Our primary aim is to gather reliable data from students on their perception of learning materials in order to refine them and enhance teaching methods. We achieve this by using a quick and unobtrusive feedback system in Moodle tests, which makes it easy for students to contribute without feeling overwhelmed. The reason for this is to create a valuable dataset for teachers, helping them to identify the questions that challenge students the most. Seamlessly integrating with Moodle, our plugin benefits not only our stakeholders, but all Moodle users too, paving the way for more effective teaching and improved course design.
 
 {{</section>}}
 
