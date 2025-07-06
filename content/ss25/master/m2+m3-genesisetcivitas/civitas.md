@@ -3,7 +3,10 @@ title = "M2 - Civitas"
 weight = 10
 draft = false
 +++
+{{<image src="civ_ui_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the game's UI.">}}
+
 {{<section title="Goals and Achievements">}}
+
  Our goal for Civitas was the simulation of growing civilisations via player input in a god game setting. The effective utilisation of the created world maps by Genesis has been essential to achieve this goal.
 
  **First steps in a new world**
@@ -35,11 +38,9 @@ draft = false
  
  Lastly, we struggled with the evaluation of tasks and the scope of the project. As one of our team members had to unexpectedly leave the project, we had to re-evaluate and prioritise tasks. Splitting the workload from five people to four was challenging but possible thanks to communication and collaboration.
 
+
 {{</section>}}
-
-
-
-
+{{<image src="civ_img.jpg" alt="An image showing a work in progress state of the game." caption= "A WIP screenshot of the civilisations.">}}
 {{<section title="Process">}}
  **The Planning Phase**
 
@@ -59,8 +60,8 @@ draft = false
 
  Yes and no. Although our system relies on a map from Genesis, demands from the map were clearly stated early on. Thanks to collaborative efforts, data was created and generated early on. In the time Genesis created their generative systems, random values were used for testing our gameplay. This allowed the parallel work on two projects that became one.
 
-{{</section>}}
 
+{{</section>}}
 
 
 
@@ -71,5 +72,6 @@ draft = false
 {{<team-member image="laura_img.jpg" name="Laura Unverzagt">}}
 {{<team-member image="liz_img.jpg" name="Lit Kintzel">}}
 {{<team-member image="krist_img.jpg" name="Krist Baliev">}}
+{{<team-member image="placeholder_img.jpg" name="DJ">}}
 {{</gallery>}}
 
