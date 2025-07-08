@@ -1,7 +1,7 @@
 +++
 project_id = "B4"
 title = "Urban Bio Space Simulator"
-
+weight = 0
 subtitle = "Ein serious game in zusammenarbeit mit food4future"
 
 claim = "Wir vermittlen Wissen von food4future über nachhaltig anbaubare Organismen, mit welchen in engen, urbanen Räumen der Nahrungsbedarf der Stadtbevölkerung gedeckt werden kann."
@@ -9,11 +9,20 @@ claim = "Wir vermittlen Wissen von food4future über nachhaltig anbaubare Organi
 # Properties for displaying the project in the project list
 card_image = ""
 
-# Names are optional, team size is sufficient
-team = ["7"]
+team = [
+    "Alejandro Martinez Hernandez",
+    "Alexander Jäger",
+	"Anton Lehmann",
+	"Harvey Benn",
+	"Konstantin Schiwarov",
+	"Lennart Weissenstein",
+	"Tobias Bayer",
+]
 
-# this can be just one or a list as with team:
-supervisor = ["Have to ask them if they want on the page"]
+supervisor = [
+    "Marino Gabel",
+    "Jonas Ehrhardt",
+]
 
 draft = false
 
@@ -49,12 +58,6 @@ demo_link = ""
 - Es können die verschiedenen Compartments zur Essensproduktion auf verfügbarem Raum platziert werden.
 - Der verfügbare Raum basiert auf simuliertem Wachstum der Stadt.
 - Der Nährstoffbedarf der wachsenden Bevölkerung wird mit den produzierten Gerichten gedeckt.
-
-{{</section>}} 
-
-{{<section title="Team">}} 
-
-tbd: Bilder?
 
 {{</section>}} 
 
