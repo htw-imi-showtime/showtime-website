@@ -54,9 +54,9 @@ Eine bundgestaltete Webseite mit 10 Level, die jeweils aus mehreren Schritten be
 * **Startseite**
 {{<image src="dkwdp_startbildschirm.png" alt="Unsere Startseite">}}
 * **Karte**
-{{<image src="dkwdp_Map.png" alt="Karte">}}
+{{<image src="dkwdp_map.png" alt="Karte">}}
 * **Programmierumgebung**
-{{<image src="dkwdp_editingSpace.png" alt="Programmierumgebung">}}
+{{<image src="dkwdp_editing-space.png" alt="Programmierumgebung">}}
 
 {{</section>}} 
 
@@ -79,6 +79,6 @@ Frontend
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="pinuBothArms.png" name="Pinu">}}
+{{<team-member image="pinu-both-arms.png" name="Pinu">}}
 {{</gallery>}}
 
