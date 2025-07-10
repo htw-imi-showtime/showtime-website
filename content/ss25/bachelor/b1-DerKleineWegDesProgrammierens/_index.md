@@ -79,6 +79,6 @@ Frontend
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="PinuBothArms.png" name="Pinu">}}
+{{<team-member image="pinuBothArms.png" name="Pinu">}}
 {{</gallery>}}
 
