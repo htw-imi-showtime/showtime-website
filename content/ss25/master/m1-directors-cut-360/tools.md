@@ -8,7 +8,7 @@ draft = false
 
 {{<section title="Languages">}}
 #### Pyhton
-Python version 3.9.11 and 3.8 was used für the scripting.
+Python version 3.9.11 and 3.8.20 was used für the scripting.
 - [Python](https://www.python.org/)
 {{</section>}}
 
@@ -26,21 +26,18 @@ The package OpenCV version 4.11.0 was used to manage the video controlls and pro
 
 {{<section title="Repositories">}}
 #### FastSal
-We used FastSal as a predictor algorithm. There were many steps needed to guarantee compability.
-- [FastSal]()
+We used FastSal as a predictor algorithm. There were edits needed on the codebase to guarantee compability.
+- [FastSal](https://github.com/feiyanhu/FastSal)
 {{</section>}}
 
 {{<section title="AI Tools">}}
 #### IntelliSense and GithHub Copilot
-In code writing we used IntelliSense and GitHub Copilot integrated in Visual Studio Code for tab-complection as receiving quick help for error messages. 
+In code writing we used IntelliSense and GitHub Copilot integrated in Visual Studio Code for tab-completions and debugging. 
 - [IntelliSense](https://code.visualstudio.com/docs/editing/intellisense)
 - [GitHub Copilot](https://github.com/features/copilot)
 
 #### ChatGPT and Google Gemnini
-We used both ChatGPT and Google Gemini for research and to correct / improve our written texts.
-- [ChatGPT]()
-
-#### Google Labs Jules
-We were serious about new AI helpers and agent based scripting. Therefore we used Googles Labes Jules Beta to create the first version of the graphical user interface.
-- [Google Labs Jules](https://jules.google/)
+We used both ChatGPT and Google Gemini for research, to correct / improve our written texts and image generation to create the logo for this project.
+- [ChatGPT](https://chatgpt.com/)
+- [Gemini](https://gemini.google.com/)
 {{</section>}}
