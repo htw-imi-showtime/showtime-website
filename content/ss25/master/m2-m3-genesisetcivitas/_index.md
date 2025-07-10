@@ -10,7 +10,7 @@ abstract = "Genesis et Civitas is a top down god game using a dynamically genera
 card_image = "project_logo.png"
 
 # Team
-team = ["Frederick Freund", "Oliver Hirth", "Toni Lorenz", "Marvin", "Laura Unverzagt", "Liz Kintzel", "Krist Baliev", "DJ"]
+team = ["Frederick Freund", "Oliver Hirth", "Toni Lorenz", "Marvin Petsch", "---", "Laura Unverzagt", "Liz Kintzel", "Dié-Jay Möllers", "Krist Baliev"]
 supervisor = "Prof. Dr. Tobias Lenz"
 draft = false
 
