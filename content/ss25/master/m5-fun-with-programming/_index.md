@@ -9,7 +9,7 @@ claim = "Say goodbye to boring code tutorials – and hello to a magical world w
 abstract = "This e-learning unit is designed for first-semester international students of the Media Informatics Bachelor’s program at HTW Berlin. It teaches the fundamentals of Java programming in a creative and engaging way. Instead of traditional, dry exercises, students are guided through a magical storyline where programming concepts are explained using potions, magical capes, wands, and other fantasy elements. To ensure long-term usability, all learning content is managed via a connected headless CMS, allowing professors and students to adapt and expand the platform beyond the semester. Combined with a custom visual design theme, this e-learning unit offers a flexible, fun, and didactically meaningful approach to learning programming."
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
+card_image = "logo.svg"
 
 # Names are optional, team size is sufficient
 team = ["To Uyen Nguyen Thi", "Gerrit Behrens", "Julius Schultz", "Maximilan Ehlert"]
