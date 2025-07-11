@@ -1,6 +1,6 @@
 +++
 project_id = "M5"
-title = "Javacademy"
+title = "Wizards of Java"
 
 subtitle = "Learning Java fundamentals through magic and storytelling"
 
