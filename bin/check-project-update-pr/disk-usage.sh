@@ -8,9 +8,9 @@ SIZE=$(du -ks content/ss25/**/$PID-* | cut -f -1)
 LIMIT=500
 
 # remove for next semester: ws24
-if [ "$PID" == "m3" ]
+if [ "$PID" == "m2" ]
 then
-    LIMIT=1400 
+    LIMIT=1000 
 fi
 
 if [ "$SIZE" -le "$LIMIT" ]
