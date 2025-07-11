@@ -1,8 +1,8 @@
 +++
 project_id = "M5"
-title = "Fun With Programming"
+title = "Javacademy"
 
-subtitle = "Learning Java fundamentals through magic and storytelling – powered by a flexible headless CMS"
+subtitle = "Learning Java fundamentals through magic and storytelling"
 
 claim = "Say goodbye to boring code tutorials – and hello to a magical world where Java meets potions, capes, and spellbinding design! Learning programming has never been this enchanting."
 
