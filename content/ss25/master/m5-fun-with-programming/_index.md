@@ -15,7 +15,7 @@ card_image = "kitty.jpg"
 team = ["To Uyen Nguyen Thi", "Gerrit Behrens", "Julius Schultz", "Maximilan Ehlert"]
 # this can be just one or a list as with team:
 supervisor = "Prof. Dr. Debora Weber-Wulff"
-draft = true
+draft = false
 
 # website: if you have another project website
 website_link = ""
