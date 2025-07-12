@@ -23,7 +23,7 @@ card_image = "logo.png"
 team = ["Farel Alfarizi Hasan", "Jessica Wiecha","Kartik Kushwaha", "Linh Vuong", "Max", "Malte Szemlics", "Winston John Reichelt"]
 # this can be just one or a list as with team:
 supervisor = "Prof. Dr. Tobias Lenz"
-draft = true
+draft = false
 
 
 # e.g. github
