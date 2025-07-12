@@ -3,7 +3,7 @@ name: Check Project Update PR
 on:
   pull_request:
     paths:
-      - 'content/ws24/**'
+      - 'content/ss25/**'
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
     - name: check project folder name convention
       run: |
         PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
-        ls content/ws24/**/$PID-*
+        ls content/ss25/**/$PID-*
 
         
   check-disk-usage:
