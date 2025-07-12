@@ -23,7 +23,7 @@ website_link = "http://nexum.f4.htw-berlin.de/home"
 
 Slido is a popular platform that adds interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. However, many of its advanced features require a paid subscription, which can limit access.
 
-Our project is inspired by Slido but focuses on providing a smaller, free alternative with the core features needed for live interaction. The goal was to build a simple, open, NIEDRIGSCHWELLIG tool that supports anonymous participation and real-time feedback, particularly to help improve teaching and presentations without subscription barriers.
+Our project is inspired by Slido but focuses on providing a smaller, free alternative with the core features needed for live interaction. The goal was to build a simple, easy to access tool that supports anonymous participation and real-time feedback, particularly to help improve teaching and presentations without subscription barriers.
 
 * **What we wanted to solve**
 
