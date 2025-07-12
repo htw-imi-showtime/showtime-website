@@ -17,7 +17,7 @@ claim = "Do not let her see you."
 abstract = "Take on the role of lil' Marvin. A boy trapped inside a mysterious dollhouse. Lurking outside the windows is Dolly, a nightmarish entity that will hunt you relentlessly. Dolly’s House is a puzzle-horror game that experiments with different lighting and rendering techniques to create an atmospheric and dark experience. It is set to test the limitations of what is possible to create using light in a game-engine."
 
 # Properties for displaying the project in the project list
-card_image = "cover-pic.jpg"
+card_image = "logo.png"
 
 # Names are optional, team size is sufficient
 team = ["Farel Alfarizi Hasan", "Jessica Wiecha","Kartik Kushwaha", "Linh Vuong", "Max", "Malte Szemlics", "Winston John Reichelt"]
@@ -48,6 +48,30 @@ Engine as well as its build in HDRP Render-Pipeline.
 
 {{</section>}}
 
+{{<section title="Development">}}
+We had the idea, way before the semester began. The development started after we
+were officially put together into a team of seven.
+During development, we utilized weekly meetings to organize the team and
+upcoming tasks. These meetings helped us to get to know each other and discuss
+the game's current status. Additionally, we had one extra weekly meeting with Prof.
+Lenz to show him our current progress. There he was able to stress-test the game
+and find missing game-mechanics as well as all absent object-colliders. (He is
+phenomenal at this!) We used these insights to plan and distribute our weekly goals
+and tasks.
+
+We divided our team into two sub-groups: art and programming. The art team was
+tasked with creating concept art, assets, model, textures, materials and laying out as
+well as designing levels. Meanwhile, the programming team was responsible for
+implementing AI, level loading systems, and core game logic. However, these roles
+were flexible - team members were encouraged to collaborate across teams with
+one another and to test out different design-approaches. This allowed programmers
+to contribute to art tasks and artists to support programming when needed.
+Due to the topic of our game being "light and shadows" we spend a lot of time testing
+out different light-setups inside Unity's virtual environment. In addition, we modelled
+and textured many of the game's assets ourselves to better fit the overall
+atmosphere we created.
+{{</section>}} 
+
 {{<section title="Meet the Team">}}
 
 We are a team of seven highly motivated IMI-Students. Our backgrounds are as
@@ -56,40 +80,45 @@ others are purely interested in the technical side. But what unites us is our sh
 passion for game development and interactive story-telling.
 
 
-* **Farel Alfarizi Hasan**
+**Farel Alfarizi Hasan**
 
-"Can anyone remind me again to fix the texture error Winston told me to fix 15
-commits ago?"
+*"Can anyone remind me again to fix the texture error Winston told me to fix 15 commits ago?"*
 
-* **Jessica Wiecha**
+**Jessica Wiecha**
 
-"The rig behaves normally... until midnight."
+*"The rig behaves normally... until midnight."*
 
-* **Kartik Kushwaha**
+**Kartik Kushwaha**
 
-"Designed the levels, so you regret every step."
+*"Designed the levels, so you regret every step."*
 
-* **Linh Vuong**
+**Linh Vuong**
 
-"I love it when the most irrelevant asset just casually has over 2 million vertexes."
+*"I love it when the most irrelevant asset just casually has over 2 million vertexes."*
 
-* **Max**
+**Max**
 
-"These bugs keep appearing and I am starting to run out of bug spray..."
+*"These bugs keep appearing and I am starting to run out of bug spray..."*
 
-* **Malte Szemlics**
+**Malte Szemlics**
 
-"Every time I fix the mesh, three new problems spawn. It's like hydra, but for edge loops."
+*"Every time I fix the mesh, three new problems spawn. It's like hydra, but for edge loops."*
 
-* **Winston John Reichelt**
+**Winston John Reichelt**
 
-"Hi, I'm Winston. They call me the 'Triangle Police'."
+*"Hi, I'm Winston. They call me the 'Triangle Police'."*
 
 {{</section>}} 
 
 
 
 {{<gallery>}}
-{{<team-member image="placeholder.png" name="Placeholder">}}
+{{<team-member image="farel.jpg" name="Farel Alfarizi Hasan">}}
+{{<team-member image="jesse.jpg" name="Jessica Wiecha">}}
+{{<team-member image="kartik.jpg" name="Kartik Kushwaha">}}
+{{<team-member image="linh.jpg" name="Linh Vuong">}}
+{{<team-member image="max.jpg" name="Max">}}
+{{<team-member image="malte.jpg" name="Malte Szemlics">}}
+{{<team-member image="winston.jpg" name="Winston John Reichelt">}}
 {{</gallery>}}
 
