@@ -27,7 +27,8 @@ concurrency:
 jobs:
   build:
     name: Hugo Page Build
-    # if: ${{ github.repository_owner != 'htw-imi-showtime' }}
+    # run on main in main repo, on all other branches in forks
+    if: ${{ (github.repository_owner == 'htw-imi-showtime') == (github.ref_name == 'main') }}
     permissions:
       contents: write
     runs-on: ubuntu-latest
