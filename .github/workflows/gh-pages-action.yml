@@ -5,7 +5,7 @@
 # use it with <repo>->Settings->Pages Source "GitHub Actions"
 # Contains a RUN_IF to prevent it from running in the original repo
 
-name: Deploy Page using GH-Actions
+name: Fork Deploy Page using GH-Actions
 
 on:
   push:
@@ -48,7 +48,7 @@ jobs:
                 --baseURL 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'
     
       - name: "Upload artifact"
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: public
 
