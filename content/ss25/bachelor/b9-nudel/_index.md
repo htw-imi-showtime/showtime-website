@@ -34,7 +34,8 @@ demo_link = ""
 website_link = ""
 +++
 
-asdfkjasdhjk
+## Saturday, 12.July 2025 13:36
+
 Die Seite kann auf Englisch oder Deutsch sein. Aber bitte weder AI-generiertes blabla noch Werbetexte (etwa "entdecken Sie unsere revolutionäres Super-Programm das alle Probleme der Welt löst ;-) ) 
 
 {{<section title="Our Goal">}}
