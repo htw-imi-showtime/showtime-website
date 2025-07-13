@@ -6,7 +6,8 @@
 {{- with (.Get 0) }}
   {{- $asset = . }}
 {{- else }}
-  {{- errorf "The %q shortcode requires a single positional parameter; the relative path to a file in the assets directory. See %s" .Name .Position}}
+  {{- errorf "The %q shortcode requires a single positional parameter; 
+  the absolute path to a file in the project directory. See %s" .Name .Position}}
 {{- end }}
 
 {{- /* Get resource. */}}
