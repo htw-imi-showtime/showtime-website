@@ -3,7 +3,7 @@ FILES=$1
 
 MISSMATCHES=""
 
-file_pattern="^[a-z][^A-Z]*\.([a-z]{2,8})$"
+file_pattern="^[a-z][^A-Z]*\.([a-z]{2,4})$"
 no_spaces=".*__THERE_SHOULD_BE_NO_SPACES_IN_FILENAMES__.*"
 echo "---- checking file names:"
 echo "$FILES"
