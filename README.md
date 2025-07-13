@@ -111,6 +111,10 @@ git push
 
 9. To publish your branch directly, Activate Github Actions, Switch on Github Pages for your repo (settings->Pages, choose GitHub Actions as source), and run the "Generic Deploy using GH-Actions" (see [.github/workflows/generic-deploy.yml](.github/workflows/generic-deploy.yml))workflow manually.
 
+Das Deployment der Github Pages wird automatisch durch ein Environment Protection Rule geschützt; Bei der Fehlermeldung
+"Branch "..." is not allowed to deploy to github-pages due to environment protection rules." in Settings->Environments->github-pages
+entweder den Branch hinzufügen oder die Protection entfernen.
+
 10. Create a new pull request on GitHub that merges your version of your branch onto the htw-imi-showtime `main` branch. For more info see [pull_request.md](doc/git/pull_request.md)  
 More information can be found in the [pull request template](.github/pull_request_template.md)
 
