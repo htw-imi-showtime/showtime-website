@@ -161,8 +161,8 @@ jobs:
 
 
   check_files_in_pr:
-    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == 'm2_m3_split')  }}
-    name: "check for files outside of project folder - TBD remove exeption"
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == ' m2_m3_split')  }}
+    name: "check for files outside of project folder"
     needs: get-files-in-pr
     runs-on: ubuntu-latest
     steps:
