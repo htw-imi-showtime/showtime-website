@@ -1,4 +1,7 @@
 
+# Note that this is a very simple and bare script, 
+# that also depends on the mogrify command of 
+# https://www.imagemagick.org/
 
 INPUT_PATH=.
 OUTPUT_WIDTH=300
