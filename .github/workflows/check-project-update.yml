@@ -164,7 +164,7 @@ jobs:
       - name: Dump github context
         run: echo '${{ toJson(github) }}'
   check_files_in_pr:
-    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == 'm2_m3_split')}}
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == '453/merge')}}
     name: "check for files outside of project folder"
     needs: get-files-in-pr
     runs-on: ubuntu-latest
