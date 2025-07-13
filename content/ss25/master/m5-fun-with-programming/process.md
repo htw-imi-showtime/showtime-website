@@ -25,8 +25,6 @@ After completing the conception phase, we began by sketching low-fidelity protot
 As soon as we had a clear idea of the product's design, we started to implement it using Nuxt.js for the frontend and Strapi for the backend. Strapi not only functions as a backend for the application, but also provides a headless CMS to manage the content.
 {{</section>}}
 
-{{<image src="screenshots/figma-screenshot.png" alt="Homepage of Wizards of Java">}}
-
 {{<section title="Team Roles & Workflow">}}
 We noticed soon that some developers were rather skilled when in comes to frontend development, while others were more focused on backend and ops development or content management.
 {{</section>}}
