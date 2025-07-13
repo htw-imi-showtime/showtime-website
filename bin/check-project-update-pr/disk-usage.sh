@@ -10,13 +10,20 @@ LIMIT=500
 # remove for next semester: ws24
 if [ "$PID" == "m2" ]
 then
+    echo "allow 1000 k for m2+m3"
+    LIMIT=1000 
+fi
+
+if [ "$PID" == "m5" ]
+then
+    echo "allow 1000 k for M5"
     LIMIT=1000 
 fi
 
 if [ "$SIZE" -le "$LIMIT" ]
 then 
-    echo "Size $SIZE is below limit of $LIMIT - ok"
+    echo "Size $SIZE is below limit of $LIMIT kB - ok"
 else
-    echo "Size $SIZE is over limit of $LIMIT - project folder's disk usage is too high!"
+    echo "Size $SIZE is over limit of $LIMIT kB - project folder's disk usage is too high!"
     exit 12
 fi
