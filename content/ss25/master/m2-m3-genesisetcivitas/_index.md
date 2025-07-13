@@ -3,7 +3,7 @@ project_id = "M2 M3 Genesis et Civitas"
 title = "Genesis et Civitas"
 subtitle = "A top-down god game using dynamically generated world maps"
 claim = "Move tectonic plates to create mountains and let it rain, before you build up civilisations and send your apostle to their aid."
-abstract = "Genesis et Civitas is a top down god game using a dynamically generated world map. Players first take part in the creation of the world, influencing the effects of natural laws, before guiding civilisations and establishing themselves as their god. Move tectonic plates to create mountains and let it rain, before you build up civilisations and send your apostle to their aid."
+abstract = "Genesis et Civitas is a top down god game using a dynamically generated world map. Players first take part in the creation of the world, influencing the effects of natural laws, before guiding civilisations and establishing themselves as their god."
 
 
 # Properties for displaying the project in the project list
