@@ -97,7 +97,7 @@ link = "ss25/master/m2-genesis"
 
 {{<gallery>}}
 {{<team-member image="laura_img.jpg" name="Laura Unverzagt">}}
-{{<team-member image="liz_img.jpg" name="Lit Kintzel">}}
+{{<team-member image="liz_img.jpg" name="Liz Kintzel">}}
 {{<team-member image="dj_img.jpg" name="Dié-Jay Möllers">}}
 {{<team-member image="krist_img.jpg" name="Krist Baliev">}}
 {{</gallery>}}
