@@ -17,7 +17,7 @@ claim = "Ein kleines Abenteuer für Programmieranfänger, die großes erreichen 
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
+card_image = "PinuBothArms.png"
 
 # Names are optional, team size is sufficient
 team = ["Anas", "Anna", "Duncan", "Jonathan", "Kevin", "Manh", "Ole"]
@@ -52,11 +52,11 @@ Wir haben durch wöchentliche Präsenz- und Onlinemeetings Stück für Stück da
 
 Eine bundgestaltete Webseite mit 10 Level, die jeweils aus mehreren Schritten bestehen. Level können der Reihe nach oder von Anfang an gleichzeitig freigeschaltet werden. Aufgaben werden auf der linken Seite präsentiert und auf der rechten Seite wird Code geschrieben und die resultierende Ausgabe geschrieben. In der unteren rechten Ecke ist ein Pinguin zu sehen. Wenn eine Aufgabe falsch beantwortet wird, erscheint bei dem Pinguin eine Sprechblase, in der die KI Mixtral:Instruct leichte Kritikpunkte zum geschriebenen Code gibt.
 * **Startseite**
-{{<image src="dkwdp_startbildschirm.png" alt="Unsere Startseite">}}
+{{<image src="dkwdp_startbildschirm.jpg" alt="Unsere Startseite">}}
 * **Karte**
-{{<image src="dkwdp_Map.png" alt="Karte">}}
+{{<image src="dkwdp_Map.jpg" alt="Karte">}}
 * **Programmierumgebung**
-{{<image src="dkwdp_editingSpace.png" alt="Programmierumgebung">}}
+{{<image src="dkwdp_editingSpace.jpg" alt="Programmierumgebung">}}
 
 {{</section>}} 
 
