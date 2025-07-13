@@ -1,59 +1,73 @@
 +++
-project_id = "M2 M3 Genesis et Civitas"
-title = "Genesis et Civitas"
+project_id = "M2 Genesis"
+title = "Genesis"
 subtitle = "A top-down god game using dynamically generated world maps"
 claim = "Move tectonic plates to create mountains and let it rain, before you build up civilisations and send your apostle to their aid."
-abstract = "Genesis et Civitas is a top down god game using a dynamically generated world map. Players first take part in the creation of the world, influencing the effects of natural laws, before guiding civilisations and establishing themselves as their god."
+
 
 
 # Properties for displaying the project in the project list
 card_image = "project_logo.png"
 
 # Team
-team = ["Frederick Freund", "Oliver Hirth", "Toni Lorenz", "Marvin Petsch", "---", "Laura Unverzagt", "Liz Kintzel", "Dié-Jay Möllers", "Krist Baliev"]
+team = ["Frederick Freund", "Oliver Hirth", "Toni Lorenz", "Marvin Petsch"]
 supervisor = "Prof. Dr. Tobias Lenz"
 draft = false
 
 website_link = ""
 source_link = ""
+firstTabTitle = "Genesis"
 +++
-
-{{<section title="Two Groups for One Project">}}
-**A big idea for a big group**
-
- The game has two phases. In the first section, “Genesis” players take part in the procedural generation of a world map. In the second part, “Civitas” players guide and influence the birth of civilisation. Both phases originate from the same idea: play god and watch your own world form. But with that idea at the core and 8 people on our hands, we decided to split the group into two fundamentally different parts of the game that build upon each other.
-
- **Two different goals**
-
- With this split, two different directives formed in each respective group. While Team Genesis is way more focussed on procedural generation and simulation of earth’s origin story, Civitas has a greater focus on gameplay aspects and AI simulation.
+{{<image src="genesis1_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the generated map.">}}
+{{<section title="Goals and Achievements">}}
+Our primary goal for genesis was to create a procedural generation where each processing step is more and more dependent on the previous ones. We wanted to simulate earth's creation, from the forming of tectonic plates and their movement to the influence of ocean currents on the climate and forming of rivers, forests and herds. We wanted to use as little randomness as possible and try to emulate real geological and meteorological processes.
  
- Still, both parts are intended to be played back to back and form a single two-part game.
+The second goal was to introduce player interaction into these steps, so that a small influence in an early step can make a huge difference for the end result. Players should feel their influence immediately but at the same time wonder what consequences their recent actions will entail.
 
- **How are they connected?**
+ **Example of play**
 
- At the end of Genesis, when you have generated your own world, it is exported with all its parameters: A heightmap, temperature-maps, ground types, flora and fauna. At the beginning of Civitas, this world is imported and can be played on. This means that players shape their own playground in Genesis and can possibly create their dreamland for their soon-to-be civilisation in Civitas. Whether their civilisations thrive, depends on their player skill and previously created lands.
+ In the tectonic plate movement phase, the player moves two plates apart, creating a ridge that now connects two different oceans, completely altering how ocean currents are going to influence climate. The climate in turn will influence rainfall, and thus, where a jungle with then more dangerous animals will grow. 
+ 
+ **Steps of generation**
+
+ At the beginning, earth was covered in lava which cooled down over time, getting solid in a random pattern and breaking at random positions. This is how our game starts: A random heightmap is generated using a perlin noise and plates are formed using two overlapping voronoi diagrams of different sizes. Now the player can adjust plate heights and cause them to move, breaking apart or crashing into each other, forming mountains, canyons and islands.
+ 
+ After the process is finished, a heavy rain starts and oceans form.. After an equator was drawn by the player, ocean currents start to flow, influencing wind and thus, the climate. Depending on temperature and currents, rain starts to fall and rivers start sprouting from the mountains, or areas the player clicks on, and flow to the sea, making the land fertile and potentially bringing life to dead areas.
+ 
+ Forests, Jungles and deserts are the result of these steps and animals start to appear, their quantity and hostility depending on climate and floral conditions. A world has formed and is ready for our human society.
 
 {{</section>}}
 
-
-
-{{<section title="How did we work?">}}
-**Two groups working as one**
-
- For some aspects of the project, we worked separately from each other. While Genesis decided what parts of the world they worked on first, Civitas decided on the gameplay aspects and the population of the world. Both groups had individual weekly meetings, where goals, tasks and future ideas have been discussed.
-
- **The challenge of organisation**
-
- To bring the projects together, frequent communication was required. Additionally, to the weekly meetings, multiple flexible meetings were conducted between group leads, or sometimes multiple group members that specialised on certain aspects of gameplay or world generation.
+{{<section title="Challenges">}}
+A big challenge in procedural generation is finding that the algorithm works to its own liking. Especially in the calculation of plate movements and the generation of mountainsides and canyons, it was not easy to develop algorithms that 1) give results that are to be expected 2) do not form fragments that look unrealistic 3) are fast enough.
  
- Discussions involved different topics. World data and transfer of data was discussed extensively, to ensure all information and generated content was used in the gameplay. Progress reports were communicated in the form of writing, progress images and meetings between all group members. To guarantee a smooth workflow, all members needed an understanding of what each group is currently working on.
-
- **Our favourite example**
-
- A great example is the transference of world data to gameplay. While Genesis has used 2D arrays for their generation data, Civitas is utilising a hex-based grid with data containers for a better gameplay experience. Communicating changes in data usage, clarifying differences in map generation and explaining reasons for differing decisions between groups have been a priority to ensure functionality of gameplay and technical aspects.
-
+ Also, because our game is so sequential, putting things together or working on later steps of the generation was sometimes challenging. As input parameters have to be randomly generated before the real ones are connected.
+ 
+ Perfectionism was in the way too, we had to draw a line at how realistic we want to simulate things, that still keeps it non-random but at the same time doesn't take up too much development time and is not too complicated.
 
 {{</section>}}
+{{<image src="genesis2_img.jpg" alt="An image showing what the game development process looked like." caption= "A WIP image of the game in unity.">}}
+{{<section title="Process">}}
+**Planning**
+ 
+ In the beginning we had many discussions with the other groups, so that it is clear what they need, what we have and how we can satisfy both our imaginations of the world. For example, Civitas wanted to know how good an area would be to walk on. But we do not export a value that outright says this. It is computed by the amount of vegetation we have, how steep a slope on our heightmap is and what material the ground is made of.
+ 
+ **Parallel work on sequential segments**
+ 
+ After assembling what our export data would have to look like, and having implemented a basic heightmap via perlin noise, we could export our first dummy data for civitas, so that their work on a “real” map can start. Meanwhile, we started to divide our workflows and assign each team member to a different step of the algorithm. We worked in parallel at things that, in the end, were going to be sequential.
+ 
+ Each team member read up on their own part of the process, and had different focuses. In this process, we thought about what a player interaction could look like, and implemented methods to test these interactions via simple parameters and button inputs. Here we had to sometimes work in tandem with Civitas to ensure that the values that we would get are working for them as well.
 
+ **Patching it all together**
+ 
+ In the last phase of our project, we then put all our algorithms together to form one line of methods to call. With the methods for player interaction in between, we now build UI to make player interaction more intuitive.
+{{</section>}}
 
-
+{{<section title="The Team">}}
+{{</section>}}
+{{<gallery>}}
+{{<team-member image="freddie_img.jpg" name="Frederick Freund">}}
+{{<team-member image="oliver_img.jpg" name="Oliver Hirth">}}
+{{<team-member image="marvin_img.jpg" name="Marvin Petsch">}}
+{{<team-member image="toni_img.jpg" name="Toni Lorenz">}}
+{{</gallery>}}
