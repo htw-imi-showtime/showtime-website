@@ -159,9 +159,11 @@ jobs:
           cat files-other.txt | tr ' ' '\n'
 
   dump_context:
+    runs-on: ubuntu-latest
     steps:
       - name: Dump github context
         run: echo '${{ toJson(github) }}'
+        
   check_files_in_pr:
     if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == 'm2_m3_split')}}
     name: "check for files outside of project folder"
