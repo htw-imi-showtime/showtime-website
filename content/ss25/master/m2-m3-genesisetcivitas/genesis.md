@@ -3,7 +3,7 @@ title = "M3 - Genesis"
 weight = 10
 draft = false
 +++
-
+{{<image src="genesis1_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the generated map.">}}
 {{<section title="Goals and Achievements">}}
 Our primary goal for genesis was to create a procedural generation where each processing step is more and more dependent on the previous ones. We wanted to simulate earth's creation, from the forming of tectonic plates and their movement to the influence of ocean currents on the climate and forming of rivers, forests and herds. We wanted to use as little randomness as possible and try to emulate real geological and meteorological processes.
  
@@ -31,7 +31,7 @@ A big challenge in procedural generation is finding that the algorithm works to 
  Perfectionism was in the way too, we had to draw a line at how realistic we want to simulate things, that still keeps it non-random but at the same time doesn't take up too much development time and is not too complicated.
 
 {{</section>}}
-
+{{<image src="genesis2_img.jpg" alt="An image showing what the game development process looked like." caption= "A WIP image of the game in unity.">}}
 {{<section title="Process">}}
 **Planning**
  
@@ -54,5 +54,5 @@ A big challenge in procedural generation is finding that the algorithm works to 
 {{<team-member image="freddie_img.jpg" name="Frederick Freund">}}
 {{<team-member image="oliver_img.jpg" name="Oliver Hirth">}}
 {{<team-member image="marvin_img.jpg" name="Marvin Petsch">}}
-{{<team-member image="placeholder_img.jpg" name="Toni Lorenz">}}
+{{<team-member image="toni_img.jpg" name="Toni Lorenz">}}
 {{</gallery>}}
