@@ -4,7 +4,7 @@ title = "Process"
 weight = 10
 # only draft = false will be visible on the page. 
 # use hugo --buildDrafts to see your drafts.
-draft = true
+draft = false
 +++
 
 {{<section title="Background & Starting Point">}}

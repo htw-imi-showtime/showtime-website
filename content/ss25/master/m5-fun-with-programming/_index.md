@@ -62,7 +62,9 @@ Along the way, we overcame challenges in deployment, backend structure, and data
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="team/uyen.jpeg" name="To Uyen Nguyen Thi">}}
-{{<team-member image="team/julius.jpeg" name="Julius Schultz">}}
+{{<team-member image="team/uyen.png" name="To Uyen Nguyen Thi">}}
+{{<team-member image="team/gerrit.png" name="Gerrit Behrens">}}
+{{<team-member image="team/max.png" name="Maximilan Ehlert">}}
+{{<team-member image="team/julius.png" name="Julius Schultz">}}
 {{</gallery>}}
 
