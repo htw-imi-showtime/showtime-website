@@ -1,7 +1,7 @@
 +++
 project_id = "M2"
 title = "Genesis"
-subtitle = "A top-down god game using dynamically generated world maps"
+subtitle = "Part I of A top-down god game using dynamically generated world maps"
 claim = "Move tectonic plates to create mountains and let it rain, before you build up civilisations and send your apostle to their aid."
 
 
@@ -17,6 +17,10 @@ draft = false
 website_link = ""
 source_link = ""
 firstTabTitle = "Genesis"
+[[Tabs]]
+title = "Civitas"
+link = "ss25/master/m3-civitas"
+
 +++
 {{<image src="genesis1_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the generated map.">}}
 {{<section title="Goals and Achievements">}}

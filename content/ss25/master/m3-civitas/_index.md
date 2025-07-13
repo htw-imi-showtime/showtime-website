@@ -17,11 +17,17 @@ draft = false
 website_link = ""
 source_link = ""
 firstTabTitle = "Civitas"
+tabs = "adsfg"
 
-[[tabs]]
-title = "Tab: Genesis et Civitas"
-link = "../m2-genesis/joined-projects.md"
+x="http://localhost:1313/pathprefix/ss25/master/m3-civitas/"
+y="http://localhost:1313/pathprefix/ss25/master/m2-genesis/joined-projects/"
 
+[[Tabs]]
+title = "Genesis et Civitas"
+link = "ss25/master/m2-genesis/joined-projects"
+[[Tabs]]
+title = "Genesis"
+link = "ss25/master/m2-genesis"
 
 +++
 {{<image src="civ_ui_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the game's UI.">}}
