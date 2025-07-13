@@ -19,9 +19,7 @@ source_link = ""
 
 firstTabTitle = "Civitas"
 
-[[Tabs]]
-title = "Genesis et Civitas"
-link = "ss25/master/m2-genesis/genesis-et-civitas"
+
 [[Tabs]]
 title = "Genesis"
 link = "ss25/master/m2-genesis"
