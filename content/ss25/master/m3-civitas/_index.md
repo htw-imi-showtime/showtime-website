@@ -16,15 +16,12 @@ draft = false
 
 website_link = ""
 source_link = ""
-firstTabTitle = "Civitas"
-tabs = "adsfg"
 
-x="http://localhost:1313/pathprefix/ss25/master/m3-civitas/"
-y="http://localhost:1313/pathprefix/ss25/master/m2-genesis/joined-projects/"
+firstTabTitle = "Civitas"
 
 [[Tabs]]
 title = "Genesis et Civitas"
-link = "ss25/master/m2-genesis/joined-projects"
+link = "ss25/master/m2-genesis/genesis-et-civitas"
 [[Tabs]]
 title = "Genesis"
 link = "ss25/master/m2-genesis"
