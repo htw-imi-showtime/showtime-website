@@ -12,7 +12,7 @@ abstract = ""
 card_image = "logo.svg"
 
 # Names are optional, team size is sufficient
-team = ["To Uyen Nguyen Thi", "Gerrit Behrens", "Maximilan Ehlert", "Julius Schultz"]
+team = ["To Uyen Nguyen Thi", "Gerrit Behrens", "Maximilian Ehlert", "Julius Schultz"]
 # this can be just one or a list as with team:
 supervisor = "Prof. Dr. Debora Weber-Wulff"
 draft = false
@@ -63,7 +63,7 @@ Along the way, we overcame challenges in deployment, backend structure, and data
 {{<gallery>}}
 {{<team-member image="team/uyen.png" name="To Uyen Nguyen Thi">}}
 {{<team-member image="team/gerrit.png" name="Gerrit Behrens">}}
-{{<team-member image="team/max.png" name="Maximilan Ehlert">}}
+{{<team-member image="team/max.png" name="Maximilian Ehlert">}}
 {{<team-member image="team/julius.png" name="Julius Schultz">}}
 {{</gallery>}}
 

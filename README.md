@@ -5,7 +5,7 @@ The official IMI showtime [Website: https://showtime.f4.htw-berlin.de/](https://
 
 ### Staging
 
-every push to master, including drafts: [https://htw-imi-showtime.github.io/staging](https://htw-imi-showtime.github.io/staging)
+every push to master, including drafts: [https://htw-imi-showtime.github.io/staging](https://htw-imi-showtime.github.io/staging), uses [.github/workflows/deploy-staging.yml](.github/workflows/deploy-staging.yml)
 
 [![deploy staging (https://htw-imi-showtime.github.io/staging)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-staging.yml)
 
@@ -13,7 +13,14 @@ every push to master, including drafts: [https://htw-imi-showtime.github.io/stag
 
 ### Preview
 
-every push to master, without drafts (same as production): [https://htw-imi-showtime.github.io/preview](https://htw-imi-showtime.github.io/preview)
+uses [.github/workflows/generic-deploy.yml](.github/workflows/generic-deploy.yml), the generic deploy workflow which can also be used in the project forks.
+
+every push to master, without drafts (same as production): [https://htw-imi-showtime.github.io/preview](https://htw-imi-showtime.github.io/showtime-website)
+
+
+#### Old Preview - still active for now:
+
+[https://htw-imi-showtime.github.io/preview](https://htw-imi-showtime.github.io/preview)
 
 [![deploy preview (https://htw-imi-showtime.github.io/preview)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-preview.yml/badge.svg)](https://github.com/htw-imi-showtime/showtime-website/actions/workflows/deploy-preview.yml)
 
@@ -102,7 +109,11 @@ git commit -m "Your commit message"
 git push
 ```
 
-9. To publish your branch directly, Activate Github Actions, Switch on Github Pages for your repo (settings->Pages, choose GitHub Actions as source), and run the "Deploy Page using GH-Actions" workflow manually.
+9. To publish your branch directly, Activate Github Actions, Switch on Github Pages for your repo (settings->Pages, choose GitHub Actions as source), and run the "Generic Deploy using GH-Actions" (see [.github/workflows/generic-deploy.yml](.github/workflows/generic-deploy.yml))workflow manually.
+
+Das Deployment der Github Pages wird automatisch durch ein Environment Protection Rule geschützt; Bei der Fehlermeldung
+"Branch "..." is not allowed to deploy to github-pages due to environment protection rules." in Settings->Environments->github-pages
+entweder den Branch hinzufügen oder die Protection entfernen.
 
 10. Create a new pull request on GitHub that merges your version of your branch onto the htw-imi-showtime `main` branch. For more info see [pull_request.md](doc/git/pull_request.md)  
 More information can be found in the [pull request template](.github/pull_request_template.md)
