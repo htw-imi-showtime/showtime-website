@@ -67,6 +67,8 @@ Anschliessend konnten wir unser Spiel an einem Stand vorstellen.
 
 {{<image src="images/therme.jpg" alt="Die Therme in Bad Saarow als Modell.">}}
 
+{{<mediathek id="117e5ae717b582bdeac13d95e8fa2264" title="Our project demo">}}
+
 - Es können die verschiedenen Compartments zur Essensproduktion auf verfügbarem Raum platziert werden.
 - Der verfügbare Raum basiert auf simuliertem Wachstum der Stadt.
 - Der Nährstoffbedarf der wachsenden Bevölkerung wird mit den produzierten Gerichten gedeckt.
