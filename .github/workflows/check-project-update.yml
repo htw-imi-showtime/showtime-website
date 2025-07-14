@@ -165,7 +165,7 @@ jobs:
     steps:
       - name: Dump github context
         run: echo '${{ toJson(github) }}'
-      - continue-on-error: true
+        continue-on-error: true
       - run: echo 'just dumps the github variable'
   check_files_in_pr:
     if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == 'm2_m3_split')}}
