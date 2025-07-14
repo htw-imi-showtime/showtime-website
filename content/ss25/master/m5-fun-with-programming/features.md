@@ -22,5 +22,9 @@ To go beyond simple string comparisons and make the coding exercises more engagi
 
 {{<section title="Content management manual">}}
 With a manual for content creation, instructors can easily adapt and expand the learning content without having to touch the codebase.<br>
-<a href="">Link to manual (not yet maintained)</a>
+<a href="https://docs.google.com/document/d/1GKmnHR1byJnCqLEqSGaAzOB5IkRrgJCLIeppCM7YpGA/edit?usp=sharing">Link to manual</a>
+{{</section>}}
+
+{{<section title="Ready to Make an Impact">}}
+With over 100 pages of content, our application offers a rich, structured learning experience tailored to first-semester students. The platform is built, tested, and ready to go!
 {{</section>}}
