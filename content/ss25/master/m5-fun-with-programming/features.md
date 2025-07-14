@@ -15,9 +15,12 @@ This e-learning unit is designed for first-semester international students of th
 Each lecture within the e-learning unit combines various content elements to create an engaging and interactive learning experience. In addition to text, audio, video, and images, learners can also encounter a variety of exercises. These include coding tasks, cloze tests, line-marking activities, multiple-choice questions, and many other interactive components—all easily manageable through the CMS platform.
 {{</section>}}
 
+{{<image src="screenshots/lecture-content.png" alt="A code & cloze excercise embedded in a lecture">}}
+
 {{<section title="Java code compiler">}}
 To go beyond simple string comparisons and make the coding exercises more engaging, we integrated a Java compiler into the platform. This compiler runs in a separate Docker container and communicates with the application whenever code is submitted.{{</section>}}
 
 {{<section title="Content management manual">}}
-With a manual for content creation, instructors can easily adapt and expand the learning content without having to touch the codebase.
+With a manual for content creation, instructors can easily adapt and expand the learning content without having to touch the codebase.<br>
+<a href="">Link to manual (not yet maintained)</a>
 {{</section>}}
