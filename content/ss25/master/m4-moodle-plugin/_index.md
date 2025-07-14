@@ -58,8 +58,7 @@ To make our idea work within Moodle’s structure, we investigated how its plugi
 
 
 {{<section title="Team">}}
-Our team consists of five students, who equally contributed to our project. Each bringing their individual skillset, we were able to create a functioning moodle plugin together. 
-Our diverse expertise helped us solve the difficulties that came along during the development of our project. It allowed us to tackle the project from multiple angles, ensuring a robust and effective solution.
+Our team consists of five students, who equally contributed to our project. Each bringing their individual skillset, we were able to create functioning moodle plugins together. The team was divided into groups, with each group focusing on a different plugin. This approach ensured a robust and effective solution.
 {{</section>}} 
 
 {{<gallery>}}
