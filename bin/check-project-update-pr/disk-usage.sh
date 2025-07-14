@@ -14,6 +14,12 @@ then
     LIMIT=1000 
 fi
 
+if [ "$PID" == "m5" ]
+then
+    echo "allow 1000 k for M5"
+    LIMIT=1000 
+fi
+
 if [ "$SIZE" -le "$LIMIT" ]
 then 
     echo "Size $SIZE is below limit of $LIMIT kB - ok"
