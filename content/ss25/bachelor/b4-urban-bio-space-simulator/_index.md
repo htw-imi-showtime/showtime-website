@@ -4,10 +4,10 @@ title = "Urban Bio Space Simulator"
 weight = 0
 subtitle = "Ein serious game in zusammenarbeit mit food4future"
 
-claim = "Wir vermittlen Wissen von food4future über nachhaltig anbaubare Organismen, mit welchen in engen, urbanen Räumen der Nahrungsbedarf der Stadtbevölkerung gedeckt werden kann."
+claim = "Wir vermitteln Wissen von food4future über nachhaltig anbaubare Organismen, mit denen in engen, urbanen Räumen der Nahrungsbedarf der Stadtbevölkerung gedeckt werden kann."
 
 # Properties for displaying the project in the project list
-card_image = ""
+card_image = "images/therme.jpg"
 
 team = [
     "Alejandro Martinez Hernandez",
@@ -53,25 +53,23 @@ demo_link = ""
     - Makroalgen
     - Halophyten
 
-**Gameplay**
+{{</section>}} 
+
+{{<section title="Vortrag vor Fachpublikum">}}
+
+{{<image src="images/konsti.jpg" alt="Konstantin haellt einen Vortrag ueber unser Spiel.">}}
+Um unser Spiel weiter zu verbessern haben wir einen Vortrag im Rahmen einer food4future Veranstaltung gehalten.
+Anschliessend konnten wir unser Spiel an einem Stand vorstellen.
+
+{{</section>}} 
+
+{{<section title="Gameplay">}}
+
+{{<image src="images/therme.jpg" alt="Die Therme in Bad Saarow als Modell.">}}
 
 - Es können die verschiedenen Compartments zur Essensproduktion auf verfügbarem Raum platziert werden.
 - Der verfügbare Raum basiert auf simuliertem Wachstum der Stadt.
 - Der Nährstoffbedarf der wachsenden Bevölkerung wird mit den produzierten Gerichten gedeckt.
-
-{{</section>}} 
-
-{{<section title="Process & Tools">}}
-
-**Process**
-
-Je nach dem wie stressig es war: von Agiler Entwicklung bis [eXtreme Go Horse](https://brunomb.com/xgh/) war alles dabei.
-
-**Tools**
-
-- Unity
-- GitLab
-- gcloud
 
 {{</section>}} 
 
