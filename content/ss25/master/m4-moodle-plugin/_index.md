@@ -53,7 +53,7 @@ Our primary aim is to gather reliable data from students on their perception of 
 
 
 {{<section title="Process and Outcome">}}
-To make our idea work within Moodle’s structure, we investigated how its plugins interacted with each other. After conducting some research, we realised that we needed to develop two plugins to fit this structure. One allows students to rate the difficulty of a question immediately after answering it, while the other gives teachers access to all the collected feedback. This setup makes it easy to gather meaningful student feedback, which teachers can then easily export from Moodle for their own use.
+To make our idea work within Moodle’s structure, we investigated how its plugins interacted with each other. After conducting some research, we realised that we needed to develop three plugins to fit this structure. One allows students to rate the difficulty of a question receiving feedback of the content of their answer immediately. The second Plugin allows students to rate the difficulty of a question without the immediate provision of feedback on the content. Therefore teachers can choose what kind of test settings make more sense to them didactically, while still receiving difficulty ratings. The third plugin gives teachers access to all the collected feedback. This setup makes it easy to gather meaningful student feedback, which teachers can then easily export from Moodle for their own use.
 {{</section>}} 
 
 
