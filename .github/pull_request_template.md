@@ -11,7 +11,7 @@ Please follow these Steps & Guidelines for your Pull Request:
 #### First, Check and Tick these Boxes:
 
 [] make sure that the hugo site build works and check the result visually.
-[] merge your local branch with upstream/main (see [update doc](https://github.com/htw-imi-showtime/showtime-website/blob/main/doc/update.md)) 
+[] merge your local branch with upstream/main (see [update doc](https://github.com/htw-imi-showtime/showtime-website/blob/main/doc/git/update.md)) 
 [] Deploy the Site on your github pages by activating the "Deploy Page using GH-Actions" Workflow in "gh-pages-action.yml"
 [] make sure that your PR contains only files / file changes within your project subdirectory. 
 [] make sure that all your file names consist only of lower case letters, numbers, or [-_.] - with only one . for the file extension
