@@ -1,13 +1,13 @@
 +++
 project_id = "M2"
 title = "Genesis"
-subtitle = "Part I of A top-down god game using dynamically generated world maps"
-claim = "Move tectonic plates to create mountains and let it rain, before you build up civilisations and send your apostle to their aid."
+subtitle = "Part I of a top-down god game in which the world map is dynamically generated"
+claim = "Move tectonic plates to raise mountains, let rivers flow and rain fall in this interactive procedural world-generator"
 
 
 
 # Properties for displaying the project in the project list
-card_image = "project_logo.png"
+card_image = "project_logo.jpg"
 
 # Team
 team = ["Frederick Freund", "Oliver Hirth", "Toni Lorenz", "Marvin Petsch"]
@@ -23,9 +23,9 @@ title = "Civitas"
 link = "ss25/master/m3-civitas"
 
 +++
-{{<image src="genesis1_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the generated map.">}}
+{{<image src="genesis1_img.jpg" alt="Before and after image of the influence of a moved tectonic plate on the heightmap" caption= "A tectonic plate is moved upwards (left) which results in mountain ranges and cliffs forming (right)">}}
 {{<section title="Goals and Achievements">}}
-Our primary goal for genesis was to create a procedural generation where each processing step is more and more dependent on the previous ones. We wanted to simulate earth's creation, from the forming of tectonic plates and their movement to the influence of ocean currents on the climate and forming of rivers, forests and herds. We wanted to use as little randomness as possible and try to emulate real geological and meteorological processes.
+Our primary goal for genesis was to create a procedural generation where each processing step is more and more dependent on the previous ones. We wanted to simulate earth's creation, from the forming of tectonic plates and their movement to the influence of ocean currents on the climate and appearing of rivers, forests and animals. We wanted to use as little randomness as possible and try to emulate real geological and meteorological processes in an abstract matter.
  
 The second goal was to introduce player interaction into these steps, so that a small influence in an early step can make a huge difference for the end result. Players should feel their influence immediately but at the same time wonder what consequences their recent actions will entail.
 
@@ -37,35 +37,35 @@ The second goal was to introduce player interaction into these steps, so that a 
 
  At the beginning, earth was covered in lava which cooled down over time, getting solid in a random pattern and breaking at random positions. This is how our game starts: A random heightmap is generated using a perlin noise and plates are formed using two overlapping voronoi diagrams of different sizes. Now the player can adjust plate heights and cause them to move, breaking apart or crashing into each other, forming mountains, canyons and islands.
  
- After the process is finished, a heavy rain starts and oceans form.. After an equator was drawn by the player, ocean currents start to flow, influencing wind and thus, the climate. Depending on temperature and currents, rain starts to fall and rivers start sprouting from the mountains, or areas the player clicks on, and flow to the sea, making the land fertile and potentially bringing life to dead areas.
+ After the process is finished, a heavy rain starts and oceans form. After an equator was drawn by the player, ocean currents start to flow, influencing wind and thus, the climate. Depending on temperature and currents, rain starts to fall and rivers start sprouting from the mountains, or areas the player clicks on, and flow downhill to sea, making the land fertile and potentially bringing life to dead areas.
  
- Forests, Jungles and deserts are the result of these steps and animals start to appear, their quantity and hostility depending on climate and floral conditions. A world has formed and is ready for our human society.
+ Forests, jungles and deserts are the result of these steps and flora and fauna start to appear, their quantity and hostility depending on climate and floral conditions. A world has formed and is ready for our human society.
 
 {{</section>}}
 
 {{<section title="Challenges">}}
-A big challenge in procedural generation is finding that the algorithm works to its own liking. Especially in the calculation of plate movements and the generation of mountainsides and canyons, it was not easy to develop algorithms that 1) give results that are to be expected 2) do not form fragments that look unrealistic 3) are fast enough.
+A big challenge in procedural generation is the balance between randomness and intended behavior. Especially in the calculation of plate movements and the generation of mountainsides and canyons, it was not easy to develop algorithms that 1) give results that are to be expected 2) do not form fragments that look unrealistic 3) are fast enough.
  
- Also, because our game is so sequential, putting things together or working on later steps of the generation was sometimes challenging. As input parameters have to be randomly generated before the real ones are connected.
+ Also, because our game is so sequential, putting things together or working on later steps of the generation was sometimes challenging. Input parameters had to be randomly generated before the real ones were connected.
  
- Perfectionism was in the way too, we had to draw a line at how realistic we want to simulate things, that still keeps it non-random but at the same time doesn't take up too much development time and is not too complicated.
+ Especially challenging was it to draw a line at how realistic we want to simulate things. Finding a scope that seems like a geological simulation but at the same time is simple enough in effort and performance was not always easy.
 
 {{</section>}}
-{{<image src="genesis2_img.jpg" alt="An image showing what the game development process looked like." caption= "A WIP image of the game in unity.">}}
+{{<image src="genesis2_img.jpg" alt="Early image of the game in development." caption= "Grouped Voronoi Cells separate the heightmap into different tectonic plates.">}}
 {{<section title="Process">}}
 **Planning**
  
- In the beginning we had many discussions with the other groups, so that it is clear what they need, what we have and how we can satisfy both our imaginations of the world. For example, Civitas wanted to know how good an area would be to walk on. But we do not export a value that outright says this. It is computed by the amount of vegetation we have, how steep a slope on our heightmap is and what material the ground is made of.
+ In the beginning we had many discussions with the other group. We cleared up what they need, what we will generate and how we can satisfy both of our imaginations of the world. For example, Team Civitas wanted to know how good an area would be to walk on for their humans. But we do not export a value that outright says this. It is computed by the amount of vegetation we have, how steep a slope on our heightmap is and what material the ground is made of.
  
  **Parallel work on sequential segments**
  
- After assembling what our export data would have to look like, and having implemented a basic heightmap via perlin noise, we could export our first dummy data for civitas, so that their work on a “real” map can start. Meanwhile, we started to divide our workflows and assign each team member to a different step of the algorithm. We worked in parallel at things that, in the end, were going to be sequential.
+ After assembling what our export data would have to look like, and having implemented a basic heightmap via perlin noise, we could export our first dummy data for civitas, so that their work on a “real” map could start. Meanwhile, we started to divide our workflows and assigned each team member to a different step of the algorithm. We worked in parallel at things that, in the end, were going to be sequential.
  
- Each team member read up on their own part of the process, and had different focuses. In this process, we thought about what a player interaction could look like, and implemented methods to test these interactions via simple parameters and button inputs. Here we had to sometimes work in tandem with Civitas to ensure that the values that we would get are working for them as well.
+ Each team member read up on their own part of the process, and had different focuses. In this process, we thought about what a player interaction could look like, and implemented methods to test these interactions via simple parameters and button inputs through an editor script. Here we had to sometimes work in tandem with Civitas to ensure that the values that we would get are working for them as well.
 
  **Patching it all together**
  
- In the last phase of our project, we then put all our algorithms together to form one line of methods to call. With the methods for player interaction in between, we now build UI to make player interaction more intuitive.
+ In the last phase of our project, we then put all our algorithms together to form one line of methods to call. With the methods for player interaction in between, we now built UI to make player interaction more intuitive.
 {{</section>}}
 
 {{<section title="The Team">}}
