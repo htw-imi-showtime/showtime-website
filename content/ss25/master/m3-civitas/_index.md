@@ -1,13 +1,13 @@
 +++
 project_id = "M3"
 title = "Civitas"
-subtitle = "Part II of A top-down god game using dynamically generated world maps"
-claim = "Move tectonic plates to create mountains and let it rain, before you build up civilisations and send your apostle to their aid."
+subtitle = "Part II of a top-down god game in which a society is forming in a procedurally generated world"
+claim = "Build up civilisations in a procedurally generated world and send your apostle to their aid."
 abstract = "Genesis et Civitas is a top down god game using a dynamically generated world map. Players first take part in the creation of the world, influencing the effects of natural laws, before guiding civilisations and establishing themselves as their god."
 
 
 # Properties for displaying the project in the project list
-card_image = "project_logo.png"
+card_image = "project_logo.jpg"
 
 # Team
 team = ["Laura Unverzagt", "Liz Kintzel", "Dié-Jay Möllers", "Krist Baliev"]
