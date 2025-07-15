@@ -20,11 +20,11 @@ draft = false
 # website: if you have another project website
 website_link = ""
 # e.g. github
-source_link = ""
+source_link = "https://gitlab.com/julius_schultz/javacademy"
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
-demo_link = ""
+demo_link = "https://www.wizards-of-java.de/en"
 +++
 
 {{<image src="screenshots/homepage-screenshot.png" alt="Homepage of Wizards of Java">}}
