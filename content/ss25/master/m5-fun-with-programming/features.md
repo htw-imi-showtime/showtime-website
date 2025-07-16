@@ -8,7 +8,7 @@ draft = false
 +++
 
 {{<section title="General">}}
-This e-learning unit is designed for first-semester international students of the Media Informatics Bachelor’s program at HTW Berlin. It teaches the fundamentals of Java programming in a creative and engaging way. Instead of traditional, dry exercises, students are guided through a magical storyline where programming concepts are explained using potions, magical capes, wands, and other fantasy elements. To ensure long-term usability, all learning content is managed via a connected headless CMS, allowing professors and students to adapt and expand the platform beyond the semester. Combined with a custom visual design theme, this e-learning unit offers a flexible, fun, and didactically meaningful approach to learning programming.
+This e-learning unit is designed for English-speaking first-semester students enrolled in a media and computing program. It teaches the fundamentals of Java programming in a creative and engaging way. Instead of traditional, dry exercises, students are guided through a magical storyline where programming concepts are explained using potions, magical capes, wands, and other fantasy elements. To ensure long-term usability, all learning content is managed via a connected headless CMS, allowing professors and students to adapt and expand the platform beyond the semester. Combined with a custom visual design theme, this e-learning unit offers a flexible, fun, and didactically meaningful approach to learning programming.
 {{</section>}}
 
 {{<section title="Different lecture elements">}}
@@ -25,6 +25,6 @@ With a manual for content creation, instructors can easily adapt and expand the 
 <a href="https://docs.google.com/document/d/1GKmnHR1byJnCqLEqSGaAzOB5IkRrgJCLIeppCM7YpGA/edit?usp=sharing">Link to manual</a>
 {{</section>}}
 
-{{<section title="Ready to Make an Impact">}}
+{{<section title="Ready to make an impact">}}
 With over 100 pages of content, our application offers a rich, structured learning experience tailored to first-semester students. The platform is built, tested, and ready to go!
 {{</section>}}
