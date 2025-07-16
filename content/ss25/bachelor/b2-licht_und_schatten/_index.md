@@ -57,6 +57,10 @@ Due to the topic of our game being "light and shadows" we spend a lot of time te
 
 ---
 
+{{<image src="in_game_screenshot2.jpg" alt="Alt text for image">}}
+
+---
+
 {{<section title="Results">}}
 Light was integrated into various gameplay mechanics. For example, the doll-AI uses a spotlight to scan rooms in search of the player. In a later level, light becomes a key puzzle element, used to color objects in order to solve a puzzle built around "additive color mixing". Additionally, we pushed the render engine to its limits and filled all our rooms with volumetric light-sources.
 {{</section>}} 
