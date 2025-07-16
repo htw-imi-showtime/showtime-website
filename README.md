@@ -13,10 +13,9 @@ every push to master, including drafts: [https://htw-imi-showtime.github.io/stag
 
 ### Preview
 
+every push to master, without drafts (same as production): [https://htw-imi-showtime.github.io/showtime-website](https://htw-imi-showtime.github.io/showtime-website)
+
 uses [.github/workflows/generic-deploy.yml](.github/workflows/generic-deploy.yml), the generic deploy workflow which can also be used in the project forks.
-
-every push to master, without drafts (same as production): [https://htw-imi-showtime.github.io/preview](https://htw-imi-showtime.github.io/showtime-website)
-
 
 #### Old Preview - still active for now:
 
