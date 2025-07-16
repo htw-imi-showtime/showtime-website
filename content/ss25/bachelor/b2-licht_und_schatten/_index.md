@@ -77,19 +77,19 @@ passion for game development and interactive storytelling.
 
 **Our Team members include:**
 
-**Farel Alfarizi Hasan**
+**Farel**
 
 *"Can anyone remind me again to fix the texture error Winston told me to fix 15 commits ago?"*
 
-**Jessica Wiecha**
+**Jessica**
 
 *"The rig behaves normally... until midnight."*
 
-**Kartik Kushwaha**
+**Kartik**
 
 *"Designed the levels, so you regret every step."*
 
-**Linh Vuong**
+**Linh**
 
 *"I love it when the most irrelevant asset just casually has over 2 million vertecies."*
 
@@ -97,11 +97,11 @@ passion for game development and interactive storytelling.
 
 *"These bugs keep appearing and I am starting to run out of bug spray..."*
 
-**Malte Szemlics**
+**Malte**
 
 *"Every time I fix the mesh, three new problems spawn. It's like hydra, but for edge loops."*
 
-**Winston John Reichelt**
+**Winston**
 
 *"Hi, I'm Winston. They call me the 'Triangle Police'."*
 
