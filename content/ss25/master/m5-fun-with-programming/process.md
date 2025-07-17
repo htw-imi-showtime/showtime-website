@@ -16,7 +16,7 @@ This semester, we had the opportunity to turn these earlier concepts into someth
 {{</section>}}
 
 {{<section title="Product Goal">}}
-The aim of our product is to develop an e-learning unit that introduces Programming fundamentals in a creative and interactive format, tailored specifically to the needs of international first-semester Media and Computing students.
+The aim of our product is to develop an e-learning unit that introduces programming fundamentals in a creative and interactive format, tailored specifically to the needs of international first-semester students.
 {{</section>}}
 
 {{<section title="Prototyping & Implementation">}}
@@ -26,13 +26,15 @@ As soon as we had a clear idea of the product's design, we started to implement 
 {{</section>}}
 
 {{<section title="Team Roles & Workflow">}}
+We began as a team of three and welcomed Uyen after about five weeks. Since she was already familiar with the technologies we were using, she quickly became an integral part of the team.
+
 We noticed soon that some developers were rather skilled when in comes to frontend development, while others were more focused on backend and ops development or content management.
 {{</section>}}
 
 {{<section title="Challenges">}}
 One of the biggest challenges we faced was deploying the backend application to a server without incurring any costs. Many headless CMS solutions are not available for free. While Strapi offers a convenient deployment option via its own cloud, this comes with significant expenses. To avoid these, we set up a containerized deployment using Docker, comprising four services running continuously. One service hosts the backend itself, while another handles the MySQL database that communicates with it. A third service is responsible for creating regular backups of the database content to ensure data safety.
 
-Another challenge we faced was properly handling the deeply nested JSON content coming from the backend. We often structured our content components with several layers of nesting — for example, a unit contains multiple sections, each section includes multiple lectures, and a lecture may consist of various exercises or components. Since we weren't just sending simple media like images, text, or videos, but also this complex nested structure, it was quite challenging to parse the data correctly and render it in the appropriate places on the frontend.
+Another challenge we faced was properly handling the deeply nested JSON content coming from the backend. We often structured our content components with several layers of nesting. For example, a unit contains multiple sections, each section includes multiple lectures, and a lecture may consist of various exercises or components. Since we weren't just sending simple media such as images, text, or videos, but also this complex nested structure, it was quite challenging to parse the data correctly and render it in the appropriate places on the frontend.
 {{</section>}}
 
 {{<section title="Reflection">}}

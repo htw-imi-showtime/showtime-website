@@ -12,7 +12,7 @@ draft = false
       <img src="miro.png" width="400" alt="Logo of Miro">
     </td>
     <td>
-      <a href="https://miro.com/">Miro</a> was used for the initial brainstorming sessions, for concretizing the requirements and concept. We used it as well for the first low-fidelity prototypes. It allowed the team to discuss and visualize ideas and record decisions.
+      <a href="https://miro.com/">Miro</a> was used for the initial brainstorming sessions, for finalizing the requirements and the concept. We used it as well for the first low-fidelity prototypes. It allowed the team to discuss and visualize ideas and record decisions.
     </td>
   </tr>
 </table>
@@ -23,7 +23,7 @@ draft = false
       <img src="figma.png" width="200" alt="Logo of Figma">
     </td>
     <td>
-      <a href="https://figma.com/">Figma</a> was used to create the UI component library, style guide and final design for the user interface of the application.
+      <a href="https://figma.com/">Figma</a> was used to create the UI component library, style guide, and final design for the user interface of the application.
     </td>
   </tr>
 </table>
@@ -37,7 +37,7 @@ draft = false
       <img src="nuxt.png" width="670" alt="Logo of Nuxt.js">
     </td>
     <td>
-      <a href="https://nuxt.com/">Nuxt.js</a> is a powerful Vue.js framework that simplifies the development of web applications by providing a nice-to-handle directory structure, server-side rendering, routing functionalities and other built-in features.
+      <a href="https://nuxt.com/">Nuxt.js</a> is a powerful Vue.js framework that simplifies the development of web applications by providing a nice-to-handle directory structure, server-side rendering, routing functionalities, and other built-in features.
     By harnessing Nuxt, the team was able to create reusable UI components, accelerate development speed, and deliver a modern and intuitive web application.
 </td>
   </tr>
@@ -119,7 +119,7 @@ draft = false
       <img src="docker.png" width="470" alt="Logo of Docker">
     </td>
     <td>
-      <a href="https://strapi.io/">Docker</a> is a containerization platform that allows developers to package and run applications in isolated environments, making it easier to deploy and manage applications. For the deployment of Strapi and the MySQL we coordinated with the HTW Rechenzentrum to use an HTW server.
+      <a href="https://strapi.io/">Docker</a> is a containerization platform that allows developers to package and run applications in isolated environments, making it easier to deploy and manage applications. For the deployment of Strapi and MySQL we coordinated with the HTW Rechenzentrum to use an HTW server.
     </td>
   </tr>
 </table>
