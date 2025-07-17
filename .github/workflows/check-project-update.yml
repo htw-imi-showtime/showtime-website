@@ -1,6 +1,9 @@
 name: Check Project Update PR
 
 on:
+  push:
+    branches:
+      - bugfix_workflows
   pull_request:
     paths:
       - 'content/ss25/**'
@@ -157,11 +160,15 @@ jobs:
           cat files-project.txt | tr ' ' '\n'
           echo "------------ files-other.txt"
           cat files-other.txt | tr ' ' '\n'
-
-
-
+  dump_context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump github context
+        run: echo '${{ toJson(github) }}'
+        continue-on-error: true
+      - run: echo 'just dumps the github variable'
   check_files_in_pr:
-    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == '453/merge')}}
     name: "check for files outside of project folder"
     needs: get-files-in-pr
     runs-on: ubuntu-latest

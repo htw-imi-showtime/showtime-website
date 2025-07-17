@@ -38,7 +38,10 @@
         </header>
     </div>
   
-    {{ $label := cond (eq 0 (len .CurrentSection.Pages) ) "The Project" "Overview"}}
+    {{ $label := cond (eq 0 (len .CurrentSection.Pages) ) "The Project" "Overview" }}
+    {{ with .CurrentSection.Params.firstTabTitle }}
+        {{ $label = . }}
+    {{ end }}
     
     <div class="project-menu desktop-menu background {{ .Type | lower }}">
         <ul>
@@ -46,7 +49,17 @@
                 <a href="{{ .CurrentSection.RelPermalink }}">{{ $label}}</a></li>
             {{ range .CurrentSection.Pages }}
             <li {{if eq . $ }}class="active"{{ end }}><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{ end }}       
+            {{ end }} 
+      
+            {{ range .CurrentSection.Params.Tabs }}
+            {{ $tabTitle := .title}}
+            {{ $linked_page := .link }}
+                {{ with $.Site.GetPage $linked_page }} 
+                <li {{if eq . $ }}class="active"{{ end }}><a href="{{ .RelPermalink }}">{{ $tabTitle }}</a></li>
+                {{ else }}
+                Page not found: {{ $linked_page }}
+                {{ end }}   
+            {{ end }}   
         </ul>
     </div>  
     <div class="project-menu mobile-menu background {{ .Type | lower }}">
