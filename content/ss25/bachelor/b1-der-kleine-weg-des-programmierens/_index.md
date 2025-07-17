@@ -51,11 +51,11 @@ Wir haben durch wöchentliche Präsenz- und Onlinemeetings Stück für Stück da
 
 Eine bunt gestaltete Webseite mit 10 Level, die jeweils aus mehreren Schritten bestehen. Level können der Reihe nach oder von Anfang an gleichzeitig freigeschaltet werden. Aufgaben werden auf der linken Seite präsentiert und auf der rechten Seite wird Code geschrieben und die resultierende Ausgabe geschrieben. In der unteren rechten Ecke ist ein Pinguin zu sehen. Wenn eine Aufgabe falsch beantwortet wird, erscheint bei dem Pinguin eine Sprechblase, in der die KI Mixtral:Instruct leichte Kritikpunkte zum geschriebenen Code gibt.
 * **Startseite**
-{{<image src="dkwdp_startbildschirm.jpg" alt="Unsere Startseite">}}
+{{<image src="dkwdp_mainpage.jpg" alt="Unsere Startseite">}}
 * **Karte**
 {{<image src="dkwdp_map.jpg" alt="Karte">}}
 * **Programmierumgebung**
-{{<image src="dkwdp_editing-space.jpg" alt="Programmierumgebung">}}
+{{<image src="dkwdp_coding.jpg" alt="Programmierumgebung">}}
 
 {{</section>}} 
 
