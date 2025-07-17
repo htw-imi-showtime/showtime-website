@@ -57,6 +57,10 @@ Due to the topic of our game being "light and shadows" we spend a lot of time te
 
 ---
 
+{{<image src="in_game_screenshot2.jpg" alt="Alt text for image">}}
+
+---
+
 {{<section title="Results">}}
 Light was integrated into various gameplay mechanics. For example, the doll-AI uses a spotlight to scan rooms in search of the player. In a later level, light becomes a key puzzle element, used to color objects in order to solve a puzzle built around "additive color mixing". Additionally, we pushed the render engine to its limits and filled all our rooms with volumetric light-sources.
 {{</section>}} 
@@ -77,19 +81,19 @@ passion for game development and interactive storytelling.
 
 **Our Team members include:**
 
-**Farel Alfarizi Hasan**
+**Farel**
 
 *"Can anyone remind me again to fix the texture error Winston told me to fix 15 commits ago?"*
 
-**Jessica Wiecha**
+**Jessica**
 
 *"The rig behaves normally... until midnight."*
 
-**Kartik Kushwaha**
+**Kartik**
 
 *"Designed the levels, so you regret every step."*
 
-**Linh Vuong**
+**Linh**
 
 *"I love it when the most irrelevant asset just casually has over 2 million vertecies."*
 
@@ -97,11 +101,11 @@ passion for game development and interactive storytelling.
 
 *"These bugs keep appearing and I am starting to run out of bug spray..."*
 
-**Malte Szemlics**
+**Malte**
 
 *"Every time I fix the mesh, three new problems spawn. It's like hydra, but for edge loops."*
 
-**Winston John Reichelt**
+**Winston**
 
 *"Hi, I'm Winston. They call me the 'Triangle Police'."*
 
