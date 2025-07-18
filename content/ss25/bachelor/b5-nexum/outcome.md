@@ -32,5 +32,6 @@ draft = false
 {{<image src="images/qna.webp" alt="QnA page for Host and Participant">}}
 
 * **Analytics** – Get instant feedback and session stats to evaluate engagement.  
-{{<image src="images/analytics.webp" alt="Analytics page for the Host">}}
+
+* **Templates** – Get started quickly with the predefined poll templates.  
 {{</section>}}
