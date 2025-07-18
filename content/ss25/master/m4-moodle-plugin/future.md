@@ -9,9 +9,9 @@ The project was designed to be used in the upcoming semester by our supervisor P
 {{</section>}}
 
 {{<section title="Future Use by Supervisor">}}
-Over time, the plug-ins will fill this gap by generating a reliable difficulty label from the student reviews. In the future, the data collected by the plug-ins will be used to verify the current naive label and replace it with one derived from the student reviews. Ultimately, the data will be used to train a model to take over the complexity estimation.
+Over time, the plugins will fill this gap by generating a reliable difficulty label from the student reviews. In the future, the data collected by the plugins will be used to verify the current naive label and replace it with one derived from the student reviews. Ultimately, the data will be used to train a model to take over the complexity estimation.
 {{</section>}}
 
 {{<section title="General Use Cases">}}
-The plug-in suite developed in this project is designed for the entire Moodle community, not just our supervisor. By enabling students to rate the difficulty of test questions, the plug-ins provide valuable insights into their learning experience. This helps teachers to better understand where their students are struggling or excelling. In courses with varying skill levels in particular, this feedback enables instructors to adapt their teaching focus based on actual student responses, for more effective teaching.
+The plugin suite developed in this project is designed for the entire Moodle community, not just our supervisor. By enabling students to rate the difficulty of test questions, the plugins provide valuable insights into their learning experience. This helps teachers to better understand where their students are struggling or excelling. In courses with varying skill levels in particular, this feedback enables instructors to adapt their teaching focus based on actual student responses, for more effective teaching.
 {{</section>}}
