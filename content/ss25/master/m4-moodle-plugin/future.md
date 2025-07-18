@@ -5,7 +5,7 @@ draft = false
 +++
 
 {{<section title="Starting Point">}}
-The project was designed to be used in the upcoming semester by our supervisor Prof. Dr. Lucy Weggler. The creation of this plugin was based on her lacking a reliable difficulty label for her large number of maths test questions. To generate difficulty labels before this project, she developed a pipeline that extracts key concepts from maths questions using a language model, based on the assumption that more concepts indicate higher difficulty. However, this label shows no correlation with the statistical parameters that can be obtained from tasks in Moodle, such as success rates (correct entries).
+The project was designed to be used in the upcoming semester by our supervisor Prof. Dr. Lucy Weggler. The creation of this plugin was based on her lacking a reliable difficulty label for her large number of math test questions. To generate difficulty labels before this project, she developed a pipeline that extracts key concepts from math questions using a language model, based on the assumption that more concepts indicate higher difficulty. However, this label shows no correlation with the statistical parameters that can be obtained from tasks in Moodle, such as success rates (correct entries).
 {{</section>}}
 
 {{<section title="Future Use by Supervisor">}}

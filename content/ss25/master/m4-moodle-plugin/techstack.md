@@ -23,7 +23,7 @@ draft = false
 * **[PHP 8](https://www.php.net/)**
 * **[Mustache](https://mustache.github.io/)**
 * **[CSS](https://www.w3.org/Style/CSS/Overview.en.html)**
-* **[JavaScript](https://www.w3.org/Style/CSS/Overview.en.html)**
+* **[JavaScript](https://ecma-international.org/publications-and-standards/standards/ecma-262/)**
 {{</section>}}
 
 {{<section title="Testing">}}
