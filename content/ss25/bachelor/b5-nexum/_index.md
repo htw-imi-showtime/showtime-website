@@ -7,7 +7,7 @@ claim = "An open, easy-to-use platform for live Q&A, polls, and audience engagem
 
 abstract = "Nexum is a lightweight audience engagement platform that supports live polls and Q&A features – designed to be anonymous, easy to use, responsive, and entirely browser-based."
 
-card_image = "images/logo.png"
+card_image = "images/logo.webp"
 
 team = ["Vu Duc Le", "Andrey Krasavin", "Daria Myronova", "Júlia Vieira de Souza", "Mariia Manzon", "Charlotte John"]
 supervisor = "Prof. Dr. Gefei Zhang"
@@ -48,18 +48,22 @@ For a more detailed description of our process click [here](process).
 
 The result is a working web app called *Nexum*. 
 
-{{<image src="images/homepage.png" alt="Our Homepage">}}
-{{<image src="images/session.png" alt="An example how a session can look">}}
+{{<image src="images/homepage.webp" alt="Our Homepage">}}
+{{<image src="images/session.webp" alt="An example how a session can look">}}
 
 It’s a compact tool that offers:
 
-- Live Q&A  
+- Live Q&A   
 - Multiple-choice polls  
-- WordClouds  
+- WordClouds    
 - Open text input  
 - Rating and ranking polls  
 - Image polls
+  <br></br>
+- Reusable templates for polls
+- Session analytics for deeper insights
 
+Click [here](outcome) for images and some details.
 {{</section>}}
 
 
@@ -84,12 +88,12 @@ UI/UX design and frontend feedback
 Team coordination, backend development, server setup and some frontend tasks
 
 {{<gallery>}}
-{{<team-member image="images/temp_member_image.png" name="Vu Duc Le">}}
-{{<team-member image="images/temp_member_image.png" name="Andrey Krasavin">}}
-{{<team-member image="images/temp_member_image.png" name="Daria Myronova">}}
-{{<team-member image="images/temp_member_image.png" name="Júlia Vieira de Souza">}}
-{{<team-member image="images/temp_member_image.png" name="Mariia Manzon">}}
-{{<team-member image="images/temp_member_image.png" name="Charlotte John">}}
+{{<team-member image="images/team/vu.webp" name="Vu Duc Le">}}
+{{<team-member image="images/team/andrey.webp"  name="Andrey Krasavin">}}
+{{<team-member image="images/team/daria.webp"  name="Daria Myronova">}}
+{{<team-member image="images/team/julia.webp"  name="Júlia Vieira de Souza">}}
+{{<team-member image="images/team/mariia.webp"  name="Mariia Manzon">}}
+{{<team-member image="images/team/charlotte.webp"  name="Charlotte John">}}
 {{</gallery>}}
 
 {{</section>}} 
