@@ -1,7 +1,29 @@
 +++
-title = "M2 - Civitas"
-weight = 10
+project_id = "M3"
+title = "Civitas"
+subtitle = "Part II of a top-down god game in which a society is forming in a procedurally generated world"
+claim = "Build up civilisations in a procedurally generated world and send your apostle to their aid."
+abstract = "Genesis et Civitas is a top down god game using a dynamically generated world map. Players first take part in the creation of the world, influencing the effects of natural laws, before guiding civilisations and establishing themselves as their god."
+
+
+# Properties for displaying the project in the project list
+card_image = "project_logo.jpg"
+
+# Team
+team = ["Laura Unverzagt", "Liz Kintzel", "Dié-Jay Möllers", "Krist Baliev"]
+supervisor = "Prof. Dr. Tobias Lenz"
 draft = false
+
+website_link = ""
+source_link = ""
+
+firstTabTitle = "Civitas"
+
+
+[[Tabs]]
+title = "Genesis"
+link = "ss25/master/m2-genesis"
+
 +++
 {{<image src="civ_ui_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the game's UI.">}}
 
@@ -70,7 +92,7 @@ draft = false
 
 {{<gallery>}}
 {{<team-member image="laura_img.jpg" name="Laura Unverzagt">}}
-{{<team-member image="liz_img.jpg" name="Lit Kintzel">}}
+{{<team-member image="liz_img.jpg" name="Liz Kintzel">}}
 {{<team-member image="dj_img.jpg" name="Dié-Jay Möllers">}}
 {{<team-member image="krist_img.jpg" name="Krist Baliev">}}
 {{</gallery>}}
