@@ -46,7 +46,7 @@ The task was to test of the Meta Quest 3’s built in Passthrough feature and co
 {{<section title="Process and Outcome">}}
 **Process**
 
-First we had to come up with an idea on how to use the feature in a useful way. A lot of different ideas were scrapped until we came across the OpenFoods API. We started by mapping user journeys and UML-diagrams to understand what features our application should include to be as inclusive and easy-to-use as possible. The next step was to divide the team based on strengths. Some were programming, while others were designing and coordinating the team. The first feature we had were working panels which came with the Meta SDK on which we based our many panels on. Weekly meetings with the team and with our supervisor Alexander Kramer helped move towards our end goal of designing and programming our application step by step. We used provided Meta Quest 3's to test our program and to minimize errors.
+First we had to come up with an idea on how to use the feature in a useful way. A lot of different ideas were scrapped until we came across the OpenFoods API. We started by mapping user journeys and UML-diagrams to understand what features our application should include to be as inclusive and easy-to-use as possible. The next step was to divide the team based on strengths. Some were programming, while others were designing and coordinating the team. The first feature we had were working panels which came with the Meta SDK on which we based our many panels on. Weekly meetings with the team and with our supervisor helped move towards our end goal of designing and programming our application. We used provided Meta Quest 3's to test our program and to minimize errors.
 
 {{<image src="in_app_footage_1.jpg" alt="In-App Footage Scan">}}
 The required hand gesture to manually scan a barcode.
@@ -59,12 +59,9 @@ A menu to navigate through the App.
 
 * The application was build on Unity Ver. 6000.0.46f1 with a C# Visual Studio extension.
 * To access the Meta Quest 3 we used the Meta XR SDK, which also enabled us to create our own gestures.
-* A repository was created on GitHub.
-* Communication happened over Discord, Mattermost and Zoom.
-* For planning we used miro and Notion.
-* Designs, including self-made icons, were made with PhotoShop and Paint.net.
 * The Open-Food-Facts API is used to get the information about products and their barcode.
-* „Deutsche Gesellschaft für Ernährung e.V.“ provides the values for the daily allowance of nutrients of different activities, ages and body types
+* ZXing makes it possible to read barcode.
+* „Deutsche Gesellschaft für Ernährung e.V.“ provides the values for the daily allowance of nutrients of different activities, ages and body types.
 * The AI-tool is made with Gemini.
 
 
