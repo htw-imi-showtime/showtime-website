@@ -23,7 +23,7 @@ title = "Civitas"
 link = "ss25/master/m3-civitas"
 
 +++
-{{<image src="genesis1_img.jpg" alt="Before and after image of the influence of a moved tectonic plate on the heightmap" caption= "A tectonic plate is moved upwards (left) which results in mountain ranges and cliffs forming (right)">}}
+{{<image src="genesis1_img.jpg" alt="Before and after image of the influence of a moved tectonic plate on the heightmap" caption= "A tectonic plate is moved to the left which results in mountain ranges and valleys forming.">}}
 {{<section title="Goals and Achievements">}}
 Our primary goal for genesis was to create a procedural generation where each processing step is more and more dependent on the previous ones. We wanted to simulate earth's creation, from the forming of tectonic plates and their movement to the influence of ocean currents on the climate and appearing of rivers, forests and animals. We wanted to use as little randomness as possible and try to emulate real geological and meteorological processes in an abstract matter.
  
@@ -51,7 +51,7 @@ A big challenge in procedural generation is the balance between randomness and i
  Especially challenging was it to draw a line at how realistic we want to simulate things. Finding a scope that seems like a geological simulation but at the same time is simple enough in effort and performance was not always easy.
 
 {{</section>}}
-{{<image src="genesis2_img.jpg" alt="Early image of the game in development." caption= "Grouped Voronoi Cells separate the heightmap into different tectonic plates.">}}
+{{<image src="genesis2_img.jpg" alt="Two different views of the generated world." caption= "Zoomed out view of the initial heightmap (left). From ocean currents and equator location calculated heatmap (right).">}}
 {{<section title="Process">}}
 **Planning**
  
@@ -61,7 +61,7 @@ A big challenge in procedural generation is the balance between randomness and i
  
  After assembling what our export data would have to look like, and having implemented a basic heightmap via perlin noise, we could export our first dummy data for civitas, so that their work on a “real” map could start. Meanwhile, we started to divide our workflows and assigned each team member to a different step of the algorithm. We worked in parallel at things that, in the end, were going to be sequential.
  
- Each team member read up on their own part of the process, and had different focuses. In this process, we thought about what a player interaction could look like, and implemented methods to test these interactions via simple parameters and button inputs through an editor script. Here we had to sometimes work in tandem with Civitas to ensure that the values that we would get are working for them as well.
+ Each team member read up on their own part of the process, and had different focuses. In this process, we thought about what a player interaction could look like, and implemented methods to test these interactions via simple parameters and button inputs through an editor script. Here we sometimes had to work in tandem with Civitas to ensure that the values that we would get are working for them as well.
 
  **Patching it all together**
  
