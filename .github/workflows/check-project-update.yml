@@ -3,7 +3,7 @@ name: Check Project Update PR
 on:
   push:
     branches:
-      - bugfix_workflows
+      - m3-imageUpdate
   pull_request:
     paths:
       - 'content/ss25/**'
@@ -74,6 +74,20 @@ jobs:
             echo "project_id=$project_id" >> $GITHUB_OUTPUT
             echo "pid_ok=$pid_ok" >> $GITHUB_OUTPUT
             exit 0
+
+      - name: two projects
+        id: project_match
+        env:
+          project_id: ${{ steps.extract_pid.outputs.project_id }}
+        run: |
+            if [ "$project_id" == "m3"]; then
+              p_match="m[2-3]"
+            else
+              p_match=$project_id
+            fi
+            echo "p_match: $p_match"
+            echo "project_match=$p_match" >> $GITHUB_OUTPUT
+
       
       - name: 'download changed files from gh api'
         uses: dorny/paths-filter@v3
@@ -82,9 +96,9 @@ jobs:
           list-files: 'shell'
           filters: |
             in_project:
-              - 'content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
+              - 'content/**/${{ steps.project_match.outputs.project_match }}-*/**'
             other_files:
-              - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
+              - '!content/**/${{ steps.project_match.outputs.project_match }}-*/**'
             with_spaces:
               - '**/*\ *'
       
