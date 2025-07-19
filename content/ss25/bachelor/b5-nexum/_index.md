@@ -21,13 +21,15 @@ website_link = "http://nexum.f4.htw-berlin.de/home"
 
 {{<section title="Our Goal">}}
 
-Slido is a popular platform that adds interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. However, many of its advanced features require a paid subscription, which can limit access.
+Our project is inspired by Slido, a popular platform that adds low-threshold interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. In contrast, nexum is more focused on providing a smaller feature set which is essential to interactive presentations, without subscription barriers.
 
 Our project is inspired by Slido but focuses on providing a smaller, free alternative with the core features needed for live interaction. The goal was to build a simple, easy to access tool that supports anonymous participation and real-time feedback, particularly to help improve teaching and presentations without subscription barriers.
 
+The goal was to build a simple, easy to access tool that supports anonymous participation and real-time feedback, particularly to help improving teaching and presentations without subscription barriers.
+
 * **What we wanted to solve**
 
-Many existing tools either come with a steep learning curve or require subscriptions for key features. We wanted to create a straightforward solution that anyone can quickly set up and use, providing the essential functions needed to interact with an audience during live events — without extra hurdles or fees.
+Many existing tools either come with a steep learning curve or require subscriptions for key features. We wanted to create a straightforward, easy-to-use solution that allows everybody to participate in interactions, without cumbersome hurdles like registration or sign in. 
 
 {{</section>}}
 
