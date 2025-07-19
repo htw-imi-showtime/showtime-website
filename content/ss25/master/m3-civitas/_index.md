@@ -1,5 +1,5 @@
 +++
-project_id = "M3"
+project_id = "M2"
 title = "Civitas"
 subtitle = "Part II of a top-down god game in which a society is forming in a procedurally generated world"
 claim = "Build up civilisations in a procedurally generated world and send your apostle to their aid."
@@ -25,7 +25,7 @@ title = "Genesis"
 link = "ss25/master/m2-genesis"
 
 +++
-{{<image src="civ_ui_img.jpg" alt="An image showing what the game looks like." caption= "A WIP image of the game's UI.">}}
+{{<image src="civ_ui_img.jpg" alt="The UI and skill tree of the game." caption= "The UI and skill tree of the game.">}}
 
 {{<section title="Goals and Achievements">}}
 
@@ -62,7 +62,7 @@ link = "ss25/master/m2-genesis"
 
 
 {{</section>}}
-{{<image src="civ_img.jpg" alt="An image showing a work in progress state of the game." caption= "A WIP screenshot of the civilisations.">}}
+{{<image src="civ_img.jpg" alt="A waterside civilisation, listening to the saviour." caption= "A waterside civilisation, listening to the saviour.">}}
 {{<section title="Process">}}
  **The Planning Phase**
 
