@@ -1,5 +1,5 @@
 +++
-project_id = "M3"
+project_id = "M2"
 title = "Genesis"
 subtitle = "Part I of a top-down god game in which the world map is dynamically generated"
 claim = "Move tectonic plates to raise mountains, let rivers flow and rain fall in this interactive procedural world-generator"
