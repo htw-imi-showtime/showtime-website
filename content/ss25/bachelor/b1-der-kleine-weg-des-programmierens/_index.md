@@ -65,7 +65,7 @@ Levelinhalte
 * **Anna**
 Koordination
 * **Duncan**
-Frontend (zugeschaut)
+Frontend
 * **Jonathan**
 KI und Design
 * **Kevin**
