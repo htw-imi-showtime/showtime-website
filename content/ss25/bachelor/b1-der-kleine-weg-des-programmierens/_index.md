@@ -6,10 +6,10 @@ title = "Der kleine Weg des Programmierens"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
-subtitle = "Website fürs Coderdojo Berlin - für Kinder zum Einstieg ins Programmieren."
+subtitle = "Programmieren lernen in Javascript."
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
-claim = "Ein kleines Abenteuer für Programmieranfänger."
+claim = "Mit vielen bunten und kinderfreundlichen Elementen lässt Der kleine Weg des Programmierens Kinder des CoderDojo Schöneweide von null auf das Programmieren mit JavaScript lernen. Diverse Konzepte des Programmierens werden mit aufsteigender Schwierigkeit präsentiert und vermittelt, und eine KI hilft dabei, eventuelle Fehler der Kinder zu korrigieren."
 
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
 # *** KANN WEGGELASSEN WERDEN ***, hat in der früheren Gliederung mehr sinn gemacht,
@@ -20,7 +20,7 @@ abstract = ""
 card_image = "logo.jpg"
 
 # Names are optional, team size is sufficient
-team = ["Anas", "Anna", "Duncan", "Jonathan", "Kevin", "Manh", "Ole"]
+team = ["Anas Yunis Altaee", "Anna Gröpler", "Duncan Wittner", "Jonathan Zieger", "Kevin Le", "Manh Hoáng", "Ole Marwede"]
 # this can be just one or a list as with team:
 supervisor = "Bruno Schilling"
 draft = false
@@ -37,9 +37,10 @@ website_link = "https://dkwdp.f4.htw-berlin.de/"
 +++
 
 {{<section title="Unser Ziel">}}
-Das Ziel unseres Projektes war es Kindern verschiedener Altersstufen zu ermöglichen, auf spielerische Art und Weise die Basics des Programmierens zu lehren, indem sie mit aufsteigender Schwierigkeit Aufgaben in Javascript lösen. 
+Eine Webseite für das CoderDojo Berlin zu erstellen, die es Kindern unterschiedlichen Alters ermöglicht, JavaScript auf spielerische und unterhaltsame Weise zu erlernen. Die Seite soll verschiedene Schwierigkeitsstufen bieten, um den unterschiedlichen Vorkenntnissen der Kinder gerecht zu werden. Der Hauptfokus liegt darauf, ihnen die Grundlagen des Programmierens auf einer levelbasierten Plattform beizubringen. Zusätzlich wird eine integrierte KI bereitgestellt, damit die Kinder selbstständiger lernen können und nicht bei jedem Schritt auf die Hilfe der CoderDojo-Mitarbeiter angewiesen sind. Die Webseite soll außerdem leicht erweiterbar sein, um eine nahtlose Fortführung durch das CoderDojo zu ermöglichen.
 {{</section>}}
 
+---
 
 {{<section title="Prozess and Ergebnis">}}
 
@@ -52,6 +53,7 @@ Wir haben durch wöchentliche Präsenz- und Onlinemeetings Stück für Stück da
 Eine bunt gestaltete Webseite mit 10 Level, die jeweils aus mehreren Schritten bestehen. Level können der Reihe nach oder von Anfang an gleichzeitig freigeschaltet werden. Aufgaben werden auf der linken Seite präsentiert und auf der rechten Seite wird Code geschrieben und die resultierende Ausgabe geschrieben. In der unteren rechten Ecke ist ein Pinguin zu sehen. Wenn eine Aufgabe falsch beantwortet wird, erscheint bei dem Pinguin eine Sprechblase, in der die KI Mixtral:Instruct leichte Kritikpunkte zum geschriebenen Code gibt.
 * **Startseite**
 {{<image src="dkwdp_mainpage.jpg" alt="Unsere Startseite">}}
+
 * **Karte**
 {{<image src="dkwdp_map.jpg" alt="Karte">}}
 * **Programmierumgebung**
