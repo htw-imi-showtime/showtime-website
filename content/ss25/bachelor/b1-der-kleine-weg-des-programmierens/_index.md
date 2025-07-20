@@ -17,7 +17,7 @@ claim = "Ein kleines Abenteuer für Programmieranfänger."
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "logo.jpg"
+card_image = "pinu-both-arms.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Anas", "Anna", "Duncan", "Jonathan", "Kevin", "Manh", "Ole"]
@@ -78,6 +78,6 @@ Frontend
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="logo.jpg" name="Logo">}}
+{{<team-member image="pinu-both-arms.jpg" name="Pinu">}}
 {{</gallery>}}
 
