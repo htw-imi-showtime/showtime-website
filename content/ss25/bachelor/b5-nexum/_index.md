@@ -7,7 +7,7 @@ claim = "An open, easy-to-use platform for live Q&A, polls, and audience engagem
 
 abstract = "Nexum is a lightweight audience engagement platform that supports live polls and Q&A features – designed to be anonymous, easy to use, responsive, and entirely browser-based."
 
-card_image = "images/logo.png"
+card_image = "images/logo.webp"
 
 team = ["Vu Duc Le", "Andrey Krasavin", "Daria Myronova", "Júlia Vieira de Souza", "Mariia Manzon", "Charlotte John"]
 supervisor = "Prof. Dr. Gefei Zhang"
@@ -21,13 +21,15 @@ website_link = "http://nexum.f4.htw-berlin.de/home"
 
 {{<section title="Our Goal">}}
 
-Slido is a popular platform that adds interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. However, many of its advanced features require a paid subscription, which can limit access.
+Our project is inspired by Slido, a popular platform that adds low-threshold interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. In contrast, nexum is more focused on providing a smaller feature set which is essential to interactive presentations, without subscription barriers.
 
 Our project is inspired by Slido but focuses on providing a smaller, free alternative with the core features needed for live interaction. The goal was to build a simple, easy to access tool that supports anonymous participation and real-time feedback, particularly to help improve teaching and presentations without subscription barriers.
 
+The goal was to build a simple, easy to access tool that supports anonymous participation and real-time feedback, particularly to help improving teaching and presentations without subscription barriers.
+
 * **What we wanted to solve**
 
-Many existing tools either come with a steep learning curve or require subscriptions for key features. We wanted to create a straightforward solution that anyone can quickly set up and use, providing the essential functions needed to interact with an audience during live events — without extra hurdles or fees.
+Many existing tools either come with a steep learning curve or require subscriptions for key features. We wanted to create a straightforward, easy-to-use solution that allows everybody to participate in interactions, without cumbersome hurdles like registration or sign in. 
 
 {{</section>}}
 
@@ -48,18 +50,22 @@ For a more detailed description of our process click [here](process).
 
 The result is a working web app called *Nexum*. 
 
-{{<image src="images/homepage.png" alt="Our Homepage">}}
-{{<image src="images/session.png" alt="An example how a session can look">}}
+{{<image src="images/homepage.webp" alt="Our Homepage">}}
+{{<image src="images/session.webp" alt="An example how a session can look">}}
 
 It’s a compact tool that offers:
 
-- Live Q&A  
+- Live Q&A   
 - Multiple-choice polls  
-- WordClouds  
+- WordClouds    
 - Open text input  
 - Rating and ranking polls  
 - Image polls
+  <br></br>
+- Reusable templates for polls
+- Session analytics for deeper insights
 
+Click [here](outcome) for images and some details.
 {{</section>}}
 
 
@@ -84,12 +90,12 @@ UI/UX design and frontend feedback
 Team coordination, backend development, server setup and some frontend tasks
 
 {{<gallery>}}
-{{<team-member image="images/temp_member_image.png" name="Vu Duc Le">}}
-{{<team-member image="images/temp_member_image.png" name="Andrey Krasavin">}}
-{{<team-member image="images/temp_member_image.png" name="Daria Myronova">}}
-{{<team-member image="images/temp_member_image.png" name="Júlia Vieira de Souza">}}
-{{<team-member image="images/temp_member_image.png" name="Mariia Manzon">}}
-{{<team-member image="images/temp_member_image.png" name="Charlotte John">}}
+{{<team-member image="images/team/vu.webp" name="Vu Duc Le">}}
+{{<team-member image="images/team/andrey.webp"  name="Andrey Krasavin">}}
+{{<team-member image="images/team/daria.webp"  name="Daria Myronova">}}
+{{<team-member image="images/team/julia.webp"  name="Júlia Vieira de Souza">}}
+{{<team-member image="images/team/mariia.webp"  name="Mariia Manzon">}}
+{{<team-member image="images/team/charlotte.webp"  name="Charlotte John">}}
 {{</gallery>}}
 
 {{</section>}} 

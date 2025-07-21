@@ -7,7 +7,7 @@ subtitle = "Ein serious game in zusammenarbeit mit food4future"
 claim = "Wir vermitteln Wissen von food4future über nachhaltig anbaubare Organismen, mit denen in engen, urbanen Räumen der Nahrungsbedarf der Stadtbevölkerung gedeckt werden kann."
 
 # Properties for displaying the project in the project list
-card_image = "images/therme.jpg"
+card_image = "images/logo-no-background.png"
 
 team = [
     "Alejandro Martinez Hernandez",
@@ -58,18 +58,18 @@ demo_link = ""
 {{<section title="Vortrag vor Fachpublikum">}}
 
 {{<image src="images/konsti.jpg" alt="Konstantin haellt einen Vortrag ueber unser Spiel.">}}
-Um unser Spiel weiter zu verbessern haben wir einen Vortrag im Rahmen einer food4future Veranstaltung gehalten.
+Um unser Spiel weiter zu verbessern haben wir einen Monat vor der Showtime einen Vortrag im Rahmen einer food4future Veranstaltung gehalten.
 Anschliessend konnten wir unser Spiel an einem Stand vorstellen.
 
 {{</section>}} 
 
 {{<section title="Gameplay">}}
 
-{{<image src="images/therme.jpg" alt="Die Therme in Bad Saarow als Modell.">}}
-
 - Es können die verschiedenen Compartments zur Essensproduktion auf verfügbarem Raum platziert werden.
 - Der verfügbare Raum basiert auf simuliertem Wachstum der Stadt.
 - Der Nährstoffbedarf der wachsenden Bevölkerung wird mit den produzierten Gerichten gedeckt.
+
+{{<mediathek id="7073e444b50d919c9e7ad631092ddec8">}}
 
 {{</section>}} 
 
