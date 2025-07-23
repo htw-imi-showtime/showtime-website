@@ -35,7 +35,7 @@ source_link = ""
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
-demo_link = ""
+demo_link = "https://groups.google.com/g/biotopia-testers"
 +++
 
 {{<section title="Ziel des Spiels">}}
