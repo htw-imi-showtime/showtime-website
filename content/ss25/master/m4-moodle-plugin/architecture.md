@@ -9,11 +9,11 @@ draft = false
 {{</section>}}
 
 {{<section title="Moodle System Architecture">}}
-Plugins must follow **Moodle’s technical and organisational guidelines** to qualify for the official plugin directory. Moodle consists of its core with different subsystems and a substantial amount of plugins. These plugins need to be of a specific type. For our plugins these are quiz report and question behaviour. A clear type assignment is essential, because plugins without an unambiguous type cannot be correctly installed or published.
+Plugins must follow **Moodle’s technical and organisational guidelines** to qualify for the official plugin directory. Moodle consists of its core with different subsystems and a substantial amount of plugins. These plugins need to be of a specific type. For our plugins these are quiz report and question behaviour. A clear type assignment is essential, because only plugins with an unambiguous type can be correctly installed or published.
 {{</section>}}
 
 {{<section title="Existing Plugins">}}
-The standard installation of Moodle already offers a number of question behaviours for tests. **Immediate Feedback** adds a “Check” button after a question so learners can submit each answer and see right away whether it is correct, together with any configured feedback. **Deferred Feedback** hides that button, letting students finish the whole quiz first and revealing correctness and review feedback only after they click “Submit all and finish.” During the research, plugins from the Moodle plugin directory were also identified that are functionally similar to the planned plugin. Another plugin of the question behaviour type is **Certainty Based Marking** (CBM). CBM extends a question with a confidence scale where students rate how sure they are of their answer, and their final score is adjusted by this self-assessment, rewarding accurate confidence judgments.
+The standard installation of Moodle already offers a number of question behaviours for tests. **Immediate Feedback** adds a “Check” button after a question so learners can submit each answer and see right away whether it is correct, together with any configured feedback. **Deferred Feedback** hides that button, letting students finish the whole quiz first and revealing correctness and review feedback only after they click “Submit all and finish.” During the research, plugins from the Moodle plugin directory were also identified that are functionally similar to the planned plugin. 
 {{</section>}}
 
 {{<section title="Difficulty Assessment Plugins">}}
