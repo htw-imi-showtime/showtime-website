@@ -18,7 +18,6 @@ source_link = "https://gitlab.htw-berlin.de/s0592097/weslido"
 website_link = "http://nexum.f4.htw-berlin.de/home"
 +++
 
-
 {{<section title="Our Goal">}}
 
 Our project is inspired by Slido, a popular platform that adds low-threshold interactive elements like Q&A, polls, rankings, and ratings to presentations, making it easy for speakers to engage their audience. In contrast, nexum is more focused on providing a smaller feature set which is essential to interactive presentations, without subscription barriers.
