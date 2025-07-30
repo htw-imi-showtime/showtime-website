@@ -12,13 +12,13 @@ team = ["Anton Schöps", "Sebastian Pütz"]
 supervisor = "Prof. Dr. Sebastian Knorr"
 draft = false
 
-website_link = "https://visual-computing.com/"
+website_link = "https://visual-computing.com/projects/directors-cut"
 source_link = "https://github.com/sebastian-ptz/directors-cut"
 +++
 
 {{<section title="The 360° Directors's Cut Viewer">}}
 Our app lets you load 360° videos, view them with overlays of the intended director’s cut, see the resulting director’s cut similarity (DCS) map, and saliency maps. You can switch between a DCS map and saliency map views to analyze how well attention is guided throughout the movie. 
-{{<image src="dc_gui.jpg" caption="360° Directors's Cut Viewer" alt="Picture of the App">}} 
+{{<image src="dc_gui.png" caption="360° Directors's Cut Viewer" alt="Picture of the App">}} 
 {{</section>}}
 
 {{<section title="Our Goal">}}
