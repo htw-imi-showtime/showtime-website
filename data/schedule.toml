@@ -38,7 +38,7 @@ project_id = "B5"
 
 [[slot]]
 time = "10:40"
-project_id = "B6"
+project_id = "M1"
 
 
 [[slot]]
@@ -50,14 +50,21 @@ project_id = "M2"
 time = "10:54"
 project_id = "M3"
 
+[[slot]]
+time = "11:01"
+project_id = "M4"
 
 [[slot]]
-time = "11:00"
+time = "11:08"
+project_id = "M5"
+
+[[slot]]
+time = "11:15"
 title = "Lunch Break"
 class = "general"
 
 [[slot]]
-time = "11:30-15:00"
+time = "12:00-15:00"
 title = "Project Fair"
 text = "Project Booths in H001"
 class = "general"
@@ -71,6 +78,6 @@ class = "general"
 
 [[slot]]
 time = "ca. 16:00"
-title = "All Supervisors Meet in a Room on the 1st floor"
+title = "All Supervisors Meet in H101 on the 1st floor"
 text = "Project Groups and Supervisors meet individually afterwards"
 class = "general"

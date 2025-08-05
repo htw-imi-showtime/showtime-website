@@ -1,9 +1,12 @@
 name: Check Project Update PR
 
 on:
+  push:
+    branches:
+      - m3-imageUpdate
   pull_request:
     paths:
-      - 'content/ws24/**'
+      - 'content/ss25/**'
   workflow_dispatch:
 
 jobs:
@@ -23,7 +26,7 @@ jobs:
     - name: check project folder name convention
       run: |
         PID=$(bin/check-project-update-pr/extract_pid_from_pr_title.sh "$PR_TITLE")
-        ls content/ws24/**/$PID-*
+        ls content/ss25/**/$PID-*
 
         
   check-disk-usage:
@@ -71,6 +74,20 @@ jobs:
             echo "project_id=$project_id" >> $GITHUB_OUTPUT
             echo "pid_ok=$pid_ok" >> $GITHUB_OUTPUT
             exit 0
+
+      - name: two projects
+        id: project_match
+        env:
+          project_id: ${{ steps.extract_pid.outputs.project_id }}
+        run: |
+            if [ "$project_id" == "m3"]; then
+              p_match="m[2-3]"
+            else
+              p_match=$project_id
+            fi
+            echo "p_match: $p_match"
+            echo "project_match=$p_match" >> $GITHUB_OUTPUT
+
       
       - name: 'download changed files from gh api'
         uses: dorny/paths-filter@v3
@@ -79,9 +96,9 @@ jobs:
           list-files: 'shell'
           filters: |
             in_project:
-              - 'content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
+              - 'content/**/${{ steps.project_match.outputs.project_match }}-*/**'
             other_files:
-              - '!content/**/${{ steps.extract_pid.outputs.project_id }}-*/**'
+              - '!content/**/${{ steps.project_match.outputs.project_match }}-*/**'
             with_spaces:
               - '**/*\ *'
       
@@ -157,11 +174,15 @@ jobs:
           cat files-project.txt | tr ' ' '\n'
           echo "------------ files-other.txt"
           cat files-other.txt | tr ' ' '\n'
-
-
-
+  dump_context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump github context
+        run: echo '${{ toJson(github) }}'
+        continue-on-error: true
+      - run: echo 'just dumps the github variable'
   check_files_in_pr:
-    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') }}
+    if: ${{ ! startsWith(github.event.pull_request.title, 'STW') && !(github.ref_name == '453/merge')}}
     name: "check for files outside of project folder"
     needs: get-files-in-pr
     runs-on: ubuntu-latest

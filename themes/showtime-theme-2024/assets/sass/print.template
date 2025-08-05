@@ -1,0 +1,52 @@
+@import 'colors';
+@media print {
+  /* All your print styles go here */
+  #header,
+  #footer,
+  .dontprint {
+    display: none !important;
+  }
+  nav{
+    display: none !important;
+  }
+  h1::after{
+    display: none !important;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+header {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin: 7 1rem;
+}
+h3 {
+    color: $color-dark;
+}
+
+nav {
+    position: static;
+}
+
+.bachelor .master {
+    margin-right: 12rem;
+}
+
+footer { 
+    display: none !important;
+}
+
+
+
+.schedule > section {
+    ul > li {
+        .master {
+            color: $color-dark;
+        
+        }
+    }
+}
