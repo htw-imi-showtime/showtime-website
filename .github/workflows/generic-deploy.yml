@@ -3,9 +3,11 @@
 # sets the baseURL for hugo to 'https://<owner>.github.io/<repo>'
 
 # use it with <repo>->Settings->Pages Source "GitHub Actions"
-# Contains a RUN_IF to prevent it from running in the original repo
+# update ## Saturday, 12.July 2025 12:43
+# also runs on on main repo to continuously test this workflow
+# (Contains a RUN_IF to prevent it from running in the original repo)
 
-name: Deploy Page using GH-Actions
+name: Generic Deploy using GH-Actions
 
 on:
   push:
@@ -25,7 +27,8 @@ concurrency:
 jobs:
   build:
     name: Hugo Page Build
-    if: ${{ github.repository_owner != 'htw-imi-showtime' }}
+    # run on main in main repo, on all other branches in forks
+    if: ${{ (github.repository_owner == 'htw-imi-showtime') == (github.ref_name == 'main') }}
     permissions:
       contents: write
     runs-on: ubuntu-latest

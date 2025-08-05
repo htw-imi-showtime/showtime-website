@@ -11,7 +11,7 @@ hugoP :  open
 
 open :
 #-  open http://localhost:1313/pathprefix
--  open http://localhost:1313/pathprefix/projects/
+-  open http://localhost:1313/pathprefix/schedule/
 
 stag_url=http://localhost:1315/staging
 hugoStaging : openStaging

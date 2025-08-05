@@ -3,10 +3,10 @@
     <h1>
         {{ .Title }}
         <span class="light block">{{ partial "semester" (dict "type" "short" "semester" .Site.Params.current_semester) }}</span>
-        <span class="underscore-spacer"> </span>
+        <span class="underscore-spacer dontprint"> </span>
     </h1>
-    <section class="underscore">
-        <div class="spacer"></div>
+    <section class="underscore dontprint">
+        <div class="spacer dontprint"></div>
         {{ .Content }}
     </section>
 </header>
