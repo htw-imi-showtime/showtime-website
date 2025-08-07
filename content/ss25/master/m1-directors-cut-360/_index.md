@@ -12,7 +12,7 @@ team = ["Anton Schöps", "Sebastian Pütz"]
 supervisor = "Prof. Dr. Sebastian Knorr"
 draft = false
 
-website_link = "https://visual-computing.com/"
+website_link = "https://visual-computing.com/projects/directors-cut"
 source_link = "https://github.com/sebastian-ptz/directors-cut"
 +++
 

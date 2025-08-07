@@ -7,7 +7,7 @@ draft = false
 {{<image src="tool-overview.jpg" caption="" alt="">}}
 
 {{<section title="Languages">}}
-#### Pyhton
+#### Python
 Python version 3.9.11 and 3.8.20 was used für the scripting.
 - [Python](https://www.python.org/)
 {{</section>}}
