@@ -18,6 +18,13 @@
              ({{ if .Site.BuildDrafts }}with{{ else }}no{{ end }} drafts)
          </div>  
          {{ end }}
+
+         <!-- Mobile menu toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle">
+            <span></span>
+        </label>
+
          <ul class = "dontprint">
              <li><a href="{{ "projects" | absURL }}">Projects</a></li>
              <li><a href="{{ "schedule" | absURL }}">Schedule</a></li>
