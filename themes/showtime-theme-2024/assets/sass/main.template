@@ -1385,6 +1385,10 @@ span.subtitle {
         margin-bottom: 6rem;
     }
 
+    body:has(#menu-toggle:checked) .project-menu {
+        z-index: 0;
+    }
+
     .desktop-menu {
         display: none;
     }
