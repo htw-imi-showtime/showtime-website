@@ -1,5 +1,5 @@
 +++
-showtime_date = "25/07/2025"
+showtime_date = "06/02/2026"
 #showtime_date = "10:00-15:00"
 showtime_place = "WH H001"
 #showtime_save_the_date = "Fr 07/02/2025"
