@@ -62,6 +62,8 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 Hier kommt Ergebnis.
 
+{{<image src="Garage.png" alt="Erste Szene Garage">}}
+
 {{</section>}}
 
 {{<section title="Team">}}
