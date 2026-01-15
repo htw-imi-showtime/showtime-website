@@ -58,7 +58,7 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 {{<section title="Ergebnis">}}
 
-Hier kommt Ergebnis.
+Hier ein kleiner Einblick über unsere Fertigen Szenen.
 
 {{<image src="Garage.png" alt="Erste Szene Garage">}}
 
