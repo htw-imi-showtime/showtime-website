@@ -58,12 +58,17 @@ Nach der Fertigstellung der Szenen wurden Modelle, Texturen und Animationen für
 In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Perspektive über die Main Camera gesteuert wird, sich frei bewegen kann, mit Objekten interagiert und über Portale zwischen den einzelnen Szenen wechselt.
 {{</section>}}
 
+{{<section title="Ergebnis">}}
+
+Hier kommt Ergebnis.
+
+{{</section>}}
+
 {{<section title="Team">}}
 
 {{</section>}}
 
 {{<gallery>}}
-Test
 {{<team-member image="Avatar.jpg" name="Dzemal">}}
 {{<team-member image="Avatar.jpg" name="Estella">}}
 {{<team-member image="Avatar.jpg" name="Sophy">}}
