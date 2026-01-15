@@ -16,10 +16,10 @@ claim = "Erlebe die Welt so, wie sie wirklich ist - in '3D'"
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
+card_image = "Logo.png"
 
 # Names are optional, team size is sufficient
-team = ["Julia Nguyễn", "Denis Kunz", "Armin Dorri", "Armin Dorri"]
+team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin erkhembayar"]
 # this can be just one or a list as with team:
 supervisor = "Hr. Prof. Dr. Tobias Lenz"
 draft = false
@@ -63,9 +63,9 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 {{</section>}}
 
 {{<gallery>}}
-TEst
-{{<team-member image="cat.jpg" name="team member cat">}}
-{{<team-member image="cat.jpg" name="team member cat">}}
-{{<team-member image="cat.jpg" name="team member cat">}}
-{{<team-member image="cat.jpg" name="team member cat">}}
+Test
+{{<team-member image="Avatar.jpg" name="Dzemal">}}
+{{<team-member image="Avatar.jpg" name="Estella">}}
+{{<team-member image="Avatar.jpg" name="Sophy">}}
+{{<team-member image="Avatar.jpg" name="Enkhjin">}}
 {{</gallery>}}
