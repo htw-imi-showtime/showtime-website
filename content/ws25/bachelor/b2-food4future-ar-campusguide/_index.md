@@ -20,12 +20,12 @@ claim = " Wir machen nachhaltige Essensangebote und ihre Erforschung auf dem HTW
 abstract = "food4future ist ein AR-basierter Campusguide, der Interessenten hilft, nachhaltige Essensangebote und relevante Informationen direkt auf dem HTW-Campus zu entdecken."
 
 # Properties for displaying the project in the project list
-card_image = "kitty.jpg"
+card_image = "logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Zehra Ilgin", "Lara Plagens", "Duaa Fourah"]
 # this can be just one or a list as with team:
-supervisor = "Supervisor"
+supervisor = "Marino Gabel"
 draft = false
 
 
@@ -53,14 +53,51 @@ nachhaltiger Ernährung mit spielerischen Elementen erhalten
 {{</section>}}
 
 
-{{<section title="Process and Outcome">}}
+{{<section title="Process">}}
+
 * **Process**
 
-Zu Beginn wurden relevante Informationen zu den Reallaboren gesammelt und mit den Experten Rücksprache gehalten. darauf aufbauend wird der AR- Campusguide umgesetzt, der standortbezogene Inhalte auf dem campus darstellt.
+Der Entwicklungsprozess unseres Projekts begann mit einer intensiven Recherchephase zu den verschiedenen Reallaboren. Um die Ergebnisse der Reallabore korrekt in die digitale Welt integrieren hielten wir kontinuierlich Rücksprache mit den Experten des Food4Future-Projekts. Dieser Austausch half uns dabei, eine verlässliche Grundlage für unseren Guide zu schaffen.
 
-* **Product/Outcome**
+Auf dieser Grundlage bauten wir unseren AR-Campusguide innerhalb eines vorgegebenen Frameworks auf. Unsere Vision war es, eine Navigation zu entwickeln, die standortbezogene Daten auf dem Campus durch Gamification-Elemente erlebbar macht. In der ersten Phase konzentrierten wir uns voll auf die Konzeptideen und das Design der Webseite sowie der AR-Ansicht, wobei wir interaktive Spiele entwarfen, die Informationen spielerisch und spannend vermitteln.
+
+Anschließend folgte die technische Umsetzung, wo wir die Programmieraufgaben im Team aufgeteilt haben. In wöchentlichen Treffen mit unserem Supervisor und dem gesamten Team präsentierten wir unsere Fortschritte, diskutierten Verbesserungen und entwickelten die Anwendung stetig weiter, bis das finale Produkt stand.
+
+{{</section>}}
+
+{{<section title="Outcome">}}
 
 Das Ergebnis ist ein funktionierender AR Campusguide der Nutzer*innen über dem Webbrowser nachhaltige Essensangebote und Informationen direkt im realen Raum entdecken lässt.
+
+* **The Product**
+
+{{< figure src="/images/placeholder.png" title="Startseite" >}}
+
+Das ist unser Guide Algi! Er begleitet dich auf deiner Reise über den Campus und versorgt dich an jeder Station mit spannenden Informationen und hilfreichen Tipps.
+
+{{< figure src="/images/placeholder.png">}}
+
+Das Herzstück unserer Anwendung ist die interaktive GPS-Navigation. Sie erkennt deinen Standort in Echtzeit und führt dich zielsicher von einem Reallabor zum nächsten quer über den Campus. So wird der Weg zwischen den Stationen selbst zum Teil des Erlebnisses und stellt sicher, dass du keine Station des Campusguides verpasst.
+
+* **Interaktive Wissensvermittlung**
+{{<team-member image="quiz.jpg">}}
+
+Um den Lerneffekt zu steigern, haben wir ein interaktives Quiz integriert. Hier können Nutzer*innen ihr neu gewonnenes Wissen über die Reallabore direkt testen und erhalten spielerisches Feedback zu ihren Fortschritten.
+
+{{< figure src="/images/placeholder.png">}}
+
+Keine Sorge, du bist nie auf dich allein gestellt! An jeder Station findest du Infopanels und Bildergalerien, die dir die Hintergründe der Reallabore anschaulich erklären und tiefere Einblicke in die Forschung geben.
+
+* **Spiele**
+
+{{< figure src="/images/placeholder.png">}}
+
+Ein weiteres Highlight ist das interaktive Schiebepuzzle. Es lädt die Nutzer*innen dazu ein, sich spielerisch mit den Bildern der Reallabore zu beschäftigen.
+
+{{< figure src="/images/placeholder.png">}}
+
+Unser Memory-Spiel zeigt die verschiedenen nachhaltigen Gerichte, die auf dem Campus angeboten werden. So können sich die Nutzer*innen die zukünftigen Menüs besser vorstellen und diese spielerisch entdecken.
+
 {{</section>}} 
 
 
@@ -69,19 +106,6 @@ Das Ergebnis ist ein funktionierender AR Campusguide der Nutzer*innen über dem 
 Zehra Ilgin: 
 Lara Plagens: 
 Duaa Fourah: 
-
-* **Subheader 1**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
-
-
-* **Subheader 2**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
-
-* **Subheader 3**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
 
 {{</section>}} 
 
