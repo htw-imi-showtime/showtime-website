@@ -39,7 +39,7 @@ The game is set in a post-apocalyptic scenario. After a zombie outbreak, a small
 
 
 
-<iframe src="https://mediathek.htw-berlin.de/media/embed?key=f66e6a76919f180f361775106b37f32d&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=true&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=f66e6a76919f180f361775106b37f32d&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=false&t=0&loadonclick=true" class="" width="720" height="405" title="IMI Showtime Trailer - M2 Cycle For Your Life" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
+<iframe src="https://mediathek.htw-berlin.de/media/embed?key=f66e6a76919f180f361775106b37f32d&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=true&t=0&loadonclick=true&thumb=true" data-src="https://mediathek.htw-berlin.de/media/embed?key=f66e6a76919f180f361775106b37f32d&width=720&height=405&autoplay=true&controls=true&autolightsoff=false&loop=false&chapters=false&playlist=false&related=false&responsive=true&t=0&loadonclick=true" class="" width="100%" style="aspect-ratio: 16 / 9" title="IMI Showtime Trailer - M2 Cycle For Your Life" frameborder="0" allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" aria-label="media embed code" style=""></iframe>
 
 
 
