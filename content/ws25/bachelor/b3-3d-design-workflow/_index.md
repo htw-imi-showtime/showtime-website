@@ -21,7 +21,7 @@ card_image = "Logo.png"
 # Names are optional, team size is sufficient
 team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin erkhembayar"]
 # this can be just one or a list as with team:
-supervisor = "Hr. Prof. Dr. Tobias Lenz"
+supervisor = "Prof. Dr. Tobias Lenz"
 draft = false
 
 
