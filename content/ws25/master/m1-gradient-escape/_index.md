@@ -39,7 +39,7 @@ website_link = ""
 {{<section title="Our Goal">}}
 The primary goal of Gradient Escape is to create an educational experience that helps players understand gradient functions through interactive gameplay. Set in a misty forest, the game challenges players to navigate the environment, using a discovered map and various tools to find the best pathways and reach the exit.
 
-![Tutorial View](images/Navigator.jpeg "Scene_Level1_Navigator")
+![Tutorial View](/ws25/master/m1-gradient-escape/images/Navigator.jpeg "Scene_Level1_Navigator")
 
 {{</section>}}
 
@@ -48,7 +48,7 @@ Gradient Escape is an educational first-person video game that encourages player
 
 But beware, as there’s a mysterious fog inhibiting your view, making it so that you have to use various tools to reach the goal, first and foremost the ‘gradient map’. Will you be able to make it out or will you get lost until you collapse from exhaustion? It all depends on understanding the weird arrows drawn on your map …
 
-![Gradient Map](images/GradientMap.jpeg "Scene_Level1_GradientMap")
+![Gradient Map](/ws25/master/m1-gradient-escape/images/GradientMap.jpeg "Scene_Level1_GradientMap")
 
 {{</section>}}
 
@@ -56,6 +56,7 @@ But beware, as there’s a mysterious fog inhibiting your view, making it so tha
 
 Alex, Lukas, Sonja
 
+<!--
 * **Subheader 1**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
@@ -68,13 +69,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque i
 * **Subheader 3**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
+-->
 
 {{</section>}} 
 
 
 
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="Alex_profile.jpg" name="Alex">}}
 {{<team-member image="cat.jpg" name="team member cat">}}
 {{<team-member image="cat.jpg" name="team member cat">}}
 {{</gallery>}}

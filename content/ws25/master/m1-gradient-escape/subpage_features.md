@@ -23,8 +23,7 @@ One of the main features of Gradient Escape is the Gradient Map, which is introd
 
 In Gradient Escape, players encounter a variety of essential items that enhance their gameplay experience and assist in navigating the challenging environment. Each item serves a unique purpose, providing strategic advantages as players try to overcome obstacles and explore the foggy forest.
 
-![Item Energy Mushroom](images/Scene_Mushroom.jpeg "Scene_Level1_EnergyMushroom")
-
+![Item Energy Mushroom](/ws25/master/m1-gradient-escape/images/Scene_Mushroom.jpeg)
 
 The **Energy Mushroom** is an essential resource that restores the player’s energy, ensuring they can continue their journey through the forest without collapsing from exhaustion. The **Gradient Compass** displays the gradient vector of the current tile, guiding players in understanding the terrain's slopes and directions. **Parameter Ink** reveals gradients in the neighbouring tiles of the player's position, helping in the understanding of the mathematical concepts at play. With the **Binoculars**, players can observe their surroundings and uncover multiple gradients in the chosen direction to aid navigation.
 

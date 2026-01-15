@@ -32,7 +32,7 @@ During the ongoing group project we used a shared miro board for brainstorming a
 
 Weekly meetings were held to review progress, problems, reprioritize tasks, and confirm which branches were ready to merge into main. Meeting decisions and action items were recorded directly in the project board so responsibilities and deadlines remained accessible and easy to follow up on.
 
-![Project Management](images/miro_board.jpeg "Project Management")
+![Project Management](/ws25/master/m1-gradient-escape/images/Scene_Mushroom.jpeg "Project Management")
 
 <br><br>
 
@@ -42,7 +42,7 @@ The design of each level in Gradient Escape was effectively organized using spre
 
 Once designed, the spreadsheet is exported to JSON format, which is then integrated into each game level through the GameFlow object in Unity. This method significantly reduces the time required to create new levels, allowing for efficient expansion and iteration of the game environment. The combination of spreadsheet logic and JSON integration enables rapid development of structured levels, enhancing the player’s experience in navigating the mysterious terrain.
 
-![Level Design](images/LevelDesign.jpeg "Level Design")
+![Level Design](/ws25/master/m1-gradient-escape/images/LevelDesign.jpeg "Level Design")
 
 
 {{</section>}}
