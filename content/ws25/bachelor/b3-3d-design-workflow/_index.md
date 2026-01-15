@@ -2,27 +2,26 @@
 
 
 project_id = "B3"
-title = "3d Design Workflow"
+title = "Porta"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
-subtitle = "informativ, kurz - (subtitle)"
+subtitle = "3d Design Workflow"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
-claim = "Teaser - länger, fancy - ein Werbespruch, Mission Statement... soll neugierig machen (claim)"
+claim = "Erlebe die Welt so, wie sie wirklich ist - in '3D'"
 
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
 # *** KANN WEGGELASSEN WERDEN ***, hat in der früheren Gliederung mehr sinn gemacht,
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
-abstract = "die 1. Seite soll die unten angegebenen 3 Sections haben, die Titel der Sections können aber angepasst werden(dies ist das abstract)"
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"
 
 # Names are optional, team size is sufficient
-team = ["Member 1", "Member 2"]
+team = ["Julia Nguyễn", "Denis Kunz", "Armin Dorri", "Armin Dorri"]
 # this can be just one or a list as with team:
-supervisor = "Supervisor"
+supervisor = "Hr. Prof. Dr. Tobias Lenz"
 draft = false
 
 
@@ -36,54 +35,36 @@ demo_link = ""
 website_link = ""
 +++
 
-Die Seite kann auf Englisch oder Deutsch sein. Aber bitte weder AI-generiertes blabla noch Werbetexte (etwa "entdecken Sie unsere revolutionäres Super-Programm das alle Probleme der Welt löst ;-) ) 
+In diesem Projekt wurde ein 3D-Spiel mit Unity entwickelt, in dem der Spieler die Rolle eines Reisenden übernimmt. Auf seiner Reise durch verschiedene Szenen muss er Rätsel lösen, um im Spiel voranzukommen.
+Der Schwerpunkt des Projekts liegt auf der Gestaltung von 3D-Umgebungen, dem Szenenmanagement sowie der Umsetzung von Spielerinteraktionen und rätselbasierten Spielmechaniken innerhalb einer zusammenhängenden Spielwelt.
 
-{{<section title="Our Goal">}}
-Oder auch: Problemstellung, Projektidee, Zielsetzung, Aufgabe - so wie sie gestellt wurde, ggfs. aber auch mit Anpassungen oder
-Aktualisierungen. 
-
-* **Subheader 1**
-Oft enthält die Zielsetzung schon die Lösungsidee - dies könnte aber ein eigener Subheader sein.
+{{<section title="Unser Ziel">}}
+Ziel dieses Projekts ist die Entwicklung eines 3D-Spiels mit Unity, in dem der Spieler die Rolle eines Reisenden übernimmt und durch verschiedene Szenen navigiert. Um im Spiel voranzukommen, müssen Rätsel gelöst und neue Bereiche erkundet werden. Der Fokus liegt dabei auf der Umsetzung einer zusammenhängenden 3D-Spielwelt, dem Szenenmanagement sowie der Gestaltung interaktiver Elemente.
 
 {{</section>}}
 
+{{<section title="Prozess">}}
 
-{{<section title="Process and Outcome">}}
-* **Process**
-How we built it, Vorgehen, Arbeitsschritte, unser Weg dahin.
-If you feel that this page becomes too long, consider adding subpages!
+Zu Beginn des Projekts haben wir in der Gruppe verschiedene Ideen gesammelt und gemeinsam besprochen, welche Konzepte im gegebenen Zeitrahmen realistisch umsetzbar sind. Darauf aufbauend wurde entschieden, wie das Projekt strukturiert und technisch umgesetzt werden soll.
 
-* **Product/Outcome**
+Relativ früh fiel die Entscheidung, das Projekt in Unity umzusetzen. Für die 3D-Modellierung standen Blender und Maya zur Auswahl. Nach weiteren thematischen Diskussionen wurde klar, dass ein gemeinsames Grundkonzept benötigt wird, um die einzelnen Beiträge sinnvoll miteinander zu verbinden. Innerhalb dieses Konzepts gestaltete jedes Gruppenmitglied eine eigene Szene.
 
-Produkt, Ergebnis, was haben Sie gebaut/umgesetzt, inklusive einer Characterisierung, um welche Art von Software es sich handelt, etwa  "ein mit Unity umgesetztes Multiplayer Role Playing Game, eine Mobile Anwendung in xy, eine Webanwendung ..." - mit einem oder mehreren Screenshots oder anderen geeigneten Fotos.
-Ein detailliereres Architekturdiagramm kommt eher auf eine Folgeseite.
-You can add any section with any title that you need, and you can add headers within your sections:
-{{</section>}} 
+Um diese Szenen miteinander zu verknüpfen, entstand die Idee einer übergreifenden Story, bei der der Wechsel zwischen den Szenen über Portale erfolgt.
 
+Während der Modellierungsphase zeigte sich nach einigen Wochen, dass Blender für unser Projekt besser geeignet ist als Maya, da der Umgang damit für uns einfacher und effizienter war. Aus diesem Grund wurde die weitere Modellierung vollständig in Blender durchgeführt.
+
+Nach der Fertigstellung der Szenen wurden Modelle, Texturen und Animationen für die Nutzung in Unity vorbereitet. Eine besondere Herausforderung bestand darin, die ursprünglich separat erstellten Szenen in Unity zusammenzuführen. Auch die Übernahme der Animationen aus Blender erforderte Anpassungen, da diese nicht in allen Fällen direkt wie vorgesehen funktionierten.
+
+In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Perspektive über die Main Camera gesteuert wird, sich frei bewegen kann, mit Objekten interagiert und über Portale zwischen den einzelnen Szenen wechselt.
+{{</section>}}
 
 {{<section title="Team">}}
 
-Es reicht die Nennung der Namen (auf Wunsch nur Vorname), ggfs. wer welche Teile im Projekt übernommen hat. 
-
-
-* **Subheader 1**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
-
-
-* **Subheader 2**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
-
-* **Subheader 3**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis. 
-
-{{</section>}} 
-
-
+{{</section>}}
 
 {{<gallery>}}
 {{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="cat.jpg" name="team member cat">}}
 {{</gallery>}}
-

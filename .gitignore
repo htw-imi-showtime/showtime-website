@@ -19,3 +19,5 @@ tmp/
 files-other.txt
 files-project.txt
 themes/showtime-theme-2021/
+
+package-lock.json
