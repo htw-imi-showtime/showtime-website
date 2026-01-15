@@ -35,8 +35,6 @@ demo_link = ""
 website_link = ""
 +++
 
-In diesem Projekt wurde ein 3D-Spiel mit Unity entwickelt, in dem der Spieler die Rolle eines Reisenden übernimmt. Auf seiner Reise durch verschiedene Szenen muss er Rätsel lösen, um im Spiel voranzukommen.
-Der Schwerpunkt des Projekts liegt auf der Gestaltung von 3D-Umgebungen, dem Szenenmanagement sowie der Umsetzung von Spielerinteraktionen und rätselbasierten Spielmechaniken innerhalb einer zusammenhängenden Spielwelt.
 
 {{<section title="Unser Ziel">}}
 Ziel dieses Projekts ist die Entwicklung eines 3D-Spiels mit Unity, in dem der Spieler die Rolle eines Reisenden übernimmt und durch verschiedene Szenen navigiert. Um im Spiel voranzukommen, müssen Rätsel gelöst und neue Bereiche erkundet werden. Der Fokus liegt dabei auf der Umsetzung einer zusammenhängenden 3D-Spielwelt, dem Szenenmanagement sowie der Gestaltung interaktiver Elemente.
