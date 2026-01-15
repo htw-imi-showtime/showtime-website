@@ -16,9 +16,12 @@ On the day of IMI project presentations, Prof. Dr. Lucy Weggler introduced the c
 
 * **Development**
 
-We used Git remote branches for each team member's weekly tasks to keep work isolated and make reviews straightforward. Completed work was pushed to the team branch and merged into main only after the weekly group meeting to reduce integration conflicts.
+We used Git remote branches and GitHub Projects for each team member's weekly tasks to keep work isolated and make reviews straightforward. Completed work was pushed to the task’s branch and merged into main only after the weekly group meeting to reduce integration conflicts.
 
 Responsibilities were divided by feature area—gameplay mechanics, gradient map and mathematical tasks, UI and audio—so each developer had a clear domain of action (at least in the beginning). We integrated a GitHub Actions workflow that runs before merges to main, catching issues early.
+
+Every feature or bugfix had a pull request with a clear description and at least one reviewer assigned before merging to ensure code quality and traceability.
+
 
 Every feature or bugfix had a pull request with a clear description and at least one reviewer assigned before merging to ensure code quality and traceability.
 <br><br>
@@ -29,5 +32,14 @@ During the ongoing group project we used a shared miro board for brainstorming a
 
 Weekly meetings were held to review progress, problems, reprioritize tasks, and confirm which branches were ready to merge into main. Meeting decisions and action items were recorded directly in the project board so responsibilities and deadlines remained accessible and easy to follow up on.
 <br><br>
+
+* **Level Design**
+
+The design of each level in Gradient Escape was effectively organized using spreadsheet logic. This innovative approach involves a function that reads the content of each tile, categorizing elements such as start points, endpoints, items, and walls. By utilizing functions like MultiGaussian, the gradient map is rendered accurately based on the collected data.
+
+Once designed, the spreadsheet is exported to JSON format, which is then integrated into each game level through the GameFlow object in Unity. This method significantly reduces the time required to create new levels, allowing for efficient expansion and iteration of the game environment. The combination of spreadsheet logic and JSON integration enables rapid development of structured levels, enhancing the player’s experience in navigating the mysterious terrain.
+
+![Level Design](images/LevelDesign.jpeg "Level Design")
+
 
 {{</section>}}
