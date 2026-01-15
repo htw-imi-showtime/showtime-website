@@ -6,10 +6,10 @@ title = "Cycle for Your Life"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
-subtitle = "in our post apocalyptic VR-Game \"Wasteland Courier\" that uses a bicycle trainer for user input"
+subtitle = "In \"Wasteland Courier\" – a post-apocalyptic VR cycling game controlled by a real bicycle trainer"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
-claim = "Cycle for Your Life in our VR-Game \"Wasteland Courier\""
+claim = "Wasteland Courier is a VR game that combines physical cycling with an interactive game world."
 
 # Properties for displaying the project in the project list
 card_image = "project_logo.png"
@@ -33,12 +33,9 @@ website_link = ""
 
 
 
-Wastland Courier ist ein VR-Game in dem du mithilfe eines echten Fahrradtrainer den Transport von wichtigen Gütern wärend einer Zombieapokalypse sichers.
+Instead of using a traditional controller, the player controls the game by riding a real bicycle mounted on a bike trainer. Pedaling, steering, and physical effort are directly translated into the virtual environment.
 
-Die Welt wurde von einer Zombie Apokalypse heimgesucht. 
-du bist teil einer Gruppe von Überlebenden die auf einer Insel lebt.
-Es gibt nur noch Fahräder als transport mittel.
-Du wurdest aus erkoren als neue Courier die Transportwege der Insel zu sichern.
+The game is set in a post-apocalyptic scenario. After a zombie outbreak, a small group of survivors lives isolated on an island. Since motorized vehicles are no longer available, bicycles have become the only means of transportation. As a newly appointed courier, the player is responsible for securing supply routes and delivering essential goods across the island.
 
 
 
@@ -48,78 +45,84 @@ Du wurdest aus erkoren als neue Courier die Transportwege der Insel zu sichern.
 
 {{<section title="Our Goal">}}
 
-Radfahren in der Natur bei angenehmem Wetter ist natürlich unschlagbar, aber Profis trainieren auch bei Frost oder Regen, dann halt zu Hause und natürlich mit Soft- und Hardwareunterstützung. Ziel unseres Projekt war es das man Fahrradfahren mit einem Fahrradtrainer spannender und spaßiger zu gestalten und somit zu Gamificieren.  
-Dafür wollten wir von einem vorhandenen Trainingsgerät die verfügbaren Parameter ausgelesen und in eine grafisch ansprechende Umgebung umgesetzt werden. 
-Als Ansporn wollten wir und ein Setting überlegen in dem man vor irgendeiner bedrohung davon fahren muss. Außerdem wollten wir das ganze so immersiev wir möglich gestalten um so das gefühl zu vermittel das man in einer alternativen welt fahrrad fährt.
+**Motivation**
 
+Cycling outdoors is engaging and motivating, but training conditions are not always ideal due to weather, time constraints, or safety concerns. As a result, many cyclists train indoors using bike trainers. While these devices provide accurate performance data, the training experience itself is often repetitive and visually unengaging.
+
+**Goals**
+
+The goal of this project was to make indoor cycling more engaging by embedding physical training into a meaningful and immersive game experience.
+
+We aimed to:
+- Gamify indoor cycling without abstracting away physical effort
+- Use real-world training data as direct game input
+- Increase motivation through narrative context and gameplay challenges
+- Create a strong sense of immersion using virtual reality
+
+The player should feel like they are actively riding a bicycle in another world, rather than simply exercising in front of a screen.
 
 {{</section>}}
 
 
 {{<section title="Process">}}
-* **Process**
+The project started with a game design phase in which we explored different approaches to combining cycling and gameplay. Early concepts were sketched and discussed using collaborative tools, focusing on motivation, physical interaction, and immersion.
+We then developed a series of technical prototypes to validate our ideas:
+- Initial Unity VR prototypes
+- Reading and interpreting bike trainer data
+- Sending resistance and gradient information back to the trainer
+- Implementing BLE communication in Unity
+- Testing gyroscope-based steering using a smartphone
 
-Game Design Phase,
-    Image of the Miro Board?
-
-
-First Tech Demo
-    - Image of first Tech Demos
-    - Reading and Sending Data to the Biciyle Trainer
-    - BLE Functionalities in Unity
-    - Gyrosensor for sending Handlebar data to the game
+These prototypes helped us refine both the gameplay and the technical setup before integrating everything into a cohesive game experience.
 
 {{</section>}}
 
 
 {{<section title="Outcome">}}
-* **Product/Outcome**
-We create a Unity VR Game called "Wasteland Courier", where you are a Surviror of a Zombie Apocalypse on a Island. It is your task is to Suply the other survivors with important recources, but the only trasportation possibilty is cycling. Our Game uses a real bike trainer as an user input to drive through two different routes on our island. Therefore the player can also steer by using the handlbar of the trainer where we added an mobile phone as a gyro sensor. We used the BLE Standart for communicating with the bike trainer. So we can receave the power in watts that the player reached as well as send data for simulatin a gradient. The attached mobile phone sends its gryo sensor data using the UDP protocoll to the game for syncing the handlebar rotation between the real world and in game. 
+We developed a VR game called Wasteland Courier using Unity. The game is controlled entirely through a real bike trainer and additional sensors, translating physical input directly into gameplay mechanics.
+Pedaling controls speed, power output influences progression, and steering is handled by rotating the handlebars. To enable steering, a smartphone is mounted on the handlebars and used as a gyroscope sensor.
 
-Used Technologies
-- Unity
-- BLE
+- The bike trainer communicates with the game via Bluetooth Low Energy (BLE)
+- The game receives live performance data such as power output (watts)
+- Resistance data is sent back to the trainer to simulate inclines and terrain
+- The smartphone sends gyroscope data via UDP to synchronize real-world steering with the in-game bicycle
+
+This setup allows the game to react dynamically to the player’s physical performance and creates a direct link between effort and gameplay.
+
+**Technology Stack**
+- Unity (VR Game Engine)
 - VR Headset
-- Mobile Phone Gyrosensor
-    - UDP for Data Transfare
+- Bicycle Trainer with BLE support
+- Bluetooth Low Energy (BLE)
+- Smartphone Gyroscope Sensor
+- UDP for sensor data transmission
 
-[//]: # "TODO Create Architecture Diagram?"
+#### Gameplay and Features
+In Wasteland Courier, the player prepares for each mission in a garage before entering the world:
 
+**Garage Phase**
+- Assemble and customize the bicycle
+- Unlock and equip new bike parts
+- Choose cargo for delivery
+- Select a route
 
-Besides the technical aspect we created and designed a world were the player can imerser himself to get a thill of survigin in a zombie apocalipse.
-Game Loop
-- The player equips his bike in a Garage
-  - Can assemble diferent parts together
-  - Unlock New Parts
-  - Pack the bags of the bike with the desired cargo
-  - Select with Route to drive
-- On the route
-  - Goal is to Reach the end of the route
-  - Avoid Zombies
-  - Find stuff on the route
-  - Try to be as fast as possible
+**Route Phase**
+- Ride through the environment using the real bike
+- Avoid zombies and obstacles
+- Discover items along the route
+- Reach the destination as efficiently as possible
 
-Designed two different routes. A beginner fierendly 1km long swamp route. And a more intermediate 5 km long desert route
+We designed two routes with different difficulty levels:
+- A beginner-friendly 1 km swamp route
+- A more challenging 5 km desert route
+
+Both routes are designed to encourage physical effort and creating an immersive world while maintaining a clear gameplay goal.
+In addition to the technical implementation, we designed and built a coherent game world that supports immersion and storytelling. Custom assets were created specifically for the bicycle and its components to ensure consistency between real-world interaction and virtual representation.
 
 [//]: # "TODO ADD ROUTE IMAGES"
 
-
-We also created custom assets esspecially for the Bike
-
 [//]: # "TODO ADD BIKE IMAGES"
 
-
-
-
-
-The Game it's
-
-Game Features
-- Ride your Bike in a VR Game
-- Designed two Routes
-- 
-
-You can add any section with any title that you need, and you can add headers within your sections:
 {{</section>}} 
 
 
@@ -127,10 +130,10 @@ You can add any section with any title that you need, and you can add headers wi
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="Oliver Hirth">}}
-{{<team-member image="cat.jpg" name="Marvin Petsch">}}
-{{<team-member image="cat.jpg" name="Felix Kühne">}}
-{{<team-member image="cat.jpg" name="Matthis Ehrhardt">}}
-{{<team-member image="cat.jpg" name="David Brenn">}}
+{{<team-member image="placeholder.png" name="Oliver Hirth">}}
+{{<team-member image="placeholder.png" name="Marvin Petsch">}}
+{{<team-member image="placeholder.png" name="Felix Kühne">}}
+{{<team-member image="placeholder.png" name="Matthis Ehrhardt">}}
+{{<team-member image="placeholder.png" name="David Brenn">}}
 {{</gallery>}}
 
