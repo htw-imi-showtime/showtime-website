@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque i
 
 {{<gallery>}}
 {{<team-member image="Alex_profile.jpg" name="Alex">}}
-{{<team-member image="cat.jpg" name="team member cat">}}
-{{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="cat.jpg" name="Lukas">}}
+{{<team-member image="sonja_profile.jpg" name="Sonja">}}
 {{</gallery>}}
 

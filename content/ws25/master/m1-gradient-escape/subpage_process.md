@@ -38,7 +38,7 @@ Weekly meetings were held to review progress, problems, reprioritize tasks, and 
 
 * **Level Design**
 
-The design of each level in Gradient Escape was effectively organized using spreadsheet logic. This innovative approach involves a function that reads the content of each tile, categorizing elements such as start points, endpoints, items, and walls. By utilizing functions like MultiGaussian, the gradient map is rendered accurately based on the collected data.
+The design of each level in Gradient Escape was effectively organized using spreadsheet logic. This unique approach involves a function that reads the content of each tile, categorizing elements such as start points, goal points, items, and walls. By utilizing functions like MultiGaussian, the gradient map is rendered accurately based on the collected data.
 
 Once designed, the spreadsheet is exported to JSON format, which is then integrated into each game level through the GameFlow object in Unity. This method significantly reduces the time required to create new levels, allowing for efficient expansion and iteration of the game environment. The combination of spreadsheet logic and JSON integration enables rapid development of structured levels, enhancing the player’s experience in navigating the mysterious terrain.
 
