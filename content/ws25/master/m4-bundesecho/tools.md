@@ -13,10 +13,11 @@ Figma was used to create the UI component library, style guide and final design 
 {{</section>}}
 
 {{<section title="Development">}}
-
+tbd.
 {{</section>}}
 
 {{<section title="Codebase & Communication">}}
 
+tbd.
 
 {{</section>}}
