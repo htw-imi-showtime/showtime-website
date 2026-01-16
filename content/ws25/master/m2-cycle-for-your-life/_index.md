@@ -80,12 +80,8 @@ These prototypes helped us refine both the gameplay and the technical setup befo
 
 {{<section title="Outcome">}}
 We developed a VR game called Wasteland Courier using Unity. The game is controlled entirely through a real bike trainer and additional sensors, translating physical input directly into gameplay mechanics.
-Pedaling controls speed, power output influences progression, and steering is handled by rotating the handlebars. To enable steering, a smartphone is mounted on the handlebars and used as a gyroscope sensor.
-
-- The bike trainer communicates with the game via Bluetooth Low Energy (BLE)
-- The game receives live performance data such as power output (watts)
-- Resistance data is sent back to the trainer to simulate inclines and terrain
-- The smartphone sends gyroscope data via UDP to synchronize real-world steering with the in-game bicycle
+Pedaling controls speed, power output influences progression, and steering is handled by rotating the handlebars. The bike trainer communicates with the game via Bluetooth Low Energy (BLE). Therefore, we implemented a BLE Connector in Unity that supports the Fitness Machine Service (FTMS) service specification. Using this service, our game can receive live performance data such as power output (watts), as well as sent back resistance data to the trainer, to simulate inclines and terrain.
+To enable steering, a smartphone is mounted on the handlebars and used as a gyroscope sensor. The smartphone sends gyroscope data via UDP to synchronize real-world steering with the in-game bicycle handlebar.
 
 This setup allows the game to react dynamically to the player’s physical performance and creates a direct link between effort and gameplay.
 
@@ -119,11 +115,14 @@ We designed two routes with different difficulty levels:
 Both routes are designed to encourage physical effort and creating an immersive world while maintaining a clear gameplay goal.
 In addition to the technical implementation, we designed and built a coherent game world that supports immersion and storytelling. Custom assets were created specifically for the bicycle and its components to ensure consistency between real-world interaction and virtual representation.
 
-[//]: # "TODO ADD ROUTE IMAGES"
-
-[//]: # "TODO ADD BIKE IMAGES"
-
 {{</section>}} 
+
+---
+
+{{<image src="swamp_route.jpg" alt="Swamp Route" caption= "Swamp Route, 1km long">}}
+{{<image src="desert_route.jpg" alt="Desert Route" caption= "Desert Route, 5km long">}}
+
+---
 
 
 {{<section title="Team">}}
