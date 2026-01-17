@@ -33,5 +33,5 @@ draft = false
 - **[Ollama](https://ollama.ai)**, hosted on the HTW ML server, served our local LLMs, handling inference for augmentation and summarization.
 - **[Llama 3.1 (70B)](https://ollama.com/library/llama3.1:70b)** state-of-the-art LLM used for data augmentation and RAG summarization. We selected the 70B parameter model for its superior nuance in understanding political context.
 - **[nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5)** is a high-performance embedding model that converts Q&A text into 768-dimensional vectors. This model was selected for its high accuracy and speed, enabling efficient semantic search and vector-based similarity analysis.
-
+- **[Apache HTTP Server](https://httpd.apache.org)** is the configured backend server used to host the BundesEcho backend application.
 {{</section>}}
