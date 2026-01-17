@@ -7,7 +7,7 @@ subtitle = "Bringing visibility to the political echo."
 claim = "When thousands of political Q&As blur the big picture, BundesEcho reveals the patterns behind them. Don’t just read — explore positions, rhetoric, and trends with AI-powered insights."
 
 # Properties for displaying the project in the project list
-card_image = "thumbnail.jpg"
+card_image = "thumbnail.png"
 
 team = ["Zaynab Ammar", "Merveille Kinfack Nguetsa", "Konstantin Kuklin", "Zidanie Noudeng Mazamo", "Sonja Anna Sartys"]
 supervisor = "Bruno Schilling"
@@ -68,7 +68,7 @@ BundesEcho started with a unified research phase where every member contributed 
 - Database architecture and data modeling
 - API design and implementation
 - ETL pipelines for data extraction and augmentation from *abgeordnetenwatch.de*
-- Integration of AI-based analysis services
+- Integration of Ollama-hosted models 
 
 Our team also wants to thank Darius Bandt for designing the Showtime poster and HTW Berlin for the access to Machine Learning server.
 {{</section>}} 
