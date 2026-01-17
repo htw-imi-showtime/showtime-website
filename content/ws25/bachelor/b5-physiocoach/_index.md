@@ -7,6 +7,7 @@ project_id = "B5"
 title = "PhysioCoach"
 
 subtitle = "Physiotherapeutische Übungsbegleitung im Alltag"
+claim = "Übungen zu Hause korrekt durchführen – einfach, sicher, motivierend."
 
 # Properties for displaying the project in the project list
 card_image = "placeholder.jpg"
@@ -55,7 +56,7 @@ Ein Großteil der Grundfunktionen, wie die Anzeige und Strukturierung von Übung
 Aktuell liegt der Fokus auf der Verbesserung des Nutzererlebnisses sowie der Integration weiterer Funktionen, wie einer Favoritenverwaltung und einer einfachen Fortschrittsübersicht.
 {{</section>}}
 
-{{<section title="The Team">}}
+{{<section title="Team">}}
 Unser Team besteht aus zwei Studierenden, die das Projekt als Semesterarbeit umgesetzt haben.
 {{</section>}}
 
