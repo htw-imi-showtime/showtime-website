@@ -12,7 +12,7 @@ subtitle = "In \"Wasteland Courier\" – a post-apocalyptic VR cycling game cont
 claim = "Wasteland Courier is a VR game that combines physical cycling with an interactive game world."
 
 # Properties for displaying the project in the project list
-card_image = "project_logo.jpg"
+card_image = "project_logo.jpeg"
 
 # Names are optional, team size is sufficient
 team = ["Felix Kühne", "Oliver Hirth", "Matthis Ehrhardt","Marvin Petsch", "David Brenn"]
@@ -119,8 +119,8 @@ In addition to the technical implementation, we designed and built a coherent ga
 
 ---
 
-{{<image src="swamp_route.jpg" alt="Swamp Route" caption= "Swamp Route, 1km long">}}
-{{<image src="desert_route.jpg" alt="Desert Route" caption= "Desert Route, 5km long">}}
+{{<image src="swamp_route.jpeg" alt="Swamp Route" caption= "Swamp Route, 1km long">}}
+{{<image src="desert_route.jpeg" alt="Desert Route" caption= "Desert Route, 5km long">}}
 
 ---
 
