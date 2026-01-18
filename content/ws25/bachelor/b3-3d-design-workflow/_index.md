@@ -19,7 +19,7 @@ claim = "Erlebe die Welt so, wie sie wirklich ist - in '3D'"
 card_image = "Logo.png"
 
 # Names are optional, team size is sufficient
-team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin erkhembayar"]
+team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin Erkhembayar"]
 # this can be just one or a list as with team:
 supervisor = "Prof. Dr. Tobias Lenz"
 draft = false
@@ -61,6 +61,9 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 Hier ein kleiner Einblick über unsere Fertigen Szenen.
 
 {{<image src="Garage.png" alt="Erste Szene Garage">}}
+{{<image src="" alt="Zweite Szene ">}}
+{{<image src="" alt="Dritte Szene Garage">}}
+{{<image src="Music.png" alt="Letzte Szene">}}
 
 {{</section>}}
 
