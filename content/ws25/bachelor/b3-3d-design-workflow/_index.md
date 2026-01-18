@@ -69,8 +69,8 @@ Hier ein kleiner Einblick über unsere Fertigen Szenen.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="Avatar.jpg" name="Dzemal">}}
-{{<team-member image="Avatar.jpg" name="Estella">}}
-{{<team-member image="Avatar.jpg" name="Sophy">}}
-{{<team-member image="Avatar.jpg" name="Enkhjin">}}
+{{<team-member image="Dzem.png" name="Dzemal">}}
+{{<team-member image="Est.png" name="Estella">}}
+{{<team-member image="Soph.png" name="Sophy">}}
+{{<team-member image="Enkh.png" name="Enkhjin">}}
 {{</gallery>}}
