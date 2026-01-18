@@ -84,10 +84,3 @@ Projektmanager
 {{</section>}} 
 
 
-
-{{<gallery>}}
-{{<team-member image="cat.jpg" name="Pending">}}
-{{<team-member image="cat.jpg" name="Pending">}}
-{{<team-member image="cat.jpg" name="Pending">}}
-{{</gallery>}}
-
