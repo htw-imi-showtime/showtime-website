@@ -83,11 +83,8 @@ Projektmanager
 
 {{</section>}} 
 
-
-
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="Pending">}}
-{{<team-member image="cat.jpg" name="Pending">}}
-{{<team-member image="cat.jpg" name="Pending">}}
+{{<team-member image="Jonathan.jpg" name="Jonathan Schunk">}}
+{{<team-member image="Sinan.jpg" name="Sinan Haddad">}}
+{{<team-member image="Artjom.jpg" name="Artjom Schwenk">}}
 {{</gallery>}}
-
