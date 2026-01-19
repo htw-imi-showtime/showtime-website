@@ -11,14 +11,12 @@ card_image = "thumbnail.png"
 
 team = ["Zaynab Ammar", "Merveille Kinfack Nguetsa", "Konstantin Kuklin", "Zidanie Noudeng Mazamo", "Sonja Anna Sartys"]
 supervisor = "Bruno Schilling"
-draft = false
+draft = true
 
 source_link = ""
 demo_link = ""
 website_link = "https://abgeordnetenmap.f4.htw-berlin.de/"
 +++
-
-{{<image src="landing_sankey.png" alt="Sankey diagram on BundesEcho">}}
 
 {{<section title="Our Goal">}}
 
