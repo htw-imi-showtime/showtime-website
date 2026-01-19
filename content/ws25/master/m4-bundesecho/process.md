@@ -1,7 +1,7 @@
 +++
 title = "Process"
 weight = 20
-draft = false
+draft = true
 +++
 
 {{<section title="Research">}}
