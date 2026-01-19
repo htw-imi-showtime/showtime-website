@@ -6,6 +6,8 @@ title = "Elukis"
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
 subtitle = "Support in the Critical Phase of Language Development"
 
+claim = "Promote language in everyday life with small learning impulses: while eating together, playing or reading aloud. Experience quality time with less distraction and more dialogue. Less 'on the side', more genuine attention."
+
 
 # Properties for displaying the project in the project list
 card_image = ""
