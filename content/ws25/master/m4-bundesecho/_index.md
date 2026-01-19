@@ -18,6 +18,8 @@ demo_link = ""
 website_link = "https://abgeordnetenmap.f4.htw-berlin.de/"
 +++
 
+{{<image src="parliament_visualization.jpg" alt="Parliament diagram on BundesEcho" caption="Screenshot from BundesEcho">}}
+
 {{<section title="Our Goal">}}
 
 **Problem**
