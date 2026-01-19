@@ -8,7 +8,7 @@ title = "VIKINET"
 subtitle = "Visualisierung & Interaktion in kritischen Infrastruktur Netzwerken"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
-claim = "Mach das Unsichtbare greifbar: Erlebe das DB-Netz als lebendiges Datenmodell und verfolge Zugläufe und Verspätungen intuitiv im virtuellen Raum!"
+claim = "Der Fahrplan ist ein Vorschlag, wir zeigen die Realität!"
 
 # Properties for displaying the project in the project list
 card_image = "kitty.jpg"
@@ -24,3 +24,4 @@ draft = false
 {{<section title="Our Goal">}}
 Ziel ist es, dass DB Fernverkehrsnetz zu visualisieren und in VR nutzbar zu machen. 
 {{</section>}}
+
