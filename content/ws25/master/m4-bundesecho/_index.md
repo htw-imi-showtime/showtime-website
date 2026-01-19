@@ -1,6 +1,4 @@
 +++
-
-
 project_id = "M4"
 title = "BundesEcho"
 subtitle = "Bringing visibility to the political echo."
@@ -11,7 +9,7 @@ card_image = "thumbnail.png"
 
 team = ["Zaynab Ammar", "Merveille Kinfack Nguetsa", "Konstantin Kuklin", "Zidanie Noudeng Mazamo", "Sonja Anna Sartys"]
 supervisor = "Bruno Schilling"
-draft = true
+draft = false
 
 source_link = ""
 demo_link = ""
