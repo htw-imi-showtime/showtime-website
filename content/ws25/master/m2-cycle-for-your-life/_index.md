@@ -77,19 +77,14 @@ These prototypes helped us refine both the gameplay and the technical setup befo
 
 
 {{<section title="Outcome">}}
-We developed a VR game called Wasteland Courier using Unity. The game is controlled entirely through a real bike trainer and additional sensors, translating physical input directly into gameplay mechanics.
-Pedaling controls speed, power output influences progression, and steering is handled by rotating the handlebars. The bike trainer communicates with the game via Bluetooth Low Energy (BLE). Therefore, we implemented a BLE Connector in Unity that supports the Fitness Machine Service (FTMS) service specification. Using this service, our game can receive live performance data such as power output (watts), as well as sent back resistance data to the trainer, to simulate inclines and terrain.
+We developed a VR game called Wasteland Courier using Unity. The game is controlled entirely through a real bike trainer and mobile phone gyro sensors, translating physical input directly into gameplay mechanics.
+
+The bike trainer communicates with the game via Bluetooth Low Energy (BLE). Therefore, we implemented a BLE Connector in Unity that supports the Fitness Machine Service (FTMS) service specification. Using this service, our game can receive live performance data such as power output (watts), as well as sent back resistance data to the trainer, to simulate inclines and terrain.
+
 To enable steering, a smartphone is mounted on the handlebars and used as a gyroscope sensor. The smartphone sends gyroscope data via UDP to synchronize real-world steering with the in-game bicycle handlebar.
 
 This setup allows the game to react dynamically to the player’s physical performance and creates a direct link between effort and gameplay.
-
-**Technology Stack**
-- Unity (VR Game Engine)
-- VR Headset
-- Bicycle Trainer with BLE support
-- Bluetooth Low Energy (BLE)
-- Smartphone Gyroscope Sensor
-- UDP for sensor data transmission
+{{<image src="architecture.jpeg" alt="Desert Route" caption= "System Architecture">}}
 
 
 #### Gameplay and Features
