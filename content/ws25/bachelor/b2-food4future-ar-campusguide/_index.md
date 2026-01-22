@@ -67,7 +67,7 @@ Meet our guide, Nori! He will take you on a tour of the campus, sharing interest
 
 The app includes interactive GPS navigation, which tracks your position in real time and leads you from one lab to the next across the campus. This makes the journey between stations part of the experience and ensures you see every stop in the campus.
 
-{{<team-member image="navigation.jpg">}}
+{{<team-member image="navigation.jpg" style="width: 25%; height: auto;">}}
 
 * **Gamification Elements**
 
@@ -79,17 +79,11 @@ Another highlight is the interactive sliding puzzle, which invites users to enga
 
 Our memory game presents various sustainable dishes offered on campus. This allows users to imagine the future menus more clearly and explore them interactively.
 
+{{<team-member image="games.PNG">}}
+
 {{</section>}} 
 
-
-{{<section title="Team">}}
-
-
-Zehra Ilgin 
-
-Lara Plagens
-
-Duaa Fourah 
+{{<section title="Team">}} 
 
 {{</section>}} 
 
