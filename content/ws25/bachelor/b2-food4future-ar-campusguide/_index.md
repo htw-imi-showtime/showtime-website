@@ -7,20 +7,20 @@ title = "food4future - AR Campusguide"
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
 #informativ, kurz subtile
-subtitle = "Augmented-Reality basierter Campusguide zur Entdeckung der Reallabore für nachhaltige Ernährung"
+subtitle = "Augmented reality campus guide to explore sustainable nutrition labs"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
 # teaser länger fancy, ein werbespruch mission statement ... soll neugierig machen (claim)
-claim = " Wir machen nachhaltige Essensangebote und ihre Erforschung auf dem HTW-Campus erlebbar. Mit spielerischen Elementen informieren wir darüber, wie die Nahrung der Zukunft entsteht. "
+claim = " We bring the research on sustainable food at the HTW campus to life, using playful elements to show how the food of the future is cultivated "
 
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
 # *** KANN WEGGELASSEN WERDEN ***, hat in der früheren Gliederung mehr sinn gemacht,
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 # "die 1. Seite soll die unten angegebenen 3 Sections haben, die Titel der Sections können aber angepasst werden(dies ist das abstract)"
-abstract = "food4future ist ein AR-basierter Campusguide, der Interessenten hilft, nachhaltige Essensangebote und relevante Informationen direkt auf dem HTW-Campus zu entdecken."
+abstract = "The AR-based campus guide helps visitors explore information about food4future’s sustainable food options directly on the HTW campus."
 
 # Properties for displaying the project in the project list
-card_image = "logo.jpg"
+card_image = "start.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Zehra Ilgin", "Lara Plagens", "Duaa Fourah"]
@@ -30,21 +30,17 @@ draft = false
 
 
 # e.g. github
-source_link = ""
+source_link = " https://github.com/zehraign/arpas-arc-f4f.git"
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
-demo_link = ""
+demo_link = "https://drive.google.com/file/d/1yfX9bdTt8TX3f7n-ZlIsAhg-w41y1Fdi/view?usp=drive_link"
 # website: if you have another project website (not demo)
 website_link = ""
 +++
 
-{{<section title="Projektidee und Zielsetzung">}}
-
-Ziel des Projekts ist es, nachhaltige und alternative Essensangebote und Informationen 
-auf dem Campus sichtbar und leicht zugänglich zu machen.
-
-Besucher sollen mithilfe von AR direkt vor Ort Informationen zu nachhaltiger Ernährung mit spielerischen Elementen erhalten
+{{<section title="Goal">}}
+The goal of this project is to make research on sustainable food at HTW engaging and easy to explore for visitors. Using augmented reality, the campus guide allows users to discover the different sustainable food options, and experience the research in an interactive way. By combining elements with real locations, we want to make learning about sustainable food both fun and informative.
 
 {{</section>}}
 
@@ -52,46 +48,36 @@ Besucher sollen mithilfe von AR direkt vor Ort Informationen zu nachhaltiger Ern
 {{<section title="Process">}}
 
 
-Der Entwicklungsprozess unseres Projekts begann mit einer intensiven Recherchephase zu den verschiedenen Reallaboren. Um die Ergebnisse der Reallabore korrekt in die digitale Welt zu integrieren hielten wir kontinuierlich Rücksprache mit den Experten des Food4Future-Projekts. Dieser Austausch half uns dabei, eine verlässliche Grundlage für unseren Guide zu schaffen.
+The development of our project began with an intensive research phase focused on the various laboratories planned at the HTW campus in the foreseeable future. To correctly integrate the results of the labs into the digital world, we continuously consulted with the experts from the food4future project. This exchange helped us create a reliable foundation for our guide.
 
-Auf dieser Grundlage bauten wir unseren AR-Campusguide innerhalb eines vorgegebenen Frameworks auf. Unsere Vision war es, eine Navigation zu entwickeln, die standortbezogene Daten auf dem Campus durch Gamification-Elemente erlebbar macht. In der ersten Phase konzentrierten wir uns voll auf die Konzeptideen und das Design der Webseite sowie der AR-Ansicht, wobei wir interaktive Spiele entwarfen, die Informationen spielerisch und spannend vermitteln.
-
-Anschließend folgte die technische Umsetzung, wo wir die Programmieraufgaben im Team aufgeteilt haben. In wöchentlichen Treffen mit unserem Supervisor und dem gesamten Team präsentierten wir unsere Fortschritte, diskutierten Verbesserungen und entwickelten die Anwendung stetig weiter, bis das finale Produkt stand.
+Based on this foundation, we built our AR campus guide within a predefined framework. Our vision was to develop a navigation system that makes location based data on the campus engaging through gamification elements. In the first phase, we focused entirely on concept ideas and the design of both the website and the AR view, creating interactive games that present information in a playful and exciting way. In the technical implementation phase, we divided the programming tasks among the team. In weekly meetings with our supervisor and the entire team, we presented our progress, discussed improvements, and continuously developed the web application until the final product was finshed. 
 
 {{</section>}}
 
 {{<section title="Outcome">}}
 
-Das Ergebnis ist ein funktionierender AR Campusguide der Nutzer*innen über den Webbrowser nachhaltige Essensangebote und Informationen direkt im realen Raum entdecken lässt.
+ The final outcome is a fully functional AR campus guide that allows visitors to explore food4future’s sustainable food options interactively and enjoyably, combining digital elements with real campus locations.
 
 * **The Product**
 
 
+Meet our guide, Nori! He will take you on a tour of the campus, sharing interesting facts and useful tips at every station.
 
-Das ist unser Guide Algi! Er begleitet dich auf deiner Reise über den Campus und versorgt dich an jeder Station mit spannenden Informationen und hilfreichen Tipps.
+{{<team-member image="nori.png">}}
 
+The app includes interactive GPS navigation, which tracks your position in real time and leads you from one lab to the next across the campus. This makes the journey between stations part of the experience and ensures you see every stop in the campus.
 
+{{<team-member image="navigation.jpg">}}
 
-Das Herzstück unserer Anwendung ist die interaktive GPS-Navigation. Sie erkennt deinen Standort in Echtzeit und führt dich zielsicher von einem Reallabor zum nächsten quer über den Campus. So wird der Weg zwischen den Stationen selbst zum Teil des Erlebnisses und stellt sicher, dass du keine Station des Campusguides verpasst.
+* **Gamification Elements**
 
-* **Interaktive Wissensvermittlung**
-{{<team-member image="quiz.jpg">}}
+To enhance the learning experience, we have integrated an interactive quiz. Here, users can directly test their newly acquired knowledge about the laboratories and receive playful feedback on their progress.
 
-Um den Lerneffekt zu steigern, haben wir ein interaktives Quiz integriert. Hier können Nutzer*innen ihr neu gewonnenes Wissen über die Reallabore direkt testen und erhalten spielerisches Feedback zu ihren Fortschritten.
+Support is available at any time for questions or challenges. At each station, information panels and image galleries explain the background of the laboratories clearly and provide deeper insights into the research.
 
+Another highlight is the interactive sliding puzzle, which invites users to engage with the images of the laboratories in a playful way.
 
-
-Bei Fragen oder Herausforderungen steht dir jederzeit Unterstützung zur Seite. An jeder Station findest du Infopanels und Bildergalerien, die dir die Hintergründe der Reallabore anschaulich erklären und tiefere Einblicke in die Forschung geben.
-
-* **Spiele**
-
-
-
-Ein weiteres Highlight ist das interaktive Schiebepuzzle. Es lädt die Nutzer*innen dazu ein, sich spielerisch mit den Bildern der Reallabore zu beschäftigen.
-
-
-
-Unser Memory-Spiel zeigt die verschiedenen nachhaltigen Gerichte, die auf dem Campus angeboten werden. So können sich die Nutzer*innen die zukünftigen Menüs besser vorstellen und diese spielerisch entdecken.
+Our memory game presents various sustainable dishes offered on campus. This allows users to imagine the future menus more clearly and explore them interactively.
 
 {{</section>}} 
 
@@ -108,9 +94,9 @@ Duaa Fourah
 {{</section>}} 
 
 
-<!--
 {{<gallery>}}
-{{<team-member image="cat.jpg" name="team member cat">}}
+{{<team-member image="zehra.jpg" name="Zehra Ilgin ">}}
+{{<team-member image="lara.png" name="Lara Plagens">}}
+{{<team-member image="duaa.png" name="Duaa Fourah">}}
 {{</gallery>}}
--->
 
