@@ -7,7 +7,7 @@ claim = "When thousands of political Q&As blur the big picture, BundesEcho revea
 # Properties for displaying the project in the project list
 card_image = "project_images/overview/thumbnail.jpg"
 
-team = ["Zaynab Ammar", "Merveille Kinfack Nguetsa", "Konstantin Kuklin", "Zidanie Noudeng Mazamo", "Sonja Anna Sartys"]
+team = ["Zaynab", "Merveille", "Konstantin", "Zidanie", "Sonja"]
 supervisor = "Bruno Schilling"
 draft = false
 
@@ -67,7 +67,7 @@ BundesEcho began with a joint research and concept phase, ensuring a shared unde
 - API design and ETL pipelines
 - Integration of locally hosted language models
 
-We also thank Darius Bandt for designing the Showtime poster and HTW Berlin for providing access to machine learning infrastructure.
+We also thank Darius B. for designing the Showtime poster and HTW Berlin for providing access to machine learning infrastructure.
 
 {{</section>}} 
 
