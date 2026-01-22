@@ -7,7 +7,7 @@ title = "food4future - AR Campusguide"
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
 #informativ, kurz subtile
-subtitle = "Augmented reality campus guide to explore sustainable nutrition labs"
+subtitle = "Augmented reality campus guide to explore sustainable nutrition laboratories "
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
 # teaser länger fancy, ein werbespruch mission statement ... soll neugierig machen (claim)
@@ -30,7 +30,8 @@ draft = false
 
 
 # e.g. github
-source_link = " https://github.com/zehraign/arpas-arc-f4f.git"
+source_link = "https://github.com/zehraign/arpas-arc-f4f"
+
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
@@ -40,7 +41,7 @@ website_link = ""
 +++
 
 {{<section title="Goal">}}
-The goal of this project is to make research on sustainable food at HTW engaging and easy to explore for visitors. Using augmented reality, the campus guide allows users to discover the different sustainable food options, and experience the research in an interactive way. By combining elements with real locations, we want to make learning about sustainable food both fun and informative.
+The goal of this project is to make research on sustainable food at HTW engaging and easy to explore for visitors. Using augmented reality, the campus guide allows users to discover the different sustainable food options, and experience the research in an interactive way. By combining interactive elements with real locations, we want to make learning about sustainable food both fun and informative.
 
 {{</section>}}
 
@@ -63,7 +64,9 @@ Based on this foundation, we built our AR campus guide within a predefined frame
 
 Meet our guide, Nori! He will take you on a tour of the campus, sharing interesting facts and useful tips at every station.
 
-{{<team-member image="nori.png">}}
+{{<team-member image="nori.png" >}}
+
+
 
 The app includes interactive GPS navigation, which tracks your position in real time and leads you from one lab to the next across the campus. This makes the journey between stations part of the experience and ensures you see every stop in the campus.
 
