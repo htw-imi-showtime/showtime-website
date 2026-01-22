@@ -72,8 +72,8 @@ Hier ein kleiner Einblick über unsere fertigen Szenen.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="Dzem.png" name="Dzemal">}}
-{{<team-member image="Soph.png" name="Sophy">}}
-{{<team-member image="Est.png" name="Estella">}}
-{{<team-member image="Enkh.png" name="Enkhjin">}}
+{{<team-member image="Dzem.jpg" name="Dzemal">}}
+{{<team-member image="Soph.jpg" name="Sophy">}}
+{{<team-member image="Est.jpg" name="Estella">}}
+{{<team-member image="Enkh.jpg" name="Enkhjin">}}
 {{</gallery>}}
