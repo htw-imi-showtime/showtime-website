@@ -6,7 +6,7 @@ on:
       - m3-imageUpdate
   pull_request:
     paths:
-      - 'content/ss25/**'
+      - 'content/ws25/**'
   workflow_dispatch:
 
 jobs:
