@@ -58,12 +58,12 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 {{<section title="Ergebnis">}}
 
-Hier ein kleiner Einblick über unsere Fertigen Szenen.
+Hier ein kleiner Einblick über unsere fertigen Szenen.
 
 {{<image src="Garage.png" alt="Erste Szene Garage">}}
-{{<image src="Wald.png" alt="Zweite Szene ">}}
-{{<image src="Kapelle.png" alt="Dritte Szene Garage">}}
-{{<image src="Music.png" alt="Letzte Szene">}}
+{{<image src="Kapelle.jpg" alt="Zweite Szene ">}}
+{{<image src="Wald.jpg" alt="Dritte Szene Garage">}}
+{{<image src="Studio.jpg" alt="Letzte Szene">}}
 
 {{</section>}}
 
@@ -73,7 +73,7 @@ Hier ein kleiner Einblick über unsere Fertigen Szenen.
 
 {{<gallery>}}
 {{<team-member image="Dzem.png" name="Dzemal">}}
-{{<team-member image="Est.png" name="Estella">}}
 {{<team-member image="Soph.png" name="Sophy">}}
+{{<team-member image="Est.png" name="Estella">}}
 {{<team-member image="Enkh.png" name="Enkhjin">}}
 {{</gallery>}}
