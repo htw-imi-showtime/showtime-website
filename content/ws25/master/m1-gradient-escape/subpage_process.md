@@ -4,7 +4,7 @@ title = "Process"
 weight = 8
 # only draft = false will be visible on the page. 
 # use hugo --buildDrafts to see your drafts.
-draft = true
+draft = false
 +++
 
 {{<section title="Process">}}
@@ -16,21 +16,18 @@ On the day of IMI project presentations, Prof. Dr. Lucy Weggler introduced the c
 
 * **Development**
 
-We used Git remote branches and GitHub Projects for each team member's weekly tasks to keep work isolated and make reviews straightforward. Completed work was pushed to the task’s branch and merged into main only after the weekly group meeting to reduce integration conflicts.
+We chose Unity as our game engine mainly due to its prominence in Indie game development, its easy accessibility to us as students and since we were all interested in learning more about development using the Unity Engine and its components. As for the IDE, Jetbrains Rider provides a plugin specialized for development with Unity, so we picked it as our main tool to write the game logic.
 
-Responsibilities were divided by feature area—gameplay mechanics, gradient map and mathematical tasks, UI and audio—so each developer had a clear domain of action (at least in the beginning). We integrated a GitHub Actions workflow that runs before merges to main, catching issues early.
-
-Every feature or bugfix had a pull request with a clear description and at least one reviewer assigned before merging to ensure code quality and traceability.
-
-
-Every feature or bugfix had a pull request with a clear description and at least one reviewer assigned before merging to ensure code quality and traceability.
+We used GitHub as a version control platform in combination with GitHub Projects as our main project management tool. In our weekly standups, we formulated issues with each having a separate branch to track and collaborate on its progress. This allowed us to mostly avoid merge conflicts, which can prove difficult to resolve, as simultaneously editing assets created in the Unity engine itself often results in irresolvable merge conflicts.
 <br><br>
 
 * **Project management**
 
-During the ongoing group project we used a shared miro board for brainstorming and visualizing systems during early design sessions. Tasks, issues, and milestones were tracked in the GitHub project board with owners and due dates to keep progress visible. Each task was defined with sub-issues and linked resources so work could be picked up and completed with minimal room for interpretation.
+In the beginning, we primarily used a shared Miro board for brainstorming and visualizing systems during design sessions. Tasks, issues, assignees and milestones were tracked in our GitHub project board to keep our progress visible. We agreed on defining each task as well as possible by breaking down each task into sub-issues which would also provide linked resources, where possible. Responsibilities were generally divided by the type of feature within the game’s      logic, such as gameplay mechanics (E.g. the gradient map, player movement, path retrospective), architecture, tooling, level design, UI and audio. This approach helped us in creating modular features which relied as little as possible on other components, though some interdependencies were difficult to avoid. 
 
-Weekly meetings were held to review progress, problems, reprioritize tasks, and confirm which branches were ready to merge into main. Meeting decisions and action items were recorded directly in the project board so responsibilities and deadlines remained accessible and easy to follow up on.
+Each Monday, we would review our current progress and problems with the professors to gain new feedback and reprioritize our tasks accordingly. On Tuesday, we would follow the same process within the team, merge and extensively test our most recent updates on the main branch and designate new assignments for the following week. Meeting decisions and action items were recorded directly in the project board so responsibilities and deadlines remained accessible and easy to follow up on.
+
+As the scope of the project expanded more and more, we started organizing our collaborative design effort in a multitude of Spreadsheets (using Google Sheets) to have comprehensive overviews of all current important data regarding the design process, such as bugs & improvements, player feedback, game balancing, asset choices and more. 
 <br><br>
 
 * **Level Design**
@@ -40,6 +37,11 @@ The design of each level in Gradient Escape was effectively organized using spre
 Once designed, the spreadsheet is exported to JSON format, which is then integrated into each game level through the GameFlow object in Unity. This method significantly reduces the time required to create new levels, allowing for efficient expansion and iteration of the game environment. The combination of spreadsheet logic and JSON integration enables rapid development of structured levels, enhancing the player’s experience in navigating the mysterious terrain.
 
 ![Level Design](/ws25/master/m1-gradient-escape/images/LevelDesign.jpeg "Level Design")
+<br><br>
+* **Photo Credits**
 
+The Gradient Escape Logo was designed by Alex. <br>
+All Screenshots were taken during Playing Gradient Escape or Project Planning. <br>
+The Item Icons are free to use from the Unity Asset store.
 
 {{</section>}}
