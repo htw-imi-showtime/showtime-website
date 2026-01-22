@@ -25,13 +25,13 @@ To encourage players to explore their environments and allow them to utilize mor
 
 In Gradient Escape, players encounter a variety of essential items that enhance their gameplay experience and assist in navigating the challenging environment. Each item serves a unique purpose, providing strategic advantages as players try to overcome obstacles and explore the foggy forest.
 
-![Item Energy Mushroom](/ws25/master/m1-gradient-escape/images/Scene_Mushroom.jpeg)
+![Item Energy Mushroom](/ws25/master/m1-gradient-escape/images/scene_mushroom.jpeg)
 
 The **Gradient Compass** displays the gradient vector of the current tile, guiding players in understanding the terrain's slopes and directions. The **Energy Mushroom** is an essential resource that restores the player’s energy, ensuring they can continue their journey through the forest without collapsing from exhaustion. **Parameter Ink** reveals gradients in the neighbouring tiles of the player's position, helping in the understanding of the mathematical concepts at play. With the **Binoculars**, players can observe their surroundings and uncover multiple gradients in the chosen direction to aid navigation.
 
 The environment also includes obstacles, represented as a wall of trees that block access to adjacent tiles, challenging players to find alternative routes. The Axe is crucial for clearing these obstacles, allowing players to chop down trees that hinder their path, enabling further exploration of the terrain. Lastly, the **GPS** is a powerful tool that randomly reveals a specific number of gradients on the map, assisting players in planning their next moves more effectively.
 
-![Item Energy Mushroom](/ws25/master/m1-gradient-escape/images/Items.png)
+![Item Energy Mushroom](/ws25/master/m1-gradient-escape/images/items.png)
 
 Additionally players have a backpack to store items found along the way. The inventory shows what is currently in the backpack. The player can cycle through the inventory and choose the item they would like to use. The inventory offers a 3D preview and a description of the effects of the items you possess.
 <br><br>

@@ -36,7 +36,7 @@ The design of each level in Gradient Escape was effectively organized using spre
 
 Once designed, the spreadsheet is exported to JSON format, which is then integrated into each game level through the GameFlow object in Unity. This method significantly reduces the time required to create new levels, allowing for efficient expansion and iteration of the game environment. The combination of spreadsheet logic and JSON integration enables rapid development of structured levels, enhancing the player’s experience in navigating the mysterious terrain.
 
-![Level Design](/ws25/master/m1-gradient-escape/images/LevelDesign.jpeg "Level Design")
+![Level Design](/ws25/master/m1-gradient-escape/images/leveldesign.jpeg "Level Design")
 <br><br>
 * **Photo Credits**
 

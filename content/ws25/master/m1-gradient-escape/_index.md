@@ -17,7 +17,7 @@ claim = "Join us on an interactive journey into the woods, where you'll learn ab
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "images/GE_Logo.jpeg"
+card_image = "images/ge_logo.jpeg"
 
 # Names are optional, team size is sufficient
 team = ["Alex", "Lukas", "Sonja"]
@@ -39,7 +39,7 @@ website_link = ""
 {{<section title="Our Goal">}}
 The primary goal of Gradient Escape is to provide users with an educational experience capable of helping them to understand the concept of gradient functions through an interactive journey set in a misty forest. The game challenges you to navigate its punishing environment using the mysterious “gradient map“ - interpreting it correctly is crucial if you want to escape.
 
-![Tutorial View](/ws25/master/m1-gradient-escape/images/Title.jpeg "Scene_Level1_Navigator")
+![Tutorial View](/ws25/master/m1-gradient-escape/images/title.jpeg "Scene_Level1_Navigator")
 
 {{</section>}}
 
@@ -49,7 +49,7 @@ Gradient Escape is a first-person game with an emphasis on exploration and probl
 On their journey, the player is encouraged to explore their environment to find useful items which they must use tactically in order to succeed. Each level is dictated by a unique function which determines the “shape” of the forest and its hidden gradients. To beat the game, the player has to finish all 7 levels with each one requiring them to understand the mathematical concept better than the one before. In addition, there are 3 bonus levels with unique twists available for those looking for a challenge.
 
 
-![Gradient Map](/ws25/master/m1-gradient-escape/images/GradientMap.jpeg "Scene_Level1_GradientMap")
+![Gradient Map](/ws25/master/m1-gradient-escape/images/gradientmap.jpeg "Scene_Level1_GradientMap")
 
 {{</section>}}
 
