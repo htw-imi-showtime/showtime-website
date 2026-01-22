@@ -6,75 +6,77 @@ draft = false
 
 {{<section title="Intelligent Data Pipeline">}}
 
-**Automated Collection & Updating**<br>
-BundesEcho relies on an automated data pipeline that regularly synchronizes with the source platform. A custom collection process retrieves newly published citizen Q&A threads, ensuring that analyses reflect current political discourse.
+**Automated Collection**  
+BundesEcho continuously synchronizes with the source platform to ingest newly published citizen Q&A threads, keeping analyses up to date.
 
-**NLP-Based Enrichment**<br>
-To convert unstructured text into analyzable signals, each Q&A entry is automatically enriched with multiple analytical dimensions:
-- **Context:** Educational background and professional trajectory
-- **Topic Classification:** Assignment to core political domains
-- **Rhetorical Clarity:** Classification as *Direct*, *Vague*, or *Evasive*
-- **Positioning:** Application of a directional stance model
+**NLP Enrichment**  
+Each entry is automatically analyzed and enriched with structured signals:
+- **Context:** Education and professional background
+- **Topics:** Assignment to core policy areas
+- **Rhetorical Clarity:** *Direct*, *Vague*, or *Evasive*
+- **Positioning:** Directional stance detection
 
-**Semantic Understanding**<br>
-Beyond tagging, the pipeline generates semantic vector representations for every entry. This enables meaning-based retrieval rather than keyword matching and forms the foundation of BundesEcho’s Retrieval-Augmented Generation (RAG) features.
+**Semantic Representation**  
+All entries are embedded as semantic vectors, enabling meaning-based search and powering the RAG features.
 
-**Efficient Data Access**<br>
-All enriched data and vector representations are stored in a centralized database and delivered through a performance-optimized API, enabling low-latency interaction even under high user load.
+**Optimized Access**  
+Enriched data and vectors are served via a high-performance API for fast, reliable access.
 
 {{</section>}}
 
 {{<section title="Advanced Political Analytics">}}
 
-**Directional Positioning (Beyond Pro & Contra)**<br>
-Binary sentiment labels often fail for abstract political issues. For example, agreement with “migration” may imply either expansion or restriction. BundesEcho addresses this by applying a directional positioning model with three interpretable stances:
-* **Expanding (*Ausbauend*):** Advocating increased resources, rights, or support
-* **Limiting (*Begrenzend*):** Promoting restrictions or stricter regulation
-* **Status Quo:** Defending existing policies
+**Directional Positioning**  
+Political statements often go beyond simple *pro* or *contra*. BundesEcho applies a three-way stance model:
+- **Expanding:** Advocates policy growth or support
+- **Limiting:** Supports restriction or tighter regulation
+- **Status Quo:** Defends existing policies
 
-**Transparent AI Metrics**<br>
-To avoid opaque, black-box classifications, BundesEcho emphasizes interpretability. Each AI-generated metric is accompanied by a short **Reasoning Summary** explaining the classification in plain language. This allows users to assess and contextualize analytical results rather than simply accepting them at face value.
+**Explainable Metrics**  
+Every AI-generated classification includes a short reasoning summary, ensuring transparency and interpretability.
 
 {{</section>}}
+
+{{<image src="project_images/features/sankey.jpg" alt="Topic flow visualization" caption="Topic flow visualization">}}
 
 {{<section title="Interactive Data Visualization">}}
 
-**The Dashboard Layer**<br>
-The core of the frontend is built on **Apache ECharts**, offering a suite of interactive diagrams that allow users to explore the political landscape from different angles:
+**Dashboard Visuals**  
+The frontend uses **Apache ECharts** for interactive exploration:
 
-* **Sankey Diagrams:** Visualize the flow of political discourse by mapping the volume of questions from specific topic categories to political parties.
-* **Semi-Circle Parliament:** An interactive filter tool representing the Bundestag. Users can hover over seats to view an MP's average response time and sentiment, or click to navigate to their profile.
-* **Topic Sunburst:** A hierarchical chart that breaks down the 10 main political categories into their top 5 trending sub-topics, allowing for intuitive drill-down navigation.
-* **Network Graph:** Visualizes complex relationships and connections between politicians, parties, and specific topics.
+- **Sankey Diagrams:** Visualize how questions flow from topics to parties
+- **Parliament View:** Interactive Bundestag layout with sentiment and response-time insights
+- **Topic Sunburst:** Drill-down from main categories to trending sub-topics
+- **Network Graph:** Shows relationships between politicians, parties, and issues
 
 {{</section>}}
 
-{{<image src="network_graph.jpg" alt="Network graph visualization" caption="Network visualization of political connections">}}
+{{<image src="project_images/features/topics_graph.jpg" alt="Network graph visualization" caption="Network visualization of political connections">}}
 
 {{<section title="Deep-Dive Analytics">}}
 
 **Politician Profiles**<br>
-Each MP has a dedicated analytics dashboard to assess their individual performance:
+Each member of the Bundestag has a dedicated analytics dashboard to assess their individual performance:
 * **Activity Timeline:** A bar chart tracking the frequency of questions answered over time.
 * **Thematic Focus:** A Pie Chart highlighting the "Top 5 Topics" addressed by the politician.
 * **Sentiment Gauge:** A distinct visual meter showing the average rhetorical clarity and tonal sentiment of the politician's answers.
 
 {{</section>}}
 
-{{<image src="gauge_chart.jpg" alt="Sentiment gauge chart" caption="Sentiment and clarity gauge">}}
+{{<image src="project_images/features/landing_topics.jpg" alt="Most popular topics" caption="Most popular topics">}}
 
 {{<section title="Category & Search Metrics">}}
 
-**Category & Party Metrics**<br>
-We provide aggregated statistics for specific political domains (e.g., "Environment" or "Finance"):
-* **Performance Stats:** Key metrics including total questions, average response time (in days), and response rate percentages.
-* **Party Engagement:** Bar charts comparing how different parties engage with specific topics, highlighting which parties are most active in specific categories.
+**Category Insights**  
+Aggregated metrics per policy area include:
+- Total questions, response rates, and average response times
+- Party-level engagement comparisons
 
-**RAG Search Interface**<br>
-A dedicated interface for the Retrieval-Augmented Generation system, allowing users to query the database using natural language and receive AI-summarized answers based on the archived data.
+**Semantic Search & AI Summaries**  
+Users can search the dataset using natural language. Results are matched by meaning rather than keywords and summarized using AI, grounded in the original data.
 
 {{</section>}}
 
-{{<image src="rag_interface.jpg" alt="RAG search interface" caption="AI-powered search interface">}}
+{{<image src="project_images/features/landing_rag.jpg" alt="AI-summarization interface" caption="AI-summarization interface">}}
 
 

@@ -5,7 +5,7 @@ subtitle = "Bringing visibility to the political echo."
 claim = "When thousands of political Q&As blur the big picture, BundesEcho reveals the patterns behind them. Don’t just read — explore positions, rhetoric, and trends with AI-powered insights."
 
 # Properties for displaying the project in the project list
-card_image = "thumbnail.png"
+card_image = "project_images/overview/thumbnail.jpg"
 
 team = ["Zaynab Ammar", "Merveille Kinfack Nguetsa", "Konstantin Kuklin", "Zidanie Noudeng Mazamo", "Sonja Anna Sartys"]
 supervisor = "Bruno Schilling"
@@ -13,10 +13,10 @@ draft = false
 
 source_link = ""
 demo_link = ""
-website_link = "https://abgeordnetenmap.f4.htw-berlin.de/"
+website_link = ""
 +++
 
-{{<image src="parliament_visualization.jpg" alt="Parliament diagram on BundesEcho" caption="Screenshot from BundesEcho">}}
+{{<image src="project_images/overview/parliament_visualization.jpg" alt="Parliament diagram on BundesEcho" caption="Screenshot from BundesEcho">}}
 
 {{<section title="Our Goal">}}
 
@@ -31,31 +31,30 @@ Since 2004, the NGO [AbgeordnetenWatch](https://www.abgeordnetenwatch.de/) has a
 **Goal**
 
 The Q&A archive of *abgeordnetenwatch.de* contains valuable insights that go beyond individual politicians. By applying NLP techniques, BundesEcho uncovers systemic patterns in political communication, such as sentiment, topic focus, and response behavior—enabling a data-driven comparison of parties and representatives.
+
 {{</section>}}
 
-
 {{<section title="Process and Outcome">}}
-**Concept & Scope**
 
-Building on concepts from our *Visualization* course, we developed a highly interactive platform. Due to the size of the extracted archive, we deliberately focused on the current legislative period of the Bundestag to ensure data quality and performance—an approach reflected in the name **BundesEcho**.
+**Concept & Scope**  
+Drawing on concepts from our *Visualization* course, we designed an interactive analysis platform. To balance depth, performance, and data quality, we focused on the current legislative period of the Bundestag—an approach reflected in the name **BundesEcho**.
 
-**Implementation**
+**Implementation**  
+Development followed an iterative, user-centered process, beginning with Figma prototypes. The frontend uses Angular and Apache ECharts to present complex political data through responsive, interactive visualizations.
 
-Our workflow followed an iterative, user-centered design process, starting with prototyping in Figma before implementation. On the frontend, we used Angular together with Apache ECharts to transform complex datasets into responsive and intuitive visualizations.
+The backend is built with Django and combines classical data querying with a local Retrieval-Augmented Generation (RAG) pipeline. PostgreSQL with pgvector stores semantic embeddings, while locally hosted language models enable context-aware retrieval beyond keyword search.
 
-The backend is powered by Django and combines classical database queries with a local Retrieval-Augmented Generation (RAG) pipeline. PostgreSQL with pgvector stores *nomic-embed-text* embeddings, while Llama 3.1 is run locally via Ollama to enable context-aware responses beyond keyword search.
+Despite challenges in data modeling and operating a resource-intensive AI backend, the team’s combined expertise in frontend development, backend architecture, and data science resulted in a fully functional platform.
 
-While the project posed challenges in data modeling and deploying a resource-intensive AI backend, our team’s combined expertise in UI engineering, backend architecture, and data science allowed us to successfully deliver a fully functional platform.
+**Outcome**  
+BundesEcho enables exploration of political communication patterns over time, including positioning, topic focus, and responsiveness across politicians, parties, and categories. Traditional filters are complemented by semantic search and AI-supported summaries, helping users efficiently identify trends and recurring dynamics in the data.
 
-**Outcome**
-
-The project enables users to explore temporal patterns in political communication, including positioning, thematic focus, and response behavior across politicians, parties, and topics. To support this analysis, we combine traditional filtering with a RAG engine that synthesizes topic-related discussions, helping users efficiently identify emerging trends in the data.
 {{</section>}} 
 
 
 {{<section title="Team">}}
 
-BundesEcho started with a unified research phase where every member contributed to the core concept. To ensure efficiency during development, we split into two specialized units while maintaining a shared vision of the project's goals.
+BundesEcho began with a joint research and concept phase, ensuring a shared understanding of goals and constraints. During implementation, the team split into two specialized units while maintaining close collaboration.
 
 **Frontend Team**
 - UI/UX design
@@ -63,21 +62,16 @@ BundesEcho started with a unified research phase where every member contributed 
 - Client-side application development
 
 **Backend Team**
+- Server and deployment setup
 - Database architecture and data modeling
-- API design and implementation
-- ETL pipelines for data extraction and augmentation from *abgeordnetenwatch.de*
-- Integration of Ollama-hosted models 
+- API design and ETL pipelines
+- Integration of locally hosted language models
 
-Our team also wants to thank Darius Bandt for designing the Showtime poster and HTW Berlin for the access to Machine Learning server.
+We also thank Darius Bandt for designing the Showtime poster and HTW Berlin for providing access to machine learning infrastructure.
+
 {{</section>}} 
 
+{{<image src="project_images/overview/team.jpg" alt="Team behind BundesEcho" caption="Beautiful team behind BundesEcho">}}
 
-{{<gallery>}}
-{{<team-member image="team/placeholder.jpg" name="Zaynab Ammar">}}
-{{<team-member image="team/placeholder.jpg" name="Merveille Kinfack Nguetsa">}}
-{{<team-member image="team/konstantin.jpg" name="Konstantin Kuklin">}}
-{{<team-member image="team/placeholder.jpg" name="Zidanie Noudeng Mazamo">}}
-{{<team-member image="team/placeholder.jpg" name="Sonja Anna Sartys">}}
-{{</gallery>}}
 
 
