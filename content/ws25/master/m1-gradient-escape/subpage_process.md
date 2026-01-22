@@ -31,9 +31,6 @@ Every feature or bugfix had a pull request with a clear description and at least
 During the ongoing group project we used a shared miro board for brainstorming and visualizing systems during early design sessions. Tasks, issues, and milestones were tracked in the GitHub project board with owners and due dates to keep progress visible. Each task was defined with sub-issues and linked resources so work could be picked up and completed with minimal room for interpretation.
 
 Weekly meetings were held to review progress, problems, reprioritize tasks, and confirm which branches were ready to merge into main. Meeting decisions and action items were recorded directly in the project board so responsibilities and deadlines remained accessible and easy to follow up on.
-
-![Project Management](/ws25/master/m1-gradient-escape/images/Scene_Mushroom.jpeg "Project Management")
-
 <br><br>
 
 * **Level Design**

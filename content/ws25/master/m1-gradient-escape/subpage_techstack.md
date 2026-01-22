@@ -12,7 +12,7 @@ draft = true
 * **Unity**
 
 Unity (v. 6.2) is a cross-platform game engine that provides a wide range of game development resources, including assets, game objects, and C#. It supports both 2D and 3D game development and offers web builds, making it an excellent option for small projects due to its free usage policy.
-![Unity Logo](/ws25/master/m1-gradient-escape/images/logo_unity.png "Unity Logo")
+![Unity Logo](/ws25/master/m1-gradient-escape/images/unity-logo-b.png "Unity Logo")
 
 <br><br>
 
