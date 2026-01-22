@@ -44,8 +44,7 @@ website_link = ""
 Ziel des Projekts ist es, nachhaltige und alternative Essensangebote und Informationen 
 auf dem Campus sichtbar und leicht zugänglich zu machen.
 
-Besucher sollen mithilfe von AR direkt vor Ort Informationen zu
-nachhaltiger Ernährung mit spielerischen Elementen erhalten
+Besucher sollen mithilfe von AR direkt vor Ort Informationen zu nachhaltiger Ernährung mit spielerischen Elementen erhalten
 
 {{</section>}}
 
