@@ -40,4 +40,7 @@ Additionally players have a backpack to store items found along the way. The inv
 
 Once the player has successfully reached the goal tile, they are presented with a visualization of their chosen path through the game world. This shows the actual terrain of the level, which was obfuscated by the thick fog, with only the gradients being indicated by the arrows on the gradient map. A 3D path animation showing the player's steps from start to finish gives the player a chance to reflect on their performance. Additionally, the gradient function is displayed alongside the visualization, providing a comprehensive overview of the mathematical principles underlying Gradient Escape. This is crucial for understanding the link between gameplay and mathematics.
 
+![Path Visualization](/ws25/master/m1-gradient-escape/images/pathviz.jpeg)
+
+
 {{</section>}}
