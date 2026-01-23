@@ -35,7 +35,7 @@ website_link = ""
 
 Instead of using a traditional controller, the player controls the game by riding a real bicycle mounted on a bike trainer. Pedaling, steering, and physical effort are directly translated into the virtual environment.
 
-It’s set in a zombie apocalypse where a small group of survivors lives isolated on an island. Since motorized vehicles are no longer available, bicycles have become the only means of transportation. As a newly appointed courier, the player is responsible for securing supply routes and delivering essential goods across the island.
+It is set in a zombie apocalypse where a small group of survivors lives isolated on an island. Since motorized vehicles are no longer available, bicycles have become the only means of transportation. As a newly appointed courier, the player is responsible for securing supply routes and delivering essential goods across the island.
 Therefore, you assemble your bike, determine which goods to load, and then … YOU RIDE. Ride faster than the zombies, or otherwise you will become one of them.
 
 
@@ -79,9 +79,9 @@ These prototypes helped us refine both the gameplay and the technical setup befo
 {{<section title="Outcome">}}
 We developed a VR game called Wasteland Courier using Unity. The game is controlled entirely through a real bike trainer and mobile phone gyro sensors, translating physical input directly into gameplay mechanics.
 
-The bike trainer communicates with the game via Bluetooth Low Energy (BLE). Therefore, we implemented a BLE Connector in Unity that supports the Fitness Machine Service (FTMS) service specification. Using this service, our game can receive live performance data such as power output (watts), as well as sent back resistance data to the trainer, to simulate inclines and terrain.
+The bike trainer communicates with the game via Bluetooth Low Energy (BLE). Therefore, we implemented a BLE Connector in Unity that supports the Fitness Machine Service (FTMS) specification. Using this service, our game can receive live performance data such as power output (watts), as well as send back resistance data to the trainer, to simulate inclines and terrain.
 
-To enable steering, a smartphone is mounted on the handlebars and used as a gyroscope sensor. The smartphone sends gyroscope data via UDP to synchronize real-world steering with the in-game bicycle handlebar.
+To enable steering, a smartphone is mounted on the handlebar and used as a gyroscope sensor. The smartphone sends gyroscope data via UDP to synchronize real-world steering with the in-game bicycle handlebar.
 
 This setup allows the game to react dynamically to the player’s physical performance and creates a direct link between effort and gameplay.
 {{<image src="architecture.jpeg" alt="Desert Route" caption= "System Architecture">}}
@@ -96,13 +96,13 @@ Before each tour, the player prepares in the garage. The bicycle can be assemble
 
 **Route Phase**
 
-During the route, the player rides through the environment using a real bicycle mounted on a trainer. Pedaling controls speed, while steering is handled through the handlebars. Along the way, the player must avoid zombies and environmental obstacles while discovering items placed along the route. The goal is to reach the destination as efficiently as possible, as stopping or slowing down increases the risk of being caught.
+During the route, the player rides through the environment using a real bicycle mounted on a trainer. Pedaling controls speed, while steering is handled through the handlebar. Along the way, the player must avoid zombies and environmental obstacles while discovering items placed along the route. The goal is to reach the destination as efficiently as possible, as stopping or slowing down increases the risk of being caught.
 
 We designed two routes with different difficulty levels:
 - A beginner-friendly 1 km swamp route
 - A more challenging 5 km desert route
 
-Both routes are designed to encourage physical effort and creating an immersive world while maintaining a clear gameplay goal.
+Both routes are designed to encourage physical effort and create an immersive world while maintaining a clear gameplay goal.
 In addition to the technical implementation, we designed and built a coherent game world that supports immersion and storytelling. Custom assets were created specifically for the bicycle and its components to ensure consistency between real-world interaction and virtual representation.
 
 {{</section>}} 
