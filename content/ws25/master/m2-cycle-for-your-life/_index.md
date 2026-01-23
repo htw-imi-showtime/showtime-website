@@ -119,7 +119,7 @@ In addition to the technical implementation, we designed and built a coherent ga
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="placeholder.jpg" name="Oliver Hirth">}}
+{{<team-member image="team_oliver.jpeg" name="Oliver Hirth">}}
 {{<team-member image="team_marvin.jpeg" name="Marvin Petsch">}}
 {{<team-member image="team_felix.jpeg" name="Felix Kühne">}}
 {{<team-member image="team_matthis.jpeg" name="Matthis Ehrhardt">}}
