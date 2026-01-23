@@ -26,7 +26,7 @@ draft = false
 
 
 # e.g. github
-source_link = "https://gitlab.htw-berlin.de/strippg/imimap-26"
+# source_link = ""
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
@@ -36,13 +36,12 @@ website_link = ""
 +++
 {{<section title="Unser Erbe">}}
 Unser Projekt baut auf einem bereits bestehenden Master‑Projekt aus dem Jahr 2021 auf.
-Dieses war ein hervorragendes Tool für die Praktikumsbeauftragten, um bürokratische Hürden besser zu meistern. Genau das ist jedoch der Grund, warum viele die Seite nicht für die Praktikumssuche nutzten: Sie war primär für die Praktikumsbeauftragten und nur sekundär für Studierende konzipiert.
+Dieses ist ein hervorragendes Tool für die Praktikumsbeauftragten, um bürokratische Hürden besser zu meistern. Genau das ist jedoch der Grund, warum viele die Seite nicht für die Praktikumssuche nutzten: Sie ist primär für die Praktikumsbeauftragten und nur sekundär für Studierenden konzipiert.
 
-Das Einzige, was für die Studierenden wirklich hilfreich war, war die Suchfunktion für Praktika – und selbst diese war stark eingeschränkt. Sie war künstlich auf 12 Ergebnisse und drei Versuche begrenzt. Zudem waren die Filteroptionen unbrauchbar, sodass viele Versuche vergeblich blieben. All dies diente dazu, Unternehmen vor einer Flut von Bewerbungen zu schützen.
+Das Einzige, was für die Studierenden wirklich hilfreich ist, ist die Suchfunktion für Praktika – und selbst diese ist stark eingeschränkt. Sie ist künstlich auf 12 Ergebnisse und drei Versuche begrenzt. Zudem sind die Filteroptionen unbrauchbar, sodass viele Versuche vergeblich bleiben. All dies dient dazu, Unternehmen vor einer Flut von Bewerbungen zu schützen.
 
 Aber was, wenn diese Unternehmen aktiv nach neuen Praktikanten suchen? Was, wenn sie mehr Expertise von IMI‑Studierenden benötigen? Wenn Unternehmen aktiv zustimmen, auf der IMI‑Map vertreten zu sein?
 
-- Dann kann das Suchlimit aufgehoben werden.
 - Dann lässt sich genau das gesuchte Praktikum finden.
 - Und falls Fragen auftauchen – kein Problem.
 
@@ -63,7 +62,7 @@ Wir haben im Hintergrund ordentlich aufgeräumt. Die alte IMI‑Map‑Suche war 
 {{</section>}}
 
 {{<section title="Forum zum austauschen, Wiki zum Informieren">}}
-Aufgrund des Zeitdrucks haben wir uns für eine bereits bestehende Forums‑Plattform entschieden, die wir in IMI‑Map integrieren konnten. Bei der Auswahl legten wir Wert auf eine Open‑Source‑Lösung, die uns freie Nutzung ermöglicht und relativ gut zu unserem Tech‑Stack aus Vue, Node.js und MongoDB passt. Wir entschieden uns für NodeBB. Für das Benutzermanagement nutzten wir das bereits vorhandene LDAP‑System von IMI‑Map, um doppelte Anmeldungen zu vermeiden. Im Forum teilen Studierende ihre Erfahrungen mit einzelnen Unternehmen, bürokratischen Hürden im Ausland oder zu Hause und beantworten Fragen von Praktikums‑Suchenden. Um einen echten One‑Stop‑Shop für IMIs zu schaffen, haben wir ein Wiki integriert, in dem alle wichtigen Informationen gesammelt sind. Auch hier entschieden wir uns für Wiki.js – aus denselben Gründen wie beim Forum.
+Um unsere Ressourcen gezielt und effizient einsetzen zu können, haben wir uns für eine bereits bestehende Forums‑Plattform entschieden, die sich nahtlos in IMI‑Map integrieren ließ. Bei der Auswahl legten wir besonderen Wert auf eine Open‑Source‑Lösung, die uns freie Nutzung ermöglicht und gut zu unserem Tech‑Stack aus Vue, Node.js und MongoDB passt. Deshalb fiel die Entscheidung auf NodeBB. Für das Benutzermanagement nutzten wir das bereits vorhandene LDAP‑System von IMI‑Map, um doppelte Anmeldungen zu vermeiden. Im Forum teilen Studierende ihre Erfahrungen mit einzelnen Unternehmen, bürokratischen Hürden im Ausland oder zu Hause und beantworten Fragen von Praktikums‑Suchenden. Um einen echten One‑Stop‑Shop für IMIs zu schaffen, haben wir ein Wiki integriert, in dem alle wichtigen Informationen gesammelt sind. Auch hier entschieden wir uns für Wiki.js – aus denselben Gründen wie beim Forum.
 {{</section>}} 
 
 
@@ -84,7 +83,7 @@ Projektmanager
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="Jonathan.jpg" name="Jonathan Schunk">}}
-{{<team-member image="Sinan.jpg" name="Sinan Haddad">}}
-{{<team-member image="Artjom.jpg" name="Artjom Schwenk">}}
+{{<team-member image="Jonathan.png" name="Jonathan Schunk">}}
+{{<team-member image="Sinan.png" name="Sinan Haddad">}}
+{{<team-member image="Artjom.png" name="Artjom Schwenk">}}
 {{</gallery>}}
