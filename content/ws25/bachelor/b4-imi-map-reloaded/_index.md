@@ -26,7 +26,7 @@ draft = false
 
 
 # e.g. github
-source_link = "https://gitlab.htw-berlin.de/strippg/imimap-26"
+# source_link = ""
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
@@ -83,7 +83,7 @@ Projektmanager
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="Jonathan.jpg" name="Jonathan Schunk">}}
-{{<team-member image="Sinan.jpg" name="Sinan Haddad">}}
-{{<team-member image="Artjom.jpg" name="Artjom Schwenk">}}
+{{<team-member image="Jonathan.png" name="Jonathan Schunk">}}
+{{<team-member image="Sinan.png" name="Sinan Haddad">}}
+{{<team-member image="Artjom.png" name="Artjom Schwenk">}}
 {{</gallery>}}
