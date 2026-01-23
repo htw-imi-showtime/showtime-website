@@ -49,7 +49,7 @@ The goal of this project is to make research on sustainable food at HTW engaging
 {{<section title="Process">}}
 
 
-The development of our project began with an intensive research phase focused on the various laboratories planned at the HTW campus in the foreseeable future. To correctly integrate the results of the labs into the digital world, we continuously consulted with the experts from the food4future project. This exchange helped us create a reliable foundation for our guide.
+The development of our project began with an intensive research phase focused on the various laboratories planned at the HTW campus in the foreseeable future. To correctly integrate the results of the laboratories into the digital world, we continuously consulted with the experts from the food4future project. This exchange helped us create a reliable foundation for our guide.
 
 Based on this foundation, we built our AR campus guide within a predefined framework. Our vision was to develop a navigation system that makes location based data on the campus engaging through gamification elements. In the first phase, we focused entirely on concept ideas and the design of both the website and the AR view, creating interactive games that present information in a playful and exciting way. In the technical implementation phase, we divided the programming tasks among the team. In weekly meetings with our supervisor and the entire team, we presented our progress, discussed improvements, and continuously developed the web application until the final product was finshed. 
 
