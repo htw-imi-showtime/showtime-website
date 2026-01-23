@@ -62,15 +62,13 @@ Based on this foundation, we built our AR campus guide within a predefined frame
 * **The Product**
 
 
-Meet our guide, Nori! He will take you on a tour of the campus, sharing interesting facts and useful tips at every station.
+Meet our guide, Nori! He takes users on a tour of the campus, sharing interesting facts and useful tips at every station.
 
 {{<team-member image="nori.png" >}}
 
+The app includes interactive GPS navigation, which tracks the users position in real time and leads them from one laboratory to the next across the campus. This makes the journey between stations part of the experience and ensures users see every stop on the campus.
 
-
-The app includes interactive GPS navigation, which tracks your position in real time and leads you from one lab to the next across the campus. This makes the journey between stations part of the experience and ensures you see every stop in the campus.
-
-{{<team-member image="navigation.jpg" style="width: 25%; height: auto;">}}
+{{<team-member image="navigation.jpg">}}
 
 * **Gamification Elements**
 
@@ -81,6 +79,8 @@ Support is available at any time for questions or challenges. At each station, i
 Another highlight is the interactive sliding puzzle, which invites users to engage with the images of the laboratories in a playful way.
 
 Our memory game presents various sustainable dishes offered on campus. This allows users to imagine the future menus more clearly and explore them interactively.
+
+To stay motivated, users can earn badges at every station. The badges help them keep track of their progress, showing exactly which laboratories they have already visited and which ones are still left to explore.
 
 {{<team-member image="games.PNG">}}
 
