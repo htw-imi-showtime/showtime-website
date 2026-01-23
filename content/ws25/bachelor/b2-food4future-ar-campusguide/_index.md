@@ -82,7 +82,7 @@ Our memory game presents various sustainable dishes offered on campus. This allo
 
 To stay motivated, users can earn badges at every station. The badges help them keep track of their progress, showing exactly which laboratories they have already visited and which ones are still left to explore.
 
-{{<team-member image="games.PNG">}}
+{{<team-member image="games.png">}}
 
 {{</section>}} 
 
