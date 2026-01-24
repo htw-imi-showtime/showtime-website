@@ -2,7 +2,7 @@
 
 
 project_id = "B2"
-title = "food4future - AR Campusguide"
+title = "food4future - AR Campus Guide"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
@@ -51,7 +51,7 @@ The goal of this project is to make research on sustainable food at HTW engaging
 
 The development of our project began with an intensive research phase focused on the various laboratories planned at the HTW campus in the foreseeable future. To correctly integrate the results of the laboratories into the digital world, we continuously consulted with the experts from the food4future project. This exchange helped us create a reliable foundation for our guide.
 
-Based on this foundation, we built our AR campus guide within a predefined framework. Our vision was to develop a navigation system that makes location based data on the campus engaging through gamification elements. In the first phase, we focused entirely on concept ideas and the design of both the website and the AR view, creating interactive games that present information in a playful and exciting way. In the technical implementation phase, we divided the programming tasks among the team. In weekly meetings with our supervisor and the entire team, we presented our progress, discussed improvements, and continuously developed the web application until the final product was finshed. 
+Based on this foundation, we built our AR campus guide within a predefined framework. Our vision was to develop a navigation system that makes location based data on the campus engaging through gamification elements. In the first phase, we focused entirely on concept ideas and the design of both the website and the AR view, creating interactive games that present information in a playful and exciting way. In the technical implementation phase, we divided the programming tasks among the team. In weekly meetings with our supervisor and the entire team, we presented our progress, discussed improvements, and continuously developed the web application until the final product was finished. 
 
 {{</section>}}
 
@@ -64,11 +64,11 @@ Based on this foundation, we built our AR campus guide within a predefined frame
 
 Meet our guide, Nori! He takes users on a tour of the campus, sharing interesting facts and useful tips at every station.
 
-{{<team-member image="nori.png" >}}
+{{<image src="nori.png" alt="Our Guide" position="center">}}
 
 The app includes interactive GPS navigation, which tracks the users position in real time and leads them from one laboratory to the next across the campus. This makes the journey between stations part of the experience and ensures users see every stop on the campus.
 
-{{<team-member image="navigation.jpg">}}
+{{<image src="navigation.jpg" alt="Navigation" position="center">}}
 
 * **Gamification Elements**
 
@@ -82,7 +82,7 @@ Our memory game presents various sustainable dishes offered on campus. This allo
 
 To stay motivated, users can earn badges at every station. The badges help them keep track of their progress, showing exactly which laboratories they have already visited and which ones are still left to explore.
 
-{{<team-member image="games.png">}}
+{{<image src="games.png" alt="All Games" position="center">}}
 
 {{</section>}} 
 

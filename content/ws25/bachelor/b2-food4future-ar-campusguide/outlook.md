@@ -17,9 +17,9 @@ In addition, the project could be extended with **more interactive games** to fu
 
 The implementation of these and other future extensions depends on the **food4future team** and their ongoing research. As their project provides new data and results, our guide can continue to grow. 
 
-We would like to express a **special thanks** to the team for the opportunity to collaborate on this project. Their expertise and support were essential in creating a reliable foundation for our work. 
+We would like to express a **special thanks** to the f4f team for the opportunity to collaborate on this project. Their expertise and support were essential in creating a reliable foundation for our work. 
 Furthermore, we want to thank our two supervisors for their constant guidance and support. Their valuable tips and close collaboration throughout the process helped us reach our goals.
 
-{{<team-member image="logo.png">}}
+{{<image src="logo.png" alt="f4f Logo" position="center">}}
 
 {{</section>}}
