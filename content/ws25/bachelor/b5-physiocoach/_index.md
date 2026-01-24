@@ -66,3 +66,8 @@ Aktuell liegt der Fokus auf der Verbesserung des Nutzererlebnisses sowie der Int
 {{<section title="Team">}}
 Unser Team besteht aus zwei Studierenden, die das Projekt als Semesterarbeit umgesetzt haben.
 {{</section>}}
+
+{{<gallery>}}
+{{<team-member image="img2.jpg" name="Khoa Nguyen">}}
+{{<team-member image="img1.jpg" name="Mandy Nguyen">}}
+{{</gallery>}}
