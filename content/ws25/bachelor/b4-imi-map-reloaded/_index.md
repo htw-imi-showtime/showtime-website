@@ -32,7 +32,7 @@ draft = false
 # just send a pr when you take the demo site down.
 demo_link = ""
 # website: if you have another project website (not demo)
-website_link = ""
+website_link = "https://imi-map.f4.htw-berlin.de/"
 +++
 {{<section title="Unser Erbe">}}
 Unser Projekt baut auf einem bereits bestehenden Master‑Projekt aus dem Jahr 2021 auf.
