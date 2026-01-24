@@ -32,11 +32,11 @@ draft = false
 # just send a pr when you take the demo site down.
 demo_link = ""
 # website: if you have another project website (not demo)
-website_link = ""
+website_link = "https://imi-map.f4.htw-berlin.de/"
 +++
 {{<section title="Unser Erbe">}}
 Unser Projekt baut auf einem bereits bestehenden Master‑Projekt aus dem Jahr 2021 auf.
-Dieses ist ein hervorragendes Tool für die Praktikumsbeauftragten, um bürokratische Hürden besser zu meistern. Genau das ist jedoch der Grund, warum viele die Seite nicht für die Praktikumssuche nutzten: Sie ist primär für die Praktikumsbeauftragten und nur sekundär für Studierenden konzipiert.
+Dieses ist ein hervorragendes Tool für die Praktikumsbeauftragten, um bürokratische Hürden besser zu meistern. Genau das ist jedoch der Grund, warum viele die Seite nicht für die Praktikumssuche nutzten: Sie ist primär für die Praktikumsbeauftragten und nur sekundär für Studierende konzipiert.
 
 Das Einzige, was für die Studierenden wirklich hilfreich ist, ist die Suchfunktion für Praktika – und selbst diese ist stark eingeschränkt. Sie ist künstlich auf 12 Ergebnisse und drei Versuche begrenzt. Zudem sind die Filteroptionen unbrauchbar, sodass viele Versuche vergeblich bleiben. All dies dient dazu, Unternehmen vor einer Flut von Bewerbungen zu schützen.
 
@@ -50,7 +50,7 @@ Wir wollen, dass die IMI‑Map zum einzigen Bezugspunkt rund ums Praktikum wird 
 
 
 {{<section title="Prozess">}}
-Wir mussten von bereits bestehem Code zu unserer Lösung kommen, das heißt, wir mussten den Quellcode zunächst verstehen. Wie ist die Seite aufgebaut? Wo werden die Daten gespeichert? Wie können wir das bereits Vorhandene nutzen? Damit haben wir uns die ersten Wochen beschäftigt. Wir haben experimentiert und uns in wöchentlichen Meetings darüber ausgetauscht, was wir entdeckt haben. Parallel haben wir konkrete Lösungen erarbeitet, wie wir die Suche freigeben können und welche Frameworks wir für das Forum und das Wiki einsetzen wollen.
+Wir mussten von bereits bestehendem Code zu unserer Lösung kommen, das heißt, wir mussten den Quellcode zunächst verstehen. Wie ist die Seite aufgebaut? Wo werden die Daten gespeichert? Wie können wir das bereits Vorhandene nutzen? Damit haben wir uns die ersten Wochen beschäftigt. Wir haben experimentiert und uns in wöchentlichen Meetings darüber ausgetauscht, was wir entdeckt haben. Parallel haben wir konkrete Lösungen erarbeitet, wie wir die Suche freigeben können und welche Frameworks wir für das Forum und das Wiki einsetzen wollen.
 {{</section>}} 
 
 {{<section title="Unternehmensseite">}}
@@ -83,7 +83,7 @@ Projektmanager
 {{</section>}} 
 
 {{<gallery>}}
-{{<team-member image="jonathan.png" name="Jonathan Schunk">}}
-{{<team-member image="sinan.png" name="Sinan Haddad">}}
-{{<team-member image="artjom.png" name="Artjom Schwenk">}}
+{{<team-member image="jonathan.jpg" name="Jonathan Schunk">}}
+{{<team-member image="sinan.jpg" name="Sinan Haddad">}}
+{{<team-member image="artjom.jpg" name="Artjom Schwenk">}}
 {{</gallery>}}
