@@ -11,7 +11,7 @@ subtitle = "Visualisierung & Interaktion in kritischen Infrastruktur Netzwerken"
 claim = "Der Fahrplan ist ein Vorschlag, wir zeigen die Realität!"
 
 # Properties for displaying the project in the project list
-card_image = "logo.jpg"
+card_image = "logo1.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Alex Lüdemann", "Jakob Marckardt"]
@@ -21,7 +21,7 @@ draft = false
 
 +++
 
-{{<image src="vikinetPlakat1.png" alt="VikinetPlakat">}}
+{{<image src="vikinetplakat2.png" alt="VikinetPlakat">}}
 
 ---
 
@@ -34,7 +34,7 @@ Unsere Vorgabe war es, eine MR-Anwendung zu entwickeln, die eine kritische Infra
 {{<section title="Entwicklung">}}
 Der Grundstein von VIKINET, begann mit einem Moodboard, auf dem alles vom Datenmodell bis zum Design geplant wurde. Dabei haben wir viele Herangehensweisen ausprobiert und neue Wege entdeckt, um unsere Vision zu verwirklichen. Hier sind einmal unsere wichtigsten Meilensteine bei der Umsetzung von VIKINET:
 
-**Deutschland 3D Map:** Da die Karte quasi den Grundstein für die Visualisierung bildet, haben wir uns dazu entschlossen, eine möglichst detaillierte Form generieren zu lassen, welche auf realen geografischen Grenzkoordinaten basiert. Das 3D-Modell musste in der späteren Entwicklung ein wenig vereinfacht werden, um Rechenleistung der Brille einzusparen und ein reibungsloses Erlebnis zu ermöglichen.
+**Deutschland Map:** Da die Karte quasi den Grundstein für die Visualisierung bildet, haben wir uns dazu entschlossen, eine möglichst detaillierte Form generieren zu lassen, welche auf realen geografischen Grenzkoordinaten basiert. Das 3D-Modell musste in der späteren Entwicklung ein wenig vereinfacht werden, um Rechenleistung der Brille einzusparen und ein reibungsloses Erlebnis zu ermöglichen.
 
 **Datenmodell erstellen und implementieren:** Das Datenmodell wurde schon frühzeitig definiert, um zu verstehen, was wir aus den großen Mengen an Fernverkehrsdaten herausfiltern müssen und wie wir diese speichern und verarbeiten. Es ist unterteilt in die Klassen Zug, Halt, Verbindung und Bahnhof, welche jeweils die wichtigsten Daten als Eigenschaften besitzen und miteinander verknüpft sind.
 
@@ -46,7 +46,7 @@ Die Bahnhöfe werden ebenfalls mit geografischen Koordinaten an die richtige Ste
 
 ---
 
-{{<image src="zugDetails.png" caption="Zug Details (Work in Progress)" alt="Zug Details">}}
+{{<image src="zugdetails1.png" caption="Zug Details (Work in Progress)" alt="Zug Details">}}
 
 ---
 
@@ -60,14 +60,14 @@ Du entscheidest selbst, wie tief du in die Daten des Fernverkehrs eintauchen mö
 
 ---
 
-{{<image src="handmenü.png" caption="Handmenü (Work in Progress)" alt="Handmenü">}}
+{{<image src="handmenü1.png" caption="Handmenü (Work in Progress)" alt="Handmenü">}}
 
 ---
 {{<section title="Team">}}
 {{</section>}} 
 {{<gallery>}}
-{{<team-member image="alex.png" name="Alex">}}
-{{<team-member image="jakob.png" name="Jakob">}}
+{{<team-member image="alex1.png" name="Alex">}}
+{{<team-member image="jakob1.png" name="Jakob">}}
 {{</gallery>}}
 
 {{<section title="Danke!">}}
