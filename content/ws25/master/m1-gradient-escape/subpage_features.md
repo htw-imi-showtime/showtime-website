@@ -31,7 +31,7 @@ The **Gradient Compass** displays the gradient vector of the current tile, guidi
 
 The environment also includes obstacles, represented as a wall of trees that block access to adjacent tiles, challenging players to find alternative routes. The Axe is crucial for clearing these obstacles, allowing players to chop down trees that hinder their path, enabling further exploration of the terrain. Lastly, the **GPS** is a powerful tool that randomly reveals a specific number of gradients on the map, assisting players in planning their next moves more effectively.
 
-![Item Energy Mushroom](/ws25/master/m1-gradient-escape/images/items.png)
+![Item Energy Mushroom](/ws25/master/m1-gradient-escape/images/items.jpeg)
 
 Additionally players have a backpack to store items found along the way. The inventory shows what is currently in the backpack. The player can cycle through the inventory and choose the item they would like to use. The inventory offers a 3D preview and a description of the effects of the items you possess.
 <br><br>
