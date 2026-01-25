@@ -35,7 +35,6 @@ demo_link = ""
 website_link = ""
 +++
 
-
 {{<section title="Unser Ziel">}}
 Ziel dieses Projekts ist die Entwicklung eines 3D-Spiels mit Unity, in dem der Spieler die Rolle eines Reisenden übernimmt und durch verschiedene Szenen navigiert. Um im Spiel voranzukommen, müssen Rätsel gelöst und neue Bereiche erkundet werden. Der Fokus liegt dabei auf der Umsetzung einer zusammenhängenden 3D-Spielwelt, dem Szenenmanagement sowie der Gestaltung interaktiver Elemente.
 
@@ -60,10 +59,10 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 Hier ein kleiner Einblick über unsere fertigen Szenen.
 
-{{<image src="Garagee.jpg" alt="Erste Szene Garage">}}
-{{<image src="Kapelle.jpg" alt="Zweite Szene ">}}
-{{<image src="Wald.jpg" alt="Dritte Szene Garage">}}
-{{<image src="Studio.jpg" alt="Letzte Szene">}}
+{{<image src="garagee.jpg" alt="Erste Szene Garage">}}
+{{<image src="kapelle.jpg" alt="Zweite Szene ">}}
+{{<image src="wald.jpg" alt="Dritte Szene Garage">}}
+{{<image src="studio.jpg" alt="Letzte Szene">}}
 
 {{</section>}}
 
@@ -72,8 +71,8 @@ Hier ein kleiner Einblick über unsere fertigen Szenen.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="Dzem.jpg" name="Dzemal">}}
-{{<team-member image="Soph.jpg" name="Sophy">}}
-{{<team-member image="Est.jpg" name="Estella">}}
-{{<team-member image="Enkh.jpg" name="Enkhjin">}}
+{{<team-member image="dzem.jpg" name="Dzemal">}}
+{{<team-member image="soph.jpg" name="Sophy">}}
+{{<team-member image="est.jpg" name="Estella">}}
+{{<team-member image="enkh.jpg" name="Enkhjin">}}
 {{</gallery>}}
