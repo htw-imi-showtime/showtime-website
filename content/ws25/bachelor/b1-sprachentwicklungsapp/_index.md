@@ -1,16 +1,16 @@
 +++
 project_id = "B1"
-title = "Elukis"
+title = "PlapperDu"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
-subtitle = "Support in the Critical Phase of Language Development"
+subtitle = "Make a difference in your child's early language learning"
 
-claim = "Promote language in everyday life with small learning impulses: while eating together, playing or reading aloud. Experience quality time with less distraction and more dialogue. Less 'on the side', more genuine attention."
+claim = "Less distraction, more dialogue. Empower your child's speech development with mindful language impulses in your daily routine."
 
 
 # Properties for displaying the project in the project list
-card_image = ""
+card_image = "b1_logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Thanh Nga Le", "Thu Thao Anna Dang", "Ritch Nathan Wijaya","Ihor Kotliarov", "Steven Rylski"]
@@ -23,20 +23,27 @@ draft = false
 
 
 
+{{<section>}}
+Navigate the early stages of teaching your child to speak with confidence. PlapperDu offers interactive parent training to strengthen parental intuition and demonstrate how to integrate language-promoting strategies playfully and without pressure into daily life.
 
-{{<section title="Our Goal">}}
-Language development disorders are one of the most common developmental disorders in children, with numbers increased after the COVID-19 pandemic. Language delays are often clinically diagnosed and treated starting at 36 months. The "Watchful Waiting" phase, which lasts from 24 to 36 months, is an overlooked period that is highly relevant for language development. Our goal is to close this gap, strengthen intuitive parental competence, and integrate prevention playfully into everyday family life.
+{{</section>}}
+
+{{<image src="images/app_overview.svg" alt="a pic with the app pages">}}
+
+
+{{<section title="Our Motivation">}}
+
+Speech and language disorders are among the most common developmental challenges in children, a trend that has intensified significantly since the COVID-19 pandemic. Clinical diagnosis and treatment often do not begin until the age of three (36 months). However, the period between 24 and 36 months, also known as the "Watchful Waiting" phase, is a critical window for language development.
+
+We aim to bridge this gap. Through interactive modules and gamified challenges, PlapperDu transforms everyday situations into playful learning opportunities. Meanwhile, integrated language assessments and a vocabulary tracker provide a clear overview of the child's language development. This ensures that the 'Watchful Waiting' phase is no longer just about passing time, but a chance to actively support age-appropiate language development.
 
 {{</section>}}
 
 
 
 
-
-
-
-
 {{<section title="Team">}}
+
 
 - Thao
 - Ritch
