@@ -10,7 +10,7 @@ subtitle = "Physiotherapeutische Übungsbegleitung im Alltag"
 claim = "Übungen zu Hause korrekt durchführen – einfach, sicher, motivierend."
 
 # Properties for displaying the project in the project list
-card_image = "logo.png"
+card_image = "logo.jpeg"
 
 team = ["Khoa Nguyen", "Mandy Nguyen"]
 supervisor = "Julian Fiebig"
@@ -44,7 +44,7 @@ Doch ohne Anleitung ist es oft schwer, diese korrekt durchzuführen oder man ver
 
 <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
   <img src="screenshot-1.png" alt="Wilkommens-Screen" width="220">
-  <img src="screenshot-5.png" alt="Dashboard" width="220">
+  <img src="screenshot-3.png" alt="Dashboard" width="220">
   <img src="screenshot-2.png" alt="Symptom-Suche" width="220">
 </div>
 
@@ -68,6 +68,6 @@ Unser Team besteht aus zwei Studierenden, die das Projekt als Semesterarbeit umg
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="img2.jpg" name="Khoa Nguyen">}}
-{{<team-member image="img1.jpg" name="Mandy Nguyen">}}
+{{<team-member image="img2.jpeg" name="Khoa Nguyen">}}
+{{<team-member image="img1.jpeg" name="Mandy Nguyen">}}
 {{</gallery>}}
