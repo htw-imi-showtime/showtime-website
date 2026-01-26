@@ -44,7 +44,7 @@ Miro initially served as our digital whiteboard for brainstorming, conceptual ma
 
 **Communication & Collaboration**
 
-For managing tasks and staying in touch, we used GitLab for vesion control and Discord and Zoom for meetings and regular updates.
+For managing tasks and staying in touch, we used GitLab for version control and Discord and Zoom for meetings and regular updates.
 
 
 {{<image src="images/tools1.webp" alt="tools">}}
