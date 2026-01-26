@@ -14,7 +14,7 @@ Insights from research fed into collaborative ideation sessions. Using Miro, we 
 
 {{</section>}}
 
-{{<image src="project_images/process/brainstorming_sessions.jpg" alt="Pictures from brainstorming sessions" caption="Collaborative brainstorming and concept mapping">}}
+{{<image src="project_images/process/from_ideas_to_prototype.jpg" alt="Pictures from brainstorming sessions, Miro and Figma" caption="Project development from ideation to Figma prototype">}}
 
 {{<section title="Implementation Strategy">}}
 
@@ -37,7 +37,7 @@ Design evolved iteratively from sketches to a high-fidelity Figma prototype. The
 
 {{</section>}}
 
-{{<image src="project_images/process/figma.jpg" alt="Excerpt of our Figma board" caption="Excerpt from the interactive Figma prototype">}}
+{{<image src="project_images/process/scope_progress.jpg" alt="Scope changes over time as ERM diagrams" caption="Evolution of project scope over time">}}
 
 {{<section title="Development & Deployment">}}
 
@@ -69,7 +69,4 @@ Limited resources required careful technical choices. Iterative testing helped b
 To build trust in automated analysis, interpretability was treated as a core requirement. Outputs are designed to remain understandable and assessable by users.
 
 {{</section>}}
-
-{{<image src="project_images/process/scope_progress.jpg" alt="Scope changes over time as ERM diagrams" caption="Evolution of project scope over time">}}
-
 
