@@ -28,7 +28,7 @@ Navigate the early stages of teaching your child to speak with confidence. Plapp
 
 {{</section>}}
 
-{{<image src="images/app_overview.svg" alt="a pic with the app pages">}}
+{{<image src="images/app_overview.webp" alt="app on different devices">}}
 
 
 {{<section title="Our Motivation">}}
