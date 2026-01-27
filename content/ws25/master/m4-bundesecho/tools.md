@@ -4,69 +4,73 @@ weight = 20
 draft = false
 +++
 
-{{<image src="techstack.jpg" alt="BundesEcho Tech Stack">}}
+{{<image src="project_images/tools/techstack.jpg" alt="BundesEcho Tech Stack">}}
+
 {{<section title="Concept, Design & Version Control">}}
 
-**[Miro](https://miro.com/)**<br>
-Miro was used for the initial brainstorming sessions. It allowed the team to collaboratively visualize ideas and document key decisions.
+**[Miro](https://miro.com/)**  
+Used during early project phases for collaborative brainstorming, idea mapping, and documenting conceptual decisions.
 
-**[Figma](https://figma.com/)**<br>
-Figma was used to create the UI component library, the style guide, and the final high-fidelity design of the BundesEcho user interface.
+**[Figma](https://figma.com/)**  
+Served as the central design tool for UI concepts, component libraries, style guides, and the final high-fidelity interface.
 
-**[Diagrams.net](https://app.diagrams.net/)**<br>
-We utilized this tool to design the entity-relationship diagram for the database schema.
+**[Diagrams.net](https://app.diagrams.net/)**  
+Used to model the database structure through entity-relationship diagrams.
 
-**[Postman](https://www.postman.com/)**<br> 
-Postman served as our primary tool for testing and debugging APIs while the backend server and database were under development.
+**[Postman](https://www.postman.com/)**  
+Primary tool for testing, validating, and debugging API endpoints during backend development.
 
-**[Huggingface](https://huggingface.co/)**<br> 
-Huggingface was used for research and tests of various NLP models for the augmentation of the Q&A archive and RAG.
+**[Hugging Face](https://huggingface.co/)**  
+Used for researching and evaluating NLP and embedding models for data augmentation and RAG experiments.
 
-**[GitLab](https://gitlab.com)**<br>
-GitLab served as the central platform for version control, hosting our frontend and backend repositories. We utilized its integrated Kanban board to manage tickets, assign tasks, and track development progress.
+**[GitLab](https://gitlab.com)**  
+Central platform for version control and project coordination. Repositories for frontend and backend were managed alongside a Kanban board for task tracking and sprint planning.
 
 {{</section>}}
 
 {{<section title="Frontend Development">}}
 
-**[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**<br> 
-JavaScript is the fundamental scripting language used to drive interactivity and logic throughout the frontend application.
+**[Angular](https://angular.io)**  
+Used as the core SPA framework, combining JavaScript-based application logic with TypeScript’s static typing to improve code safety. 
+Its component-driven architecture, routing, and state management enabled a structured and scalable frontend.
 
-**[TypeScript](https://typescriptlang.org)**<br>
-TypeScript is a typed superset of JavaScript that ensures code reliability. We used its static typing and tooling to maintain a scalable codebase and prevent runtime errors.
+**[Apache ECharts](https://echarts.apache.org)**  
+Used to implement interactive visualizations such as Sankey diagrams, gauges, pie charts, network graphs, and pictorial bar charts.
 
-**[Angular](https://angular.io)**<br> 
-Angular was our chosen component-based framework. It handles the single-page application (SPA) architecture, routing, and state management for a seamless user experience.
+**[SCSS](https://sass-lang.com)**  
+Extended CSS with variables, nesting, and mixins to support a consistent and modular design system.
 
-**[Apache ECharts](https://echarts.apache.org)**<br> 
-ECharts is the engine behind our data visualizations. We implemented Sankey diagrams, Gauge charts, Pie charts, network Graphs, and PictorialBars to make complex political data digestible.
-
-**[SCSS](https://sass-lang.com)**<br> 
-SCSSis an extension of CSS that allowed us to use variables, nesting, and mixins, ensuring a consistent and modular design system across the platform.
 {{</section>}}
+
 
 {{<section title="Backend Development">}}
 
-**[Python](https://python.org)**<br>
-Pythonwas used for all backend logic, data processing pipelines, and AI integration.
+**[Python](https://python.org)**  
+Used for backend logic, data processing pipelines, and AI integration.
 
-**[Django](https://djangoproject.com)**<br> 
-Django was our web framework of choice. It provides the REST API structure, manages the database, and serves as the bridge between the client and our AI services.
-**[PostgreSQL with pgvector extension](https://github.com/pgvector/pgvector)**<br> 
-PostgreSQL combined with the pgvector extension was selected to store and query high-dimensional embeddings for semantic search.
+**[Django](https://djangoproject.com)**  
+Forms the core backend framework, providing REST APIs, database integration, and coordination between data processing and frontend requests.
 
-**[Ollama](https://ollama.ai)**<br> 
-Ollama-client, hosted on the HTW ML server, served our local LLMs, handling inference for augmentation and summarization.
+**[drf-yasg](https://drf-yasg.readthedocs.io/en/latest/)**  
+Automatically generates OpenAPI 3 documentation for the backend APIs.
 
-**[Llama 3.1 (70B)](https://ollama.com/library/llama3.1:70b)**<br> 
-This is the state-of-the-art LLM used for data augmentation and RAG summarization. We selected the 70B parameter model for its superior nuance in understanding political context.
+**[PostgreSQL + pgvector](https://github.com/pgvector/pgvector)**  
+Stores structured data alongside vector embeddings, enabling efficient semantic similarity queries.
 
-**[nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5)**<br> 
-This is a high-performance embedding model that converts Q&A text into 768-dimensional vectors. This model was selected for its high accuracy and speed, enabling efficient semantic search and vector-based similarity analysis.
+**[Ollama](https://ollama.ai)**  
+Hosts locally deployed language models on the HTW ML server, handling inference for augmentation and summarization tasks.
 
-**[Apache HTTP Server](https://httpd.apache.org)**<br>
-Apache is the configured backend server used to host the BundesEcho backend application.
+**[Llama 3.1 (70B)](https://ollama.com/library/llama3.1:70b)**  
+Used for contextual analysis and RAG-based summarization, selected for its strong performance on nuanced political language.
 
-**[Gunicorn](https://pypi.org/project/gunicorn/)**<br>
-Gunicorn serves as our WSGI application server, managing Django worker processes and handling HTTP requests forwarded by Apache for the application.
+**[nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5)**  
+Embedding model that converts Q&A content into 768-dimensional vectors, supporting fast and accurate semantic search.
+
+**[Apache HTTP Server](https://httpd.apache.org)**  
+Acts as the web server hosting both the frontend and the backend application.
+
+**[Gunicorn](https://pypi.org/project/gunicorn/)**  
+WSGI server responsible for managing Django worker processes and handling incoming requests forwarded by Apache.
+
 {{</section>}}
+

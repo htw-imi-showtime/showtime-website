@@ -16,7 +16,7 @@ claim = "Erlebe die Welt so, wie sie wirklich ist - in '3D'"
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 
 # Properties for displaying the project in the project list
-card_image = "Logo.png"
+card_image = "logo.png"
 
 # Names are optional, team size is sufficient
 team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin Erkhembayar"]
@@ -34,7 +34,6 @@ demo_link = ""
 # website: if you have another project website (not demo)
 website_link = ""
 +++
-
 
 {{<section title="Unser Ziel">}}
 Ziel dieses Projekts ist die Entwicklung eines 3D-Spiels mit Unity, in dem der Spieler die Rolle eines Reisenden übernimmt und durch verschiedene Szenen navigiert. Um im Spiel voranzukommen, müssen Rätsel gelöst und neue Bereiche erkundet werden. Der Fokus liegt dabei auf der Umsetzung einer zusammenhängenden 3D-Spielwelt, dem Szenenmanagement sowie der Gestaltung interaktiver Elemente.
@@ -58,12 +57,12 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 {{<section title="Ergebnis">}}
 
-Hier ein kleiner Einblick über unsere Fertigen Szenen.
+Hier ein kleiner Einblick über unsere fertigen Szenen.
 
-{{<image src="Garage.png" alt="Erste Szene Garage">}}
-{{<image src="" alt="Zweite Szene ">}}
-{{<image src="" alt="Dritte Szene Garage">}}
-{{<image src="Music.png" alt="Letzte Szene">}}
+{{<image src="garagee.jpg" alt="Erste Szene Garage">}}
+{{<image src="kapelle.jpg" alt="Zweite Szene ">}}
+{{<image src="wald.jpg" alt="Dritte Szene Garage">}}
+{{<image src="studio.jpg" alt="Letzte Szene">}}
 
 {{</section>}}
 
@@ -72,8 +71,8 @@ Hier ein kleiner Einblick über unsere Fertigen Szenen.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="Dzem.png" name="Dzemal">}}
-{{<team-member image="Est.png" name="Estella">}}
-{{<team-member image="Soph.png" name="Sophy">}}
-{{<team-member image="Enkh.png" name="Enkhjin">}}
+{{<team-member image="dzem.jpg" name="Dzemal">}}
+{{<team-member image="soph.jpg" name="Sophy">}}
+{{<team-member image="est.jpg" name="Estella">}}
+{{<team-member image="enkh.jpg" name="Enkhjin">}}
 {{</gallery>}}
