@@ -68,10 +68,7 @@ Hier ein kleiner Einblick über unsere fertigen Szenen.
 {{<image src="kapelle.jpg" alt="Zweite Szene ">}}
 {{<image src="wald.jpg" alt="Dritte Szene Garage">}}
 {{<image src="studio.jpg" alt="Letzte Szene">}}
-{{<image src="garagee.jpg" alt="erste Szene Garage">}}
-{{<image src="kapelle.jpg" alt="zweite Szene ">}}
-{{<image src="wald.jpg" alt="dritte Szene Garage">}}
-{{<image src="studio.jpg" alt="letzte Szene">}}
+
 
 {{</section>}}
 
@@ -80,10 +77,7 @@ Hier ein kleiner Einblick über unsere fertigen Szenen.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="dzem.jpg" name="Dzemal">}}
-{{<team-member image="soph.jpg" name="Sophy">}}
-{{<team-member image="est.jpg" name="Estella">}}
-{{<team-member image="enkh.jpg" name="Enkhjin">}}
+
 {{<team-member image="dzem.jpg" name="Dzemal">}}
 {{<team-member image="soph.jpg" name="Sophy">}}
 {{<team-member image="este.jpg" name="Estella">}}
