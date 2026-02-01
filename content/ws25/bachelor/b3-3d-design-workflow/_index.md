@@ -35,6 +35,9 @@ demo_link = ""
 website_link = ""
 +++
 
+Unser Spiel führt durch verschiedene Welten, in denen man die Rolle eines Wissenschaftlers übernimmt, der nach seiner entflohenen Katze sucht. In jeder Welt erkundet man unterschiedliche Szenen und löst Aufgaben, um den Weg in die nächste Welt freizuschalten. Das zentrale Ziel ist es, der Spur der Katze zu folgen und sie wiederzufinden.
+
+
 {{<section title="Unser Ziel">}}
 Ziel dieses Projekts ist die Entwicklung eines 3D-Spiels mit Unity, in dem der Spieler die Rolle eines Reisenden übernimmt und durch verschiedene Szenen navigiert. Um im Spiel voranzukommen, müssen Rätsel gelöst und neue Bereiche erkundet werden. Der Fokus liegt dabei auf der Umsetzung einer zusammenhängenden 3D-Spielwelt, dem Szenenmanagement sowie der Gestaltung interaktiver Elemente.
 
