@@ -64,7 +64,7 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 Hier ein kleiner Einblick über unsere fertigen Szenen.
 
-{{<image src="garagee.jpg" alt="Erste Szene Garage">}}
+{{<image src="garage.jpg" alt="Erste Szene Garage">}}
 {{<image src="kapelle.jpg" alt="Zweite Szene ">}}
 {{<image src="wald.jpg" alt="Dritte Szene Garage">}}
 {{<image src="studio.jpg" alt="Letzte Szene">}}
