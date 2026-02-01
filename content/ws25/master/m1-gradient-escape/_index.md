@@ -17,15 +17,13 @@ claim = "Join us on an interactive journey into the woods, where you'll learn ab
 abstract = ""
 
 # Properties for displaying the project in the project list
-card_image = "images/Title.jpeg"
+card_image = "images/ge_logo.jpeg"
 
 # Names are optional, team size is sufficient
 team = ["Alex", "Lukas", "Sonja"]
 # this can be just one or a list as with team:
 supervisor = ["Prof. Dr. Gefei Zhang", "Prof. Dr. Lucy Weggler"]
 draft = false
-
-
 # e.g. github
 source_link = ""
 # link to a demo site / where your project is available.
@@ -36,25 +34,27 @@ demo_link = "https://play.unity.com/en/games/7ac67fd4-ab96-4302-a685-5a17d7e668e
 website_link = ""
 +++
 
-{{<section title="Our Goal">}}
-The primary goal of Gradient Escape is to create an educational experience that helps players understand gradient functions through interactive gameplay. Set in a misty forest, the game challenges players to navigate the environment, using a discovered map and various tools to find the best pathways and reach the exit.
+{{<mediathek id="f521270cc8d683df744dcc05e590b142">}}
 
-![Tutorial View](/ws25/master/m1-gradient-escape/images/Navigator.jpeg "Scene_Level1_Navigator")
+{{<section title="Our Goal">}}
+The primary goal of Gradient Escape is to provide users with an educational experience capable of helping them to understand the concept of gradient functions through an interactive journey set in a misty forest. The game challenges you to navigate its punishing environment using the mysterious “gradient map“ - interpreting it correctly is crucial if you want to escape.
+
+![Tutorial View](/ws25/master/m1-gradient-escape/images/title.jpeg "Scene_Level1_Navigator")
 
 {{</section>}}
 
 {{<section title="Gameplay">}}
-Gradient Escape is an educational first-person video game that encourages players to interact with the world around them. Set in a gloomy forest, the game features a mocking owl who acts as a navigator, helping the player to take their first steps on the unknown terrain. The player must navigate through a gloomy forest to find the exit marked on a magical map. 
+Gradient Escape is a first-person game with an emphasis on exploration and problem solving.  The player awakens in an ominous forest and is guided into the game by a speaking owl, which mocks them and only offers them basic advice on how to navigate the forest. Quickly, the player will have to realize that each path taken in the forest costs them energy, though they are not shown how much before they make their choice. Only the gradient map may help the player to approximate the cost each path takes, allowing them to reach the exit point before their energy runs out. 
 
-But beware, as there’s a mysterious fog inhibiting your view, making it so that you have to use various tools to reach the goal, first and foremost the ‘gradient map’. Will you be able to make it out or will you get lost until you collapse from exhaustion? It all depends on understanding the weird arrows drawn on your map …
+On their journey, the player is encouraged to explore their environment to find useful items which they must use tactically in order to succeed. Each level is dictated by a unique function which determines the “shape” of the forest and its hidden gradients. To beat the game, the player has to finish all 7 levels with each one requiring them to understand the mathematical concept better than the one before. In addition, there are 3 bonus levels with unique twists available for those looking for a challenge.
 
-![Gradient Map](/ws25/master/m1-gradient-escape/images/GradientMap.jpeg "Scene_Level1_GradientMap")
+
+![Gradient Map](/ws25/master/m1-gradient-escape/images/gradientmap.jpeg "Scene_Level1_GradientMap")
 
 {{</section>}}
 
 {{<section title="Team">}}
 
-Alex, Lukas, Sonja
 
 <!--
 * **Subheader 1**
@@ -76,8 +76,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque i
 
 
 {{<gallery>}}
-{{<team-member image="Alex_profile.jpg" name="Alex">}}
-{{<team-member image="cat.jpg" name="Lukas">}}
-{{<team-member image="sonja_profile.jpg" name="Sonja">}}
+{{<team-member image="Alex_profile.jpeg" name="Alex">}}
+{{<team-member image="Lukas_profile.jpeg" name="Lukas">}}
+{{<team-member image="Sonja_profile.jpeg" name="Sonja">}}
 {{</gallery>}}
 
