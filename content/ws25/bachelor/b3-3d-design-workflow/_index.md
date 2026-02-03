@@ -16,7 +16,7 @@ claim = "Erlebe die Welt so, wie sie wirklich ist - in '3D'"
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 
 # Properties for displaying the project in the project list
-card_image = "logo.png"
+card_image = "logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin Erkhembayar"]
