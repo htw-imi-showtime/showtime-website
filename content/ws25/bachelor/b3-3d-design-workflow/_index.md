@@ -64,7 +64,7 @@ Hier ein kleiner Einblick über unsere fertigen Szenen.
 
 {{<image src="garage.jpg" alt="Erste Szene Garage">}}
 {{<image src="kapelle.jpg" alt="Zweite Szene ">}}
-{{<image src="wald.jpg" alt="Dritte Szene Garage">}}
+{{<image src="forest.jpg" alt="Dritte Szene Garage">}}
 {{<image src="studio.jpg" alt="Letzte Szene">}}
 
 {{</section>}}
