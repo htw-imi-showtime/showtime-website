@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urban Bio Space Simulator on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/</link>
+    <description>Recent content in Urban Bio Space Simulator on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Team</title>
+      <link>https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/team/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Team&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;Unser komplettes Team trifft sich zwei mal wöchentlich um zu besprechen, was für alle von Bedeutung ist.&#xA;Wer gerade an ähnlichen Sachen arbeitet, stimmt sich zusätzlich ab.&#xA;Darüber hinaus sprechen wir Verzögerungen, Probleme und Meinungsverschiedenheiten an, wenn sie entstehen.&#xA;Wir halten in GitLab Issues fest, woran wir arbeiten und schauen einander in Code Reviews über die Schulter.&lt;/p&gt;&#xA;&lt;section class=&#34;gallery&#34;&gt;&#xA;    &lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/images/team/ahernandez.jpg&#34; alt=&#34;Portrait of Alejandro Martinez Hernandez&#34;&gt;&#xA;    &lt;figcaption&gt;Alejandro Martinez Hernandez&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/images/team/ajaeger.jpg&#34; alt=&#34;Portrait of Alexander Jäger&#34;&gt;&#xA;    &lt;figcaption&gt;Alexander Jäger&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/images/team/alehmann.jpg&#34; alt=&#34;Portrait of Anton Lehmann&#34;&gt;&#xA;    &lt;figcaption&gt;Anton Lehmann&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/images/team/hbenn.jpg&#34; alt=&#34;Portrait of Harvey Benn&#34;&gt;&#xA;    &lt;figcaption&gt;Harvey Benn&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/images/team/kschiwarov.jpg&#34; alt=&#34;Portrait of Konstantin Schiwarov&#34;&gt;&#xA;    &lt;figcaption&gt;Konstantin Schiwarov&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/images/team/lweissenstein.jpg&#34; alt=&#34;Portrait of Lennart Weissenstein&#34;&gt;&#xA;    &lt;figcaption&gt;Lennart Weissenstein&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/images/team/tbayer.jpg&#34; alt=&#34;Portrait of Tobias Bayer&#34;&gt;&#xA;    &lt;figcaption&gt;Tobias Bayer&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/section&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ss25/bachelor/b4-urban-bio-space-simulator/tools/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Tools&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;Unser Spiel ist ein Unity Projekt, also verwenden wir C#.&#xA;Die Modelle erstellen wir mit Maya, Shader und Materials weisen wir in Unity zu.&#xA;Für unsere CI/CD Pipeline in GitLab verwenden wir Google Cloud Platform.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Canva&lt;/li&gt;&#xA;&lt;li&gt;GitLab&lt;/li&gt;&#xA;&lt;li&gt;Google Cloud Platform&lt;/li&gt;&#xA;&lt;li&gt;Maya&lt;/li&gt;&#xA;&lt;li&gt;Paint.net&lt;/li&gt;&#xA;&lt;li&gt;Terraform&lt;/li&gt;&#xA;&lt;li&gt;Unity&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;</description>
+    </item>
+  </channel>
+</rss>

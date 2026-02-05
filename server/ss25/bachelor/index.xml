@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ss25/bachelor/</link>
+    <description>Recent content on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ss25/bachelor/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

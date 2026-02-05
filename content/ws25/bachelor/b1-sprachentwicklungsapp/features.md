@@ -9,7 +9,7 @@ draft = false
 
 {{<section title="Features">}}
 
-{{<image src="images/pages_overview.webp" alt="pages of the app">}}
+{{<image src="images/overview2.png" alt="pages of the app">}}
 
 
 **Dashboard**
@@ -17,11 +17,12 @@ draft = false
 Get a quick overview of your ongoing learning modules or weekly challenge, open language assessments and daily activities.
 
 
+
+
 * **Milestones and Badges:**
 
 Capture and celebrate every important step in your and your child's language development journey with Milestones and Badges. 
 
-{{<image src="images/dashboard_page.webp" alt="dashboard">}}
 
 
 
@@ -31,7 +32,16 @@ Capture and celebrate every important step in your and your child's language dev
 
 Access short, interactive lessons that teach you how to support language learning in your everyday life.
 
-{{<image src="images/learning_module1.png" alt="a pic with the app pages">}}
+
+
+
+**Challenges**
+
+Discover playful weekly tasks that turn your daily routines into effective language-building moments.
+
+
+
+{{<image src="images/learn_dash_challenge.png" alt="pages of the app">}}
 
 
 
@@ -51,22 +61,16 @@ Keep a personal journal of special moments and notes on your language journey.
 
 Complete standardized language assessments directly in the app to monitor developmental progress. 
 
-{{<image src="images/progress_page.webp" alt="progress page">}}
+{{<image src="images/progress2.png" alt="progress page">}}
 
 
 
-**Challenges**
-
-Discover playful weekly tasks that turn your daily routines into effective language-building moments.
-
-
-{{<image src="images/challenge.webp" alt="challenge">}}
 
 
 **Family Access**
 
 Language learning is a team effort. Invite your partner, grandparents or caregivers to join your family group on the app so everyone can contribute to and keep an eye on the child's language development.
 
-{{<image src="images/profile.webp" alt="profile page">}}
+{{<image src="images/profile1.png" alt="profile page">}}
 
 {{</section>}}

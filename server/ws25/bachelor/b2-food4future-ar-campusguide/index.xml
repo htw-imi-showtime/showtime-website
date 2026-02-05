@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>food4future - AR Campus Guide on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ws25/bachelor/b2-food4future-ar-campusguide/</link>
+    <description>Recent content in food4future - AR Campus Guide on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ws25/bachelor/b2-food4future-ar-campusguide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Outlook</title>
+      <link>https://showtime.f4.htw-berlin.de/ws25/bachelor/b2-food4future-ar-campusguide/outlook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws25/bachelor/b2-food4future-ar-campusguide/outlook/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Future Extensions&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;In the future, the AR campus guide could be expanded with several new features to improve the overall user experience. One possible extension would be the integration of &lt;strong&gt;sound effects&lt;/strong&gt;, making the exploration of the campus more immersive and engaging.&lt;/p&gt;&#xA;&lt;p&gt;Another important step would be the use of &lt;strong&gt;real location data&lt;/strong&gt;. At the moment, concrete campus locations are not yet available, so the guide currently works with pseudo locations. Once real location data is provided, it could be integrated to enable more accurate navigation between the different stations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://showtime.f4.htw-berlin.de/ws25/bachelor/b2-food4future-ar-campusguide/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws25/bachelor/b2-food4future-ar-campusguide/tools/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Tools&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;For the development of our AR-based campus guide, we used a range of web and design tools. The application was built with React and TypeScript, using Vite as a fast development and build tool. WebXR enables augmented reality experiences directly in the browser, while Leaflet.js is used for the interactive map and GPS based navigation on campus. We used Blender for our 3D models. For designing our poster and presentation, we worked with Canva. GitHub supported our collaboration and version control throughout the entire project.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

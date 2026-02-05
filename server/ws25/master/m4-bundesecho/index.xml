@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BundesEcho on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ws25/master/m4-bundesecho/</link>
+    <description>Recent content in BundesEcho on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ws25/master/m4-bundesecho/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>https://showtime.f4.htw-berlin.de/ws25/master/m4-bundesecho/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws25/master/m4-bundesecho/tools/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;    &#xA;        &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ws25/master/m4-bundesecho/techstack.jpg&#34; alt=&#34;BundesEcho Tech Stack&#34;&gt;&#xA;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Concept, Design &amp;amp; Version Control&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://miro.com/&#34;&gt;Miro&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Miro was used for the initial brainstorming sessions. It allowed the team to collaboratively visualize ideas and document key decisions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://figma.com/&#34;&gt;Figma&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Figma was used to create the UI component library, the style guide, and the final high-fidelity design of the BundesEcho user interface.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://app.diagrams.net/&#34;&gt;Diagrams.net&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;We utilized this tool to design the entity-relationship diagram for the database schema.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.postman.com/&#34;&gt;Postman&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Postman served as our primary tool for testing and debugging APIs while the backend server and database were under development.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

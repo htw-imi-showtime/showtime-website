@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Technology on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/study_focus/game-technology/</link>
+    <description>Recent content in Game Technology on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/study_focus/game-technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HoloCMS</title>
+      <link>https://showtime.f4.htw-berlin.de/ws24/bachelor/b5-holocms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws24/bachelor/b5-holocms/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Our Goal&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        The main goal of HoloCMS is to create an interactive and user friendly platform that leverages AR for educational and cultural experiences. By combining QR code technology with the Microsoft HoloLens 2, we aim to offer an immersive way for users to discover and explore detailed information intuitively.&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Features&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;&lt;strong&gt;QR Code Scanning:&lt;/strong&gt;&#xA;With HoloCMS, users can move through different environments using the Microsoft HoloLens 2 to scan QR codes that activate digital content displays.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

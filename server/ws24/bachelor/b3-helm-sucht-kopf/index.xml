@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Helm sucht Kopf on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/</link>
+    <description>Recent content in Helm sucht Kopf on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/development/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Process&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;Starting B3 - Berliner Feuerwehr: Helm Sucht Kopf, we began by analyzing the current fire&#xA;department website to pinpoint its pain points and areas for improvement. Our key questions&#xA;were: What’s not working? What could be improved? And how can we create solutions that&#xA;meet the needs of users, stakeholders, and us?&lt;/p&gt;&#xA;&lt;p&gt;To better understand user behavior, we examined website statistics provided by the fire&#xA;department, such as time spent on various pages and points of disengagement. Additionally, we&#xA;conducted a survey with 16 individuals who had applied within the last four years. We asked&#xA;them about the challenges they faced, their motivations, and their suggestions for improvement.&#xA;This survey allowed us to connect more closely with the applicants perspectives and gain a&#xA;deeper understanding of the problem. The more thoroughly we understand an issue, the easier&#xA;it becomes to solve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/features/</guid>
+      <description>&lt;figure&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/assets/banner.jpg&#34; alt=&#34;A banner showing the pages of the website.&#34;&gt;&#xA;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Features&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;To make sure we reach as many people as possible, we’ve included four main features:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Classic Filter Page:&lt;/strong&gt;&lt;br&gt;&#xA;Easily find the right opportunity by filtering based on your highest level of education and personal preferences.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quiz with a Storyline:&lt;/strong&gt;&lt;br&gt;&#xA;Take a short, engaging quiz to test your personality and decision-making skills. Based on your answers, we’ll guide you to the entry path that suits you best.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interactive Video:&lt;/strong&gt;&lt;br&gt;&#xA;Take an interactive tour through the different training rooms and get&#xA;a feel for what it’s like to be a part of the team.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;FAQ Chatbot:&lt;/strong&gt;&lt;br&gt;&#xA;Got questions? Our chatbot is here to help with quick answers&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;</description>
+    </item>
+    <item>
+      <title>Special Thanks</title>
+      <link>https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/specialthanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/specialthanks/</guid>
+      <description>&lt;section class=&#34;gallery&#34;&gt;&#xA;    &lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/team/aaron.jpg&#34; alt=&#34;Portrait of Aaron, our cameraman&#34;&gt;&#xA;    &lt;figcaption&gt;Aaron, our cameraman&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;team-member&#34;&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ws24/bachelor/b3-helm-sucht-kopf/team/azubis.jpg&#34; alt=&#34;Portrait of Emily, Duc, Paul&#34;&gt;&#xA;    &lt;figcaption&gt;Emily, Duc, Paul&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;/section&gt;</description>
+    </item>
+  </channel>
+</rss>

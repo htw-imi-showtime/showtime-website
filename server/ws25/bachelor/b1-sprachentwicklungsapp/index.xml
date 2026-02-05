@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlapperDu on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/</link>
+    <description>Recent content in PlapperDu on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Process</title>
+      <link>https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/development/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Process&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;PlapperDu began with enthusiastic brainstorming and a flood of concepts. In the early stages, an extensive list of features was gathered, and the team familiarized themselves with the tools and frameworks required for implementation.&lt;/p&gt;&#xA;&lt;p&gt;However, the first major challenge soon emerged: defining the scope. With so many possibilities, it was difficult to pinpoint exactly what was essential and what was out of reach.&lt;/p&gt;&#xA;&lt;p&gt;Initially, the goal was to map out everything perfectly from the start. A lot of time was spent translating every idea into comprehensive UI prototypes, requirements, and database models. It quickly became clear that this &amp;ldquo;Waterfall&amp;rdquo; approach was too time-consuming.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/features/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Features&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;figure&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/images/pages_overview.webp&#34; alt=&#34;pages of the app&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dashboard&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Get a quick overview of your ongoing learning modules or weekly challenge, open language assessments and daily activities.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Milestones and Badges:&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Capture and celebrate every important step in your and your child&amp;rsquo;s language development journey with Milestones and Badges.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/images/dashboard_page.webp&#34; alt=&#34;dashboard&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;&lt;strong&gt;Learning Modules&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Access short, interactive lessons that teach you how to support language learning in your everyday life.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/images/learning_module1.png&#34; alt=&#34;a pic with the app pages&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;&lt;strong&gt;Progress&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws25/bachelor/b1-sprachentwicklungsapp/tools/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Tech Stack&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Django&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We used Django as our server-side framework for managing core business logic, secure user authentication and ensuring reliable data persistence.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vue.js&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For the frontend development, we utilized Vue.js to implement a reactive and interactive user interface.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Nuxt.js&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Nuxt is a framework built on top of Vue.js. It provides built-in features such as automatic routing and server-side rendering (SSR), which allowed us to create a more efficient and seamless frontend.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>360° Director&#39;s Cut on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ss25/master/m1-directors-cut-360/</link>
+    <description>Recent content in 360° Director&#39;s Cut on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ss25/master/m1-directors-cut-360/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Details</title>
+      <link>https://showtime.f4.htw-berlin.de/ss25/master/m1-directors-cut-360/details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ss25/master/m1-directors-cut-360/details/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Development Process&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;Our project followed an agile development approach. We utilized GitHub Projects to implement a Kanban board, which allowed us to organize our work into, manageable tickets. Each ticket represented a specific task or feature.  The Board consisted of the stages &amp;ldquo;To Do&amp;rdquo;, &amp;ldquo;In Progress&amp;rdquo; to &amp;ldquo;Done,&amp;rdquo; providing us with a good overview of the projects progress. Additionally, we also made a &amp;ldquo;Nice To Have&amp;rdquo; stage for potential new features.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://showtime.f4.htw-berlin.de/ss25/master/m1-directors-cut-360/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ss25/master/m1-directors-cut-360/tools/</guid>
+      <description>&lt;figure&gt;&#xA;    &lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Languages&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;h4 id=&#34;python&#34;&gt;Python&lt;/h4&gt;&#xA;&lt;p&gt;Python version 3.9.11 and 3.8.20 was used für the scripting.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Packages&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;h4 id=&#34;pyside6&#34;&gt;PySide6&lt;/h4&gt;&#xA;&lt;p&gt;The package PySide version 6.9.1 was importen to use QT and cereate our graphical user interface.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pypi.org/project/PySide6/&#34;&gt;PySide6&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.qt.io/&#34;&gt;QT&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;opencv&#34;&gt;OpenCV&lt;/h4&gt;&#xA;&lt;p&gt;The package OpenCV version 4.11.0 was used to manage the video controlls and processing.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pypi.org/project/opencv-python/&#34;&gt;OpenCV Python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://opencv.org/&#34;&gt;OpenCV&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Repositories&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;h4 id=&#34;fastsal&#34;&gt;FastSal&lt;/h4&gt;&#xA;&lt;p&gt;We used FastSal as a predictor algorithm. There were edits needed on the codebase to guarantee compability.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

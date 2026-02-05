@@ -1,0 +1,1 @@
+@media print{#header,#footer,.dontprint{display:none!important}nav{display:none!important}h1::after{display:none!important}h1{font-size:3rem}}header{margin-top:5rem;margin-bottom:1rem}li{margin:7 1rem}h3{color:#3e2d4a}nav{position:static}.bachelor .master{margin-right:12rem}footer{display:none!important}.schedule>section ul>li .master{color:#3e2d4a}

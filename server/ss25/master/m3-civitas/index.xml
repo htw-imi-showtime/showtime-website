@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Civitas on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/ss25/master/m3-civitas/</link>
+    <description>Recent content in Civitas on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/ss25/master/m3-civitas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genesis et Civitas</title>
+      <link>https://showtime.f4.htw-berlin.de/ss25/master/m3-civitas/genesis-et-civitas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ss25/master/m3-civitas/genesis-et-civitas/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;../../m2-genesis&#34;&gt;Genesis&lt;/a&gt; et &lt;a href=&#34;../../m3-civitas&#34;&gt;Civitas&lt;/a&gt; is a top down god game using a dynamically generated world map. Players first take part in the creation of the world, influencing the effects of natural laws, before guiding civilisations and establishing themselves as their god.&lt;/p&gt;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Two Groups for One Project&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;&lt;strong&gt;A big idea for a big group&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The game has two phases. In the first section, “Genesis” players take part in the procedural generation of a world map. In the second part, “Civitas” players guide and influence the birth of civilisation. Both phases originate from the same idea: play god and watch your own world form. But with that idea at the core and 8 people on our hands, we decided to split the group into two fundamentally different parts of the game that build upon each other.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

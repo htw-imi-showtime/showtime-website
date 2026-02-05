@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on IMI Showtime</title>
+    <link>https://showtime.f4.htw-berlin.de/tags/ai/</link>
+    <description>Recent content in AI on IMI Showtime</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://showtime.f4.htw-berlin.de/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VoiSum</title>
+      <link>https://showtime.f4.htw-berlin.de/ws24/bachelor/b2-voisum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://showtime.f4.htw-berlin.de/ws24/bachelor/b2-voisum/</guid>
+      <description>&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Our Goal&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        In today&amp;rsquo;s fast-paced world, we&amp;rsquo;re aiming to transform how people consume voice messages by creating an AI-powered solution that cuts through the noise. Our tool takes those rambling voice notes and delivers just the essential content - no fluff, no filler words, just the key points you need. By combining speech-to-text, smart summarization, and voice synthesis, we&amp;rsquo;re not just saving time - we&amp;rsquo;re making voice communication more efficient while keeping it personal.&#xA;    &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;section&gt;&#xA;    &lt;h3&gt;&#xA;        &#xA;            Features&#xA;        &#xA;    &lt;/h3&gt;&#xA;    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;content&#34;&gt;&#xA;        &lt;p&gt;So, let&amp;rsquo;s break down what our software can actually do. First up, our software provides an integrated transcription-and-summarization service via a single endpoint, delivering both a full transcript of your audio and a concise summary. This all-in-one approach streamlines the process, eliminating the need to handle transcription and summarization separately. However &amp;ldquo;transcribe&amp;rdquo; and &amp;ldquo;summarize&amp;rdquo; can still be called separately, if need be.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
