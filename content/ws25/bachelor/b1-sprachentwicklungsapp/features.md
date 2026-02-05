@@ -71,6 +71,6 @@ Complete standardized language assessments directly in the app to monitor develo
 
 Language learning is a team effort. Invite your partner, grandparents or caregivers to join your family group on the app so everyone can contribute to and keep an eye on the child's language development.
 
-{{<image src="images/profile1.png" alt="profile page">}}
+{{<image src="images/profile.png" alt="profile page">}}
 
 {{</section>}}
