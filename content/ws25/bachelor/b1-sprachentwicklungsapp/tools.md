@@ -45,4 +45,4 @@ For managing tasks and staying in touch, we used GitLab for version control and 
 
 {{</section>}}
 
-{{<image src="images/tools1.svg" alt="tools">}}
+{{<image src="images/tools1.webp" alt="tools">}}

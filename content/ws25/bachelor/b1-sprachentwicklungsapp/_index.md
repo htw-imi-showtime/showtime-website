@@ -11,7 +11,7 @@ claim = "Less distraction, more dialogue. Empower your child's speech developmen
 abstract = "Navigate the early stages of teaching your child to speak with confidence. PlapperDu offers interactive parent training to strengthen parental intuition and demonstrate how to integrate language-promoting strategies playfully and without pressure into daily life."
 
 # Properties for displaying the project in the project list
-card_image = "images/plapperDu_logo.jpg"
+card_image = "images/plapperdu-logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Thanh Nga Le", "Thu Thao Anna Dang", "Ritch Nathan Wijaya","Ihor Kotliarov", "Steven Rylski"]
