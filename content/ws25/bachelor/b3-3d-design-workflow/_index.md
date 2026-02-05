@@ -16,7 +16,7 @@ claim = "Erlebe die Welt so, wie sie wirklich ist - in '3D'"
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 
 # Properties for displaying the project in the project list
-card_image = "logo.png"
+card_image = "logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin Erkhembayar"]
@@ -34,6 +34,9 @@ demo_link = ""
 # website: if you have another project website (not demo)
 website_link = ""
 +++
+
+Unser Spiel führt durch verschiedene Welten, in denen man die Rolle eines Wissenschaftlers übernimmt, der nach seiner entflohenen Katze sucht. In jeder Welt erkundet man unterschiedliche Szenen und löst Aufgaben, um den Weg in die nächste Welt freizuschalten. Das zentrale Ziel ist es, der Spur der Katze zu folgen und sie wiederzufinden.
+
 
 {{<section title="Unser Ziel">}}
 Ziel dieses Projekts ist die Entwicklung eines 3D-Spiels mit Unity, in dem der Spieler die Rolle eines Reisenden übernimmt und durch verschiedene Szenen navigiert. Um im Spiel voranzukommen, müssen Rätsel gelöst und neue Bereiche erkundet werden. Der Fokus liegt dabei auf der Umsetzung einer zusammenhängenden 3D-Spielwelt, dem Szenenmanagement sowie der Gestaltung interaktiver Elemente.
@@ -59,9 +62,9 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 Hier ein kleiner Einblick über unsere fertigen Szenen.
 
-{{<image src="garagee.jpg" alt="Erste Szene Garage">}}
+{{<image src="garage.jpg" alt="Erste Szene Garage">}}
 {{<image src="kapelle.jpg" alt="Zweite Szene ">}}
-{{<image src="wald.jpg" alt="Dritte Szene Garage">}}
+{{<image src="forest.jpg" alt="Dritte Szene Garage">}}
 {{<image src="studio.jpg" alt="Letzte Szene">}}
 
 {{</section>}}
@@ -73,6 +76,6 @@ Hier ein kleiner Einblick über unsere fertigen Szenen.
 {{<gallery>}}
 {{<team-member image="dzem.jpg" name="Dzemal">}}
 {{<team-member image="soph.jpg" name="Sophy">}}
-{{<team-member image="est.jpg" name="Estella">}}
+{{<team-member image="este.jpg" name="Estella">}}
 {{<team-member image="enkh.jpg" name="Enkhjin">}}
 {{</gallery>}}
