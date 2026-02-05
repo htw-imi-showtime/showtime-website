@@ -39,5 +39,3 @@ In addition, the webapp could see a future implementation of a search engine and
 We would like to thank the team of language specialists for sharing their expertise and giving us such a deep insight into their work. We are also incredibly grateful to our supervisor for their guidance and for helping us through this project.
 
 {{</section>}}
-
-

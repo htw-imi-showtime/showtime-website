@@ -29,7 +29,7 @@ draft = false
 
 Speech and language disorders are among the most common developmental challenges in children. Clinical diagnosis and treatment often do not begin until the age of three (36 months). However, the period between 24 and 36 months, also known as the "Watchful Waiting" phase, is a critical window for language development.
 
-We aim to bridge this gap. Through interactive modules and gamified challenges, PlapperDu transforms everyday situations into playful learning opportunities. Meanwhile, integrated language assessments and a vocabulary tracker provide a clear overview of the child's language development. This ensures that the Watchful Waiting phase is no longer just about passing time, but a chance to actively support age-appropriate language development.
+We aim to bridge this gap. Through interactive modules and challenges, PlapperDu transforms everyday situations into playful learning opportunities. Meanwhile, integrated language assessments and a vocabulary tracker provide a clear overview of the child's language development. This ensures that the Watchful Waiting phase is no longer just about passing time, but a chance to actively support age-appropriate language development.
 
 {{</section>}}
 
