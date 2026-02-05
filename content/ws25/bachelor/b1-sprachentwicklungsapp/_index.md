@@ -21,6 +21,7 @@ draft = false
 +++
 
 
+{{<image src="images/overview3.png" alt="app on different devices">}}
 
 
 
@@ -38,12 +39,12 @@ Language development disorders are one of the most common developmental disorder
 
 {{<section title="Team">}}
 
-- Thao
-- Ritch
-- Nga
-- Ihor
-- Steven
-
+{{<gallery>}}
+{{<team-member image="images/thao" name="Thao">}}
+{{<team-member image="images/ritch" name="Ritch">}}
+{{<team-member image="images/nga" name="Nga">}}
+{{<team-member image="images/ihor" name="Ihor">}}
+{{<team-member image="images/steven" name="Steven">}}
  
 
 {{</section>}} 
