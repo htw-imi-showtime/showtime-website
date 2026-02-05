@@ -22,7 +22,7 @@ draft = false
 +++
 
 
-{{<image src="images/overview3.png" alt="app on different devices">}}
+{{<image src="images/overview3.webp" alt="app on different devices">}}
 
 
 {{<section title="Our Motivation">}}
