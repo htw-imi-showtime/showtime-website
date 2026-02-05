@@ -7,7 +7,7 @@ weight = 30
 draft = false
 +++
 
-{{<section title="tech stack">}}
+{{<section title="Tech Stack">}}
 
 + **Django**
 

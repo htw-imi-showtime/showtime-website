@@ -11,13 +11,13 @@ subtitle = "Augmented reality campus guide to explore sustainable nutrition labo
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
 # teaser länger fancy, ein werbespruch mission statement ... soll neugierig machen (claim)
-claim = " We bring the research on sustainable food at the HTW campus to life, using playful elements to show how the food of the future is cultivated "
+claim = " We bring the research on sustainable food at the HTW campus to life, using playful elements to show how the food of the future is cultivated. "
 
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
 # *** KANN WEGGELASSEN WERDEN ***, hat in der früheren Gliederung mehr sinn gemacht,
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 # "die 1. Seite soll die unten angegebenen 3 Sections haben, die Titel der Sections können aber angepasst werden(dies ist das abstract)"
-abstract = "The AR-based campus guide helps visitors explore information about food4future’s sustainable food options directly on the HTW campus."
+abstract = "food4future (f4f) is a research project that focuses on sustainable nutrition for the future. The aim of the project is to explore innovative and resource-efficient foods that can contribute to global food security. Scientists from various disciplines work together on new approaches to food, including alternative protein sources, sustainable cultivation systems, and new processing technologies. The AR-based campus guide helps visitors explore information about food4future’s sustainable food options directly on the HTW campus."
 
 # Properties for displaying the project in the project list
 card_image = "start.jpg"

@@ -16,7 +16,7 @@ claim = "Erlebe die Welt so, wie sie wirklich ist - in '3D'"
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 
 # Properties for displaying the project in the project list
-card_image = "Logo.png"
+card_image = "logo.jpg"
 
 # Names are optional, team size is sufficient
 team = ["Dzemal Alic", "Estella Kinzel", "Lea-Sophy Göser", "Enkhjin Erkhembayar"]
@@ -34,6 +34,8 @@ demo_link = ""
 # website: if you have another project website (not demo)
 website_link = ""
 +++
+
+Unser Spiel führt durch verschiedene Welten, in denen man die Rolle eines Wissenschaftlers übernimmt, der nach seiner entflohenen Katze sucht. In jeder Welt erkundet man unterschiedliche Szenen und löst Aufgaben, um den Weg in die nächste Welt freizuschalten. Das zentrale Ziel ist es, der Spur der Katze zu folgen und sie wiederzufinden.
 
 
 {{<section title="Unser Ziel">}}
@@ -58,12 +60,12 @@ In Unity wurde die Szene so umgesetzt, dass der Spieler aus der First-Person-Per
 
 {{<section title="Ergebnis">}}
 
-Hier ein kleiner Einblick über unsere Fertigen Szenen.
+Hier ein kleiner Einblick über unsere fertigen Szenen.
 
-{{<image src="Garage.png" alt="Erste Szene Garage">}}
-{{<image src="" alt="Zweite Szene ">}}
-{{<image src="" alt="Dritte Szene Garage">}}
-{{<image src="Music.png" alt="Letzte Szene">}}
+{{<image src="garage.jpg" alt="Erste Szene Garage">}}
+{{<image src="kapelle.jpg" alt="Zweite Szene ">}}
+{{<image src="forest.jpg" alt="Dritte Szene Garage">}}
+{{<image src="studio.jpg" alt="Letzte Szene">}}
 
 {{</section>}}
 
@@ -72,8 +74,8 @@ Hier ein kleiner Einblick über unsere Fertigen Szenen.
 {{</section>}}
 
 {{<gallery>}}
-{{<team-member image="Dzem.png" name="Dzemal">}}
-{{<team-member image="Est.png" name="Estella">}}
-{{<team-member image="Soph.png" name="Sophy">}}
-{{<team-member image="Enkh.png" name="Enkhjin">}}
+{{<team-member image="dzem.jpg" name="Dzemal">}}
+{{<team-member image="soph.jpg" name="Sophy">}}
+{{<team-member image="este.jpg" name="Estella">}}
+{{<team-member image="enkh.jpg" name="Enkhjin">}}
 {{</gallery>}}
