@@ -9,7 +9,7 @@ draft = false
 
 {{<section title="Features">}}
 
-{{<image src="images/overview_app2.png" alt="pages of the app">}}
+{{<image src="images/overview_app2.webp" alt="pages of the app">}}
 
 
 **Dashboard**
@@ -41,7 +41,7 @@ Discover playful weekly tasks that turn your daily routines into effective langu
 
 
 
-{{<image src="images/learn_dash_challenge.png" alt="pages of the app">}}
+{{<image src="images/learn_dash_challenge.webp" alt="pages of the app">}}
 
 
 
@@ -61,7 +61,7 @@ Keep a personal journal of special moments and notes on your language journey.
 
 Complete standardized language assessments directly in the app to monitor developmental progress. 
 
-{{<image src="images/progress_2.png" alt="progress page">}}
+{{<image src="images/progress_2.webp" alt="progress page">}}
 
 
 
@@ -71,6 +71,6 @@ Complete standardized language assessments directly in the app to monitor develo
 
 Language learning is a team effort. Invite your partner, grandparents or caregivers to join your family group on the app so everyone can contribute to and keep an eye on the child's language development.
 
-{{<image src="images/profile.png" alt="profile page">}}
+{{<image src="images/profile.webp" alt="profile page">}}
 
 {{</section>}}
