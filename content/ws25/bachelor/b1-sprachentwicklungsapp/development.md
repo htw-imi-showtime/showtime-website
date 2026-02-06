@@ -9,17 +9,14 @@ draft = false
 
 {{<section title="Process">}}
 
-PlapperDu began with enthusiastic brainstorming and a flood of concepts. In the early stages, an extensive list of features was gathered, and the team familiarized themselves with the tools and frameworks required for implementation. 
+PlapperDu began with enthusiastic brainstorming and a flood of concepts. Initially, we aimed to map out everything perfectly, translating every idea into comprehensive UI prototypes, requirements and database models. However, we quickly realized that this waterfall approach was too time-consuming and inefficient, as constant changes made our detailed planning obsolete.
 
-However, the first major challenge soon emerged: defining the scope. With so many possibilities, it was difficult to pinpoint exactly what was essential and what was out of reach.
+We shifted toward Agile development, adopting a build first, refine later strategy. Instead of over-planning, we focused on implementing core features like user authentication and standardized language assessments. This feedback-driven approach allowed us to iterate quickly and maintain constant alignment with our team and product owners.
 
-Initially, the goal was to map out everything perfectly from the start. A lot of time was spent translating every idea into comprehensive UI prototypes, requirements, and database models. It quickly became clear that this "Waterfall" approach was too time-consuming.
+Staying adaptable was key. We frequently reworked or discarded features to meet the product owners' vision while staying within the technical scope. This iterative process allowed us to refine the project according to real expectations.
 
-To overcome this, the strategy shifted toward agile development—a 'build first, refine later' approach. The focus moved to implementing core features like user authentication or standardized language assessments. Once a functional base was established, a feedback-driven approach was used to refine further progress.
+In the final stage, we focused on app consistency and usability. By polishing the user interface and ensuring a unified design language, we created a seamless experience. Our goal was to ensure that parents can navigate the app intuitively, focusing on what matters most without any technical hurdles, which is their child's progress. 
 
-This feedback-based approach ensured constant communication with the team and product owners to keep goals aligned. Being adaptable was very important to frequently rework and discard features to meet the product owners' vision while staying within the technical scope.
-
-In the final stage, the focus was on consistency and usability to ensure that parents can navigate the app intuitively and focus on what matters without technical hurdles.
 
 {{</section>}}
 
@@ -39,3 +36,5 @@ In addition, the webapp could see a future implementation of a search engine and
 We would like to thank the team of language specialists for sharing their expertise and giving us such a deep insight into their work. We are also incredibly grateful to our supervisor for their guidance and for helping us through this project.
 
 {{</section>}}
+
+
