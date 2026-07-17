@@ -8,33 +8,31 @@ draft = false
 +++
 {{<section title="Tech Stack">}}
 
-+ **Xcode**
-
-We used Django as our server-side framework for managing core business logic, secure user authentication and ensuring reliable data persistence.
-
-
-+ **Apis**
-
-For the frontend development, we utilized Vue.js to implement a reactive and interactive user interface.
-
-
-+ **Nuxt.js**
-
-Nuxt is a framework built on top of Vue.js. It provides built-in features such as automatic routing and server-side rendering (SSR), which allowed us to create a more efficient and seamless frontend.
-
-
-+ **Pinia**
-
-For consistent data flow across the application, we implemented Pinia as our state management tool. This ensured that all components remained synchronized.
-
-
-+ **Figma/ Canva/ Freeform**
-
-For the design and user interface, we used Figma, Canva and Freeform. While Freeform provided a quick way to draft initial designs, we used Figma for the detailed UI and Canva for creating visual assets.
-
+Für die Entwicklung von Pflanzbar haben wir verschiedene Tools und Schnittstellen genutzt. Sie unterstützten uns sowohl bei der Organisation und Gestaltung als auch bei der technischen Umsetzung und Zusammenarbeit im Team.
 
 + **Miro**
 
-Miro initially served as our digital whiteboard for brainstorming, conceptual mapping and collecting new ideas during the early stages of the project.
+Miro diente uns als zentrale Plattform für die Organisation und gemeinsame Projektarbeit. Dort sammelten und strukturierten wir Ideen, hielten Absprachen fest und planten die nächsten Arbeitsschritte. Außerdem nutzten wir Miro für gemeinsames Co-Working, Abstimmungen im Team und erste Design-Mockups der App.
+
++ **Xcode**
+
+Xcode war unsere zentrale Entwicklungsumgebung für die technische Umsetzung von Pflanzbar. In Xcode programmierten wir die App mit Swift, testeten einzelne Funktionen und überprüften die Darstellung auf verschiedenen iOS-Geräten und Simulatoren.
+
++ **APIs**
+
+Für verschiedene Funktionen der App verwendeten wir externe Programmierschnittstellen. PlantNet unterstützt die Erkennung von Pflanzen anhand von Bildern. Über Plantbook können zusätzliche Informationen zu Pflanzen und ihren Pflegebedürfnissen eingebunden werden. Wikipedia dient als ergänzende Informationsquelle für weiterführende Inhalte. Die Wetterdaten werden über Open-Meteo abgerufen und können dabei helfen Pflegehinweise an die aktuellen Wetterbedingungen anzupassen.
+
++ **Figma**
+
+Figma nutzten wir zur Gestaltung und Weiterentwicklung unserer Design-Mockups. Damit konnten wir verschiedene Ansichten der App planen, die Benutzerführung überprüfen und gemeinsam an einem einheitlichen Erscheinungsbild arbeiten.
+
++ **Canva**
+
+Canva kam vor allem bei der Präsentation unseres Projekts zum Einsatz. Dort erstellten wir Präsentationen, grafische Inhalte und das Plakat für die IMI-Showtime. Dadurch können wir unsere App und den Entwicklungsprozess anschaulich und einheitlich präsentieren.
+
++ **Google Meet**
+
+Google Meet ermöglichte uns eine hybride Zusammenarbeit. So konnten Teammitglieder auch dann an Besprechungen und gemeinsamen Arbeitsphasen teilnehmen, wenn sie nicht vor Ort waren. Wir nutzten die Videokonferenzen für Absprachen, Präsentationen von Zwischenständen und gemeinsames Co-Working.
+
 
 {{</section>}}

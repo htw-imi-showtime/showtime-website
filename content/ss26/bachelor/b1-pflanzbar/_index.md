@@ -23,7 +23,7 @@ supervisor = "Ingo Wiederoder"
 draft = false
 
 # e.g. github
-source_link = ""
+source_link = "https://gitlab.rz.htw-berlin.de/s0573129/ios-app.git"
 
 # link to a demo site / where your project is available.
 demo_link = ""
@@ -32,17 +32,17 @@ demo_link = ""
 website_link = ""
 +++
 
-{{<section title="Our Goal">}}
+{{<section title="Unser Ziel">}}
 
-Pflanzbar ist eine iOS-App für Menschen, die ihre Pflanzen besser kennenlernen und pflegen möchten. Viele bestehende Pflanzen-Apps bieten wichtige Funktionen nur eingeschränkt oder hinter einer Paywall an. Unser Ziel war es deshalb, eine App zu entwickeln, die zentrale Funktionen wie Pflanzenerkennung, Pflegetipps und Gießerinnerungen ohne Paywall zugänglich macht.
+Pflanzbar ist eine iOS-App für Menschen, die ihre Pflanzen besser kennenlernen und pflegen möchten. Viele bestehende Pflanzen-Apps bieten wichtige Funktionen nur eingeschränkt oder hinter einer Paywall an. Unser Ziel war es deshalb, eine App zu entwickeln, die zentrale Funktionen wie Pflanzenerkennung, Pflegetipps und Gießerinnerungen beinhaltet.
 
 Die App soll Nutzerinnen und Nutzer dabei unterstützen, Pflanzen zu erkennen, passende Pflegehinweise zu erhalten und regelmäßige Pflegeaufgaben besser im Blick zu behalten.
 
-* **Project Idea**
+* **Idee**
 
-Die Idee für Pflanzbar entstand aus dem Wunsch, Pflanzenpflege einfacher und verständlicher zu machen. Nutzerinnen und Nutzer sollen eine Pflanze erkennen lassen können und anschließend hilfreiche Informationen zur Pflege erhalten.
+Die Idee für Pflanzbar entstand aus dem Wunsch, Pflanzenpflege einfacher und verständlicher zu machen. Nutzerinnen und Nutzer sollen eine Pflanze anhand eines Fotos erkennen können und anschließend hilfreiche Informationen zur Pflege erhalten.
 
-* **Goal**
+* **Ziel**
 
 Im Mittelpunkt stand eine übersichtliche iOS-App, die Pflanzenpflege praktisch unterstützt: durch Erkennung, Pflegetipps und Erinnerungen zum Gießen.
 
