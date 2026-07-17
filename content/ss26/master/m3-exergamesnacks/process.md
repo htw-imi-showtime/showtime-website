@@ -8,7 +8,7 @@ draft = false
 +++
 
 
-{{<section title="Process and Outcome">}}
+{{<section title="Prozess und Ergebnis">}}
 
 
 ## Prozessablauf
@@ -27,6 +27,5 @@ Das Projekt wurde nach der Scrum-Methode organisiert. Jede Woche fanden zwei reg
 
 Das Ergebnis ist nicht nur eine funktionierende Anwendung, sondern auch wertvolle praktische Erfahrung im Bereich Body Tracking, Projektmanagement und Teamarbeit. Mit SnackFarm entstand ein sogenanntes Exergame, also ein Spiel, das körperliche Aktivität mit spielerischen Elementen verbindet. Ziel ist es, körperliche Aktivität unauffällig in den Alltag zu integrieren, indem die Spieler während einer Mission verschiedene Übungen ausführen, ohne den Eindruck einer klassischen Fitness-App zu haben. Statt sportlicher Leistung stehen Spielspaß, Motivation und das Erreichen neuer Highscores im Vordergrund.
 
-<!-- {{<image src="onboardingview.png" alt="onboarding">}} -->
 
 {{</section>}} 

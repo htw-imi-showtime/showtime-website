@@ -50,58 +50,6 @@ Passende Hintergrundmusik begleitet jede Spielrunde und macht das Spielerlebnis 
 
 {{<image src="screenshots/tooling.jpg" alt="Tools">}}
 
-<!-- 
-
-- **MediaPipe:**
-
-Ermöglicht das Body Tracking in Echtzeit. Die Bibliothek erkennt die Körperhaltung des Spielers und identifiziert verschiedene Übungen während des Spiels.
-
-- **Vuejs:**
- 
-Vue.js wurde für die Entwicklung des Frontends verwendet. Das Framework ermöglicht den Aufbau einer modernen, interaktiven und komponentenbasierten Benutzeroberfläche.
-
-- **Django:** 
-
-Django wurde als Backend-Framework eingesetzt. Es verwaltet die Geschäftslogik, die Datenbankzugriffe und stellt die REST-API für das Frontend bereit.
-
-- **PostgreSQL:**
-
-PostgreSQL dient als relationale Datenbank zur Speicherung von Benutzerdaten, Spieleinstellungen und Spielverläufen.
-
-- **Docker:**
-
-Docker wurde verwendet, um Backend und Datenbank in Containern bereitzustellen. Dadurch ließ sich die Entwicklungsumgebung einfach und einheitlich konfigurieren.
-
- - **Postman:**
-
-Zum Testen und Validieren der REST-API während der Backend-Entwicklung.
-
-
-- **Javascript:**
-
-JavaScript bildet die Grundlage der Frontend-Logik und steuert die Interaktionen sowie das Verhalten der Anwendung.
-
-- **GSAP:** 
-
-wurde für flüssige Animationen und Übergänge innerhalb der Benutzeroberfläche eingesetzt.
-
-- **Gitlab:**
-
-Git diente der Versionsverwaltung und erleichterte die Zusammenarbeit im Team.
-
-- **Scrum:** 
-
-wurde als Projektmanagement-Methode eingesetzt. Die Entwicklung erfolgte in einwöchigen Sprints mit regelmäßigen Meetings und klar definierten Aufgaben.
-
-- **Miro:**  
-
-Kollaboratives Whiteboard zur gleichzeitigen Sammlung, und Dokumentation von Ideen während der Gruppenbesprechungen.
-
-- **Figma:** 
-
-Zur Erstellung der Wireframes, Prototypen und des finalen UI-Designs. -->
-
-
 {{</section>}}
 
 

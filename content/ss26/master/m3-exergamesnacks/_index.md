@@ -16,11 +16,12 @@ claim = "Aus einer kurzen Pause wird eine Mission: SnackFarm verbindet körperli
 # kann aber genutzt werden, um etwas vor die erste Section zu setzen.
 abstract = "SnackFarm ist ein Exergame, das kurze, intensive Bewegungseinheiten mit spielerischen Elementen verbindet. Ziel ist es, körperliche Aktivität einfach in den Alltag zu integrieren und insbesondere Studierende sowie Büroangestellte zu regelmäßigen aktiven Pausen zu motivieren."
 
+
 # Properties for displaying the project in the project list
 card_image = "screenshots/snackfarmlight.jpg"
 
 # Names are optional, team size is sufficient
-team = ["Laurie", "Zidanie", "Merveille"]
+team = ["Laurie Njonkoe", "Zidanie Noudeng", "Merveille Kinfack"]
 # this can be just one or a list as with team:
 supervisor = ["David Koschnick", "Sascha Ketelhut"]
 draft = false
@@ -37,16 +38,21 @@ website_link = ""
 <!-- 
 Die Seite kann auf Englisch oder Deutsch sein. Aber bitte weder AI-generiertes blabla noch Werbetexte (etwa "entdecken Sie unsere revolutionäres Super-Programm das alle Probleme der Welt löst ;-) )  -->
 
-{{<section title="Our Goal">}}
+{{<section title="Unser Ziel">}}
 
 {{<image src="screenshots/farmhome.png" alt="Prototyp">}}
+
+
 
 ## Problem
 
 Der Alltag vieler Menschen ist heute von langen Sitzphasen geprägt – im Büro, im Homeoffice oder an der Universität. Dadurch nimmt die tägliche körperliche Aktivität kontinuierlich ab, obwohl regelmäßige Bewegung entscheidend für Gesundheit und Wohlbefinden ist.
 
 
-Viele Menschen verfügen im Alltag weder über ausreichend Zeit noch Motivation für längere Trainingseinheiten. Gleichzeitig zeigen Studien, dass bereits kurze, intensive Bewegungseinheiten positive gesundheitliche Effekte erzielen können. Genau hier setzt SnackFarm an. ([Islam et al., 2022](https://www.researchgate.net/publication/371506259_Strengths_and_Weaknesses_of_3D_Pose_Estimation_and_Inertial_Motion_Capture_System_for_Movement_Therapy))
+Viele Menschen verfügen im Alltag weder über ausreichend Zeit noch Motivation für längere Trainingseinheiten. Gleichzeitig zeigen Studien, dass bereits kurze, intensive Bewegungseinheiten positive gesundheitliche Effekte erzielen können ([Islam et al., 2022](https://www.researchgate.net/publication/371506259_Strengths_and_Weaknesses_of_3D_Pose_Estimation_and_Inertial_Motion_Capture_System_for_Movement_Therapy)). Genau hier setzt SnackFarm an.
+
+
+
 
 
 ## Ziel
@@ -58,6 +64,7 @@ Spaß statt Training, Motivation durch Spielmechaniken, Belohnungen und Fortschr
 nachhaltiger Integration von körperlicher Aktivität in den Alltag.
 
 Die Nutzer und Nutzerinnen sollen das Gefühl haben, ein Videospiel zu spielen – nicht, Fitnessübungen auszuführen.
+
 
 
 
@@ -89,8 +96,11 @@ Oft enthält die Zielsetzung schon die Lösungsidee - dies könnte aber ein eige
 
 
 
-
 {{<section title="Team">}}
+
+Die wissenschaftliche Basis unseres Projekts wurde von dem Sportwissenschaftler **Sascha Ketelhut** gelegt, der uns während des gesamten Projekts fachlich begleitet hat. Er unterstützte uns bei der Auswahl der zu trackenden Übungen und stellte uns wissenschaftliche Literatur zu den Themen [GameFlow](https://dl.acm.org/doi/10.1145/1077246.1077253), [kardiometabolischen Gesundheit](https://www.researchgate.net/publication/355462362_Exercise_Snacks_A_Novel_Strategy_to_Improve_Cardiometabolic_Health), und  [intermittierende körperliche Aktivität](https://link.springer.com/article/10.1007/s40279-023-01983-1) als fachliche Grundlage zur Verfügung.
+
+
 
 Unser Team bestand aus drei Mitgliedern. Um effizient arbeiten zu können, wurde das Projekt in klar definierte Aufgabenbereiche aufgeteilt. 
 
@@ -111,8 +121,8 @@ Ein Teammitglied war für das Backend verantwortlich. Dazu gehörten die Erstell
 
 Zusätzlich zu diesen Hauptaufgaben gehörten auch das Projektmanagement sowie gemeinsame Aufgaben, wie die Anbindung von Backend und Frontend, das Testen der Anwendung und die Integration der einzelnen Komponenten, zur Verantwortung des gesamten Teams.
 
-
 {{</section>}} 
+
 
 {{<gallery>}}
 {{<team-member image="screenshots/laur.jpg" name="Laurie">}}
