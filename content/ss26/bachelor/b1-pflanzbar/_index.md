@@ -23,7 +23,7 @@ supervisor = "Ingo Wiederoder"
 draft = false
 
 # e.g. github
-source_link = "https://gitlab.rz.htw-berlin.de/s0573129/ios-app.git"
+source_link = "https://github.com/NeleGit/Pflanzbar"
 
 # link to a demo site / where your project is available.
 demo_link = ""
