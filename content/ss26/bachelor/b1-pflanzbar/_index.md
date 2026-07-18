@@ -50,10 +50,10 @@ Im Mittelpunkt stand eine übersichtliche iOS-App, die Pflanzenpflege praktisch 
 
 {{</section>}} 
 {{<gallery>}}
-{{<team-member image="Alina_5.jpg" name="Alina">}}
-{{<team-member image="Lena_2.jpg" name="Lena">}}
-{{<team-member image="Omid_2.jpg" name="Omid">}}
-{{<team-member image="Nele_4.jpg" name="Nele">}}
+{{<team-member image="alina_5.webp" name="Alina">}}
+{{<team-member image="lena_2.webp" name="Lena">}}
+{{<team-member image="omid_2.webp" name="Omid">}}
+{{<team-member image="nele_4.webp" name="Nele">}}
 
 {{</gallery>}}
 

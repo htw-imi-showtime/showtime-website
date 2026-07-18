@@ -24,4 +24,4 @@ Ein zentraler Gedanke hinter Pflanzbar ist es, wichtige Funktionen der Pflanzenp
 
 {{</section>}}
 
-{{<image src="features_1.png" alt="Übersicht über die wichtigsten Funktionen der Pflanzbar-App">}}
+{{<image src="features_1.jpg" alt="Übersicht über die wichtigsten Funktionen der Pflanzbar-App">}}

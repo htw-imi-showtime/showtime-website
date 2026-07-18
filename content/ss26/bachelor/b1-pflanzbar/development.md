@@ -23,6 +23,6 @@ Im Verlauf des Projekts haben wir Funktionen immer wieder getestet, angepasst od
 In der abschließenden Entwicklungsphase lag unser Fokus vor allem auf einer einheitlichen Gestaltung, einer intuitiven Navigation und einer verständlichen Darstellung der Pflegeinformationen. So entstand Schritt für Schritt eine App, die unsere ursprüngliche Idee sichtbar und erlebbar macht.
 
 {{</section>}}
-{{<image src="us.jpeg" alt="Das vierköpfige Entwicklungsteam von Pflanzbar">}}
-{{<image src="Development.jpeg" alt="Einblick in den Entwicklungsprozess der Pflanzbar-App">}}
+{{<image src="us.webp" alt="Das vierköpfige Entwicklungsteam von Pflanzbar">}}
+{{<image src="development.webp" alt="Einblick in den Entwicklungsprozess der Pflanzbar-App">}}
 
