@@ -40,7 +40,7 @@ Die Seite kann auf Englisch oder Deutsch sein. Aber bitte weder AI-generiertes b
 
 {{<section title="Unser Ziel">}}
 
-{{<image src="screenshots/farmhome.png" alt="Prototyp">}}
+{{<image src="screenshots/farmhome.png" alt="Prototyp" caption="Startseite">}}
 
 
 

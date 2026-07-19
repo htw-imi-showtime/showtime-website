@@ -7,7 +7,7 @@ weight = 9
 draft = false
 +++
 
-{{<section title="Feature">}}
+{{<section title="Features">}}
 
 ## Was enthält die App?
 
@@ -40,7 +40,9 @@ Passende Hintergrundmusik begleitet jede Spielrunde und macht das Spielerlebnis 
 | **MediaPipe** | Echtzeit-Body-Tracking |
 | **PostgreSQL** | Speicherung der Benutzerdaten |
 | **Docker** | Containerisierung |
-| **GSAP** | Animationen |
+| **LottieFiles** | Animationen |
+| **Magnific** | Background |
+| **Wikimedia** | Demo der Übungen |
 | **Figma** | UI/UX-Design |
 | **Miro** | Brainstorming und Planung |
 | **Postman** | Testen der REST-API |
@@ -48,7 +50,7 @@ Passende Hintergrundmusik begleitet jede Spielrunde und macht das Spielerlebnis 
 | **Scrum** | Projektmanagement |
 
 
-{{<image src="screenshots/tooling.jpg" alt="Tools">}}
+{{<image src="screenshots/tools.png" alt="Tools" caption="Im Projekt verwendete Tools">}}
 
 {{</section>}}
 
