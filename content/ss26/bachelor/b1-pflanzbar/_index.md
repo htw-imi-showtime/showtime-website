@@ -7,10 +7,12 @@ title = "Pflanzbar"
 subtitle = "Von der Idee zur iOS-App"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
-claim = "Eine iOS-App für Pflanzenpflege, Pflanzenerkennung und Gießerinnerungen – ohne Paywall."
+claim = "Alles ist machbar mit Pflanzbar! Ihre iOS-App rundum Pflanzenpflege ganz ohne Kosten."
+
 
 # Abstract - erscheint oberhalb der Sections auf der Projektseite. 
-abstract = "Pflanzbar ist eine iOS-App, die im Rahmen des Projekts „Von der Idee zur iOS-App“ entwickelt wurde. Die App kann Pflanzen erkennen, Pflegehinweise geben und Nutzerinnen und Nutzer mit Gießerinnerungen unterstützen. Ein wichtiger Gedanke des Projekts war, zentrale Funktionen ohne Paywall zugänglich zu machen."
+abstract = "Pflanzbar ist eine iOS-App, die im Sommersemester 2026 unter dem Modulnamen - Von der Idee zur iOS-App - entwickelt wurde. Dabei haben wir als Endprodukt eine App gebaut, die Pflanzen erkennt, analysiert und Pflegetipps bereitstellt. Uns lag der kostenlose und Open-Source Gedanke im Vordergrund, weil andere Pflanzenapps oft Abonnements enthalten."
+
 
 # Properties for displaying the project in the project list
 card_image = "pflanzbar_1.jpg"
@@ -32,19 +34,13 @@ demo_link = ""
 website_link = ""
 +++
 
-{{<section title="Unser Ziel">}}
+{{<section title="Unsere Motivation">}}
 
-Pflanzbar ist eine iOS-App für Menschen, die ihre Pflanzen besser kennenlernen und pflegen möchten. Viele bestehende Pflanzen-Apps bieten wichtige Funktionen nur eingeschränkt oder hinter einer Paywall an. Unser Ziel war es deshalb, eine App zu entwickeln, die zentrale Funktionen wie Pflanzenerkennung, Pflegetipps und Gießerinnerungen beinhaltet.
-
-Die App soll Nutzerinnen und Nutzer dabei unterstützen, Pflanzen zu erkennen, passende Pflegehinweise zu erhalten und regelmäßige Pflegeaufgaben besser im Blick zu behalten.
-
-* **Idee**
-
-Die Idee für Pflanzbar entstand aus dem Wunsch, Pflanzenpflege einfacher und verständlicher zu machen. Nutzerinnen und Nutzer sollen eine Pflanze anhand eines Fotos erkennen können und anschließend hilfreiche Informationen zur Pflege erhalten.
+Wer kennt das Problem nicht? Man hat sich erst eine neue Pflanze gekauft oder von einer Freund*in geschenkt bekommen, aber man selber vergisst oft zu gießen oder sich rechtzeitig über die Pflanzenart zu informieren. Uns liegt Nachhaltigkeit und die Natur sehr am Herzen. Deswegen dachten wir bauen wir doch eine App, die dazu passt!
 
 * **Ziel**
 
-Im Mittelpunkt stand eine übersichtliche iOS-App, die Pflanzenpflege praktisch unterstützt: durch Erkennung, Pflegetipps und Erinnerungen zum Gießen.
+Ziel von der iOS-App ist, die Pflanzenpflege leicht zu gestalten. Wir möchten Nutzer*innen Wissen über die Grundlagen der Botanik sowie des Gärtnerns weitergeben.
 
 
 

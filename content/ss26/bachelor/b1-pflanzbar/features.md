@@ -8,19 +8,19 @@ draft = false
 +++
 
 {{<section title="Features">}}
-Pflanzbar ist eine iOS-App, die Pflanzenpflege einfacher, übersichtlicher und intuitiver gestaltet. Die App verbindet Pflanzenerkennung, individuelle Pflegeinformationen, Erinnerungen und Inspiration in einer benutzerfreundlichen Anwendung.
 
-Eine der zentralen Funktionen von Pflanzbar ist die Pflanzenerkennung. Nutzerinnen und Nutzer können eine unbekannte Pflanze direkt mit der Smartphone-Kamera fotografieren. Anschließend schlägt die App eine mögliche Pflanzenart vor und zeigt die Wahrscheinlichkeit der Übereinstimmung an. Ergänzende Informationen wie der botanische Name, die Pflanzenfamilie und alternative Bezeichnungen helfen dabei, die Pflanze besser kennenzulernen.
+Eine essentielle Funktion von unserer App ist die Pflanzenerkennung bei der Nutzer:innen eine unbekannte Pflanze per Iphone-Kamera zur Erkennung fotografieren können. Anschließend erhalten die User:innen einen Vorschlag der möglichen Pflanzenart inklusive der prozentualen Wahrscheinlichkeit der Übereinstimmung.
 
-Nach der Erkennung erhalten Nutzerinnen und Nutzer einen übersichtlichen Einblick in die individuellen Pflegebedürfnisse der Pflanze. Pflanzbar informiert unter anderem über den Wasserbedarf, die geeigneten Lichtverhältnisse, die bevorzugte Luftfeuchtigkeit, die optimale Temperatur, den Düngebedarf und den allgemeinen Schwierigkeitsgrad der Pflege. Visuelle Symbole und kurze Beschreibungen machen die Informationen schnell verständlich.
 
-Erkannte Pflanzen können zur persönlichen Sammlung hinzugefügt und verschiedenen Standorten wie Wohnzimmer oder Balkon zugeordnet werden. In der Sammlung erhalten Nutzerinnen und Nutzer einen Überblick über den aktuellen Zustand ihrer Pflanzen sowie über anstehende Pflegeaufgaben. So ist auf einen Blick erkennbar, ob eine Pflanze gegossen oder gedüngt werden muss.
+Ist die Pflanze erkannt, erhalten die Anwender:innen einen Überblick über die individullen Pflegebedürfnisse der Pflanze. Dazu gehören: Angaben zum Wasserbedarf, den Lichtverhältnissen sowie der Luftfeuchtigkeit. Außerdem werden Informationen zur optimalen Temperatur, dem Düngebedarf und dem Schwierigkeitsgrad der Pflanzenpflege durch visuelle Symbole und Kurzbeschreibungen angezeigt.
 
-Individuelle Erinnerungen helfen dabei, die Pflanzenpflege in den Alltag zu integrieren. Auf der Startseite werden anstehende Aufgaben angezeigt. Gleichzeitig sehen Nutzerinnen und Nutzer, wie viele Pflanzen aktuell Aufmerksamkeit benötigen. Dadurch können wichtige Pflegeintervalle besser eingehalten werden.
+Durch das die Funktion "persönliche Sammlung" können einzelne Pflanzen verschiedenen Standorten wie dem Wohnzimmer oder Balkon zugeordnet werden. In diesem Bereich der App sehen Nutzer:innen auf einen Blick den aktuellen Pflanzenzustand sowie die anstehende Pflegeaufgaben. Durch diese Übersicht ist schnell erkennbar, welche Pflanze gegossen oder gedüngt werden muss.
 
-Der Bereich „Entdecken“ bietet zusätzliches Wissen und Inspiration rund um Pflanzen. Dort finden sich Pflegetipps, Grundlagenwissen, häufige Pflegefehler, Mythen sowie Informationen zu verschiedenen Pflanzenkategorien. Interessante Pflanzen und Inhalte können außerdem für später gespeichert werden.
+Durch Individuelle Erinnerungen kann die Pflanzenpflege problemlos in den Alltag integriert werden. Auf der Startseite der App werden die anstehenden Aufgaben angezeigt. Parallel sehen die User:innen, die Anzahl der Pflanzen, die aktuell Aufmerksamkeit und Pflege benötigen. Durch diese Funktion wird die Einhaltung wichtiger Pflegeintervalle erleichtert. 
 
-Ein zentraler Gedanke hinter Pflanzbar ist es, wichtige Funktionen der Pflanzenpflege ohne Paywall zugänglich zu machen. Die App soll Nutzerinnen und Nutzer dabei unterstützen, ihre Pflanzen besser zu verstehen, typische Pflegefehler zu vermeiden und langfristig gesunde Pflanzen zu erhalten.
+Im Abschnitt „Entdecken“ von Pflanzbar können die Anweder:innen sich zusätzliches Wissen zu verschiedenen Pflanzen aneignen. Dort erhalten sie neben Pflegetipps und Grundlagenwissen, auch Informationen zu häufigen Pflegefehlern und Mythen rund um verschiedene Pflanzenkategorien. Informationen die für die User:innen von besonderem Interesse sind können durch die entsprechende Funktion gespeichert werden, sodass zu einem späteren Zeitpunkt ein schnelles Abrufen möglich ist. 
+
+Pflanzbar wurde aus der Idee geboren, zentrale Informationen der Pflanzenpflege einer Vielzahl von Menschen ohne Paywall zugänglich zu machen. Die App soll die Anweder:innen dabei unterstützen die Bedürfnisse von Pflanzen besser zu verstehen, typische Pflegefehler zu vermeiden und langfristig gesunde und glückliche Pflanzen großzuziehen.
 
 {{</section>}}
 

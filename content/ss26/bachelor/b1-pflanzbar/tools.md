@@ -8,31 +8,32 @@ draft = false
 +++
 {{<section title="Tech Stack">}}
 
-Für die Entwicklung von Pflanzbar haben wir verschiedene Tools und Schnittstellen genutzt. Sie unterstützten uns sowohl bei der Organisation und Gestaltung als auch bei der technischen Umsetzung und Zusammenarbeit im Team.
+Wenn man sich an die Entwicklung eines so großen Projekts macht, ist es schon mit nur einer IDE schwer, ein Team von zwei Leuten zu koordinieren, ganz zu schweigen von einem Team aus vieren. Deshalb haben wir eine breite Palette an Tools und Schnittstellen kombiniert, durch die unser Produkt überhaupt erst Realität werden konnte. Und zwar:
+
 
 + **Miro**
 
-Miro diente uns als zentrale Plattform für die Organisation und gemeinsame Projektarbeit. Dort sammelten und strukturierten wir Ideen, hielten Absprachen fest und planten die nächsten Arbeitsschritte. Außerdem nutzten wir Miro für gemeinsames Co-Working, Abstimmungen im Team und erste Design-Mockups der App.
+Auf Empfehlung von Frau Albrecht und wegen seiner tollen Funktion für gemeinsames Arbeiten haben wir uns entschieden, dort die Planung, das Sprint-Tracking und all unsere Notizen aus den Meetings mit Professor Wiederoder unterzubringen. Im Laufe unserer Arbeit hat sich das als super Lösung erwiesen – selbst wenn man mal ein Meeting vergisst, loggt man sich einfach ein, wirft einen Blick rein, und schon kann man die anderen davon überzeugen, dass man eigentlich doch da war, sie einen nur nicht bemerkt haben.
 
 + **Xcode**
 
-Xcode war unsere zentrale Entwicklungsumgebung für die technische Umsetzung von Pflanzbar. In Xcode programmierten wir die App mit Swift, testeten einzelne Funktionen und überprüften die Darstellung auf verschiedenen iOS-Geräten und Simulatoren.
+Bei der Erwähnung dieses Tools werden wohl nur die iOS-Leute wissen, worum es geht, aber wie ihr anderen sicher auch schon erraten habt: Das ist die zentrale Plattform für die Entwicklung von Apple-Anwendungen, ohne die Pflanzbar nicht möglich gewesen wäre.
+
 
 + **APIs**
 
-Für verschiedene Funktionen der App verwendeten wir externe Programmierschnittstellen. PlantNet unterstützt die Erkennung von Pflanzen anhand von Bildern. Über Plantbook können zusätzliche Informationen zu Pflanzen und ihren Pflegebedürfnissen eingebunden werden. Wikipedia dient als ergänzende Informationsquelle für weiterführende Inhalte. Die Wetterdaten werden über Open-Meteo abgerufen und können dabei helfen Pflegehinweise an die aktuellen Wetterbedingungen anzupassen.
+Für die verschiedenen Funktionen der App haben wir externe APIs verwendet. PlantNet unterstützt die Erkennung von Pflanzen anhand von Bildern. Über Plantbook können zusätzliche Informationen zu Pflanzen und ihren Pflegebedürfnissen eingebunden werden. Wikipedia dient als ergänzende Informationsquelle für weiterführende Inhalte. Die Wetterdaten werden über Open-Meteo abgerufen und können dabei helfen, Pflegehinweise an die aktuellen Wetterbedingungen anzupassen.
 
-+ **Figma**
 
-Figma nutzten wir zur Gestaltung und Weiterentwicklung unserer Design-Mockups. Damit konnten wir verschiedene Ansichten der App planen, die Benutzerführung überprüfen und gemeinsam an einem einheitlichen Erscheinungsbild arbeiten.
 
 + **Canva**
 
-Canva kam vor allem bei der Präsentation unseres Projekts zum Einsatz. Dort erstellten wir Präsentationen, grafische Inhalte und das Plakat für die IMI-Showtime. Dadurch können wir unsere App und den Entwicklungsprozess anschaulich und einheitlich präsentieren.
+Die Planung, das Design, die Entwicklung und das Erscheinungsbild eines Produkts anschaulich darzustellen, und das innerhalb von nur 5 Minuten, ist eine Kunst und wäre ohne die Hilfe des richtigen Helfers gar nicht möglich gewesen, nämlich der einzigartigen und unvergleichlichen Canva. Wenn ihr geplant habt, zur IMI Showtime zu kommen, oder uns bereits besucht habt, wisst ihr, wovon ich spreche.
+
 
 + **Google Meet**
 
-Google Meet ermöglichte uns eine hybride Zusammenarbeit. So konnten Teammitglieder auch dann an Besprechungen und gemeinsamen Arbeitsphasen teilnehmen, wenn sie nicht vor Ort waren. Wir nutzten die Videokonferenzen für Absprachen, Präsentationen von Zwischenständen und gemeinsames Co-Working.
+In unserem Fall hat uns Google Meet trotz unseres vollen Alltags mit Vorlesungen und Arbeit ermöglicht, um 22 Uhr in Panik alle anzurufen, wenn man sich nicht sicher ist, ob man das richtige Grün für das GESAMTE Projekt schon implementiert hat.
 
 
 {{</section>}}
