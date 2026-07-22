@@ -1,7 +1,7 @@
 +++
 project_id = "B2"
 title = "Körperliche Aktivität von Kindern:"
-subtitle = "Entwicklung einer Plattform/App"
+subtitle = "Bewegungsstunden einfach planen und auswerten"
 claim = "Mehr Bewegung. Weniger Planungsaufwand."
 abstract = "Die Plattform unterstützt Übungsleitungen bei der Vorbereitung, Durchführung und Nachbereitung von Bewegungsstunden. Leitungen erhalten zusätzlich Werkzeuge für Freigaben, Gruppenverwaltung und Qualitätsauswertung."
 
@@ -11,8 +11,8 @@ team = ["Atosa Shahparvari", "Sinem Reshat", "Nicole Kiunuhe", "Tim Steiner"]
 supervisor = "David Koschnick"
 draft = false
 
-source_link = "https://git.myhki.de/imi-bachelor-26/imi-kids-app-frontend"
-demo_link = ""
+source_link = ""
+demo_link = "https://fitkids.xu0.de/"
 website_link = ""
 
 tags = ["Webanwendung", "Bewegungsförderung", "Stundenplanung"]
@@ -68,9 +68,3 @@ Die gesamte Plattform ist responsiv gestaltet und funktioniert auf Smartphone, T
 {{<image src="07_mobile_stundenplanung.jpg" alt="Responsive Smartphone-Ansicht des Stundenplaners mit ausgewählter Gruppe und geplanter Einheit" caption="Stundenplanung responsiv auf dem Smartphone">}}
 {{<image src="08_mobile_uebungskatalog.jpg" alt="Responsive Smartphone-Ansicht eines Übungsdetails mit Bild, Bewertung, Beschreibung, Variante und Materialien" caption="Übungsdetails responsiv auf dem Smartphone">}}
 {{</gallery>}}
-
-{{<section title="Team">}}
-
-Atosa Shahparvari, Sinem Reshat, Nicole Kiunuhe und Tim Steiner.
-
-{{</section>}}
