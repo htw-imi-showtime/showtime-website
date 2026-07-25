@@ -19,7 +19,7 @@ Um ein einheitliches und benutzerfreundliches Design sicherzustellen, wurden zun
 
 Das Projekt wurde nach der Scrum-Methode organisiert. Jede Woche fanden zwei regelmäßige Meetings statt: ein Meeting mit den Betreuern sowie ein internes Meeting zwischen den drei Teammitgliedern. Ein Sprint dauerte jeweils eine Woche. Innerhalb jedes Sprints war jedes Teammitglied selbst dafür verantwortlich, seine Aufgaben zu planen, umzusetzen und den Fortschritt im Team zu kommunizieren.
 
-{{<image src="screenshots/roadmap.jpg" alt="Zeit- und Projektmanagement nach der Reduktion der Teamgröße" caption=" Zeitmanagement">}}
+{{<image src="screenshots/roadmap.png" alt="Zeit- und Projektmanagement nach der Reduktion der Teamgröße" caption=" Zeitmanagement">}}
 
 
 ## Ergebnisse
