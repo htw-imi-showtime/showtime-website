@@ -35,7 +35,7 @@ Der Stundenplaner ist der Kern der Anwendung: Eine ganze Woche wird übersichtli
 {{<image src="01_stundenplan.webp" alt="Wochenansicht des Stundenplaners mit fünf geplanten Bewegungseinheiten" caption="Die geplante Woche auf einen Blick">}}
 
 {{<image src="02_stunde_strukturieren.webp" alt="Editor einer Bewegungseinheit mit Aufwärmen, Hauptteil und Abschluss" caption="Eine Einheit in drei Phasen strukturieren">}}
-{{<image src="05_einheit_protokollieren.webp" alt="Protokoll einer durchgeführten Einheit mit Kinderzahl, Notiz und Übungsbewertungen" caption="Durchführung dokumentieren und Übungen bewerten">}}
+{{<image src="05_einheit_protokollieren.webp" alt="Protokoll einer durchgeführten Einheit mit Gruppe, Kinderzahl und Notiz" caption="Durchführung direkt nach der Einheit dokumentieren">}}
 
 {{</section>}}
 
@@ -45,7 +45,7 @@ Der Übungskatalog verbindet bebilderte Bewegungsideen mit Materialien, Variante
 
 {{<image src="03_uebungskatalog_light.webp" alt="Bebilderter Übungskatalog mit Filtern und Bewertungen" caption="Übungen schnell finden und direkt einplanen">}}
 
-{{<image src="04_bewertungen_kommentare_light.webp" alt="Bewertungen, Kommentare und Abstimmungen zu einer Übung" caption="Praxiserfahrungen teilen">}}
+{{<image src="04_bewertungen_kommentare_light.webp" alt="Übungsdetail mit Beschreibung, Varianten, Materialien und Bewertung" caption="Übungsdetails und Bewertungen auf einen Blick">}}
 
 {{</section>}}
 
