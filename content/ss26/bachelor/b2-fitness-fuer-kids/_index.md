@@ -43,9 +43,9 @@ Der Stundenplaner ist der Kern der Anwendung: Eine ganze Woche wird übersichtli
 
 Der Übungskatalog verbindet bebilderte Bewegungsideen mit Materialien, Varianten und Praxishinweisen. Übungsleitungen können Erfahrungen kommentieren und bewerten.
 
-{{<image src="03_uebungskatalog_light.webp" alt="Bebilderter Übungskatalog im hellen Darstellungsmodus mit Filtern und Bewertungen" caption="Übungen im Light Mode schnell finden und direkt einplanen">}}
+{{<image src="03_uebungskatalog_light.webp" alt="Bebilderter Übungskatalog mit Filtern und Bewertungen" caption="Übungen schnell finden und direkt einplanen">}}
 
-{{<image src="04_bewertungen_kommentare_light.webp" alt="Bewertungen, Kommentare und Abstimmungen zu einer Übung im hellen Darstellungsmodus" caption="Praxiserfahrungen im Light Mode teilen">}}
+{{<image src="04_bewertungen_kommentare_light.webp" alt="Bewertungen, Kommentare und Abstimmungen zu einer Übung" caption="Praxiserfahrungen teilen">}}
 
 {{</section>}}
 
