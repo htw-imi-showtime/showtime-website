@@ -26,7 +26,6 @@ Die Planung, das Design, die Entwicklung und das Erscheinungsbild eines Produkts
 
 + **Google Meet**
 
-
 In unserem Fall hat uns Google Meet trotz unseres vollen Alltags mit Vorlesungen und Arbeit ermöglicht, um 22 Uhr in Panik alle anzurufen, wenn man sich nicht sicher ist, ob man das richtige Grün für das gesamte Projekt schon implementiert hat.
 
 + **APIs**
@@ -48,7 +47,5 @@ Abgesehen von externen APIs nutzen wir verschiedene Apple-Frameworks. Apple-Fram
 - EventKit: erzeugt einen eigenen Kalender für Pflegeaufgaben.
 - Combine: passt sich Inhalte automatisch an, wenn sich Daten ändern.
 - UIKit: ist SwiftUI bei Funktionen wie Kamera- oder Systemdialogen behilflich.
-=======
-In unserem Fall hat uns Google Meet trotz unseres vollen Alltags mit Vorlesungen und Arbeit ermöglicht, um 22 Uhr in Panik alle anzurufen, wenn man sich nicht sicher ist, ob man das richtige Grün für das GESAMTE Projekt schon implementiert hat.
 
 {{</section>}}

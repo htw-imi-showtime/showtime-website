@@ -1,14 +1,11 @@
 +++
-
 title = "Funktionen"
 # if you have more than one subpage, the weight determines the order of the tabs
 weight = 20
 # only draft = false will be visible on the page.
-
 # use hugo --buildDrafts to see your drafts.
 draft = false
 +++
-
 
 {{<section title="Eigenschaften">}}
 
@@ -47,4 +44,3 @@ Zusätzlich kann Pflanzbar in die iOS-Kalender-App integriert werden. Dabei erst
 
 {{<image src="features.jpg" alt="Übersicht über die wichtigsten Funktionen der Pflanzbar-App">}}
 *Abbildung 2: Übersicht über die wichtigsten Funktionen der Pflanzbar-App.*
-
