@@ -1,0 +1,18 @@
++++
+title = "Team"
+weight = 50
+draft = false
++++
+
+{{<section title="Team ResQ">}}
+Das Team hinter dem ResQ-Framework besteht aus sechs IMI-Master-Studenten.
+{{</section>}}
+
+{{<gallery>}}
+{{<team-member image="assets/team/luca.webp" name="Luca Hobiger">}}
+{{<team-member image="assets/team/lukas.webp" name="Lukas Kaik">}}
+{{<team-member image="assets/team/felix.webp" name="Felix Schindler">}}
+{{<team-member image="assets/team/lennart.webp" name="Yan-Lennart Schwanbeck">}}
+{{<team-member image="assets/team/chris.webp" name="Christian Wolter">}}
+{{<team-member image="assets/team/lucas.webp" name="Lucas Zaworski">}}
+{{</gallery>}}

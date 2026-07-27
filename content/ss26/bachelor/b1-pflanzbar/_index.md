@@ -3,11 +3,13 @@ project_id = "B1"
 title = "Pflanzbar"
 firstTabTitle = "Überblick"
 
+
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
 subtitle = "Von der Idee zur iOS-App"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
+
 claim = "Alles ist machbar mit Pflanzbar! Ihre iOS-App rund um Pflanzenpflege ganz ohne Kosten."
 
 
@@ -17,6 +19,7 @@ abstract = "Pflanzbar ist eine iOS-App, die im Sommersemester 2026 unter dem Mod
 
 # Properties for displaying the project in the project list
 card_image = "pflanzbar.jpg"
+
 
 # Names are optional, team size is sufficient
 team = ["Nele Heß", "Omid Mohammad", "Alina Wallstein", "Vasilena Kapincheva"]
@@ -90,3 +93,4 @@ fungiert als Product Ownerin. Sie organisierte die Sprintplanung, behielt ansteh
 {{<team-member image="nele.webp" name="Nele Heß">}}
 {{</gallery>}}
 *Abbildung 1: Team hinter Pflanzbar.*
+
