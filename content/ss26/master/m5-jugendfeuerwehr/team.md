@@ -1,12 +1,11 @@
 +++
 title = "Team"
-weight = 50
+weight = 60
 draft = false
 +++
 
-{{<section title="Team ResQ">}}
-Das Team hinter dem ResQ-Framework besteht aus sechs IMI-Master-Studenten.
-{{</section>}}
+# Das Team hinter ResQ
+
 
 {{<gallery>}}
 {{<team-member image="assets/team/luca.webp" name="Luca Hobiger">}}
