@@ -12,7 +12,6 @@ draft = false
 ## Onboarding
 
 Two members of our team had already worked on the original Gradient Escape, so they brought that context into Gradient Escape 2.0 from day one. Their familiarity with the existing concept, algorithms, and project status made it easy to bring the team up to speed — sharing materials from the original project, including:
-
 - Design documents
 - The original build
 - Prior playtesting data
@@ -22,14 +21,12 @@ They also helped the team agree on how the new project would proceed. Tasks were
 ## Weekly Workflow
 
 We meet with the professor every **Wednesday** to report progress and gather feedback, supplemented by two larger testing rounds with public testers over the course of the project. That feedback is turned into user stories and GitHub issues, so tasks can be clearly assigned. The Wednesday meeting is also where we present new ideas and receive the professor's suggestions on where the game should go next.
-
 - **Wednesday** — Product Team meets to review and refine open issues before handing them off to Programming.
 - **Thursday** — Programming Team meets to split up the resulting tasks.
 
 Each week is treated as a sprint, with tickets scoped to be completed by the following Thursday.
 
 All communication runs through a small toolchain:
-
 - **GitHub** — Issues and pull requests
 - **Discord** — Day-to-day coordination
 - **Unity** — Building and testing the game
@@ -41,17 +38,18 @@ Every pull request is reviewed and tested before it's merged into the main branc
 The day before each meeting with the professor, we prepare a build containing the latest state of the game and test it internally before presenting it for feedback.
 
 Beyond the weekly check-ins, the game goes through two larger testing rounds with public testers:
-
 - **Early round** — focused on concept clarity and basic usability
 - **Later round** — focused on polish and learning outcomes
 
+To make it easier for testers to give feedback during these sessions, we added an in-game QR code that players can scan directly while playing. Scanning it opens a Google Form, so testers can share their thoughts right away without breaking their playtesting flow. Their responses are then exported to Google Sheets, where we go through the feedback and prioritize the issues that matter most. Here's the [link to the survey](https://docs.google.com/forms/d/e/1FAIpQLSe0q3OcvkZr2uSU7DPf_jBlL5Fti6VKtBYnO3KnWM8o2a-Rzw/viewform) used for our testing rounds.
+
 Issues coming out of both the weekly and larger testing rounds are triaged into priority tiers:
 
-- 🔴 **Bug**
-- 🟢 **New feature**
-- 🔵 **Refactoring**
-- 🟣 **Optimization**
-- 🟠 **Polish**
+| | |
+|---|---|
+| 🔴 Bug | 🟢 New feature |
+| 🔵 Refactoring | 🟣 Optimization |
+| 🟠 Polish | |
 
 This lets the team address the most critical problems first, helping us complete the project in line with what was expected.
 

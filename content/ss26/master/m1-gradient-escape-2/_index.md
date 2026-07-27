@@ -12,7 +12,7 @@ subtitle = "The same misty forest. A whole new journey."
 claim = "Step back into the gradient world, where every path is a mathematical challenge. Explore and uncover the logic behind gradient functions through an immersive adventure—now enhanced with adaptive guidance and a richer learning experience."
 
 # Properties for displaying the project in the project list
-card_image = "assets/screen.png"
+card_image = "assets/logo.png"
 
 # Names are optional, team size is sufficient
 team = ["Alex", "Ha My", "Krist", "Lukas", "Nic", "Undine"]
@@ -25,14 +25,20 @@ source_link = ""
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
-demo_link = ""
+demo_link = "https://play.unity.com/en/games/2c7e2a0e-7eea-40ff-990f-f8d44910aa53/gradient-escape"
 # website: if you have another project website (not demo)
 website_link = ""
+
 +++
+{{<mediathek id="4fbe32df6c839ad6c017c093fe222a9f" title="Game trailer">}}
 
 {{<section title="Our Goal">}}
-{{<image src="assets/logo.png" alt="logo">}}
-Gradient Escape 2 builds upon the original [Gradient Escape](https://showtime.f4.htw-berlin.de/ws25/master/m1-gradient-escape/), keeping its core goal of teaching gradient functions through an interactive journey in a mysterious forest. We want to integrate a competency model and an adaptive feedback system into the game, so it not only teaches the concept but tracks how well each player is understanding it. Gameplay and the UI are also reworked to fix issues from the original.
+{{<image src="assets/screen.png" alt="screen">}}
+Gradient Escape 2.0 builds upon the original [Gradient Escape](https://showtime.f4.htw-berlin.de/ws25/master/m1-gradient-escape/), keeping its core goal of teaching gradient functions through an interactive journey in a mysterious forest.
+
+Our focus is on didactic design: rather than simply presenting the correct concept, the game is structured to confront players with their own misconceptions about gradients through the level design itself. For example, many players see the gradient arrow and assume it shows them which direction to walk. In reality, the arrow shows the direction of steepest increase — it doesn't tell you where to go, only how the value changes. By running into this problem directly in the game, players are pushed to reconsider and correct their understanding.
+
+To support this, we added a competency model and an adaptive feedback system, so the game not only teaches the concept but also tracks how well each player understands it. Gameplay and the UI were also reworked to fix issues from the original.
 {{</section>}}
 
 {{<section title="The Team">}}
