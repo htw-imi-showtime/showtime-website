@@ -1,7 +1,7 @@
 +++
 project_id = "B2"
 title = "Körperliche Aktivität von Kindern:"
-subtitle = "Entwicklung einer Plattform/App"
+subtitle = "Bewegungsstunden einfach planen und auswerten"
 claim = "Mehr Bewegung. Weniger Planungsaufwand."
 abstract = "Die Plattform unterstützt Übungsleitungen bei der Vorbereitung, Durchführung und Nachbereitung von Bewegungsstunden. Leitungen erhalten zusätzlich Werkzeuge für Freigaben, Gruppenverwaltung und Qualitätsauswertung."
 
@@ -11,8 +11,8 @@ team = ["Atosa Shahparvari", "Sinem Reshat", "Nicole Kiunuhe", "Tim Steiner"]
 supervisor = "David Koschnick"
 draft = false
 
-source_link = "https://git.myhki.de/imi-bachelor-26/imi-kids-app-frontend"
-demo_link = ""
+source_link = ""
+demo_link = "https://fitkids.xu0.de/"
 website_link = ""
 
 tags = ["Webanwendung", "Bewegungsförderung", "Stundenplanung"]
@@ -35,7 +35,7 @@ Der Stundenplaner ist der Kern der Anwendung: Eine ganze Woche wird übersichtli
 {{<image src="01_stundenplan.webp" alt="Wochenansicht des Stundenplaners mit fünf geplanten Bewegungseinheiten" caption="Die geplante Woche auf einen Blick">}}
 
 {{<image src="02_stunde_strukturieren.webp" alt="Editor einer Bewegungseinheit mit Aufwärmen, Hauptteil und Abschluss" caption="Eine Einheit in drei Phasen strukturieren">}}
-{{<image src="05_einheit_protokollieren.webp" alt="Protokoll einer durchgeführten Einheit mit Kinderzahl, Notiz und Übungsbewertungen" caption="Durchführung dokumentieren und Übungen bewerten">}}
+{{<image src="05_einheit_protokollieren.webp" alt="Protokoll einer durchgeführten Einheit mit Gruppe, Kinderzahl und Notiz" caption="Durchführung direkt nach der Einheit dokumentieren">}}
 
 {{</section>}}
 
@@ -43,9 +43,9 @@ Der Stundenplaner ist der Kern der Anwendung: Eine ganze Woche wird übersichtli
 
 Der Übungskatalog verbindet bebilderte Bewegungsideen mit Materialien, Varianten und Praxishinweisen. Übungsleitungen können Erfahrungen kommentieren und bewerten.
 
-{{<image src="03_uebungskatalog_light.webp" alt="Bebilderter Übungskatalog im hellen Darstellungsmodus mit Filtern und Bewertungen" caption="Übungen im Light Mode schnell finden und direkt einplanen">}}
+{{<image src="03_uebungskatalog_light.webp" alt="Bebilderter Übungskatalog mit Filtern und Bewertungen" caption="Übungen schnell finden und direkt einplanen">}}
 
-{{<image src="04_bewertungen_kommentare_light.webp" alt="Bewertungen, Kommentare und Abstimmungen zu einer Übung im hellen Darstellungsmodus" caption="Praxiserfahrungen im Light Mode teilen">}}
+{{<image src="04_bewertungen_kommentare_light.webp" alt="Übungsdetail mit Beschreibung, Varianten, Materialien und Bewertung" caption="Übungsdetails und Bewertungen auf einen Blick">}}
 
 {{</section>}}
 
@@ -68,9 +68,3 @@ Die gesamte Plattform ist responsiv gestaltet und funktioniert auf Smartphone, T
 {{<image src="07_mobile_stundenplanung.jpg" alt="Responsive Smartphone-Ansicht des Stundenplaners mit ausgewählter Gruppe und geplanter Einheit" caption="Stundenplanung responsiv auf dem Smartphone">}}
 {{<image src="08_mobile_uebungskatalog.jpg" alt="Responsive Smartphone-Ansicht eines Übungsdetails mit Bild, Bewertung, Beschreibung, Variante und Materialien" caption="Übungsdetails responsiv auf dem Smartphone">}}
 {{</gallery>}}
-
-{{<section title="Team">}}
-
-Atosa Shahparvari, Sinem Reshat, Nicole Kiunuhe und Tim Steiner.
-
-{{</section>}}
