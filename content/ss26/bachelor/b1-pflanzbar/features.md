@@ -42,5 +42,4 @@ Zusätzlich kann Pflanzbar in die iOS-Kalender-App integriert werden. Dabei erst
 {{</section>}}
 
 
-{{<image src="features.jpg" alt="Übersicht über die wichtigsten Funktionen der Pflanzbar-App">}}
-*Abbildung 2: Übersicht über die wichtigsten Funktionen der Pflanzbar-App.*
+{{<image src="features.jpg" alt="Übersicht über die wichtigsten Funktionen der Pflanzbar-App" caption="Abbildung 2: Übersicht über die wichtigsten Funktionen der Pflanzbar-App">}}
