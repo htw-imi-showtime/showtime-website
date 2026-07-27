@@ -4,41 +4,43 @@ weight = 8
 draft = false
 +++
 
-{{<section title="Game Concept">}}
+{{<section title="Embodied AI & 3D Environment">}}
 
-The cooking simulation is set in a sustainable kitchen where players work with ingredients like algae, insects, and greenhouse grown crops. A cooking assistant supports players throughout the game. The setting describes a future shaped by resource scarcity, where sustainable food production has become essential. Players can prepare dishes like *Oi Naengguk* (chilled cucumber and seaweed soup), *Miyeok Muchim* (seasoned seaweed salad), and *Gamjajeon* (potato pancakes made with algae-based ingredients).
+**Gamified Collaboration & Delegation**  
+The prototype offers an interactive alternative to traditional educational apps by placing users in a 3D kitchen. Users can either engage in hands-on cooking by following dynamic recipes or delegate complex tasks to the AI virtual chef, creating a cooperative learning environment.
 
-{{</section>}}
+{{<mediathek id="b4fecb4cd2e1ff4d5708ea64fd5051d3">}}
 
-{{<section title="Features">}}
+**3D Spatial Awareness**  
+The AI assistant is not just a disembodied voice - it is a spatially aware entity within the Unity environment. The virtual chef understands the layout of the kitchen, knows the locations of ingredients and tools, and can actively guide users through the physical space.
 
-1. **Explore the kitchen**  
-   Players can freely navigate through the kitchen containing interactive workstations as well as cooking tools.
-
-2. **Interact with the AI assistant**  
-   Players can communicate with their AI assistant using either text or voice input. Voice commands are transcribed locally before being processed by the language model. The assistant provides information about food4future and the recipes.
-
-3. **Take customer orders**  
-   The player has the option to call in a customer who starts a dialogue with the assistant. During this conversation the language model generates the customer's personality, preferences, and responses in real time resulting in varied interactions and personalized recipe recommendations.
-
-5. **Cook with guided instructions**  
-   Once an order has been placed, a guided cooking session begins. Recipe steps are retrieved from a knowledge base using Retrieval-Augmented Generation (RAG) and displayed in a quest log as an interactive checklist. During this phase, the AI assistant limits its responses to information relevant to the currently selected recipe. After completing every step the meal can be served and the quest is done.
+{{<mediathek id="3cee8370c084917b78c5662517816ac1">}}
 
 {{</section>}}
 
-{{<section title="AI-Driven Systems">}}
+{{<section title="Intelligent Conversation Architecture">}}
 
-* **Dynamic NPC Conversations**  
-  Customer personalities, dialogue, and food preferences are generated in real time by a LLM, ensuring that each interaction is unique and not hardcoded.
+**End-to-End Voice Pipeline**  
+To enhance player immersion, the platform utilizes a complete audio processing pipeline. By integrating local Speech-to-Text (STT) and Text-to-Speech (TTS) models, users can communicate with the AI chef naturally via hands-free voice commands, receiving immediate, voiced responses.
 
+{{<mediathek id="f8139fb9a4f037dd2dd3ecc6e53d71a6">}}
 
-- **Retrieval-Augmented Cooking Assistant**  
-  Recipe instructions and cooking guidance are retrieved from a vector database, allowing the AI assistant to provide instructions based on stored recipe knowledge.
+**Contextual Memory Management**  
+The AI does not treat each input in isolation. Through advanced session management, the assistant retains a persistent conversation history. It remembers the current recipe state, previous user choices, and past questions, ensuring a continuous and coherent collaborative experience.
 
-* **Web Search Fallback**  
-  When players ask questions beyond the database knowledge, the assistant can retrieve information from the web to provide relevant answers.
+**Multi-Agent Dynamics**  
+The framework supports autonomous interactions beyond the player. The system features AI-to-AI communication, allowing virtual customers and the AI assistant to converse dynamically with one another, creating a lively and reactive virtual world.
 
-- **Local Speech Processing**  
-  Voice interaction is supported through local speech-to-text and text-to-speech systems, enabling spoken conversations with the assistant and customer NPCs without relying on cloud-based speech services.
+{{<mediathek id="d5353d02878ca2d723406e3262e55783">}}
+
+{{</section>}}
+
+{{<section title="Dynamic Knowledge & Retrieval">}}
+
+**Scientific & Culinary RAG Database**  
+To support fact-based, scientifically accurate dialogue, the AI is grounded by a local vector database. This Retrieval-Augmented Generation (RAG) pipeline is populated with both practical cooking recipes and scientific research from the food4future initiative, minimizing AI hallucination and enabling detailed science communication.
+
+**Live Web Search Fallback**  
+While the local RAG database provides verified scientific context, the system remains highly flexible. If a user asks a question outside the pre-loaded knowledge base, the AI assistant can autonomously trigger a live web search to retrieve and integrate up-to-date information into its response.
 
 {{</section>}}

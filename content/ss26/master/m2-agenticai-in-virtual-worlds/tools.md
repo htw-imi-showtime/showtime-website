@@ -3,61 +3,65 @@ title = "Tools"
 weight = 10
 draft = false
 +++
-{{<image src="project_images/techstack.png" alt="Tech Stack">}}
+{{<image src="project_images/techstack.jpg" alt="Tech stack overview by category">}}
 
 {{<section title="Concept, Design & Version Control">}}
 
 **[Miro](https://miro.com/)**  
-Used during the early project phase for collaborative brainstorming, user flow design, concept development, and documenting ideas and design decisions.
+Used for early brainstorming and concept development. Its infinite canvas was ideal for mapping out complex conversational user flows and documenting design decisions simultaneously.
 
 **[Mermaid](https://mermaid.js.org/)**  
-Used to create diagrams such as flowcharts, sequence diagrams, and system architecture directly from text-based syntax, making documentation easy to maintain.
-
-**[Hugging Face](https://huggingface.co/)**  
-Used to access and integrate pre-trained machine learning models, datasets, and AI tools for natural language processing and other machine learning tasks.
+Used to create system architectures and flowcharts directly from text-based syntax. This ensured our technical documentation was version-controllable and easily maintainable as the AI evolved.
 
 **[GitLab](https://about.gitlab.com/)**  
-Used for version control, collaboration, code reviews, issue tracking, and project management with separate frontend and backend repositories.
+Our primary platform for version control, code reviews, and issue tracking. It allowed the team to efficiently manage the separate workflows of the Unity frontend and Python backend.
+
+**[Discord](https://discord.com/)**  
+Our primary communication platform. It provided structured channels and video calls to ensure seamless daily collaboration and resource sharing between frontend and backend developers.
+
 
 {{</section>}}
 
 
 {{<section title="Frontend Development">}}
 
-**[Unity](https://unity.com/)**  
-The game engine used to develop the frontend, including gameplay mechanics, user interface, NPC interactions, and communication with the backend services.
+**[Unity 6](https://unity.com/)**  
+Selected for its advanced rendering pipelines and performance optimizations, enabling a high-quality 3D kitchen environment that remains smooth while handling background AI processes.
 
 **[C#](https://learn.microsoft.com/dotnet/csharp/)**  
-The primary programming language used for frontend development in Unity, implementing game logic, UI behavior and backend communication.
+The mandatory Unity scripting language. We heavily utilized its asynchronous features (async/await) to orchestrate non-blocking REST API calls, ensuring UI fluidity during real-time LLM communication.
 
 {{</section>}}
 
 {{<section title="Backend Web Server">}}
 
 **[FastAPI](https://fastapi.tiangolo.com/)**  
-Python web framework used to implement the REST API that connects Unity with the AI services, speech processing, and the recipe database.
+A high-performance Python web framework used to build the REST API connecting Unity to the AI services, chosen for its native asynchronous support.
 
 **[Uvicorn](https://uvicorn.dev/)**  
-ASGI web server used to run the FastAPI application, providing high-performance asynchronous request handling during development and deployment.
+A lightning-fast ASGI web server used to run FastAPI, ensuring the high-performance request handling required for real-time game interactions.
 
 **[Python](https://www.python.org/)**  
-Primary programming language used for implementing the backend logic including data handling.
+The industry-standard language for AI, providing the extensive ecosystem necessary to seamlessly integrate our LLMs, LangChain, and audio processing libraries.
 
 {{</section>}}
 
 {{<section title="AI Orchestration & Vector Database">}}
 **[ChromaDB](https://www.trychroma.com/)**  
-Vector database used for Retrieval-Augmented Generation (RAG). It stores recipe, ingredient, and cooking step embeddings, allowing the language model to retrieve knowledge instead of generating information.
+An open-source vector database powering our RAG pipeline. It stores embeddings for recipes, kitchen details, and F4F research, allowing the LLM to retrieve verified context and minimize hallucinations.
 
 **[Groq Cloud](https://console.groq.com/)**  
-Provides access to the **Llama 3.1 8B Instant** language model used for NPC conversations. Chosen for its low inference latency, enabling responsive real-time dialogue.
+Provides specialized hardware acceleration for AI inference. We used it to access Llama 3.1 8B Instant, minimizing latency for responsive, real-time voice dialogue.
 
 **[LangChain](https://www.langchain.com/)**  
-Framework used to orchestrate prompts, manage conversation flows, integrate retrieval, and maintain session-based memory for the cooking assistant.
+A framework used to orchestrate prompts, integrate our retrieval database, and manage session memory so the AI remembers project context and recipe steps.
 
 **[Faster-Whisper](https://github.com/SYSTRAN/faster-whisper)**  
-Speech-to-text framework based on Whisper. It enables local transcription of player voice input, allowing natural spoken conversations with NPCs.
+An optimized reimplementation of OpenAI's Whisper, enabling fast, accurate, local transcription of player voice input for hands-free conversations.
 
 **[Piper](https://github.com/rhasspy/piper)**  
-Text-to-speech model used to generate NPC voices locally. Different predefined voices are assigned to characters to create distinct personalities while avoiding latency and API costs.
+A fast, local text-to-speech engine. By utilizing its diverse predefined voices, we enabled dynamic character randomization in Unity while avoiding cloud API latency and costs.
+
+**[Hugging Face](https://huggingface.co/)**  
+A central hub for machine learning used to source and deploy the specialized pre-trained models required for our audio processing pipeline.
 {{</section>}}
