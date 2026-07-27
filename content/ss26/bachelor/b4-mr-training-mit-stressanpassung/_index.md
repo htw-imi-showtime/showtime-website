@@ -6,7 +6,7 @@ title = "Virtual Reality Training"
 
 # subtitle erscheint auf Übersichtsseite und Projektseite direkt unter dem Titel.
 # kurzer 2. titel, der klar über den Inhalt des Projektes informiert
-subtitle = "With real-time adaptive stress"
+subtitle = "With real-time stress adaptation"
 
 # der claim oder auch teaser erscheint auf Übersichtsseite und Projektseite nach Titel und Subtitle
 claim = "Your state decides how the mission unfolds."
@@ -27,7 +27,7 @@ draft = false
 
 
 # e.g. github
-source_link = "https://code.fki.htw-berlin.de/cm/studierendenprojekte/bp-ss26-b4-mr-training-mit-stressanpassung.git"
+source_link = ""
 # link to a demo site / where your project is available.
 # it's ok if it's temporary / just for the showtime, 
 # just send a pr when you take the demo site down.
@@ -53,9 +53,10 @@ A space station is damaged after an asteroid impact. Important systems stop work
 
 
 {{<section title="Gameplay">}}
-The player explores a damaged space station in VR and completes different repair tasks such as connecting cables, solving riddles and restoring navigation. While doing this, the player moves through a dangerous environment with limited oxygen and constant time pressure. Extra tasks can appear during the mission, so the player has to quickly decide what to focus on while everything feels unstable.
+The player explores a damaged space station in VR and completes different repair tasks such as connecting cables, solving riddles and restoring the station's energy system. While doing this, the player moves through a dangerous environment with limited oxygen and constant time pressure. Extra tasks can appear during the mission, so the player has to quickly decide what to focus on while everything feels unstable.
 {{</section>}}
-{{<image src="riddle.jpg" alt="Close-up showing several puzzles." caption="Close-up of the puzzle area">}}
+
+{{<mediathek id="e6209fd5498880a71dea27d4215726a4" title="Gameplay Demo">}}
 
 {{<section title="Adaptive Stress System">}}
 The experience changes while the player is playing. A sensor called EmotiBit is used to track the player's vital body signals and provides information about the player's current state. The recorded data is sent to the Serrala-KI-Server, where it is analyzed. The analyzed data is then sent to the Administration Panel. Based on this data, the Administration Panel determines the player's physical, emotional and cognitive stress levels and sends them to Unity.
