@@ -46,26 +46,17 @@ Die Seite kann auf Englisch oder Deutsch sein. Aber bitte weder AI-generiertes b
 
 ## Problem
 
-Der Alltag vieler Menschen ist heute von langen Sitzphasen geprägt – im Büro, im Homeoffice oder an der Universität. Dadurch nimmt die tägliche körperliche Aktivität kontinuierlich ab, obwohl regelmäßige Bewegung entscheidend für Gesundheit und Wohlbefinden ist.
+Der Alltag vieler Menschen ist heute von langen Sitzphasen geprägt – im Büro, im Homeoffice oder an der Universität. Langes Sitzen gilt dabei unabhängig vom Ausmaß der körperlichen Aktivität als eigenständiger Risikofaktor für die Gesundheit. Dennoch fällt es vielen Menschen schwer, regelmäßige Bewegung in ihren Alltag zu integrieren.
 
-
-Viele Menschen verfügen im Alltag weder über ausreichend Zeit noch Motivation für längere Trainingseinheiten. Gleichzeitig zeigen Studien, dass bereits kurze, intensive Bewegungseinheiten positive gesundheitliche Effekte erzielen können ([Islam et al., 2022](https://www.researchgate.net/publication/371506259_Strengths_and_Weaknesses_of_3D_Pose_Estimation_and_Inertial_Motion_Capture_System_for_Movement_Therapy)). Genau hier setzt SnackFarm an.
-
-
+Studien zeigen, dass bereits sehr kurze, intensive Bewegungseinheiten von weniger als fünf Minuten (sogenannte *Exercise Snacks*) positive gesundheitliche Effekte erzielen können und sich besonders gut in den Alltag integrieren lassen ([Islam et al., 2022](https://www.researchgate.net/publication/371506259_Strengths_and_Weaknesses_of_3D_Pose_Estimation_and_Inertial_Motion_Capture_System_for_Movement_Therapy)). Genau hier setzt SnackFarm an.
 
 
 
 ## Ziel
 
-SnackFarm ist kein klassisches Fitnessprogramm, sondern ein Exergame, das körperliche Aktivität durch spielerische Herausforderungen fördert.
 
-Der Fokus liegt auf:
-Spaß statt Training, Motivation durch Spielmechaniken, Belohnungen und Fortschritt, kurzen, intensiven Spielrunden,
-nachhaltiger Integration von körperlicher Aktivität in den Alltag.
-
-Die Nutzer und Nutzerinnen sollen das Gefühl haben, ein Videospiel zu spielen – nicht, Fitnessübungen auszuführen.
-
-
+SnackFarm ist ein Exergame, das das Konzept der *Exercise Snacks* mit spielerischen Elementen verbindet. Ziel ist es, lange Sitzzeiten regelmäßig zu unterbrechen und Nutzerinnen und Nutzer durch kurze, intensive Bewegungsphasen zu mehr körperlicher Aktivität im Alltag zu motivieren.
+Der Fokus von SnackFarm liegt auf motivierenden Spielmechaniken, und sichtbarem Fortschritt. Kurze, intensive Spielrunden von weniger als fünf Minuten ermöglichen es, lange Sitzzeiten zu unterbrechen und körperliche Aktivität unkompliziert in den Alltag zu integrieren. Dabei steht eine motivierende und spielerische Nutzererfahrung im Vordergrund.
 
 
 ## Anforderungen
@@ -98,7 +89,7 @@ Oft enthält die Zielsetzung schon die Lösungsidee - dies könnte aber ein eige
 
 {{<section title="Team">}}
 
-Die wissenschaftliche Basis unseres Projekts wurde von dem Sportwissenschaftler **Sascha Ketelhut** gelegt, der uns während des gesamten Projekts fachlich begleitet hat. Er unterstützte uns bei der Auswahl der zu trackenden Übungen und stellte uns wissenschaftliche Literatur zu den Themen [GameFlow](https://dl.acm.org/doi/10.1145/1077246.1077253), [kardiometabolischen Gesundheit](https://www.researchgate.net/publication/355462362_Exercise_Snacks_A_Novel_Strategy_to_Improve_Cardiometabolic_Health), und  [intermittierende körperliche Aktivität](https://link.springer.com/article/10.1007/s40279-023-01983-1) als fachliche Grundlage zur Verfügung.
+Die wissenschaftliche Basis unseres Projekts wurde von dem Sportwissenschaftler **PD Dr. Sascha Ketelhut** gelegt, der uns während des gesamten Projekts fachlich begleitet hat. Er unterstützte uns bei der Auswahl der zu trackenden Übungen und stellte uns wissenschaftliche Literatur zu den Themen [GameFlow](https://dl.acm.org/doi/10.1145/1077246.1077253), [kardiometabolische Gesundheit](https://www.researchgate.net/publication/355462362_Exercise_Snacks_A_Novel_Strategy_to_Improve_Cardiometabolic_Health) und  [intermittierende körperliche Aktivität](https://link.springer.com/article/10.1007/s40279-023-01983-1) als fachliche Grundlage zur Verfügung.
 
 
 
