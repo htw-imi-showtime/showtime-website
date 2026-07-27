@@ -37,7 +37,7 @@ website_link = ""
 
 {{<section title="Unsere Motivation">}}
 
-Wer kennt das Problem nicht? Man hat sich erst eine neue Pflanze gekauft oder von einer Freund\*in geschenkt bekommen, aber man selbst vergisst oft, zu gießen oder sich rechtzeitig über die Pflanzenart zu informieren. Uns liegen Nachhaltigkeit und die Natur sehr am Herzen. Deswegen dachten wir bauen wir doch eine App, die dazu passt!
+Wer kennt das Problem nicht? Man hat sich erst eine neue Pflanze gekauft oder von einer Freund\*in geschenkt bekommen, aber man selbst vergisst oft, zu gießen oder sich rechtzeitig über die Pflanzenart zu informieren. Uns liegen Nachhaltigkeit und die Natur sehr am Herzen. Deswegen dachten wir: Bauen wir doch eine App, die dazu passt!
 
 * **Ziel**
 
@@ -49,7 +49,7 @@ Ziel von der iOS-App ist, die Pflanzenpflege leicht zu gestalten. Wir möchten N
 
 Wir hatten anfangs eine Idee: eine intuitive und kostenlose Pflanzen-App. Dabei wurde uns klar, dass hinter einer scheinbar einfachen Idee viele Entscheidungen stecken. Diese wären von User Interface über das Design bis zur technischen Umsetzung.
 
-Am Anfang widmeten wir uns mit den Best Practices der iOS-Entwicklung. Zeitgleich setzten wir früh Prioritäten in unserer Organisation. Dazu entwickelten wir zuerst einen Plan der grundlegenden Funktionen und bauten zusammen die ersten Mockups. Extra Funktionen, wie beispielsweise Widgets, stellten wir absichtlich zurück. Durch diese Vorgehensweise hatten wir einen besseren Überblick und konnten unser Projekt zeitnah umsetzen.
+Am Anfang widmeten wir uns den Best Practices der iOS-Entwicklung. Zeitgleich setzten wir früh Prioritäten in unserer Organisation. Dazu entwickelten wir zuerst einen Plan der grundlegenden Funktionen und bauten zusammen die ersten Mockups. Extra Funktionen, wie beispielsweise Widgets, stellten wir absichtlich zurück. Durch diese Vorgehensweise hatten wir einen besseren Überblick und konnten unser Projekt zeitnah umsetzen.
 
 * **Herausforderungen**
 

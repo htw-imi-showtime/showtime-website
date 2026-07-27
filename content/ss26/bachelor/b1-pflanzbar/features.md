@@ -23,17 +23,17 @@ Ist die Pflanze erkannt, erhalten die Anwender\*innen einen Überblick über die
 
 + **Startseite**
 
-Durch individuelle Erinnerungen kann die Pflanzenpflege problemlos in den Alltag integriert werden. Auf der Startseite der App werden die anstehenden Aufgaben und das aktuelle Wetter angezeigt. Parallel sehen die User\*innen, die Anzahl der Pflanzen, die zurzeit Aufmerksamkeit und Pflege benötigen. Durch diese Funktion wird die Einhaltung wichtiger Pflegeintervalle erleichtert.
+Durch individuelle Erinnerungen kann die Pflanzenpflege problemlos in den Alltag integriert werden. Auf der Startseite der App werden die anstehenden Aufgaben und das aktuelle Wetter angezeigt. Parallel sehen die User\*innen die Anzahl der Pflanzen, die zurzeit Aufmerksamkeit und Pflege benötigen. Durch diese Funktion wird die Einhaltung wichtiger Pflegeintervalle erleichtert.
 
 + **Entdecken-Seite**
 
-Im Abschnitt „Entdecken“ von Pflanzbar können die Anwender\*innen sich zusätzliches Wissen zu verschiedenen Pflanzen aneignen. Dort erhalten sie neben Pflegetipps und Grundlagenwissen, auch Informationen zu häufigen Pflegefehlern und Mythen rund um verschiedene Pflanzenkategorien. Informationen, die für die User\*innen von besonderem Interesse sind, können durch die entsprechende Funktion gespeichert werden, sodass zu einem späteren Zeitpunkt ein schnelles Abrufen möglich ist.
+Im Abschnitt „Entdecken“ von Pflanzbar können die Anwender\*innen sich zusätzliches Wissen zu verschiedenen Pflanzen aneignen. Dort erhalten sie neben Pflegetipps und Grundlagenwissen auch Informationen zu häufigen Pflegefehlern und Mythen rund um verschiedene Pflanzenkategorien. Informationen, die für die User\*innen von besonderem Interesse sind, können durch die entsprechende Funktion gespeichert werden, sodass zu einem späteren Zeitpunkt ein schnelles Abrufen möglich ist.
 
 + **Export der Pflanzensammlung mittels JSON- & PDF-Datei**
 
 Hinzu gibt es die Möglichkeit die Pflanzensammlung als JSON- oder PDF-Datei zu exportieren. Auf diese Weise können Pflanzendaten einfach mit Bekannten geteilt werden.
 
-Mögliches Szenario: Sie wollen verreisen und eine Bekannte oder ein Bekannter übernimmt Ihre Pflanzen. Wir entwickelten eine passende Funktion hierfür: Sie klicken auf Export ihrer Pflanzensammlung und versenden diese als JSON-Datei weiter. Der Empfänger kann die JSON-Datei herunterladen und anschließend in ihrer eigenen Pflanzbar-App importieren. Somit können Bekannte in Ihrer Abwesenheit sich gewissenhaft um Ihre Pflanzen kümmern. Ebenfalls können Sie den Pflanzenbestand als PDF-Datei exportieren. Diese Gesamtschau kann gespeichert, versendet oder ausgedruckt werden.
+Mögliches Szenario: Sie wollen verreisen und eine Bekannte oder ein Bekannter übernimmt Ihre Pflanzen. Wir entwickelten eine passende Funktion hierfür: Sie klicken auf Export Ihrer Pflanzensammlung und versenden diese als JSON-Datei weiter. Der Empfänger kann die JSON-Datei herunterladen und anschließend in Ihrer eigenen Pflanzbar-App importieren. Somit können Bekannte in Ihrer Abwesenheit sich gewissenhaft um Ihre Pflanzen kümmern. Ebenfalls können Sie den Pflanzenbestand als PDF-Datei exportieren. Diese Gesamtschau kann gespeichert, versendet oder ausgedruckt werden.
 
 + **Kalenderintegration**
 
