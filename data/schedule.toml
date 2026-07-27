@@ -47,22 +47,18 @@ project_id = "M2"
 
 [[slot]]
 time = "10:54"
-project_id = "M2"
-
-[[slot]]
-time = "11:01"
 project_id = "M3"
 
 [[slot]]
-time = "11:08"
+time = "11:01"
 project_id = "M4"
 
 [[slot]]
-time = "11:15"
+time = "11:08"
 project_id = "M5"
 
 [[slot]]
-time = "11:25"
+time = "11:20"
 title = "Lunch Break"
 class = "general"
 
