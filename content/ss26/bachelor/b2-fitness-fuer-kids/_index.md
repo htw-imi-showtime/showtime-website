@@ -45,7 +45,7 @@ Der Übungskatalog verbindet bebilderte Bewegungsideen mit Materialien, Variante
 
 {{<image src="03_uebungskatalog_light.webp" alt="Bebilderter Übungskatalog mit Filtern und Bewertungen" caption="Übungen schnell finden und direkt einplanen">}}
 
-{{<image src="04_bewertungen_kommentare_light.webp" alt="Übungsdetail mit Beschreibung, Varianten, Materialien und Bewertung" caption="Übungsdetails und Bewertungen auf einen Blick">}}
+{{<image src="04_uebungsdetail_mit_bild.webp" alt="Übungsdetail mit Foto, Beschreibung, Materialien und Bewertung" caption="Übungsdetails mit echtem Praxisbild auf einen Blick">}}
 
 {{</section>}}
 
@@ -67,4 +67,17 @@ Die gesamte Plattform ist responsiv gestaltet und funktioniert auf Smartphone, T
 {{<gallery>}}
 {{<image src="07_mobile_stundenplanung.jpg" alt="Responsive Smartphone-Ansicht des Stundenplaners mit ausgewählter Gruppe und geplanter Einheit" caption="Stundenplanung responsiv auf dem Smartphone">}}
 {{<image src="08_mobile_uebungskatalog.jpg" alt="Responsive Smartphone-Ansicht eines Übungsdetails mit Bild, Bewertung, Beschreibung, Variante und Materialien" caption="Übungsdetails responsiv auf dem Smartphone">}}
+{{</gallery>}}
+
+{{<section title="Das Team">}}
+
+Hinter der Plattform steht unser vierköpfiges Projektteam.
+
+{{</section>}}
+
+{{<gallery>}}
+{{<team-member image="atosa.webp" name="Atosa Shahparvari">}}
+{{<team-member image="sinem.webp" name="Sinem Reshat">}}
+{{<team-member image="nicole.webp" name="Nicole Kiunuhe">}}
+{{<team-member image="tim.webp" name="Tim Steiner">}}
 {{</gallery>}}
