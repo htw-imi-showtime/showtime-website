@@ -58,6 +58,16 @@ Leitungen prüfen neue Übungsvorschläge, bearbeiten Inhalte und behalten die Q
 
 {{</section>}}
 
+{{<section title="Technische Umsetzung">}}
+
+**Frontend:** Nuxt 4 und Vue 3 bilden die installierbare Web-App. Tailwind CSS sorgt für die responsive Oberfläche, Pinia verwaltet den Anwendungszustand.
+
+**Backend:** Django 4.2 und Django REST Framework stellen die REST-API für Nutzer:innen, Übungen, Gruppen, Planung und Auswertung bereit.
+
+**Daten und Betrieb:** PostgreSQL speichert die Anwendungsdaten. Die Anmeldung nutzt JWT in geschützten HttpOnly-Cookies; nginx und Gunicorn liefern die Anwendung im Produktivbetrieb aus.
+
+{{</section>}}
+
 {{<section title="Auf jedem Gerät einsatzbereit">}}
 
 Die gesamte Plattform ist responsiv gestaltet und funktioniert auf Smartphone, Tablet, Laptop und Desktop. Übungsleitungen und Leitungen können dadurch alle zentralen Funktionen – von der Stundenplanung und dem Übungskatalog bis zu Bewertungen, Dokumentation und Verwaltung – unabhängig vom verwendeten Gerät nutzen. Die Oberfläche steht dabei sowohl im hellen als auch im dunklen Modus zur Verfügung.
