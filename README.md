@@ -1,5 +1,6 @@
 # IMI Showtime Website
-The official IMI showtime [Website: https://showtime.f4.htw-berlin.de/](https://showtime.f4.htw-berlin.de/)
+
+This is the source code repo for the IMI([Bachelor](https://imi-bachelor.htw-berlin.de/) / [Master](https://imi-master.htw-berlin.de)) [Showtime](https://imi-bachelor.htw-berlin.de/showtime) Website.
 
 ## Builds & Deployments
 

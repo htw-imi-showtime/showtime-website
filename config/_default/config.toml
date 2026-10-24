@@ -6,8 +6,8 @@ enableGitInfo = true
 
 [params]
     current_semester = "ss26"
-    production_site = "https://showtime.f4.htw-berlin.de/"
-    archive_path = "ws24"
+    production_site = "https://htw-imi-showtime.github.io/"
+    archive_path = "ss26"
     debug = true
     preview_message = "Preview Site!"
     preview_url = ""
