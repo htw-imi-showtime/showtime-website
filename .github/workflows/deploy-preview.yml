@@ -2,7 +2,7 @@ name: preview
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, prod_to_gh ]
 
   workflow_dispatch:
 
